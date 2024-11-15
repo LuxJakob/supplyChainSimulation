@@ -1,22 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Xml.Linq;
 
 namespace supplyChainSimulation
 {
-    public partial class Form1 : Form
+    public partial class Upload : Form
     {
-        public Form1()
+        public Upload()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void p1_desc_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void p1_uploadXML_Click(object sender, EventArgs e)
