@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace supplyChainSimulation
 {
-    public partial class LieferProduktionsProgramm : Form
+    public partial class CapacityPlanning : Form
     {
-        public LieferProduktionsProgramm()
+        public CapacityPlanning()
         {
             InitializeComponent();
         }

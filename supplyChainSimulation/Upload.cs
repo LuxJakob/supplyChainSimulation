@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using static System.Windows.Forms.DataFormats;
 
 namespace supplyChainSimulation
 {
@@ -44,7 +45,7 @@ namespace supplyChainSimulation
                         // Validation successful
                         MessageBox.Show("XML file is valid and loaded successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        // Proceed with further processing if necessary
+                        switchToLieferProdProg.Enabled = true;
                     }
                     else
                     {
@@ -57,6 +58,12 @@ namespace supplyChainSimulation
                     MessageBox.Show($"Error loading XML file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void switchToLieferProdProg_Click(object sender, EventArgs e)
+        {
+            MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
+            mainOrchestrator.ShowForm(new SalesProduction());
         }
     }
 }

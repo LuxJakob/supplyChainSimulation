@@ -1,6 +1,6 @@
 ﻿namespace supplyChainSimulation
 {
-    partial class Upload
+    partial class MaterialPlanning
     {
         /// <summary>
         /// Required designer variable.
@@ -28,60 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            p1_desc = new Label();
-            p1_uploadXML = new Button();
             switchToLieferProdProg = new Button();
             SuspendLayout();
             // 
-            // p1_desc
-            // 
-            p1_desc.AutoSize = true;
-            p1_desc.Location = new Point(304, 249);
-            p1_desc.Name = "p1_desc";
-            p1_desc.Size = new Size(179, 15);
-            p1_desc.TabIndex = 2;
-            p1_desc.Text = "Please upload your last result file";
-            // 
-            // p1_uploadXML
-            // 
-            p1_uploadXML.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            p1_uploadXML.Location = new Point(328, 303);
-            p1_uploadXML.Name = "p1_uploadXML";
-            p1_uploadXML.Size = new Size(129, 35);
-            p1_uploadXML.TabIndex = 3;
-            p1_uploadXML.Text = "Upload XML file";
-            p1_uploadXML.UseVisualStyleBackColor = true;
-            p1_uploadXML.Click += p1_uploadXML_Click;
-            // 
             // switchToLieferProdProg
             // 
-            switchToLieferProdProg.Enabled = false;
-            switchToLieferProdProg.Location = new Point(713, 415);
+            switchToLieferProdProg.Location = new Point(12, 415);
             switchToLieferProdProg.Name = "switchToLieferProdProg";
             switchToLieferProdProg.Size = new Size(75, 23);
-            switchToLieferProdProg.TabIndex = 4;
-            switchToLieferProdProg.Text = "Next";
+            switchToLieferProdProg.TabIndex = 5;
+            switchToLieferProdProg.Text = "Back";
             switchToLieferProdProg.UseVisualStyleBackColor = true;
             switchToLieferProdProg.Click += switchToLieferProdProg_Click;
             // 
-            // Upload
+            // MaterialPlanning
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(switchToLieferProdProg);
-            Controls.Add(p1_uploadXML);
-            Controls.Add(p1_desc);
-            Name = "Upload";
-            Text = "Supply Chain Simulator";
+            Name = "MaterialPlanning";
+            Text = "MaterialPlanning";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label p1_desc;
-        private Button p1_uploadXML;
         private Button switchToLieferProdProg;
     }
 }
