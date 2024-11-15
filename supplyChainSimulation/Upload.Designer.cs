@@ -35,6 +35,7 @@
             // 
             // p1_desc
             // 
+            p1_desc.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             p1_desc.AutoSize = true;
             p1_desc.Location = new Point(304, 249);
             p1_desc.Name = "p1_desc";
@@ -44,7 +45,7 @@
             // 
             // p1_uploadXML
             // 
-            p1_uploadXML.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            p1_uploadXML.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             p1_uploadXML.Location = new Point(328, 303);
             p1_uploadXML.Name = "p1_uploadXML";
             p1_uploadXML.Size = new Size(129, 35);
@@ -55,6 +56,7 @@
             // 
             // switchToLieferProdProg
             // 
+            switchToLieferProdProg.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             switchToLieferProdProg.Enabled = false;
             switchToLieferProdProg.Location = new Point(713, 415);
             switchToLieferProdProg.Name = "switchToLieferProdProg";
@@ -73,7 +75,8 @@
             Controls.Add(p1_uploadXML);
             Controls.Add(p1_desc);
             Name = "Upload";
-            Text = "Supply Chain Simulator";
+            Text = "Supply Chain Simulator - Upload";
+            Load += Upload_Load;
             ResumeLayout(false);
             PerformLayout();
         }

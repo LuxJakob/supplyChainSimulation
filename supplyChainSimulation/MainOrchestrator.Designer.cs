@@ -36,7 +36,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Name = "MainOrchestrator";
-            Text = "MainOrchestrator";
+            Text = "Supply Chain Simulator";
             Load += MainOrchestrator_Load;
             ResumeLayout(false);
         }

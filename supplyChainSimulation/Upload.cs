@@ -33,10 +33,10 @@ namespace supplyChainSimulation
 
                 try
                 {
-                    XDocument xmlDoc = XDocument.Load(filePath);
+                    SharedData.XML_doc = XDocument.Load(filePath);
 
                     // Validate that it contains a <results> element with required attributes
-                    XElement resultsElement = xmlDoc.Element("results");
+                    XElement resultsElement = SharedData.XML_doc.Element("results");
                     if (resultsElement != null &&
                         resultsElement.Attribute("game") != null &&
                         resultsElement.Attribute("group") != null &&
@@ -64,6 +64,11 @@ namespace supplyChainSimulation
         {
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
             mainOrchestrator.ShowForm(new SalesProduction());
+        }
+
+        private void Upload_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
