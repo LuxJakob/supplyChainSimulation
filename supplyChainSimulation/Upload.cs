@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.DirectoryServices.ActiveDirectory;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using static System.Windows.Forms.DataFormats;
+using static supplyChainSimulation.SharedData;
 
 namespace supplyChainSimulation
 {
@@ -33,18 +35,18 @@ namespace supplyChainSimulation
 
                 try
                 {
-                    SharedData.XML_doc = XDocument.Load(filePath);
+                    XML_doc = XDocument.Load(filePath);
 
                     // Validate that it contains a <results> element with required attributes
-                    XElement resultsElement = SharedData.XML_doc.Element("results");
-                    if (resultsElement != null &&
-                        resultsElement.Attribute("game") != null &&
-                        resultsElement.Attribute("group") != null &&
-                        resultsElement.Attribute("period") != null)
+                    rootElement = XML_doc.Element("results");
+                    if (rootElement != null &&
+                        rootElement.Attribute("game") != null &&
+                        rootElement.Attribute("group") != null &&
+                        rootElement.Attribute("period") != null)
                     {
                         // Validation successful
                         MessageBox.Show("XML file is valid and loaded successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                        current_period = int.TryParse(rootElement.Attribute("period")?.Value, out int XValue) ? XValue : 0;
                         switchToLieferProdProg.Enabled = true;
                     }
                     else

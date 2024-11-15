@@ -9,8 +9,17 @@ namespace supplyChainSimulation
 {
     internal class SharedData
     {
-        public static int AnotherSharedVariable { get; set; }
-
         public static XDocument XML_doc { get; set; }
+        public static XElement rootElement;
+
+        // Upload variables
+
+        public static int current_period;
+
+        // SalesProduction variables
+        public static List<int> forecast0 = new List<int>() { 0, 0, 0, 0 };
+        public static List<int> forecast1 = new List<int>() { 0, 0, 0, 0 };
+        public static List<int> forecast2 = new List<int>() { 0, 0, 0, 0 };
+        public static List<int> forecast3 = new List<int>() { 0, 0, 0, 0 };
     }
 }
