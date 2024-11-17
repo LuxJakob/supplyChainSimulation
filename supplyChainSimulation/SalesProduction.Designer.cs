@@ -185,42 +185,46 @@
             // 
             // SalesXP1
             // 
-            SalesXP1.Anchor = AnchorStyles.Top;
+            SalesXP1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP1.AutoSize = true;
             SalesXP1.Font = new Font("Segoe UI", 12F);
-            SalesXP1.Location = new Point(50, 100);
+            SalesXP1.Location = new Point(3, 114);
             SalesXP1.Name = "SalesXP1";
-            SalesXP1.Size = new Size(19, 21);
+            SalesXP1.Size = new Size(114, 21);
             SalesXP1.TabIndex = 8;
             SalesXP1.Text = "X";
+            SalesXP1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SalesXP3
             // 
-            SalesXP3.Anchor = AnchorStyles.Top;
+            SalesXP3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP3.AutoSize = true;
             SalesXP3.Font = new Font("Segoe UI", 12F);
-            SalesXP3.Location = new Point(50, 200);
+            SalesXP3.Location = new Point(3, 214);
             SalesXP3.Name = "SalesXP3";
-            SalesXP3.Size = new Size(19, 21);
+            SalesXP3.Size = new Size(114, 21);
             SalesXP3.TabIndex = 10;
             SalesXP3.Text = "X";
+            SalesXP3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SalesXP2
             // 
-            SalesXP2.Anchor = AnchorStyles.Top;
+            SalesXP2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP2.AutoSize = true;
             SalesXP2.Font = new Font("Segoe UI", 12F);
-            SalesXP2.Location = new Point(50, 150);
+            SalesXP2.Location = new Point(3, 164);
             SalesXP2.Name = "SalesXP2";
-            SalesXP2.Size = new Size(19, 21);
+            SalesXP2.Size = new Size(114, 21);
             SalesXP2.TabIndex = 11;
             SalesXP2.Text = "X";
+            SalesXP2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // SalesXP1_1
             // 
-            SalesXP1_1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            SalesXP1_1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP1_1.Font = new Font("Segoe UI", 12F);
-            SalesXP1_1.Location = new Point(163, 103);
+            SalesXP1_1.Location = new Point(163, 110);
+            SalesXP1_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             SalesXP1_1.Name = "SalesXP1_1";
             SalesXP1_1.Size = new Size(114, 29);
             SalesXP1_1.TabIndex = 13;
@@ -228,9 +232,10 @@
             // 
             // SalesXP2_1
             // 
-            SalesXP2_1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            SalesXP2_1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP2_1.Font = new Font("Segoe UI", 12F);
-            SalesXP2_1.Location = new Point(163, 153);
+            SalesXP2_1.Location = new Point(163, 160);
+            SalesXP2_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             SalesXP2_1.Name = "SalesXP2_1";
             SalesXP2_1.Size = new Size(114, 29);
             SalesXP2_1.TabIndex = 14;
@@ -238,9 +243,10 @@
             // 
             // SalesXP3_1
             // 
-            SalesXP3_1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            SalesXP3_1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP3_1.Font = new Font("Segoe UI", 12F);
-            SalesXP3_1.Location = new Point(163, 203);
+            SalesXP3_1.Location = new Point(163, 210);
+            SalesXP3_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             SalesXP3_1.Name = "SalesXP3_1";
             SalesXP3_1.Size = new Size(114, 29);
             SalesXP3_1.TabIndex = 15;
@@ -248,9 +254,10 @@
             // 
             // SalesXP3_2
             // 
-            SalesXP3_2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            SalesXP3_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP3_2.Font = new Font("Segoe UI", 12F);
-            SalesXP3_2.Location = new Point(323, 203);
+            SalesXP3_2.Location = new Point(323, 210);
+            SalesXP3_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             SalesXP3_2.Name = "SalesXP3_2";
             SalesXP3_2.Size = new Size(114, 29);
             SalesXP3_2.TabIndex = 18;
@@ -258,9 +265,10 @@
             // 
             // SalesXP2_2
             // 
-            SalesXP2_2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            SalesXP2_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP2_2.Font = new Font("Segoe UI", 12F);
-            SalesXP2_2.Location = new Point(323, 153);
+            SalesXP2_2.Location = new Point(323, 160);
+            SalesXP2_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             SalesXP2_2.Name = "SalesXP2_2";
             SalesXP2_2.Size = new Size(114, 29);
             SalesXP2_2.TabIndex = 17;
@@ -268,9 +276,10 @@
             // 
             // SalesXP1_2
             // 
-            SalesXP1_2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            SalesXP1_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP1_2.Font = new Font("Segoe UI", 12F);
-            SalesXP1_2.Location = new Point(323, 103);
+            SalesXP1_2.Location = new Point(323, 110);
+            SalesXP1_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             SalesXP1_2.Name = "SalesXP1_2";
             SalesXP1_2.Size = new Size(114, 29);
             SalesXP1_2.TabIndex = 16;
@@ -278,9 +287,10 @@
             // 
             // SalesXP3_3
             // 
-            SalesXP3_3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            SalesXP3_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP3_3.Font = new Font("Segoe UI", 12F);
-            SalesXP3_3.Location = new Point(483, 203);
+            SalesXP3_3.Location = new Point(483, 210);
+            SalesXP3_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             SalesXP3_3.Name = "SalesXP3_3";
             SalesXP3_3.Size = new Size(114, 29);
             SalesXP3_3.TabIndex = 21;
@@ -288,9 +298,10 @@
             // 
             // SalesXP2_3
             // 
-            SalesXP2_3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            SalesXP2_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP2_3.Font = new Font("Segoe UI", 12F);
-            SalesXP2_3.Location = new Point(483, 153);
+            SalesXP2_3.Location = new Point(483, 160);
+            SalesXP2_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             SalesXP2_3.Name = "SalesXP2_3";
             SalesXP2_3.Size = new Size(114, 29);
             SalesXP2_3.TabIndex = 20;
@@ -298,9 +309,10 @@
             // 
             // SalesXP1_3
             // 
-            SalesXP1_3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            SalesXP1_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             SalesXP1_3.Font = new Font("Segoe UI", 12F);
-            SalesXP1_3.Location = new Point(483, 103);
+            SalesXP1_3.Location = new Point(483, 110);
+            SalesXP1_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             SalesXP1_3.Name = "SalesXP1_3";
             SalesXP1_3.Size = new Size(114, 29);
             SalesXP1_3.TabIndex = 19;
@@ -374,9 +386,10 @@
             // 
             // ProdXP3_1
             // 
-            ProdXP3_1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP3_1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP3_1.Font = new Font("Segoe UI", 12F);
-            ProdXP3_1.Location = new Point(163, 203);
+            ProdXP3_1.Location = new Point(163, 210);
+            ProdXP3_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP3_1.Name = "ProdXP3_1";
             ProdXP3_1.Size = new Size(114, 29);
             ProdXP3_1.TabIndex = 31;
@@ -384,9 +397,10 @@
             // 
             // ProdXP2_1
             // 
-            ProdXP2_1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP2_1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP2_1.Font = new Font("Segoe UI", 12F);
-            ProdXP2_1.Location = new Point(163, 153);
+            ProdXP2_1.Location = new Point(163, 160);
+            ProdXP2_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP2_1.Name = "ProdXP2_1";
             ProdXP2_1.Size = new Size(114, 29);
             ProdXP2_1.TabIndex = 30;
@@ -394,9 +408,10 @@
             // 
             // ProdXP1_1
             // 
-            ProdXP1_1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP1_1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP1_1.Font = new Font("Segoe UI", 12F);
-            ProdXP1_1.Location = new Point(163, 103);
+            ProdXP1_1.Location = new Point(163, 110);
+            ProdXP1_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP1_1.Name = "ProdXP1_1";
             ProdXP1_1.Size = new Size(114, 29);
             ProdXP1_1.TabIndex = 29;
@@ -404,9 +419,10 @@
             // 
             // ProdXP3_0
             // 
-            ProdXP3_0.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP3_0.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP3_0.Font = new Font("Segoe UI", 12F);
-            ProdXP3_0.Location = new Point(3, 203);
+            ProdXP3_0.Location = new Point(3, 210);
+            ProdXP3_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP3_0.Name = "ProdXP3_0";
             ProdXP3_0.Size = new Size(114, 29);
             ProdXP3_0.TabIndex = 28;
@@ -414,9 +430,10 @@
             // 
             // ProdXP2_0
             // 
-            ProdXP2_0.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP2_0.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP2_0.Font = new Font("Segoe UI", 12F);
-            ProdXP2_0.Location = new Point(3, 153);
+            ProdXP2_0.Location = new Point(3, 160);
+            ProdXP2_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP2_0.Name = "ProdXP2_0";
             ProdXP2_0.Size = new Size(114, 29);
             ProdXP2_0.TabIndex = 27;
@@ -424,9 +441,10 @@
             // 
             // ProdXP1_0
             // 
-            ProdXP1_0.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP1_0.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP1_0.Font = new Font("Segoe UI", 12F);
-            ProdXP1_0.Location = new Point(3, 103);
+            ProdXP1_0.Location = new Point(3, 110);
+            ProdXP1_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP1_0.Name = "ProdXP1_0";
             ProdXP1_0.Size = new Size(114, 29);
             ProdXP1_0.TabIndex = 26;
@@ -456,9 +474,10 @@
             // 
             // ProdXP3_3
             // 
-            ProdXP3_3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP3_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP3_3.Font = new Font("Segoe UI", 12F);
-            ProdXP3_3.Location = new Point(483, 203);
+            ProdXP3_3.Location = new Point(483, 210);
+            ProdXP3_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP3_3.Name = "ProdXP3_3";
             ProdXP3_3.Size = new Size(114, 29);
             ProdXP3_3.TabIndex = 39;
@@ -466,9 +485,10 @@
             // 
             // ProdXP2_3
             // 
-            ProdXP2_3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP2_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP2_3.Font = new Font("Segoe UI", 12F);
-            ProdXP2_3.Location = new Point(483, 153);
+            ProdXP2_3.Location = new Point(483, 160);
+            ProdXP2_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP2_3.Name = "ProdXP2_3";
             ProdXP2_3.Size = new Size(114, 29);
             ProdXP2_3.TabIndex = 38;
@@ -476,9 +496,10 @@
             // 
             // ProdXP1_3
             // 
-            ProdXP1_3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP1_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP1_3.Font = new Font("Segoe UI", 12F);
-            ProdXP1_3.Location = new Point(483, 103);
+            ProdXP1_3.Location = new Point(483, 110);
+            ProdXP1_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP1_3.Name = "ProdXP1_3";
             ProdXP1_3.Size = new Size(114, 29);
             ProdXP1_3.TabIndex = 37;
@@ -486,9 +507,10 @@
             // 
             // ProdXP3_2
             // 
-            ProdXP3_2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP3_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP3_2.Font = new Font("Segoe UI", 12F);
-            ProdXP3_2.Location = new Point(323, 203);
+            ProdXP3_2.Location = new Point(323, 210);
+            ProdXP3_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP3_2.Name = "ProdXP3_2";
             ProdXP3_2.Size = new Size(114, 29);
             ProdXP3_2.TabIndex = 36;
@@ -496,9 +518,10 @@
             // 
             // ProdXP2_2
             // 
-            ProdXP2_2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP2_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP2_2.Font = new Font("Segoe UI", 12F);
-            ProdXP2_2.Location = new Point(323, 153);
+            ProdXP2_2.Location = new Point(323, 160);
+            ProdXP2_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP2_2.Name = "ProdXP2_2";
             ProdXP2_2.Size = new Size(114, 29);
             ProdXP2_2.TabIndex = 35;
@@ -506,9 +529,10 @@
             // 
             // ProdXP1_2
             // 
-            ProdXP1_2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            ProdXP1_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             ProdXP1_2.Font = new Font("Segoe UI", 12F);
-            ProdXP1_2.Location = new Point(323, 103);
+            ProdXP1_2.Location = new Point(323, 110);
+            ProdXP1_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             ProdXP1_2.Name = "ProdXP1_2";
             ProdXP1_2.Size = new Size(114, 29);
             ProdXP1_2.TabIndex = 34;
@@ -652,9 +676,10 @@
             // 
             // DirectXP3_3
             // 
-            DirectXP3_3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP3_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP3_3.Font = new Font("Segoe UI", 12F);
-            DirectXP3_3.Location = new Point(483, 203);
+            DirectXP3_3.Location = new Point(483, 210);
+            DirectXP3_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP3_3.Name = "DirectXP3_3";
             DirectXP3_3.Size = new Size(114, 29);
             DirectXP3_3.TabIndex = 39;
@@ -673,9 +698,10 @@
             // 
             // DirectXP3_2
             // 
-            DirectXP3_2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP3_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP3_2.Font = new Font("Segoe UI", 12F);
-            DirectXP3_2.Location = new Point(323, 203);
+            DirectXP3_2.Location = new Point(323, 210);
+            DirectXP3_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP3_2.Name = "DirectXP3_2";
             DirectXP3_2.Size = new Size(114, 29);
             DirectXP3_2.TabIndex = 36;
@@ -683,9 +709,10 @@
             // 
             // DirectXP2_3
             // 
-            DirectXP2_3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP2_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP2_3.Font = new Font("Segoe UI", 12F);
-            DirectXP2_3.Location = new Point(483, 153);
+            DirectXP2_3.Location = new Point(483, 160);
+            DirectXP2_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP2_3.Name = "DirectXP2_3";
             DirectXP2_3.Size = new Size(114, 29);
             DirectXP2_3.TabIndex = 38;
@@ -693,9 +720,10 @@
             // 
             // DirectXP3_1
             // 
-            DirectXP3_1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP3_1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP3_1.Font = new Font("Segoe UI", 12F);
-            DirectXP3_1.Location = new Point(163, 203);
+            DirectXP3_1.Location = new Point(163, 210);
+            DirectXP3_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP3_1.Name = "DirectXP3_1";
             DirectXP3_1.Size = new Size(114, 29);
             DirectXP3_1.TabIndex = 31;
@@ -714,9 +742,10 @@
             // 
             // DirectXP3_0
             // 
-            DirectXP3_0.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP3_0.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP3_0.Font = new Font("Segoe UI", 12F);
-            DirectXP3_0.Location = new Point(3, 203);
+            DirectXP3_0.Location = new Point(3, 210);
+            DirectXP3_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP3_0.Name = "DirectXP3_0";
             DirectXP3_0.Size = new Size(114, 29);
             DirectXP3_0.TabIndex = 28;
@@ -724,9 +753,10 @@
             // 
             // DirectXP1_3
             // 
-            DirectXP1_3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP1_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP1_3.Font = new Font("Segoe UI", 12F);
-            DirectXP1_3.Location = new Point(483, 103);
+            DirectXP1_3.Location = new Point(483, 110);
+            DirectXP1_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP1_3.Name = "DirectXP1_3";
             DirectXP1_3.Size = new Size(114, 29);
             DirectXP1_3.TabIndex = 37;
@@ -734,9 +764,10 @@
             // 
             // DirectXP2_2
             // 
-            DirectXP2_2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP2_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP2_2.Font = new Font("Segoe UI", 12F);
-            DirectXP2_2.Location = new Point(323, 153);
+            DirectXP2_2.Location = new Point(323, 160);
+            DirectXP2_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP2_2.Name = "DirectXP2_2";
             DirectXP2_2.Size = new Size(114, 29);
             DirectXP2_2.TabIndex = 35;
@@ -755,9 +786,10 @@
             // 
             // DirectXP1_0
             // 
-            DirectXP1_0.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP1_0.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP1_0.Font = new Font("Segoe UI", 12F);
-            DirectXP1_0.Location = new Point(3, 103);
+            DirectXP1_0.Location = new Point(3, 110);
+            DirectXP1_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP1_0.Name = "DirectXP1_0";
             DirectXP1_0.Size = new Size(114, 29);
             DirectXP1_0.TabIndex = 26;
@@ -765,9 +797,10 @@
             // 
             // DirectXP2_1
             // 
-            DirectXP2_1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP2_1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP2_1.Font = new Font("Segoe UI", 12F);
-            DirectXP2_1.Location = new Point(163, 153);
+            DirectXP2_1.Location = new Point(163, 160);
+            DirectXP2_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP2_1.Name = "DirectXP2_1";
             DirectXP2_1.Size = new Size(114, 29);
             DirectXP2_1.TabIndex = 30;
@@ -775,9 +808,10 @@
             // 
             // DirectXP1_1
             // 
-            DirectXP1_1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP1_1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP1_1.Font = new Font("Segoe UI", 12F);
-            DirectXP1_1.Location = new Point(163, 103);
+            DirectXP1_1.Location = new Point(163, 110);
+            DirectXP1_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP1_1.Name = "DirectXP1_1";
             DirectXP1_1.Size = new Size(114, 29);
             DirectXP1_1.TabIndex = 29;
@@ -785,9 +819,10 @@
             // 
             // DirectXP1_2
             // 
-            DirectXP1_2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP1_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP1_2.Font = new Font("Segoe UI", 12F);
-            DirectXP1_2.Location = new Point(323, 103);
+            DirectXP1_2.Location = new Point(323, 110);
+            DirectXP1_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP1_2.Name = "DirectXP1_2";
             DirectXP1_2.Size = new Size(114, 29);
             DirectXP1_2.TabIndex = 34;
@@ -795,9 +830,10 @@
             // 
             // DirectXP2_0
             // 
-            DirectXP2_0.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            DirectXP2_0.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             DirectXP2_0.Font = new Font("Segoe UI", 12F);
-            DirectXP2_0.Location = new Point(3, 153);
+            DirectXP2_0.Location = new Point(3, 160);
+            DirectXP2_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP2_0.Name = "DirectXP2_0";
             DirectXP2_0.Size = new Size(114, 29);
             DirectXP2_0.TabIndex = 27;

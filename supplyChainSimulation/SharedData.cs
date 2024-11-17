@@ -11,7 +11,12 @@ namespace supplyChainSimulation
     {
         public static XDocument XML_doc { get; set; }
         public static XElement rootElement;
+        
         public static XElement forecast;
+
+        public static XElement warehousestock;
+        public static XElement waitinglistworkstations;
+        public static XElement ordersinwork;
 
         // Upload variables
 

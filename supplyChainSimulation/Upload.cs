@@ -19,6 +19,10 @@ namespace supplyChainSimulation
         public Upload()
         {
             InitializeComponent();
+
+            for (int i = 0; i < 57; i++) {
+                production0.Add(0);
+            }
         }
 
         private void p1_uploadXML_Click(object sender, EventArgs e)
