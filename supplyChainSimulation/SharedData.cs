@@ -11,6 +11,7 @@ namespace supplyChainSimulation
     {
         public static XDocument XML_doc { get; set; }
         public static XElement rootElement;
+        public static XElement forecast;
 
         // Upload variables
 
@@ -21,5 +22,18 @@ namespace supplyChainSimulation
         public static List<int> forecast1 = new List<int>() { 0, 0, 0, 0 };
         public static List<int> forecast2 = new List<int>() { 0, 0, 0, 0 };
         public static List<int> forecast3 = new List<int>() { 0, 0, 0, 0 };
+
+        public static List<int> production0 = new List<int>() { 0, 0, 0, 0 };
+        public static List<int> production1 = new List<int>() { 0, 0, 0, 0 };
+        public static List<int> production2 = new List<int>() { 0, 0, 0, 0 };
+        public static List<int> production3 = new List<int>() { 0, 0, 0, 0 };
+
+        public static List<int> directSale0 = new List<int>() { 0, 0, 0, 0 };
+        public static List<int> directSale1 = new List<int>() { 0, 0, 0, 0 };
+        public static List<int> directSale2 = new List<int>() { 0, 0, 0, 0 };
+        public static List<int> directSale3 = new List<int>() { 0, 0, 0, 0 };
+
+        // MaterialPlanning variables
+
     }
 }
