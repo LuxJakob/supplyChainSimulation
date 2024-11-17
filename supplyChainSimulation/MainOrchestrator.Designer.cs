@@ -37,6 +37,7 @@
             ClientSize = new Size(800, 450);
             Name = "MainOrchestrator";
             Text = "Supply Chain Simulator";
+            WindowState = FormWindowState.Maximized;
             Load += MainOrchestrator_Load;
             ResumeLayout(false);
         }
