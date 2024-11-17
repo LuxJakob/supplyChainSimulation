@@ -31,6 +31,16 @@
             switchToLieferProdProg = new Button();
             label1 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
+            PlannedE18 = new NumericUpDown();
+            PlannedE13 = new NumericUpDown();
+            PlannedE7 = new NumericUpDown();
+            PlannedE49 = new NumericUpDown();
+            PlannedE10 = new NumericUpDown();
+            PlannedE4 = new NumericUpDown();
+            PlannedE50 = new NumericUpDown();
+            PlannedE171 = new NumericUpDown();
+            PlannedE161 = new NumericUpDown();
+            PlannedE51 = new NumericUpDown();
             ProductionOrdersE18 = new Label();
             OrdersProgressE18 = new Label();
             OrdersQueueE18 = new Label();
@@ -125,7 +135,6 @@
             label10 = new Label();
             label13 = new Label();
             label11 = new Label();
-            label14 = new Label();
             label17 = new Label();
             label18 = new Label();
             label19 = new Label();
@@ -194,29 +203,20 @@
             label81 = new Label();
             label82 = new Label();
             PlannedE261 = new NumericUpDown();
-            PlannedE51 = new NumericUpDown();
-            PlannedE13 = new NumericUpDown();
-            PlannedE161 = new NumericUpDown();
-            PlannedE171 = new NumericUpDown();
-            PlannedE50 = new NumericUpDown();
-            PlannedE4 = new NumericUpDown();
-            PlannedE10 = new NumericUpDown();
-            PlannedE49 = new NumericUpDown();
-            PlannedE7 = new NumericUpDown();
-            PlannedE18 = new NumericUpDown();
             SellwishP1 = new Label();
+            label14 = new Label();
             tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)PlannedE261).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE51).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE13).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE161).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE171).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE50).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE49).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PlannedE18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE49).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE50).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE171).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE161).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE51).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE261).BeginInit();
             SuspendLayout();
             // 
             // switchToLieferProdProg
@@ -257,6 +257,16 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 40F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
+            tableLayoutPanel1.Controls.Add(PlannedE18, 5, 12);
+            tableLayoutPanel1.Controls.Add(PlannedE13, 5, 11);
+            tableLayoutPanel1.Controls.Add(PlannedE7, 5, 10);
+            tableLayoutPanel1.Controls.Add(PlannedE49, 5, 9);
+            tableLayoutPanel1.Controls.Add(PlannedE10, 5, 8);
+            tableLayoutPanel1.Controls.Add(PlannedE4, 5, 7);
+            tableLayoutPanel1.Controls.Add(PlannedE50, 5, 6);
+            tableLayoutPanel1.Controls.Add(PlannedE171, 5, 5);
+            tableLayoutPanel1.Controls.Add(PlannedE161, 5, 4);
+            tableLayoutPanel1.Controls.Add(PlannedE51, 5, 3);
             tableLayoutPanel1.Controls.Add(ProductionOrdersE18, 13, 12);
             tableLayoutPanel1.Controls.Add(OrdersProgressE18, 11, 12);
             tableLayoutPanel1.Controls.Add(OrdersQueueE18, 9, 12);
@@ -419,16 +429,6 @@
             tableLayoutPanel1.Controls.Add(label81, 12, 9);
             tableLayoutPanel1.Controls.Add(label82, 12, 12);
             tableLayoutPanel1.Controls.Add(PlannedE261, 5, 2);
-            tableLayoutPanel1.Controls.Add(PlannedE51, 5, 3);
-            tableLayoutPanel1.Controls.Add(PlannedE13, 5, 11);
-            tableLayoutPanel1.Controls.Add(PlannedE161, 5, 4);
-            tableLayoutPanel1.Controls.Add(PlannedE171, 5, 5);
-            tableLayoutPanel1.Controls.Add(PlannedE50, 5, 6);
-            tableLayoutPanel1.Controls.Add(PlannedE4, 5, 7);
-            tableLayoutPanel1.Controls.Add(PlannedE10, 5, 8);
-            tableLayoutPanel1.Controls.Add(PlannedE49, 5, 9);
-            tableLayoutPanel1.Controls.Add(PlannedE7, 5, 10);
-            tableLayoutPanel1.Controls.Add(PlannedE18, 5, 12);
             tableLayoutPanel1.Controls.Add(SellwishP1, 1, 1);
             tableLayoutPanel1.Controls.Add(label14, 3, 1);
             tableLayoutPanel1.Location = new Point(12, 37);
@@ -449,6 +449,126 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
             tableLayoutPanel1.Size = new Size(1150, 650);
             tableLayoutPanel1.TabIndex = 7;
+            // 
+            // PlannedE18
+            // 
+            PlannedE18.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE18.Font = new Font("Segoe UI", 12F);
+            PlannedE18.Location = new Point(393, 610);
+            PlannedE18.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE18.Name = "PlannedE18";
+            PlannedE18.Size = new Size(114, 29);
+            PlannedE18.TabIndex = 207;
+            PlannedE18.TextAlign = HorizontalAlignment.Center;
+            PlannedE18.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE13
+            // 
+            PlannedE13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE13.Font = new Font("Segoe UI", 12F);
+            PlannedE13.Location = new Point(393, 560);
+            PlannedE13.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE13.Name = "PlannedE13";
+            PlannedE13.Size = new Size(114, 29);
+            PlannedE13.TabIndex = 206;
+            PlannedE13.TextAlign = HorizontalAlignment.Center;
+            PlannedE13.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE7
+            // 
+            PlannedE7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE7.Font = new Font("Segoe UI", 12F);
+            PlannedE7.Location = new Point(393, 510);
+            PlannedE7.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE7.Name = "PlannedE7";
+            PlannedE7.Size = new Size(114, 29);
+            PlannedE7.TabIndex = 205;
+            PlannedE7.TextAlign = HorizontalAlignment.Center;
+            PlannedE7.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE49
+            // 
+            PlannedE49.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE49.Font = new Font("Segoe UI", 12F);
+            PlannedE49.Location = new Point(393, 460);
+            PlannedE49.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE49.Name = "PlannedE49";
+            PlannedE49.Size = new Size(114, 29);
+            PlannedE49.TabIndex = 204;
+            PlannedE49.TextAlign = HorizontalAlignment.Center;
+            PlannedE49.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE10
+            // 
+            PlannedE10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE10.Font = new Font("Segoe UI", 12F);
+            PlannedE10.Location = new Point(393, 410);
+            PlannedE10.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE10.Name = "PlannedE10";
+            PlannedE10.Size = new Size(114, 29);
+            PlannedE10.TabIndex = 203;
+            PlannedE10.TextAlign = HorizontalAlignment.Center;
+            PlannedE10.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE4
+            // 
+            PlannedE4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE4.Font = new Font("Segoe UI", 12F);
+            PlannedE4.Location = new Point(393, 360);
+            PlannedE4.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE4.Name = "PlannedE4";
+            PlannedE4.Size = new Size(114, 29);
+            PlannedE4.TabIndex = 202;
+            PlannedE4.TextAlign = HorizontalAlignment.Center;
+            PlannedE4.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE50
+            // 
+            PlannedE50.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE50.Font = new Font("Segoe UI", 12F);
+            PlannedE50.Location = new Point(393, 310);
+            PlannedE50.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE50.Name = "PlannedE50";
+            PlannedE50.Size = new Size(114, 29);
+            PlannedE50.TabIndex = 201;
+            PlannedE50.TextAlign = HorizontalAlignment.Center;
+            PlannedE50.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE171
+            // 
+            PlannedE171.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE171.Font = new Font("Segoe UI", 12F);
+            PlannedE171.Location = new Point(393, 260);
+            PlannedE171.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE171.Name = "PlannedE171";
+            PlannedE171.Size = new Size(114, 29);
+            PlannedE171.TabIndex = 200;
+            PlannedE171.TextAlign = HorizontalAlignment.Center;
+            PlannedE171.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE161
+            // 
+            PlannedE161.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE161.Font = new Font("Segoe UI", 12F);
+            PlannedE161.Location = new Point(393, 210);
+            PlannedE161.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE161.Name = "PlannedE161";
+            PlannedE161.Size = new Size(114, 29);
+            PlannedE161.TabIndex = 199;
+            PlannedE161.TextAlign = HorizontalAlignment.Center;
+            PlannedE161.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE51
+            // 
+            PlannedE51.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE51.Font = new Font("Segoe UI", 12F);
+            PlannedE51.Location = new Point(393, 160);
+            PlannedE51.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE51.Name = "PlannedE51";
+            PlannedE51.Size = new Size(114, 29);
+            PlannedE51.TabIndex = 198;
+            PlannedE51.TextAlign = HorizontalAlignment.Center;
+            PlannedE51.Value = new decimal(new int[] { 100, 0, 0, 0 });
             // 
             // ProductionOrdersE18
             // 
@@ -1508,17 +1628,6 @@
             label11.Text = "E13";
             label11.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label14
-            // 
-            label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label14.Location = new Point(233, 50);
-            label14.Name = "label14";
-            label14.Size = new Size(114, 50);
-            label14.TabIndex = 13;
-            label14.Text = "+";
-            label14.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // label17
             // 
             label17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
@@ -2268,126 +2377,6 @@
             PlannedE261.TextAlign = HorizontalAlignment.Center;
             PlannedE261.Value = new decimal(new int[] { 100, 0, 0, 0 });
             // 
-            // PlannedE51
-            // 
-            PlannedE51.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE51.Font = new Font("Segoe UI", 12F);
-            PlannedE51.Location = new Point(393, 160);
-            PlannedE51.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE51.Name = "PlannedE51";
-            PlannedE51.Size = new Size(114, 29);
-            PlannedE51.TabIndex = 101;
-            PlannedE51.TextAlign = HorizontalAlignment.Center;
-            PlannedE51.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE13
-            // 
-            PlannedE13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE13.Font = new Font("Segoe UI", 12F);
-            PlannedE13.Location = new Point(393, 560);
-            PlannedE13.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE13.Name = "PlannedE13";
-            PlannedE13.Size = new Size(114, 29);
-            PlannedE13.TabIndex = 103;
-            PlannedE13.TextAlign = HorizontalAlignment.Center;
-            PlannedE13.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE161
-            // 
-            PlannedE161.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE161.Font = new Font("Segoe UI", 12F);
-            PlannedE161.Location = new Point(393, 210);
-            PlannedE161.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE161.Name = "PlannedE161";
-            PlannedE161.Size = new Size(114, 29);
-            PlannedE161.TabIndex = 108;
-            PlannedE161.TextAlign = HorizontalAlignment.Center;
-            PlannedE161.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE171
-            // 
-            PlannedE171.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE171.Font = new Font("Segoe UI", 12F);
-            PlannedE171.Location = new Point(393, 260);
-            PlannedE171.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE171.Name = "PlannedE171";
-            PlannedE171.Size = new Size(114, 29);
-            PlannedE171.TabIndex = 109;
-            PlannedE171.TextAlign = HorizontalAlignment.Center;
-            PlannedE171.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE50
-            // 
-            PlannedE50.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE50.Font = new Font("Segoe UI", 12F);
-            PlannedE50.Location = new Point(393, 310);
-            PlannedE50.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE50.Name = "PlannedE50";
-            PlannedE50.Size = new Size(114, 29);
-            PlannedE50.TabIndex = 110;
-            PlannedE50.TextAlign = HorizontalAlignment.Center;
-            PlannedE50.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE4
-            // 
-            PlannedE4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE4.Font = new Font("Segoe UI", 12F);
-            PlannedE4.Location = new Point(393, 360);
-            PlannedE4.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE4.Name = "PlannedE4";
-            PlannedE4.Size = new Size(114, 29);
-            PlannedE4.TabIndex = 104;
-            PlannedE4.TextAlign = HorizontalAlignment.Center;
-            PlannedE4.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE10
-            // 
-            PlannedE10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE10.Font = new Font("Segoe UI", 12F);
-            PlannedE10.Location = new Point(393, 410);
-            PlannedE10.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE10.Name = "PlannedE10";
-            PlannedE10.Size = new Size(114, 29);
-            PlannedE10.TabIndex = 102;
-            PlannedE10.TextAlign = HorizontalAlignment.Center;
-            PlannedE10.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE49
-            // 
-            PlannedE49.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE49.Font = new Font("Segoe UI", 12F);
-            PlannedE49.Location = new Point(393, 460);
-            PlannedE49.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE49.Name = "PlannedE49";
-            PlannedE49.Size = new Size(114, 29);
-            PlannedE49.TabIndex = 105;
-            PlannedE49.TextAlign = HorizontalAlignment.Center;
-            PlannedE49.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE7
-            // 
-            PlannedE7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE7.Font = new Font("Segoe UI", 12F);
-            PlannedE7.Location = new Point(393, 510);
-            PlannedE7.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE7.Name = "PlannedE7";
-            PlannedE7.Size = new Size(114, 29);
-            PlannedE7.TabIndex = 106;
-            PlannedE7.TextAlign = HorizontalAlignment.Center;
-            PlannedE7.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE18
-            // 
-            PlannedE18.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE18.Font = new Font("Segoe UI", 12F);
-            PlannedE18.Location = new Point(393, 610);
-            PlannedE18.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE18.Name = "PlannedE18";
-            PlannedE18.Size = new Size(114, 29);
-            PlannedE18.TabIndex = 107;
-            PlannedE18.TextAlign = HorizontalAlignment.Center;
-            PlannedE18.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
             // SellwishP1
             // 
             SellwishP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
@@ -2398,6 +2387,17 @@
             SellwishP1.TabIndex = 111;
             SellwishP1.Text = "number";
             SellwishP1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label14
+            // 
+            label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.Location = new Point(233, 50);
+            label14.Name = "label14";
+            label14.Size = new Size(114, 50);
+            label14.TabIndex = 13;
+            label14.Text = "+";
+            label14.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // MaterialPlanning
             // 
@@ -2410,17 +2410,17 @@
             Name = "MaterialPlanning";
             Text = "Supply Chain Simulator - Material Planning P1";
             tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)PlannedE261).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE51).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE13).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE161).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE171).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE50).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE49).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE7).EndInit();
             ((System.ComponentModel.ISupportInitialize)PlannedE18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE49).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE50).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE171).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE161).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE51).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE261).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -2523,16 +2523,6 @@
         private Label label87;
         private Label label79;
         private NumericUpDown PlannedE261;
-        private NumericUpDown PlannedE51;
-        private NumericUpDown PlannedE13;
-        private NumericUpDown PlannedE161;
-        private NumericUpDown PlannedE171;
-        private NumericUpDown PlannedE50;
-        private NumericUpDown PlannedE4;
-        private NumericUpDown PlannedE10;
-        private NumericUpDown PlannedE49;
-        private NumericUpDown PlannedE7;
-        private NumericUpDown PlannedE18;
         private Label InventoryE7;
         private Label SuccessorQueueE7;
         private Label SellwishE7;
@@ -2606,5 +2596,15 @@
         private Label ProductionOrdersE7;
         private Label OrdersProgressE7;
         private Label OrdersQueueE7;
+        private NumericUpDown PlannedE18;
+        private NumericUpDown PlannedE13;
+        private NumericUpDown PlannedE7;
+        private NumericUpDown PlannedE49;
+        private NumericUpDown PlannedE10;
+        private NumericUpDown PlannedE4;
+        private NumericUpDown PlannedE50;
+        private NumericUpDown PlannedE171;
+        private NumericUpDown PlannedE161;
+        private NumericUpDown PlannedE51;
     }
 }

@@ -14,9 +14,9 @@ namespace supplyChainSimulation
         
         public static XElement forecast;
 
-        public static XElement warehousestock;
-        public static XElement waitinglistworkstations;
-        public static XElement ordersinwork;
+        public static XElement warehousestockX;
+        public static XElement waitinglistworkstationsX;
+        public static XElement ordersinworkX;
 
         // Upload variables
 
@@ -39,6 +39,7 @@ namespace supplyChainSimulation
         public static List<int> directSale3 = new List<int>() { 0, 0, 0, 0 };
 
         // MaterialPlanning variables
+        public static Dictionary<int, int> warehousestock = new Dictionary<int, int>();
 
     }
 }
