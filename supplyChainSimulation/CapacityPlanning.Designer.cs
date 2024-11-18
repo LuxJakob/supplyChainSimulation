@@ -197,9 +197,6 @@
             workstation14_16_3 = new Label();
             workstation15_17_3 = new Label();
             workstation15_26_3 = new Label();
-            label1 = new Label();
-            switchPurchasePartDisposition = new Button();
-            switchMaterialP3 = new Button();
             newCapacityReq1 = new Label();
             newCapacityReq2 = new Label();
             newCapacityReq3 = new Label();
@@ -214,7 +211,94 @@
             newCapacityReq13 = new Label();
             newCapacityReq14 = new Label();
             newCapacityReq15 = new Label();
+            capacityRequirementsBacklog1 = new Label();
+            capacityRequirementsBacklog2 = new Label();
+            capacityRequirementsBacklog3 = new Label();
+            capacityRequirementsBacklog4 = new Label();
+            capacityRequirementsBacklog6 = new Label();
+            capacityRequirementsBacklog7 = new Label();
+            capacityRequirementsBacklog8 = new Label();
+            capacityRequirementsBacklog9 = new Label();
+            capacityRequirementsBacklog10 = new Label();
+            capacityRequirementsBacklog11 = new Label();
+            capacityRequirementsBacklog12 = new Label();
+            capacityRequirementsBacklog13 = new Label();
+            capacityRequirementsBacklog14 = new Label();
+            capacityRequirementsBacklog15 = new Label();
+            setupTimeBacklog1 = new Label();
+            setupTimeBacklog2 = new Label();
+            setupTimeBacklog3 = new Label();
+            setupTimeBacklog4 = new Label();
+            setupTimeBacklog6 = new Label();
+            setupTimeBacklog7 = new Label();
+            setupTimeBacklog8 = new Label();
+            setupTimeBacklog9 = new Label();
+            setupTimeBacklog10 = new Label();
+            setupTimeBacklog11 = new Label();
+            setupTimeBacklog12 = new Label();
+            setupTimeBacklog13 = new Label();
+            setupTimeBacklog14 = new Label();
+            setupTimeBacklog15 = new Label();
+            totalCapacityW1 = new Label();
+            totalCapacityW2 = new Label();
+            totalCapacityW3 = new Label();
+            totalCapacityW4 = new Label();
+            totalCapacityW6 = new Label();
+            totalCapacityW7 = new Label();
+            totalCapacityW8 = new Label();
+            totalCapacityW9 = new Label();
+            totalCapacityW10 = new Label();
+            totalCapacityW11 = new Label();
+            totalCapacityW12 = new Label();
+            totalCapacityW13 = new Label();
+            totalCapacityW14 = new Label();
+            totalCapacityW15 = new Label();
+            shiftOvertimeW1 = new Label();
+            shiftOvertimeW2 = new Label();
+            shiftOvertimeW3 = new Label();
+            shiftOvertimeW4 = new Label();
+            shiftOvertimeW6 = new Label();
+            shiftOvertimeW7 = new Label();
+            shiftOvertimeW8 = new Label();
+            shiftOvertimeW9 = new Label();
+            shiftOvertimeW10 = new Label();
+            shiftOvertimeW11 = new Label();
+            shiftOvertimeW12 = new Label();
+            shiftOvertimeW13 = new Label();
+            shiftOvertimeW14 = new Label();
+            shiftOvertimeW15 = new Label();
+            setupTimeNew1 = new NumericUpDown();
+            label1 = new Label();
+            switchPurchasePartDisposition = new Button();
+            switchMaterialP3 = new Button();
+            setupTimeNew2 = new NumericUpDown();
+            setupTimeNew3 = new NumericUpDown();
+            setupTimeNew4 = new NumericUpDown();
+            setupTimeNew6 = new NumericUpDown();
+            setupTimeNew7 = new NumericUpDown();
+            setupTimeNew8 = new NumericUpDown();
+            setupTimeNew9 = new NumericUpDown();
+            setupTimeNew10 = new NumericUpDown();
+            setupTimeNew11 = new NumericUpDown();
+            setupTimeNew12 = new NumericUpDown();
+            setupTimeNew13 = new NumericUpDown();
+            setupTimeNew14 = new NumericUpDown();
+            setupTimeNew15 = new NumericUpDown();
             tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew15).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -420,6 +504,76 @@
             tableLayoutPanel1.Controls.Add(newCapacityReq13, 15, 32);
             tableLayoutPanel1.Controls.Add(newCapacityReq14, 16, 32);
             tableLayoutPanel1.Controls.Add(newCapacityReq15, 17, 32);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog1, 3, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog2, 4, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog3, 5, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog4, 6, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog6, 8, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog7, 9, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog8, 10, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog9, 11, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog10, 12, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog11, 13, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog12, 14, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog13, 15, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog14, 16, 34);
+            tableLayoutPanel1.Controls.Add(capacityRequirementsBacklog15, 17, 34);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog1, 3, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog2, 4, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog3, 5, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog4, 6, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog6, 8, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog7, 9, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog8, 10, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog9, 11, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog10, 12, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog11, 13, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog12, 14, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog13, 15, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog14, 16, 35);
+            tableLayoutPanel1.Controls.Add(setupTimeBacklog15, 17, 35);
+            tableLayoutPanel1.Controls.Add(totalCapacityW1, 3, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW2, 4, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW3, 5, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW4, 6, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW6, 8, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW7, 9, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW8, 10, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW9, 11, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW10, 12, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW11, 13, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW12, 14, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW13, 15, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW14, 16, 36);
+            tableLayoutPanel1.Controls.Add(totalCapacityW15, 17, 36);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW1, 3, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW2, 4, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW3, 5, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW4, 6, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW6, 8, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW7, 9, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW8, 10, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW9, 11, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW10, 12, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW11, 13, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW12, 14, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW13, 15, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW14, 16, 37);
+            tableLayoutPanel1.Controls.Add(shiftOvertimeW15, 17, 37);
+            tableLayoutPanel1.Controls.Add(setupTimeNew1, 3, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew2, 4, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew3, 5, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew4, 6, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew6, 8, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew7, 9, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew8, 10, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew9, 11, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew10, 12, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew11, 13, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew12, 14, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew13, 15, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew14, 16, 33);
+            tableLayoutPanel1.Controls.Add(setupTimeNew15, 17, 33);
             tableLayoutPanel1.Location = new Point(12, 37);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 38;
@@ -455,13 +609,13 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(1350, 770);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
+            tableLayoutPanel1.Size = new Size(1350, 830);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // label38
@@ -480,9 +634,9 @@
             label34.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label34, 3);
             label34.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label34.Location = new Point(3, 690);
+            label34.Location = new Point(3, 710);
             label34.Name = "label34";
-            label34.Size = new Size(264, 20);
+            label34.Size = new Size(264, 30);
             label34.TabIndex = 127;
             label34.Text = "Capacity requirements (backlog)";
             label34.TextAlign = ContentAlignment.MiddleLeft;
@@ -492,9 +646,9 @@
             label33.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label33, 3);
             label33.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label33.Location = new Point(3, 670);
+            label33.Location = new Point(3, 680);
             label33.Name = "label33";
-            label33.Size = new Size(264, 20);
+            label33.Size = new Size(264, 30);
             label33.TabIndex = 126;
             label33.Text = "Setup time (new)";
             label33.TextAlign = ContentAlignment.MiddleLeft;
@@ -860,7 +1014,7 @@
             label32.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label32.Location = new Point(3, 650);
             label32.Name = "label32";
-            label32.Size = new Size(264, 20);
+            label32.Size = new Size(264, 30);
             label32.TabIndex = 125;
             label32.Text = "Add. capacity requirements";
             label32.TextAlign = ContentAlignment.MiddleLeft;
@@ -870,9 +1024,9 @@
             label37.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label37, 3);
             label37.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label37.Location = new Point(3, 710);
+            label37.Location = new Point(3, 740);
             label37.Name = "label37";
-            label37.Size = new Size(264, 20);
+            label37.Size = new Size(264, 30);
             label37.TabIndex = 128;
             label37.Text = "Setup time (backlog)";
             label37.TextAlign = ContentAlignment.MiddleLeft;
@@ -882,9 +1036,9 @@
             label36.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label36, 3);
             label36.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label36.Location = new Point(3, 730);
+            label36.Location = new Point(3, 770);
             label36.Name = "label36";
-            label36.Size = new Size(264, 20);
+            label36.Size = new Size(264, 30);
             label36.TabIndex = 129;
             label36.Text = "Total capacity requirements";
             label36.TextAlign = ContentAlignment.MiddleLeft;
@@ -894,9 +1048,9 @@
             label35.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label35, 3);
             label35.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label35.Location = new Point(3, 750);
+            label35.Location = new Point(3, 800);
             label35.Name = "label35";
-            label35.Size = new Size(264, 20);
+            label35.Size = new Size(264, 30);
             label35.TabIndex = 130;
             label35.Text = "Shifts && Overtime";
             label35.TextAlign = ContentAlignment.MiddleLeft;
@@ -2331,6 +2485,788 @@
             workstation15_26_3.Text = "x3";
             workstation15_26_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // newCapacityReq1
+            // 
+            newCapacityReq1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq1.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq1.Location = new Point(273, 650);
+            newCapacityReq1.Name = "newCapacityReq1";
+            newCapacityReq1.Size = new Size(69, 30);
+            newCapacityReq1.TabIndex = 176;
+            newCapacityReq1.Text = "Sum";
+            newCapacityReq1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq2
+            // 
+            newCapacityReq2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq2.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq2.Location = new Point(348, 650);
+            newCapacityReq2.Name = "newCapacityReq2";
+            newCapacityReq2.Size = new Size(69, 30);
+            newCapacityReq2.TabIndex = 176;
+            newCapacityReq2.Text = "Sum";
+            newCapacityReq2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq3
+            // 
+            newCapacityReq3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq3.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq3.Location = new Point(423, 650);
+            newCapacityReq3.Name = "newCapacityReq3";
+            newCapacityReq3.Size = new Size(69, 30);
+            newCapacityReq3.TabIndex = 176;
+            newCapacityReq3.Text = "Sum";
+            newCapacityReq3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq4
+            // 
+            newCapacityReq4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq4.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq4.Location = new Point(498, 650);
+            newCapacityReq4.Name = "newCapacityReq4";
+            newCapacityReq4.Size = new Size(69, 30);
+            newCapacityReq4.TabIndex = 176;
+            newCapacityReq4.Text = "Sum";
+            newCapacityReq4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq6
+            // 
+            newCapacityReq6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq6.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq6.Location = new Point(603, 650);
+            newCapacityReq6.Name = "newCapacityReq6";
+            newCapacityReq6.Size = new Size(69, 30);
+            newCapacityReq6.TabIndex = 176;
+            newCapacityReq6.Text = "Sum";
+            newCapacityReq6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq7
+            // 
+            newCapacityReq7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq7.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq7.Location = new Point(678, 650);
+            newCapacityReq7.Name = "newCapacityReq7";
+            newCapacityReq7.Size = new Size(69, 30);
+            newCapacityReq7.TabIndex = 176;
+            newCapacityReq7.Text = "Sum";
+            newCapacityReq7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq8
+            // 
+            newCapacityReq8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq8.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq8.Location = new Point(753, 650);
+            newCapacityReq8.Name = "newCapacityReq8";
+            newCapacityReq8.Size = new Size(69, 30);
+            newCapacityReq8.TabIndex = 176;
+            newCapacityReq8.Text = "Sum";
+            newCapacityReq8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq9
+            // 
+            newCapacityReq9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq9.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq9.Location = new Point(828, 650);
+            newCapacityReq9.Name = "newCapacityReq9";
+            newCapacityReq9.Size = new Size(69, 30);
+            newCapacityReq9.TabIndex = 176;
+            newCapacityReq9.Text = "Sum";
+            newCapacityReq9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq10
+            // 
+            newCapacityReq10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq10.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq10.Location = new Point(903, 650);
+            newCapacityReq10.Name = "newCapacityReq10";
+            newCapacityReq10.Size = new Size(69, 30);
+            newCapacityReq10.TabIndex = 176;
+            newCapacityReq10.Text = "Sum";
+            newCapacityReq10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq11
+            // 
+            newCapacityReq11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq11.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq11.Location = new Point(978, 650);
+            newCapacityReq11.Name = "newCapacityReq11";
+            newCapacityReq11.Size = new Size(69, 30);
+            newCapacityReq11.TabIndex = 176;
+            newCapacityReq11.Text = "Sum";
+            newCapacityReq11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq12
+            // 
+            newCapacityReq12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq12.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq12.Location = new Point(1053, 650);
+            newCapacityReq12.Name = "newCapacityReq12";
+            newCapacityReq12.Size = new Size(69, 30);
+            newCapacityReq12.TabIndex = 176;
+            newCapacityReq12.Text = "Sum";
+            newCapacityReq12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq13
+            // 
+            newCapacityReq13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq13.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq13.Location = new Point(1128, 650);
+            newCapacityReq13.Name = "newCapacityReq13";
+            newCapacityReq13.Size = new Size(69, 30);
+            newCapacityReq13.TabIndex = 176;
+            newCapacityReq13.Text = "Sum";
+            newCapacityReq13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq14
+            // 
+            newCapacityReq14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq14.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq14.Location = new Point(1203, 650);
+            newCapacityReq14.Name = "newCapacityReq14";
+            newCapacityReq14.Size = new Size(69, 30);
+            newCapacityReq14.TabIndex = 176;
+            newCapacityReq14.Text = "Sum";
+            newCapacityReq14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq15
+            // 
+            newCapacityReq15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq15.Font = new Font("Segoe UI", 9.75F);
+            newCapacityReq15.Location = new Point(1278, 650);
+            newCapacityReq15.Name = "newCapacityReq15";
+            newCapacityReq15.Size = new Size(69, 30);
+            newCapacityReq15.TabIndex = 176;
+            newCapacityReq15.Text = "Sum";
+            newCapacityReq15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog1
+            // 
+            capacityRequirementsBacklog1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog1.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog1.Location = new Point(273, 710);
+            capacityRequirementsBacklog1.Name = "capacityRequirementsBacklog1";
+            capacityRequirementsBacklog1.Size = new Size(69, 30);
+            capacityRequirementsBacklog1.TabIndex = 176;
+            capacityRequirementsBacklog1.Text = "Backlog";
+            capacityRequirementsBacklog1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog2
+            // 
+            capacityRequirementsBacklog2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog2.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog2.Location = new Point(348, 710);
+            capacityRequirementsBacklog2.Name = "capacityRequirementsBacklog2";
+            capacityRequirementsBacklog2.Size = new Size(69, 30);
+            capacityRequirementsBacklog2.TabIndex = 176;
+            capacityRequirementsBacklog2.Text = "Backlog";
+            capacityRequirementsBacklog2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog3
+            // 
+            capacityRequirementsBacklog3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog3.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog3.Location = new Point(423, 710);
+            capacityRequirementsBacklog3.Name = "capacityRequirementsBacklog3";
+            capacityRequirementsBacklog3.Size = new Size(69, 30);
+            capacityRequirementsBacklog3.TabIndex = 176;
+            capacityRequirementsBacklog3.Text = "Backlog";
+            capacityRequirementsBacklog3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog4
+            // 
+            capacityRequirementsBacklog4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog4.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog4.Location = new Point(498, 710);
+            capacityRequirementsBacklog4.Name = "capacityRequirementsBacklog4";
+            capacityRequirementsBacklog4.Size = new Size(69, 30);
+            capacityRequirementsBacklog4.TabIndex = 176;
+            capacityRequirementsBacklog4.Text = "Backlog";
+            capacityRequirementsBacklog4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog6
+            // 
+            capacityRequirementsBacklog6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog6.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog6.Location = new Point(603, 710);
+            capacityRequirementsBacklog6.Name = "capacityRequirementsBacklog6";
+            capacityRequirementsBacklog6.Size = new Size(69, 30);
+            capacityRequirementsBacklog6.TabIndex = 176;
+            capacityRequirementsBacklog6.Text = "Backlog";
+            capacityRequirementsBacklog6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog7
+            // 
+            capacityRequirementsBacklog7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog7.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog7.Location = new Point(678, 710);
+            capacityRequirementsBacklog7.Name = "capacityRequirementsBacklog7";
+            capacityRequirementsBacklog7.Size = new Size(69, 30);
+            capacityRequirementsBacklog7.TabIndex = 176;
+            capacityRequirementsBacklog7.Text = "Backlog";
+            capacityRequirementsBacklog7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog8
+            // 
+            capacityRequirementsBacklog8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog8.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog8.Location = new Point(753, 710);
+            capacityRequirementsBacklog8.Name = "capacityRequirementsBacklog8";
+            capacityRequirementsBacklog8.Size = new Size(69, 30);
+            capacityRequirementsBacklog8.TabIndex = 176;
+            capacityRequirementsBacklog8.Text = "Backlog";
+            capacityRequirementsBacklog8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog9
+            // 
+            capacityRequirementsBacklog9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog9.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog9.Location = new Point(828, 710);
+            capacityRequirementsBacklog9.Name = "capacityRequirementsBacklog9";
+            capacityRequirementsBacklog9.Size = new Size(69, 30);
+            capacityRequirementsBacklog9.TabIndex = 176;
+            capacityRequirementsBacklog9.Text = "Backlog";
+            capacityRequirementsBacklog9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog10
+            // 
+            capacityRequirementsBacklog10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog10.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog10.Location = new Point(903, 710);
+            capacityRequirementsBacklog10.Name = "capacityRequirementsBacklog10";
+            capacityRequirementsBacklog10.Size = new Size(69, 30);
+            capacityRequirementsBacklog10.TabIndex = 176;
+            capacityRequirementsBacklog10.Text = "Backlog";
+            capacityRequirementsBacklog10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog11
+            // 
+            capacityRequirementsBacklog11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog11.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog11.Location = new Point(978, 710);
+            capacityRequirementsBacklog11.Name = "capacityRequirementsBacklog11";
+            capacityRequirementsBacklog11.Size = new Size(69, 30);
+            capacityRequirementsBacklog11.TabIndex = 176;
+            capacityRequirementsBacklog11.Text = "Backlog";
+            capacityRequirementsBacklog11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog12
+            // 
+            capacityRequirementsBacklog12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog12.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog12.Location = new Point(1053, 710);
+            capacityRequirementsBacklog12.Name = "capacityRequirementsBacklog12";
+            capacityRequirementsBacklog12.Size = new Size(69, 30);
+            capacityRequirementsBacklog12.TabIndex = 176;
+            capacityRequirementsBacklog12.Text = "Backlog";
+            capacityRequirementsBacklog12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog13
+            // 
+            capacityRequirementsBacklog13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog13.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog13.Location = new Point(1128, 710);
+            capacityRequirementsBacklog13.Name = "capacityRequirementsBacklog13";
+            capacityRequirementsBacklog13.Size = new Size(69, 30);
+            capacityRequirementsBacklog13.TabIndex = 176;
+            capacityRequirementsBacklog13.Text = "Backlog";
+            capacityRequirementsBacklog13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog14
+            // 
+            capacityRequirementsBacklog14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog14.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog14.Location = new Point(1203, 710);
+            capacityRequirementsBacklog14.Name = "capacityRequirementsBacklog14";
+            capacityRequirementsBacklog14.Size = new Size(69, 30);
+            capacityRequirementsBacklog14.TabIndex = 176;
+            capacityRequirementsBacklog14.Text = "Backlog";
+            capacityRequirementsBacklog14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // capacityRequirementsBacklog15
+            // 
+            capacityRequirementsBacklog15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            capacityRequirementsBacklog15.Font = new Font("Segoe UI", 9.75F);
+            capacityRequirementsBacklog15.Location = new Point(1278, 710);
+            capacityRequirementsBacklog15.Name = "capacityRequirementsBacklog15";
+            capacityRequirementsBacklog15.Size = new Size(69, 30);
+            capacityRequirementsBacklog15.TabIndex = 176;
+            capacityRequirementsBacklog15.Text = "Backlog";
+            capacityRequirementsBacklog15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog1
+            // 
+            setupTimeBacklog1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog1.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog1.Location = new Point(273, 740);
+            setupTimeBacklog1.Name = "setupTimeBacklog1";
+            setupTimeBacklog1.Size = new Size(69, 30);
+            setupTimeBacklog1.TabIndex = 176;
+            setupTimeBacklog1.Text = "Setup old";
+            setupTimeBacklog1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog2
+            // 
+            setupTimeBacklog2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog2.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog2.Location = new Point(348, 740);
+            setupTimeBacklog2.Name = "setupTimeBacklog2";
+            setupTimeBacklog2.Size = new Size(69, 30);
+            setupTimeBacklog2.TabIndex = 176;
+            setupTimeBacklog2.Text = "Setup old";
+            setupTimeBacklog2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog3
+            // 
+            setupTimeBacklog3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog3.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog3.Location = new Point(423, 740);
+            setupTimeBacklog3.Name = "setupTimeBacklog3";
+            setupTimeBacklog3.Size = new Size(69, 30);
+            setupTimeBacklog3.TabIndex = 176;
+            setupTimeBacklog3.Text = "Setup old";
+            setupTimeBacklog3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog4
+            // 
+            setupTimeBacklog4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog4.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog4.Location = new Point(498, 740);
+            setupTimeBacklog4.Name = "setupTimeBacklog4";
+            setupTimeBacklog4.Size = new Size(69, 30);
+            setupTimeBacklog4.TabIndex = 176;
+            setupTimeBacklog4.Text = "Setup old";
+            setupTimeBacklog4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog6
+            // 
+            setupTimeBacklog6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog6.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog6.Location = new Point(603, 740);
+            setupTimeBacklog6.Name = "setupTimeBacklog6";
+            setupTimeBacklog6.Size = new Size(69, 30);
+            setupTimeBacklog6.TabIndex = 176;
+            setupTimeBacklog6.Text = "Setup old";
+            setupTimeBacklog6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog7
+            // 
+            setupTimeBacklog7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog7.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog7.Location = new Point(678, 740);
+            setupTimeBacklog7.Name = "setupTimeBacklog7";
+            setupTimeBacklog7.Size = new Size(69, 30);
+            setupTimeBacklog7.TabIndex = 176;
+            setupTimeBacklog7.Text = "Setup old";
+            setupTimeBacklog7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog8
+            // 
+            setupTimeBacklog8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog8.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog8.Location = new Point(753, 740);
+            setupTimeBacklog8.Name = "setupTimeBacklog8";
+            setupTimeBacklog8.Size = new Size(69, 30);
+            setupTimeBacklog8.TabIndex = 176;
+            setupTimeBacklog8.Text = "Setup old";
+            setupTimeBacklog8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog9
+            // 
+            setupTimeBacklog9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog9.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog9.Location = new Point(828, 740);
+            setupTimeBacklog9.Name = "setupTimeBacklog9";
+            setupTimeBacklog9.Size = new Size(69, 30);
+            setupTimeBacklog9.TabIndex = 176;
+            setupTimeBacklog9.Text = "Setup old";
+            setupTimeBacklog9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog10
+            // 
+            setupTimeBacklog10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog10.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog10.Location = new Point(903, 740);
+            setupTimeBacklog10.Name = "setupTimeBacklog10";
+            setupTimeBacklog10.Size = new Size(69, 30);
+            setupTimeBacklog10.TabIndex = 176;
+            setupTimeBacklog10.Text = "Setup old";
+            setupTimeBacklog10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog11
+            // 
+            setupTimeBacklog11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog11.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog11.Location = new Point(978, 740);
+            setupTimeBacklog11.Name = "setupTimeBacklog11";
+            setupTimeBacklog11.Size = new Size(69, 30);
+            setupTimeBacklog11.TabIndex = 176;
+            setupTimeBacklog11.Text = "Setup old";
+            setupTimeBacklog11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog12
+            // 
+            setupTimeBacklog12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog12.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog12.Location = new Point(1053, 740);
+            setupTimeBacklog12.Name = "setupTimeBacklog12";
+            setupTimeBacklog12.Size = new Size(69, 30);
+            setupTimeBacklog12.TabIndex = 176;
+            setupTimeBacklog12.Text = "Setup old";
+            setupTimeBacklog12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog13
+            // 
+            setupTimeBacklog13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog13.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog13.Location = new Point(1128, 740);
+            setupTimeBacklog13.Name = "setupTimeBacklog13";
+            setupTimeBacklog13.Size = new Size(69, 30);
+            setupTimeBacklog13.TabIndex = 176;
+            setupTimeBacklog13.Text = "Setup old";
+            setupTimeBacklog13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog14
+            // 
+            setupTimeBacklog14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog14.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog14.Location = new Point(1203, 740);
+            setupTimeBacklog14.Name = "setupTimeBacklog14";
+            setupTimeBacklog14.Size = new Size(69, 30);
+            setupTimeBacklog14.TabIndex = 176;
+            setupTimeBacklog14.Text = "Setup old";
+            setupTimeBacklog14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeBacklog15
+            // 
+            setupTimeBacklog15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            setupTimeBacklog15.Font = new Font("Segoe UI", 9.75F);
+            setupTimeBacklog15.Location = new Point(1278, 740);
+            setupTimeBacklog15.Name = "setupTimeBacklog15";
+            setupTimeBacklog15.Size = new Size(69, 30);
+            setupTimeBacklog15.TabIndex = 176;
+            setupTimeBacklog15.Text = "Setup old";
+            setupTimeBacklog15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW1
+            // 
+            totalCapacityW1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW1.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW1.Location = new Point(273, 770);
+            totalCapacityW1.Name = "totalCapacityW1";
+            totalCapacityW1.Size = new Size(69, 30);
+            totalCapacityW1.TabIndex = 176;
+            totalCapacityW1.Text = "FinalWork";
+            totalCapacityW1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW2
+            // 
+            totalCapacityW2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW2.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW2.Location = new Point(348, 770);
+            totalCapacityW2.Name = "totalCapacityW2";
+            totalCapacityW2.Size = new Size(69, 30);
+            totalCapacityW2.TabIndex = 176;
+            totalCapacityW2.Text = "FinalWork";
+            totalCapacityW2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW3
+            // 
+            totalCapacityW3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW3.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW3.Location = new Point(423, 770);
+            totalCapacityW3.Name = "totalCapacityW3";
+            totalCapacityW3.Size = new Size(69, 30);
+            totalCapacityW3.TabIndex = 176;
+            totalCapacityW3.Text = "FinalWork";
+            totalCapacityW3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW4
+            // 
+            totalCapacityW4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW4.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW4.Location = new Point(498, 770);
+            totalCapacityW4.Name = "totalCapacityW4";
+            totalCapacityW4.Size = new Size(69, 30);
+            totalCapacityW4.TabIndex = 176;
+            totalCapacityW4.Text = "FinalWork";
+            totalCapacityW4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW6
+            // 
+            totalCapacityW6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW6.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW6.Location = new Point(603, 770);
+            totalCapacityW6.Name = "totalCapacityW6";
+            totalCapacityW6.Size = new Size(69, 30);
+            totalCapacityW6.TabIndex = 176;
+            totalCapacityW6.Text = "FinalWork";
+            totalCapacityW6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW7
+            // 
+            totalCapacityW7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW7.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW7.Location = new Point(678, 770);
+            totalCapacityW7.Name = "totalCapacityW7";
+            totalCapacityW7.Size = new Size(69, 30);
+            totalCapacityW7.TabIndex = 176;
+            totalCapacityW7.Text = "FinalWork";
+            totalCapacityW7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW8
+            // 
+            totalCapacityW8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW8.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW8.Location = new Point(753, 770);
+            totalCapacityW8.Name = "totalCapacityW8";
+            totalCapacityW8.Size = new Size(69, 30);
+            totalCapacityW8.TabIndex = 176;
+            totalCapacityW8.Text = "FinalWork";
+            totalCapacityW8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW9
+            // 
+            totalCapacityW9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW9.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW9.Location = new Point(828, 770);
+            totalCapacityW9.Name = "totalCapacityW9";
+            totalCapacityW9.Size = new Size(69, 30);
+            totalCapacityW9.TabIndex = 176;
+            totalCapacityW9.Text = "FinalWork";
+            totalCapacityW9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW10
+            // 
+            totalCapacityW10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW10.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW10.Location = new Point(903, 770);
+            totalCapacityW10.Name = "totalCapacityW10";
+            totalCapacityW10.Size = new Size(69, 30);
+            totalCapacityW10.TabIndex = 176;
+            totalCapacityW10.Text = "FinalWork";
+            totalCapacityW10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW11
+            // 
+            totalCapacityW11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW11.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW11.Location = new Point(978, 770);
+            totalCapacityW11.Name = "totalCapacityW11";
+            totalCapacityW11.Size = new Size(69, 30);
+            totalCapacityW11.TabIndex = 176;
+            totalCapacityW11.Text = "FinalWork";
+            totalCapacityW11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW12
+            // 
+            totalCapacityW12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW12.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW12.Location = new Point(1053, 770);
+            totalCapacityW12.Name = "totalCapacityW12";
+            totalCapacityW12.Size = new Size(69, 30);
+            totalCapacityW12.TabIndex = 176;
+            totalCapacityW12.Text = "FinalWork";
+            totalCapacityW12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW13
+            // 
+            totalCapacityW13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW13.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW13.Location = new Point(1128, 770);
+            totalCapacityW13.Name = "totalCapacityW13";
+            totalCapacityW13.Size = new Size(69, 30);
+            totalCapacityW13.TabIndex = 176;
+            totalCapacityW13.Text = "FinalWork";
+            totalCapacityW13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW14
+            // 
+            totalCapacityW14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW14.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW14.Location = new Point(1203, 770);
+            totalCapacityW14.Name = "totalCapacityW14";
+            totalCapacityW14.Size = new Size(69, 30);
+            totalCapacityW14.TabIndex = 176;
+            totalCapacityW14.Text = "FinalWork";
+            totalCapacityW14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // totalCapacityW15
+            // 
+            totalCapacityW15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            totalCapacityW15.Font = new Font("Segoe UI", 9.75F);
+            totalCapacityW15.Location = new Point(1278, 770);
+            totalCapacityW15.Name = "totalCapacityW15";
+            totalCapacityW15.Size = new Size(69, 30);
+            totalCapacityW15.TabIndex = 176;
+            totalCapacityW15.Text = "FinalWork";
+            totalCapacityW15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW1
+            // 
+            shiftOvertimeW1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW1.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW1.Location = new Point(273, 800);
+            shiftOvertimeW1.Name = "shiftOvertimeW1";
+            shiftOvertimeW1.Size = new Size(69, 30);
+            shiftOvertimeW1.TabIndex = 176;
+            shiftOvertimeW1.Text = "Shift";
+            shiftOvertimeW1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW2
+            // 
+            shiftOvertimeW2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW2.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW2.Location = new Point(348, 800);
+            shiftOvertimeW2.Name = "shiftOvertimeW2";
+            shiftOvertimeW2.Size = new Size(69, 30);
+            shiftOvertimeW2.TabIndex = 176;
+            shiftOvertimeW2.Text = "Shift";
+            shiftOvertimeW2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW3
+            // 
+            shiftOvertimeW3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW3.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW3.Location = new Point(423, 800);
+            shiftOvertimeW3.Name = "shiftOvertimeW3";
+            shiftOvertimeW3.Size = new Size(69, 30);
+            shiftOvertimeW3.TabIndex = 176;
+            shiftOvertimeW3.Text = "Shift";
+            shiftOvertimeW3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW4
+            // 
+            shiftOvertimeW4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW4.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW4.Location = new Point(498, 800);
+            shiftOvertimeW4.Name = "shiftOvertimeW4";
+            shiftOvertimeW4.Size = new Size(69, 30);
+            shiftOvertimeW4.TabIndex = 176;
+            shiftOvertimeW4.Text = "Shift";
+            shiftOvertimeW4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW6
+            // 
+            shiftOvertimeW6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW6.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW6.Location = new Point(603, 800);
+            shiftOvertimeW6.Name = "shiftOvertimeW6";
+            shiftOvertimeW6.Size = new Size(69, 30);
+            shiftOvertimeW6.TabIndex = 176;
+            shiftOvertimeW6.Text = "Shift";
+            shiftOvertimeW6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW7
+            // 
+            shiftOvertimeW7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW7.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW7.Location = new Point(678, 800);
+            shiftOvertimeW7.Name = "shiftOvertimeW7";
+            shiftOvertimeW7.Size = new Size(69, 30);
+            shiftOvertimeW7.TabIndex = 176;
+            shiftOvertimeW7.Text = "Shift";
+            shiftOvertimeW7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW8
+            // 
+            shiftOvertimeW8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW8.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW8.Location = new Point(753, 800);
+            shiftOvertimeW8.Name = "shiftOvertimeW8";
+            shiftOvertimeW8.Size = new Size(69, 30);
+            shiftOvertimeW8.TabIndex = 176;
+            shiftOvertimeW8.Text = "Shift";
+            shiftOvertimeW8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW9
+            // 
+            shiftOvertimeW9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW9.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW9.Location = new Point(828, 800);
+            shiftOvertimeW9.Name = "shiftOvertimeW9";
+            shiftOvertimeW9.Size = new Size(69, 30);
+            shiftOvertimeW9.TabIndex = 176;
+            shiftOvertimeW9.Text = "Shift";
+            shiftOvertimeW9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW10
+            // 
+            shiftOvertimeW10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW10.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW10.Location = new Point(903, 800);
+            shiftOvertimeW10.Name = "shiftOvertimeW10";
+            shiftOvertimeW10.Size = new Size(69, 30);
+            shiftOvertimeW10.TabIndex = 176;
+            shiftOvertimeW10.Text = "Shift";
+            shiftOvertimeW10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW11
+            // 
+            shiftOvertimeW11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW11.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW11.Location = new Point(978, 800);
+            shiftOvertimeW11.Name = "shiftOvertimeW11";
+            shiftOvertimeW11.Size = new Size(69, 30);
+            shiftOvertimeW11.TabIndex = 176;
+            shiftOvertimeW11.Text = "Shift";
+            shiftOvertimeW11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW12
+            // 
+            shiftOvertimeW12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW12.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW12.Location = new Point(1053, 800);
+            shiftOvertimeW12.Name = "shiftOvertimeW12";
+            shiftOvertimeW12.Size = new Size(69, 30);
+            shiftOvertimeW12.TabIndex = 176;
+            shiftOvertimeW12.Text = "Shift";
+            shiftOvertimeW12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW13
+            // 
+            shiftOvertimeW13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW13.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW13.Location = new Point(1128, 800);
+            shiftOvertimeW13.Name = "shiftOvertimeW13";
+            shiftOvertimeW13.Size = new Size(69, 30);
+            shiftOvertimeW13.TabIndex = 176;
+            shiftOvertimeW13.Text = "Shift";
+            shiftOvertimeW13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW14
+            // 
+            shiftOvertimeW14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW14.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW14.Location = new Point(1203, 800);
+            shiftOvertimeW14.Name = "shiftOvertimeW14";
+            shiftOvertimeW14.Size = new Size(69, 30);
+            shiftOvertimeW14.TabIndex = 176;
+            shiftOvertimeW14.Text = "Shift";
+            shiftOvertimeW14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // shiftOvertimeW15
+            // 
+            shiftOvertimeW15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            shiftOvertimeW15.Font = new Font("Segoe UI", 9.75F);
+            shiftOvertimeW15.Location = new Point(1278, 800);
+            shiftOvertimeW15.Name = "shiftOvertimeW15";
+            shiftOvertimeW15.Size = new Size(69, 30);
+            shiftOvertimeW15.TabIndex = 176;
+            shiftOvertimeW15.Text = "Shift";
+            shiftOvertimeW15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // setupTimeNew1
+            // 
+            setupTimeNew1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew1.Location = new Point(273, 683);
+            setupTimeNew1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew1.Name = "setupTimeNew1";
+            setupTimeNew1.Size = new Size(69, 23);
+            setupTimeNew1.TabIndex = 177;
+            setupTimeNew1.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew1.Value = new decimal(new int[] { 60, 0, 0, 0 });
+            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -2344,7 +3280,7 @@
             // switchPurchasePartDisposition
             // 
             switchPurchasePartDisposition.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            switchPurchasePartDisposition.Location = new Point(1397, 829);
+            switchPurchasePartDisposition.Location = new Point(1397, 918);
             switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
             switchPurchasePartDisposition.Size = new Size(75, 23);
             switchPurchasePartDisposition.TabIndex = 10;
@@ -2355,7 +3291,7 @@
             // switchMaterialP3
             // 
             switchMaterialP3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            switchMaterialP3.Location = new Point(12, 829);
+            switchMaterialP3.Location = new Point(12, 918);
             switchMaterialP3.Name = "switchMaterialP3";
             switchMaterialP3.Size = new Size(75, 23);
             switchMaterialP3.TabIndex = 9;
@@ -2363,165 +3299,164 @@
             switchMaterialP3.UseVisualStyleBackColor = true;
             switchMaterialP3.Click += switchMaterialP3_Click;
             // 
-            // newCapacityReq1
+            // setupTimeNew2
             // 
-            newCapacityReq1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq1.Font = new Font("Segoe UI", 9F);
-            newCapacityReq1.Location = new Point(273, 650);
-            newCapacityReq1.Name = "newCapacityReq1";
-            newCapacityReq1.Size = new Size(69, 20);
-            newCapacityReq1.TabIndex = 176;
-            newCapacityReq1.Text = "Sum";
-            newCapacityReq1.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew2.Location = new Point(348, 683);
+            setupTimeNew2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew2.Name = "setupTimeNew2";
+            setupTimeNew2.Size = new Size(69, 23);
+            setupTimeNew2.TabIndex = 177;
+            setupTimeNew2.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew2.Value = new decimal(new int[] { 80, 0, 0, 0 });
             // 
-            // newCapacityReq2
+            // setupTimeNew3
             // 
-            newCapacityReq2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq2.Font = new Font("Segoe UI", 9F);
-            newCapacityReq2.Location = new Point(348, 650);
-            newCapacityReq2.Name = "newCapacityReq2";
-            newCapacityReq2.Size = new Size(69, 20);
-            newCapacityReq2.TabIndex = 176;
-            newCapacityReq2.Text = "Sum";
-            newCapacityReq2.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew3.Location = new Point(423, 683);
+            setupTimeNew3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew3.Name = "setupTimeNew3";
+            setupTimeNew3.Size = new Size(69, 23);
+            setupTimeNew3.TabIndex = 177;
+            setupTimeNew3.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew3.Value = new decimal(new int[] { 60, 0, 0, 0 });
             // 
-            // newCapacityReq3
+            // setupTimeNew4
             // 
-            newCapacityReq3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq3.Font = new Font("Segoe UI", 9F);
-            newCapacityReq3.Location = new Point(423, 650);
-            newCapacityReq3.Name = "newCapacityReq3";
-            newCapacityReq3.Size = new Size(69, 20);
-            newCapacityReq3.TabIndex = 176;
-            newCapacityReq3.Text = "Sum";
-            newCapacityReq3.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew4.Location = new Point(498, 683);
+            setupTimeNew4.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew4.Name = "setupTimeNew4";
+            setupTimeNew4.Size = new Size(69, 23);
+            setupTimeNew4.TabIndex = 177;
+            setupTimeNew4.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew4.Value = new decimal(new int[] { 80, 0, 0, 0 });
             // 
-            // newCapacityReq4
+            // setupTimeNew6
             // 
-            newCapacityReq4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq4.Font = new Font("Segoe UI", 9F);
-            newCapacityReq4.Location = new Point(498, 650);
-            newCapacityReq4.Name = "newCapacityReq4";
-            newCapacityReq4.Size = new Size(69, 20);
-            newCapacityReq4.TabIndex = 176;
-            newCapacityReq4.Text = "Sum";
-            newCapacityReq4.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew6.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew6.Location = new Point(603, 683);
+            setupTimeNew6.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew6.Name = "setupTimeNew6";
+            setupTimeNew6.Size = new Size(69, 23);
+            setupTimeNew6.TabIndex = 177;
+            setupTimeNew6.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew6.Value = new decimal(new int[] { 60, 0, 0, 0 });
             // 
-            // newCapacityReq6
+            // setupTimeNew7
             // 
-            newCapacityReq6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq6.Font = new Font("Segoe UI", 9F);
-            newCapacityReq6.Location = new Point(603, 650);
-            newCapacityReq6.Name = "newCapacityReq6";
-            newCapacityReq6.Size = new Size(69, 20);
-            newCapacityReq6.TabIndex = 176;
-            newCapacityReq6.Text = "Sum";
-            newCapacityReq6.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew7.Location = new Point(678, 683);
+            setupTimeNew7.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew7.Name = "setupTimeNew7";
+            setupTimeNew7.Size = new Size(69, 23);
+            setupTimeNew7.TabIndex = 177;
+            setupTimeNew7.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew7.Value = new decimal(new int[] { 210, 0, 0, 0 });
             // 
-            // newCapacityReq7
+            // setupTimeNew8
             // 
-            newCapacityReq7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq7.Font = new Font("Segoe UI", 9F);
-            newCapacityReq7.Location = new Point(678, 650);
-            newCapacityReq7.Name = "newCapacityReq7";
-            newCapacityReq7.Size = new Size(69, 20);
-            newCapacityReq7.TabIndex = 176;
-            newCapacityReq7.Text = "Sum";
-            newCapacityReq7.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew8.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew8.Location = new Point(753, 683);
+            setupTimeNew8.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew8.Name = "setupTimeNew8";
+            setupTimeNew8.Size = new Size(69, 23);
+            setupTimeNew8.TabIndex = 177;
+            setupTimeNew8.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew8.Value = new decimal(new int[] { 155, 0, 0, 0 });
             // 
-            // newCapacityReq8
+            // setupTimeNew9
             // 
-            newCapacityReq8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq8.Font = new Font("Segoe UI", 9F);
-            newCapacityReq8.Location = new Point(753, 650);
-            newCapacityReq8.Name = "newCapacityReq8";
-            newCapacityReq8.Size = new Size(69, 20);
-            newCapacityReq8.TabIndex = 176;
-            newCapacityReq8.Text = "Sum";
-            newCapacityReq8.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew9.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew9.Location = new Point(828, 683);
+            setupTimeNew9.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew9.Name = "setupTimeNew9";
+            setupTimeNew9.Size = new Size(69, 23);
+            setupTimeNew9.TabIndex = 177;
+            setupTimeNew9.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew9.Value = new decimal(new int[] { 140, 0, 0, 0 });
             // 
-            // newCapacityReq9
+            // setupTimeNew10
             // 
-            newCapacityReq9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq9.Font = new Font("Segoe UI", 9F);
-            newCapacityReq9.Location = new Point(828, 650);
-            newCapacityReq9.Name = "newCapacityReq9";
-            newCapacityReq9.Size = new Size(69, 20);
-            newCapacityReq9.TabIndex = 176;
-            newCapacityReq9.Text = "Sum";
-            newCapacityReq9.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew10.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew10.Location = new Point(903, 683);
+            setupTimeNew10.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew10.Name = "setupTimeNew10";
+            setupTimeNew10.Size = new Size(69, 23);
+            setupTimeNew10.TabIndex = 177;
+            setupTimeNew10.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew10.Value = new decimal(new int[] { 120, 0, 0, 0 });
             // 
-            // newCapacityReq10
+            // setupTimeNew11
             // 
-            newCapacityReq10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq10.Font = new Font("Segoe UI", 9F);
-            newCapacityReq10.Location = new Point(903, 650);
-            newCapacityReq10.Name = "newCapacityReq10";
-            newCapacityReq10.Size = new Size(69, 20);
-            newCapacityReq10.TabIndex = 176;
-            newCapacityReq10.Text = "Sum";
-            newCapacityReq10.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew11.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew11.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew11.Location = new Point(978, 683);
+            setupTimeNew11.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew11.Name = "setupTimeNew11";
+            setupTimeNew11.Size = new Size(69, 23);
+            setupTimeNew11.TabIndex = 177;
+            setupTimeNew11.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew11.Value = new decimal(new int[] { 80, 0, 0, 0 });
             // 
-            // newCapacityReq11
+            // setupTimeNew12
             // 
-            newCapacityReq11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq11.Font = new Font("Segoe UI", 9F);
-            newCapacityReq11.Location = new Point(978, 650);
-            newCapacityReq11.Name = "newCapacityReq11";
-            newCapacityReq11.Size = new Size(69, 20);
-            newCapacityReq11.TabIndex = 176;
-            newCapacityReq11.Text = "Sum";
-            newCapacityReq11.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew12.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew12.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew12.Location = new Point(1053, 683);
+            setupTimeNew12.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew12.Name = "setupTimeNew12";
+            setupTimeNew12.Size = new Size(69, 23);
+            setupTimeNew12.TabIndex = 177;
+            setupTimeNew12.TextAlign = HorizontalAlignment.Center;
             // 
-            // newCapacityReq12
+            // setupTimeNew13
             // 
-            newCapacityReq12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq12.Font = new Font("Segoe UI", 9F);
-            newCapacityReq12.Location = new Point(1053, 650);
-            newCapacityReq12.Name = "newCapacityReq12";
-            newCapacityReq12.Size = new Size(69, 20);
-            newCapacityReq12.TabIndex = 176;
-            newCapacityReq12.Text = "Sum";
-            newCapacityReq12.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew13.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew13.Location = new Point(1128, 683);
+            setupTimeNew13.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew13.Name = "setupTimeNew13";
+            setupTimeNew13.Size = new Size(69, 23);
+            setupTimeNew13.TabIndex = 177;
+            setupTimeNew13.TextAlign = HorizontalAlignment.Center;
             // 
-            // newCapacityReq13
+            // setupTimeNew14
             // 
-            newCapacityReq13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq13.Font = new Font("Segoe UI", 9F);
-            newCapacityReq13.Location = new Point(1128, 650);
-            newCapacityReq13.Name = "newCapacityReq13";
-            newCapacityReq13.Size = new Size(69, 20);
-            newCapacityReq13.TabIndex = 176;
-            newCapacityReq13.Text = "Sum";
-            newCapacityReq13.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew14.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew14.Location = new Point(1203, 683);
+            setupTimeNew14.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew14.Name = "setupTimeNew14";
+            setupTimeNew14.Size = new Size(69, 23);
+            setupTimeNew14.TabIndex = 177;
+            setupTimeNew14.TextAlign = HorizontalAlignment.Center;
             // 
-            // newCapacityReq14
+            // setupTimeNew15
             // 
-            newCapacityReq14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq14.Font = new Font("Segoe UI", 9F);
-            newCapacityReq14.Location = new Point(1203, 650);
-            newCapacityReq14.Name = "newCapacityReq14";
-            newCapacityReq14.Size = new Size(69, 20);
-            newCapacityReq14.TabIndex = 176;
-            newCapacityReq14.Text = "Sum";
-            newCapacityReq14.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // newCapacityReq15
-            // 
-            newCapacityReq15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            newCapacityReq15.Font = new Font("Segoe UI", 9F);
-            newCapacityReq15.Location = new Point(1278, 650);
-            newCapacityReq15.Name = "newCapacityReq15";
-            newCapacityReq15.Size = new Size(69, 20);
-            newCapacityReq15.TabIndex = 176;
-            newCapacityReq15.Text = "Sum";
-            newCapacityReq15.TextAlign = ContentAlignment.MiddleCenter;
+            setupTimeNew15.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew15.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew15.Location = new Point(1278, 683);
+            setupTimeNew15.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew15.Name = "setupTimeNew15";
+            setupTimeNew15.Size = new Size(69, 23);
+            setupTimeNew15.TabIndex = 177;
+            setupTimeNew15.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew15.Value = new decimal(new int[] { 30, 0, 0, 0 });
             // 
             // CapacityPlanning
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1484, 864);
+            ClientSize = new Size(1484, 953);
             Controls.Add(switchPurchasePartDisposition);
             Controls.Add(switchMaterialP3);
             Controls.Add(label1);
@@ -2529,6 +3464,20 @@
             Name = "CapacityPlanning";
             Text = "Supply Chain Simulator - Capacity Planning";
             tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)setupTimeNew15).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -2721,5 +3670,75 @@
         private Label newCapacityReq13;
         private Label newCapacityReq14;
         private Label newCapacityReq15;
+        private Label capacityRequirementsBacklog1;
+        private Label capacityRequirementsBacklog2;
+        private Label capacityRequirementsBacklog3;
+        private Label capacityRequirementsBacklog4;
+        private Label capacityRequirementsBacklog6;
+        private Label capacityRequirementsBacklog7;
+        private Label capacityRequirementsBacklog8;
+        private Label capacityRequirementsBacklog9;
+        private Label capacityRequirementsBacklog10;
+        private Label capacityRequirementsBacklog11;
+        private Label capacityRequirementsBacklog12;
+        private Label capacityRequirementsBacklog13;
+        private Label capacityRequirementsBacklog14;
+        private Label capacityRequirementsBacklog15;
+        private Label setupTimeBacklog1;
+        private Label setupTimeBacklog2;
+        private Label setupTimeBacklog3;
+        private Label setupTimeBacklog4;
+        private Label setupTimeBacklog6;
+        private Label setupTimeBacklog7;
+        private Label setupTimeBacklog8;
+        private Label setupTimeBacklog9;
+        private Label setupTimeBacklog10;
+        private Label setupTimeBacklog11;
+        private Label setupTimeBacklog12;
+        private Label setupTimeBacklog13;
+        private Label setupTimeBacklog14;
+        private Label setupTimeBacklog15;
+        private Label totalCapacityW1;
+        private Label totalCapacityW2;
+        private Label totalCapacityW3;
+        private Label totalCapacityW4;
+        private Label totalCapacityW6;
+        private Label totalCapacityW7;
+        private Label totalCapacityW8;
+        private Label totalCapacityW9;
+        private Label totalCapacityW10;
+        private Label totalCapacityW11;
+        private Label totalCapacityW12;
+        private Label totalCapacityW13;
+        private Label totalCapacityW14;
+        private Label totalCapacityW15;
+        private Label shiftOvertimeW1;
+        private Label shiftOvertimeW2;
+        private Label shiftOvertimeW3;
+        private Label shiftOvertimeW4;
+        private Label shiftOvertimeW6;
+        private Label shiftOvertimeW7;
+        private Label shiftOvertimeW8;
+        private Label shiftOvertimeW9;
+        private Label shiftOvertimeW10;
+        private Label shiftOvertimeW11;
+        private Label shiftOvertimeW12;
+        private Label shiftOvertimeW13;
+        private Label shiftOvertimeW14;
+        private Label shiftOvertimeW15;
+        private NumericUpDown setupTimeNew1;
+        private NumericUpDown setupTimeNew2;
+        private NumericUpDown setupTimeNew3;
+        private NumericUpDown setupTimeNew4;
+        private NumericUpDown setupTimeNew6;
+        private NumericUpDown setupTimeNew7;
+        private NumericUpDown setupTimeNew8;
+        private NumericUpDown setupTimeNew9;
+        private NumericUpDown setupTimeNew10;
+        private NumericUpDown setupTimeNew11;
+        private NumericUpDown setupTimeNew12;
+        private NumericUpDown setupTimeNew13;
+        private NumericUpDown setupTimeNew14;
+        private NumericUpDown setupTimeNew15;
     }
 }
