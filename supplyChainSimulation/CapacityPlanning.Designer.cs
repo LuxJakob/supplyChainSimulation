@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             tableLayoutPanel1 = new TableLayoutPanel();
+            label38 = new Label();
             label34 = new Label();
             label33 = new Label();
             label31 = new Label();
@@ -66,10 +67,6 @@
             label37 = new Label();
             label36 = new Label();
             label35 = new Label();
-            label1 = new Label();
-            switchPurchasePartDisposition = new Button();
-            switchMaterialP3 = new Button();
-            label38 = new Label();
             label39 = new Label();
             label40 = new Label();
             label41 = new Label();
@@ -99,6 +96,39 @@
             label65 = new Label();
             label66 = new Label();
             label67 = new Label();
+            ProductionOrdersE4 = new Label();
+            ProductionOrdersE5 = new Label();
+            ProductionOrdersE6 = new Label();
+            ProductionOrdersE7 = new Label();
+            ProductionOrdersE8 = new Label();
+            ProductionOrdersE9 = new Label();
+            ProductionOrdersE10 = new Label();
+            ProductionOrdersE11 = new Label();
+            ProductionOrdersE12 = new Label();
+            ProductionOrdersE13 = new Label();
+            ProductionOrdersE14 = new Label();
+            ProductionOrdersE15 = new Label();
+            ProductionOrdersE16 = new Label();
+            ProductionOrdersE17 = new Label();
+            ProductionOrdersE18 = new Label();
+            ProductionOrdersE19 = new Label();
+            ProductionOrdersE20 = new Label();
+            ProductionOrdersE26 = new Label();
+            ProductionOrdersE49 = new Label();
+            ProductionOrdersE54 = new Label();
+            ProductionOrdersE29 = new Label();
+            ProductionOrdersE50 = new Label();
+            ProductionOrdersE55 = new Label();
+            ProductionOrdersE30 = new Label();
+            ProductionOrdersE51 = new Label();
+            ProductionOrdersE56 = new Label();
+            ProductionOrdersE31 = new Label();
+            ProductionOrdersP1 = new Label();
+            ProductionOrdersP2 = new Label();
+            ProductionOrdersP3 = new Label();
+            label1 = new Label();
+            switchPurchasePartDisposition = new Button();
+            switchMaterialP3 = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -190,6 +220,36 @@
             tableLayoutPanel1.Controls.Add(label65, 1, 29);
             tableLayoutPanel1.Controls.Add(label66, 1, 30);
             tableLayoutPanel1.Controls.Add(label67, 1, 31);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE4, 2, 2);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE5, 2, 3);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE6, 2, 4);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE7, 2, 5);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE8, 2, 6);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE9, 2, 7);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE10, 2, 8);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE11, 2, 9);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE12, 2, 10);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE13, 2, 11);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE14, 2, 12);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE15, 2, 13);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE16, 2, 14);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE17, 2, 15);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE18, 2, 16);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE19, 2, 17);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE20, 2, 18);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE26, 2, 19);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE49, 2, 20);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE54, 2, 21);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE29, 2, 22);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE50, 2, 23);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE55, 2, 24);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE30, 2, 25);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE51, 2, 26);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE56, 2, 27);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE31, 2, 28);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersP1, 2, 29);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersP2, 2, 30);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersP3, 2, 31);
             tableLayoutPanel1.Location = new Point(12, 37);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 38;
@@ -233,6 +293,17 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.Size = new Size(1460, 770);
             tableLayoutPanel1.TabIndex = 0;
+            // 
+            // label38
+            // 
+            label38.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label38.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label38.Location = new Point(123, 50);
+            label38.Name = "label38";
+            label38.Size = new Size(69, 20);
+            label38.TabIndex = 131;
+            label38.Text = "E4";
+            label38.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label34
             // 
@@ -660,49 +731,6 @@
             label35.Text = "Shifts && Overtime";
             label35.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(172, 25);
-            label1.TabIndex = 7;
-            label1.Text = "Capacity Planning";
-            // 
-            // switchPurchasePartDisposition
-            // 
-            switchPurchasePartDisposition.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            switchPurchasePartDisposition.Location = new Point(1397, 829);
-            switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
-            switchPurchasePartDisposition.Size = new Size(75, 23);
-            switchPurchasePartDisposition.TabIndex = 10;
-            switchPurchasePartDisposition.Text = "Next";
-            switchPurchasePartDisposition.UseVisualStyleBackColor = true;
-            switchPurchasePartDisposition.Click += switchPurchasePartDisposition_Click;
-            // 
-            // switchMaterialP3
-            // 
-            switchMaterialP3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            switchMaterialP3.Location = new Point(12, 829);
-            switchMaterialP3.Name = "switchMaterialP3";
-            switchMaterialP3.Size = new Size(75, 23);
-            switchMaterialP3.TabIndex = 9;
-            switchMaterialP3.Text = "Back";
-            switchMaterialP3.UseVisualStyleBackColor = true;
-            switchMaterialP3.Click += switchMaterialP3_Click;
-            // 
-            // label38
-            // 
-            label38.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label38.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label38.Location = new Point(123, 50);
-            label38.Name = "label38";
-            label38.Size = new Size(69, 20);
-            label38.TabIndex = 131;
-            label38.Text = "E4";
-            label38.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // label39
             // 
             label39.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
@@ -1022,6 +1050,368 @@
             label67.Text = "P3";
             label67.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // ProductionOrdersE4
+            // 
+            ProductionOrdersE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE4.Location = new Point(198, 50);
+            ProductionOrdersE4.Name = "ProductionOrdersE4";
+            ProductionOrdersE4.Size = new Size(69, 20);
+            ProductionOrdersE4.TabIndex = 131;
+            ProductionOrdersE4.Text = "E4";
+            ProductionOrdersE4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE5
+            // 
+            ProductionOrdersE5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE5.Location = new Point(198, 70);
+            ProductionOrdersE5.Name = "ProductionOrdersE5";
+            ProductionOrdersE5.Size = new Size(69, 20);
+            ProductionOrdersE5.TabIndex = 132;
+            ProductionOrdersE5.Text = "E5";
+            ProductionOrdersE5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE6
+            // 
+            ProductionOrdersE6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE6.Location = new Point(198, 90);
+            ProductionOrdersE6.Name = "ProductionOrdersE6";
+            ProductionOrdersE6.Size = new Size(69, 20);
+            ProductionOrdersE6.TabIndex = 133;
+            ProductionOrdersE6.Text = "E6";
+            ProductionOrdersE6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE7
+            // 
+            ProductionOrdersE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE7.Location = new Point(198, 110);
+            ProductionOrdersE7.Name = "ProductionOrdersE7";
+            ProductionOrdersE7.Size = new Size(69, 20);
+            ProductionOrdersE7.TabIndex = 134;
+            ProductionOrdersE7.Text = "E7";
+            ProductionOrdersE7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE8
+            // 
+            ProductionOrdersE8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE8.Location = new Point(198, 130);
+            ProductionOrdersE8.Name = "ProductionOrdersE8";
+            ProductionOrdersE8.Size = new Size(69, 20);
+            ProductionOrdersE8.TabIndex = 135;
+            ProductionOrdersE8.Text = "E8";
+            ProductionOrdersE8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE9
+            // 
+            ProductionOrdersE9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE9.Location = new Point(198, 150);
+            ProductionOrdersE9.Name = "ProductionOrdersE9";
+            ProductionOrdersE9.Size = new Size(69, 20);
+            ProductionOrdersE9.TabIndex = 136;
+            ProductionOrdersE9.Text = "E9";
+            ProductionOrdersE9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE10
+            // 
+            ProductionOrdersE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE10.Location = new Point(198, 170);
+            ProductionOrdersE10.Name = "ProductionOrdersE10";
+            ProductionOrdersE10.Size = new Size(69, 20);
+            ProductionOrdersE10.TabIndex = 137;
+            ProductionOrdersE10.Text = "E10";
+            ProductionOrdersE10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE11
+            // 
+            ProductionOrdersE11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE11.Location = new Point(198, 190);
+            ProductionOrdersE11.Name = "ProductionOrdersE11";
+            ProductionOrdersE11.Size = new Size(69, 20);
+            ProductionOrdersE11.TabIndex = 138;
+            ProductionOrdersE11.Text = "E11";
+            ProductionOrdersE11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE12
+            // 
+            ProductionOrdersE12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE12.Location = new Point(198, 210);
+            ProductionOrdersE12.Name = "ProductionOrdersE12";
+            ProductionOrdersE12.Size = new Size(69, 20);
+            ProductionOrdersE12.TabIndex = 139;
+            ProductionOrdersE12.Text = "E12";
+            ProductionOrdersE12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE13
+            // 
+            ProductionOrdersE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE13.Location = new Point(198, 230);
+            ProductionOrdersE13.Name = "ProductionOrdersE13";
+            ProductionOrdersE13.Size = new Size(69, 20);
+            ProductionOrdersE13.TabIndex = 140;
+            ProductionOrdersE13.Text = "E13";
+            ProductionOrdersE13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE14
+            // 
+            ProductionOrdersE14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE14.Location = new Point(198, 250);
+            ProductionOrdersE14.Name = "ProductionOrdersE14";
+            ProductionOrdersE14.Size = new Size(69, 20);
+            ProductionOrdersE14.TabIndex = 141;
+            ProductionOrdersE14.Text = "E14";
+            ProductionOrdersE14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE15
+            // 
+            ProductionOrdersE15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE15.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE15.Location = new Point(198, 270);
+            ProductionOrdersE15.Name = "ProductionOrdersE15";
+            ProductionOrdersE15.Size = new Size(69, 20);
+            ProductionOrdersE15.TabIndex = 142;
+            ProductionOrdersE15.Text = "E15";
+            ProductionOrdersE15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE16
+            // 
+            ProductionOrdersE16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE16.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE16.Location = new Point(198, 290);
+            ProductionOrdersE16.Name = "ProductionOrdersE16";
+            ProductionOrdersE16.Size = new Size(69, 20);
+            ProductionOrdersE16.TabIndex = 143;
+            ProductionOrdersE16.Text = "E16";
+            ProductionOrdersE16.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE17
+            // 
+            ProductionOrdersE17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE17.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE17.Location = new Point(198, 310);
+            ProductionOrdersE17.Name = "ProductionOrdersE17";
+            ProductionOrdersE17.Size = new Size(69, 20);
+            ProductionOrdersE17.TabIndex = 144;
+            ProductionOrdersE17.Text = "E17";
+            ProductionOrdersE17.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE18
+            // 
+            ProductionOrdersE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE18.Location = new Point(198, 330);
+            ProductionOrdersE18.Name = "ProductionOrdersE18";
+            ProductionOrdersE18.Size = new Size(69, 20);
+            ProductionOrdersE18.TabIndex = 145;
+            ProductionOrdersE18.Text = "E18";
+            ProductionOrdersE18.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE19
+            // 
+            ProductionOrdersE19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE19.Location = new Point(198, 350);
+            ProductionOrdersE19.Name = "ProductionOrdersE19";
+            ProductionOrdersE19.Size = new Size(69, 20);
+            ProductionOrdersE19.TabIndex = 146;
+            ProductionOrdersE19.Text = "E19";
+            ProductionOrdersE19.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE20
+            // 
+            ProductionOrdersE20.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE20.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE20.Location = new Point(198, 370);
+            ProductionOrdersE20.Name = "ProductionOrdersE20";
+            ProductionOrdersE20.Size = new Size(69, 20);
+            ProductionOrdersE20.TabIndex = 147;
+            ProductionOrdersE20.Text = "E20";
+            ProductionOrdersE20.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE26
+            // 
+            ProductionOrdersE26.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE26.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE26.Location = new Point(198, 390);
+            ProductionOrdersE26.Name = "ProductionOrdersE26";
+            ProductionOrdersE26.Size = new Size(69, 20);
+            ProductionOrdersE26.TabIndex = 148;
+            ProductionOrdersE26.Text = "E26";
+            ProductionOrdersE26.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE49
+            // 
+            ProductionOrdersE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE49.Location = new Point(198, 410);
+            ProductionOrdersE49.Name = "ProductionOrdersE49";
+            ProductionOrdersE49.Size = new Size(69, 20);
+            ProductionOrdersE49.TabIndex = 149;
+            ProductionOrdersE49.Text = "E49";
+            ProductionOrdersE49.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE54
+            // 
+            ProductionOrdersE54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE54.Location = new Point(198, 430);
+            ProductionOrdersE54.Name = "ProductionOrdersE54";
+            ProductionOrdersE54.Size = new Size(69, 20);
+            ProductionOrdersE54.TabIndex = 150;
+            ProductionOrdersE54.Text = "E54";
+            ProductionOrdersE54.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE29
+            // 
+            ProductionOrdersE29.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE29.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE29.Location = new Point(198, 450);
+            ProductionOrdersE29.Name = "ProductionOrdersE29";
+            ProductionOrdersE29.Size = new Size(69, 20);
+            ProductionOrdersE29.TabIndex = 151;
+            ProductionOrdersE29.Text = "E29";
+            ProductionOrdersE29.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE50
+            // 
+            ProductionOrdersE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE50.Location = new Point(198, 470);
+            ProductionOrdersE50.Name = "ProductionOrdersE50";
+            ProductionOrdersE50.Size = new Size(69, 20);
+            ProductionOrdersE50.TabIndex = 152;
+            ProductionOrdersE50.Text = "E50";
+            ProductionOrdersE50.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE55
+            // 
+            ProductionOrdersE55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE55.Location = new Point(198, 490);
+            ProductionOrdersE55.Name = "ProductionOrdersE55";
+            ProductionOrdersE55.Size = new Size(69, 20);
+            ProductionOrdersE55.TabIndex = 153;
+            ProductionOrdersE55.Text = "E55";
+            ProductionOrdersE55.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE30
+            // 
+            ProductionOrdersE30.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE30.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE30.Location = new Point(198, 510);
+            ProductionOrdersE30.Name = "ProductionOrdersE30";
+            ProductionOrdersE30.Size = new Size(69, 20);
+            ProductionOrdersE30.TabIndex = 154;
+            ProductionOrdersE30.Text = "E30";
+            ProductionOrdersE30.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE51
+            // 
+            ProductionOrdersE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE51.Location = new Point(198, 530);
+            ProductionOrdersE51.Name = "ProductionOrdersE51";
+            ProductionOrdersE51.Size = new Size(69, 20);
+            ProductionOrdersE51.TabIndex = 155;
+            ProductionOrdersE51.Text = "E51";
+            ProductionOrdersE51.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE56
+            // 
+            ProductionOrdersE56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE56.Location = new Point(198, 550);
+            ProductionOrdersE56.Name = "ProductionOrdersE56";
+            ProductionOrdersE56.Size = new Size(69, 20);
+            ProductionOrdersE56.TabIndex = 156;
+            ProductionOrdersE56.Text = "E56";
+            ProductionOrdersE56.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE31
+            // 
+            ProductionOrdersE31.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE31.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE31.Location = new Point(198, 570);
+            ProductionOrdersE31.Name = "ProductionOrdersE31";
+            ProductionOrdersE31.Size = new Size(69, 20);
+            ProductionOrdersE31.TabIndex = 157;
+            ProductionOrdersE31.Text = "E31";
+            ProductionOrdersE31.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersP1
+            // 
+            ProductionOrdersP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersP1.Location = new Point(198, 590);
+            ProductionOrdersP1.Name = "ProductionOrdersP1";
+            ProductionOrdersP1.Size = new Size(69, 20);
+            ProductionOrdersP1.TabIndex = 158;
+            ProductionOrdersP1.Text = "P1";
+            ProductionOrdersP1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersP2
+            // 
+            ProductionOrdersP2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersP2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersP2.Location = new Point(198, 610);
+            ProductionOrdersP2.Name = "ProductionOrdersP2";
+            ProductionOrdersP2.Size = new Size(69, 20);
+            ProductionOrdersP2.TabIndex = 159;
+            ProductionOrdersP2.Text = "P2";
+            ProductionOrdersP2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersP3
+            // 
+            ProductionOrdersP3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersP3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersP3.Location = new Point(198, 630);
+            ProductionOrdersP3.Name = "ProductionOrdersP3";
+            ProductionOrdersP3.Size = new Size(69, 20);
+            ProductionOrdersP3.TabIndex = 160;
+            ProductionOrdersP3.Text = "P3";
+            ProductionOrdersP3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(172, 25);
+            label1.TabIndex = 7;
+            label1.Text = "Capacity Planning";
+            // 
+            // switchPurchasePartDisposition
+            // 
+            switchPurchasePartDisposition.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            switchPurchasePartDisposition.Location = new Point(1397, 829);
+            switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
+            switchPurchasePartDisposition.Size = new Size(75, 23);
+            switchPurchasePartDisposition.TabIndex = 10;
+            switchPurchasePartDisposition.Text = "Next";
+            switchPurchasePartDisposition.UseVisualStyleBackColor = true;
+            switchPurchasePartDisposition.Click += switchPurchasePartDisposition_Click;
+            // 
+            // switchMaterialP3
+            // 
+            switchMaterialP3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            switchMaterialP3.Location = new Point(12, 829);
+            switchMaterialP3.Name = "switchMaterialP3";
+            switchMaterialP3.Size = new Size(75, 23);
+            switchMaterialP3.TabIndex = 9;
+            switchMaterialP3.Text = "Back";
+            switchMaterialP3.UseVisualStyleBackColor = true;
+            switchMaterialP3.Click += switchMaterialP3_Click;
+            // 
             // CapacityPlanning
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1111,5 +1501,35 @@
         private Label label65;
         private Label label66;
         private Label label67;
+        private Label ProductionOrdersE4;
+        private Label ProductionOrdersE5;
+        private Label ProductionOrdersE6;
+        private Label ProductionOrdersE7;
+        private Label ProductionOrdersE8;
+        private Label ProductionOrdersE9;
+        private Label ProductionOrdersE10;
+        private Label ProductionOrdersE11;
+        private Label ProductionOrdersE12;
+        private Label ProductionOrdersE13;
+        private Label ProductionOrdersE14;
+        private Label ProductionOrdersE15;
+        private Label ProductionOrdersE16;
+        private Label ProductionOrdersE17;
+        private Label ProductionOrdersE18;
+        private Label ProductionOrdersE19;
+        private Label ProductionOrdersE20;
+        private Label ProductionOrdersE26;
+        private Label ProductionOrdersE49;
+        private Label ProductionOrdersE54;
+        private Label ProductionOrdersE29;
+        private Label ProductionOrdersE50;
+        private Label ProductionOrdersE55;
+        private Label ProductionOrdersE30;
+        private Label ProductionOrdersE51;
+        private Label ProductionOrdersE56;
+        private Label ProductionOrdersE31;
+        private Label ProductionOrdersP1;
+        private Label ProductionOrdersP2;
+        private Label ProductionOrdersP3;
     }
 }
