@@ -205,6 +205,7 @@
             PlannedE261 = new NumericUpDown();
             SellwishP1 = new Label();
             label14 = new Label();
+            switchMaterialP1 = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)PlannedE18).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PlannedE13).BeginInit();
@@ -461,6 +462,7 @@
             PlannedE18.TabIndex = 207;
             PlannedE18.TextAlign = HorizontalAlignment.Center;
             PlannedE18.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE18.ValueChanged += CalculateTable;
             // 
             // PlannedE13
             // 
@@ -473,6 +475,7 @@
             PlannedE13.TabIndex = 206;
             PlannedE13.TextAlign = HorizontalAlignment.Center;
             PlannedE13.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE13.ValueChanged += CalculateTable;
             // 
             // PlannedE7
             // 
@@ -485,6 +488,7 @@
             PlannedE7.TabIndex = 205;
             PlannedE7.TextAlign = HorizontalAlignment.Center;
             PlannedE7.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE7.ValueChanged += CalculateTable;
             // 
             // PlannedE49
             // 
@@ -497,6 +501,7 @@
             PlannedE49.TabIndex = 204;
             PlannedE49.TextAlign = HorizontalAlignment.Center;
             PlannedE49.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE49.ValueChanged += CalculateTable;
             // 
             // PlannedE10
             // 
@@ -509,6 +514,7 @@
             PlannedE10.TabIndex = 203;
             PlannedE10.TextAlign = HorizontalAlignment.Center;
             PlannedE10.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE10.ValueChanged += CalculateTable;
             // 
             // PlannedE4
             // 
@@ -521,6 +527,7 @@
             PlannedE4.TabIndex = 202;
             PlannedE4.TextAlign = HorizontalAlignment.Center;
             PlannedE4.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE4.ValueChanged += CalculateTable;
             // 
             // PlannedE50
             // 
@@ -533,6 +540,7 @@
             PlannedE50.TabIndex = 201;
             PlannedE50.TextAlign = HorizontalAlignment.Center;
             PlannedE50.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE50.ValueChanged += CalculateTable;
             // 
             // PlannedE171
             // 
@@ -545,6 +553,7 @@
             PlannedE171.TabIndex = 200;
             PlannedE171.TextAlign = HorizontalAlignment.Center;
             PlannedE171.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE171.ValueChanged += CalculateTable;
             // 
             // PlannedE161
             // 
@@ -557,6 +566,7 @@
             PlannedE161.TabIndex = 199;
             PlannedE161.TextAlign = HorizontalAlignment.Center;
             PlannedE161.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE161.ValueChanged += CalculateTable;
             // 
             // PlannedE51
             // 
@@ -569,6 +579,7 @@
             PlannedE51.TabIndex = 198;
             PlannedE51.TextAlign = HorizontalAlignment.Center;
             PlannedE51.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE51.ValueChanged += CalculateTable;
             // 
             // ProductionOrdersE18
             // 
@@ -2376,6 +2387,7 @@
             PlannedE261.TabIndex = 100;
             PlannedE261.TextAlign = HorizontalAlignment.Center;
             PlannedE261.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE261.ValueChanged += CalculateTable;
             // 
             // SellwishP1
             // 
@@ -2399,11 +2411,24 @@
             label14.Text = "+";
             label14.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // switchMaterialP1
+            // 
+            switchMaterialP1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            switchMaterialP1.Enabled = false;
+            switchMaterialP1.Location = new Point(1370, 727);
+            switchMaterialP1.Name = "switchMaterialP1";
+            switchMaterialP1.Size = new Size(75, 23);
+            switchMaterialP1.TabIndex = 8;
+            switchMaterialP1.Text = "Next";
+            switchMaterialP1.UseVisualStyleBackColor = true;
+            switchMaterialP1.Click += switchMaterialP1_Click;
+            // 
             // MaterialPlanning
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1457, 762);
+            Controls.Add(switchMaterialP1);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
             Controls.Add(switchToLieferProdProg);
@@ -2606,5 +2631,6 @@
         private NumericUpDown PlannedE171;
         private NumericUpDown PlannedE161;
         private NumericUpDown PlannedE51;
+        private Button switchMaterialP1;
     }
 }

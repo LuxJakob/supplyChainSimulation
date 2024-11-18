@@ -17,6 +17,7 @@ namespace supplyChainSimulation
         public static XElement warehousestockX;
         public static XElement waitinglistworkstationsX;
         public static XElement ordersinworkX;
+        public static IEnumerable<XElement> waitinglistProductsX;
 
         // Upload variables
 
@@ -40,6 +41,17 @@ namespace supplyChainSimulation
 
         // MaterialPlanning variables
         public static Dictionary<int, int> warehousestock = new Dictionary<int, int>();
+        public static Dictionary<int, int> ordersinwork = new Dictionary<int, int>();
+        public static Dictionary<int, int> waitinglistProducts = new Dictionary<int, int>();
 
+        // variables
+        public static Dictionary<int, int> waitinglistworkstations = new Dictionary<int, int>();
+
+        // public methods
+        public static void AssignQueueValue(Label label, Dictionary<int, int> dictionary, int key)
+        {
+            int value = dictionary.TryGetValue(key, out int foundValue) ? foundValue : 0;
+            label.Text = value.ToString();
+        }
     }
 }
