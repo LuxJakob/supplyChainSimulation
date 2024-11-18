@@ -3266,6 +3266,7 @@
             setupTimeNew1.TabIndex = 177;
             setupTimeNew1.TextAlign = HorizontalAlignment.Center;
             setupTimeNew1.Value = new decimal(new int[] { 60, 0, 0, 0 });
+            setupTimeNew1.ValueChanged += CalculateTable;
             // 
             // label1
             // 
@@ -3310,6 +3311,7 @@
             setupTimeNew2.TabIndex = 177;
             setupTimeNew2.TextAlign = HorizontalAlignment.Center;
             setupTimeNew2.Value = new decimal(new int[] { 80, 0, 0, 0 });
+            setupTimeNew2.ValueChanged += CalculateTable;
             // 
             // setupTimeNew3
             // 
@@ -3322,6 +3324,7 @@
             setupTimeNew3.TabIndex = 177;
             setupTimeNew3.TextAlign = HorizontalAlignment.Center;
             setupTimeNew3.Value = new decimal(new int[] { 60, 0, 0, 0 });
+            setupTimeNew3.ValueChanged += CalculateTable;
             // 
             // setupTimeNew4
             // 
@@ -3334,6 +3337,7 @@
             setupTimeNew4.TabIndex = 177;
             setupTimeNew4.TextAlign = HorizontalAlignment.Center;
             setupTimeNew4.Value = new decimal(new int[] { 80, 0, 0, 0 });
+            setupTimeNew4.ValueChanged += CalculateTable;
             // 
             // setupTimeNew6
             // 
@@ -3346,6 +3350,7 @@
             setupTimeNew6.TabIndex = 177;
             setupTimeNew6.TextAlign = HorizontalAlignment.Center;
             setupTimeNew6.Value = new decimal(new int[] { 60, 0, 0, 0 });
+            setupTimeNew6.ValueChanged += CalculateTable;
             // 
             // setupTimeNew7
             // 
@@ -3358,6 +3363,7 @@
             setupTimeNew7.TabIndex = 177;
             setupTimeNew7.TextAlign = HorizontalAlignment.Center;
             setupTimeNew7.Value = new decimal(new int[] { 210, 0, 0, 0 });
+            setupTimeNew7.ValueChanged += CalculateTable;
             // 
             // setupTimeNew8
             // 
@@ -3370,6 +3376,7 @@
             setupTimeNew8.TabIndex = 177;
             setupTimeNew8.TextAlign = HorizontalAlignment.Center;
             setupTimeNew8.Value = new decimal(new int[] { 155, 0, 0, 0 });
+            setupTimeNew8.ValueChanged += CalculateTable;
             // 
             // setupTimeNew9
             // 
@@ -3382,6 +3389,7 @@
             setupTimeNew9.TabIndex = 177;
             setupTimeNew9.TextAlign = HorizontalAlignment.Center;
             setupTimeNew9.Value = new decimal(new int[] { 140, 0, 0, 0 });
+            setupTimeNew9.ValueChanged += CalculateTable;
             // 
             // setupTimeNew10
             // 
@@ -3394,6 +3402,7 @@
             setupTimeNew10.TabIndex = 177;
             setupTimeNew10.TextAlign = HorizontalAlignment.Center;
             setupTimeNew10.Value = new decimal(new int[] { 120, 0, 0, 0 });
+            setupTimeNew10.ValueChanged += CalculateTable;
             // 
             // setupTimeNew11
             // 
@@ -3406,6 +3415,7 @@
             setupTimeNew11.TabIndex = 177;
             setupTimeNew11.TextAlign = HorizontalAlignment.Center;
             setupTimeNew11.Value = new decimal(new int[] { 80, 0, 0, 0 });
+            setupTimeNew11.ValueChanged += CalculateTable;
             // 
             // setupTimeNew12
             // 
@@ -3417,6 +3427,7 @@
             setupTimeNew12.Size = new Size(69, 23);
             setupTimeNew12.TabIndex = 177;
             setupTimeNew12.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew12.ValueChanged += CalculateTable;
             // 
             // setupTimeNew13
             // 
@@ -3428,6 +3439,7 @@
             setupTimeNew13.Size = new Size(69, 23);
             setupTimeNew13.TabIndex = 177;
             setupTimeNew13.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew13.ValueChanged += CalculateTable;
             // 
             // setupTimeNew14
             // 
@@ -3439,6 +3451,7 @@
             setupTimeNew14.Size = new Size(69, 23);
             setupTimeNew14.TabIndex = 177;
             setupTimeNew14.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew14.ValueChanged += CalculateTable;
             // 
             // setupTimeNew15
             // 
@@ -3451,6 +3464,7 @@
             setupTimeNew15.TabIndex = 177;
             setupTimeNew15.TextAlign = HorizontalAlignment.Center;
             setupTimeNew15.Value = new decimal(new int[] { 30, 0, 0, 0 });
+            setupTimeNew15.ValueChanged += CalculateTable;
             // 
             // CapacityPlanning
             // 

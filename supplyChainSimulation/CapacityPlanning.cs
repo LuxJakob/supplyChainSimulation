@@ -237,6 +237,36 @@ namespace supplyChainSimulation
             newCapacityReq13.Text = addCapacityRequirements[13].ToString();
             newCapacityReq14.Text = addCapacityRequirements[14].ToString();
             newCapacityReq15.Text = addCapacityRequirements[15].ToString();
+
+            capacityRequirementsBacklog1.Text = waitinglistworkstations[1].ToString();
+            capacityRequirementsBacklog2.Text = waitinglistworkstations[2].ToString();
+            capacityRequirementsBacklog3.Text = waitinglistworkstations[3].ToString();
+            capacityRequirementsBacklog4.Text = waitinglistworkstations[4].ToString();
+            capacityRequirementsBacklog6.Text = waitinglistworkstations[6].ToString();
+            capacityRequirementsBacklog7.Text = waitinglistworkstations[7].ToString();
+            capacityRequirementsBacklog8.Text = waitinglistworkstations[8].ToString();
+            capacityRequirementsBacklog9.Text = waitinglistworkstations[9].ToString();
+            capacityRequirementsBacklog10.Text = waitinglistworkstations[10].ToString();
+            capacityRequirementsBacklog11.Text = waitinglistworkstations[11].ToString();
+            capacityRequirementsBacklog12.Text = waitinglistworkstations[12].ToString();
+            capacityRequirementsBacklog13.Text = waitinglistworkstations[13].ToString();
+            capacityRequirementsBacklog14.Text = waitinglistworkstations[14].ToString();
+            capacityRequirementsBacklog15.Text = waitinglistworkstations[15].ToString();
+
+            AssignValue(setupTimeBacklog1, setupTimeBacklog, 1);
+            AssignValue(setupTimeBacklog2, setupTimeBacklog, 2);
+            AssignValue(setupTimeBacklog3, setupTimeBacklog, 3);
+            AssignValue(setupTimeBacklog4, setupTimeBacklog, 4);
+            AssignValue(setupTimeBacklog6, setupTimeBacklog, 6);
+            AssignValue(setupTimeBacklog7, setupTimeBacklog, 7);
+            AssignValue(setupTimeBacklog8, setupTimeBacklog, 8);
+            AssignValue(setupTimeBacklog9, setupTimeBacklog, 9);
+            AssignValue(setupTimeBacklog10, setupTimeBacklog, 10);
+            AssignValue(setupTimeBacklog11, setupTimeBacklog, 11);
+            AssignValue(setupTimeBacklog12, setupTimeBacklog, 12);
+            AssignValue(setupTimeBacklog13, setupTimeBacklog, 13);
+            AssignValue(setupTimeBacklog14, setupTimeBacklog, 14);
+            AssignValue(setupTimeBacklog15, setupTimeBacklog, 15);
         }
     }
 }

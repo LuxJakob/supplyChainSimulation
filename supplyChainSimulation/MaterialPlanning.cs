@@ -36,11 +36,11 @@ namespace supplyChainSimulation
                     warehousestock[id] = amount;
                 }
 
-                foreach (var workplace in waitinglistworkstationsX.Elements("waitinglistworkstations"))
+                foreach (var workplace in waitinglistworkstationsX.Elements("workplace"))
                 {
-                    int id = int.Parse(workplace.Attribute("id").Value);
-                    int amount = int.Parse(workplace.Attribute("amount").Value);
-                    waitinglistworkstations[id] = amount;
+                    int id = int.Parse(workplace.Attribute("id")?.Value ?? "0");
+                    int timeneed = int.Parse(workplace.Attribute("timeneed")?.Value ?? "0");
+                    waitinglistworkstations[id] = timeneed;
                 }
 
                 waitinglistProductsX = waitinglistworkstationsX.Descendants("waitinglist");
@@ -53,10 +53,12 @@ namespace supplyChainSimulation
                     if (waitinglistProducts.ContainsKey(item))
                     {
                         waitinglistProducts[item] += amount;
+                        setupTimeBacklog[item] += 1;
                     }
                     else
                     {
                         waitinglistProducts[item] = amount;
+                        setupTimeBacklog[item] = 1;
                     }
                 }
 
