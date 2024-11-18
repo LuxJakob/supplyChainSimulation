@@ -72,7 +72,53 @@ namespace supplyChainSimulation
 
         private void CalculateTable(object sender = null, EventArgs e = null)
         {
+            SellwishE262.Text = ProductionOrdersP2.Text;
+            SellwishE56.Text = ProductionOrdersP2.Text;
+            SuccessorQueueE262.Text = OrdersQueueP2.Text;
+            SuccessorQueueE56.Text = OrdersQueueP2.Text;
+            productionOrders[262] = ((productionOrders[2] + ordersinwork[2] + (int)PlannedE262.Value) - (inventoryE262Value + orderqueue262 + ordersinwork262));
+            productionOrders[56] = (productionOrders[2] + ordersinwork[2] + (int)PlannedE56.Value) - (warehousestock[56] + waitinglistProducts[56] + ordersinwork[56]);
+            UpdateLabelValue(ProductionOrdersE262, productionOrders[262]);
+            UpdateLabelValue(ProductionOrdersE56, productionOrders[56]);
 
+            SellwishE162.Text = ProductionOrdersE56.Text;
+            SellwishE172.Text = ProductionOrdersE56.Text;
+            SellwishE55.Text = ProductionOrdersE56.Text;
+            SuccessorQueueE162.Text = OrdersQueueE56.Text;
+            SuccessorQueueE172.Text = OrdersQueueE56.Text;
+            SuccessorQueueE55.Text = OrdersQueueE56.Text;
+            productionOrders[162] = ((productionOrders[56] + ordersinwork[56] + (int)PlannedE162.Value) - (inventoryE162Value + orderqueue162 + ordersinwork162));
+            productionOrders[172] = ((productionOrders[56] + ordersinwork[56] + (int)PlannedE172.Value) - (inventoryE172Value + orderqueue172 + ordersinwork172));
+            productionOrders[55] = (productionOrders[56] + ordersinwork[56] + (int)PlannedE55.Value) - (warehousestock[55] + waitinglistProducts[55] + ordersinwork[55]);
+            UpdateLabelValue(ProductionOrdersE162, productionOrders[162]);
+            UpdateLabelValue(ProductionOrdersE172, productionOrders[172]);
+            UpdateLabelValue(ProductionOrdersE55, productionOrders[55]);
+
+            SellwishE5.Text = ProductionOrdersE55.Text;
+            SellwishE11.Text = ProductionOrdersE55.Text;
+            SellwishE54.Text = ProductionOrdersE55.Text;
+            SuccessorQueueE5.Text = OrdersQueueE55.Text;
+            SuccessorQueueE11.Text = OrdersQueueE55.Text;
+            SuccessorQueueE54.Text = OrdersQueueE55.Text;
+            productionOrders[5] = ((productionOrders[55] + ordersinwork[55] + (int)PlannedE5.Value) - (warehousestock[5] + waitinglistProducts[5] + ordersinwork[5]));
+            productionOrders[11] = ((productionOrders[55] + ordersinwork[55] + (int)PlannedE11.Value) - (warehousestock[11] + waitinglistProducts[11] + ordersinwork[11]));
+            productionOrders[54] = (productionOrders[55] + ordersinwork[55] + (int)PlannedE54.Value) - (warehousestock[54] + waitinglistProducts[54] + ordersinwork[54]);
+            UpdateLabelValue(ProductionOrdersE5, productionOrders[5]);
+            UpdateLabelValue(ProductionOrdersE11, productionOrders[11]);
+            UpdateLabelValue(ProductionOrdersE54, productionOrders[54]);
+
+            SellwishE8.Text = ProductionOrdersE54.Text;
+            SellwishE14.Text = ProductionOrdersE54.Text;
+            SellwishE19.Text = ProductionOrdersE54.Text;
+            SuccessorQueueE8.Text = OrdersQueueE54.Text;
+            SuccessorQueueE14.Text = OrdersQueueE54.Text;
+            SuccessorQueueE19.Text = OrdersQueueE54.Text;
+            productionOrders[8] = ((productionOrders[54] + ordersinwork[54] + (int)PlannedE8.Value) - (warehousestock[8] + waitinglistProducts[8] + ordersinwork[8]));
+            productionOrders[14] = ((productionOrders[54] + ordersinwork[54] + (int)PlannedE14.Value) - (warehousestock[14] + waitinglistProducts[14] + ordersinwork[14]));
+            productionOrders[19] = (productionOrders[54] + ordersinwork[54] + (int)PlannedE19.Value) - (warehousestock[19] + waitinglistProducts[19] + ordersinwork[19]);
+            UpdateLabelValue(ProductionOrdersE8, productionOrders[8]);
+            UpdateLabelValue(ProductionOrdersE14, productionOrders[14]);
+            UpdateLabelValue(ProductionOrdersE19, productionOrders[19]);
         }
 
         private void switchMaterialP1_Click(object sender, EventArgs e)
