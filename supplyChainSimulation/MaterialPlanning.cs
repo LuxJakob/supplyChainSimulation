@@ -71,11 +71,15 @@ namespace supplyChainSimulation
                 }
             }
 
+            inventoryE261Value =(int)Math.Round((decimal)(warehousestock[26] / 3));
+            inventoryE161Value = (int)Math.Round((decimal)(warehousestock[16] / 3));
+            inventoryE171Value = (int)Math.Round((decimal)(warehousestock[17] / 3));
+
             InventoryP1.Text = warehousestock[1].ToString();
-            InventoryE261.Text = warehousestock[26].ToString();
+            InventoryE261.Text = inventoryE261Value.ToString(); // shared component
             InventoryE51.Text = warehousestock[51].ToString();
-            InventoryE161.Text = warehousestock[16].ToString();
-            InventoryE171.Text = warehousestock[17].ToString();
+            InventoryE161.Text = inventoryE161Value.ToString(); // shared component
+            InventoryE171.Text = inventoryE171Value.ToString(); // shared component
             InventoryE50.Text = warehousestock[50].ToString();
             InventoryE4.Text = warehousestock[4].ToString();
             InventoryE10.Text = warehousestock[10].ToString();
@@ -84,35 +88,36 @@ namespace supplyChainSimulation
             InventoryE13.Text = warehousestock[13].ToString();
             InventoryE18.Text = warehousestock[18].ToString();
 
-            AssignQueueValue(OrdersQueueP1, waitinglistProducts, 1);
-            AssignQueueValue(OrdersQueueE261, waitinglistProducts, 26);
-            AssignQueueValue(OrdersQueueE51, waitinglistProducts, 51);
-            AssignQueueValue(OrdersQueueE161, waitinglistProducts, 16);
-            AssignQueueValue(OrdersQueueE171, waitinglistProducts, 17);
-            AssignQueueValue(OrdersQueueE50, waitinglistProducts, 50);
-            AssignQueueValue(OrdersQueueE4, waitinglistProducts, 4);
-            AssignQueueValue(OrdersQueueE10, waitinglistProducts, 10);
-            AssignQueueValue(OrdersQueueE49, waitinglistProducts, 49);
-            AssignQueueValue(OrdersQueueE7, waitinglistProducts, 7);
-            AssignQueueValue(OrdersQueueE13, waitinglistProducts, 13);
-            AssignQueueValue(OrdersQueueE18, waitinglistProducts, 18);
+            AssignValue(OrdersQueueP1, waitinglistProducts, 1);
+            int orderqueue261 = AssignSharedValue(OrdersQueueE261, waitinglistProducts, 26);
+            AssignValue(OrdersQueueE51, waitinglistProducts, 51);
+            int orderqueue161 = AssignSharedValue(OrdersQueueE161, waitinglistProducts, 16);
+            int orderqueue171 = AssignSharedValue(OrdersQueueE171, waitinglistProducts, 17);
+            AssignValue(OrdersQueueE50, waitinglistProducts, 50);
+            AssignValue(OrdersQueueE4, waitinglistProducts, 4);
+            AssignValue(OrdersQueueE10, waitinglistProducts, 10);
+            AssignValue(OrdersQueueE49, waitinglistProducts, 49);
+            AssignValue(OrdersQueueE7, waitinglistProducts, 7);
+            AssignValue(OrdersQueueE13, waitinglistProducts, 13);
+            AssignValue(OrdersQueueE18, waitinglistProducts, 18);
 
-            AssignQueueValue(OrdersProgressP1, ordersinwork, 1);
-            AssignQueueValue(OrdersProgressE261, ordersinwork, 26);
-            AssignQueueValue(OrdersProgressE51, ordersinwork, 51);
-            AssignQueueValue(OrdersProgressE161, ordersinwork, 16);
-            AssignQueueValue(OrdersProgressE171, ordersinwork, 17);
-            AssignQueueValue(OrdersProgressE50, ordersinwork, 50);
-            AssignQueueValue(OrdersProgressE4, ordersinwork, 4);
-            AssignQueueValue(OrdersProgressE10, ordersinwork, 10);
-            AssignQueueValue(OrdersProgressE49, ordersinwork, 49);
-            AssignQueueValue(OrdersProgressE7, ordersinwork, 7);
-            AssignQueueValue(OrdersProgressE13, ordersinwork, 13);
-            AssignQueueValue(OrdersProgressE18, ordersinwork, 18);
+            AssignValue(OrdersProgressP1, ordersinwork, 1);
+            int ordersinwork261 = AssignSharedValue(OrdersProgressE261, ordersinwork, 26);
+            AssignValue(OrdersProgressE51, ordersinwork, 51);
+            int ordersinwork161 = AssignSharedValue(OrdersProgressE161, ordersinwork, 16);
+            int ordersinwork171 = AssignSharedValue(OrdersProgressE171, ordersinwork, 17);
+            AssignValue(OrdersProgressE50, ordersinwork, 50);
+            AssignValue(OrdersProgressE4, ordersinwork, 4);
+            AssignValue(OrdersProgressE10, ordersinwork, 10);
+            AssignValue(OrdersProgressE49, ordersinwork, 49);
+            AssignValue(OrdersProgressE7, ordersinwork, 7);
+            AssignValue(OrdersProgressE13, ordersinwork, 13);
+            AssignValue(OrdersProgressE18, ordersinwork, 18);
 
             SellwishP1.Text = production0[1].ToString();
             PlannedP1.Text = (production0[1] - forecast0[1] + warehousestock[1]).ToString();
-            ProductionOrdersP1.Text = (production0[1]).ToString();
+            productionOrders[1] = production0[1] - ordersinwork[1] - waitinglistProducts[1];
+            ProductionOrdersP1.Text = productionOrders[1].ToString();
 
             CalculateTable();
         }
@@ -125,6 +130,14 @@ namespace supplyChainSimulation
 
         private void CalculateTable(object sender = null, EventArgs e = null)
         {
+            SellwishE261.Text = ProductionOrdersP1.Text;
+            SellwishE51.Text = ProductionOrdersP1.Text;
+            SuccessorQueueE261.Text = OrdersProgressP1.Text;
+            SuccessorQueueE51.Text = OrdersProgressP1.Text;
+            productionOrders[261] = (productionOrders[1] + ordersinwork[1] + (int)PlannedE261.Value) - (inventoryE261Value + orderqueue261 + ordersinwork161);
+            productionOrders[51] = (productionOrders[1] + ordersinwork[1] + (int)PlannedE261.Value) - (warehousestock[51] + waitinglistProducts[51] + ordersinwork[51]);
+            ProductionOrdersE261.Text = productionOrders[261].ToString();
+            ProductionOrdersE51.Text = productionOrders[51].ToString();
 
         }
 

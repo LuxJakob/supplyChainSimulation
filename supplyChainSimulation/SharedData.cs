@@ -43,15 +43,62 @@ namespace supplyChainSimulation
         public static Dictionary<int, int> warehousestock = new Dictionary<int, int>();
         public static Dictionary<int, int> ordersinwork = new Dictionary<int, int>();
         public static Dictionary<int, int> waitinglistProducts = new Dictionary<int, int>();
+        public static Dictionary<int, int> productionOrders = new Dictionary<int, int>();
+
+        public static int inventoryE261Value;
+        public static int inventoryE161Value;
+        public static int inventoryE171Value;
+        public static int inventoryE262Value;
+        public static int inventoryE162Value;
+        public static int inventoryE172Value;
+        public static int inventoryE263Value;
+        public static int inventoryE163Value;
+        public static int inventoryE173Value;
+
+        public static int orderqueue261;
+        public static int orderqueue161;
+        public static int orderqueue171;
+        public static int orderqueue262;
+        public static int orderqueue162;
+        public static int orderqueue172;
+        public static int orderqueue263;
+        public static int orderqueue163;
+        public static int orderqueue173;
+
+        public static int ordersinwork261;
+        public static int ordersinwork161;
+        public static int ordersinwork171;
+        public static int ordersinwork262;
+        public static int ordersinwork162;
+        public static int ordersinwork172;
+        public static int ordersinwork263;
+        public static int ordersinwork163;
+        public static int ordersinwork173;
 
         // variables
         public static Dictionary<int, int> waitinglistworkstations = new Dictionary<int, int>();
 
         // public methods
-        public static void AssignQueueValue(Label label, Dictionary<int, int> dictionary, int key)
+        public static void AssignValue(Label label, Dictionary<int, int> dictionary, int key)
         {
-            int value = dictionary.TryGetValue(key, out int foundValue) ? foundValue : 0;
+            if (!dictionary.TryGetValue(key, out int value))
+            {
+                dictionary[key] = 0;
+                value = 0;
+            }
             label.Text = value.ToString();
+        }
+
+        public static int AssignSharedValue(Label label, Dictionary<int, int> dictionary, int key)
+        {
+            if (!dictionary.TryGetValue(key, out int value))
+            {
+                dictionary[key] = 0;
+                value = 0;
+            }
+            value = (int)Math.Round((decimal)(value / 3));
+            label.Text = value.ToString();
+            return (int)value;
         }
     }
 }
