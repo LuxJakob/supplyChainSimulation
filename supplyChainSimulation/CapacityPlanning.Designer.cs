@@ -126,9 +126,80 @@
             ProductionOrdersP1 = new Label();
             ProductionOrdersP2 = new Label();
             ProductionOrdersP3 = new Label();
+            workstation1_49_6 = new Label();
+            workstation1_29_6 = new Label();
+            workstation1_54_6 = new Label();
+            workstation2_50_5 = new Label();
+            workstation2_55_5 = new Label();
+            workstation2_30_5 = new Label();
+            workstation3_51_5 = new Label();
+            workstation3_56_6 = new Label();
+            workstation3_31_6 = new Label();
+            workstation4_1_6 = new Label();
+            workstation4_2_7 = new Label();
+            workstation4_3_7 = new Label();
             label1 = new Label();
             switchPurchasePartDisposition = new Button();
             switchMaterialP3 = new Button();
+            workstation6_16_2 = new Label();
+            workstation6_18_3 = new Label();
+            workstation6_19_3 = new Label();
+            workstation6_20_3 = new Label();
+            workstation7_10_2 = new Label();
+            workstation7_11_2 = new Label();
+            workstation7_12_2 = new Label();
+            workstation7_13_2 = new Label();
+            workstation7_14_2 = new Label();
+            workstation7_15_2 = new Label();
+            workstation7_18_2 = new Label();
+            workstation7_19_2 = new Label();
+            workstation7_20_2 = new Label();
+            workstation7_26_2 = new Label();
+            workstation8_10_2 = new Label();
+            workstation8_11_2 = new Label();
+            workstation8_12_2 = new Label();
+            workstation8_13_2 = new Label();
+            workstation8_14_1 = new Label();
+            workstation8_15_2 = new Label();
+            workstation8_18_3 = new Label();
+            workstation8_19_3 = new Label();
+            workstation8_20_3 = new Label();
+            workstation9_10_3 = new Label();
+            workstation9_11_3 = new Label();
+            workstation9_12_3 = new Label();
+            workstation9_13_3 = new Label();
+            workstation9_14_3 = new Label();
+            workstation9_15_3 = new Label();
+            workstation9_18_2 = new Label();
+            workstation9_19_2 = new Label();
+            workstation9_20_2 = new Label();
+            workstation10_1_4 = new Label();
+            workstation10_2_4 = new Label();
+            workstation10_3_4 = new Label();
+            workstation10_4_4 = new Label();
+            workstation10_5_4 = new Label();
+            workstation10_6_4 = new Label();
+            workstation11_1_3 = new Label();
+            workstation11_2_3 = new Label();
+            workstation11_3_3 = new Label();
+            workstation11_4_3 = new Label();
+            workstation11_5_3 = new Label();
+            workstation11_6_3 = new Label();
+            workstation12_10_3 = new Label();
+            workstation12_11_3 = new Label();
+            workstation12_12_3 = new Label();
+            workstation12_13_3 = new Label();
+            workstation12_14_3 = new Label();
+            workstation12_15_3 = new Label();
+            workstation13_10_2 = new Label();
+            workstation13_11_2 = new Label();
+            workstation13_12_2 = new Label();
+            workstation13_13_2 = new Label();
+            workstation13_14_2 = new Label();
+            workstation13_15_2 = new Label();
+            workstation14_16_3 = new Label();
+            workstation15_17_3 = new Label();
+            workstation15_26_3 = new Label();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -250,6 +321,77 @@
             tableLayoutPanel1.Controls.Add(ProductionOrdersP1, 2, 29);
             tableLayoutPanel1.Controls.Add(ProductionOrdersP2, 2, 30);
             tableLayoutPanel1.Controls.Add(ProductionOrdersP3, 2, 31);
+            tableLayoutPanel1.Controls.Add(workstation1_49_6, 3, 20);
+            tableLayoutPanel1.Controls.Add(workstation1_29_6, 3, 22);
+            tableLayoutPanel1.Controls.Add(workstation1_54_6, 3, 21);
+            tableLayoutPanel1.Controls.Add(workstation2_50_5, 4, 23);
+            tableLayoutPanel1.Controls.Add(workstation2_55_5, 4, 24);
+            tableLayoutPanel1.Controls.Add(workstation2_30_5, 4, 25);
+            tableLayoutPanel1.Controls.Add(workstation3_51_5, 5, 26);
+            tableLayoutPanel1.Controls.Add(workstation3_56_6, 5, 27);
+            tableLayoutPanel1.Controls.Add(workstation3_31_6, 5, 28);
+            tableLayoutPanel1.Controls.Add(workstation4_1_6, 6, 29);
+            tableLayoutPanel1.Controls.Add(workstation4_2_7, 6, 30);
+            tableLayoutPanel1.Controls.Add(workstation4_3_7, 6, 31);
+            tableLayoutPanel1.Controls.Add(workstation6_16_2, 8, 14);
+            tableLayoutPanel1.Controls.Add(workstation6_18_3, 8, 16);
+            tableLayoutPanel1.Controls.Add(workstation6_19_3, 8, 17);
+            tableLayoutPanel1.Controls.Add(workstation6_20_3, 8, 18);
+            tableLayoutPanel1.Controls.Add(workstation7_10_2, 9, 8);
+            tableLayoutPanel1.Controls.Add(workstation7_11_2, 9, 9);
+            tableLayoutPanel1.Controls.Add(workstation7_12_2, 9, 10);
+            tableLayoutPanel1.Controls.Add(workstation7_13_2, 9, 11);
+            tableLayoutPanel1.Controls.Add(workstation7_14_2, 9, 12);
+            tableLayoutPanel1.Controls.Add(workstation7_15_2, 9, 13);
+            tableLayoutPanel1.Controls.Add(workstation7_18_2, 9, 16);
+            tableLayoutPanel1.Controls.Add(workstation7_19_2, 9, 17);
+            tableLayoutPanel1.Controls.Add(workstation7_20_2, 9, 18);
+            tableLayoutPanel1.Controls.Add(workstation7_26_2, 9, 19);
+            tableLayoutPanel1.Controls.Add(workstation8_10_2, 10, 8);
+            tableLayoutPanel1.Controls.Add(workstation8_11_2, 10, 9);
+            tableLayoutPanel1.Controls.Add(workstation8_12_2, 10, 10);
+            tableLayoutPanel1.Controls.Add(workstation8_13_2, 10, 11);
+            tableLayoutPanel1.Controls.Add(workstation8_14_1, 10, 12);
+            tableLayoutPanel1.Controls.Add(workstation8_15_2, 10, 13);
+            tableLayoutPanel1.Controls.Add(workstation8_18_3, 10, 16);
+            tableLayoutPanel1.Controls.Add(workstation8_19_3, 10, 17);
+            tableLayoutPanel1.Controls.Add(workstation8_20_3, 10, 18);
+            tableLayoutPanel1.Controls.Add(workstation9_10_3, 11, 8);
+            tableLayoutPanel1.Controls.Add(workstation9_11_3, 11, 9);
+            tableLayoutPanel1.Controls.Add(workstation9_12_3, 11, 10);
+            tableLayoutPanel1.Controls.Add(workstation9_13_3, 11, 11);
+            tableLayoutPanel1.Controls.Add(workstation9_14_3, 11, 12);
+            tableLayoutPanel1.Controls.Add(workstation9_15_3, 11, 13);
+            tableLayoutPanel1.Controls.Add(workstation9_18_2, 11, 16);
+            tableLayoutPanel1.Controls.Add(workstation9_19_2, 11, 17);
+            tableLayoutPanel1.Controls.Add(workstation9_20_2, 11, 18);
+            tableLayoutPanel1.Controls.Add(workstation10_1_4, 12, 2);
+            tableLayoutPanel1.Controls.Add(workstation10_2_4, 12, 3);
+            tableLayoutPanel1.Controls.Add(workstation10_3_4, 12, 4);
+            tableLayoutPanel1.Controls.Add(workstation10_4_4, 12, 5);
+            tableLayoutPanel1.Controls.Add(workstation10_5_4, 12, 6);
+            tableLayoutPanel1.Controls.Add(workstation10_6_4, 12, 7);
+            tableLayoutPanel1.Controls.Add(workstation11_1_3, 13, 2);
+            tableLayoutPanel1.Controls.Add(workstation11_2_3, 13, 3);
+            tableLayoutPanel1.Controls.Add(workstation11_3_3, 13, 4);
+            tableLayoutPanel1.Controls.Add(workstation11_4_3, 13, 5);
+            tableLayoutPanel1.Controls.Add(workstation11_5_3, 13, 6);
+            tableLayoutPanel1.Controls.Add(workstation11_6_3, 13, 7);
+            tableLayoutPanel1.Controls.Add(workstation12_10_3, 14, 8);
+            tableLayoutPanel1.Controls.Add(workstation12_11_3, 14, 9);
+            tableLayoutPanel1.Controls.Add(workstation12_12_3, 14, 10);
+            tableLayoutPanel1.Controls.Add(workstation12_13_3, 14, 11);
+            tableLayoutPanel1.Controls.Add(workstation12_14_3, 14, 12);
+            tableLayoutPanel1.Controls.Add(workstation12_15_3, 14, 13);
+            tableLayoutPanel1.Controls.Add(workstation13_10_2, 15, 8);
+            tableLayoutPanel1.Controls.Add(workstation13_11_2, 15, 9);
+            tableLayoutPanel1.Controls.Add(workstation13_12_2, 15, 10);
+            tableLayoutPanel1.Controls.Add(workstation13_13_2, 15, 11);
+            tableLayoutPanel1.Controls.Add(workstation13_14_2, 15, 12);
+            tableLayoutPanel1.Controls.Add(workstation13_15_2, 15, 13);
+            tableLayoutPanel1.Controls.Add(workstation14_16_3, 16, 14);
+            tableLayoutPanel1.Controls.Add(workstation15_17_3, 17, 15);
+            tableLayoutPanel1.Controls.Add(workstation15_26_3, 17, 19);
             tableLayoutPanel1.Location = new Point(12, 37);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 38;
@@ -291,7 +433,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(1460, 770);
+            tableLayoutPanel1.Size = new Size(1350, 770);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // label38
@@ -362,7 +504,7 @@
             tableLayoutPanel1.SetRowSpan(label5, 2);
             label5.Size = new Size(69, 50);
             label5.TabIndex = 111;
-            label5.Text = "Production Orders";
+            label5.Text = "Prod. Orders";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label4
@@ -395,7 +537,7 @@
             label22.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label22.Location = new Point(1278, 25);
             label22.Name = "label22";
-            label22.Size = new Size(88, 25);
+            label22.Size = new Size(69, 25);
             label22.TabIndex = 108;
             label22.Text = "15";
             label22.TextAlign = ContentAlignment.MiddleCenter;
@@ -550,7 +692,7 @@
             label79.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label79.Location = new Point(273, 0);
             label79.Name = "label79";
-            label79.Size = new Size(1184, 25);
+            label79.Size = new Size(1074, 25);
             label79.TabIndex = 87;
             label79.Text = "Workstation";
             label79.TextAlign = ContentAlignment.MiddleCenter;
@@ -1380,6 +1522,138 @@
             ProductionOrdersP3.Text = "P3";
             ProductionOrdersP3.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // workstation1_49_6
+            // 
+            workstation1_49_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation1_49_6.Font = new Font("Segoe UI", 9F);
+            workstation1_49_6.Location = new Point(273, 410);
+            workstation1_49_6.Name = "workstation1_49_6";
+            workstation1_49_6.Size = new Size(69, 20);
+            workstation1_49_6.TabIndex = 161;
+            workstation1_49_6.Text = "x6";
+            workstation1_49_6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation1_29_6
+            // 
+            workstation1_29_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation1_29_6.Font = new Font("Segoe UI", 9F);
+            workstation1_29_6.Location = new Point(273, 450);
+            workstation1_29_6.Name = "workstation1_29_6";
+            workstation1_29_6.Size = new Size(69, 20);
+            workstation1_29_6.TabIndex = 163;
+            workstation1_29_6.Text = "x6";
+            workstation1_29_6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation1_54_6
+            // 
+            workstation1_54_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation1_54_6.Font = new Font("Segoe UI", 9F);
+            workstation1_54_6.Location = new Point(273, 430);
+            workstation1_54_6.Name = "workstation1_54_6";
+            workstation1_54_6.Size = new Size(69, 20);
+            workstation1_54_6.TabIndex = 162;
+            workstation1_54_6.Text = "x6";
+            workstation1_54_6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation2_50_5
+            // 
+            workstation2_50_5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation2_50_5.Font = new Font("Segoe UI", 9F);
+            workstation2_50_5.Location = new Point(348, 470);
+            workstation2_50_5.Name = "workstation2_50_5";
+            workstation2_50_5.Size = new Size(69, 20);
+            workstation2_50_5.TabIndex = 164;
+            workstation2_50_5.Text = "x5";
+            workstation2_50_5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation2_55_5
+            // 
+            workstation2_55_5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation2_55_5.Font = new Font("Segoe UI", 9F);
+            workstation2_55_5.Location = new Point(348, 490);
+            workstation2_55_5.Name = "workstation2_55_5";
+            workstation2_55_5.Size = new Size(69, 20);
+            workstation2_55_5.TabIndex = 165;
+            workstation2_55_5.Text = "x5";
+            workstation2_55_5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation2_30_5
+            // 
+            workstation2_30_5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation2_30_5.Font = new Font("Segoe UI", 9F);
+            workstation2_30_5.Location = new Point(348, 510);
+            workstation2_30_5.Name = "workstation2_30_5";
+            workstation2_30_5.Size = new Size(69, 20);
+            workstation2_30_5.TabIndex = 166;
+            workstation2_30_5.Text = "x5";
+            workstation2_30_5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation3_51_5
+            // 
+            workstation3_51_5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation3_51_5.Font = new Font("Segoe UI", 9F);
+            workstation3_51_5.Location = new Point(423, 530);
+            workstation3_51_5.Name = "workstation3_51_5";
+            workstation3_51_5.Size = new Size(69, 20);
+            workstation3_51_5.TabIndex = 167;
+            workstation3_51_5.Text = "x5";
+            workstation3_51_5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation3_56_6
+            // 
+            workstation3_56_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation3_56_6.Font = new Font("Segoe UI", 9F);
+            workstation3_56_6.Location = new Point(423, 550);
+            workstation3_56_6.Name = "workstation3_56_6";
+            workstation3_56_6.Size = new Size(69, 20);
+            workstation3_56_6.TabIndex = 168;
+            workstation3_56_6.Text = "x6";
+            workstation3_56_6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation3_31_6
+            // 
+            workstation3_31_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation3_31_6.Font = new Font("Segoe UI", 9F);
+            workstation3_31_6.Location = new Point(423, 570);
+            workstation3_31_6.Name = "workstation3_31_6";
+            workstation3_31_6.Size = new Size(69, 20);
+            workstation3_31_6.TabIndex = 169;
+            workstation3_31_6.Text = "x6";
+            workstation3_31_6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation4_1_6
+            // 
+            workstation4_1_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation4_1_6.Font = new Font("Segoe UI", 9F);
+            workstation4_1_6.Location = new Point(498, 590);
+            workstation4_1_6.Name = "workstation4_1_6";
+            workstation4_1_6.Size = new Size(69, 20);
+            workstation4_1_6.TabIndex = 170;
+            workstation4_1_6.Text = "x6";
+            workstation4_1_6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation4_2_7
+            // 
+            workstation4_2_7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation4_2_7.Font = new Font("Segoe UI", 9F);
+            workstation4_2_7.Location = new Point(498, 610);
+            workstation4_2_7.Name = "workstation4_2_7";
+            workstation4_2_7.Size = new Size(69, 20);
+            workstation4_2_7.TabIndex = 171;
+            workstation4_2_7.Text = "x7";
+            workstation4_2_7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation4_3_7
+            // 
+            workstation4_3_7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation4_3_7.Font = new Font("Segoe UI", 9F);
+            workstation4_3_7.Location = new Point(498, 630);
+            workstation4_3_7.Name = "workstation4_3_7";
+            workstation4_3_7.Size = new Size(69, 20);
+            workstation4_3_7.TabIndex = 172;
+            workstation4_3_7.Text = "x7";
+            workstation4_3_7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -1411,6 +1685,655 @@
             switchMaterialP3.Text = "Back";
             switchMaterialP3.UseVisualStyleBackColor = true;
             switchMaterialP3.Click += switchMaterialP3_Click;
+            // 
+            // workstation6_16_2
+            // 
+            workstation6_16_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation6_16_2.Font = new Font("Segoe UI", 9F);
+            workstation6_16_2.Location = new Point(603, 290);
+            workstation6_16_2.Name = "workstation6_16_2";
+            workstation6_16_2.Size = new Size(69, 20);
+            workstation6_16_2.TabIndex = 173;
+            workstation6_16_2.Text = "x2";
+            workstation6_16_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation6_18_3
+            // 
+            workstation6_18_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation6_18_3.Font = new Font("Segoe UI", 9F);
+            workstation6_18_3.Location = new Point(603, 330);
+            workstation6_18_3.Name = "workstation6_18_3";
+            workstation6_18_3.Size = new Size(69, 20);
+            workstation6_18_3.TabIndex = 174;
+            workstation6_18_3.Text = "x3";
+            workstation6_18_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation6_19_3
+            // 
+            workstation6_19_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation6_19_3.Font = new Font("Segoe UI", 9F);
+            workstation6_19_3.Location = new Point(603, 350);
+            workstation6_19_3.Name = "workstation6_19_3";
+            workstation6_19_3.Size = new Size(69, 20);
+            workstation6_19_3.TabIndex = 174;
+            workstation6_19_3.Text = "x3";
+            workstation6_19_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation6_20_3
+            // 
+            workstation6_20_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation6_20_3.Font = new Font("Segoe UI", 9F);
+            workstation6_20_3.Location = new Point(603, 370);
+            workstation6_20_3.Name = "workstation6_20_3";
+            workstation6_20_3.Size = new Size(69, 20);
+            workstation6_20_3.TabIndex = 174;
+            workstation6_20_3.Text = "x3";
+            workstation6_20_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_10_2
+            // 
+            workstation7_10_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_10_2.Font = new Font("Segoe UI", 9F);
+            workstation7_10_2.Location = new Point(678, 170);
+            workstation7_10_2.Name = "workstation7_10_2";
+            workstation7_10_2.Size = new Size(69, 20);
+            workstation7_10_2.TabIndex = 175;
+            workstation7_10_2.Text = "x2";
+            workstation7_10_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_11_2
+            // 
+            workstation7_11_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_11_2.Font = new Font("Segoe UI", 9F);
+            workstation7_11_2.Location = new Point(678, 190);
+            workstation7_11_2.Name = "workstation7_11_2";
+            workstation7_11_2.Size = new Size(69, 20);
+            workstation7_11_2.TabIndex = 175;
+            workstation7_11_2.Text = "x2";
+            workstation7_11_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_12_2
+            // 
+            workstation7_12_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_12_2.Font = new Font("Segoe UI", 9F);
+            workstation7_12_2.Location = new Point(678, 210);
+            workstation7_12_2.Name = "workstation7_12_2";
+            workstation7_12_2.Size = new Size(69, 20);
+            workstation7_12_2.TabIndex = 175;
+            workstation7_12_2.Text = "x2";
+            workstation7_12_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_13_2
+            // 
+            workstation7_13_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_13_2.Font = new Font("Segoe UI", 9F);
+            workstation7_13_2.Location = new Point(678, 230);
+            workstation7_13_2.Name = "workstation7_13_2";
+            workstation7_13_2.Size = new Size(69, 20);
+            workstation7_13_2.TabIndex = 175;
+            workstation7_13_2.Text = "x2";
+            workstation7_13_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_14_2
+            // 
+            workstation7_14_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_14_2.Font = new Font("Segoe UI", 9F);
+            workstation7_14_2.Location = new Point(678, 250);
+            workstation7_14_2.Name = "workstation7_14_2";
+            workstation7_14_2.Size = new Size(69, 20);
+            workstation7_14_2.TabIndex = 175;
+            workstation7_14_2.Text = "x2";
+            workstation7_14_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_15_2
+            // 
+            workstation7_15_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_15_2.Font = new Font("Segoe UI", 9F);
+            workstation7_15_2.Location = new Point(678, 270);
+            workstation7_15_2.Name = "workstation7_15_2";
+            workstation7_15_2.Size = new Size(69, 20);
+            workstation7_15_2.TabIndex = 175;
+            workstation7_15_2.Text = "x2";
+            workstation7_15_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_18_2
+            // 
+            workstation7_18_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_18_2.Font = new Font("Segoe UI", 9F);
+            workstation7_18_2.Location = new Point(678, 330);
+            workstation7_18_2.Name = "workstation7_18_2";
+            workstation7_18_2.Size = new Size(69, 20);
+            workstation7_18_2.TabIndex = 175;
+            workstation7_18_2.Text = "x2";
+            workstation7_18_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_19_2
+            // 
+            workstation7_19_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_19_2.Font = new Font("Segoe UI", 9F);
+            workstation7_19_2.Location = new Point(678, 350);
+            workstation7_19_2.Name = "workstation7_19_2";
+            workstation7_19_2.Size = new Size(69, 20);
+            workstation7_19_2.TabIndex = 175;
+            workstation7_19_2.Text = "x2";
+            workstation7_19_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_20_2
+            // 
+            workstation7_20_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_20_2.Font = new Font("Segoe UI", 9F);
+            workstation7_20_2.Location = new Point(678, 370);
+            workstation7_20_2.Name = "workstation7_20_2";
+            workstation7_20_2.Size = new Size(69, 20);
+            workstation7_20_2.TabIndex = 175;
+            workstation7_20_2.Text = "x2";
+            workstation7_20_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation7_26_2
+            // 
+            workstation7_26_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation7_26_2.Font = new Font("Segoe UI", 9F);
+            workstation7_26_2.Location = new Point(678, 390);
+            workstation7_26_2.Name = "workstation7_26_2";
+            workstation7_26_2.Size = new Size(69, 20);
+            workstation7_26_2.TabIndex = 175;
+            workstation7_26_2.Text = "x2";
+            workstation7_26_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation8_10_2
+            // 
+            workstation8_10_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation8_10_2.Font = new Font("Segoe UI", 9F);
+            workstation8_10_2.Location = new Point(753, 170);
+            workstation8_10_2.Name = "workstation8_10_2";
+            workstation8_10_2.Size = new Size(69, 20);
+            workstation8_10_2.TabIndex = 175;
+            workstation8_10_2.Text = "x1";
+            workstation8_10_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation8_11_2
+            // 
+            workstation8_11_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation8_11_2.Font = new Font("Segoe UI", 9F);
+            workstation8_11_2.Location = new Point(753, 190);
+            workstation8_11_2.Name = "workstation8_11_2";
+            workstation8_11_2.Size = new Size(69, 20);
+            workstation8_11_2.TabIndex = 175;
+            workstation8_11_2.Text = "x2";
+            workstation8_11_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation8_12_2
+            // 
+            workstation8_12_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation8_12_2.Font = new Font("Segoe UI", 9F);
+            workstation8_12_2.Location = new Point(753, 210);
+            workstation8_12_2.Name = "workstation8_12_2";
+            workstation8_12_2.Size = new Size(69, 20);
+            workstation8_12_2.TabIndex = 175;
+            workstation8_12_2.Text = "x2";
+            workstation8_12_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation8_13_2
+            // 
+            workstation8_13_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation8_13_2.Font = new Font("Segoe UI", 9F);
+            workstation8_13_2.Location = new Point(753, 230);
+            workstation8_13_2.Name = "workstation8_13_2";
+            workstation8_13_2.Size = new Size(69, 20);
+            workstation8_13_2.TabIndex = 175;
+            workstation8_13_2.Text = "x2";
+            workstation8_13_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation8_14_1
+            // 
+            workstation8_14_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation8_14_1.Font = new Font("Segoe UI", 9F);
+            workstation8_14_1.Location = new Point(753, 250);
+            workstation8_14_1.Name = "workstation8_14_1";
+            workstation8_14_1.Size = new Size(69, 20);
+            workstation8_14_1.TabIndex = 175;
+            workstation8_14_1.Text = "x1";
+            workstation8_14_1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation8_15_2
+            // 
+            workstation8_15_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation8_15_2.Font = new Font("Segoe UI", 9F);
+            workstation8_15_2.Location = new Point(753, 270);
+            workstation8_15_2.Name = "workstation8_15_2";
+            workstation8_15_2.Size = new Size(69, 20);
+            workstation8_15_2.TabIndex = 175;
+            workstation8_15_2.Text = "x2";
+            workstation8_15_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation8_18_3
+            // 
+            workstation8_18_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation8_18_3.Font = new Font("Segoe UI", 9F);
+            workstation8_18_3.Location = new Point(753, 330);
+            workstation8_18_3.Name = "workstation8_18_3";
+            workstation8_18_3.Size = new Size(69, 20);
+            workstation8_18_3.TabIndex = 175;
+            workstation8_18_3.Text = "x3";
+            workstation8_18_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation8_19_3
+            // 
+            workstation8_19_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation8_19_3.Font = new Font("Segoe UI", 9F);
+            workstation8_19_3.Location = new Point(753, 350);
+            workstation8_19_3.Name = "workstation8_19_3";
+            workstation8_19_3.Size = new Size(69, 20);
+            workstation8_19_3.TabIndex = 175;
+            workstation8_19_3.Text = "x3";
+            workstation8_19_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation8_20_3
+            // 
+            workstation8_20_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation8_20_3.Font = new Font("Segoe UI", 9F);
+            workstation8_20_3.Location = new Point(753, 370);
+            workstation8_20_3.Name = "workstation8_20_3";
+            workstation8_20_3.Size = new Size(69, 20);
+            workstation8_20_3.TabIndex = 175;
+            workstation8_20_3.Text = "x3";
+            workstation8_20_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation9_10_3
+            // 
+            workstation9_10_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation9_10_3.Font = new Font("Segoe UI", 9F);
+            workstation9_10_3.Location = new Point(828, 170);
+            workstation9_10_3.Name = "workstation9_10_3";
+            workstation9_10_3.Size = new Size(69, 20);
+            workstation9_10_3.TabIndex = 175;
+            workstation9_10_3.Text = "x3";
+            workstation9_10_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation9_11_3
+            // 
+            workstation9_11_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation9_11_3.Font = new Font("Segoe UI", 9F);
+            workstation9_11_3.Location = new Point(828, 190);
+            workstation9_11_3.Name = "workstation9_11_3";
+            workstation9_11_3.Size = new Size(69, 20);
+            workstation9_11_3.TabIndex = 175;
+            workstation9_11_3.Text = "x3";
+            workstation9_11_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation9_12_3
+            // 
+            workstation9_12_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation9_12_3.Font = new Font("Segoe UI", 9F);
+            workstation9_12_3.Location = new Point(828, 210);
+            workstation9_12_3.Name = "workstation9_12_3";
+            workstation9_12_3.Size = new Size(69, 20);
+            workstation9_12_3.TabIndex = 175;
+            workstation9_12_3.Text = "x3";
+            workstation9_12_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation9_13_3
+            // 
+            workstation9_13_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation9_13_3.Font = new Font("Segoe UI", 9F);
+            workstation9_13_3.Location = new Point(828, 230);
+            workstation9_13_3.Name = "workstation9_13_3";
+            workstation9_13_3.Size = new Size(69, 20);
+            workstation9_13_3.TabIndex = 175;
+            workstation9_13_3.Text = "x3";
+            workstation9_13_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation9_14_3
+            // 
+            workstation9_14_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation9_14_3.Font = new Font("Segoe UI", 9F);
+            workstation9_14_3.Location = new Point(828, 250);
+            workstation9_14_3.Name = "workstation9_14_3";
+            workstation9_14_3.Size = new Size(69, 20);
+            workstation9_14_3.TabIndex = 175;
+            workstation9_14_3.Text = "x3";
+            workstation9_14_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation9_15_3
+            // 
+            workstation9_15_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation9_15_3.Font = new Font("Segoe UI", 9F);
+            workstation9_15_3.Location = new Point(828, 270);
+            workstation9_15_3.Name = "workstation9_15_3";
+            workstation9_15_3.Size = new Size(69, 20);
+            workstation9_15_3.TabIndex = 175;
+            workstation9_15_3.Text = "x3";
+            workstation9_15_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation9_18_2
+            // 
+            workstation9_18_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation9_18_2.Font = new Font("Segoe UI", 9F);
+            workstation9_18_2.Location = new Point(828, 330);
+            workstation9_18_2.Name = "workstation9_18_2";
+            workstation9_18_2.Size = new Size(69, 20);
+            workstation9_18_2.TabIndex = 175;
+            workstation9_18_2.Text = "x2";
+            workstation9_18_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation9_19_2
+            // 
+            workstation9_19_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation9_19_2.Font = new Font("Segoe UI", 9F);
+            workstation9_19_2.Location = new Point(828, 350);
+            workstation9_19_2.Name = "workstation9_19_2";
+            workstation9_19_2.Size = new Size(69, 20);
+            workstation9_19_2.TabIndex = 175;
+            workstation9_19_2.Text = "x2";
+            workstation9_19_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation9_20_2
+            // 
+            workstation9_20_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation9_20_2.Font = new Font("Segoe UI", 9F);
+            workstation9_20_2.Location = new Point(828, 370);
+            workstation9_20_2.Name = "workstation9_20_2";
+            workstation9_20_2.Size = new Size(69, 20);
+            workstation9_20_2.TabIndex = 175;
+            workstation9_20_2.Text = "x2";
+            workstation9_20_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation10_1_4
+            // 
+            workstation10_1_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation10_1_4.Font = new Font("Segoe UI", 9F);
+            workstation10_1_4.Location = new Point(903, 50);
+            workstation10_1_4.Name = "workstation10_1_4";
+            workstation10_1_4.Size = new Size(69, 20);
+            workstation10_1_4.TabIndex = 175;
+            workstation10_1_4.Text = "x4";
+            workstation10_1_4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation10_2_4
+            // 
+            workstation10_2_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation10_2_4.Font = new Font("Segoe UI", 9F);
+            workstation10_2_4.Location = new Point(903, 70);
+            workstation10_2_4.Name = "workstation10_2_4";
+            workstation10_2_4.Size = new Size(69, 20);
+            workstation10_2_4.TabIndex = 175;
+            workstation10_2_4.Text = "x4";
+            workstation10_2_4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation10_3_4
+            // 
+            workstation10_3_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation10_3_4.Font = new Font("Segoe UI", 9F);
+            workstation10_3_4.Location = new Point(903, 90);
+            workstation10_3_4.Name = "workstation10_3_4";
+            workstation10_3_4.Size = new Size(69, 20);
+            workstation10_3_4.TabIndex = 175;
+            workstation10_3_4.Text = "x4";
+            workstation10_3_4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation10_4_4
+            // 
+            workstation10_4_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation10_4_4.Font = new Font("Segoe UI", 9F);
+            workstation10_4_4.Location = new Point(903, 110);
+            workstation10_4_4.Name = "workstation10_4_4";
+            workstation10_4_4.Size = new Size(69, 20);
+            workstation10_4_4.TabIndex = 175;
+            workstation10_4_4.Text = "x4";
+            workstation10_4_4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation10_5_4
+            // 
+            workstation10_5_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation10_5_4.Font = new Font("Segoe UI", 9F);
+            workstation10_5_4.Location = new Point(903, 130);
+            workstation10_5_4.Name = "workstation10_5_4";
+            workstation10_5_4.Size = new Size(69, 20);
+            workstation10_5_4.TabIndex = 175;
+            workstation10_5_4.Text = "x4";
+            workstation10_5_4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation10_6_4
+            // 
+            workstation10_6_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation10_6_4.Font = new Font("Segoe UI", 9F);
+            workstation10_6_4.Location = new Point(903, 150);
+            workstation10_6_4.Name = "workstation10_6_4";
+            workstation10_6_4.Size = new Size(69, 20);
+            workstation10_6_4.TabIndex = 175;
+            workstation10_6_4.Text = "x4";
+            workstation10_6_4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation11_1_3
+            // 
+            workstation11_1_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation11_1_3.Font = new Font("Segoe UI", 9F);
+            workstation11_1_3.Location = new Point(978, 50);
+            workstation11_1_3.Name = "workstation11_1_3";
+            workstation11_1_3.Size = new Size(69, 20);
+            workstation11_1_3.TabIndex = 175;
+            workstation11_1_3.Text = "x3";
+            workstation11_1_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation11_2_3
+            // 
+            workstation11_2_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation11_2_3.Font = new Font("Segoe UI", 9F);
+            workstation11_2_3.Location = new Point(978, 70);
+            workstation11_2_3.Name = "workstation11_2_3";
+            workstation11_2_3.Size = new Size(69, 20);
+            workstation11_2_3.TabIndex = 175;
+            workstation11_2_3.Text = "x3";
+            workstation11_2_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation11_3_3
+            // 
+            workstation11_3_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation11_3_3.Font = new Font("Segoe UI", 9F);
+            workstation11_3_3.Location = new Point(978, 90);
+            workstation11_3_3.Name = "workstation11_3_3";
+            workstation11_3_3.Size = new Size(69, 20);
+            workstation11_3_3.TabIndex = 175;
+            workstation11_3_3.Text = "x3";
+            workstation11_3_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation11_4_3
+            // 
+            workstation11_4_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation11_4_3.Font = new Font("Segoe UI", 9F);
+            workstation11_4_3.Location = new Point(978, 110);
+            workstation11_4_3.Name = "workstation11_4_3";
+            workstation11_4_3.Size = new Size(69, 20);
+            workstation11_4_3.TabIndex = 175;
+            workstation11_4_3.Text = "x3";
+            workstation11_4_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation11_5_3
+            // 
+            workstation11_5_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation11_5_3.Font = new Font("Segoe UI", 9F);
+            workstation11_5_3.Location = new Point(978, 130);
+            workstation11_5_3.Name = "workstation11_5_3";
+            workstation11_5_3.Size = new Size(69, 20);
+            workstation11_5_3.TabIndex = 175;
+            workstation11_5_3.Text = "x3";
+            workstation11_5_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation11_6_3
+            // 
+            workstation11_6_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation11_6_3.Font = new Font("Segoe UI", 9F);
+            workstation11_6_3.Location = new Point(978, 150);
+            workstation11_6_3.Name = "workstation11_6_3";
+            workstation11_6_3.Size = new Size(69, 20);
+            workstation11_6_3.TabIndex = 175;
+            workstation11_6_3.Text = "x3";
+            workstation11_6_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation12_10_3
+            // 
+            workstation12_10_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation12_10_3.Font = new Font("Segoe UI", 9F);
+            workstation12_10_3.Location = new Point(1053, 170);
+            workstation12_10_3.Name = "workstation12_10_3";
+            workstation12_10_3.Size = new Size(69, 20);
+            workstation12_10_3.TabIndex = 175;
+            workstation12_10_3.Text = "x3";
+            workstation12_10_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation12_11_3
+            // 
+            workstation12_11_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation12_11_3.Font = new Font("Segoe UI", 9F);
+            workstation12_11_3.Location = new Point(1053, 190);
+            workstation12_11_3.Name = "workstation12_11_3";
+            workstation12_11_3.Size = new Size(69, 20);
+            workstation12_11_3.TabIndex = 175;
+            workstation12_11_3.Text = "x3";
+            workstation12_11_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation12_12_3
+            // 
+            workstation12_12_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation12_12_3.Font = new Font("Segoe UI", 9F);
+            workstation12_12_3.Location = new Point(1053, 210);
+            workstation12_12_3.Name = "workstation12_12_3";
+            workstation12_12_3.Size = new Size(69, 20);
+            workstation12_12_3.TabIndex = 175;
+            workstation12_12_3.Text = "x3";
+            workstation12_12_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation12_13_3
+            // 
+            workstation12_13_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation12_13_3.Font = new Font("Segoe UI", 9F);
+            workstation12_13_3.Location = new Point(1053, 230);
+            workstation12_13_3.Name = "workstation12_13_3";
+            workstation12_13_3.Size = new Size(69, 20);
+            workstation12_13_3.TabIndex = 175;
+            workstation12_13_3.Text = "x3";
+            workstation12_13_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation12_14_3
+            // 
+            workstation12_14_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation12_14_3.Font = new Font("Segoe UI", 9F);
+            workstation12_14_3.Location = new Point(1053, 250);
+            workstation12_14_3.Name = "workstation12_14_3";
+            workstation12_14_3.Size = new Size(69, 20);
+            workstation12_14_3.TabIndex = 175;
+            workstation12_14_3.Text = "x3";
+            workstation12_14_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation12_15_3
+            // 
+            workstation12_15_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation12_15_3.Font = new Font("Segoe UI", 9F);
+            workstation12_15_3.Location = new Point(1053, 270);
+            workstation12_15_3.Name = "workstation12_15_3";
+            workstation12_15_3.Size = new Size(69, 20);
+            workstation12_15_3.TabIndex = 175;
+            workstation12_15_3.Text = "x3";
+            workstation12_15_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation13_10_2
+            // 
+            workstation13_10_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation13_10_2.Font = new Font("Segoe UI", 9F);
+            workstation13_10_2.Location = new Point(1128, 170);
+            workstation13_10_2.Name = "workstation13_10_2";
+            workstation13_10_2.Size = new Size(69, 20);
+            workstation13_10_2.TabIndex = 175;
+            workstation13_10_2.Text = "x2";
+            workstation13_10_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation13_11_2
+            // 
+            workstation13_11_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation13_11_2.Font = new Font("Segoe UI", 9F);
+            workstation13_11_2.Location = new Point(1128, 190);
+            workstation13_11_2.Name = "workstation13_11_2";
+            workstation13_11_2.Size = new Size(69, 20);
+            workstation13_11_2.TabIndex = 175;
+            workstation13_11_2.Text = "x2";
+            workstation13_11_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation13_12_2
+            // 
+            workstation13_12_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation13_12_2.Font = new Font("Segoe UI", 9F);
+            workstation13_12_2.Location = new Point(1128, 210);
+            workstation13_12_2.Name = "workstation13_12_2";
+            workstation13_12_2.Size = new Size(69, 20);
+            workstation13_12_2.TabIndex = 175;
+            workstation13_12_2.Text = "x2";
+            workstation13_12_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation13_13_2
+            // 
+            workstation13_13_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation13_13_2.Font = new Font("Segoe UI", 9F);
+            workstation13_13_2.Location = new Point(1128, 230);
+            workstation13_13_2.Name = "workstation13_13_2";
+            workstation13_13_2.Size = new Size(69, 20);
+            workstation13_13_2.TabIndex = 175;
+            workstation13_13_2.Text = "x2";
+            workstation13_13_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation13_14_2
+            // 
+            workstation13_14_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation13_14_2.Font = new Font("Segoe UI", 9F);
+            workstation13_14_2.Location = new Point(1128, 250);
+            workstation13_14_2.Name = "workstation13_14_2";
+            workstation13_14_2.Size = new Size(69, 20);
+            workstation13_14_2.TabIndex = 175;
+            workstation13_14_2.Text = "x2";
+            workstation13_14_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation13_15_2
+            // 
+            workstation13_15_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation13_15_2.Font = new Font("Segoe UI", 9F);
+            workstation13_15_2.Location = new Point(1128, 270);
+            workstation13_15_2.Name = "workstation13_15_2";
+            workstation13_15_2.Size = new Size(69, 20);
+            workstation13_15_2.TabIndex = 175;
+            workstation13_15_2.Text = "x2";
+            workstation13_15_2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation14_16_3
+            // 
+            workstation14_16_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation14_16_3.Font = new Font("Segoe UI", 9F);
+            workstation14_16_3.Location = new Point(1203, 290);
+            workstation14_16_3.Name = "workstation14_16_3";
+            workstation14_16_3.Size = new Size(69, 20);
+            workstation14_16_3.TabIndex = 175;
+            workstation14_16_3.Text = "x3";
+            workstation14_16_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation15_17_3
+            // 
+            workstation15_17_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation15_17_3.Font = new Font("Segoe UI", 9F);
+            workstation15_17_3.Location = new Point(1278, 310);
+            workstation15_17_3.Name = "workstation15_17_3";
+            workstation15_17_3.Size = new Size(69, 20);
+            workstation15_17_3.TabIndex = 175;
+            workstation15_17_3.Text = "x3";
+            workstation15_17_3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // workstation15_26_3
+            // 
+            workstation15_26_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            workstation15_26_3.Font = new Font("Segoe UI", 9F);
+            workstation15_26_3.Location = new Point(1278, 390);
+            workstation15_26_3.Name = "workstation15_26_3";
+            workstation15_26_3.Size = new Size(69, 20);
+            workstation15_26_3.TabIndex = 175;
+            workstation15_26_3.Text = "x3";
+            workstation15_26_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // CapacityPlanning
             // 
@@ -1531,5 +2454,76 @@
         private Label ProductionOrdersP1;
         private Label ProductionOrdersP2;
         private Label ProductionOrdersP3;
+        private Label workstation1_49_6;
+        private Label workstation1_29_6;
+        private Label workstation1_54_6;
+        private Label workstation2_50_5;
+        private Label workstation2_55_5;
+        private Label workstation2_30_5;
+        private Label workstation3_51_5;
+        private Label workstation3_56_6;
+        private Label workstation3_31_6;
+        private Label workstation4_1_6;
+        private Label workstation4_2_7;
+        private Label workstation4_3_7;
+        private Label workstation6_16_2;
+        private Label workstation6_18_3;
+        private Label workstation6_19_3;
+        private Label workstation6_20_3;
+        private Label workstation7_10_2;
+        private Label workstation7_11_2;
+        private Label workstation7_12_2;
+        private Label workstation7_13_2;
+        private Label workstation7_14_2;
+        private Label workstation7_15_2;
+        private Label workstation7_18_2;
+        private Label workstation7_19_2;
+        private Label workstation7_20_2;
+        private Label workstation7_26_2;
+        private Label workstation8_10_2;
+        private Label workstation8_11_2;
+        private Label workstation8_12_2;
+        private Label workstation8_13_2;
+        private Label workstation8_14_1;
+        private Label workstation8_15_2;
+        private Label workstation8_18_3;
+        private Label workstation8_19_3;
+        private Label workstation8_20_3;
+        private Label workstation9_10_3;
+        private Label workstation9_11_3;
+        private Label workstation9_12_3;
+        private Label workstation9_13_3;
+        private Label workstation9_14_3;
+        private Label workstation9_15_3;
+        private Label workstation9_18_2;
+        private Label workstation9_19_2;
+        private Label workstation9_20_2;
+        private Label workstation10_1_4;
+        private Label workstation10_2_4;
+        private Label workstation10_3_4;
+        private Label workstation10_4_4;
+        private Label workstation10_5_4;
+        private Label workstation10_6_4;
+        private Label workstation11_1_3;
+        private Label workstation11_2_3;
+        private Label workstation11_3_3;
+        private Label workstation11_4_3;
+        private Label workstation11_5_3;
+        private Label workstation11_6_3;
+        private Label workstation12_10_3;
+        private Label workstation12_11_3;
+        private Label workstation12_12_3;
+        private Label workstation12_13_3;
+        private Label workstation12_14_3;
+        private Label workstation12_15_3;
+        private Label workstation13_10_2;
+        private Label workstation13_11_2;
+        private Label workstation13_12_2;
+        private Label workstation13_13_2;
+        private Label workstation13_14_2;
+        private Label workstation13_15_2;
+        private Label workstation14_16_3;
+        private Label workstation15_17_3;
+        private Label workstation15_26_3;
     }
 }
