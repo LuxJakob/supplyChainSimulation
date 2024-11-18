@@ -54,6 +54,23 @@ namespace supplyChainSimulation
                 }
             }
 
+            foreach (var workplace in ordersinworkX.Elements("workplace"))
+            {
+                // Parse 'item' and 'timeneed' attributes
+                int item = int.Parse(workplace.Attribute("item").Value);
+                int timeneed = int.Parse(workplace.Attribute("timeneed").Value);
+
+                // Add or update the dictionary
+                if (ordersinwork.ContainsKey(item))
+                {
+                    ordersinwork[item] += timeneed;
+                }
+                else
+                {
+                    ordersinwork[item] = timeneed;
+                }
+            }
+
             InventoryP1.Text = warehousestock[1].ToString();
             InventoryE261.Text = warehousestock[26].ToString();
             InventoryE51.Text = warehousestock[51].ToString();
@@ -79,6 +96,19 @@ namespace supplyChainSimulation
             AssignQueueValue(OrdersQueueE7, waitinglistProducts, 7);
             AssignQueueValue(OrdersQueueE13, waitinglistProducts, 13);
             AssignQueueValue(OrdersQueueE18, waitinglistProducts, 18);
+
+            AssignQueueValue(OrdersProgressP1, ordersinwork, 1);
+            AssignQueueValue(OrdersProgressE261, ordersinwork, 26);
+            AssignQueueValue(OrdersProgressE51, ordersinwork, 51);
+            AssignQueueValue(OrdersProgressE161, ordersinwork, 16);
+            AssignQueueValue(OrdersProgressE171, ordersinwork, 17);
+            AssignQueueValue(OrdersProgressE50, ordersinwork, 50);
+            AssignQueueValue(OrdersProgressE4, ordersinwork, 4);
+            AssignQueueValue(OrdersProgressE10, ordersinwork, 10);
+            AssignQueueValue(OrdersProgressE49, ordersinwork, 49);
+            AssignQueueValue(OrdersProgressE7, ordersinwork, 7);
+            AssignQueueValue(OrdersProgressE13, ordersinwork, 13);
+            AssignQueueValue(OrdersProgressE18, ordersinwork, 18);
 
             SellwishP1.Text = production0[1].ToString();
             PlannedP1.Text = (production0[1] - forecast0[1] + warehousestock[1]).ToString();
