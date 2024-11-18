@@ -75,6 +75,8 @@ namespace supplyChainSimulation
         public static int ordersinwork163;
         public static int ordersinwork173;
 
+        public static int initialInitMaterial = 0;
+
         // variables
         public static Dictionary<int, int> waitinglistworkstations = new Dictionary<int, int>();
 

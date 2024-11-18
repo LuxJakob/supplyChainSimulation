@@ -19,60 +19,66 @@ namespace supplyChainSimulation
         {
             InitializeComponent();
 
-            // general settings
+            // general settings - will only be executed once
 
-            warehousestockX = rootElement.Element("warehousestock");
-            waitinglistworkstationsX = rootElement.Element("waitinglistworkstations");
-            ordersinworkX = rootElement.Element("ordersinwork");
-
-            foreach (var article in warehousestockX.Elements("article"))
+            if (initialInitMaterial == 0)
             {
-                int id = int.Parse(article.Attribute("id").Value);
-                int amount = int.Parse(article.Attribute("amount").Value);
-                warehousestock[id] = amount;
-            }
+                initialInitMaterial = 1;
+            
+                warehousestockX = rootElement.Element("warehousestock");
+                waitinglistworkstationsX = rootElement.Element("waitinglistworkstations");
+                ordersinworkX = rootElement.Element("ordersinwork");
 
-            foreach (var workplace in waitinglistworkstationsX.Elements("waitinglistworkstations"))
-            {
-                int id = int.Parse(workplace.Attribute("id").Value);
-                int amount = int.Parse(workplace.Attribute("amount").Value);
-                waitinglistworkstations[id] = amount;
-            }
-
-            waitinglistProductsX = waitinglistworkstationsX.Descendants("waitinglist");
-            foreach (var element in waitinglistProductsX)
-            {
-                int item = int.Parse(element.Attribute("item").Value);
-                int amount = int.Parse(element.Attribute("amount").Value);
-
-                // Add or update the dictionary
-                if (waitinglistProducts.ContainsKey(item))
+                foreach (var article in warehousestockX.Elements("article"))
                 {
-                    waitinglistProducts[item] += amount;
+                    int id = int.Parse(article.Attribute("id").Value);
+                    int amount = int.Parse(article.Attribute("amount").Value);
+                    warehousestock[id] = amount;
                 }
-                else
-                {
-                    waitinglistProducts[item] = amount;
-                }
-            }
 
-            foreach (var workplace in ordersinworkX.Elements("workplace"))
-            {
-                int item = int.Parse(workplace.Attribute("item").Value);
-                int amount = int.Parse(workplace.Attribute("amount").Value);
+                foreach (var workplace in waitinglistworkstationsX.Elements("waitinglistworkstations"))
+                {
+                    int id = int.Parse(workplace.Attribute("id").Value);
+                    int amount = int.Parse(workplace.Attribute("amount").Value);
+                    waitinglistworkstations[id] = amount;
+                }
 
-                if (ordersinwork.ContainsKey(item))
+                waitinglistProductsX = waitinglistworkstationsX.Descendants("waitinglist");
+                foreach (var element in waitinglistProductsX)
                 {
-                    ordersinwork[item] += amount;
+                    int item = int.Parse(element.Attribute("item").Value);
+                    int amount = int.Parse(element.Attribute("amount").Value);
+
+                    // Add or update the dictionary
+                    if (waitinglistProducts.ContainsKey(item))
+                    {
+                        waitinglistProducts[item] += amount;
+                    }
+                    else
+                    {
+                        waitinglistProducts[item] = amount;
+                    }
                 }
-                else
+
+                foreach (var workplace in ordersinworkX.Elements("workplace"))
                 {
-                    ordersinwork[item] = amount;
+                    int item = int.Parse(workplace.Attribute("item").Value);
+                    int amount = int.Parse(workplace.Attribute("amount").Value);
+
+                    if (ordersinwork.ContainsKey(item))
+                    {
+                        ordersinwork[item] += amount;
+                    }
+                    else
+                    {
+                        ordersinwork[item] = amount;
+                    }
                 }
+
             }
 
             // customized for P1
-
+            
             inventoryE261Value = (int)Math.Round((decimal)(warehousestock[26] / 3));
             inventoryE161Value = (int)Math.Round((decimal)(warehousestock[16] / 3));
             inventoryE171Value = (int)Math.Round((decimal)(warehousestock[17] / 3));
@@ -120,7 +126,7 @@ namespace supplyChainSimulation
             PlannedP1.Text = (production0[1] - forecast0[1] + warehousestock[1]).ToString();
             productionOrders[1] = production0[1] - ordersinwork[1] - waitinglistProducts[1];
             ProductionOrdersP1.Text = productionOrders[1].ToString();
-
+            
             CalculateTable();
         }
 

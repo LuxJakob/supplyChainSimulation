@@ -441,6 +441,7 @@
             PlannedE19.TabIndex = 207;
             PlannedE19.TextAlign = HorizontalAlignment.Center;
             PlannedE19.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE19.ValueChanged += CalculateTable;
             // 
             // PlannedE14
             // 
@@ -453,6 +454,7 @@
             PlannedE14.TabIndex = 206;
             PlannedE14.TextAlign = HorizontalAlignment.Center;
             PlannedE14.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE14.ValueChanged += CalculateTable;
             // 
             // PlannedE8
             // 
@@ -465,6 +467,7 @@
             PlannedE8.TabIndex = 205;
             PlannedE8.TextAlign = HorizontalAlignment.Center;
             PlannedE8.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE8.ValueChanged += CalculateTable;
             // 
             // PlannedE54
             // 
@@ -477,6 +480,7 @@
             PlannedE54.TabIndex = 204;
             PlannedE54.TextAlign = HorizontalAlignment.Center;
             PlannedE54.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE54.ValueChanged += CalculateTable;
             // 
             // PlannedE11
             // 
@@ -489,6 +493,7 @@
             PlannedE11.TabIndex = 203;
             PlannedE11.TextAlign = HorizontalAlignment.Center;
             PlannedE11.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE11.ValueChanged += CalculateTable;
             // 
             // PlannedE5
             // 
@@ -501,6 +506,7 @@
             PlannedE5.TabIndex = 202;
             PlannedE5.TextAlign = HorizontalAlignment.Center;
             PlannedE5.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE5.ValueChanged += CalculateTable;
             // 
             // PlannedE55
             // 
@@ -513,6 +519,7 @@
             PlannedE55.TabIndex = 201;
             PlannedE55.TextAlign = HorizontalAlignment.Center;
             PlannedE55.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE55.ValueChanged += CalculateTable;
             // 
             // PlannedE172
             // 
@@ -525,6 +532,7 @@
             PlannedE172.TabIndex = 200;
             PlannedE172.TextAlign = HorizontalAlignment.Center;
             PlannedE172.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE172.ValueChanged += CalculateTable;
             // 
             // PlannedE162
             // 
@@ -537,6 +545,7 @@
             PlannedE162.TabIndex = 199;
             PlannedE162.TextAlign = HorizontalAlignment.Center;
             PlannedE162.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE162.ValueChanged += CalculateTable;
             // 
             // PlannedE56
             // 
@@ -549,6 +558,7 @@
             PlannedE56.TabIndex = 198;
             PlannedE56.TextAlign = HorizontalAlignment.Center;
             PlannedE56.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE56.ValueChanged += CalculateTable;
             // 
             // ProductionOrdersE19
             // 
@@ -2356,6 +2366,7 @@
             PlannedE262.TabIndex = 100;
             PlannedE262.TextAlign = HorizontalAlignment.Center;
             PlannedE262.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE262.ValueChanged += CalculateTable;
             // 
             // SellwishP2
             // 
