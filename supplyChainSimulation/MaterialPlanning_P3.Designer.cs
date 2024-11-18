@@ -1462,7 +1462,7 @@
             label12.Name = "label12";
             label12.Size = new Size(64, 50);
             label12.TabIndex = 11;
-            label12.Text = "E18";
+            label12.Text = "E20";
             label12.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label5
@@ -1475,7 +1475,7 @@
             label5.Name = "label5";
             label5.Size = new Size(64, 50);
             label5.TabIndex = 1;
-            label5.Text = "P1";
+            label5.Text = "P3";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -1488,7 +1488,7 @@
             label2.Name = "label2";
             label2.Size = new Size(64, 50);
             label2.TabIndex = 2;
-            label2.Text = "E261";
+            label2.Text = "E263";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -1501,7 +1501,7 @@
             label3.Name = "label3";
             label3.Size = new Size(64, 50);
             label3.TabIndex = 3;
-            label3.Text = "E51";
+            label3.Text = "E31";
             label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label6
@@ -1514,7 +1514,7 @@
             label6.Name = "label6";
             label6.Size = new Size(64, 50);
             label6.TabIndex = 5;
-            label6.Text = "E161";
+            label6.Text = "E163";
             label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label4
@@ -1527,7 +1527,7 @@
             label4.Name = "label4";
             label4.Size = new Size(64, 50);
             label4.TabIndex = 4;
-            label4.Text = "E171";
+            label4.Text = "E173";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label7
@@ -1540,7 +1540,7 @@
             label7.Name = "label7";
             label7.Size = new Size(64, 50);
             label7.TabIndex = 6;
-            label7.Text = "E50";
+            label7.Text = "E30";
             label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label9
@@ -1553,7 +1553,7 @@
             label9.Name = "label9";
             label9.Size = new Size(64, 50);
             label9.TabIndex = 8;
-            label9.Text = "E4";
+            label9.Text = "E6";
             label9.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label8
@@ -1566,7 +1566,7 @@
             label8.Name = "label8";
             label8.Size = new Size(64, 50);
             label8.TabIndex = 7;
-            label8.Text = "E10";
+            label8.Text = "E12";
             label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label10
@@ -1579,7 +1579,7 @@
             label10.Name = "label10";
             label10.Size = new Size(64, 50);
             label10.TabIndex = 9;
-            label10.Text = "E49";
+            label10.Text = "E29";
             label10.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label13
@@ -1592,7 +1592,7 @@
             label13.Name = "label13";
             label13.Size = new Size(64, 50);
             label13.TabIndex = 12;
-            label13.Text = "E7";
+            label13.Text = "E9";
             label13.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label11
@@ -1605,7 +1605,7 @@
             label11.Name = "label11";
             label11.Size = new Size(64, 50);
             label11.TabIndex = 10;
-            label11.Text = "E13";
+            label11.Text = "E15";
             label11.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label17
@@ -2387,7 +2387,7 @@
             label1.Name = "label1";
             label1.Size = new Size(211, 25);
             label1.TabIndex = 8;
-            label1.Text = "P1 - Material Planning";
+            label1.Text = "P3 - Material Planning";
             // 
             // switchMaterialP2
             // 

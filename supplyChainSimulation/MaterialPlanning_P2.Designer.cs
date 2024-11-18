@@ -29,87 +29,87 @@
         private void InitializeComponent()
         {
             tableLayoutPanel1 = new TableLayoutPanel();
-            PlannedE18 = new NumericUpDown();
-            PlannedE13 = new NumericUpDown();
-            PlannedE7 = new NumericUpDown();
-            PlannedE49 = new NumericUpDown();
-            PlannedE10 = new NumericUpDown();
-            PlannedE4 = new NumericUpDown();
-            PlannedE50 = new NumericUpDown();
-            PlannedE171 = new NumericUpDown();
-            PlannedE161 = new NumericUpDown();
-            PlannedE51 = new NumericUpDown();
-            ProductionOrdersE18 = new Label();
-            OrdersProgressE18 = new Label();
-            OrdersQueueE18 = new Label();
-            InventoryE18 = new Label();
-            SuccessorQueueE18 = new Label();
-            SellwishE18 = new Label();
-            ProductionOrdersE13 = new Label();
-            OrdersProgressE13 = new Label();
-            OrdersQueueE13 = new Label();
-            InventoryE13 = new Label();
-            SuccessorQueueE13 = new Label();
-            SellwishE13 = new Label();
-            ProductionOrdersE7 = new Label();
-            OrdersProgressE7 = new Label();
-            OrdersQueueE7 = new Label();
-            InventoryE7 = new Label();
-            SuccessorQueueE7 = new Label();
-            SellwishE7 = new Label();
-            ProductionOrdersE49 = new Label();
-            OrdersProgressE49 = new Label();
-            OrdersQueueE49 = new Label();
-            InventoryE49 = new Label();
-            SuccessorQueueE49 = new Label();
-            SellwishE49 = new Label();
-            ProductionOrdersE10 = new Label();
-            OrdersProgressE10 = new Label();
-            OrdersQueueE10 = new Label();
-            InventoryE10 = new Label();
-            SuccessorQueueE10 = new Label();
-            SellwishE10 = new Label();
-            ProductionOrdersE4 = new Label();
-            OrdersProgressE4 = new Label();
-            OrdersQueueE4 = new Label();
-            InventoryE4 = new Label();
-            SuccessorQueueE4 = new Label();
-            SellwishE4 = new Label();
-            ProductionOrdersE50 = new Label();
-            OrdersProgressE50 = new Label();
-            OrdersQueueE50 = new Label();
-            InventoryE50 = new Label();
-            SuccessorQueueE50 = new Label();
-            SellwishE50 = new Label();
-            ProductionOrdersE171 = new Label();
-            OrdersProgressE171 = new Label();
-            OrdersQueueE171 = new Label();
-            InventoryE171 = new Label();
-            SuccessorQueueE171 = new Label();
-            SellwishE171 = new Label();
-            ProductionOrdersE161 = new Label();
-            OrdersProgressE161 = new Label();
-            OrdersQueueE161 = new Label();
-            InventoryE161 = new Label();
-            SuccessorQueueE161 = new Label();
-            SellwishE161 = new Label();
-            ProductionOrdersE51 = new Label();
-            OrdersProgressE51 = new Label();
-            OrdersQueueE51 = new Label();
-            InventoryE51 = new Label();
-            SuccessorQueueE51 = new Label();
-            SellwishE51 = new Label();
-            ProductionOrdersE261 = new Label();
-            OrdersProgressE261 = new Label();
-            OrdersQueueE261 = new Label();
-            InventoryE261 = new Label();
-            SuccessorQueueE261 = new Label();
-            SellwishE261 = new Label();
-            ProductionOrdersP1 = new Label();
-            OrdersProgressP1 = new Label();
-            OrdersQueueP1 = new Label();
-            InventoryP1 = new Label();
-            PlannedP1 = new Label();
+            PlannedE19 = new NumericUpDown();
+            PlannedE14 = new NumericUpDown();
+            PlannedE8 = new NumericUpDown();
+            PlannedE54 = new NumericUpDown();
+            PlannedE11 = new NumericUpDown();
+            PlannedE5 = new NumericUpDown();
+            PlannedE55 = new NumericUpDown();
+            PlannedE172 = new NumericUpDown();
+            PlannedE162 = new NumericUpDown();
+            PlannedE56 = new NumericUpDown();
+            ProductionOrdersE19 = new Label();
+            OrdersProgressE19 = new Label();
+            OrdersQueueE19 = new Label();
+            InventoryE19 = new Label();
+            SuccessorQueueE19 = new Label();
+            SellwishE19 = new Label();
+            ProductionOrdersE14 = new Label();
+            OrdersProgressE14 = new Label();
+            OrdersQueueE14 = new Label();
+            InventoryE14 = new Label();
+            SuccessorQueueE14 = new Label();
+            SellwishE14 = new Label();
+            ProductionOrdersE8 = new Label();
+            OrdersProgressE8 = new Label();
+            OrdersQueueE8 = new Label();
+            InventoryE8 = new Label();
+            SuccessorQueueE8 = new Label();
+            SellwishE8 = new Label();
+            ProductionOrdersE54 = new Label();
+            OrdersProgressE54 = new Label();
+            OrdersQueueE54 = new Label();
+            InventoryE54 = new Label();
+            SuccessorQueueE54 = new Label();
+            SellwishE54 = new Label();
+            ProductionOrdersE11 = new Label();
+            OrdersProgressE11 = new Label();
+            OrdersQueueE11 = new Label();
+            InventoryE11 = new Label();
+            SuccessorQueueE11 = new Label();
+            SellwishE11 = new Label();
+            ProductionOrdersE5 = new Label();
+            OrdersProgressE5 = new Label();
+            OrdersQueueE5 = new Label();
+            InventoryE5 = new Label();
+            SuccessorQueueE5 = new Label();
+            SellwishE5 = new Label();
+            ProductionOrdersE55 = new Label();
+            OrdersProgressE55 = new Label();
+            OrdersQueueE55 = new Label();
+            InventoryE55 = new Label();
+            SuccessorQueueE55 = new Label();
+            SellwishE55 = new Label();
+            ProductionOrdersE172 = new Label();
+            OrdersProgressE172 = new Label();
+            OrdersQueueE172 = new Label();
+            InventoryE172 = new Label();
+            SuccessorQueueE172 = new Label();
+            SellwishE172 = new Label();
+            ProductionOrdersE162 = new Label();
+            OrdersProgressE162 = new Label();
+            OrdersQueueE162 = new Label();
+            InventoryE162 = new Label();
+            SuccessorQueueE162 = new Label();
+            SellwishE162 = new Label();
+            ProductionOrdersE56 = new Label();
+            OrdersProgressE56 = new Label();
+            OrdersQueueE56 = new Label();
+            InventoryE56 = new Label();
+            SuccessorQueueE56 = new Label();
+            SellwishE56 = new Label();
+            ProductionOrdersE262 = new Label();
+            OrdersProgressE262 = new Label();
+            OrdersQueueE262 = new Label();
+            InventoryE262 = new Label();
+            SuccessorQueueE262 = new Label();
+            SellwishE262 = new Label();
+            ProductionOrdersP2 = new Label();
+            OrdersProgressP2 = new Label();
+            OrdersQueueP2 = new Label();
+            InventoryP2 = new Label();
+            PlannedP2 = new Label();
             label99 = new Label();
             label97 = new Label();
             label95 = new Label();
@@ -200,24 +200,24 @@
             label80 = new Label();
             label81 = new Label();
             label82 = new Label();
-            PlannedE261 = new NumericUpDown();
-            SellwishP1 = new Label();
+            PlannedE262 = new NumericUpDown();
+            SellwishP2 = new Label();
             label14 = new Label();
             label1 = new Label();
             switchMaterialP1 = new Button();
             switchMaterialP3 = new Button();
             tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)PlannedE18).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE13).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE49).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE50).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE171).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE161).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE51).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE261).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE54).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE55).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE172).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE162).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE56).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE262).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -237,87 +237,87 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 40F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
-            tableLayoutPanel1.Controls.Add(PlannedE18, 5, 12);
-            tableLayoutPanel1.Controls.Add(PlannedE13, 5, 11);
-            tableLayoutPanel1.Controls.Add(PlannedE7, 5, 10);
-            tableLayoutPanel1.Controls.Add(PlannedE49, 5, 9);
-            tableLayoutPanel1.Controls.Add(PlannedE10, 5, 8);
-            tableLayoutPanel1.Controls.Add(PlannedE4, 5, 7);
-            tableLayoutPanel1.Controls.Add(PlannedE50, 5, 6);
-            tableLayoutPanel1.Controls.Add(PlannedE171, 5, 5);
-            tableLayoutPanel1.Controls.Add(PlannedE161, 5, 4);
-            tableLayoutPanel1.Controls.Add(PlannedE51, 5, 3);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE18, 13, 12);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE18, 11, 12);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE18, 9, 12);
-            tableLayoutPanel1.Controls.Add(InventoryE18, 7, 12);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE18, 3, 12);
-            tableLayoutPanel1.Controls.Add(SellwishE18, 1, 12);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE13, 13, 11);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE13, 11, 11);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE13, 9, 11);
-            tableLayoutPanel1.Controls.Add(InventoryE13, 7, 11);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE13, 3, 11);
-            tableLayoutPanel1.Controls.Add(SellwishE13, 1, 11);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE7, 13, 10);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE7, 11, 10);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE7, 9, 10);
-            tableLayoutPanel1.Controls.Add(InventoryE7, 7, 10);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE7, 3, 10);
-            tableLayoutPanel1.Controls.Add(SellwishE7, 1, 10);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE49, 13, 9);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE49, 11, 9);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE49, 9, 9);
-            tableLayoutPanel1.Controls.Add(InventoryE49, 7, 9);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE49, 3, 9);
-            tableLayoutPanel1.Controls.Add(SellwishE49, 1, 9);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE10, 13, 8);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE10, 11, 8);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE10, 9, 8);
-            tableLayoutPanel1.Controls.Add(InventoryE10, 7, 8);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE10, 3, 8);
-            tableLayoutPanel1.Controls.Add(SellwishE10, 1, 8);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE4, 13, 7);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE4, 11, 7);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE4, 9, 7);
-            tableLayoutPanel1.Controls.Add(InventoryE4, 7, 7);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE4, 3, 7);
-            tableLayoutPanel1.Controls.Add(SellwishE4, 1, 7);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE50, 13, 6);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE50, 11, 6);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE50, 9, 6);
-            tableLayoutPanel1.Controls.Add(InventoryE50, 7, 6);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE50, 3, 6);
-            tableLayoutPanel1.Controls.Add(SellwishE50, 1, 6);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE171, 13, 5);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE171, 11, 5);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE171, 9, 5);
-            tableLayoutPanel1.Controls.Add(InventoryE171, 7, 5);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE171, 3, 5);
-            tableLayoutPanel1.Controls.Add(SellwishE171, 1, 5);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE161, 13, 4);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE161, 11, 4);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE161, 9, 4);
-            tableLayoutPanel1.Controls.Add(InventoryE161, 7, 4);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE161, 3, 4);
-            tableLayoutPanel1.Controls.Add(SellwishE161, 1, 4);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE51, 13, 3);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE51, 11, 3);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE51, 9, 3);
-            tableLayoutPanel1.Controls.Add(InventoryE51, 7, 3);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE51, 3, 3);
-            tableLayoutPanel1.Controls.Add(SellwishE51, 1, 3);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersE261, 13, 2);
-            tableLayoutPanel1.Controls.Add(OrdersProgressE261, 11, 2);
-            tableLayoutPanel1.Controls.Add(OrdersQueueE261, 9, 2);
-            tableLayoutPanel1.Controls.Add(InventoryE261, 7, 2);
-            tableLayoutPanel1.Controls.Add(SuccessorQueueE261, 3, 2);
-            tableLayoutPanel1.Controls.Add(SellwishE261, 1, 2);
-            tableLayoutPanel1.Controls.Add(ProductionOrdersP1, 13, 1);
-            tableLayoutPanel1.Controls.Add(OrdersProgressP1, 11, 1);
-            tableLayoutPanel1.Controls.Add(OrdersQueueP1, 9, 1);
-            tableLayoutPanel1.Controls.Add(InventoryP1, 7, 1);
-            tableLayoutPanel1.Controls.Add(PlannedP1, 5, 1);
+            tableLayoutPanel1.Controls.Add(PlannedE19, 5, 12);
+            tableLayoutPanel1.Controls.Add(PlannedE14, 5, 11);
+            tableLayoutPanel1.Controls.Add(PlannedE8, 5, 10);
+            tableLayoutPanel1.Controls.Add(PlannedE54, 5, 9);
+            tableLayoutPanel1.Controls.Add(PlannedE11, 5, 8);
+            tableLayoutPanel1.Controls.Add(PlannedE5, 5, 7);
+            tableLayoutPanel1.Controls.Add(PlannedE55, 5, 6);
+            tableLayoutPanel1.Controls.Add(PlannedE172, 5, 5);
+            tableLayoutPanel1.Controls.Add(PlannedE162, 5, 4);
+            tableLayoutPanel1.Controls.Add(PlannedE56, 5, 3);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE19, 13, 12);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE19, 11, 12);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE19, 9, 12);
+            tableLayoutPanel1.Controls.Add(InventoryE19, 7, 12);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE19, 3, 12);
+            tableLayoutPanel1.Controls.Add(SellwishE19, 1, 12);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE14, 13, 11);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE14, 11, 11);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE14, 9, 11);
+            tableLayoutPanel1.Controls.Add(InventoryE14, 7, 11);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE14, 3, 11);
+            tableLayoutPanel1.Controls.Add(SellwishE14, 1, 11);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE8, 13, 10);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE8, 11, 10);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE8, 9, 10);
+            tableLayoutPanel1.Controls.Add(InventoryE8, 7, 10);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE8, 3, 10);
+            tableLayoutPanel1.Controls.Add(SellwishE8, 1, 10);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE54, 13, 9);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE54, 11, 9);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE54, 9, 9);
+            tableLayoutPanel1.Controls.Add(InventoryE54, 7, 9);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE54, 3, 9);
+            tableLayoutPanel1.Controls.Add(SellwishE54, 1, 9);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE11, 13, 8);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE11, 11, 8);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE11, 9, 8);
+            tableLayoutPanel1.Controls.Add(InventoryE11, 7, 8);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE11, 3, 8);
+            tableLayoutPanel1.Controls.Add(SellwishE11, 1, 8);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE5, 13, 7);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE5, 11, 7);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE5, 9, 7);
+            tableLayoutPanel1.Controls.Add(InventoryE5, 7, 7);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE5, 3, 7);
+            tableLayoutPanel1.Controls.Add(SellwishE5, 1, 7);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE55, 13, 6);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE55, 11, 6);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE55, 9, 6);
+            tableLayoutPanel1.Controls.Add(InventoryE55, 7, 6);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE55, 3, 6);
+            tableLayoutPanel1.Controls.Add(SellwishE55, 1, 6);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE172, 13, 5);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE172, 11, 5);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE172, 9, 5);
+            tableLayoutPanel1.Controls.Add(InventoryE172, 7, 5);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE172, 3, 5);
+            tableLayoutPanel1.Controls.Add(SellwishE172, 1, 5);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE162, 13, 4);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE162, 11, 4);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE162, 9, 4);
+            tableLayoutPanel1.Controls.Add(InventoryE162, 7, 4);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE162, 3, 4);
+            tableLayoutPanel1.Controls.Add(SellwishE162, 1, 4);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE56, 13, 3);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE56, 11, 3);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE56, 9, 3);
+            tableLayoutPanel1.Controls.Add(InventoryE56, 7, 3);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE56, 3, 3);
+            tableLayoutPanel1.Controls.Add(SellwishE56, 1, 3);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersE262, 13, 2);
+            tableLayoutPanel1.Controls.Add(OrdersProgressE262, 11, 2);
+            tableLayoutPanel1.Controls.Add(OrdersQueueE262, 9, 2);
+            tableLayoutPanel1.Controls.Add(InventoryE262, 7, 2);
+            tableLayoutPanel1.Controls.Add(SuccessorQueueE262, 3, 2);
+            tableLayoutPanel1.Controls.Add(SellwishE262, 1, 2);
+            tableLayoutPanel1.Controls.Add(ProductionOrdersP2, 13, 1);
+            tableLayoutPanel1.Controls.Add(OrdersProgressP2, 11, 1);
+            tableLayoutPanel1.Controls.Add(OrdersQueueP2, 9, 1);
+            tableLayoutPanel1.Controls.Add(InventoryP2, 7, 1);
+            tableLayoutPanel1.Controls.Add(PlannedP2, 5, 1);
             tableLayoutPanel1.Controls.Add(label99, 13, 0);
             tableLayoutPanel1.Controls.Add(label97, 11, 0);
             tableLayoutPanel1.Controls.Add(label95, 9, 0);
@@ -408,8 +408,8 @@
             tableLayoutPanel1.Controls.Add(label80, 12, 7);
             tableLayoutPanel1.Controls.Add(label81, 12, 9);
             tableLayoutPanel1.Controls.Add(label82, 12, 12);
-            tableLayoutPanel1.Controls.Add(PlannedE261, 5, 2);
-            tableLayoutPanel1.Controls.Add(SellwishP1, 1, 1);
+            tableLayoutPanel1.Controls.Add(PlannedE262, 5, 2);
+            tableLayoutPanel1.Controls.Add(SellwishP2, 1, 1);
             tableLayoutPanel1.Controls.Add(label14, 3, 1);
             tableLayoutPanel1.Location = new Point(12, 37);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -430,906 +430,906 @@
             tableLayoutPanel1.Size = new Size(1150, 650);
             tableLayoutPanel1.TabIndex = 9;
             // 
-            // PlannedE18
-            // 
-            PlannedE18.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE18.Font = new Font("Segoe UI", 12F);
-            PlannedE18.Location = new Point(393, 610);
-            PlannedE18.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE18.Name = "PlannedE18";
-            PlannedE18.Size = new Size(114, 29);
-            PlannedE18.TabIndex = 207;
-            PlannedE18.TextAlign = HorizontalAlignment.Center;
-            PlannedE18.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE13
-            // 
-            PlannedE13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE13.Font = new Font("Segoe UI", 12F);
-            PlannedE13.Location = new Point(393, 560);
-            PlannedE13.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE13.Name = "PlannedE13";
-            PlannedE13.Size = new Size(114, 29);
-            PlannedE13.TabIndex = 206;
-            PlannedE13.TextAlign = HorizontalAlignment.Center;
-            PlannedE13.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE7
-            // 
-            PlannedE7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE7.Font = new Font("Segoe UI", 12F);
-            PlannedE7.Location = new Point(393, 510);
-            PlannedE7.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE7.Name = "PlannedE7";
-            PlannedE7.Size = new Size(114, 29);
-            PlannedE7.TabIndex = 205;
-            PlannedE7.TextAlign = HorizontalAlignment.Center;
-            PlannedE7.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE49
-            // 
-            PlannedE49.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE49.Font = new Font("Segoe UI", 12F);
-            PlannedE49.Location = new Point(393, 460);
-            PlannedE49.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE49.Name = "PlannedE49";
-            PlannedE49.Size = new Size(114, 29);
-            PlannedE49.TabIndex = 204;
-            PlannedE49.TextAlign = HorizontalAlignment.Center;
-            PlannedE49.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE10
-            // 
-            PlannedE10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE10.Font = new Font("Segoe UI", 12F);
-            PlannedE10.Location = new Point(393, 410);
-            PlannedE10.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE10.Name = "PlannedE10";
-            PlannedE10.Size = new Size(114, 29);
-            PlannedE10.TabIndex = 203;
-            PlannedE10.TextAlign = HorizontalAlignment.Center;
-            PlannedE10.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE4
-            // 
-            PlannedE4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE4.Font = new Font("Segoe UI", 12F);
-            PlannedE4.Location = new Point(393, 360);
-            PlannedE4.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE4.Name = "PlannedE4";
-            PlannedE4.Size = new Size(114, 29);
-            PlannedE4.TabIndex = 202;
-            PlannedE4.TextAlign = HorizontalAlignment.Center;
-            PlannedE4.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE50
-            // 
-            PlannedE50.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE50.Font = new Font("Segoe UI", 12F);
-            PlannedE50.Location = new Point(393, 310);
-            PlannedE50.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE50.Name = "PlannedE50";
-            PlannedE50.Size = new Size(114, 29);
-            PlannedE50.TabIndex = 201;
-            PlannedE50.TextAlign = HorizontalAlignment.Center;
-            PlannedE50.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE171
-            // 
-            PlannedE171.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE171.Font = new Font("Segoe UI", 12F);
-            PlannedE171.Location = new Point(393, 260);
-            PlannedE171.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE171.Name = "PlannedE171";
-            PlannedE171.Size = new Size(114, 29);
-            PlannedE171.TabIndex = 200;
-            PlannedE171.TextAlign = HorizontalAlignment.Center;
-            PlannedE171.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE161
-            // 
-            PlannedE161.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE161.Font = new Font("Segoe UI", 12F);
-            PlannedE161.Location = new Point(393, 210);
-            PlannedE161.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE161.Name = "PlannedE161";
-            PlannedE161.Size = new Size(114, 29);
-            PlannedE161.TabIndex = 199;
-            PlannedE161.TextAlign = HorizontalAlignment.Center;
-            PlannedE161.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // PlannedE51
-            // 
-            PlannedE51.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE51.Font = new Font("Segoe UI", 12F);
-            PlannedE51.Location = new Point(393, 160);
-            PlannedE51.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE51.Name = "PlannedE51";
-            PlannedE51.Size = new Size(114, 29);
-            PlannedE51.TabIndex = 198;
-            PlannedE51.TextAlign = HorizontalAlignment.Center;
-            PlannedE51.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            // 
-            // ProductionOrdersE18
-            // 
-            ProductionOrdersE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE18.Location = new Point(1033, 600);
-            ProductionOrdersE18.Name = "ProductionOrdersE18";
-            ProductionOrdersE18.Size = new Size(114, 50);
-            ProductionOrdersE18.TabIndex = 189;
-            ProductionOrdersE18.Text = "number";
-            ProductionOrdersE18.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE18
-            // 
-            OrdersProgressE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE18.Location = new Point(873, 600);
-            OrdersProgressE18.Name = "OrdersProgressE18";
-            OrdersProgressE18.Size = new Size(114, 50);
-            OrdersProgressE18.TabIndex = 188;
-            OrdersProgressE18.Text = "number";
-            OrdersProgressE18.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE18
-            // 
-            OrdersQueueE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE18.Location = new Point(713, 600);
-            OrdersQueueE18.Name = "OrdersQueueE18";
-            OrdersQueueE18.Size = new Size(114, 50);
-            OrdersQueueE18.TabIndex = 187;
-            OrdersQueueE18.Text = "number";
-            OrdersQueueE18.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE18
-            // 
-            InventoryE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE18.Location = new Point(553, 600);
-            InventoryE18.Name = "InventoryE18";
-            InventoryE18.Size = new Size(114, 50);
-            InventoryE18.TabIndex = 186;
-            InventoryE18.Text = "number";
-            InventoryE18.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE18
-            // 
-            SuccessorQueueE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE18.Location = new Point(233, 600);
-            SuccessorQueueE18.Name = "SuccessorQueueE18";
-            SuccessorQueueE18.Size = new Size(114, 50);
-            SuccessorQueueE18.TabIndex = 185;
-            SuccessorQueueE18.Text = "number";
-            SuccessorQueueE18.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE18
-            // 
-            SellwishE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE18.Location = new Point(73, 600);
-            SellwishE18.Name = "SellwishE18";
-            SellwishE18.Size = new Size(114, 50);
-            SellwishE18.TabIndex = 184;
-            SellwishE18.Text = "number";
-            SellwishE18.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE13
-            // 
-            ProductionOrdersE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE13.Location = new Point(1033, 550);
-            ProductionOrdersE13.Name = "ProductionOrdersE13";
-            ProductionOrdersE13.Size = new Size(114, 50);
-            ProductionOrdersE13.TabIndex = 183;
-            ProductionOrdersE13.Text = "number";
-            ProductionOrdersE13.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE13
-            // 
-            OrdersProgressE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE13.Location = new Point(873, 550);
-            OrdersProgressE13.Name = "OrdersProgressE13";
-            OrdersProgressE13.Size = new Size(114, 50);
-            OrdersProgressE13.TabIndex = 182;
-            OrdersProgressE13.Text = "number";
-            OrdersProgressE13.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE13
-            // 
-            OrdersQueueE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE13.Location = new Point(713, 550);
-            OrdersQueueE13.Name = "OrdersQueueE13";
-            OrdersQueueE13.Size = new Size(114, 50);
-            OrdersQueueE13.TabIndex = 181;
-            OrdersQueueE13.Text = "number";
-            OrdersQueueE13.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE13
-            // 
-            InventoryE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE13.Location = new Point(553, 550);
-            InventoryE13.Name = "InventoryE13";
-            InventoryE13.Size = new Size(114, 50);
-            InventoryE13.TabIndex = 180;
-            InventoryE13.Text = "number";
-            InventoryE13.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE13
-            // 
-            SuccessorQueueE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE13.Location = new Point(233, 550);
-            SuccessorQueueE13.Name = "SuccessorQueueE13";
-            SuccessorQueueE13.Size = new Size(114, 50);
-            SuccessorQueueE13.TabIndex = 179;
-            SuccessorQueueE13.Text = "number";
-            SuccessorQueueE13.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE13
-            // 
-            SellwishE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE13.Location = new Point(73, 550);
-            SellwishE13.Name = "SellwishE13";
-            SellwishE13.Size = new Size(114, 50);
-            SellwishE13.TabIndex = 178;
-            SellwishE13.Text = "number";
-            SellwishE13.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE7
-            // 
-            ProductionOrdersE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE7.Location = new Point(1033, 500);
-            ProductionOrdersE7.Name = "ProductionOrdersE7";
-            ProductionOrdersE7.Size = new Size(114, 50);
-            ProductionOrdersE7.TabIndex = 177;
-            ProductionOrdersE7.Text = "number";
-            ProductionOrdersE7.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE7
-            // 
-            OrdersProgressE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE7.Location = new Point(873, 500);
-            OrdersProgressE7.Name = "OrdersProgressE7";
-            OrdersProgressE7.Size = new Size(114, 50);
-            OrdersProgressE7.TabIndex = 176;
-            OrdersProgressE7.Text = "number";
-            OrdersProgressE7.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE7
-            // 
-            OrdersQueueE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE7.Location = new Point(713, 500);
-            OrdersQueueE7.Name = "OrdersQueueE7";
-            OrdersQueueE7.Size = new Size(114, 50);
-            OrdersQueueE7.TabIndex = 175;
-            OrdersQueueE7.Text = "number";
-            OrdersQueueE7.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE7
-            // 
-            InventoryE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE7.Location = new Point(553, 500);
-            InventoryE7.Name = "InventoryE7";
-            InventoryE7.Size = new Size(114, 50);
-            InventoryE7.TabIndex = 174;
-            InventoryE7.Text = "number";
-            InventoryE7.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE7
-            // 
-            SuccessorQueueE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE7.Location = new Point(233, 500);
-            SuccessorQueueE7.Name = "SuccessorQueueE7";
-            SuccessorQueueE7.Size = new Size(114, 50);
-            SuccessorQueueE7.TabIndex = 173;
-            SuccessorQueueE7.Text = "number";
-            SuccessorQueueE7.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE7
-            // 
-            SellwishE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE7.Location = new Point(73, 500);
-            SellwishE7.Name = "SellwishE7";
-            SellwishE7.Size = new Size(114, 50);
-            SellwishE7.TabIndex = 172;
-            SellwishE7.Text = "number";
-            SellwishE7.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE49
-            // 
-            ProductionOrdersE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE49.Location = new Point(1033, 450);
-            ProductionOrdersE49.Name = "ProductionOrdersE49";
-            ProductionOrdersE49.Size = new Size(114, 50);
-            ProductionOrdersE49.TabIndex = 171;
-            ProductionOrdersE49.Text = "number";
-            ProductionOrdersE49.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE49
-            // 
-            OrdersProgressE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE49.Location = new Point(873, 450);
-            OrdersProgressE49.Name = "OrdersProgressE49";
-            OrdersProgressE49.Size = new Size(114, 50);
-            OrdersProgressE49.TabIndex = 170;
-            OrdersProgressE49.Text = "number";
-            OrdersProgressE49.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE49
-            // 
-            OrdersQueueE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE49.Location = new Point(713, 450);
-            OrdersQueueE49.Name = "OrdersQueueE49";
-            OrdersQueueE49.Size = new Size(114, 50);
-            OrdersQueueE49.TabIndex = 169;
-            OrdersQueueE49.Text = "number";
-            OrdersQueueE49.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE49
-            // 
-            InventoryE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE49.Location = new Point(553, 450);
-            InventoryE49.Name = "InventoryE49";
-            InventoryE49.Size = new Size(114, 50);
-            InventoryE49.TabIndex = 168;
-            InventoryE49.Text = "number";
-            InventoryE49.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE49
-            // 
-            SuccessorQueueE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE49.Location = new Point(233, 450);
-            SuccessorQueueE49.Name = "SuccessorQueueE49";
-            SuccessorQueueE49.Size = new Size(114, 50);
-            SuccessorQueueE49.TabIndex = 167;
-            SuccessorQueueE49.Text = "number";
-            SuccessorQueueE49.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE49
-            // 
-            SellwishE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE49.Location = new Point(73, 450);
-            SellwishE49.Name = "SellwishE49";
-            SellwishE49.Size = new Size(114, 50);
-            SellwishE49.TabIndex = 166;
-            SellwishE49.Text = "number";
-            SellwishE49.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE10
-            // 
-            ProductionOrdersE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE10.Location = new Point(1033, 400);
-            ProductionOrdersE10.Name = "ProductionOrdersE10";
-            ProductionOrdersE10.Size = new Size(114, 50);
-            ProductionOrdersE10.TabIndex = 165;
-            ProductionOrdersE10.Text = "number";
-            ProductionOrdersE10.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE10
-            // 
-            OrdersProgressE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE10.Location = new Point(873, 400);
-            OrdersProgressE10.Name = "OrdersProgressE10";
-            OrdersProgressE10.Size = new Size(114, 50);
-            OrdersProgressE10.TabIndex = 164;
-            OrdersProgressE10.Text = "number";
-            OrdersProgressE10.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE10
-            // 
-            OrdersQueueE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE10.Location = new Point(713, 400);
-            OrdersQueueE10.Name = "OrdersQueueE10";
-            OrdersQueueE10.Size = new Size(114, 50);
-            OrdersQueueE10.TabIndex = 163;
-            OrdersQueueE10.Text = "number";
-            OrdersQueueE10.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE10
-            // 
-            InventoryE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE10.Location = new Point(553, 400);
-            InventoryE10.Name = "InventoryE10";
-            InventoryE10.Size = new Size(114, 50);
-            InventoryE10.TabIndex = 162;
-            InventoryE10.Text = "number";
-            InventoryE10.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE10
-            // 
-            SuccessorQueueE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE10.Location = new Point(233, 400);
-            SuccessorQueueE10.Name = "SuccessorQueueE10";
-            SuccessorQueueE10.Size = new Size(114, 50);
-            SuccessorQueueE10.TabIndex = 161;
-            SuccessorQueueE10.Text = "number";
-            SuccessorQueueE10.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE10
-            // 
-            SellwishE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE10.Location = new Point(73, 400);
-            SellwishE10.Name = "SellwishE10";
-            SellwishE10.Size = new Size(114, 50);
-            SellwishE10.TabIndex = 160;
-            SellwishE10.Text = "number";
-            SellwishE10.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE4
-            // 
-            ProductionOrdersE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE4.Location = new Point(1033, 350);
-            ProductionOrdersE4.Name = "ProductionOrdersE4";
-            ProductionOrdersE4.Size = new Size(114, 50);
-            ProductionOrdersE4.TabIndex = 159;
-            ProductionOrdersE4.Text = "number";
-            ProductionOrdersE4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE4
-            // 
-            OrdersProgressE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE4.Location = new Point(873, 350);
-            OrdersProgressE4.Name = "OrdersProgressE4";
-            OrdersProgressE4.Size = new Size(114, 50);
-            OrdersProgressE4.TabIndex = 158;
-            OrdersProgressE4.Text = "number";
-            OrdersProgressE4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE4
-            // 
-            OrdersQueueE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE4.Location = new Point(713, 350);
-            OrdersQueueE4.Name = "OrdersQueueE4";
-            OrdersQueueE4.Size = new Size(114, 50);
-            OrdersQueueE4.TabIndex = 157;
-            OrdersQueueE4.Text = "number";
-            OrdersQueueE4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE4
-            // 
-            InventoryE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE4.Location = new Point(553, 350);
-            InventoryE4.Name = "InventoryE4";
-            InventoryE4.Size = new Size(114, 50);
-            InventoryE4.TabIndex = 156;
-            InventoryE4.Text = "number";
-            InventoryE4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE4
-            // 
-            SuccessorQueueE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE4.Location = new Point(233, 350);
-            SuccessorQueueE4.Name = "SuccessorQueueE4";
-            SuccessorQueueE4.Size = new Size(114, 50);
-            SuccessorQueueE4.TabIndex = 155;
-            SuccessorQueueE4.Text = "number";
-            SuccessorQueueE4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE4
-            // 
-            SellwishE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE4.Location = new Point(73, 350);
-            SellwishE4.Name = "SellwishE4";
-            SellwishE4.Size = new Size(114, 50);
-            SellwishE4.TabIndex = 154;
-            SellwishE4.Text = "number";
-            SellwishE4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE50
-            // 
-            ProductionOrdersE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE50.Location = new Point(1033, 300);
-            ProductionOrdersE50.Name = "ProductionOrdersE50";
-            ProductionOrdersE50.Size = new Size(114, 50);
-            ProductionOrdersE50.TabIndex = 153;
-            ProductionOrdersE50.Text = "number";
-            ProductionOrdersE50.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE50
-            // 
-            OrdersProgressE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE50.Location = new Point(873, 300);
-            OrdersProgressE50.Name = "OrdersProgressE50";
-            OrdersProgressE50.Size = new Size(114, 50);
-            OrdersProgressE50.TabIndex = 152;
-            OrdersProgressE50.Text = "number";
-            OrdersProgressE50.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE50
-            // 
-            OrdersQueueE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE50.Location = new Point(713, 300);
-            OrdersQueueE50.Name = "OrdersQueueE50";
-            OrdersQueueE50.Size = new Size(114, 50);
-            OrdersQueueE50.TabIndex = 151;
-            OrdersQueueE50.Text = "number";
-            OrdersQueueE50.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE50
-            // 
-            InventoryE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE50.Location = new Point(553, 300);
-            InventoryE50.Name = "InventoryE50";
-            InventoryE50.Size = new Size(114, 50);
-            InventoryE50.TabIndex = 150;
-            InventoryE50.Text = "number";
-            InventoryE50.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE50
-            // 
-            SuccessorQueueE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE50.Location = new Point(233, 300);
-            SuccessorQueueE50.Name = "SuccessorQueueE50";
-            SuccessorQueueE50.Size = new Size(114, 50);
-            SuccessorQueueE50.TabIndex = 149;
-            SuccessorQueueE50.Text = "number";
-            SuccessorQueueE50.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE50
-            // 
-            SellwishE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE50.Location = new Point(73, 300);
-            SellwishE50.Name = "SellwishE50";
-            SellwishE50.Size = new Size(114, 50);
-            SellwishE50.TabIndex = 148;
-            SellwishE50.Text = "number";
-            SellwishE50.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE171
-            // 
-            ProductionOrdersE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE171.Location = new Point(1033, 250);
-            ProductionOrdersE171.Name = "ProductionOrdersE171";
-            ProductionOrdersE171.Size = new Size(114, 50);
-            ProductionOrdersE171.TabIndex = 147;
-            ProductionOrdersE171.Text = "number";
-            ProductionOrdersE171.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE171
-            // 
-            OrdersProgressE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE171.Location = new Point(873, 250);
-            OrdersProgressE171.Name = "OrdersProgressE171";
-            OrdersProgressE171.Size = new Size(114, 50);
-            OrdersProgressE171.TabIndex = 146;
-            OrdersProgressE171.Text = "number";
-            OrdersProgressE171.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE171
-            // 
-            OrdersQueueE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE171.Location = new Point(713, 250);
-            OrdersQueueE171.Name = "OrdersQueueE171";
-            OrdersQueueE171.Size = new Size(114, 50);
-            OrdersQueueE171.TabIndex = 145;
-            OrdersQueueE171.Text = "number";
-            OrdersQueueE171.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE171
-            // 
-            InventoryE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE171.Location = new Point(553, 250);
-            InventoryE171.Name = "InventoryE171";
-            InventoryE171.Size = new Size(114, 50);
-            InventoryE171.TabIndex = 144;
-            InventoryE171.Text = "number";
-            InventoryE171.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE171
-            // 
-            SuccessorQueueE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE171.Location = new Point(233, 250);
-            SuccessorQueueE171.Name = "SuccessorQueueE171";
-            SuccessorQueueE171.Size = new Size(114, 50);
-            SuccessorQueueE171.TabIndex = 143;
-            SuccessorQueueE171.Text = "number";
-            SuccessorQueueE171.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE171
-            // 
-            SellwishE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE171.Location = new Point(73, 250);
-            SellwishE171.Name = "SellwishE171";
-            SellwishE171.Size = new Size(114, 50);
-            SellwishE171.TabIndex = 142;
-            SellwishE171.Text = "number";
-            SellwishE171.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE161
-            // 
-            ProductionOrdersE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE161.Location = new Point(1033, 200);
-            ProductionOrdersE161.Name = "ProductionOrdersE161";
-            ProductionOrdersE161.Size = new Size(114, 50);
-            ProductionOrdersE161.TabIndex = 141;
-            ProductionOrdersE161.Text = "number";
-            ProductionOrdersE161.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE161
-            // 
-            OrdersProgressE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE161.Location = new Point(873, 200);
-            OrdersProgressE161.Name = "OrdersProgressE161";
-            OrdersProgressE161.Size = new Size(114, 50);
-            OrdersProgressE161.TabIndex = 140;
-            OrdersProgressE161.Text = "number";
-            OrdersProgressE161.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE161
-            // 
-            OrdersQueueE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE161.Location = new Point(713, 200);
-            OrdersQueueE161.Name = "OrdersQueueE161";
-            OrdersQueueE161.Size = new Size(114, 50);
-            OrdersQueueE161.TabIndex = 139;
-            OrdersQueueE161.Text = "number";
-            OrdersQueueE161.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE161
-            // 
-            InventoryE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE161.Location = new Point(553, 200);
-            InventoryE161.Name = "InventoryE161";
-            InventoryE161.Size = new Size(114, 50);
-            InventoryE161.TabIndex = 138;
-            InventoryE161.Text = "number";
-            InventoryE161.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE161
-            // 
-            SuccessorQueueE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE161.Location = new Point(233, 200);
-            SuccessorQueueE161.Name = "SuccessorQueueE161";
-            SuccessorQueueE161.Size = new Size(114, 50);
-            SuccessorQueueE161.TabIndex = 137;
-            SuccessorQueueE161.Text = "number";
-            SuccessorQueueE161.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE161
-            // 
-            SellwishE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE161.Location = new Point(73, 200);
-            SellwishE161.Name = "SellwishE161";
-            SellwishE161.Size = new Size(114, 50);
-            SellwishE161.TabIndex = 136;
-            SellwishE161.Text = "number";
-            SellwishE161.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE51
-            // 
-            ProductionOrdersE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE51.Location = new Point(1033, 150);
-            ProductionOrdersE51.Name = "ProductionOrdersE51";
-            ProductionOrdersE51.Size = new Size(114, 50);
-            ProductionOrdersE51.TabIndex = 135;
-            ProductionOrdersE51.Text = "number";
-            ProductionOrdersE51.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE51
-            // 
-            OrdersProgressE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE51.Location = new Point(873, 150);
-            OrdersProgressE51.Name = "OrdersProgressE51";
-            OrdersProgressE51.Size = new Size(114, 50);
-            OrdersProgressE51.TabIndex = 134;
-            OrdersProgressE51.Text = "number";
-            OrdersProgressE51.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE51
-            // 
-            OrdersQueueE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE51.Location = new Point(713, 150);
-            OrdersQueueE51.Name = "OrdersQueueE51";
-            OrdersQueueE51.Size = new Size(114, 50);
-            OrdersQueueE51.TabIndex = 133;
-            OrdersQueueE51.Text = "number";
-            OrdersQueueE51.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE51
-            // 
-            InventoryE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE51.Location = new Point(553, 150);
-            InventoryE51.Name = "InventoryE51";
-            InventoryE51.Size = new Size(114, 50);
-            InventoryE51.TabIndex = 132;
-            InventoryE51.Text = "number";
-            InventoryE51.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE51
-            // 
-            SuccessorQueueE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE51.Location = new Point(233, 150);
-            SuccessorQueueE51.Name = "SuccessorQueueE51";
-            SuccessorQueueE51.Size = new Size(114, 50);
-            SuccessorQueueE51.TabIndex = 131;
-            SuccessorQueueE51.Text = "number";
-            SuccessorQueueE51.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE51
-            // 
-            SellwishE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE51.Location = new Point(73, 150);
-            SellwishE51.Name = "SellwishE51";
-            SellwishE51.Size = new Size(114, 50);
-            SellwishE51.TabIndex = 130;
-            SellwishE51.Text = "number";
-            SellwishE51.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersE261
-            // 
-            ProductionOrdersE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE261.Location = new Point(1033, 100);
-            ProductionOrdersE261.Name = "ProductionOrdersE261";
-            ProductionOrdersE261.Size = new Size(114, 50);
-            ProductionOrdersE261.TabIndex = 129;
-            ProductionOrdersE261.Text = "number";
-            ProductionOrdersE261.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressE261
-            // 
-            OrdersProgressE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE261.Location = new Point(873, 100);
-            OrdersProgressE261.Name = "OrdersProgressE261";
-            OrdersProgressE261.Size = new Size(114, 50);
-            OrdersProgressE261.TabIndex = 128;
-            OrdersProgressE261.Text = "number";
-            OrdersProgressE261.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueE261
-            // 
-            OrdersQueueE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE261.Location = new Point(713, 100);
-            OrdersQueueE261.Name = "OrdersQueueE261";
-            OrdersQueueE261.Size = new Size(114, 50);
-            OrdersQueueE261.TabIndex = 127;
-            OrdersQueueE261.Text = "number";
-            OrdersQueueE261.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryE261
-            // 
-            InventoryE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE261.Location = new Point(553, 100);
-            InventoryE261.Name = "InventoryE261";
-            InventoryE261.Size = new Size(114, 50);
-            InventoryE261.TabIndex = 126;
-            InventoryE261.Text = "number";
-            InventoryE261.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SuccessorQueueE261
-            // 
-            SuccessorQueueE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SuccessorQueueE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE261.Location = new Point(233, 100);
-            SuccessorQueueE261.Name = "SuccessorQueueE261";
-            SuccessorQueueE261.Size = new Size(114, 50);
-            SuccessorQueueE261.TabIndex = 125;
-            SuccessorQueueE261.Text = "number";
-            SuccessorQueueE261.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // SellwishE261
-            // 
-            SellwishE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE261.Location = new Point(73, 100);
-            SellwishE261.Name = "SellwishE261";
-            SellwishE261.Size = new Size(114, 50);
-            SellwishE261.TabIndex = 124;
-            SellwishE261.Text = "number";
-            SellwishE261.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // ProductionOrdersP1
-            // 
-            ProductionOrdersP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            ProductionOrdersP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersP1.Location = new Point(1033, 50);
-            ProductionOrdersP1.Name = "ProductionOrdersP1";
-            ProductionOrdersP1.Size = new Size(114, 50);
-            ProductionOrdersP1.TabIndex = 123;
-            ProductionOrdersP1.Text = "number";
-            ProductionOrdersP1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersProgressP1
-            // 
-            OrdersProgressP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersProgressP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressP1.Location = new Point(873, 50);
-            OrdersProgressP1.Name = "OrdersProgressP1";
-            OrdersProgressP1.Size = new Size(114, 50);
-            OrdersProgressP1.TabIndex = 122;
-            OrdersProgressP1.Text = "number";
-            OrdersProgressP1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // OrdersQueueP1
-            // 
-            OrdersQueueP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            OrdersQueueP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueP1.Location = new Point(713, 50);
-            OrdersQueueP1.Name = "OrdersQueueP1";
-            OrdersQueueP1.Size = new Size(114, 50);
-            OrdersQueueP1.TabIndex = 121;
-            OrdersQueueP1.Text = "number";
-            OrdersQueueP1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // InventoryP1
-            // 
-            InventoryP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            InventoryP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryP1.Location = new Point(553, 50);
-            InventoryP1.Name = "InventoryP1";
-            InventoryP1.Size = new Size(114, 50);
-            InventoryP1.TabIndex = 120;
-            InventoryP1.Text = "number";
-            InventoryP1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // PlannedP1
-            // 
-            PlannedP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            PlannedP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            PlannedP1.Location = new Point(393, 50);
-            PlannedP1.Name = "PlannedP1";
-            PlannedP1.Size = new Size(114, 50);
-            PlannedP1.TabIndex = 119;
-            PlannedP1.Text = "number";
-            PlannedP1.TextAlign = ContentAlignment.MiddleCenter;
+            // PlannedE19
+            // 
+            PlannedE19.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE19.Font = new Font("Segoe UI", 12F);
+            PlannedE19.Location = new Point(393, 610);
+            PlannedE19.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE19.Name = "PlannedE19";
+            PlannedE19.Size = new Size(114, 29);
+            PlannedE19.TabIndex = 207;
+            PlannedE19.TextAlign = HorizontalAlignment.Center;
+            PlannedE19.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE14
+            // 
+            PlannedE14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE14.Font = new Font("Segoe UI", 12F);
+            PlannedE14.Location = new Point(393, 560);
+            PlannedE14.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE14.Name = "PlannedE14";
+            PlannedE14.Size = new Size(114, 29);
+            PlannedE14.TabIndex = 206;
+            PlannedE14.TextAlign = HorizontalAlignment.Center;
+            PlannedE14.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE8
+            // 
+            PlannedE8.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE8.Font = new Font("Segoe UI", 12F);
+            PlannedE8.Location = new Point(393, 510);
+            PlannedE8.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE8.Name = "PlannedE8";
+            PlannedE8.Size = new Size(114, 29);
+            PlannedE8.TabIndex = 205;
+            PlannedE8.TextAlign = HorizontalAlignment.Center;
+            PlannedE8.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE54
+            // 
+            PlannedE54.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE54.Font = new Font("Segoe UI", 12F);
+            PlannedE54.Location = new Point(393, 460);
+            PlannedE54.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE54.Name = "PlannedE54";
+            PlannedE54.Size = new Size(114, 29);
+            PlannedE54.TabIndex = 204;
+            PlannedE54.TextAlign = HorizontalAlignment.Center;
+            PlannedE54.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE11
+            // 
+            PlannedE11.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE11.Font = new Font("Segoe UI", 12F);
+            PlannedE11.Location = new Point(393, 410);
+            PlannedE11.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE11.Name = "PlannedE11";
+            PlannedE11.Size = new Size(114, 29);
+            PlannedE11.TabIndex = 203;
+            PlannedE11.TextAlign = HorizontalAlignment.Center;
+            PlannedE11.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE5
+            // 
+            PlannedE5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE5.Font = new Font("Segoe UI", 12F);
+            PlannedE5.Location = new Point(393, 360);
+            PlannedE5.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE5.Name = "PlannedE5";
+            PlannedE5.Size = new Size(114, 29);
+            PlannedE5.TabIndex = 202;
+            PlannedE5.TextAlign = HorizontalAlignment.Center;
+            PlannedE5.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE55
+            // 
+            PlannedE55.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE55.Font = new Font("Segoe UI", 12F);
+            PlannedE55.Location = new Point(393, 310);
+            PlannedE55.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE55.Name = "PlannedE55";
+            PlannedE55.Size = new Size(114, 29);
+            PlannedE55.TabIndex = 201;
+            PlannedE55.TextAlign = HorizontalAlignment.Center;
+            PlannedE55.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE172
+            // 
+            PlannedE172.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE172.Font = new Font("Segoe UI", 12F);
+            PlannedE172.Location = new Point(393, 260);
+            PlannedE172.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE172.Name = "PlannedE172";
+            PlannedE172.Size = new Size(114, 29);
+            PlannedE172.TabIndex = 200;
+            PlannedE172.TextAlign = HorizontalAlignment.Center;
+            PlannedE172.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE162
+            // 
+            PlannedE162.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE162.Font = new Font("Segoe UI", 12F);
+            PlannedE162.Location = new Point(393, 210);
+            PlannedE162.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE162.Name = "PlannedE162";
+            PlannedE162.Size = new Size(114, 29);
+            PlannedE162.TabIndex = 199;
+            PlannedE162.TextAlign = HorizontalAlignment.Center;
+            PlannedE162.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // PlannedE56
+            // 
+            PlannedE56.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE56.Font = new Font("Segoe UI", 12F);
+            PlannedE56.Location = new Point(393, 160);
+            PlannedE56.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE56.Name = "PlannedE56";
+            PlannedE56.Size = new Size(114, 29);
+            PlannedE56.TabIndex = 198;
+            PlannedE56.TextAlign = HorizontalAlignment.Center;
+            PlannedE56.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            // 
+            // ProductionOrdersE19
+            // 
+            ProductionOrdersE19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE19.Location = new Point(1033, 600);
+            ProductionOrdersE19.Name = "ProductionOrdersE19";
+            ProductionOrdersE19.Size = new Size(114, 50);
+            ProductionOrdersE19.TabIndex = 189;
+            ProductionOrdersE19.Text = "number";
+            ProductionOrdersE19.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE19
+            // 
+            OrdersProgressE19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE19.Location = new Point(873, 600);
+            OrdersProgressE19.Name = "OrdersProgressE19";
+            OrdersProgressE19.Size = new Size(114, 50);
+            OrdersProgressE19.TabIndex = 188;
+            OrdersProgressE19.Text = "number";
+            OrdersProgressE19.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE19
+            // 
+            OrdersQueueE19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE19.Location = new Point(713, 600);
+            OrdersQueueE19.Name = "OrdersQueueE19";
+            OrdersQueueE19.Size = new Size(114, 50);
+            OrdersQueueE19.TabIndex = 187;
+            OrdersQueueE19.Text = "number";
+            OrdersQueueE19.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE19
+            // 
+            InventoryE19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE19.Location = new Point(553, 600);
+            InventoryE19.Name = "InventoryE19";
+            InventoryE19.Size = new Size(114, 50);
+            InventoryE19.TabIndex = 186;
+            InventoryE19.Text = "number";
+            InventoryE19.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE19
+            // 
+            SuccessorQueueE19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE19.Location = new Point(233, 600);
+            SuccessorQueueE19.Name = "SuccessorQueueE19";
+            SuccessorQueueE19.Size = new Size(114, 50);
+            SuccessorQueueE19.TabIndex = 185;
+            SuccessorQueueE19.Text = "number";
+            SuccessorQueueE19.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE19
+            // 
+            SellwishE19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE19.Location = new Point(73, 600);
+            SellwishE19.Name = "SellwishE19";
+            SellwishE19.Size = new Size(114, 50);
+            SellwishE19.TabIndex = 184;
+            SellwishE19.Text = "number";
+            SellwishE19.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE14
+            // 
+            ProductionOrdersE14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE14.Location = new Point(1033, 550);
+            ProductionOrdersE14.Name = "ProductionOrdersE14";
+            ProductionOrdersE14.Size = new Size(114, 50);
+            ProductionOrdersE14.TabIndex = 183;
+            ProductionOrdersE14.Text = "number";
+            ProductionOrdersE14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE14
+            // 
+            OrdersProgressE14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE14.Location = new Point(873, 550);
+            OrdersProgressE14.Name = "OrdersProgressE14";
+            OrdersProgressE14.Size = new Size(114, 50);
+            OrdersProgressE14.TabIndex = 182;
+            OrdersProgressE14.Text = "number";
+            OrdersProgressE14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE14
+            // 
+            OrdersQueueE14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE14.Location = new Point(713, 550);
+            OrdersQueueE14.Name = "OrdersQueueE14";
+            OrdersQueueE14.Size = new Size(114, 50);
+            OrdersQueueE14.TabIndex = 181;
+            OrdersQueueE14.Text = "number";
+            OrdersQueueE14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE14
+            // 
+            InventoryE14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE14.Location = new Point(553, 550);
+            InventoryE14.Name = "InventoryE14";
+            InventoryE14.Size = new Size(114, 50);
+            InventoryE14.TabIndex = 180;
+            InventoryE14.Text = "number";
+            InventoryE14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE14
+            // 
+            SuccessorQueueE14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE14.Location = new Point(233, 550);
+            SuccessorQueueE14.Name = "SuccessorQueueE14";
+            SuccessorQueueE14.Size = new Size(114, 50);
+            SuccessorQueueE14.TabIndex = 179;
+            SuccessorQueueE14.Text = "number";
+            SuccessorQueueE14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE14
+            // 
+            SellwishE14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE14.Location = new Point(73, 550);
+            SellwishE14.Name = "SellwishE14";
+            SellwishE14.Size = new Size(114, 50);
+            SellwishE14.TabIndex = 178;
+            SellwishE14.Text = "number";
+            SellwishE14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE8
+            // 
+            ProductionOrdersE8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE8.Location = new Point(1033, 500);
+            ProductionOrdersE8.Name = "ProductionOrdersE8";
+            ProductionOrdersE8.Size = new Size(114, 50);
+            ProductionOrdersE8.TabIndex = 177;
+            ProductionOrdersE8.Text = "number";
+            ProductionOrdersE8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE8
+            // 
+            OrdersProgressE8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE8.Location = new Point(873, 500);
+            OrdersProgressE8.Name = "OrdersProgressE8";
+            OrdersProgressE8.Size = new Size(114, 50);
+            OrdersProgressE8.TabIndex = 176;
+            OrdersProgressE8.Text = "number";
+            OrdersProgressE8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE8
+            // 
+            OrdersQueueE8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE8.Location = new Point(713, 500);
+            OrdersQueueE8.Name = "OrdersQueueE8";
+            OrdersQueueE8.Size = new Size(114, 50);
+            OrdersQueueE8.TabIndex = 175;
+            OrdersQueueE8.Text = "number";
+            OrdersQueueE8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE8
+            // 
+            InventoryE8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE8.Location = new Point(553, 500);
+            InventoryE8.Name = "InventoryE8";
+            InventoryE8.Size = new Size(114, 50);
+            InventoryE8.TabIndex = 174;
+            InventoryE8.Text = "number";
+            InventoryE8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE8
+            // 
+            SuccessorQueueE8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE8.Location = new Point(233, 500);
+            SuccessorQueueE8.Name = "SuccessorQueueE8";
+            SuccessorQueueE8.Size = new Size(114, 50);
+            SuccessorQueueE8.TabIndex = 173;
+            SuccessorQueueE8.Text = "number";
+            SuccessorQueueE8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE8
+            // 
+            SellwishE8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE8.Location = new Point(73, 500);
+            SellwishE8.Name = "SellwishE8";
+            SellwishE8.Size = new Size(114, 50);
+            SellwishE8.TabIndex = 172;
+            SellwishE8.Text = "number";
+            SellwishE8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE54
+            // 
+            ProductionOrdersE54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE54.Location = new Point(1033, 450);
+            ProductionOrdersE54.Name = "ProductionOrdersE54";
+            ProductionOrdersE54.Size = new Size(114, 50);
+            ProductionOrdersE54.TabIndex = 171;
+            ProductionOrdersE54.Text = "number";
+            ProductionOrdersE54.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE54
+            // 
+            OrdersProgressE54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE54.Location = new Point(873, 450);
+            OrdersProgressE54.Name = "OrdersProgressE54";
+            OrdersProgressE54.Size = new Size(114, 50);
+            OrdersProgressE54.TabIndex = 170;
+            OrdersProgressE54.Text = "number";
+            OrdersProgressE54.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE54
+            // 
+            OrdersQueueE54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE54.Location = new Point(713, 450);
+            OrdersQueueE54.Name = "OrdersQueueE54";
+            OrdersQueueE54.Size = new Size(114, 50);
+            OrdersQueueE54.TabIndex = 169;
+            OrdersQueueE54.Text = "number";
+            OrdersQueueE54.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE54
+            // 
+            InventoryE54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE54.Location = new Point(553, 450);
+            InventoryE54.Name = "InventoryE54";
+            InventoryE54.Size = new Size(114, 50);
+            InventoryE54.TabIndex = 168;
+            InventoryE54.Text = "number";
+            InventoryE54.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE54
+            // 
+            SuccessorQueueE54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE54.Location = new Point(233, 450);
+            SuccessorQueueE54.Name = "SuccessorQueueE54";
+            SuccessorQueueE54.Size = new Size(114, 50);
+            SuccessorQueueE54.TabIndex = 167;
+            SuccessorQueueE54.Text = "number";
+            SuccessorQueueE54.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE54
+            // 
+            SellwishE54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE54.Location = new Point(73, 450);
+            SellwishE54.Name = "SellwishE54";
+            SellwishE54.Size = new Size(114, 50);
+            SellwishE54.TabIndex = 166;
+            SellwishE54.Text = "number";
+            SellwishE54.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE11
+            // 
+            ProductionOrdersE11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE11.Location = new Point(1033, 400);
+            ProductionOrdersE11.Name = "ProductionOrdersE11";
+            ProductionOrdersE11.Size = new Size(114, 50);
+            ProductionOrdersE11.TabIndex = 165;
+            ProductionOrdersE11.Text = "number";
+            ProductionOrdersE11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE11
+            // 
+            OrdersProgressE11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE11.Location = new Point(873, 400);
+            OrdersProgressE11.Name = "OrdersProgressE11";
+            OrdersProgressE11.Size = new Size(114, 50);
+            OrdersProgressE11.TabIndex = 164;
+            OrdersProgressE11.Text = "number";
+            OrdersProgressE11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE11
+            // 
+            OrdersQueueE11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE11.Location = new Point(713, 400);
+            OrdersQueueE11.Name = "OrdersQueueE11";
+            OrdersQueueE11.Size = new Size(114, 50);
+            OrdersQueueE11.TabIndex = 163;
+            OrdersQueueE11.Text = "number";
+            OrdersQueueE11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE11
+            // 
+            InventoryE11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE11.Location = new Point(553, 400);
+            InventoryE11.Name = "InventoryE11";
+            InventoryE11.Size = new Size(114, 50);
+            InventoryE11.TabIndex = 162;
+            InventoryE11.Text = "number";
+            InventoryE11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE11
+            // 
+            SuccessorQueueE11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE11.Location = new Point(233, 400);
+            SuccessorQueueE11.Name = "SuccessorQueueE11";
+            SuccessorQueueE11.Size = new Size(114, 50);
+            SuccessorQueueE11.TabIndex = 161;
+            SuccessorQueueE11.Text = "number";
+            SuccessorQueueE11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE11
+            // 
+            SellwishE11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE11.Location = new Point(73, 400);
+            SellwishE11.Name = "SellwishE11";
+            SellwishE11.Size = new Size(114, 50);
+            SellwishE11.TabIndex = 160;
+            SellwishE11.Text = "number";
+            SellwishE11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE5
+            // 
+            ProductionOrdersE5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE5.Location = new Point(1033, 350);
+            ProductionOrdersE5.Name = "ProductionOrdersE5";
+            ProductionOrdersE5.Size = new Size(114, 50);
+            ProductionOrdersE5.TabIndex = 159;
+            ProductionOrdersE5.Text = "number";
+            ProductionOrdersE5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE5
+            // 
+            OrdersProgressE5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE5.Location = new Point(873, 350);
+            OrdersProgressE5.Name = "OrdersProgressE5";
+            OrdersProgressE5.Size = new Size(114, 50);
+            OrdersProgressE5.TabIndex = 158;
+            OrdersProgressE5.Text = "number";
+            OrdersProgressE5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE5
+            // 
+            OrdersQueueE5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE5.Location = new Point(713, 350);
+            OrdersQueueE5.Name = "OrdersQueueE5";
+            OrdersQueueE5.Size = new Size(114, 50);
+            OrdersQueueE5.TabIndex = 157;
+            OrdersQueueE5.Text = "number";
+            OrdersQueueE5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE5
+            // 
+            InventoryE5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE5.Location = new Point(553, 350);
+            InventoryE5.Name = "InventoryE5";
+            InventoryE5.Size = new Size(114, 50);
+            InventoryE5.TabIndex = 156;
+            InventoryE5.Text = "number";
+            InventoryE5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE5
+            // 
+            SuccessorQueueE5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE5.Location = new Point(233, 350);
+            SuccessorQueueE5.Name = "SuccessorQueueE5";
+            SuccessorQueueE5.Size = new Size(114, 50);
+            SuccessorQueueE5.TabIndex = 155;
+            SuccessorQueueE5.Text = "number";
+            SuccessorQueueE5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE5
+            // 
+            SellwishE5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE5.Location = new Point(73, 350);
+            SellwishE5.Name = "SellwishE5";
+            SellwishE5.Size = new Size(114, 50);
+            SellwishE5.TabIndex = 154;
+            SellwishE5.Text = "number";
+            SellwishE5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE55
+            // 
+            ProductionOrdersE55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE55.Location = new Point(1033, 300);
+            ProductionOrdersE55.Name = "ProductionOrdersE55";
+            ProductionOrdersE55.Size = new Size(114, 50);
+            ProductionOrdersE55.TabIndex = 153;
+            ProductionOrdersE55.Text = "number";
+            ProductionOrdersE55.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE55
+            // 
+            OrdersProgressE55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE55.Location = new Point(873, 300);
+            OrdersProgressE55.Name = "OrdersProgressE55";
+            OrdersProgressE55.Size = new Size(114, 50);
+            OrdersProgressE55.TabIndex = 152;
+            OrdersProgressE55.Text = "number";
+            OrdersProgressE55.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE55
+            // 
+            OrdersQueueE55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE55.Location = new Point(713, 300);
+            OrdersQueueE55.Name = "OrdersQueueE55";
+            OrdersQueueE55.Size = new Size(114, 50);
+            OrdersQueueE55.TabIndex = 151;
+            OrdersQueueE55.Text = "number";
+            OrdersQueueE55.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE55
+            // 
+            InventoryE55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE55.Location = new Point(553, 300);
+            InventoryE55.Name = "InventoryE55";
+            InventoryE55.Size = new Size(114, 50);
+            InventoryE55.TabIndex = 150;
+            InventoryE55.Text = "number";
+            InventoryE55.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE55
+            // 
+            SuccessorQueueE55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE55.Location = new Point(233, 300);
+            SuccessorQueueE55.Name = "SuccessorQueueE55";
+            SuccessorQueueE55.Size = new Size(114, 50);
+            SuccessorQueueE55.TabIndex = 149;
+            SuccessorQueueE55.Text = "number";
+            SuccessorQueueE55.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE55
+            // 
+            SellwishE55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE55.Location = new Point(73, 300);
+            SellwishE55.Name = "SellwishE55";
+            SellwishE55.Size = new Size(114, 50);
+            SellwishE55.TabIndex = 148;
+            SellwishE55.Text = "number";
+            SellwishE55.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE172
+            // 
+            ProductionOrdersE172.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE172.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE172.Location = new Point(1033, 250);
+            ProductionOrdersE172.Name = "ProductionOrdersE172";
+            ProductionOrdersE172.Size = new Size(114, 50);
+            ProductionOrdersE172.TabIndex = 147;
+            ProductionOrdersE172.Text = "number";
+            ProductionOrdersE172.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE172
+            // 
+            OrdersProgressE172.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE172.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE172.Location = new Point(873, 250);
+            OrdersProgressE172.Name = "OrdersProgressE172";
+            OrdersProgressE172.Size = new Size(114, 50);
+            OrdersProgressE172.TabIndex = 146;
+            OrdersProgressE172.Text = "number";
+            OrdersProgressE172.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE172
+            // 
+            OrdersQueueE172.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE172.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE172.Location = new Point(713, 250);
+            OrdersQueueE172.Name = "OrdersQueueE172";
+            OrdersQueueE172.Size = new Size(114, 50);
+            OrdersQueueE172.TabIndex = 145;
+            OrdersQueueE172.Text = "number";
+            OrdersQueueE172.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE172
+            // 
+            InventoryE172.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE172.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE172.Location = new Point(553, 250);
+            InventoryE172.Name = "InventoryE172";
+            InventoryE172.Size = new Size(114, 50);
+            InventoryE172.TabIndex = 144;
+            InventoryE172.Text = "number";
+            InventoryE172.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE172
+            // 
+            SuccessorQueueE172.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE172.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE172.Location = new Point(233, 250);
+            SuccessorQueueE172.Name = "SuccessorQueueE172";
+            SuccessorQueueE172.Size = new Size(114, 50);
+            SuccessorQueueE172.TabIndex = 143;
+            SuccessorQueueE172.Text = "number";
+            SuccessorQueueE172.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE172
+            // 
+            SellwishE172.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE172.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE172.Location = new Point(73, 250);
+            SellwishE172.Name = "SellwishE172";
+            SellwishE172.Size = new Size(114, 50);
+            SellwishE172.TabIndex = 142;
+            SellwishE172.Text = "number";
+            SellwishE172.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE162
+            // 
+            ProductionOrdersE162.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE162.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE162.Location = new Point(1033, 200);
+            ProductionOrdersE162.Name = "ProductionOrdersE162";
+            ProductionOrdersE162.Size = new Size(114, 50);
+            ProductionOrdersE162.TabIndex = 141;
+            ProductionOrdersE162.Text = "number";
+            ProductionOrdersE162.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE162
+            // 
+            OrdersProgressE162.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE162.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE162.Location = new Point(873, 200);
+            OrdersProgressE162.Name = "OrdersProgressE162";
+            OrdersProgressE162.Size = new Size(114, 50);
+            OrdersProgressE162.TabIndex = 140;
+            OrdersProgressE162.Text = "number";
+            OrdersProgressE162.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE162
+            // 
+            OrdersQueueE162.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE162.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE162.Location = new Point(713, 200);
+            OrdersQueueE162.Name = "OrdersQueueE162";
+            OrdersQueueE162.Size = new Size(114, 50);
+            OrdersQueueE162.TabIndex = 139;
+            OrdersQueueE162.Text = "number";
+            OrdersQueueE162.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE162
+            // 
+            InventoryE162.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE162.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE162.Location = new Point(553, 200);
+            InventoryE162.Name = "InventoryE162";
+            InventoryE162.Size = new Size(114, 50);
+            InventoryE162.TabIndex = 138;
+            InventoryE162.Text = "number";
+            InventoryE162.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE162
+            // 
+            SuccessorQueueE162.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE162.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE162.Location = new Point(233, 200);
+            SuccessorQueueE162.Name = "SuccessorQueueE162";
+            SuccessorQueueE162.Size = new Size(114, 50);
+            SuccessorQueueE162.TabIndex = 137;
+            SuccessorQueueE162.Text = "number";
+            SuccessorQueueE162.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE162
+            // 
+            SellwishE162.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE162.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE162.Location = new Point(73, 200);
+            SellwishE162.Name = "SellwishE162";
+            SellwishE162.Size = new Size(114, 50);
+            SellwishE162.TabIndex = 136;
+            SellwishE162.Text = "number";
+            SellwishE162.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE56
+            // 
+            ProductionOrdersE56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE56.Location = new Point(1033, 150);
+            ProductionOrdersE56.Name = "ProductionOrdersE56";
+            ProductionOrdersE56.Size = new Size(114, 50);
+            ProductionOrdersE56.TabIndex = 135;
+            ProductionOrdersE56.Text = "number";
+            ProductionOrdersE56.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE56
+            // 
+            OrdersProgressE56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE56.Location = new Point(873, 150);
+            OrdersProgressE56.Name = "OrdersProgressE56";
+            OrdersProgressE56.Size = new Size(114, 50);
+            OrdersProgressE56.TabIndex = 134;
+            OrdersProgressE56.Text = "number";
+            OrdersProgressE56.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE56
+            // 
+            OrdersQueueE56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE56.Location = new Point(713, 150);
+            OrdersQueueE56.Name = "OrdersQueueE56";
+            OrdersQueueE56.Size = new Size(114, 50);
+            OrdersQueueE56.TabIndex = 133;
+            OrdersQueueE56.Text = "number";
+            OrdersQueueE56.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE56
+            // 
+            InventoryE56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE56.Location = new Point(553, 150);
+            InventoryE56.Name = "InventoryE56";
+            InventoryE56.Size = new Size(114, 50);
+            InventoryE56.TabIndex = 132;
+            InventoryE56.Text = "number";
+            InventoryE56.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE56
+            // 
+            SuccessorQueueE56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE56.Location = new Point(233, 150);
+            SuccessorQueueE56.Name = "SuccessorQueueE56";
+            SuccessorQueueE56.Size = new Size(114, 50);
+            SuccessorQueueE56.TabIndex = 131;
+            SuccessorQueueE56.Text = "number";
+            SuccessorQueueE56.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE56
+            // 
+            SellwishE56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE56.Location = new Point(73, 150);
+            SellwishE56.Name = "SellwishE56";
+            SellwishE56.Size = new Size(114, 50);
+            SellwishE56.TabIndex = 130;
+            SellwishE56.Text = "number";
+            SellwishE56.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersE262
+            // 
+            ProductionOrdersE262.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersE262.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersE262.Location = new Point(1033, 100);
+            ProductionOrdersE262.Name = "ProductionOrdersE262";
+            ProductionOrdersE262.Size = new Size(114, 50);
+            ProductionOrdersE262.TabIndex = 129;
+            ProductionOrdersE262.Text = "number";
+            ProductionOrdersE262.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressE262
+            // 
+            OrdersProgressE262.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressE262.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressE262.Location = new Point(873, 100);
+            OrdersProgressE262.Name = "OrdersProgressE262";
+            OrdersProgressE262.Size = new Size(114, 50);
+            OrdersProgressE262.TabIndex = 128;
+            OrdersProgressE262.Text = "number";
+            OrdersProgressE262.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueE262
+            // 
+            OrdersQueueE262.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueE262.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueE262.Location = new Point(713, 100);
+            OrdersQueueE262.Name = "OrdersQueueE262";
+            OrdersQueueE262.Size = new Size(114, 50);
+            OrdersQueueE262.TabIndex = 127;
+            OrdersQueueE262.Text = "number";
+            OrdersQueueE262.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryE262
+            // 
+            InventoryE262.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryE262.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryE262.Location = new Point(553, 100);
+            InventoryE262.Name = "InventoryE262";
+            InventoryE262.Size = new Size(114, 50);
+            InventoryE262.TabIndex = 126;
+            InventoryE262.Text = "number";
+            InventoryE262.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SuccessorQueueE262
+            // 
+            SuccessorQueueE262.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SuccessorQueueE262.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SuccessorQueueE262.Location = new Point(233, 100);
+            SuccessorQueueE262.Name = "SuccessorQueueE262";
+            SuccessorQueueE262.Size = new Size(114, 50);
+            SuccessorQueueE262.TabIndex = 125;
+            SuccessorQueueE262.Text = "number";
+            SuccessorQueueE262.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // SellwishE262
+            // 
+            SellwishE262.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishE262.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishE262.Location = new Point(73, 100);
+            SellwishE262.Name = "SellwishE262";
+            SellwishE262.Size = new Size(114, 50);
+            SellwishE262.TabIndex = 124;
+            SellwishE262.Text = "number";
+            SellwishE262.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // ProductionOrdersP2
+            // 
+            ProductionOrdersP2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            ProductionOrdersP2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ProductionOrdersP2.Location = new Point(1033, 50);
+            ProductionOrdersP2.Name = "ProductionOrdersP2";
+            ProductionOrdersP2.Size = new Size(114, 50);
+            ProductionOrdersP2.TabIndex = 123;
+            ProductionOrdersP2.Text = "number";
+            ProductionOrdersP2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersProgressP2
+            // 
+            OrdersProgressP2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersProgressP2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersProgressP2.Location = new Point(873, 50);
+            OrdersProgressP2.Name = "OrdersProgressP2";
+            OrdersProgressP2.Size = new Size(114, 50);
+            OrdersProgressP2.TabIndex = 122;
+            OrdersProgressP2.Text = "number";
+            OrdersProgressP2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // OrdersQueueP2
+            // 
+            OrdersQueueP2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            OrdersQueueP2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrdersQueueP2.Location = new Point(713, 50);
+            OrdersQueueP2.Name = "OrdersQueueP2";
+            OrdersQueueP2.Size = new Size(114, 50);
+            OrdersQueueP2.TabIndex = 121;
+            OrdersQueueP2.Text = "number";
+            OrdersQueueP2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // InventoryP2
+            // 
+            InventoryP2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryP2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            InventoryP2.Location = new Point(553, 50);
+            InventoryP2.Name = "InventoryP2";
+            InventoryP2.Size = new Size(114, 50);
+            InventoryP2.TabIndex = 120;
+            InventoryP2.Text = "number";
+            InventoryP2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // PlannedP2
+            // 
+            PlannedP2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            PlannedP2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            PlannedP2.Location = new Point(393, 50);
+            PlannedP2.Name = "PlannedP2";
+            PlannedP2.Size = new Size(114, 50);
+            PlannedP2.TabIndex = 119;
+            PlannedP2.Text = "number";
+            PlannedP2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label99
             // 
@@ -1462,7 +1462,7 @@
             label12.Name = "label12";
             label12.Size = new Size(64, 50);
             label12.TabIndex = 11;
-            label12.Text = "E18";
+            label12.Text = "E19";
             label12.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label5
@@ -1475,7 +1475,7 @@
             label5.Name = "label5";
             label5.Size = new Size(64, 50);
             label5.TabIndex = 1;
-            label5.Text = "P1";
+            label5.Text = "P2";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -1488,7 +1488,7 @@
             label2.Name = "label2";
             label2.Size = new Size(64, 50);
             label2.TabIndex = 2;
-            label2.Text = "E261";
+            label2.Text = "E262";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -1501,7 +1501,7 @@
             label3.Name = "label3";
             label3.Size = new Size(64, 50);
             label3.TabIndex = 3;
-            label3.Text = "E51";
+            label3.Text = "E56";
             label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label6
@@ -1514,7 +1514,7 @@
             label6.Name = "label6";
             label6.Size = new Size(64, 50);
             label6.TabIndex = 5;
-            label6.Text = "E161";
+            label6.Text = "E162";
             label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label4
@@ -1527,7 +1527,7 @@
             label4.Name = "label4";
             label4.Size = new Size(64, 50);
             label4.TabIndex = 4;
-            label4.Text = "E171";
+            label4.Text = "E172";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label7
@@ -1540,7 +1540,7 @@
             label7.Name = "label7";
             label7.Size = new Size(64, 50);
             label7.TabIndex = 6;
-            label7.Text = "E50";
+            label7.Text = "E55";
             label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label9
@@ -1553,7 +1553,7 @@
             label9.Name = "label9";
             label9.Size = new Size(64, 50);
             label9.TabIndex = 8;
-            label9.Text = "E4";
+            label9.Text = "E5";
             label9.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label8
@@ -1566,7 +1566,7 @@
             label8.Name = "label8";
             label8.Size = new Size(64, 50);
             label8.TabIndex = 7;
-            label8.Text = "E10";
+            label8.Text = "E11";
             label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label10
@@ -1579,7 +1579,7 @@
             label10.Name = "label10";
             label10.Size = new Size(64, 50);
             label10.TabIndex = 9;
-            label10.Text = "E49";
+            label10.Text = "E54";
             label10.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label13
@@ -1592,7 +1592,7 @@
             label13.Name = "label13";
             label13.Size = new Size(64, 50);
             label13.TabIndex = 12;
-            label13.Text = "E7";
+            label13.Text = "E8";
             label13.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label11
@@ -1605,7 +1605,7 @@
             label11.Name = "label11";
             label11.Size = new Size(64, 50);
             label11.TabIndex = 10;
-            label11.Text = "E13";
+            label11.Text = "E14";
             label11.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label17
@@ -2345,28 +2345,28 @@
             label82.Text = "=";
             label82.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // PlannedE261
+            // PlannedE262
             // 
-            PlannedE261.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            PlannedE261.Font = new Font("Segoe UI", 12F);
-            PlannedE261.Location = new Point(393, 110);
-            PlannedE261.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            PlannedE261.Name = "PlannedE261";
-            PlannedE261.Size = new Size(114, 29);
-            PlannedE261.TabIndex = 100;
-            PlannedE261.TextAlign = HorizontalAlignment.Center;
-            PlannedE261.Value = new decimal(new int[] { 100, 0, 0, 0 });
+            PlannedE262.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            PlannedE262.Font = new Font("Segoe UI", 12F);
+            PlannedE262.Location = new Point(393, 110);
+            PlannedE262.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE262.Name = "PlannedE262";
+            PlannedE262.Size = new Size(114, 29);
+            PlannedE262.TabIndex = 100;
+            PlannedE262.TextAlign = HorizontalAlignment.Center;
+            PlannedE262.Value = new decimal(new int[] { 100, 0, 0, 0 });
             // 
-            // SellwishP1
+            // SellwishP2
             // 
-            SellwishP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            SellwishP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishP1.Location = new Point(73, 50);
-            SellwishP1.Name = "SellwishP1";
-            SellwishP1.Size = new Size(114, 50);
-            SellwishP1.TabIndex = 111;
-            SellwishP1.Text = "number";
-            SellwishP1.TextAlign = ContentAlignment.MiddleCenter;
+            SellwishP2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            SellwishP2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SellwishP2.Location = new Point(73, 50);
+            SellwishP2.Name = "SellwishP2";
+            SellwishP2.Size = new Size(114, 50);
+            SellwishP2.TabIndex = 111;
+            SellwishP2.Text = "number";
+            SellwishP2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label14
             // 
@@ -2387,7 +2387,7 @@
             label1.Name = "label1";
             label1.Size = new Size(211, 25);
             label1.TabIndex = 8;
-            label1.Text = "P1 - Material Planning";
+            label1.Text = "P2 - Material Planning";
             // 
             // switchMaterialP1
             // 
@@ -2423,17 +2423,17 @@
             Name = "MaterialPlanning_P2";
             Text = "Supply Chain Simulator - Material Planning P2";
             tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)PlannedE18).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE13).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE49).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE50).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE171).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE161).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE51).EndInit();
-            ((System.ComponentModel.ISupportInitialize)PlannedE261).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE54).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE55).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE172).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE162).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE56).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PlannedE262).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -2441,87 +2441,87 @@
         #endregion
 
         private TableLayoutPanel tableLayoutPanel1;
-        private NumericUpDown PlannedE18;
-        private NumericUpDown PlannedE13;
-        private NumericUpDown PlannedE7;
-        private NumericUpDown PlannedE49;
-        private NumericUpDown PlannedE10;
-        private NumericUpDown PlannedE4;
-        private NumericUpDown PlannedE50;
-        private NumericUpDown PlannedE171;
-        private NumericUpDown PlannedE161;
-        private NumericUpDown PlannedE51;
-        private Label ProductionOrdersE18;
-        private Label OrdersProgressE18;
-        private Label OrdersQueueE18;
-        private Label InventoryE18;
-        private Label SuccessorQueueE18;
-        private Label SellwishE18;
-        private Label ProductionOrdersE13;
-        private Label OrdersProgressE13;
-        private Label OrdersQueueE13;
-        private Label InventoryE13;
-        private Label SuccessorQueueE13;
-        private Label SellwishE13;
-        private Label ProductionOrdersE7;
-        private Label OrdersProgressE7;
-        private Label OrdersQueueE7;
-        private Label InventoryE7;
-        private Label SuccessorQueueE7;
-        private Label SellwishE7;
-        private Label ProductionOrdersE49;
-        private Label OrdersProgressE49;
-        private Label OrdersQueueE49;
-        private Label InventoryE49;
-        private Label SuccessorQueueE49;
-        private Label SellwishE49;
-        private Label ProductionOrdersE10;
-        private Label OrdersProgressE10;
-        private Label OrdersQueueE10;
-        private Label InventoryE10;
-        private Label SuccessorQueueE10;
-        private Label SellwishE10;
-        private Label ProductionOrdersE4;
-        private Label OrdersProgressE4;
-        private Label OrdersQueueE4;
-        private Label InventoryE4;
-        private Label SuccessorQueueE4;
-        private Label SellwishE4;
-        private Label ProductionOrdersE50;
-        private Label OrdersProgressE50;
-        private Label OrdersQueueE50;
-        private Label InventoryE50;
-        private Label SuccessorQueueE50;
-        private Label SellwishE50;
-        private Label ProductionOrdersE171;
-        private Label OrdersProgressE171;
-        private Label OrdersQueueE171;
-        private Label InventoryE171;
-        private Label SuccessorQueueE171;
-        private Label SellwishE171;
-        private Label ProductionOrdersE161;
-        private Label OrdersProgressE161;
-        private Label OrdersQueueE161;
-        private Label InventoryE161;
-        private Label SuccessorQueueE161;
-        private Label SellwishE161;
-        private Label ProductionOrdersE51;
-        private Label OrdersProgressE51;
-        private Label OrdersQueueE51;
-        private Label InventoryE51;
-        private Label SuccessorQueueE51;
-        private Label SellwishE51;
-        private Label ProductionOrdersE261;
-        private Label OrdersProgressE261;
-        private Label OrdersQueueE261;
-        private Label InventoryE261;
-        private Label SuccessorQueueE261;
-        private Label SellwishE261;
-        private Label ProductionOrdersP1;
-        private Label OrdersProgressP1;
-        private Label OrdersQueueP1;
-        private Label InventoryP1;
-        private Label PlannedP1;
+        private NumericUpDown PlannedE19;
+        private NumericUpDown PlannedE14;
+        private NumericUpDown PlannedE8;
+        private NumericUpDown PlannedE54;
+        private NumericUpDown PlannedE11;
+        private NumericUpDown PlannedE5;
+        private NumericUpDown PlannedE55;
+        private NumericUpDown PlannedE172;
+        private NumericUpDown PlannedE162;
+        private NumericUpDown PlannedE56;
+        private Label ProductionOrdersE19;
+        private Label OrdersProgressE19;
+        private Label OrdersQueueE19;
+        private Label InventoryE19;
+        private Label SuccessorQueueE19;
+        private Label SellwishE19;
+        private Label ProductionOrdersE14;
+        private Label OrdersProgressE14;
+        private Label OrdersQueueE14;
+        private Label InventoryE14;
+        private Label SuccessorQueueE14;
+        private Label SellwishE14;
+        private Label ProductionOrdersE8;
+        private Label OrdersProgressE8;
+        private Label OrdersQueueE8;
+        private Label InventoryE8;
+        private Label SuccessorQueueE8;
+        private Label SellwishE8;
+        private Label ProductionOrdersE54;
+        private Label OrdersProgressE54;
+        private Label OrdersQueueE54;
+        private Label InventoryE54;
+        private Label SuccessorQueueE54;
+        private Label SellwishE54;
+        private Label ProductionOrdersE11;
+        private Label OrdersProgressE11;
+        private Label OrdersQueueE11;
+        private Label InventoryE11;
+        private Label SuccessorQueueE11;
+        private Label SellwishE11;
+        private Label ProductionOrdersE5;
+        private Label OrdersProgressE5;
+        private Label OrdersQueueE5;
+        private Label InventoryE5;
+        private Label SuccessorQueueE5;
+        private Label SellwishE5;
+        private Label ProductionOrdersE55;
+        private Label OrdersProgressE55;
+        private Label OrdersQueueE55;
+        private Label InventoryE55;
+        private Label SuccessorQueueE55;
+        private Label SellwishE55;
+        private Label ProductionOrdersE172;
+        private Label OrdersProgressE172;
+        private Label OrdersQueueE172;
+        private Label InventoryE172;
+        private Label SuccessorQueueE172;
+        private Label SellwishE172;
+        private Label ProductionOrdersE162;
+        private Label OrdersProgressE162;
+        private Label OrdersQueueE162;
+        private Label InventoryE162;
+        private Label SuccessorQueueE162;
+        private Label SellwishE162;
+        private Label ProductionOrdersE56;
+        private Label OrdersProgressE56;
+        private Label OrdersQueueE56;
+        private Label InventoryE56;
+        private Label SuccessorQueueE56;
+        private Label SellwishE56;
+        private Label ProductionOrdersE262;
+        private Label OrdersProgressE262;
+        private Label OrdersQueueE262;
+        private Label InventoryE262;
+        private Label SuccessorQueueE262;
+        private Label SellwishE262;
+        private Label ProductionOrdersP2;
+        private Label OrdersProgressP2;
+        private Label OrdersQueueP2;
+        private Label InventoryP2;
+        private Label PlannedP2;
         private Label label99;
         private Label label97;
         private Label label95;
@@ -2612,8 +2612,8 @@
         private Label label80;
         private Label label81;
         private Label label82;
-        private NumericUpDown PlannedE261;
-        private Label SellwishP1;
+        private NumericUpDown PlannedE262;
+        private Label SellwishP2;
         private Label label14;
         private Label label1;
         private Button switchMaterialP1;
