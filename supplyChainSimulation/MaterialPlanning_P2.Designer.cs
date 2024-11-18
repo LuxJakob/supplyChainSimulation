@@ -1,6 +1,6 @@
 ﻿namespace supplyChainSimulation
 {
-    partial class MaterialPlanning
+    partial class MaterialPlanning_P2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            switchToLieferProdProg = new Button();
-            label1 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
             PlannedE18 = new NumericUpDown();
             PlannedE13 = new NumericUpDown();
@@ -205,7 +203,9 @@
             PlannedE261 = new NumericUpDown();
             SellwishP1 = new Label();
             label14 = new Label();
-            switchMaterialP2 = new Button();
+            label1 = new Label();
+            switchMaterialP1 = new Button();
+            switchMaterialP3 = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)PlannedE18).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PlannedE13).BeginInit();
@@ -219,27 +219,6 @@
             ((System.ComponentModel.ISupportInitialize)PlannedE51).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PlannedE261).BeginInit();
             SuspendLayout();
-            // 
-            // switchToLieferProdProg
-            // 
-            switchToLieferProdProg.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            switchToLieferProdProg.Location = new Point(12, 727);
-            switchToLieferProdProg.Name = "switchToLieferProdProg";
-            switchToLieferProdProg.Size = new Size(75, 23);
-            switchToLieferProdProg.TabIndex = 5;
-            switchToLieferProdProg.Text = "Back";
-            switchToLieferProdProg.UseVisualStyleBackColor = true;
-            switchToLieferProdProg.Click += switchToLieferProdProg_Click;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(211, 25);
-            label1.TabIndex = 6;
-            label1.Text = "P1 - Material Planning";
             // 
             // tableLayoutPanel1
             // 
@@ -449,7 +428,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
             tableLayoutPanel1.Size = new Size(1150, 650);
-            tableLayoutPanel1.TabIndex = 7;
+            tableLayoutPanel1.TabIndex = 9;
             // 
             // PlannedE18
             // 
@@ -462,7 +441,6 @@
             PlannedE18.TabIndex = 207;
             PlannedE18.TextAlign = HorizontalAlignment.Center;
             PlannedE18.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE18.ValueChanged += CalculateTable;
             // 
             // PlannedE13
             // 
@@ -475,7 +453,6 @@
             PlannedE13.TabIndex = 206;
             PlannedE13.TextAlign = HorizontalAlignment.Center;
             PlannedE13.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE13.ValueChanged += CalculateTable;
             // 
             // PlannedE7
             // 
@@ -488,7 +465,6 @@
             PlannedE7.TabIndex = 205;
             PlannedE7.TextAlign = HorizontalAlignment.Center;
             PlannedE7.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE7.ValueChanged += CalculateTable;
             // 
             // PlannedE49
             // 
@@ -501,7 +477,6 @@
             PlannedE49.TabIndex = 204;
             PlannedE49.TextAlign = HorizontalAlignment.Center;
             PlannedE49.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE49.ValueChanged += CalculateTable;
             // 
             // PlannedE10
             // 
@@ -514,7 +489,6 @@
             PlannedE10.TabIndex = 203;
             PlannedE10.TextAlign = HorizontalAlignment.Center;
             PlannedE10.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE10.ValueChanged += CalculateTable;
             // 
             // PlannedE4
             // 
@@ -527,7 +501,6 @@
             PlannedE4.TabIndex = 202;
             PlannedE4.TextAlign = HorizontalAlignment.Center;
             PlannedE4.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE4.ValueChanged += CalculateTable;
             // 
             // PlannedE50
             // 
@@ -540,7 +513,6 @@
             PlannedE50.TabIndex = 201;
             PlannedE50.TextAlign = HorizontalAlignment.Center;
             PlannedE50.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE50.ValueChanged += CalculateTable;
             // 
             // PlannedE171
             // 
@@ -553,7 +525,6 @@
             PlannedE171.TabIndex = 200;
             PlannedE171.TextAlign = HorizontalAlignment.Center;
             PlannedE171.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE171.ValueChanged += CalculateTable;
             // 
             // PlannedE161
             // 
@@ -566,7 +537,6 @@
             PlannedE161.TabIndex = 199;
             PlannedE161.TextAlign = HorizontalAlignment.Center;
             PlannedE161.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE161.ValueChanged += CalculateTable;
             // 
             // PlannedE51
             // 
@@ -579,7 +549,6 @@
             PlannedE51.TabIndex = 198;
             PlannedE51.TextAlign = HorizontalAlignment.Center;
             PlannedE51.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE51.ValueChanged += CalculateTable;
             // 
             // ProductionOrdersE18
             // 
@@ -2387,7 +2356,6 @@
             PlannedE261.TabIndex = 100;
             PlannedE261.TextAlign = HorizontalAlignment.Center;
             PlannedE261.Value = new decimal(new int[] { 100, 0, 0, 0 });
-            PlannedE261.ValueChanged += CalculateTable;
             // 
             // SellwishP1
             // 
@@ -2411,28 +2379,49 @@
             label14.Text = "+";
             label14.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // switchMaterialP2
+            // label1
             // 
-            switchMaterialP2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            switchMaterialP2.Location = new Point(1370, 727);
-            switchMaterialP2.Name = "switchMaterialP2";
-            switchMaterialP2.Size = new Size(75, 23);
-            switchMaterialP2.TabIndex = 8;
-            switchMaterialP2.Text = "Next";
-            switchMaterialP2.UseVisualStyleBackColor = true;
-            switchMaterialP2.Click += switchMaterialP2_Click;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(211, 25);
+            label1.TabIndex = 8;
+            label1.Text = "P1 - Material Planning";
             // 
-            // MaterialPlanning
+            // switchMaterialP1
+            // 
+            switchMaterialP1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            switchMaterialP1.Location = new Point(12, 727);
+            switchMaterialP1.Name = "switchMaterialP1";
+            switchMaterialP1.Size = new Size(75, 23);
+            switchMaterialP1.TabIndex = 10;
+            switchMaterialP1.Text = "Back";
+            switchMaterialP1.UseVisualStyleBackColor = true;
+            switchMaterialP1.Click += switchMaterialP1_Click;
+            // 
+            // switchMaterialP3
+            // 
+            switchMaterialP3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            switchMaterialP3.Location = new Point(1370, 727);
+            switchMaterialP3.Name = "switchMaterialP3";
+            switchMaterialP3.Size = new Size(75, 23);
+            switchMaterialP3.TabIndex = 11;
+            switchMaterialP3.Text = "Next";
+            switchMaterialP3.UseVisualStyleBackColor = true;
+            switchMaterialP3.Click += switchMaterialP3_Click;
+            // 
+            // MaterialPlanning_P2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1457, 762);
-            Controls.Add(switchMaterialP2);
+            Controls.Add(switchMaterialP3);
+            Controls.Add(switchMaterialP1);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
-            Controls.Add(switchToLieferProdProg);
-            Name = "MaterialPlanning";
-            Text = "Supply Chain Simulator - Material Planning P1";
+            Name = "MaterialPlanning_P2";
+            Text = "Supply Chain Simulator - Material Planning P2";
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)PlannedE18).EndInit();
             ((System.ComponentModel.ISupportInitialize)PlannedE13).EndInit();
@@ -2451,102 +2440,32 @@
 
         #endregion
 
-        private Button switchToLieferProdProg;
-        private Label label1;
         private TableLayoutPanel tableLayoutPanel1;
-        private Label label5;
-        private Label label2;
-        private Label label3;
-        private Label label6;
-        private Label label4;
-        private Label label7;
-        private Label label9;
-        private Label label8;
-        private Label label10;
-        private Label label13;
-        private Label label11;
-        private Label label12;
-        private Label label14;
-        private Label label15;
-        private Label label16;
-        private Label label17;
-        private Label label18;
-        private Label label19;
-        private Label label70;
-        private Label label66;
-        private Label label68;
-        private Label label20;
-        private Label label21;
-        private Label label22;
-        private Label label23;
-        private Label label24;
-        private Label label25;
-        private Label label26;
-        private Label label28;
-        private Label label29;
-        private Label label27;
-        private Label label31;
-        private Label label32;
-        private Label label30;
-        private Label label34;
-        private Label label35;
-        private Label label33;
-        private Label label37;
-        private Label label38;
-        private Label label36;
-        private Label label41;
-        private Label label39;
-        private Label label40;
-        private Label label42;
-        private Label label43;
-        private Label label56;
-        private Label label63;
-        private Label label74;
-        private Label label57;
-        private Label label45;
-        private Label label64;
-        private Label label44;
-        private Label label47;
-        private Label label67;
-        private Label label69;
-        private Label label60;
-        private Label label51;
-        private Label label49;
-        private Label label59;
-        private Label label58;
-        private Label label65;
-        private Label label71;
-        private Label label61;
-        private Label label53;
-        private Label label52;
-        private Label label50;
-        private Label label54;
-        private Label label62;
-        private Label label48;
-        private Label label46;
-        private Label label72;
-        private Label label55;
-        private Label label73;
-        private Label label86;
-        private Label label84;
-        private Label label85;
-        private Label label76;
-        private Label label75;
-        private Label label83;
-        private Label label78;
-        private Label label77;
-        private Label label80;
-        private Label label81;
-        private Label label82;
-        private Label label99;
-        private Label label97;
-        private Label label95;
-        private Label label93;
-        private Label label91;
-        private Label label89;
-        private Label label87;
-        private Label label79;
-        private NumericUpDown PlannedE261;
+        private NumericUpDown PlannedE18;
+        private NumericUpDown PlannedE13;
+        private NumericUpDown PlannedE7;
+        private NumericUpDown PlannedE49;
+        private NumericUpDown PlannedE10;
+        private NumericUpDown PlannedE4;
+        private NumericUpDown PlannedE50;
+        private NumericUpDown PlannedE171;
+        private NumericUpDown PlannedE161;
+        private NumericUpDown PlannedE51;
+        private Label ProductionOrdersE18;
+        private Label OrdersProgressE18;
+        private Label OrdersQueueE18;
+        private Label InventoryE18;
+        private Label SuccessorQueueE18;
+        private Label SellwishE18;
+        private Label ProductionOrdersE13;
+        private Label OrdersProgressE13;
+        private Label OrdersQueueE13;
+        private Label InventoryE13;
+        private Label SuccessorQueueE13;
+        private Label SellwishE13;
+        private Label ProductionOrdersE7;
+        private Label OrdersProgressE7;
+        private Label OrdersQueueE7;
         private Label InventoryE7;
         private Label SuccessorQueueE7;
         private Label SellwishE7;
@@ -2603,33 +2522,101 @@
         private Label OrdersQueueP1;
         private Label InventoryP1;
         private Label PlannedP1;
-        private Label label101;
+        private Label label99;
+        private Label label97;
+        private Label label95;
+        private Label label93;
+        private Label label91;
+        private Label label89;
+        private Label label87;
+        private Label label79;
+        private Label label70;
+        private Label label66;
+        private Label label68;
+        private Label label12;
+        private Label label5;
+        private Label label2;
+        private Label label3;
+        private Label label6;
+        private Label label4;
+        private Label label7;
+        private Label label9;
+        private Label label8;
+        private Label label10;
+        private Label label13;
+        private Label label11;
+        private Label label17;
+        private Label label18;
+        private Label label19;
+        private Label label20;
+        private Label label21;
+        private Label label22;
+        private Label label23;
+        private Label label24;
+        private Label label25;
+        private Label label26;
+        private Label label28;
+        private Label label29;
+        private Label label27;
+        private Label label31;
+        private Label label32;
+        private Label label30;
+        private Label label34;
+        private Label label35;
+        private Label label33;
+        private Label label37;
+        private Label label38;
+        private Label label36;
+        private Label label41;
+        private Label label39;
+        private Label label40;
+        private Label label42;
+        private Label label43;
+        private Label label56;
+        private Label label63;
+        private Label label74;
+        private Label label57;
+        private Label label45;
+        private Label label64;
+        private Label label44;
+        private Label label47;
+        private Label label67;
+        private Label label69;
+        private Label label60;
+        private Label label51;
+        private Label label49;
+        private Label label16;
+        private Label label59;
+        private Label label58;
+        private Label label65;
+        private Label label71;
+        private Label label61;
+        private Label label53;
+        private Label label52;
+        private Label label50;
+        private Label label54;
+        private Label label62;
+        private Label label48;
+        private Label label46;
+        private Label label72;
+        private Label label55;
+        private Label label73;
+        private Label label86;
+        private Label label84;
+        private Label label85;
+        private Label label76;
+        private Label label75;
+        private Label label83;
+        private Label label78;
+        private Label label77;
+        private Label label80;
+        private Label label81;
+        private Label label82;
+        private NumericUpDown PlannedE261;
         private Label SellwishP1;
-        private Label ProductionOrdersE18;
-        private Label OrdersProgressE18;
-        private Label OrdersQueueE18;
-        private Label InventoryE18;
-        private Label SuccessorQueueE18;
-        private Label SellwishE18;
-        private Label ProductionOrdersE13;
-        private Label OrdersProgressE13;
-        private Label OrdersQueueE13;
-        private Label InventoryE13;
-        private Label SuccessorQueueE13;
-        private Label SellwishE13;
-        private Label ProductionOrdersE7;
-        private Label OrdersProgressE7;
-        private Label OrdersQueueE7;
-        private NumericUpDown PlannedE18;
-        private NumericUpDown PlannedE13;
-        private NumericUpDown PlannedE7;
-        private NumericUpDown PlannedE49;
-        private NumericUpDown PlannedE10;
-        private NumericUpDown PlannedE4;
-        private NumericUpDown PlannedE50;
-        private NumericUpDown PlannedE171;
-        private NumericUpDown PlannedE161;
-        private NumericUpDown PlannedE51;
-        private Button switchMaterialP2;
+        private Label label14;
+        private Label label1;
+        private Button switchMaterialP1;
+        private Button switchMaterialP3;
     }
 }

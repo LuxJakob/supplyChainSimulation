@@ -19,6 +19,8 @@ namespace supplyChainSimulation
         {
             InitializeComponent();
 
+            // general settings
+
             warehousestockX = rootElement.Element("warehousestock");
             waitinglistworkstationsX = rootElement.Element("waitinglistworkstations");
             ordersinworkX = rootElement.Element("ordersinwork");
@@ -69,7 +71,9 @@ namespace supplyChainSimulation
                 }
             }
 
-            inventoryE261Value =(int)Math.Round((decimal)(warehousestock[26] / 3));
+            // customized for P1
+
+            inventoryE261Value = (int)Math.Round((decimal)(warehousestock[26] / 3));
             inventoryE161Value = (int)Math.Round((decimal)(warehousestock[16] / 3));
             inventoryE171Value = (int)Math.Round((decimal)(warehousestock[17] / 3));
 
@@ -118,12 +122,6 @@ namespace supplyChainSimulation
             ProductionOrdersP1.Text = productionOrders[1].ToString();
 
             CalculateTable();
-        }
-
-        private void switchToLieferProdProg_Click(object sender, EventArgs e)
-        {
-            MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
-            mainOrchestrator.ShowForm(new SalesProduction());
         }
 
         private void CalculateTable(object sender = null, EventArgs e = null)
@@ -177,9 +175,16 @@ namespace supplyChainSimulation
             UpdateLabelValue(ProductionOrdersE18, productionOrders[18]);
         }
 
-        private void switchMaterialP1_Click(object sender, EventArgs e)
+        private void switchToLieferProdProg_Click(object sender, EventArgs e)
         {
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
+            mainOrchestrator.ShowForm(new SalesProduction());
+        }
+
+        private void switchMaterialP2_Click(object sender, EventArgs e)
+        {
+            MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
+            mainOrchestrator.ShowForm(new MaterialPlanning_P2());
         }
     }
 }
