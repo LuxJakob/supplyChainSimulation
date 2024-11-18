@@ -138,9 +138,6 @@
             workstation4_1_6 = new Label();
             workstation4_2_7 = new Label();
             workstation4_3_7 = new Label();
-            label1 = new Label();
-            switchPurchasePartDisposition = new Button();
-            switchMaterialP3 = new Button();
             workstation6_16_2 = new Label();
             workstation6_18_3 = new Label();
             workstation6_19_3 = new Label();
@@ -200,6 +197,23 @@
             workstation14_16_3 = new Label();
             workstation15_17_3 = new Label();
             workstation15_26_3 = new Label();
+            label1 = new Label();
+            switchPurchasePartDisposition = new Button();
+            switchMaterialP3 = new Button();
+            newCapacityReq1 = new Label();
+            newCapacityReq2 = new Label();
+            newCapacityReq3 = new Label();
+            newCapacityReq4 = new Label();
+            newCapacityReq6 = new Label();
+            newCapacityReq7 = new Label();
+            newCapacityReq8 = new Label();
+            newCapacityReq9 = new Label();
+            newCapacityReq10 = new Label();
+            newCapacityReq11 = new Label();
+            newCapacityReq12 = new Label();
+            newCapacityReq13 = new Label();
+            newCapacityReq14 = new Label();
+            newCapacityReq15 = new Label();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -392,6 +406,20 @@
             tableLayoutPanel1.Controls.Add(workstation14_16_3, 16, 14);
             tableLayoutPanel1.Controls.Add(workstation15_17_3, 17, 15);
             tableLayoutPanel1.Controls.Add(workstation15_26_3, 17, 19);
+            tableLayoutPanel1.Controls.Add(newCapacityReq1, 3, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq2, 4, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq3, 5, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq4, 6, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq6, 8, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq7, 9, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq8, 10, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq9, 11, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq10, 12, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq11, 13, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq12, 14, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq13, 15, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq14, 16, 32);
+            tableLayoutPanel1.Controls.Add(newCapacityReq15, 17, 32);
             tableLayoutPanel1.Location = new Point(12, 37);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 38;
@@ -834,7 +862,7 @@
             label32.Name = "label32";
             label32.Size = new Size(264, 20);
             label32.TabIndex = 125;
-            label32.Text = "Aadd. capacity requirements";
+            label32.Text = "Add. capacity requirements";
             label32.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label37
@@ -1654,38 +1682,6 @@
             workstation4_3_7.Text = "x7";
             workstation4_3_7.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(172, 25);
-            label1.TabIndex = 7;
-            label1.Text = "Capacity Planning";
-            // 
-            // switchPurchasePartDisposition
-            // 
-            switchPurchasePartDisposition.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            switchPurchasePartDisposition.Location = new Point(1397, 829);
-            switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
-            switchPurchasePartDisposition.Size = new Size(75, 23);
-            switchPurchasePartDisposition.TabIndex = 10;
-            switchPurchasePartDisposition.Text = "Next";
-            switchPurchasePartDisposition.UseVisualStyleBackColor = true;
-            switchPurchasePartDisposition.Click += switchPurchasePartDisposition_Click;
-            // 
-            // switchMaterialP3
-            // 
-            switchMaterialP3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            switchMaterialP3.Location = new Point(12, 829);
-            switchMaterialP3.Name = "switchMaterialP3";
-            switchMaterialP3.Size = new Size(75, 23);
-            switchMaterialP3.TabIndex = 9;
-            switchMaterialP3.Text = "Back";
-            switchMaterialP3.UseVisualStyleBackColor = true;
-            switchMaterialP3.Click += switchMaterialP3_Click;
-            // 
             // workstation6_16_2
             // 
             workstation6_16_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
@@ -2335,6 +2331,192 @@
             workstation15_26_3.Text = "x3";
             workstation15_26_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(172, 25);
+            label1.TabIndex = 7;
+            label1.Text = "Capacity Planning";
+            // 
+            // switchPurchasePartDisposition
+            // 
+            switchPurchasePartDisposition.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            switchPurchasePartDisposition.Location = new Point(1397, 829);
+            switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
+            switchPurchasePartDisposition.Size = new Size(75, 23);
+            switchPurchasePartDisposition.TabIndex = 10;
+            switchPurchasePartDisposition.Text = "Next";
+            switchPurchasePartDisposition.UseVisualStyleBackColor = true;
+            switchPurchasePartDisposition.Click += switchPurchasePartDisposition_Click;
+            // 
+            // switchMaterialP3
+            // 
+            switchMaterialP3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            switchMaterialP3.Location = new Point(12, 829);
+            switchMaterialP3.Name = "switchMaterialP3";
+            switchMaterialP3.Size = new Size(75, 23);
+            switchMaterialP3.TabIndex = 9;
+            switchMaterialP3.Text = "Back";
+            switchMaterialP3.UseVisualStyleBackColor = true;
+            switchMaterialP3.Click += switchMaterialP3_Click;
+            // 
+            // newCapacityReq1
+            // 
+            newCapacityReq1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq1.Font = new Font("Segoe UI", 9F);
+            newCapacityReq1.Location = new Point(273, 650);
+            newCapacityReq1.Name = "newCapacityReq1";
+            newCapacityReq1.Size = new Size(69, 20);
+            newCapacityReq1.TabIndex = 176;
+            newCapacityReq1.Text = "Sum";
+            newCapacityReq1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq2
+            // 
+            newCapacityReq2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq2.Font = new Font("Segoe UI", 9F);
+            newCapacityReq2.Location = new Point(348, 650);
+            newCapacityReq2.Name = "newCapacityReq2";
+            newCapacityReq2.Size = new Size(69, 20);
+            newCapacityReq2.TabIndex = 176;
+            newCapacityReq2.Text = "Sum";
+            newCapacityReq2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq3
+            // 
+            newCapacityReq3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq3.Font = new Font("Segoe UI", 9F);
+            newCapacityReq3.Location = new Point(423, 650);
+            newCapacityReq3.Name = "newCapacityReq3";
+            newCapacityReq3.Size = new Size(69, 20);
+            newCapacityReq3.TabIndex = 176;
+            newCapacityReq3.Text = "Sum";
+            newCapacityReq3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq4
+            // 
+            newCapacityReq4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq4.Font = new Font("Segoe UI", 9F);
+            newCapacityReq4.Location = new Point(498, 650);
+            newCapacityReq4.Name = "newCapacityReq4";
+            newCapacityReq4.Size = new Size(69, 20);
+            newCapacityReq4.TabIndex = 176;
+            newCapacityReq4.Text = "Sum";
+            newCapacityReq4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq6
+            // 
+            newCapacityReq6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq6.Font = new Font("Segoe UI", 9F);
+            newCapacityReq6.Location = new Point(603, 650);
+            newCapacityReq6.Name = "newCapacityReq6";
+            newCapacityReq6.Size = new Size(69, 20);
+            newCapacityReq6.TabIndex = 176;
+            newCapacityReq6.Text = "Sum";
+            newCapacityReq6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq7
+            // 
+            newCapacityReq7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq7.Font = new Font("Segoe UI", 9F);
+            newCapacityReq7.Location = new Point(678, 650);
+            newCapacityReq7.Name = "newCapacityReq7";
+            newCapacityReq7.Size = new Size(69, 20);
+            newCapacityReq7.TabIndex = 176;
+            newCapacityReq7.Text = "Sum";
+            newCapacityReq7.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq8
+            // 
+            newCapacityReq8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq8.Font = new Font("Segoe UI", 9F);
+            newCapacityReq8.Location = new Point(753, 650);
+            newCapacityReq8.Name = "newCapacityReq8";
+            newCapacityReq8.Size = new Size(69, 20);
+            newCapacityReq8.TabIndex = 176;
+            newCapacityReq8.Text = "Sum";
+            newCapacityReq8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq9
+            // 
+            newCapacityReq9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq9.Font = new Font("Segoe UI", 9F);
+            newCapacityReq9.Location = new Point(828, 650);
+            newCapacityReq9.Name = "newCapacityReq9";
+            newCapacityReq9.Size = new Size(69, 20);
+            newCapacityReq9.TabIndex = 176;
+            newCapacityReq9.Text = "Sum";
+            newCapacityReq9.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq10
+            // 
+            newCapacityReq10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq10.Font = new Font("Segoe UI", 9F);
+            newCapacityReq10.Location = new Point(903, 650);
+            newCapacityReq10.Name = "newCapacityReq10";
+            newCapacityReq10.Size = new Size(69, 20);
+            newCapacityReq10.TabIndex = 176;
+            newCapacityReq10.Text = "Sum";
+            newCapacityReq10.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq11
+            // 
+            newCapacityReq11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq11.Font = new Font("Segoe UI", 9F);
+            newCapacityReq11.Location = new Point(978, 650);
+            newCapacityReq11.Name = "newCapacityReq11";
+            newCapacityReq11.Size = new Size(69, 20);
+            newCapacityReq11.TabIndex = 176;
+            newCapacityReq11.Text = "Sum";
+            newCapacityReq11.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq12
+            // 
+            newCapacityReq12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq12.Font = new Font("Segoe UI", 9F);
+            newCapacityReq12.Location = new Point(1053, 650);
+            newCapacityReq12.Name = "newCapacityReq12";
+            newCapacityReq12.Size = new Size(69, 20);
+            newCapacityReq12.TabIndex = 176;
+            newCapacityReq12.Text = "Sum";
+            newCapacityReq12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq13
+            // 
+            newCapacityReq13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq13.Font = new Font("Segoe UI", 9F);
+            newCapacityReq13.Location = new Point(1128, 650);
+            newCapacityReq13.Name = "newCapacityReq13";
+            newCapacityReq13.Size = new Size(69, 20);
+            newCapacityReq13.TabIndex = 176;
+            newCapacityReq13.Text = "Sum";
+            newCapacityReq13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq14
+            // 
+            newCapacityReq14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq14.Font = new Font("Segoe UI", 9F);
+            newCapacityReq14.Location = new Point(1203, 650);
+            newCapacityReq14.Name = "newCapacityReq14";
+            newCapacityReq14.Size = new Size(69, 20);
+            newCapacityReq14.TabIndex = 176;
+            newCapacityReq14.Text = "Sum";
+            newCapacityReq14.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // newCapacityReq15
+            // 
+            newCapacityReq15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            newCapacityReq15.Font = new Font("Segoe UI", 9F);
+            newCapacityReq15.Location = new Point(1278, 650);
+            newCapacityReq15.Name = "newCapacityReq15";
+            newCapacityReq15.Size = new Size(69, 20);
+            newCapacityReq15.TabIndex = 176;
+            newCapacityReq15.Text = "Sum";
+            newCapacityReq15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // CapacityPlanning
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -2525,5 +2707,19 @@
         private Label workstation14_16_3;
         private Label workstation15_17_3;
         private Label workstation15_26_3;
+        private Label newCapacityReq1;
+        private Label newCapacityReq2;
+        private Label newCapacityReq3;
+        private Label newCapacityReq4;
+        private Label newCapacityReq6;
+        private Label newCapacityReq7;
+        private Label newCapacityReq8;
+        private Label newCapacityReq9;
+        private Label newCapacityReq10;
+        private Label newCapacityReq11;
+        private Label newCapacityReq12;
+        private Label newCapacityReq13;
+        private Label newCapacityReq14;
+        private Label newCapacityReq15;
     }
 }

@@ -44,6 +44,7 @@ namespace supplyChainSimulation
         public static Dictionary<int, int> ordersinwork = new Dictionary<int, int>();
         public static Dictionary<int, int> waitinglistProducts = new Dictionary<int, int>();
         public static Dictionary<int, int> productionOrders = new Dictionary<int, int>();
+        public static Dictionary<int, int> waitinglistworkstations = new Dictionary<int, int>();
 
         public static int inventoryE261Value;
         public static int inventoryE161Value;
@@ -77,8 +78,8 @@ namespace supplyChainSimulation
 
         public static int initialInitMaterial = 0;
 
-        // variables
-        public static Dictionary<int, int> waitinglistworkstations = new Dictionary<int, int>();
+        // CapacityPlanning variables
+        public static Dictionary<int, int> addCapacityRequirements = new Dictionary<int, int>();
 
         // public methods
         public static void AssignValue(Label label, Dictionary<int, int> dictionary, int key)
