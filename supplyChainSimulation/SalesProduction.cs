@@ -51,11 +51,6 @@ namespace supplyChainSimulation
             Label_Period1_1.Text = $"Period {current_period + 2}";
             Label_Period2_1.Text = $"Period {current_period + 3}";
             Label_Period3_1.Text = $"Period {current_period + 4}";
-
-            Label_Period0_2.Text = $"Period {current_period + 1}";
-            Label_Period1_2.Text = $"Period {current_period + 2}";
-            Label_Period2_2.Text = $"Period {current_period + 3}";
-            Label_Period3_2.Text = $"Period {current_period + 4}";
         }
 
         private void switchToUpload_Click(object sender, EventArgs e)
@@ -98,9 +93,6 @@ namespace supplyChainSimulation
             directSale2[1] = (int)DirectXP1_2.Value;
             directSale2[2] = (int)DirectXP2_2.Value;
             directSale2[3] = (int)DirectXP3_2.Value;
-            directSale3[1] = (int)DirectXP1_3.Value;
-            directSale3[2] = (int)DirectXP2_3.Value;
-            directSale3[3] = (int)DirectXP3_3.Value;
 
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
             mainOrchestrator.ShowForm(new MaterialPlanning());

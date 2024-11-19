@@ -69,14 +69,10 @@
             tableLayoutPanel3 = new TableLayoutPanel();
             label4 = new Label();
             Label_Period0_2 = new Label();
-            DirectXP3_3 = new NumericUpDown();
-            Label_Period3_2 = new Label();
             DirectXP3_2 = new NumericUpDown();
-            DirectXP2_3 = new NumericUpDown();
             DirectXP3_1 = new NumericUpDown();
             Label_Period1_2 = new Label();
             DirectXP3_0 = new NumericUpDown();
-            DirectXP1_3 = new NumericUpDown();
             DirectXP2_2 = new NumericUpDown();
             Label_Period2_2 = new Label();
             DirectXP1_0 = new NumericUpDown();
@@ -122,12 +118,9 @@
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)DirectXP3_3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP3_2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)DirectXP2_3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP3_1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP3_0).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)DirectXP1_3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP2_2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP1_0).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP2_1).BeginInit();
@@ -626,14 +619,10 @@
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
             tableLayoutPanel3.Controls.Add(label4, 0, 0);
             tableLayoutPanel3.Controls.Add(Label_Period0_2, 0, 1);
-            tableLayoutPanel3.Controls.Add(DirectXP3_3, 6, 4);
-            tableLayoutPanel3.Controls.Add(Label_Period3_2, 6, 1);
             tableLayoutPanel3.Controls.Add(DirectXP3_2, 4, 4);
-            tableLayoutPanel3.Controls.Add(DirectXP2_3, 6, 3);
             tableLayoutPanel3.Controls.Add(DirectXP3_1, 2, 4);
             tableLayoutPanel3.Controls.Add(Label_Period1_2, 2, 1);
             tableLayoutPanel3.Controls.Add(DirectXP3_0, 0, 4);
-            tableLayoutPanel3.Controls.Add(DirectXP1_3, 6, 2);
             tableLayoutPanel3.Controls.Add(DirectXP2_2, 4, 3);
             tableLayoutPanel3.Controls.Add(Label_Period2_2, 4, 1);
             tableLayoutPanel3.Controls.Add(DirectXP1_0, 0, 2);
@@ -671,30 +660,8 @@
             Label_Period0_2.Name = "Label_Period0_2";
             Label_Period0_2.Size = new Size(114, 20);
             Label_Period0_2.TabIndex = 32;
-            Label_Period0_2.Text = "Period X";
+            Label_Period0_2.Text = "Quantity";
             Label_Period0_2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // DirectXP3_3
-            // 
-            DirectXP3_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            DirectXP3_3.Font = new Font("Segoe UI", 12F);
-            DirectXP3_3.Location = new Point(483, 210);
-            DirectXP3_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            DirectXP3_3.Name = "DirectXP3_3";
-            DirectXP3_3.Size = new Size(114, 29);
-            DirectXP3_3.TabIndex = 39;
-            DirectXP3_3.TextAlign = HorizontalAlignment.Center;
-            // 
-            // Label_Period3_2
-            // 
-            Label_Period3_2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            Label_Period3_2.Font = new Font("Segoe UI", 12F);
-            Label_Period3_2.Location = new Point(483, 65);
-            Label_Period3_2.Name = "Label_Period3_2";
-            Label_Period3_2.Size = new Size(114, 20);
-            Label_Period3_2.TabIndex = 41;
-            Label_Period3_2.Text = "Period X";
-            Label_Period3_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // DirectXP3_2
             // 
@@ -706,17 +673,6 @@
             DirectXP3_2.Size = new Size(114, 29);
             DirectXP3_2.TabIndex = 36;
             DirectXP3_2.TextAlign = HorizontalAlignment.Center;
-            // 
-            // DirectXP2_3
-            // 
-            DirectXP2_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            DirectXP2_3.Font = new Font("Segoe UI", 12F);
-            DirectXP2_3.Location = new Point(483, 160);
-            DirectXP2_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            DirectXP2_3.Name = "DirectXP2_3";
-            DirectXP2_3.Size = new Size(114, 29);
-            DirectXP2_3.TabIndex = 38;
-            DirectXP2_3.TextAlign = HorizontalAlignment.Center;
             // 
             // DirectXP3_1
             // 
@@ -737,7 +693,7 @@
             Label_Period1_2.Name = "Label_Period1_2";
             Label_Period1_2.Size = new Size(114, 20);
             Label_Period1_2.TabIndex = 33;
-            Label_Period1_2.Text = "Period X";
+            Label_Period1_2.Text = "Price";
             Label_Period1_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // DirectXP3_0
@@ -750,17 +706,6 @@
             DirectXP3_0.Size = new Size(114, 29);
             DirectXP3_0.TabIndex = 28;
             DirectXP3_0.TextAlign = HorizontalAlignment.Center;
-            // 
-            // DirectXP1_3
-            // 
-            DirectXP1_3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            DirectXP1_3.Font = new Font("Segoe UI", 12F);
-            DirectXP1_3.Location = new Point(483, 110);
-            DirectXP1_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            DirectXP1_3.Name = "DirectXP1_3";
-            DirectXP1_3.Size = new Size(114, 29);
-            DirectXP1_3.TabIndex = 37;
-            DirectXP1_3.TextAlign = HorizontalAlignment.Center;
             // 
             // DirectXP2_2
             // 
@@ -781,7 +726,7 @@
             Label_Period2_2.Name = "Label_Period2_2";
             Label_Period2_2.Size = new Size(114, 20);
             Label_Period2_2.TabIndex = 40;
-            Label_Period2_2.Text = "Period X";
+            Label_Period2_2.Text = "Penalty";
             Label_Period2_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // DirectXP1_0
@@ -1072,12 +1017,9 @@
             tableLayoutPanel1.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)DirectXP3_3).EndInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP3_2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)DirectXP2_3).EndInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP3_1).EndInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP3_0).EndInit();
-            ((System.ComponentModel.ISupportInitialize)DirectXP1_3).EndInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP2_2).EndInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP1_0).EndInit();
             ((System.ComponentModel.ISupportInitialize)DirectXP2_1).EndInit();
@@ -1133,14 +1075,10 @@
         private TableLayoutPanel tableLayoutPanel3;
         private Label label4;
         private Label Label_Period0_2;
-        private NumericUpDown DirectXP3_3;
-        private Label Label_Period3_2;
         private NumericUpDown DirectXP3_2;
-        private NumericUpDown DirectXP2_3;
         private NumericUpDown DirectXP3_1;
         private Label Label_Period1_2;
         private NumericUpDown DirectXP3_0;
-        private NumericUpDown DirectXP1_3;
         private NumericUpDown DirectXP2_2;
         private Label Label_Period2_2;
         private NumericUpDown DirectXP1_0;

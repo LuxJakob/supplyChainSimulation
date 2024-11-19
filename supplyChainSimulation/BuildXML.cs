@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using static System.Collections.Specialized.BitVector32;
 using static supplyChainSimulation.SharedData;
 
 namespace supplyChainSimulation
@@ -52,15 +53,15 @@ namespace supplyChainSimulation
                 return;
             }
 
-            try
-            {
-                GenerateXml(filePath);
-                MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"An error occurred:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            //try
+            //{
+            GenerateXml(filePath);
+            //    MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show($"An error occurred:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
         }
 
         static string GetSaveFilePath()
@@ -90,9 +91,9 @@ namespace supplyChainSimulation
 
             using (XmlWriter writer = XmlWriter.Create(filePath, settings))
             {
-                // Start document
+                // Start document with root element input
                 writer.WriteStartDocument();
-                writer.WriteStartElement("input"); // Root element
+                writer.WriteStartElement("input"); 
 
                 // Add <qualitycontrol> element, default 
                 writer.WriteStartElement("qualitycontrol");
@@ -107,7 +108,7 @@ namespace supplyChainSimulation
                 {
                     writer.WriteStartElement("item");
                     writer.WriteAttributeString("article", i.ToString());
-                    writer.WriteAttributeString("quantity", (200 / i).ToString());
+                    writer.WriteAttributeString("quantity", production0[i].ToString());
                     writer.WriteEndElement();
                 }
                 writer.WriteEndElement();
@@ -118,7 +119,7 @@ namespace supplyChainSimulation
                 {
                     writer.WriteStartElement("item");
                     writer.WriteAttributeString("article", i.ToString());
-                    writer.WriteAttributeString("quantity", "0");
+                    writer.WriteAttributeString("quantity", directSale0[i].ToString());
                     writer.WriteAttributeString("price", "0.0");
                     writer.WriteAttributeString("penalty", "0.0");
                     writer.WriteEndElement();
@@ -127,10 +128,51 @@ namespace supplyChainSimulation
 
                 // Add <orderlist> element
                 writer.WriteStartElement("orderlist");
+                foreach (var purchase in purchaseQuantity)
+                {
+                    int id = purchase.Key;
+
+                    writer.WriteStartElement("order");
+                    writer.WriteAttributeString("article", id.ToString());
+                    writer.WriteAttributeString("quantity", purchase.Value.ToString());
+                    writer.WriteAttributeString("modus", purchaseModus[id].ToString());
+                    writer.WriteEndElement();
+                }
                 writer.WriteEndElement();
 
-                writer.WriteEndElement(); // End root element
-                writer.WriteEndDocument(); // End document
+                // Add <productionlist> element
+                writer.WriteStartElement("productionlist");
+                foreach (var product in productionOrders)
+                {
+                    int id = product.Key;
+                    if (id < 100)
+                    {
+                        writer.WriteStartElement("production");
+                        writer.WriteAttributeString("article", id.ToString());
+                        writer.WriteAttributeString("quantity", product.Value.ToString());
+                        writer.WriteEndElement();
+                    }
+                }
+                writer.WriteEndElement();
+
+                // Add <workingtimelist> element
+                writer.WriteStartElement("workingtimelist");
+                foreach (var time in overtime)
+                {
+                    int id = time.Key;
+
+                    writer.WriteStartElement("workingtime");
+                    writer.WriteAttributeString("station", id.ToString());
+                    writer.WriteAttributeString("shift", shifts[id].ToString());
+                    writer.WriteAttributeString("overtime", time.Value.ToString());
+                    writer.WriteEndElement();
+                }
+                writer.WriteEndElement();
+
+                // End root element
+                writer.WriteEndElement();
+                // End document
+                writer.WriteEndDocument(); 
             }
         }
 

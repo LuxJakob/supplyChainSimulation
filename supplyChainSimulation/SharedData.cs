@@ -103,6 +103,10 @@ namespace supplyChainSimulation
             { 15, 30 }
         };
 
+        // PurchasePartDisposition variables
+        public static Dictionary<int, int> purchaseQuantity = new Dictionary<int, int>();
+        public static Dictionary<int, int> purchaseModus = new Dictionary<int, int>();
+
 
         // public methods
         public static void AssignValue(Label label, Dictionary<int, int> dictionary, int key)
