@@ -170,68 +170,68 @@
             label258 = new Label();
             label259 = new Label();
             label260 = new Label();
-            label261 = new Label();
+            InventoryK59 = new Label();
             label254 = new Label();
             label255 = new Label();
             label256 = new Label();
-            label257 = new Label();
+            InventoryK58 = new Label();
             label250 = new Label();
             label251 = new Label();
             label252 = new Label();
-            label253 = new Label();
+            InventoryK57 = new Label();
             label246 = new Label();
             label247 = new Label();
             label248 = new Label();
-            label249 = new Label();
+            InventoryK53 = new Label();
             label242 = new Label();
             label243 = new Label();
             label244 = new Label();
-            label245 = new Label();
+            InventoryK52 = new Label();
             label238 = new Label();
             label239 = new Label();
             label240 = new Label();
-            label241 = new Label();
-            label237 = new Label();
+            InventoryK48 = new Label();
+            InventoryK47 = new Label();
             label236 = new Label();
             label235 = new Label();
             label234 = new Label();
-            label233 = new Label();
+            InventoryK46 = new Label();
             label232 = new Label();
             label231 = new Label();
             label230 = new Label();
-            label229 = new Label();
+            InventoryK45 = new Label();
             label228 = new Label();
             label227 = new Label();
             label226 = new Label();
-            label225 = new Label();
+            InventoryK44 = new Label();
             label224 = new Label();
             label223 = new Label();
             label222 = new Label();
-            label221 = new Label();
+            InventoryK43 = new Label();
             label220 = new Label();
             label219 = new Label();
             label218 = new Label();
-            label217 = new Label();
+            InventoryK42 = new Label();
             label216 = new Label();
             label215 = new Label();
             label214 = new Label();
-            label213 = new Label();
+            InventoryK41 = new Label();
             label212 = new Label();
             label211 = new Label();
             label210 = new Label();
-            label209 = new Label();
+            InventoryK40 = new Label();
             label208 = new Label();
             label207 = new Label();
             label206 = new Label();
-            label205 = new Label();
+            InventoryK39 = new Label();
             label204 = new Label();
             label203 = new Label();
             label202 = new Label();
-            label201 = new Label();
+            InventoryK38 = new Label();
             label200 = new Label();
             label199 = new Label();
             label198 = new Label();
-            label196 = new Label();
+            InventoryK37 = new Label();
             label195 = new Label();
             label194 = new Label();
             label193 = new Label();
@@ -243,7 +243,7 @@
             label187 = new Label();
             label186 = new Label();
             label185 = new Label();
-            label184 = new Label();
+            InventoryK36 = new Label();
             label183 = new Label();
             label182 = new Label();
             label181 = new Label();
@@ -255,7 +255,7 @@
             label175 = new Label();
             label174 = new Label();
             label173 = new Label();
-            label172 = new Label();
+            InventoryK35 = new Label();
             label171 = new Label();
             label170 = new Label();
             label169 = new Label();
@@ -267,7 +267,7 @@
             label163 = new Label();
             label162 = new Label();
             label161 = new Label();
-            label160 = new Label();
+            InventoryK34 = new Label();
             label159 = new Label();
             label158 = new Label();
             label157 = new Label();
@@ -279,7 +279,7 @@
             label151 = new Label();
             label150 = new Label();
             label149 = new Label();
-            label148 = new Label();
+            InventoryK33 = new Label();
             label147 = new Label();
             label146 = new Label();
             label145 = new Label();
@@ -291,7 +291,7 @@
             label139 = new Label();
             label138 = new Label();
             label137 = new Label();
-            label136 = new Label();
+            InventoryK32 = new Label();
             label135 = new Label();
             label134 = new Label();
             label133 = new Label();
@@ -303,7 +303,7 @@
             label127 = new Label();
             label126 = new Label();
             label125 = new Label();
-            label124 = new Label();
+            InventoryK28 = new Label();
             label123 = new Label();
             label122 = new Label();
             label121 = new Label();
@@ -315,7 +315,7 @@
             label115 = new Label();
             label114 = new Label();
             label113 = new Label();
-            label112 = new Label();
+            InventoryK27 = new Label();
             label111 = new Label();
             label110 = new Label();
             label109 = new Label();
@@ -327,7 +327,7 @@
             label103 = new Label();
             label102 = new Label();
             label101 = new Label();
-            label100 = new Label();
+            InventoryK25 = new Label();
             label99 = new Label();
             label98 = new Label();
             label97 = new Label();
@@ -339,7 +339,7 @@
             label91 = new Label();
             label90 = new Label();
             label89 = new Label();
-            label88 = new Label();
+            InventoryK24 = new Label();
             label87 = new Label();
             label86 = new Label();
             label85 = new Label();
@@ -351,7 +351,7 @@
             label79 = new Label();
             label78 = new Label();
             label77 = new Label();
-            label76 = new Label();
+            InventoryK23 = new Label();
             label75 = new Label();
             label74 = new Label();
             label73 = new Label();
@@ -363,7 +363,7 @@
             label67 = new Label();
             label66 = new Label();
             label65 = new Label();
-            label64 = new Label();
+            InventoryK22 = new Label();
             label63 = new Label();
             label62 = new Label();
             label61 = new Label();
@@ -375,7 +375,7 @@
             label55 = new Label();
             label54 = new Label();
             label53 = new Label();
-            label52 = new Label();
+            InventoryK21 = new Label();
             label51 = new Label();
             label50 = new Label();
             label19 = new Label();
@@ -696,68 +696,68 @@
             tableLayoutPanel1.Controls.Add(label258, 1, 30);
             tableLayoutPanel1.Controls.Add(label259, 2, 30);
             tableLayoutPanel1.Controls.Add(label260, 3, 30);
-            tableLayoutPanel1.Controls.Add(label261, 4, 30);
+            tableLayoutPanel1.Controls.Add(InventoryK59, 4, 30);
             tableLayoutPanel1.Controls.Add(label254, 1, 29);
             tableLayoutPanel1.Controls.Add(label255, 2, 29);
             tableLayoutPanel1.Controls.Add(label256, 3, 29);
-            tableLayoutPanel1.Controls.Add(label257, 4, 29);
+            tableLayoutPanel1.Controls.Add(InventoryK58, 4, 29);
             tableLayoutPanel1.Controls.Add(label250, 1, 28);
             tableLayoutPanel1.Controls.Add(label251, 2, 28);
             tableLayoutPanel1.Controls.Add(label252, 3, 28);
-            tableLayoutPanel1.Controls.Add(label253, 4, 28);
+            tableLayoutPanel1.Controls.Add(InventoryK57, 4, 28);
             tableLayoutPanel1.Controls.Add(label246, 1, 27);
             tableLayoutPanel1.Controls.Add(label247, 2, 27);
             tableLayoutPanel1.Controls.Add(label248, 3, 27);
-            tableLayoutPanel1.Controls.Add(label249, 4, 27);
+            tableLayoutPanel1.Controls.Add(InventoryK53, 4, 27);
             tableLayoutPanel1.Controls.Add(label242, 1, 26);
             tableLayoutPanel1.Controls.Add(label243, 2, 26);
             tableLayoutPanel1.Controls.Add(label244, 3, 26);
-            tableLayoutPanel1.Controls.Add(label245, 4, 26);
+            tableLayoutPanel1.Controls.Add(InventoryK52, 4, 26);
             tableLayoutPanel1.Controls.Add(label238, 1, 25);
             tableLayoutPanel1.Controls.Add(label239, 2, 25);
             tableLayoutPanel1.Controls.Add(label240, 3, 25);
-            tableLayoutPanel1.Controls.Add(label241, 4, 25);
-            tableLayoutPanel1.Controls.Add(label237, 4, 24);
+            tableLayoutPanel1.Controls.Add(InventoryK48, 4, 25);
+            tableLayoutPanel1.Controls.Add(InventoryK47, 4, 24);
             tableLayoutPanel1.Controls.Add(label236, 3, 24);
             tableLayoutPanel1.Controls.Add(label235, 2, 24);
             tableLayoutPanel1.Controls.Add(label234, 1, 24);
-            tableLayoutPanel1.Controls.Add(label233, 4, 23);
+            tableLayoutPanel1.Controls.Add(InventoryK46, 4, 23);
             tableLayoutPanel1.Controls.Add(label232, 3, 23);
             tableLayoutPanel1.Controls.Add(label231, 2, 23);
             tableLayoutPanel1.Controls.Add(label230, 1, 23);
-            tableLayoutPanel1.Controls.Add(label229, 4, 22);
+            tableLayoutPanel1.Controls.Add(InventoryK45, 4, 22);
             tableLayoutPanel1.Controls.Add(label228, 3, 22);
             tableLayoutPanel1.Controls.Add(label227, 2, 22);
             tableLayoutPanel1.Controls.Add(label226, 1, 22);
-            tableLayoutPanel1.Controls.Add(label225, 4, 21);
+            tableLayoutPanel1.Controls.Add(InventoryK44, 4, 21);
             tableLayoutPanel1.Controls.Add(label224, 3, 21);
             tableLayoutPanel1.Controls.Add(label223, 2, 21);
             tableLayoutPanel1.Controls.Add(label222, 1, 21);
-            tableLayoutPanel1.Controls.Add(label221, 4, 20);
+            tableLayoutPanel1.Controls.Add(InventoryK43, 4, 20);
             tableLayoutPanel1.Controls.Add(label220, 3, 20);
             tableLayoutPanel1.Controls.Add(label219, 2, 20);
             tableLayoutPanel1.Controls.Add(label218, 1, 20);
-            tableLayoutPanel1.Controls.Add(label217, 4, 19);
+            tableLayoutPanel1.Controls.Add(InventoryK42, 4, 19);
             tableLayoutPanel1.Controls.Add(label216, 3, 19);
             tableLayoutPanel1.Controls.Add(label215, 2, 19);
             tableLayoutPanel1.Controls.Add(label214, 1, 19);
-            tableLayoutPanel1.Controls.Add(label213, 4, 18);
+            tableLayoutPanel1.Controls.Add(InventoryK41, 4, 18);
             tableLayoutPanel1.Controls.Add(label212, 3, 18);
             tableLayoutPanel1.Controls.Add(label211, 2, 18);
             tableLayoutPanel1.Controls.Add(label210, 1, 18);
-            tableLayoutPanel1.Controls.Add(label209, 4, 17);
+            tableLayoutPanel1.Controls.Add(InventoryK40, 4, 17);
             tableLayoutPanel1.Controls.Add(label208, 3, 17);
             tableLayoutPanel1.Controls.Add(label207, 2, 17);
             tableLayoutPanel1.Controls.Add(label206, 1, 17);
-            tableLayoutPanel1.Controls.Add(label205, 4, 16);
+            tableLayoutPanel1.Controls.Add(InventoryK39, 4, 16);
             tableLayoutPanel1.Controls.Add(label204, 3, 16);
             tableLayoutPanel1.Controls.Add(label203, 2, 16);
             tableLayoutPanel1.Controls.Add(label202, 1, 16);
-            tableLayoutPanel1.Controls.Add(label201, 4, 15);
+            tableLayoutPanel1.Controls.Add(InventoryK38, 4, 15);
             tableLayoutPanel1.Controls.Add(label200, 3, 15);
             tableLayoutPanel1.Controls.Add(label199, 2, 15);
             tableLayoutPanel1.Controls.Add(label198, 1, 15);
-            tableLayoutPanel1.Controls.Add(label196, 4, 14);
+            tableLayoutPanel1.Controls.Add(InventoryK37, 4, 14);
             tableLayoutPanel1.Controls.Add(label195, 3, 14);
             tableLayoutPanel1.Controls.Add(label194, 2, 14);
             tableLayoutPanel1.Controls.Add(label193, 1, 14);
@@ -769,7 +769,7 @@
             tableLayoutPanel1.Controls.Add(label187, 7, 13);
             tableLayoutPanel1.Controls.Add(label186, 6, 13);
             tableLayoutPanel1.Controls.Add(label185, 5, 13);
-            tableLayoutPanel1.Controls.Add(label184, 4, 13);
+            tableLayoutPanel1.Controls.Add(InventoryK36, 4, 13);
             tableLayoutPanel1.Controls.Add(label183, 3, 13);
             tableLayoutPanel1.Controls.Add(label182, 2, 13);
             tableLayoutPanel1.Controls.Add(label181, 1, 13);
@@ -781,7 +781,7 @@
             tableLayoutPanel1.Controls.Add(label175, 7, 12);
             tableLayoutPanel1.Controls.Add(label174, 6, 12);
             tableLayoutPanel1.Controls.Add(label173, 5, 12);
-            tableLayoutPanel1.Controls.Add(label172, 4, 12);
+            tableLayoutPanel1.Controls.Add(InventoryK35, 4, 12);
             tableLayoutPanel1.Controls.Add(label171, 3, 12);
             tableLayoutPanel1.Controls.Add(label170, 2, 12);
             tableLayoutPanel1.Controls.Add(label169, 1, 12);
@@ -793,7 +793,7 @@
             tableLayoutPanel1.Controls.Add(label163, 7, 11);
             tableLayoutPanel1.Controls.Add(label162, 6, 11);
             tableLayoutPanel1.Controls.Add(label161, 5, 11);
-            tableLayoutPanel1.Controls.Add(label160, 4, 11);
+            tableLayoutPanel1.Controls.Add(InventoryK34, 4, 11);
             tableLayoutPanel1.Controls.Add(label159, 3, 11);
             tableLayoutPanel1.Controls.Add(label158, 2, 11);
             tableLayoutPanel1.Controls.Add(label157, 1, 11);
@@ -805,7 +805,7 @@
             tableLayoutPanel1.Controls.Add(label151, 7, 10);
             tableLayoutPanel1.Controls.Add(label150, 6, 10);
             tableLayoutPanel1.Controls.Add(label149, 5, 10);
-            tableLayoutPanel1.Controls.Add(label148, 4, 10);
+            tableLayoutPanel1.Controls.Add(InventoryK33, 4, 10);
             tableLayoutPanel1.Controls.Add(label147, 3, 10);
             tableLayoutPanel1.Controls.Add(label146, 2, 10);
             tableLayoutPanel1.Controls.Add(label145, 1, 10);
@@ -817,7 +817,7 @@
             tableLayoutPanel1.Controls.Add(label139, 7, 9);
             tableLayoutPanel1.Controls.Add(label138, 6, 9);
             tableLayoutPanel1.Controls.Add(label137, 5, 9);
-            tableLayoutPanel1.Controls.Add(label136, 4, 9);
+            tableLayoutPanel1.Controls.Add(InventoryK32, 4, 9);
             tableLayoutPanel1.Controls.Add(label135, 3, 9);
             tableLayoutPanel1.Controls.Add(label134, 2, 9);
             tableLayoutPanel1.Controls.Add(label133, 1, 9);
@@ -829,7 +829,7 @@
             tableLayoutPanel1.Controls.Add(label127, 7, 8);
             tableLayoutPanel1.Controls.Add(label126, 6, 8);
             tableLayoutPanel1.Controls.Add(label125, 5, 8);
-            tableLayoutPanel1.Controls.Add(label124, 4, 8);
+            tableLayoutPanel1.Controls.Add(InventoryK28, 4, 8);
             tableLayoutPanel1.Controls.Add(label123, 3, 8);
             tableLayoutPanel1.Controls.Add(label122, 2, 8);
             tableLayoutPanel1.Controls.Add(label121, 1, 8);
@@ -841,7 +841,7 @@
             tableLayoutPanel1.Controls.Add(label115, 7, 7);
             tableLayoutPanel1.Controls.Add(label114, 6, 7);
             tableLayoutPanel1.Controls.Add(label113, 5, 7);
-            tableLayoutPanel1.Controls.Add(label112, 4, 7);
+            tableLayoutPanel1.Controls.Add(InventoryK27, 4, 7);
             tableLayoutPanel1.Controls.Add(label111, 3, 7);
             tableLayoutPanel1.Controls.Add(label110, 2, 7);
             tableLayoutPanel1.Controls.Add(label109, 1, 7);
@@ -853,7 +853,7 @@
             tableLayoutPanel1.Controls.Add(label103, 7, 6);
             tableLayoutPanel1.Controls.Add(label102, 6, 6);
             tableLayoutPanel1.Controls.Add(label101, 5, 6);
-            tableLayoutPanel1.Controls.Add(label100, 4, 6);
+            tableLayoutPanel1.Controls.Add(InventoryK25, 4, 6);
             tableLayoutPanel1.Controls.Add(label99, 3, 6);
             tableLayoutPanel1.Controls.Add(label98, 2, 6);
             tableLayoutPanel1.Controls.Add(label97, 1, 6);
@@ -865,7 +865,7 @@
             tableLayoutPanel1.Controls.Add(label91, 7, 5);
             tableLayoutPanel1.Controls.Add(label90, 6, 5);
             tableLayoutPanel1.Controls.Add(label89, 5, 5);
-            tableLayoutPanel1.Controls.Add(label88, 4, 5);
+            tableLayoutPanel1.Controls.Add(InventoryK24, 4, 5);
             tableLayoutPanel1.Controls.Add(label87, 3, 5);
             tableLayoutPanel1.Controls.Add(label86, 2, 5);
             tableLayoutPanel1.Controls.Add(label85, 1, 5);
@@ -877,7 +877,7 @@
             tableLayoutPanel1.Controls.Add(label79, 7, 4);
             tableLayoutPanel1.Controls.Add(label78, 6, 4);
             tableLayoutPanel1.Controls.Add(label77, 5, 4);
-            tableLayoutPanel1.Controls.Add(label76, 4, 4);
+            tableLayoutPanel1.Controls.Add(InventoryK23, 4, 4);
             tableLayoutPanel1.Controls.Add(label75, 3, 4);
             tableLayoutPanel1.Controls.Add(label74, 2, 4);
             tableLayoutPanel1.Controls.Add(label73, 1, 4);
@@ -889,7 +889,7 @@
             tableLayoutPanel1.Controls.Add(label67, 7, 3);
             tableLayoutPanel1.Controls.Add(label66, 6, 3);
             tableLayoutPanel1.Controls.Add(label65, 5, 3);
-            tableLayoutPanel1.Controls.Add(label64, 4, 3);
+            tableLayoutPanel1.Controls.Add(InventoryK22, 4, 3);
             tableLayoutPanel1.Controls.Add(label63, 3, 3);
             tableLayoutPanel1.Controls.Add(label62, 2, 3);
             tableLayoutPanel1.Controls.Add(label61, 1, 3);
@@ -901,7 +901,7 @@
             tableLayoutPanel1.Controls.Add(label55, 7, 2);
             tableLayoutPanel1.Controls.Add(label54, 6, 2);
             tableLayoutPanel1.Controls.Add(label53, 5, 2);
-            tableLayoutPanel1.Controls.Add(label52, 4, 2);
+            tableLayoutPanel1.Controls.Add(InventoryK21, 4, 2);
             tableLayoutPanel1.Controls.Add(label51, 3, 2);
             tableLayoutPanel1.Controls.Add(label50, 2, 2);
             tableLayoutPanel1.Controls.Add(label19, 0, 2);
@@ -2576,16 +2576,16 @@
             label260.Text = "1800";
             label260.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label261
+            // InventoryK59
             // 
-            label261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label261.Font = new Font("Segoe UI", 10F);
-            label261.Location = new Point(367, 900);
-            label261.Name = "label261";
-            label261.Size = new Size(85, 30);
-            label261.TabIndex = 388;
-            label261.Text = "K21";
-            label261.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK59.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK59.Font = new Font("Segoe UI", 10F);
+            InventoryK59.Location = new Point(367, 900);
+            InventoryK59.Name = "InventoryK59";
+            InventoryK59.Size = new Size(85, 30);
+            InventoryK59.TabIndex = 388;
+            InventoryK59.Text = "K21";
+            InventoryK59.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label254
             // 
@@ -2620,16 +2620,16 @@
             label256.Text = "22000";
             label256.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label257
+            // InventoryK58
             // 
-            label257.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label257.Font = new Font("Segoe UI", 10F);
-            label257.Location = new Point(367, 870);
-            label257.Name = "label257";
-            label257.Size = new Size(85, 30);
-            label257.TabIndex = 384;
-            label257.Text = "K21";
-            label257.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK58.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK58.Font = new Font("Segoe UI", 10F);
+            InventoryK58.Location = new Point(367, 870);
+            InventoryK58.Name = "InventoryK58";
+            InventoryK58.Size = new Size(85, 30);
+            InventoryK58.TabIndex = 384;
+            InventoryK58.Text = "K21";
+            InventoryK58.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label250
             // 
@@ -2664,16 +2664,16 @@
             label252.Text = "600";
             label252.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label253
+            // InventoryK57
             // 
-            label253.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label253.Font = new Font("Segoe UI", 10F);
-            label253.Location = new Point(367, 840);
-            label253.Name = "label253";
-            label253.Size = new Size(85, 30);
-            label253.TabIndex = 380;
-            label253.Text = "K21";
-            label253.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK57.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK57.Font = new Font("Segoe UI", 10F);
+            InventoryK57.Location = new Point(367, 840);
+            InventoryK57.Name = "InventoryK57";
+            InventoryK57.Size = new Size(85, 30);
+            InventoryK57.TabIndex = 380;
+            InventoryK57.Text = "K21";
+            InventoryK57.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label246
             // 
@@ -2708,16 +2708,16 @@
             label248.Text = "22000";
             label248.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label249
+            // InventoryK53
             // 
-            label249.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label249.Font = new Font("Segoe UI", 10F);
-            label249.Location = new Point(367, 810);
-            label249.Name = "label249";
-            label249.Size = new Size(85, 30);
-            label249.TabIndex = 376;
-            label249.Text = "K21";
-            label249.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK53.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK53.Font = new Font("Segoe UI", 10F);
+            InventoryK53.Location = new Point(367, 810);
+            InventoryK53.Name = "InventoryK53";
+            InventoryK53.Size = new Size(85, 30);
+            InventoryK53.TabIndex = 376;
+            InventoryK53.Text = "K21";
+            InventoryK53.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label242
             // 
@@ -2752,16 +2752,16 @@
             label244.Text = "600";
             label244.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label245
+            // InventoryK52
             // 
-            label245.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label245.Font = new Font("Segoe UI", 10F);
-            label245.Location = new Point(367, 780);
-            label245.Name = "label245";
-            label245.Size = new Size(85, 30);
-            label245.TabIndex = 372;
-            label245.Text = "K21";
-            label245.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK52.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK52.Font = new Font("Segoe UI", 10F);
+            InventoryK52.Location = new Point(367, 780);
+            InventoryK52.Name = "InventoryK52";
+            InventoryK52.Size = new Size(85, 30);
+            InventoryK52.TabIndex = 372;
+            InventoryK52.Text = "K21";
+            InventoryK52.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label238
             // 
@@ -2796,27 +2796,27 @@
             label240.Text = "1800";
             label240.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label241
+            // InventoryK48
             // 
-            label241.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label241.Font = new Font("Segoe UI", 10F);
-            label241.Location = new Point(367, 750);
-            label241.Name = "label241";
-            label241.Size = new Size(85, 30);
-            label241.TabIndex = 368;
-            label241.Text = "K21";
-            label241.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK48.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK48.Font = new Font("Segoe UI", 10F);
+            InventoryK48.Location = new Point(367, 750);
+            InventoryK48.Name = "InventoryK48";
+            InventoryK48.Size = new Size(85, 30);
+            InventoryK48.TabIndex = 368;
+            InventoryK48.Text = "K21";
+            InventoryK48.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label237
+            // InventoryK47
             // 
-            label237.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label237.Font = new Font("Segoe UI", 10F);
-            label237.Location = new Point(367, 720);
-            label237.Name = "label237";
-            label237.Size = new Size(85, 30);
-            label237.TabIndex = 367;
-            label237.Text = "K21";
-            label237.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK47.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK47.Font = new Font("Segoe UI", 10F);
+            InventoryK47.Location = new Point(367, 720);
+            InventoryK47.Name = "InventoryK47";
+            InventoryK47.Size = new Size(85, 30);
+            InventoryK47.TabIndex = 367;
+            InventoryK47.Text = "K21";
+            InventoryK47.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label236
             // 
@@ -2851,16 +2851,16 @@
             label234.Text = "1.1";
             label234.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label233
+            // InventoryK46
             // 
-            label233.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label233.Font = new Font("Segoe UI", 10F);
-            label233.Location = new Point(367, 690);
-            label233.Name = "label233";
-            label233.Size = new Size(85, 30);
-            label233.TabIndex = 363;
-            label233.Text = "K21";
-            label233.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK46.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK46.Font = new Font("Segoe UI", 10F);
+            InventoryK46.Location = new Point(367, 690);
+            InventoryK46.Name = "InventoryK46";
+            InventoryK46.Size = new Size(85, 30);
+            InventoryK46.TabIndex = 363;
+            InventoryK46.Text = "K21";
+            InventoryK46.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label232
             // 
@@ -2895,16 +2895,16 @@
             label230.Text = "0.9";
             label230.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label229
+            // InventoryK45
             // 
-            label229.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label229.Font = new Font("Segoe UI", 10F);
-            label229.Location = new Point(367, 660);
-            label229.Name = "label229";
-            label229.Size = new Size(85, 30);
-            label229.TabIndex = 359;
-            label229.Text = "K21";
-            label229.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK45.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK45.Font = new Font("Segoe UI", 10F);
+            InventoryK45.Location = new Point(367, 660);
+            InventoryK45.Name = "InventoryK45";
+            InventoryK45.Size = new Size(85, 30);
+            InventoryK45.TabIndex = 359;
+            InventoryK45.Text = "K21";
+            InventoryK45.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label228
             // 
@@ -2939,16 +2939,16 @@
             label226.Text = "1.7";
             label226.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label225
+            // InventoryK44
             // 
-            label225.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label225.Font = new Font("Segoe UI", 10F);
-            label225.Location = new Point(367, 630);
-            label225.Name = "label225";
-            label225.Size = new Size(85, 30);
-            label225.TabIndex = 355;
-            label225.Text = "K21";
-            label225.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK44.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK44.Font = new Font("Segoe UI", 10F);
+            InventoryK44.Location = new Point(367, 630);
+            InventoryK44.Name = "InventoryK44";
+            InventoryK44.Size = new Size(85, 30);
+            InventoryK44.TabIndex = 355;
+            InventoryK44.Text = "K21";
+            InventoryK44.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label224
             // 
@@ -2983,16 +2983,16 @@
             label222.Text = "1.0";
             label222.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label221
+            // InventoryK43
             // 
-            label221.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label221.Font = new Font("Segoe UI", 10F);
-            label221.Location = new Point(367, 600);
-            label221.Name = "label221";
-            label221.Size = new Size(85, 30);
-            label221.TabIndex = 351;
-            label221.Text = "K21";
-            label221.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK43.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK43.Font = new Font("Segoe UI", 10F);
+            InventoryK43.Location = new Point(367, 600);
+            InventoryK43.Name = "InventoryK43";
+            InventoryK43.Size = new Size(85, 30);
+            InventoryK43.TabIndex = 351;
+            InventoryK43.Text = "K21";
+            InventoryK43.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label220
             // 
@@ -3027,16 +3027,16 @@
             label218.Text = "2.0";
             label218.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label217
+            // InventoryK42
             // 
-            label217.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label217.Font = new Font("Segoe UI", 10F);
-            label217.Location = new Point(367, 570);
-            label217.Name = "label217";
-            label217.Size = new Size(85, 30);
-            label217.TabIndex = 347;
-            label217.Text = "K21";
-            label217.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK42.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK42.Font = new Font("Segoe UI", 10F);
+            InventoryK42.Location = new Point(367, 570);
+            InventoryK42.Name = "InventoryK42";
+            InventoryK42.Size = new Size(85, 30);
+            InventoryK42.TabIndex = 347;
+            InventoryK42.Text = "K21";
+            InventoryK42.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label216
             // 
@@ -3071,16 +3071,16 @@
             label214.Text = "1.2";
             label214.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label213
+            // InventoryK41
             // 
-            label213.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label213.Font = new Font("Segoe UI", 10F);
-            label213.Location = new Point(367, 540);
-            label213.Name = "label213";
-            label213.Size = new Size(85, 30);
-            label213.TabIndex = 343;
-            label213.Text = "K21";
-            label213.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK41.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK41.Font = new Font("Segoe UI", 10F);
+            InventoryK41.Location = new Point(367, 540);
+            InventoryK41.Name = "InventoryK41";
+            InventoryK41.Size = new Size(85, 30);
+            InventoryK41.TabIndex = 343;
+            InventoryK41.Text = "K21";
+            InventoryK41.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label212
             // 
@@ -3115,16 +3115,16 @@
             label210.Text = "0.9";
             label210.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label209
+            // InventoryK40
             // 
-            label209.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label209.Font = new Font("Segoe UI", 10F);
-            label209.Location = new Point(367, 510);
-            label209.Name = "label209";
-            label209.Size = new Size(85, 30);
-            label209.TabIndex = 339;
-            label209.Text = "K21";
-            label209.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK40.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK40.Font = new Font("Segoe UI", 10F);
+            InventoryK40.Location = new Point(367, 510);
+            InventoryK40.Name = "InventoryK40";
+            InventoryK40.Size = new Size(85, 30);
+            InventoryK40.TabIndex = 339;
+            InventoryK40.Text = "K21";
+            InventoryK40.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label208
             // 
@@ -3159,16 +3159,16 @@
             label206.Text = "1.7";
             label206.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label205
+            // InventoryK39
             // 
-            label205.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label205.Font = new Font("Segoe UI", 10F);
-            label205.Location = new Point(367, 480);
-            label205.Name = "label205";
-            label205.Size = new Size(85, 30);
-            label205.TabIndex = 335;
-            label205.Text = "K21";
-            label205.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK39.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK39.Font = new Font("Segoe UI", 10F);
+            InventoryK39.Location = new Point(367, 480);
+            InventoryK39.Name = "InventoryK39";
+            InventoryK39.Size = new Size(85, 30);
+            InventoryK39.TabIndex = 335;
+            InventoryK39.Text = "K21";
+            InventoryK39.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label204
             // 
@@ -3203,16 +3203,16 @@
             label202.Text = "1.5";
             label202.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label201
+            // InventoryK38
             // 
-            label201.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label201.Font = new Font("Segoe UI", 10F);
-            label201.Location = new Point(367, 450);
-            label201.Name = "label201";
-            label201.Size = new Size(85, 30);
-            label201.TabIndex = 331;
-            label201.Text = "K21";
-            label201.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK38.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK38.Font = new Font("Segoe UI", 10F);
+            InventoryK38.Location = new Point(367, 450);
+            InventoryK38.Name = "InventoryK38";
+            InventoryK38.Size = new Size(85, 30);
+            InventoryK38.TabIndex = 331;
+            InventoryK38.Text = "K21";
+            InventoryK38.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label200
             // 
@@ -3247,16 +3247,16 @@
             label198.Text = "1.7";
             label198.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label196
+            // InventoryK37
             // 
-            label196.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label196.Font = new Font("Segoe UI", 10F);
-            label196.Location = new Point(367, 420);
-            label196.Name = "label196";
-            label196.Size = new Size(85, 30);
-            label196.TabIndex = 326;
-            label196.Text = "K21";
-            label196.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK37.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK37.Font = new Font("Segoe UI", 10F);
+            InventoryK37.Location = new Point(367, 420);
+            InventoryK37.Name = "InventoryK37";
+            InventoryK37.Size = new Size(85, 30);
+            InventoryK37.TabIndex = 326;
+            InventoryK37.Text = "K21";
+            InventoryK37.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label195
             // 
@@ -3379,16 +3379,16 @@
             label185.Text = "K21";
             label185.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label184
+            // InventoryK36
             // 
-            label184.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label184.Font = new Font("Segoe UI", 10F);
-            label184.Location = new Point(367, 390);
-            label184.Name = "label184";
-            label184.Size = new Size(85, 30);
-            label184.TabIndex = 314;
-            label184.Text = "K21";
-            label184.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK36.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK36.Font = new Font("Segoe UI", 10F);
+            InventoryK36.Location = new Point(367, 390);
+            InventoryK36.Name = "InventoryK36";
+            InventoryK36.Size = new Size(85, 30);
+            InventoryK36.TabIndex = 314;
+            InventoryK36.Text = "K21";
+            InventoryK36.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label183
             // 
@@ -3511,16 +3511,16 @@
             label173.Text = "K21";
             label173.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label172
+            // InventoryK35
             // 
-            label172.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label172.Font = new Font("Segoe UI", 10F);
-            label172.Location = new Point(367, 360);
-            label172.Name = "label172";
-            label172.Size = new Size(85, 30);
-            label172.TabIndex = 302;
-            label172.Text = "K21";
-            label172.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK35.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK35.Font = new Font("Segoe UI", 10F);
+            InventoryK35.Location = new Point(367, 360);
+            InventoryK35.Name = "InventoryK35";
+            InventoryK35.Size = new Size(85, 30);
+            InventoryK35.TabIndex = 302;
+            InventoryK35.Text = "K21";
+            InventoryK35.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label171
             // 
@@ -3643,16 +3643,16 @@
             label161.Text = "K21";
             label161.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label160
+            // InventoryK34
             // 
-            label160.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label160.Font = new Font("Segoe UI", 10F);
-            label160.Location = new Point(367, 330);
-            label160.Name = "label160";
-            label160.Size = new Size(85, 30);
-            label160.TabIndex = 290;
-            label160.Text = "K21";
-            label160.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK34.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK34.Font = new Font("Segoe UI", 10F);
+            InventoryK34.Location = new Point(367, 330);
+            InventoryK34.Name = "InventoryK34";
+            InventoryK34.Size = new Size(85, 30);
+            InventoryK34.TabIndex = 290;
+            InventoryK34.Text = "K21";
+            InventoryK34.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label159
             // 
@@ -3775,16 +3775,16 @@
             label149.Text = "K21";
             label149.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label148
+            // InventoryK33
             // 
-            label148.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label148.Font = new Font("Segoe UI", 10F);
-            label148.Location = new Point(367, 300);
-            label148.Name = "label148";
-            label148.Size = new Size(85, 30);
-            label148.TabIndex = 278;
-            label148.Text = "K21";
-            label148.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK33.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK33.Font = new Font("Segoe UI", 10F);
+            InventoryK33.Location = new Point(367, 300);
+            InventoryK33.Name = "InventoryK33";
+            InventoryK33.Size = new Size(85, 30);
+            InventoryK33.TabIndex = 278;
+            InventoryK33.Text = "K21";
+            InventoryK33.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label147
             // 
@@ -3907,16 +3907,16 @@
             label137.Text = "K21";
             label137.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label136
+            // InventoryK32
             // 
-            label136.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label136.Font = new Font("Segoe UI", 10F);
-            label136.Location = new Point(367, 270);
-            label136.Name = "label136";
-            label136.Size = new Size(85, 30);
-            label136.TabIndex = 266;
-            label136.Text = "K21";
-            label136.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK32.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK32.Font = new Font("Segoe UI", 10F);
+            InventoryK32.Location = new Point(367, 270);
+            InventoryK32.Name = "InventoryK32";
+            InventoryK32.Size = new Size(85, 30);
+            InventoryK32.TabIndex = 266;
+            InventoryK32.Text = "K21";
+            InventoryK32.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label135
             // 
@@ -4039,16 +4039,16 @@
             label125.Text = "K21";
             label125.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label124
+            // InventoryK28
             // 
-            label124.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label124.Font = new Font("Segoe UI", 9F);
-            label124.Location = new Point(367, 240);
-            label124.Name = "label124";
-            label124.Size = new Size(85, 30);
-            label124.TabIndex = 254;
-            label124.Text = "K21";
-            label124.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK28.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK28.Font = new Font("Segoe UI", 9F);
+            InventoryK28.Location = new Point(367, 240);
+            InventoryK28.Name = "InventoryK28";
+            InventoryK28.Size = new Size(85, 30);
+            InventoryK28.TabIndex = 254;
+            InventoryK28.Text = "K21";
+            InventoryK28.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label123
             // 
@@ -4171,16 +4171,16 @@
             label113.Text = "K21";
             label113.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label112
+            // InventoryK27
             // 
-            label112.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label112.Font = new Font("Segoe UI", 9F);
-            label112.Location = new Point(367, 210);
-            label112.Name = "label112";
-            label112.Size = new Size(85, 30);
-            label112.TabIndex = 242;
-            label112.Text = "K21";
-            label112.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK27.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK27.Font = new Font("Segoe UI", 9F);
+            InventoryK27.Location = new Point(367, 210);
+            InventoryK27.Name = "InventoryK27";
+            InventoryK27.Size = new Size(85, 30);
+            InventoryK27.TabIndex = 242;
+            InventoryK27.Text = "K21";
+            InventoryK27.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label111
             // 
@@ -4303,16 +4303,16 @@
             label101.Text = "K21";
             label101.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label100
+            // InventoryK25
             // 
-            label100.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label100.Font = new Font("Segoe UI", 9F);
-            label100.Location = new Point(367, 180);
-            label100.Name = "label100";
-            label100.Size = new Size(85, 30);
-            label100.TabIndex = 230;
-            label100.Text = "K21";
-            label100.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK25.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK25.Font = new Font("Segoe UI", 9F);
+            InventoryK25.Location = new Point(367, 180);
+            InventoryK25.Name = "InventoryK25";
+            InventoryK25.Size = new Size(85, 30);
+            InventoryK25.TabIndex = 230;
+            InventoryK25.Text = "K21";
+            InventoryK25.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label99
             // 
@@ -4435,16 +4435,16 @@
             label89.Text = "K21";
             label89.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label88
+            // InventoryK24
             // 
-            label88.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label88.Font = new Font("Segoe UI", 9F);
-            label88.Location = new Point(367, 150);
-            label88.Name = "label88";
-            label88.Size = new Size(85, 30);
-            label88.TabIndex = 218;
-            label88.Text = "K21";
-            label88.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK24.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK24.Font = new Font("Segoe UI", 9F);
+            InventoryK24.Location = new Point(367, 150);
+            InventoryK24.Name = "InventoryK24";
+            InventoryK24.Size = new Size(85, 30);
+            InventoryK24.TabIndex = 218;
+            InventoryK24.Text = "K21";
+            InventoryK24.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label87
             // 
@@ -4567,16 +4567,16 @@
             label77.Text = "K21";
             label77.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label76
+            // InventoryK23
             // 
-            label76.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label76.Font = new Font("Segoe UI", 9F);
-            label76.Location = new Point(367, 120);
-            label76.Name = "label76";
-            label76.Size = new Size(85, 30);
-            label76.TabIndex = 206;
-            label76.Text = "K21";
-            label76.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK23.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK23.Font = new Font("Segoe UI", 9F);
+            InventoryK23.Location = new Point(367, 120);
+            InventoryK23.Name = "InventoryK23";
+            InventoryK23.Size = new Size(85, 30);
+            InventoryK23.TabIndex = 206;
+            InventoryK23.Text = "K21";
+            InventoryK23.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label75
             // 
@@ -4699,16 +4699,16 @@
             label65.Text = "K21";
             label65.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label64
+            // InventoryK22
             // 
-            label64.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label64.Font = new Font("Segoe UI", 9F);
-            label64.Location = new Point(367, 90);
-            label64.Name = "label64";
-            label64.Size = new Size(85, 30);
-            label64.TabIndex = 194;
-            label64.Text = "K21";
-            label64.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK22.Font = new Font("Segoe UI", 9F);
+            InventoryK22.Location = new Point(367, 90);
+            InventoryK22.Name = "InventoryK22";
+            InventoryK22.Size = new Size(85, 30);
+            InventoryK22.TabIndex = 194;
+            InventoryK22.Text = "K21";
+            InventoryK22.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label63
             // 
@@ -4831,16 +4831,16 @@
             label53.Text = "K21";
             label53.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label52
+            // InventoryK21
             // 
-            label52.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label52.Font = new Font("Segoe UI", 9F);
-            label52.Location = new Point(367, 60);
-            label52.Name = "label52";
-            label52.Size = new Size(85, 30);
-            label52.TabIndex = 182;
-            label52.Text = "K21";
-            label52.TextAlign = ContentAlignment.MiddleCenter;
+            InventoryK21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK21.Font = new Font("Segoe UI", 9F);
+            InventoryK21.Location = new Point(367, 60);
+            InventoryK21.Name = "InventoryK21";
+            InventoryK21.Size = new Size(85, 30);
+            InventoryK21.TabIndex = 182;
+            InventoryK21.Text = "K21";
+            InventoryK21.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label51
             // 
@@ -6180,7 +6180,7 @@
         private Label label127;
         private Label label126;
         private Label label125;
-        private Label label124;
+        private Label InventoryK28;
         private Label label123;
         private Label label122;
         private Label label121;
@@ -6192,7 +6192,7 @@
         private Label label115;
         private Label label114;
         private Label label113;
-        private Label label112;
+        private Label InventoryK27;
         private Label label111;
         private Label label110;
         private Label label109;
@@ -6204,7 +6204,7 @@
         private Label label103;
         private Label label102;
         private Label label101;
-        private Label label100;
+        private Label InventoryK25;
         private Label label99;
         private Label label98;
         private Label label97;
@@ -6216,7 +6216,7 @@
         private Label label91;
         private Label label90;
         private Label label89;
-        private Label label88;
+        private Label InventoryK24;
         private Label label87;
         private Label label86;
         private Label label85;
@@ -6228,7 +6228,7 @@
         private Label label79;
         private Label label78;
         private Label label77;
-        private Label label76;
+        private Label InventoryK23;
         private Label label75;
         private Label label74;
         private Label label73;
@@ -6240,7 +6240,7 @@
         private Label label67;
         private Label label66;
         private Label label65;
-        private Label label64;
+        private Label InventoryK22;
         private Label label63;
         private Label label62;
         private Label label61;
@@ -6252,10 +6252,10 @@
         private Label label55;
         private Label label54;
         private Label label53;
-        private Label label52;
+        private Label InventoryK21;
         private Label label51;
         private Label label50;
-        private Label label184;
+        private Label InventoryK36;
         private Label label183;
         private Label label182;
         private Label label181;
@@ -6267,7 +6267,7 @@
         private Label label175;
         private Label label174;
         private Label label173;
-        private Label label172;
+        private Label InventoryK35;
         private Label label171;
         private Label label170;
         private Label label169;
@@ -6279,7 +6279,7 @@
         private Label label163;
         private Label label162;
         private Label label161;
-        private Label label160;
+        private Label InventoryK34;
         private Label label159;
         private Label label158;
         private Label label157;
@@ -6291,7 +6291,7 @@
         private Label label151;
         private Label label150;
         private Label label149;
-        private Label label148;
+        private Label InventoryK33;
         private Label label147;
         private Label label146;
         private Label label145;
@@ -6303,7 +6303,7 @@
         private Label label139;
         private Label label138;
         private Label label137;
-        private Label label136;
+        private Label InventoryK32;
         private Label label135;
         private Label label134;
         private Label label133;
@@ -6320,43 +6320,43 @@
         private Label label186;
         private Label label185;
         private Label label234;
-        private Label label233;
+        private Label InventoryK46;
         private Label label232;
         private Label label231;
         private Label label230;
-        private Label label229;
+        private Label InventoryK45;
         private Label label228;
         private Label label227;
         private Label label226;
-        private Label label225;
+        private Label InventoryK44;
         private Label label224;
         private Label label223;
         private Label label222;
-        private Label label221;
+        private Label InventoryK43;
         private Label label220;
         private Label label219;
         private Label label218;
-        private Label label217;
+        private Label InventoryK42;
         private Label label216;
         private Label label215;
         private Label label214;
-        private Label label213;
+        private Label InventoryK41;
         private Label label212;
         private Label label211;
         private Label label210;
-        private Label label209;
+        private Label InventoryK40;
         private Label label208;
         private Label label207;
         private Label label206;
-        private Label label205;
+        private Label InventoryK39;
         private Label label204;
         private Label label203;
         private Label label202;
-        private Label label201;
+        private Label InventoryK38;
         private Label label200;
         private Label label199;
         private Label label198;
-        private Label label196;
+        private Label InventoryK37;
         private Label label195;
         private Label label194;
         private Label label193;
@@ -6499,28 +6499,28 @@
         private Label label258;
         private Label label259;
         private Label label260;
-        private Label label261;
+        private Label InventoryK59;
         private Label label254;
         private Label label255;
         private Label label256;
-        private Label label257;
+        private Label InventoryK58;
         private Label label250;
         private Label label251;
         private Label label252;
-        private Label label253;
+        private Label InventoryK57;
         private Label label246;
         private Label label247;
         private Label label248;
-        private Label label249;
+        private Label InventoryK53;
         private Label label242;
         private Label label243;
         private Label label244;
-        private Label label245;
+        private Label InventoryK52;
         private Label label238;
         private Label label239;
         private Label label240;
-        private Label label241;
-        private Label label237;
+        private Label InventoryK48;
+        private Label InventoryK47;
         private Label label236;
         private Label label235;
     }
