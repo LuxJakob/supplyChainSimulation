@@ -37,11 +37,18 @@ jobs:
 
     # Publish the application to create an executable
     - name: Publish application
-      run: dotnet publish ${{ env.Wap_Project_Directory }} --configuration Release --output ./publish
+      run: |
+        dotnet publish ${{ env.Wap_Project_Directory }} \
+          --configuration Release \
+          --output ./publish \
+          -r win-x64 \
+          --self-contained true \
+          /p:PublishSingleFile=true \
+          /p:IncludeAllContentForSelfExtract=true
 
     # Upload the executable as an artifact
     - name: Upload executable
       uses: actions/upload-artifact@v3
       with:
-        name: supplyChainSimulation-executable
+        name: supplyChainSimulation
         path: ./publish/
