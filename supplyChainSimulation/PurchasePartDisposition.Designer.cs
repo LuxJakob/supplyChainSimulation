@@ -159,10 +159,10 @@
             label274 = new Label();
             label275 = new Label();
             label276 = new Label();
-            label197 = new Label();
-            label262 = new Label();
-            label263 = new Label();
-            label264 = new Label();
+            RequK37_0 = new Label();
+            RequK37_1 = new Label();
+            RequK37_2 = new Label();
+            RequK37_3 = new Label();
             label265 = new Label();
             label266 = new Label();
             label267 = new Label();
@@ -239,10 +239,10 @@
             label191 = new Label();
             label190 = new Label();
             label189 = new Label();
-            label188 = new Label();
-            label187 = new Label();
-            label186 = new Label();
-            label185 = new Label();
+            RequK36_3 = new Label();
+            RequK36_2 = new Label();
+            RequK36_1 = new Label();
+            RequK36_0 = new Label();
             InventoryK36 = new Label();
             label183 = new Label();
             label182 = new Label();
@@ -251,10 +251,10 @@
             label179 = new Label();
             label178 = new Label();
             label177 = new Label();
-            label176 = new Label();
-            label175 = new Label();
-            label174 = new Label();
-            label173 = new Label();
+            RequK35_3 = new Label();
+            RequK35_2 = new Label();
+            RequK35_1 = new Label();
+            RequK35_0 = new Label();
             InventoryK35 = new Label();
             label171 = new Label();
             label170 = new Label();
@@ -263,10 +263,10 @@
             label167 = new Label();
             label166 = new Label();
             label165 = new Label();
-            label164 = new Label();
-            label163 = new Label();
-            label162 = new Label();
-            label161 = new Label();
+            RequK34_3 = new Label();
+            RequK34_2 = new Label();
+            RequK34_1 = new Label();
+            RequK34_0 = new Label();
             InventoryK34 = new Label();
             label159 = new Label();
             label158 = new Label();
@@ -275,10 +275,10 @@
             label155 = new Label();
             label154 = new Label();
             label153 = new Label();
-            label152 = new Label();
-            label151 = new Label();
-            label150 = new Label();
-            label149 = new Label();
+            RequK33_3 = new Label();
+            RequK33_2 = new Label();
+            RequK33_1 = new Label();
+            RequK33_0 = new Label();
             InventoryK33 = new Label();
             label147 = new Label();
             label146 = new Label();
@@ -287,10 +287,10 @@
             label143 = new Label();
             label142 = new Label();
             label141 = new Label();
-            label140 = new Label();
-            label139 = new Label();
-            label138 = new Label();
-            label137 = new Label();
+            RequK32_3 = new Label();
+            RequK32_2 = new Label();
+            RequK32_1 = new Label();
+            RequK32_0 = new Label();
             InventoryK32 = new Label();
             label135 = new Label();
             label134 = new Label();
@@ -299,10 +299,10 @@
             label131 = new Label();
             label130 = new Label();
             label129 = new Label();
-            label128 = new Label();
-            label127 = new Label();
-            label126 = new Label();
-            label125 = new Label();
+            RequK28_3 = new Label();
+            RequK28_2 = new Label();
+            RequK28_1 = new Label();
+            RequK28_0 = new Label();
             InventoryK28 = new Label();
             label123 = new Label();
             label122 = new Label();
@@ -311,10 +311,10 @@
             label119 = new Label();
             label118 = new Label();
             label117 = new Label();
-            label116 = new Label();
-            label115 = new Label();
-            label114 = new Label();
-            label113 = new Label();
+            RequK27_3 = new Label();
+            RequK27_2 = new Label();
+            RequK27_1 = new Label();
+            RequK27_0 = new Label();
             InventoryK27 = new Label();
             label111 = new Label();
             label110 = new Label();
@@ -685,10 +685,10 @@
             tableLayoutPanel1.Controls.Add(label274, 10, 15);
             tableLayoutPanel1.Controls.Add(label275, 11, 15);
             tableLayoutPanel1.Controls.Add(label276, 12, 15);
-            tableLayoutPanel1.Controls.Add(label197, 5, 14);
-            tableLayoutPanel1.Controls.Add(label262, 6, 14);
-            tableLayoutPanel1.Controls.Add(label263, 7, 14);
-            tableLayoutPanel1.Controls.Add(label264, 8, 14);
+            tableLayoutPanel1.Controls.Add(RequK37_0, 5, 14);
+            tableLayoutPanel1.Controls.Add(RequK37_1, 6, 14);
+            tableLayoutPanel1.Controls.Add(RequK37_2, 7, 14);
+            tableLayoutPanel1.Controls.Add(RequK37_3, 8, 14);
             tableLayoutPanel1.Controls.Add(label265, 9, 14);
             tableLayoutPanel1.Controls.Add(label266, 10, 14);
             tableLayoutPanel1.Controls.Add(label267, 11, 14);
@@ -765,10 +765,10 @@
             tableLayoutPanel1.Controls.Add(label191, 11, 13);
             tableLayoutPanel1.Controls.Add(label190, 10, 13);
             tableLayoutPanel1.Controls.Add(label189, 9, 13);
-            tableLayoutPanel1.Controls.Add(label188, 8, 13);
-            tableLayoutPanel1.Controls.Add(label187, 7, 13);
-            tableLayoutPanel1.Controls.Add(label186, 6, 13);
-            tableLayoutPanel1.Controls.Add(label185, 5, 13);
+            tableLayoutPanel1.Controls.Add(RequK36_3, 8, 13);
+            tableLayoutPanel1.Controls.Add(RequK36_2, 7, 13);
+            tableLayoutPanel1.Controls.Add(RequK36_1, 6, 13);
+            tableLayoutPanel1.Controls.Add(RequK36_0, 5, 13);
             tableLayoutPanel1.Controls.Add(InventoryK36, 4, 13);
             tableLayoutPanel1.Controls.Add(label183, 3, 13);
             tableLayoutPanel1.Controls.Add(label182, 2, 13);
@@ -777,10 +777,10 @@
             tableLayoutPanel1.Controls.Add(label179, 11, 12);
             tableLayoutPanel1.Controls.Add(label178, 10, 12);
             tableLayoutPanel1.Controls.Add(label177, 9, 12);
-            tableLayoutPanel1.Controls.Add(label176, 8, 12);
-            tableLayoutPanel1.Controls.Add(label175, 7, 12);
-            tableLayoutPanel1.Controls.Add(label174, 6, 12);
-            tableLayoutPanel1.Controls.Add(label173, 5, 12);
+            tableLayoutPanel1.Controls.Add(RequK35_3, 8, 12);
+            tableLayoutPanel1.Controls.Add(RequK35_2, 7, 12);
+            tableLayoutPanel1.Controls.Add(RequK35_1, 6, 12);
+            tableLayoutPanel1.Controls.Add(RequK35_0, 5, 12);
             tableLayoutPanel1.Controls.Add(InventoryK35, 4, 12);
             tableLayoutPanel1.Controls.Add(label171, 3, 12);
             tableLayoutPanel1.Controls.Add(label170, 2, 12);
@@ -789,10 +789,10 @@
             tableLayoutPanel1.Controls.Add(label167, 11, 11);
             tableLayoutPanel1.Controls.Add(label166, 10, 11);
             tableLayoutPanel1.Controls.Add(label165, 9, 11);
-            tableLayoutPanel1.Controls.Add(label164, 8, 11);
-            tableLayoutPanel1.Controls.Add(label163, 7, 11);
-            tableLayoutPanel1.Controls.Add(label162, 6, 11);
-            tableLayoutPanel1.Controls.Add(label161, 5, 11);
+            tableLayoutPanel1.Controls.Add(RequK34_3, 8, 11);
+            tableLayoutPanel1.Controls.Add(RequK34_2, 7, 11);
+            tableLayoutPanel1.Controls.Add(RequK34_1, 6, 11);
+            tableLayoutPanel1.Controls.Add(RequK34_0, 5, 11);
             tableLayoutPanel1.Controls.Add(InventoryK34, 4, 11);
             tableLayoutPanel1.Controls.Add(label159, 3, 11);
             tableLayoutPanel1.Controls.Add(label158, 2, 11);
@@ -801,10 +801,10 @@
             tableLayoutPanel1.Controls.Add(label155, 11, 10);
             tableLayoutPanel1.Controls.Add(label154, 10, 10);
             tableLayoutPanel1.Controls.Add(label153, 9, 10);
-            tableLayoutPanel1.Controls.Add(label152, 8, 10);
-            tableLayoutPanel1.Controls.Add(label151, 7, 10);
-            tableLayoutPanel1.Controls.Add(label150, 6, 10);
-            tableLayoutPanel1.Controls.Add(label149, 5, 10);
+            tableLayoutPanel1.Controls.Add(RequK33_3, 8, 10);
+            tableLayoutPanel1.Controls.Add(RequK33_2, 7, 10);
+            tableLayoutPanel1.Controls.Add(RequK33_1, 6, 10);
+            tableLayoutPanel1.Controls.Add(RequK33_0, 5, 10);
             tableLayoutPanel1.Controls.Add(InventoryK33, 4, 10);
             tableLayoutPanel1.Controls.Add(label147, 3, 10);
             tableLayoutPanel1.Controls.Add(label146, 2, 10);
@@ -813,10 +813,10 @@
             tableLayoutPanel1.Controls.Add(label143, 11, 9);
             tableLayoutPanel1.Controls.Add(label142, 10, 9);
             tableLayoutPanel1.Controls.Add(label141, 9, 9);
-            tableLayoutPanel1.Controls.Add(label140, 8, 9);
-            tableLayoutPanel1.Controls.Add(label139, 7, 9);
-            tableLayoutPanel1.Controls.Add(label138, 6, 9);
-            tableLayoutPanel1.Controls.Add(label137, 5, 9);
+            tableLayoutPanel1.Controls.Add(RequK32_3, 8, 9);
+            tableLayoutPanel1.Controls.Add(RequK32_2, 7, 9);
+            tableLayoutPanel1.Controls.Add(RequK32_1, 6, 9);
+            tableLayoutPanel1.Controls.Add(RequK32_0, 5, 9);
             tableLayoutPanel1.Controls.Add(InventoryK32, 4, 9);
             tableLayoutPanel1.Controls.Add(label135, 3, 9);
             tableLayoutPanel1.Controls.Add(label134, 2, 9);
@@ -825,10 +825,10 @@
             tableLayoutPanel1.Controls.Add(label131, 11, 8);
             tableLayoutPanel1.Controls.Add(label130, 10, 8);
             tableLayoutPanel1.Controls.Add(label129, 9, 8);
-            tableLayoutPanel1.Controls.Add(label128, 8, 8);
-            tableLayoutPanel1.Controls.Add(label127, 7, 8);
-            tableLayoutPanel1.Controls.Add(label126, 6, 8);
-            tableLayoutPanel1.Controls.Add(label125, 5, 8);
+            tableLayoutPanel1.Controls.Add(RequK28_3, 8, 8);
+            tableLayoutPanel1.Controls.Add(RequK28_2, 7, 8);
+            tableLayoutPanel1.Controls.Add(RequK28_1, 6, 8);
+            tableLayoutPanel1.Controls.Add(RequK28_0, 5, 8);
             tableLayoutPanel1.Controls.Add(InventoryK28, 4, 8);
             tableLayoutPanel1.Controls.Add(label123, 3, 8);
             tableLayoutPanel1.Controls.Add(label122, 2, 8);
@@ -837,10 +837,10 @@
             tableLayoutPanel1.Controls.Add(label119, 11, 7);
             tableLayoutPanel1.Controls.Add(label118, 10, 7);
             tableLayoutPanel1.Controls.Add(label117, 9, 7);
-            tableLayoutPanel1.Controls.Add(label116, 8, 7);
-            tableLayoutPanel1.Controls.Add(label115, 7, 7);
-            tableLayoutPanel1.Controls.Add(label114, 6, 7);
-            tableLayoutPanel1.Controls.Add(label113, 5, 7);
+            tableLayoutPanel1.Controls.Add(RequK27_3, 8, 7);
+            tableLayoutPanel1.Controls.Add(RequK27_2, 7, 7);
+            tableLayoutPanel1.Controls.Add(RequK27_1, 6, 7);
+            tableLayoutPanel1.Controls.Add(RequK27_0, 5, 7);
             tableLayoutPanel1.Controls.Add(InventoryK27, 4, 7);
             tableLayoutPanel1.Controls.Add(label111, 3, 7);
             tableLayoutPanel1.Controls.Add(label110, 2, 7);
@@ -2455,49 +2455,49 @@
             label276.Text = "K21";
             label276.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label197
+            // RequK37_0
             // 
-            label197.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label197.Font = new Font("Segoe UI", 9F);
-            label197.Location = new Point(458, 420);
-            label197.Name = "label197";
-            label197.Size = new Size(85, 30);
-            label197.TabIndex = 399;
-            label197.Text = "K21";
-            label197.TextAlign = ContentAlignment.MiddleCenter;
+            RequK37_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK37_0.Font = new Font("Segoe UI", 9F);
+            RequK37_0.Location = new Point(458, 420);
+            RequK37_0.Name = "RequK37_0";
+            RequK37_0.Size = new Size(85, 30);
+            RequK37_0.TabIndex = 399;
+            RequK37_0.Text = "K21";
+            RequK37_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label262
+            // RequK37_1
             // 
-            label262.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label262.Font = new Font("Segoe UI", 9F);
-            label262.Location = new Point(549, 420);
-            label262.Name = "label262";
-            label262.Size = new Size(85, 30);
-            label262.TabIndex = 398;
-            label262.Text = "K21";
-            label262.TextAlign = ContentAlignment.MiddleCenter;
+            RequK37_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK37_1.Font = new Font("Segoe UI", 9F);
+            RequK37_1.Location = new Point(549, 420);
+            RequK37_1.Name = "RequK37_1";
+            RequK37_1.Size = new Size(85, 30);
+            RequK37_1.TabIndex = 398;
+            RequK37_1.Text = "K21";
+            RequK37_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label263
+            // RequK37_2
             // 
-            label263.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label263.Font = new Font("Segoe UI", 9F);
-            label263.Location = new Point(640, 420);
-            label263.Name = "label263";
-            label263.Size = new Size(85, 30);
-            label263.TabIndex = 397;
-            label263.Text = "K21";
-            label263.TextAlign = ContentAlignment.MiddleCenter;
+            RequK37_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK37_2.Font = new Font("Segoe UI", 9F);
+            RequK37_2.Location = new Point(640, 420);
+            RequK37_2.Name = "RequK37_2";
+            RequK37_2.Size = new Size(85, 30);
+            RequK37_2.TabIndex = 397;
+            RequK37_2.Text = "K21";
+            RequK37_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label264
+            // RequK37_3
             // 
-            label264.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label264.Font = new Font("Segoe UI", 9F);
-            label264.Location = new Point(731, 420);
-            label264.Name = "label264";
-            label264.Size = new Size(85, 30);
-            label264.TabIndex = 396;
-            label264.Text = "K21";
-            label264.TextAlign = ContentAlignment.MiddleCenter;
+            RequK37_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK37_3.Font = new Font("Segoe UI", 9F);
+            RequK37_3.Location = new Point(731, 420);
+            RequK37_3.Name = "RequK37_3";
+            RequK37_3.Size = new Size(85, 30);
+            RequK37_3.TabIndex = 396;
+            RequK37_3.Text = "K21";
+            RequK37_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label265
             // 
@@ -3335,49 +3335,49 @@
             label189.Text = "K21";
             label189.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label188
+            // RequK36_3
             // 
-            label188.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label188.Font = new Font("Segoe UI", 9F);
-            label188.Location = new Point(731, 390);
-            label188.Name = "label188";
-            label188.Size = new Size(85, 30);
-            label188.TabIndex = 318;
-            label188.Text = "K21";
-            label188.TextAlign = ContentAlignment.MiddleCenter;
+            RequK36_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK36_3.Font = new Font("Segoe UI", 9F);
+            RequK36_3.Location = new Point(731, 390);
+            RequK36_3.Name = "RequK36_3";
+            RequK36_3.Size = new Size(85, 30);
+            RequK36_3.TabIndex = 318;
+            RequK36_3.Text = "K21";
+            RequK36_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label187
+            // RequK36_2
             // 
-            label187.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label187.Font = new Font("Segoe UI", 9F);
-            label187.Location = new Point(640, 390);
-            label187.Name = "label187";
-            label187.Size = new Size(85, 30);
-            label187.TabIndex = 317;
-            label187.Text = "K21";
-            label187.TextAlign = ContentAlignment.MiddleCenter;
+            RequK36_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK36_2.Font = new Font("Segoe UI", 9F);
+            RequK36_2.Location = new Point(640, 390);
+            RequK36_2.Name = "RequK36_2";
+            RequK36_2.Size = new Size(85, 30);
+            RequK36_2.TabIndex = 317;
+            RequK36_2.Text = "K21";
+            RequK36_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label186
+            // RequK36_1
             // 
-            label186.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label186.Font = new Font("Segoe UI", 9F);
-            label186.Location = new Point(549, 390);
-            label186.Name = "label186";
-            label186.Size = new Size(85, 30);
-            label186.TabIndex = 316;
-            label186.Text = "K21";
-            label186.TextAlign = ContentAlignment.MiddleCenter;
+            RequK36_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK36_1.Font = new Font("Segoe UI", 9F);
+            RequK36_1.Location = new Point(549, 390);
+            RequK36_1.Name = "RequK36_1";
+            RequK36_1.Size = new Size(85, 30);
+            RequK36_1.TabIndex = 316;
+            RequK36_1.Text = "K21";
+            RequK36_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label185
+            // RequK36_0
             // 
-            label185.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label185.Font = new Font("Segoe UI", 9F);
-            label185.Location = new Point(458, 390);
-            label185.Name = "label185";
-            label185.Size = new Size(85, 30);
-            label185.TabIndex = 315;
-            label185.Text = "K21";
-            label185.TextAlign = ContentAlignment.MiddleCenter;
+            RequK36_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK36_0.Font = new Font("Segoe UI", 9F);
+            RequK36_0.Location = new Point(458, 390);
+            RequK36_0.Name = "RequK36_0";
+            RequK36_0.Size = new Size(85, 30);
+            RequK36_0.TabIndex = 315;
+            RequK36_0.Text = "K21";
+            RequK36_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // InventoryK36
             // 
@@ -3467,49 +3467,49 @@
             label177.Text = "K21";
             label177.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label176
+            // RequK35_3
             // 
-            label176.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label176.Font = new Font("Segoe UI", 9F);
-            label176.Location = new Point(731, 360);
-            label176.Name = "label176";
-            label176.Size = new Size(85, 30);
-            label176.TabIndex = 306;
-            label176.Text = "K21";
-            label176.TextAlign = ContentAlignment.MiddleCenter;
+            RequK35_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK35_3.Font = new Font("Segoe UI", 9F);
+            RequK35_3.Location = new Point(731, 360);
+            RequK35_3.Name = "RequK35_3";
+            RequK35_3.Size = new Size(85, 30);
+            RequK35_3.TabIndex = 306;
+            RequK35_3.Text = "K21";
+            RequK35_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label175
+            // RequK35_2
             // 
-            label175.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label175.Font = new Font("Segoe UI", 9F);
-            label175.Location = new Point(640, 360);
-            label175.Name = "label175";
-            label175.Size = new Size(85, 30);
-            label175.TabIndex = 305;
-            label175.Text = "K21";
-            label175.TextAlign = ContentAlignment.MiddleCenter;
+            RequK35_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK35_2.Font = new Font("Segoe UI", 9F);
+            RequK35_2.Location = new Point(640, 360);
+            RequK35_2.Name = "RequK35_2";
+            RequK35_2.Size = new Size(85, 30);
+            RequK35_2.TabIndex = 305;
+            RequK35_2.Text = "K21";
+            RequK35_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label174
+            // RequK35_1
             // 
-            label174.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label174.Font = new Font("Segoe UI", 9F);
-            label174.Location = new Point(549, 360);
-            label174.Name = "label174";
-            label174.Size = new Size(85, 30);
-            label174.TabIndex = 304;
-            label174.Text = "K21";
-            label174.TextAlign = ContentAlignment.MiddleCenter;
+            RequK35_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK35_1.Font = new Font("Segoe UI", 9F);
+            RequK35_1.Location = new Point(549, 360);
+            RequK35_1.Name = "RequK35_1";
+            RequK35_1.Size = new Size(85, 30);
+            RequK35_1.TabIndex = 304;
+            RequK35_1.Text = "K21";
+            RequK35_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label173
+            // RequK35_0
             // 
-            label173.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label173.Font = new Font("Segoe UI", 9F);
-            label173.Location = new Point(458, 360);
-            label173.Name = "label173";
-            label173.Size = new Size(85, 30);
-            label173.TabIndex = 303;
-            label173.Text = "K21";
-            label173.TextAlign = ContentAlignment.MiddleCenter;
+            RequK35_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK35_0.Font = new Font("Segoe UI", 9F);
+            RequK35_0.Location = new Point(458, 360);
+            RequK35_0.Name = "RequK35_0";
+            RequK35_0.Size = new Size(85, 30);
+            RequK35_0.TabIndex = 303;
+            RequK35_0.Text = "K21";
+            RequK35_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // InventoryK35
             // 
@@ -3599,49 +3599,49 @@
             label165.Text = "K21";
             label165.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label164
+            // RequK34_3
             // 
-            label164.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label164.Font = new Font("Segoe UI", 9F);
-            label164.Location = new Point(731, 330);
-            label164.Name = "label164";
-            label164.Size = new Size(85, 30);
-            label164.TabIndex = 294;
-            label164.Text = "K21";
-            label164.TextAlign = ContentAlignment.MiddleCenter;
+            RequK34_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK34_3.Font = new Font("Segoe UI", 9F);
+            RequK34_3.Location = new Point(731, 330);
+            RequK34_3.Name = "RequK34_3";
+            RequK34_3.Size = new Size(85, 30);
+            RequK34_3.TabIndex = 294;
+            RequK34_3.Text = "K21";
+            RequK34_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label163
+            // RequK34_2
             // 
-            label163.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label163.Font = new Font("Segoe UI", 9F);
-            label163.Location = new Point(640, 330);
-            label163.Name = "label163";
-            label163.Size = new Size(85, 30);
-            label163.TabIndex = 293;
-            label163.Text = "K21";
-            label163.TextAlign = ContentAlignment.MiddleCenter;
+            RequK34_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK34_2.Font = new Font("Segoe UI", 9F);
+            RequK34_2.Location = new Point(640, 330);
+            RequK34_2.Name = "RequK34_2";
+            RequK34_2.Size = new Size(85, 30);
+            RequK34_2.TabIndex = 293;
+            RequK34_2.Text = "K21";
+            RequK34_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label162
+            // RequK34_1
             // 
-            label162.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label162.Font = new Font("Segoe UI", 9F);
-            label162.Location = new Point(549, 330);
-            label162.Name = "label162";
-            label162.Size = new Size(85, 30);
-            label162.TabIndex = 292;
-            label162.Text = "K21";
-            label162.TextAlign = ContentAlignment.MiddleCenter;
+            RequK34_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK34_1.Font = new Font("Segoe UI", 9F);
+            RequK34_1.Location = new Point(549, 330);
+            RequK34_1.Name = "RequK34_1";
+            RequK34_1.Size = new Size(85, 30);
+            RequK34_1.TabIndex = 292;
+            RequK34_1.Text = "K21";
+            RequK34_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label161
+            // RequK34_0
             // 
-            label161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label161.Font = new Font("Segoe UI", 9F);
-            label161.Location = new Point(458, 330);
-            label161.Name = "label161";
-            label161.Size = new Size(85, 30);
-            label161.TabIndex = 291;
-            label161.Text = "K21";
-            label161.TextAlign = ContentAlignment.MiddleCenter;
+            RequK34_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK34_0.Font = new Font("Segoe UI", 9F);
+            RequK34_0.Location = new Point(458, 330);
+            RequK34_0.Name = "RequK34_0";
+            RequK34_0.Size = new Size(85, 30);
+            RequK34_0.TabIndex = 291;
+            RequK34_0.Text = "K21";
+            RequK34_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // InventoryK34
             // 
@@ -3731,49 +3731,49 @@
             label153.Text = "K21";
             label153.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label152
+            // RequK33_3
             // 
-            label152.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label152.Font = new Font("Segoe UI", 9F);
-            label152.Location = new Point(731, 300);
-            label152.Name = "label152";
-            label152.Size = new Size(85, 30);
-            label152.TabIndex = 282;
-            label152.Text = "K21";
-            label152.TextAlign = ContentAlignment.MiddleCenter;
+            RequK33_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK33_3.Font = new Font("Segoe UI", 9F);
+            RequK33_3.Location = new Point(731, 300);
+            RequK33_3.Name = "RequK33_3";
+            RequK33_3.Size = new Size(85, 30);
+            RequK33_3.TabIndex = 282;
+            RequK33_3.Text = "K21";
+            RequK33_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label151
+            // RequK33_2
             // 
-            label151.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label151.Font = new Font("Segoe UI", 9F);
-            label151.Location = new Point(640, 300);
-            label151.Name = "label151";
-            label151.Size = new Size(85, 30);
-            label151.TabIndex = 281;
-            label151.Text = "K21";
-            label151.TextAlign = ContentAlignment.MiddleCenter;
+            RequK33_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK33_2.Font = new Font("Segoe UI", 9F);
+            RequK33_2.Location = new Point(640, 300);
+            RequK33_2.Name = "RequK33_2";
+            RequK33_2.Size = new Size(85, 30);
+            RequK33_2.TabIndex = 281;
+            RequK33_2.Text = "K21";
+            RequK33_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label150
+            // RequK33_1
             // 
-            label150.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label150.Font = new Font("Segoe UI", 9F);
-            label150.Location = new Point(549, 300);
-            label150.Name = "label150";
-            label150.Size = new Size(85, 30);
-            label150.TabIndex = 280;
-            label150.Text = "K21";
-            label150.TextAlign = ContentAlignment.MiddleCenter;
+            RequK33_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK33_1.Font = new Font("Segoe UI", 9F);
+            RequK33_1.Location = new Point(549, 300);
+            RequK33_1.Name = "RequK33_1";
+            RequK33_1.Size = new Size(85, 30);
+            RequK33_1.TabIndex = 280;
+            RequK33_1.Text = "K21";
+            RequK33_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label149
+            // RequK33_0
             // 
-            label149.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label149.Font = new Font("Segoe UI", 9F);
-            label149.Location = new Point(458, 300);
-            label149.Name = "label149";
-            label149.Size = new Size(85, 30);
-            label149.TabIndex = 279;
-            label149.Text = "K21";
-            label149.TextAlign = ContentAlignment.MiddleCenter;
+            RequK33_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK33_0.Font = new Font("Segoe UI", 9F);
+            RequK33_0.Location = new Point(458, 300);
+            RequK33_0.Name = "RequK33_0";
+            RequK33_0.Size = new Size(85, 30);
+            RequK33_0.TabIndex = 279;
+            RequK33_0.Text = "K21";
+            RequK33_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // InventoryK33
             // 
@@ -3863,49 +3863,49 @@
             label141.Text = "K21";
             label141.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label140
+            // RequK32_3
             // 
-            label140.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label140.Font = new Font("Segoe UI", 9F);
-            label140.Location = new Point(731, 270);
-            label140.Name = "label140";
-            label140.Size = new Size(85, 30);
-            label140.TabIndex = 270;
-            label140.Text = "K21";
-            label140.TextAlign = ContentAlignment.MiddleCenter;
+            RequK32_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK32_3.Font = new Font("Segoe UI", 9F);
+            RequK32_3.Location = new Point(731, 270);
+            RequK32_3.Name = "RequK32_3";
+            RequK32_3.Size = new Size(85, 30);
+            RequK32_3.TabIndex = 270;
+            RequK32_3.Text = "K21";
+            RequK32_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label139
+            // RequK32_2
             // 
-            label139.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label139.Font = new Font("Segoe UI", 9F);
-            label139.Location = new Point(640, 270);
-            label139.Name = "label139";
-            label139.Size = new Size(85, 30);
-            label139.TabIndex = 269;
-            label139.Text = "K21";
-            label139.TextAlign = ContentAlignment.MiddleCenter;
+            RequK32_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK32_2.Font = new Font("Segoe UI", 9F);
+            RequK32_2.Location = new Point(640, 270);
+            RequK32_2.Name = "RequK32_2";
+            RequK32_2.Size = new Size(85, 30);
+            RequK32_2.TabIndex = 269;
+            RequK32_2.Text = "K21";
+            RequK32_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label138
+            // RequK32_1
             // 
-            label138.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label138.Font = new Font("Segoe UI", 9F);
-            label138.Location = new Point(549, 270);
-            label138.Name = "label138";
-            label138.Size = new Size(85, 30);
-            label138.TabIndex = 268;
-            label138.Text = "K21";
-            label138.TextAlign = ContentAlignment.MiddleCenter;
+            RequK32_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK32_1.Font = new Font("Segoe UI", 9F);
+            RequK32_1.Location = new Point(549, 270);
+            RequK32_1.Name = "RequK32_1";
+            RequK32_1.Size = new Size(85, 30);
+            RequK32_1.TabIndex = 268;
+            RequK32_1.Text = "K21";
+            RequK32_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label137
+            // RequK32_0
             // 
-            label137.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label137.Font = new Font("Segoe UI", 9F);
-            label137.Location = new Point(458, 270);
-            label137.Name = "label137";
-            label137.Size = new Size(85, 30);
-            label137.TabIndex = 267;
-            label137.Text = "K21";
-            label137.TextAlign = ContentAlignment.MiddleCenter;
+            RequK32_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK32_0.Font = new Font("Segoe UI", 9F);
+            RequK32_0.Location = new Point(458, 270);
+            RequK32_0.Name = "RequK32_0";
+            RequK32_0.Size = new Size(85, 30);
+            RequK32_0.TabIndex = 267;
+            RequK32_0.Text = "K21";
+            RequK32_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // InventoryK32
             // 
@@ -3995,49 +3995,49 @@
             label129.Text = "K21";
             label129.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label128
+            // RequK28_3
             // 
-            label128.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label128.Font = new Font("Segoe UI", 9F);
-            label128.Location = new Point(731, 240);
-            label128.Name = "label128";
-            label128.Size = new Size(85, 30);
-            label128.TabIndex = 258;
-            label128.Text = "K21";
-            label128.TextAlign = ContentAlignment.MiddleCenter;
+            RequK28_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK28_3.Font = new Font("Segoe UI", 9F);
+            RequK28_3.Location = new Point(731, 240);
+            RequK28_3.Name = "RequK28_3";
+            RequK28_3.Size = new Size(85, 30);
+            RequK28_3.TabIndex = 258;
+            RequK28_3.Text = "K21";
+            RequK28_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label127
+            // RequK28_2
             // 
-            label127.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label127.Font = new Font("Segoe UI", 9F);
-            label127.Location = new Point(640, 240);
-            label127.Name = "label127";
-            label127.Size = new Size(85, 30);
-            label127.TabIndex = 257;
-            label127.Text = "K21";
-            label127.TextAlign = ContentAlignment.MiddleCenter;
+            RequK28_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK28_2.Font = new Font("Segoe UI", 9F);
+            RequK28_2.Location = new Point(640, 240);
+            RequK28_2.Name = "RequK28_2";
+            RequK28_2.Size = new Size(85, 30);
+            RequK28_2.TabIndex = 257;
+            RequK28_2.Text = "K21";
+            RequK28_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label126
+            // RequK28_1
             // 
-            label126.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label126.Font = new Font("Segoe UI", 9F);
-            label126.Location = new Point(549, 240);
-            label126.Name = "label126";
-            label126.Size = new Size(85, 30);
-            label126.TabIndex = 256;
-            label126.Text = "K21";
-            label126.TextAlign = ContentAlignment.MiddleCenter;
+            RequK28_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK28_1.Font = new Font("Segoe UI", 9F);
+            RequK28_1.Location = new Point(549, 240);
+            RequK28_1.Name = "RequK28_1";
+            RequK28_1.Size = new Size(85, 30);
+            RequK28_1.TabIndex = 256;
+            RequK28_1.Text = "K21";
+            RequK28_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label125
+            // RequK28_0
             // 
-            label125.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label125.Font = new Font("Segoe UI", 9F);
-            label125.Location = new Point(458, 240);
-            label125.Name = "label125";
-            label125.Size = new Size(85, 30);
-            label125.TabIndex = 255;
-            label125.Text = "K21";
-            label125.TextAlign = ContentAlignment.MiddleCenter;
+            RequK28_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK28_0.Font = new Font("Segoe UI", 9F);
+            RequK28_0.Location = new Point(458, 240);
+            RequK28_0.Name = "RequK28_0";
+            RequK28_0.Size = new Size(85, 30);
+            RequK28_0.TabIndex = 255;
+            RequK28_0.Text = "K21";
+            RequK28_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // InventoryK28
             // 
@@ -4127,49 +4127,49 @@
             label117.Text = "K21";
             label117.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label116
+            // RequK27_3
             // 
-            label116.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label116.Font = new Font("Segoe UI", 9F);
-            label116.Location = new Point(731, 210);
-            label116.Name = "label116";
-            label116.Size = new Size(85, 30);
-            label116.TabIndex = 246;
-            label116.Text = "K21";
-            label116.TextAlign = ContentAlignment.MiddleCenter;
+            RequK27_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK27_3.Font = new Font("Segoe UI", 9F);
+            RequK27_3.Location = new Point(731, 210);
+            RequK27_3.Name = "RequK27_3";
+            RequK27_3.Size = new Size(85, 30);
+            RequK27_3.TabIndex = 246;
+            RequK27_3.Text = "K21";
+            RequK27_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label115
+            // RequK27_2
             // 
-            label115.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label115.Font = new Font("Segoe UI", 9F);
-            label115.Location = new Point(640, 210);
-            label115.Name = "label115";
-            label115.Size = new Size(85, 30);
-            label115.TabIndex = 245;
-            label115.Text = "K21";
-            label115.TextAlign = ContentAlignment.MiddleCenter;
+            RequK27_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK27_2.Font = new Font("Segoe UI", 9F);
+            RequK27_2.Location = new Point(640, 210);
+            RequK27_2.Name = "RequK27_2";
+            RequK27_2.Size = new Size(85, 30);
+            RequK27_2.TabIndex = 245;
+            RequK27_2.Text = "K21";
+            RequK27_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label114
+            // RequK27_1
             // 
-            label114.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label114.Font = new Font("Segoe UI", 9F);
-            label114.Location = new Point(549, 210);
-            label114.Name = "label114";
-            label114.Size = new Size(85, 30);
-            label114.TabIndex = 244;
-            label114.Text = "K21";
-            label114.TextAlign = ContentAlignment.MiddleCenter;
+            RequK27_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK27_1.Font = new Font("Segoe UI", 9F);
+            RequK27_1.Location = new Point(549, 210);
+            RequK27_1.Name = "RequK27_1";
+            RequK27_1.Size = new Size(85, 30);
+            RequK27_1.TabIndex = 244;
+            RequK27_1.Text = "K21";
+            RequK27_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label113
+            // RequK27_0
             // 
-            label113.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label113.Font = new Font("Segoe UI", 9F);
-            label113.Location = new Point(458, 210);
-            label113.Name = "label113";
-            label113.Size = new Size(85, 30);
-            label113.TabIndex = 243;
-            label113.Text = "K21";
-            label113.TextAlign = ContentAlignment.MiddleCenter;
+            RequK27_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK27_0.Font = new Font("Segoe UI", 9F);
+            RequK27_0.Location = new Point(458, 210);
+            RequK27_0.Name = "RequK27_0";
+            RequK27_0.Size = new Size(85, 30);
+            RequK27_0.TabIndex = 243;
+            RequK27_0.Text = "K21";
+            RequK27_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // InventoryK27
             // 
@@ -6176,10 +6176,10 @@
         private ListBox listBox28;
         private ListBox listBox29;
         private Label label49;
-        private Label label128;
-        private Label label127;
-        private Label label126;
-        private Label label125;
+        private Label RequK28_3;
+        private Label RequK28_2;
+        private Label RequK28_1;
+        private Label RequK28_0;
         private Label InventoryK28;
         private Label label123;
         private Label label122;
@@ -6188,10 +6188,10 @@
         private Label label119;
         private Label label118;
         private Label label117;
-        private Label label116;
-        private Label label115;
-        private Label label114;
-        private Label label113;
+        private Label RequK27_3;
+        private Label RequK27_2;
+        private Label RequK27_1;
+        private Label RequK27_0;
         private Label InventoryK27;
         private Label label111;
         private Label label110;
@@ -6263,10 +6263,10 @@
         private Label label179;
         private Label label178;
         private Label label177;
-        private Label label176;
-        private Label label175;
-        private Label label174;
-        private Label label173;
+        private Label RequK35_3;
+        private Label RequK35_2;
+        private Label RequK35_1;
+        private Label RequK35_0;
         private Label InventoryK35;
         private Label label171;
         private Label label170;
@@ -6275,10 +6275,10 @@
         private Label label167;
         private Label label166;
         private Label label165;
-        private Label label164;
-        private Label label163;
-        private Label label162;
-        private Label label161;
+        private Label RequK34_3;
+        private Label RequK34_2;
+        private Label RequK34_1;
+        private Label RequK34_0;
         private Label InventoryK34;
         private Label label159;
         private Label label158;
@@ -6287,10 +6287,10 @@
         private Label label155;
         private Label label154;
         private Label label153;
-        private Label label152;
-        private Label label151;
-        private Label label150;
-        private Label label149;
+        private Label RequK33_3;
+        private Label RequK33_2;
+        private Label RequK33_1;
+        private Label RequK33_0;
         private Label InventoryK33;
         private Label label147;
         private Label label146;
@@ -6299,10 +6299,10 @@
         private Label label143;
         private Label label142;
         private Label label141;
-        private Label label140;
-        private Label label139;
-        private Label label138;
-        private Label label137;
+        private Label RequK32_3;
+        private Label RequK32_2;
+        private Label RequK32_1;
+        private Label RequK32_0;
         private Label InventoryK32;
         private Label label135;
         private Label label134;
@@ -6315,10 +6315,10 @@
         private Label label191;
         private Label label190;
         private Label label189;
-        private Label label188;
-        private Label label187;
-        private Label label186;
-        private Label label185;
+        private Label RequK36_3;
+        private Label RequK36_2;
+        private Label RequK36_1;
+        private Label RequK36_0;
         private Label label234;
         private Label InventoryK46;
         private Label label232;
@@ -6488,10 +6488,10 @@
         private Label label274;
         private Label label275;
         private Label label276;
-        private Label label197;
-        private Label label262;
-        private Label label263;
-        private Label label264;
+        private Label RequK37_0;
+        private Label RequK37_1;
+        private Label RequK37_2;
+        private Label RequK37_3;
         private Label label265;
         private Label label266;
         private Label label267;
