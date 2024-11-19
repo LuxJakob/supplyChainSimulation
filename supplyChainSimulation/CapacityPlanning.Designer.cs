@@ -268,9 +268,6 @@
             shiftOvertimeW14 = new Label();
             shiftOvertimeW15 = new Label();
             setupTimeNew1 = new NumericUpDown();
-            label1 = new Label();
-            switchPurchasePartDisposition = new Button();
-            switchMaterialP3 = new Button();
             setupTimeNew2 = new NumericUpDown();
             setupTimeNew3 = new NumericUpDown();
             setupTimeNew4 = new NumericUpDown();
@@ -284,6 +281,9 @@
             setupTimeNew13 = new NumericUpDown();
             setupTimeNew14 = new NumericUpDown();
             setupTimeNew15 = new NumericUpDown();
+            label1 = new Label();
+            switchPurchasePartDisposition = new Button();
+            switchMaterialP3 = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)setupTimeNew1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)setupTimeNew2).BeginInit();
@@ -303,6 +303,7 @@
             // 
             // tableLayoutPanel1
             // 
+            tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
             tableLayoutPanel1.ColumnCount = 18;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 75F));
@@ -615,14 +616,14 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 30F));
-            tableLayoutPanel1.Size = new Size(1350, 830);
+            tableLayoutPanel1.Size = new Size(1370, 880);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // label38
             // 
             label38.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label38.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label38.Location = new Point(123, 50);
+            label38.Location = new Point(125, 53);
             label38.Name = "label38";
             label38.Size = new Size(69, 20);
             label38.TabIndex = 131;
@@ -634,7 +635,7 @@
             label34.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label34, 3);
             label34.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label34.Location = new Point(3, 710);
+            label34.Location = new Point(4, 745);
             label34.Name = "label34";
             label34.Size = new Size(264, 30);
             label34.TabIndex = 127;
@@ -646,7 +647,7 @@
             label33.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label33, 3);
             label33.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label33.Location = new Point(3, 680);
+            label33.Location = new Point(4, 714);
             label33.Name = "label33";
             label33.Size = new Size(264, 30);
             label33.TabIndex = 126;
@@ -657,10 +658,10 @@
             // 
             label31.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label31.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label31.Location = new Point(3, 590);
+            label31.Location = new Point(4, 620);
             label31.Name = "label31";
             tableLayoutPanel1.SetRowSpan(label31, 3);
-            label31.Size = new Size(114, 60);
+            label31.Size = new Size(114, 62);
             label31.TabIndex = 124;
             label31.Text = "Bicycle (complete)";
             label31.TextAlign = ContentAlignment.MiddleCenter;
@@ -669,10 +670,10 @@
             // 
             label6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(3, 50);
+            label6.Location = new Point(4, 53);
             label6.Name = "label6";
             tableLayoutPanel1.SetRowSpan(label6, 3);
-            label6.Size = new Size(114, 60);
+            label6.Size = new Size(114, 62);
             label6.TabIndex = 112;
             label6.Text = "Rear Wheel";
             label6.TextAlign = ContentAlignment.MiddleCenter;
@@ -681,10 +682,10 @@
             // 
             label5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(198, 0);
+            label5.Location = new Point(201, 1);
             label5.Name = "label5";
             tableLayoutPanel1.SetRowSpan(label5, 2);
-            label5.Size = new Size(69, 50);
+            label5.Size = new Size(69, 51);
             label5.TabIndex = 111;
             label5.Text = "Prod. Orders";
             label5.TextAlign = ContentAlignment.MiddleCenter;
@@ -693,10 +694,10 @@
             // 
             label4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(123, 0);
+            label4.Location = new Point(125, 1);
             label4.Name = "label4";
             tableLayoutPanel1.SetRowSpan(label4, 2);
-            label4.Size = new Size(69, 50);
+            label4.Size = new Size(69, 51);
             label4.TabIndex = 110;
             label4.Text = "Item No.";
             label4.TextAlign = ContentAlignment.MiddleCenter;
@@ -705,10 +706,10 @@
             // 
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(3, 0);
+            label3.Location = new Point(4, 1);
             label3.Name = "label3";
             tableLayoutPanel1.SetRowSpan(label3, 2);
-            label3.Size = new Size(114, 50);
+            label3.Size = new Size(114, 51);
             label3.TabIndex = 109;
             label3.Text = "Label";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -717,7 +718,7 @@
             // 
             label22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label22.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label22.Location = new Point(1278, 25);
+            label22.Location = new Point(1296, 27);
             label22.Name = "label22";
             label22.Size = new Size(69, 25);
             label22.TabIndex = 108;
@@ -728,7 +729,7 @@
             // 
             label21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label21.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label21.Location = new Point(1203, 25);
+            label21.Location = new Point(1220, 27);
             label21.Name = "label21";
             label21.Size = new Size(69, 25);
             label21.TabIndex = 107;
@@ -739,7 +740,7 @@
             // 
             label20.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label20.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label20.Location = new Point(1128, 25);
+            label20.Location = new Point(1144, 27);
             label20.Name = "label20";
             label20.Size = new Size(69, 25);
             label20.TabIndex = 106;
@@ -750,7 +751,7 @@
             // 
             label19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label19.Location = new Point(1053, 25);
+            label19.Location = new Point(1068, 27);
             label19.Name = "label19";
             label19.Size = new Size(69, 25);
             label19.TabIndex = 105;
@@ -761,7 +762,7 @@
             // 
             label18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label18.Location = new Point(978, 25);
+            label18.Location = new Point(992, 27);
             label18.Name = "label18";
             label18.Size = new Size(69, 25);
             label18.TabIndex = 104;
@@ -772,7 +773,7 @@
             // 
             label17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label17.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label17.Location = new Point(903, 25);
+            label17.Location = new Point(916, 27);
             label17.Name = "label17";
             label17.Size = new Size(69, 25);
             label17.TabIndex = 103;
@@ -783,7 +784,7 @@
             // 
             label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label16.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label16.Location = new Point(828, 25);
+            label16.Location = new Point(840, 27);
             label16.Name = "label16";
             label16.Size = new Size(69, 25);
             label16.TabIndex = 102;
@@ -794,7 +795,7 @@
             // 
             label15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label15.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label15.Location = new Point(753, 25);
+            label15.Location = new Point(764, 27);
             label15.Name = "label15";
             label15.Size = new Size(69, 25);
             label15.TabIndex = 101;
@@ -805,7 +806,7 @@
             // 
             label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label14.Location = new Point(678, 25);
+            label14.Location = new Point(688, 27);
             label14.Name = "label14";
             label14.Size = new Size(69, 25);
             label14.TabIndex = 100;
@@ -816,7 +817,7 @@
             // 
             label13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label13.Location = new Point(603, 25);
+            label13.Location = new Point(612, 27);
             label13.Name = "label13";
             label13.Size = new Size(69, 25);
             label13.TabIndex = 99;
@@ -827,7 +828,7 @@
             // 
             label12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.Location = new Point(573, 25);
+            label12.Location = new Point(581, 27);
             label12.Name = "label12";
             label12.Size = new Size(24, 25);
             label12.TabIndex = 98;
@@ -838,7 +839,7 @@
             // 
             label11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label11.Location = new Point(498, 25);
+            label11.Location = new Point(505, 27);
             label11.Name = "label11";
             label11.Size = new Size(69, 25);
             label11.TabIndex = 97;
@@ -849,7 +850,7 @@
             // 
             label10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label10.Location = new Point(423, 25);
+            label10.Location = new Point(429, 27);
             label10.Name = "label10";
             label10.Size = new Size(69, 25);
             label10.TabIndex = 96;
@@ -860,7 +861,7 @@
             // 
             label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(348, 25);
+            label9.Location = new Point(353, 27);
             label9.Name = "label9";
             label9.Size = new Size(69, 25);
             label9.TabIndex = 95;
@@ -872,7 +873,7 @@
             label79.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label79, 15);
             label79.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label79.Location = new Point(273, 0);
+            label79.Location = new Point(277, 1);
             label79.Name = "label79";
             label79.Size = new Size(1074, 25);
             label79.TabIndex = 87;
@@ -883,7 +884,7 @@
             // 
             label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(273, 25);
+            label2.Location = new Point(277, 27);
             label2.Name = "label2";
             label2.Size = new Size(69, 25);
             label2.TabIndex = 88;
@@ -894,10 +895,10 @@
             // 
             label7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(3, 110);
+            label7.Location = new Point(4, 116);
             label7.Name = "label7";
             tableLayoutPanel1.SetRowSpan(label7, 3);
-            label7.Size = new Size(114, 60);
+            label7.Size = new Size(114, 62);
             label7.TabIndex = 113;
             label7.Text = "Front Wheel";
             label7.TextAlign = ContentAlignment.MiddleCenter;
@@ -906,10 +907,10 @@
             // 
             label8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(3, 170);
+            label8.Location = new Point(4, 179);
             label8.Name = "label8";
             tableLayoutPanel1.SetRowSpan(label8, 3);
-            label8.Size = new Size(114, 60);
+            label8.Size = new Size(114, 62);
             label8.TabIndex = 114;
             label8.Text = "Rear Mudguard";
             label8.TextAlign = ContentAlignment.MiddleCenter;
@@ -918,10 +919,10 @@
             // 
             label24.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label24.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label24.Location = new Point(3, 230);
+            label24.Location = new Point(4, 242);
             label24.Name = "label24";
             tableLayoutPanel1.SetRowSpan(label24, 3);
-            label24.Size = new Size(114, 60);
+            label24.Size = new Size(114, 62);
             label24.TabIndex = 116;
             label24.Text = "Front Mudguard";
             label24.TextAlign = ContentAlignment.MiddleCenter;
@@ -930,7 +931,7 @@
             // 
             label23.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label23.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label23.Location = new Point(3, 290);
+            label23.Location = new Point(4, 305);
             label23.Name = "label23";
             label23.Size = new Size(114, 20);
             label23.TabIndex = 117;
@@ -941,10 +942,10 @@
             // 
             label26.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label26.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label26.Location = new Point(3, 330);
+            label26.Location = new Point(4, 347);
             label26.Name = "label26";
             tableLayoutPanel1.SetRowSpan(label26, 3);
-            label26.Size = new Size(114, 60);
+            label26.Size = new Size(114, 62);
             label26.TabIndex = 119;
             label26.Text = "Frame";
             label26.TextAlign = ContentAlignment.MiddleCenter;
@@ -953,7 +954,7 @@
             // 
             label27.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label27.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label27.Location = new Point(3, 390);
+            label27.Location = new Point(4, 410);
             label27.Name = "label27";
             label27.Size = new Size(114, 20);
             label27.TabIndex = 120;
@@ -964,10 +965,10 @@
             // 
             label28.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label28.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label28.Location = new Point(3, 410);
+            label28.Location = new Point(4, 431);
             label28.Name = "label28";
             tableLayoutPanel1.SetRowSpan(label28, 3);
-            label28.Size = new Size(114, 60);
+            label28.Size = new Size(114, 62);
             label28.TabIndex = 121;
             label28.Text = "Front Wheel (complete)";
             label28.TextAlign = ContentAlignment.MiddleCenter;
@@ -976,10 +977,10 @@
             // 
             label29.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label29.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label29.Location = new Point(3, 470);
+            label29.Location = new Point(4, 494);
             label29.Name = "label29";
             tableLayoutPanel1.SetRowSpan(label29, 3);
-            label29.Size = new Size(114, 60);
+            label29.Size = new Size(114, 62);
             label29.TabIndex = 122;
             label29.Text = "Frame && Wheels";
             label29.TextAlign = ContentAlignment.MiddleCenter;
@@ -988,10 +989,10 @@
             // 
             label30.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label30.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label30.Location = new Point(3, 530);
+            label30.Location = new Point(4, 557);
             label30.Name = "label30";
             tableLayoutPanel1.SetRowSpan(label30, 3);
-            label30.Size = new Size(114, 60);
+            label30.Size = new Size(114, 62);
             label30.TabIndex = 123;
             label30.Text = "Bicycle Without Pedals";
             label30.TextAlign = ContentAlignment.MiddleCenter;
@@ -1000,7 +1001,7 @@
             // 
             label25.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label25.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label25.Location = new Point(3, 310);
+            label25.Location = new Point(4, 326);
             label25.Name = "label25";
             label25.Size = new Size(114, 20);
             label25.TabIndex = 118;
@@ -1012,7 +1013,7 @@
             label32.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label32, 3);
             label32.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label32.Location = new Point(3, 650);
+            label32.Location = new Point(4, 683);
             label32.Name = "label32";
             label32.Size = new Size(264, 30);
             label32.TabIndex = 125;
@@ -1024,7 +1025,7 @@
             label37.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label37, 3);
             label37.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label37.Location = new Point(3, 740);
+            label37.Location = new Point(4, 776);
             label37.Name = "label37";
             label37.Size = new Size(264, 30);
             label37.TabIndex = 128;
@@ -1036,7 +1037,7 @@
             label36.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label36, 3);
             label36.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label36.Location = new Point(3, 770);
+            label36.Location = new Point(4, 807);
             label36.Name = "label36";
             label36.Size = new Size(264, 30);
             label36.TabIndex = 129;
@@ -1048,9 +1049,9 @@
             label35.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             tableLayoutPanel1.SetColumnSpan(label35, 3);
             label35.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label35.Location = new Point(3, 800);
+            label35.Location = new Point(4, 838);
             label35.Name = "label35";
-            label35.Size = new Size(264, 30);
+            label35.Size = new Size(264, 41);
             label35.TabIndex = 130;
             label35.Text = "Shifts && Overtime";
             label35.TextAlign = ContentAlignment.MiddleLeft;
@@ -1059,7 +1060,7 @@
             // 
             label39.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label39.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label39.Location = new Point(123, 70);
+            label39.Location = new Point(125, 74);
             label39.Name = "label39";
             label39.Size = new Size(69, 20);
             label39.TabIndex = 132;
@@ -1070,7 +1071,7 @@
             // 
             label40.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label40.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label40.Location = new Point(123, 90);
+            label40.Location = new Point(125, 95);
             label40.Name = "label40";
             label40.Size = new Size(69, 20);
             label40.TabIndex = 133;
@@ -1081,7 +1082,7 @@
             // 
             label41.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label41.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label41.Location = new Point(123, 110);
+            label41.Location = new Point(125, 116);
             label41.Name = "label41";
             label41.Size = new Size(69, 20);
             label41.TabIndex = 134;
@@ -1092,7 +1093,7 @@
             // 
             label42.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label42.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label42.Location = new Point(123, 130);
+            label42.Location = new Point(125, 137);
             label42.Name = "label42";
             label42.Size = new Size(69, 20);
             label42.TabIndex = 135;
@@ -1103,7 +1104,7 @@
             // 
             label43.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label43.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label43.Location = new Point(123, 150);
+            label43.Location = new Point(125, 158);
             label43.Name = "label43";
             label43.Size = new Size(69, 20);
             label43.TabIndex = 136;
@@ -1114,7 +1115,7 @@
             // 
             label44.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label44.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label44.Location = new Point(123, 170);
+            label44.Location = new Point(125, 179);
             label44.Name = "label44";
             label44.Size = new Size(69, 20);
             label44.TabIndex = 137;
@@ -1125,7 +1126,7 @@
             // 
             label45.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label45.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label45.Location = new Point(123, 190);
+            label45.Location = new Point(125, 200);
             label45.Name = "label45";
             label45.Size = new Size(69, 20);
             label45.TabIndex = 138;
@@ -1136,7 +1137,7 @@
             // 
             label46.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label46.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label46.Location = new Point(123, 210);
+            label46.Location = new Point(125, 221);
             label46.Name = "label46";
             label46.Size = new Size(69, 20);
             label46.TabIndex = 139;
@@ -1147,7 +1148,7 @@
             // 
             label47.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label47.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label47.Location = new Point(123, 230);
+            label47.Location = new Point(125, 242);
             label47.Name = "label47";
             label47.Size = new Size(69, 20);
             label47.TabIndex = 140;
@@ -1158,7 +1159,7 @@
             // 
             label48.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label48.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label48.Location = new Point(123, 250);
+            label48.Location = new Point(125, 263);
             label48.Name = "label48";
             label48.Size = new Size(69, 20);
             label48.TabIndex = 141;
@@ -1169,7 +1170,7 @@
             // 
             label49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label49.Location = new Point(123, 270);
+            label49.Location = new Point(125, 284);
             label49.Name = "label49";
             label49.Size = new Size(69, 20);
             label49.TabIndex = 142;
@@ -1180,7 +1181,7 @@
             // 
             label50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label50.Location = new Point(123, 290);
+            label50.Location = new Point(125, 305);
             label50.Name = "label50";
             label50.Size = new Size(69, 20);
             label50.TabIndex = 143;
@@ -1191,7 +1192,7 @@
             // 
             label51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label51.Location = new Point(123, 310);
+            label51.Location = new Point(125, 326);
             label51.Name = "label51";
             label51.Size = new Size(69, 20);
             label51.TabIndex = 144;
@@ -1202,7 +1203,7 @@
             // 
             label52.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label52.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label52.Location = new Point(123, 330);
+            label52.Location = new Point(125, 347);
             label52.Name = "label52";
             label52.Size = new Size(69, 20);
             label52.TabIndex = 145;
@@ -1213,7 +1214,7 @@
             // 
             label53.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label53.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label53.Location = new Point(123, 350);
+            label53.Location = new Point(125, 368);
             label53.Name = "label53";
             label53.Size = new Size(69, 20);
             label53.TabIndex = 146;
@@ -1224,7 +1225,7 @@
             // 
             label54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label54.Location = new Point(123, 370);
+            label54.Location = new Point(125, 389);
             label54.Name = "label54";
             label54.Size = new Size(69, 20);
             label54.TabIndex = 147;
@@ -1235,7 +1236,7 @@
             // 
             label55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label55.Location = new Point(123, 390);
+            label55.Location = new Point(125, 410);
             label55.Name = "label55";
             label55.Size = new Size(69, 20);
             label55.TabIndex = 148;
@@ -1246,7 +1247,7 @@
             // 
             label56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label56.Location = new Point(123, 410);
+            label56.Location = new Point(125, 431);
             label56.Name = "label56";
             label56.Size = new Size(69, 20);
             label56.TabIndex = 149;
@@ -1257,7 +1258,7 @@
             // 
             label57.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label57.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label57.Location = new Point(123, 430);
+            label57.Location = new Point(125, 452);
             label57.Name = "label57";
             label57.Size = new Size(69, 20);
             label57.TabIndex = 150;
@@ -1268,7 +1269,7 @@
             // 
             label58.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label58.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label58.Location = new Point(123, 450);
+            label58.Location = new Point(125, 473);
             label58.Name = "label58";
             label58.Size = new Size(69, 20);
             label58.TabIndex = 151;
@@ -1279,7 +1280,7 @@
             // 
             label59.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label59.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label59.Location = new Point(123, 470);
+            label59.Location = new Point(125, 494);
             label59.Name = "label59";
             label59.Size = new Size(69, 20);
             label59.TabIndex = 152;
@@ -1290,7 +1291,7 @@
             // 
             label60.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label60.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label60.Location = new Point(123, 490);
+            label60.Location = new Point(125, 515);
             label60.Name = "label60";
             label60.Size = new Size(69, 20);
             label60.TabIndex = 153;
@@ -1301,7 +1302,7 @@
             // 
             label61.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label61.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label61.Location = new Point(123, 510);
+            label61.Location = new Point(125, 536);
             label61.Name = "label61";
             label61.Size = new Size(69, 20);
             label61.TabIndex = 154;
@@ -1312,7 +1313,7 @@
             // 
             label62.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label62.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label62.Location = new Point(123, 530);
+            label62.Location = new Point(125, 557);
             label62.Name = "label62";
             label62.Size = new Size(69, 20);
             label62.TabIndex = 155;
@@ -1323,7 +1324,7 @@
             // 
             label63.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label63.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label63.Location = new Point(123, 550);
+            label63.Location = new Point(125, 578);
             label63.Name = "label63";
             label63.Size = new Size(69, 20);
             label63.TabIndex = 156;
@@ -1334,7 +1335,7 @@
             // 
             label64.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label64.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label64.Location = new Point(123, 570);
+            label64.Location = new Point(125, 599);
             label64.Name = "label64";
             label64.Size = new Size(69, 20);
             label64.TabIndex = 157;
@@ -1345,7 +1346,7 @@
             // 
             label65.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label65.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label65.Location = new Point(123, 590);
+            label65.Location = new Point(125, 620);
             label65.Name = "label65";
             label65.Size = new Size(69, 20);
             label65.TabIndex = 158;
@@ -1356,7 +1357,7 @@
             // 
             label66.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label66.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label66.Location = new Point(123, 610);
+            label66.Location = new Point(125, 641);
             label66.Name = "label66";
             label66.Size = new Size(69, 20);
             label66.TabIndex = 159;
@@ -1367,7 +1368,7 @@
             // 
             label67.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label67.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label67.Location = new Point(123, 630);
+            label67.Location = new Point(125, 662);
             label67.Name = "label67";
             label67.Size = new Size(69, 20);
             label67.TabIndex = 160;
@@ -1378,7 +1379,7 @@
             // 
             ProductionOrdersE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE4.Location = new Point(198, 50);
+            ProductionOrdersE4.Location = new Point(201, 53);
             ProductionOrdersE4.Name = "ProductionOrdersE4";
             ProductionOrdersE4.Size = new Size(69, 20);
             ProductionOrdersE4.TabIndex = 131;
@@ -1389,7 +1390,7 @@
             // 
             ProductionOrdersE5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE5.Location = new Point(198, 70);
+            ProductionOrdersE5.Location = new Point(201, 74);
             ProductionOrdersE5.Name = "ProductionOrdersE5";
             ProductionOrdersE5.Size = new Size(69, 20);
             ProductionOrdersE5.TabIndex = 132;
@@ -1400,7 +1401,7 @@
             // 
             ProductionOrdersE6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE6.Location = new Point(198, 90);
+            ProductionOrdersE6.Location = new Point(201, 95);
             ProductionOrdersE6.Name = "ProductionOrdersE6";
             ProductionOrdersE6.Size = new Size(69, 20);
             ProductionOrdersE6.TabIndex = 133;
@@ -1411,7 +1412,7 @@
             // 
             ProductionOrdersE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE7.Location = new Point(198, 110);
+            ProductionOrdersE7.Location = new Point(201, 116);
             ProductionOrdersE7.Name = "ProductionOrdersE7";
             ProductionOrdersE7.Size = new Size(69, 20);
             ProductionOrdersE7.TabIndex = 134;
@@ -1422,7 +1423,7 @@
             // 
             ProductionOrdersE8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE8.Location = new Point(198, 130);
+            ProductionOrdersE8.Location = new Point(201, 137);
             ProductionOrdersE8.Name = "ProductionOrdersE8";
             ProductionOrdersE8.Size = new Size(69, 20);
             ProductionOrdersE8.TabIndex = 135;
@@ -1433,7 +1434,7 @@
             // 
             ProductionOrdersE9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE9.Location = new Point(198, 150);
+            ProductionOrdersE9.Location = new Point(201, 158);
             ProductionOrdersE9.Name = "ProductionOrdersE9";
             ProductionOrdersE9.Size = new Size(69, 20);
             ProductionOrdersE9.TabIndex = 136;
@@ -1444,7 +1445,7 @@
             // 
             ProductionOrdersE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE10.Location = new Point(198, 170);
+            ProductionOrdersE10.Location = new Point(201, 179);
             ProductionOrdersE10.Name = "ProductionOrdersE10";
             ProductionOrdersE10.Size = new Size(69, 20);
             ProductionOrdersE10.TabIndex = 137;
@@ -1455,7 +1456,7 @@
             // 
             ProductionOrdersE11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE11.Location = new Point(198, 190);
+            ProductionOrdersE11.Location = new Point(201, 200);
             ProductionOrdersE11.Name = "ProductionOrdersE11";
             ProductionOrdersE11.Size = new Size(69, 20);
             ProductionOrdersE11.TabIndex = 138;
@@ -1466,7 +1467,7 @@
             // 
             ProductionOrdersE12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE12.Location = new Point(198, 210);
+            ProductionOrdersE12.Location = new Point(201, 221);
             ProductionOrdersE12.Name = "ProductionOrdersE12";
             ProductionOrdersE12.Size = new Size(69, 20);
             ProductionOrdersE12.TabIndex = 139;
@@ -1477,7 +1478,7 @@
             // 
             ProductionOrdersE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE13.Location = new Point(198, 230);
+            ProductionOrdersE13.Location = new Point(201, 242);
             ProductionOrdersE13.Name = "ProductionOrdersE13";
             ProductionOrdersE13.Size = new Size(69, 20);
             ProductionOrdersE13.TabIndex = 140;
@@ -1488,7 +1489,7 @@
             // 
             ProductionOrdersE14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE14.Location = new Point(198, 250);
+            ProductionOrdersE14.Location = new Point(201, 263);
             ProductionOrdersE14.Name = "ProductionOrdersE14";
             ProductionOrdersE14.Size = new Size(69, 20);
             ProductionOrdersE14.TabIndex = 141;
@@ -1499,7 +1500,7 @@
             // 
             ProductionOrdersE15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE15.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE15.Location = new Point(198, 270);
+            ProductionOrdersE15.Location = new Point(201, 284);
             ProductionOrdersE15.Name = "ProductionOrdersE15";
             ProductionOrdersE15.Size = new Size(69, 20);
             ProductionOrdersE15.TabIndex = 142;
@@ -1510,7 +1511,7 @@
             // 
             ProductionOrdersE16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE16.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE16.Location = new Point(198, 290);
+            ProductionOrdersE16.Location = new Point(201, 305);
             ProductionOrdersE16.Name = "ProductionOrdersE16";
             ProductionOrdersE16.Size = new Size(69, 20);
             ProductionOrdersE16.TabIndex = 143;
@@ -1521,7 +1522,7 @@
             // 
             ProductionOrdersE17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE17.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE17.Location = new Point(198, 310);
+            ProductionOrdersE17.Location = new Point(201, 326);
             ProductionOrdersE17.Name = "ProductionOrdersE17";
             ProductionOrdersE17.Size = new Size(69, 20);
             ProductionOrdersE17.TabIndex = 144;
@@ -1532,7 +1533,7 @@
             // 
             ProductionOrdersE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE18.Location = new Point(198, 330);
+            ProductionOrdersE18.Location = new Point(201, 347);
             ProductionOrdersE18.Name = "ProductionOrdersE18";
             ProductionOrdersE18.Size = new Size(69, 20);
             ProductionOrdersE18.TabIndex = 145;
@@ -1543,7 +1544,7 @@
             // 
             ProductionOrdersE19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE19.Location = new Point(198, 350);
+            ProductionOrdersE19.Location = new Point(201, 368);
             ProductionOrdersE19.Name = "ProductionOrdersE19";
             ProductionOrdersE19.Size = new Size(69, 20);
             ProductionOrdersE19.TabIndex = 146;
@@ -1554,7 +1555,7 @@
             // 
             ProductionOrdersE20.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE20.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE20.Location = new Point(198, 370);
+            ProductionOrdersE20.Location = new Point(201, 389);
             ProductionOrdersE20.Name = "ProductionOrdersE20";
             ProductionOrdersE20.Size = new Size(69, 20);
             ProductionOrdersE20.TabIndex = 147;
@@ -1565,7 +1566,7 @@
             // 
             ProductionOrdersE26.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE26.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE26.Location = new Point(198, 390);
+            ProductionOrdersE26.Location = new Point(201, 410);
             ProductionOrdersE26.Name = "ProductionOrdersE26";
             ProductionOrdersE26.Size = new Size(69, 20);
             ProductionOrdersE26.TabIndex = 148;
@@ -1576,7 +1577,7 @@
             // 
             ProductionOrdersE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE49.Location = new Point(198, 410);
+            ProductionOrdersE49.Location = new Point(201, 431);
             ProductionOrdersE49.Name = "ProductionOrdersE49";
             ProductionOrdersE49.Size = new Size(69, 20);
             ProductionOrdersE49.TabIndex = 149;
@@ -1587,7 +1588,7 @@
             // 
             ProductionOrdersE54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE54.Location = new Point(198, 430);
+            ProductionOrdersE54.Location = new Point(201, 452);
             ProductionOrdersE54.Name = "ProductionOrdersE54";
             ProductionOrdersE54.Size = new Size(69, 20);
             ProductionOrdersE54.TabIndex = 150;
@@ -1598,7 +1599,7 @@
             // 
             ProductionOrdersE29.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE29.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE29.Location = new Point(198, 450);
+            ProductionOrdersE29.Location = new Point(201, 473);
             ProductionOrdersE29.Name = "ProductionOrdersE29";
             ProductionOrdersE29.Size = new Size(69, 20);
             ProductionOrdersE29.TabIndex = 151;
@@ -1609,7 +1610,7 @@
             // 
             ProductionOrdersE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE50.Location = new Point(198, 470);
+            ProductionOrdersE50.Location = new Point(201, 494);
             ProductionOrdersE50.Name = "ProductionOrdersE50";
             ProductionOrdersE50.Size = new Size(69, 20);
             ProductionOrdersE50.TabIndex = 152;
@@ -1620,7 +1621,7 @@
             // 
             ProductionOrdersE55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE55.Location = new Point(198, 490);
+            ProductionOrdersE55.Location = new Point(201, 515);
             ProductionOrdersE55.Name = "ProductionOrdersE55";
             ProductionOrdersE55.Size = new Size(69, 20);
             ProductionOrdersE55.TabIndex = 153;
@@ -1631,7 +1632,7 @@
             // 
             ProductionOrdersE30.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE30.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE30.Location = new Point(198, 510);
+            ProductionOrdersE30.Location = new Point(201, 536);
             ProductionOrdersE30.Name = "ProductionOrdersE30";
             ProductionOrdersE30.Size = new Size(69, 20);
             ProductionOrdersE30.TabIndex = 154;
@@ -1642,7 +1643,7 @@
             // 
             ProductionOrdersE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE51.Location = new Point(198, 530);
+            ProductionOrdersE51.Location = new Point(201, 557);
             ProductionOrdersE51.Name = "ProductionOrdersE51";
             ProductionOrdersE51.Size = new Size(69, 20);
             ProductionOrdersE51.TabIndex = 155;
@@ -1653,7 +1654,7 @@
             // 
             ProductionOrdersE56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE56.Location = new Point(198, 550);
+            ProductionOrdersE56.Location = new Point(201, 578);
             ProductionOrdersE56.Name = "ProductionOrdersE56";
             ProductionOrdersE56.Size = new Size(69, 20);
             ProductionOrdersE56.TabIndex = 156;
@@ -1664,7 +1665,7 @@
             // 
             ProductionOrdersE31.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE31.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE31.Location = new Point(198, 570);
+            ProductionOrdersE31.Location = new Point(201, 599);
             ProductionOrdersE31.Name = "ProductionOrdersE31";
             ProductionOrdersE31.Size = new Size(69, 20);
             ProductionOrdersE31.TabIndex = 157;
@@ -1675,7 +1676,7 @@
             // 
             ProductionOrdersP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersP1.Location = new Point(198, 590);
+            ProductionOrdersP1.Location = new Point(201, 620);
             ProductionOrdersP1.Name = "ProductionOrdersP1";
             ProductionOrdersP1.Size = new Size(69, 20);
             ProductionOrdersP1.TabIndex = 158;
@@ -1686,7 +1687,7 @@
             // 
             ProductionOrdersP2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersP2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersP2.Location = new Point(198, 610);
+            ProductionOrdersP2.Location = new Point(201, 641);
             ProductionOrdersP2.Name = "ProductionOrdersP2";
             ProductionOrdersP2.Size = new Size(69, 20);
             ProductionOrdersP2.TabIndex = 159;
@@ -1697,7 +1698,7 @@
             // 
             ProductionOrdersP3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersP3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersP3.Location = new Point(198, 630);
+            ProductionOrdersP3.Location = new Point(201, 662);
             ProductionOrdersP3.Name = "ProductionOrdersP3";
             ProductionOrdersP3.Size = new Size(69, 20);
             ProductionOrdersP3.TabIndex = 160;
@@ -1708,7 +1709,7 @@
             // 
             workstation1_49_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation1_49_6.Font = new Font("Segoe UI", 9F);
-            workstation1_49_6.Location = new Point(273, 410);
+            workstation1_49_6.Location = new Point(277, 431);
             workstation1_49_6.Name = "workstation1_49_6";
             workstation1_49_6.Size = new Size(69, 20);
             workstation1_49_6.TabIndex = 161;
@@ -1719,7 +1720,7 @@
             // 
             workstation1_29_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation1_29_6.Font = new Font("Segoe UI", 9F);
-            workstation1_29_6.Location = new Point(273, 450);
+            workstation1_29_6.Location = new Point(277, 473);
             workstation1_29_6.Name = "workstation1_29_6";
             workstation1_29_6.Size = new Size(69, 20);
             workstation1_29_6.TabIndex = 163;
@@ -1730,7 +1731,7 @@
             // 
             workstation1_54_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation1_54_6.Font = new Font("Segoe UI", 9F);
-            workstation1_54_6.Location = new Point(273, 430);
+            workstation1_54_6.Location = new Point(277, 452);
             workstation1_54_6.Name = "workstation1_54_6";
             workstation1_54_6.Size = new Size(69, 20);
             workstation1_54_6.TabIndex = 162;
@@ -1741,7 +1742,7 @@
             // 
             workstation2_50_5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation2_50_5.Font = new Font("Segoe UI", 9F);
-            workstation2_50_5.Location = new Point(348, 470);
+            workstation2_50_5.Location = new Point(353, 494);
             workstation2_50_5.Name = "workstation2_50_5";
             workstation2_50_5.Size = new Size(69, 20);
             workstation2_50_5.TabIndex = 164;
@@ -1752,7 +1753,7 @@
             // 
             workstation2_55_5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation2_55_5.Font = new Font("Segoe UI", 9F);
-            workstation2_55_5.Location = new Point(348, 490);
+            workstation2_55_5.Location = new Point(353, 515);
             workstation2_55_5.Name = "workstation2_55_5";
             workstation2_55_5.Size = new Size(69, 20);
             workstation2_55_5.TabIndex = 165;
@@ -1763,7 +1764,7 @@
             // 
             workstation2_30_5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation2_30_5.Font = new Font("Segoe UI", 9F);
-            workstation2_30_5.Location = new Point(348, 510);
+            workstation2_30_5.Location = new Point(353, 536);
             workstation2_30_5.Name = "workstation2_30_5";
             workstation2_30_5.Size = new Size(69, 20);
             workstation2_30_5.TabIndex = 166;
@@ -1774,7 +1775,7 @@
             // 
             workstation3_51_5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation3_51_5.Font = new Font("Segoe UI", 9F);
-            workstation3_51_5.Location = new Point(423, 530);
+            workstation3_51_5.Location = new Point(429, 557);
             workstation3_51_5.Name = "workstation3_51_5";
             workstation3_51_5.Size = new Size(69, 20);
             workstation3_51_5.TabIndex = 167;
@@ -1785,7 +1786,7 @@
             // 
             workstation3_56_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation3_56_6.Font = new Font("Segoe UI", 9F);
-            workstation3_56_6.Location = new Point(423, 550);
+            workstation3_56_6.Location = new Point(429, 578);
             workstation3_56_6.Name = "workstation3_56_6";
             workstation3_56_6.Size = new Size(69, 20);
             workstation3_56_6.TabIndex = 168;
@@ -1796,7 +1797,7 @@
             // 
             workstation3_31_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation3_31_6.Font = new Font("Segoe UI", 9F);
-            workstation3_31_6.Location = new Point(423, 570);
+            workstation3_31_6.Location = new Point(429, 599);
             workstation3_31_6.Name = "workstation3_31_6";
             workstation3_31_6.Size = new Size(69, 20);
             workstation3_31_6.TabIndex = 169;
@@ -1807,7 +1808,7 @@
             // 
             workstation4_1_6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation4_1_6.Font = new Font("Segoe UI", 9F);
-            workstation4_1_6.Location = new Point(498, 590);
+            workstation4_1_6.Location = new Point(505, 620);
             workstation4_1_6.Name = "workstation4_1_6";
             workstation4_1_6.Size = new Size(69, 20);
             workstation4_1_6.TabIndex = 170;
@@ -1818,7 +1819,7 @@
             // 
             workstation4_2_7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation4_2_7.Font = new Font("Segoe UI", 9F);
-            workstation4_2_7.Location = new Point(498, 610);
+            workstation4_2_7.Location = new Point(505, 641);
             workstation4_2_7.Name = "workstation4_2_7";
             workstation4_2_7.Size = new Size(69, 20);
             workstation4_2_7.TabIndex = 171;
@@ -1829,7 +1830,7 @@
             // 
             workstation4_3_7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation4_3_7.Font = new Font("Segoe UI", 9F);
-            workstation4_3_7.Location = new Point(498, 630);
+            workstation4_3_7.Location = new Point(505, 662);
             workstation4_3_7.Name = "workstation4_3_7";
             workstation4_3_7.Size = new Size(69, 20);
             workstation4_3_7.TabIndex = 172;
@@ -1840,7 +1841,7 @@
             // 
             workstation6_16_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation6_16_2.Font = new Font("Segoe UI", 9F);
-            workstation6_16_2.Location = new Point(603, 290);
+            workstation6_16_2.Location = new Point(612, 305);
             workstation6_16_2.Name = "workstation6_16_2";
             workstation6_16_2.Size = new Size(69, 20);
             workstation6_16_2.TabIndex = 173;
@@ -1851,7 +1852,7 @@
             // 
             workstation6_18_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation6_18_3.Font = new Font("Segoe UI", 9F);
-            workstation6_18_3.Location = new Point(603, 330);
+            workstation6_18_3.Location = new Point(612, 347);
             workstation6_18_3.Name = "workstation6_18_3";
             workstation6_18_3.Size = new Size(69, 20);
             workstation6_18_3.TabIndex = 174;
@@ -1862,7 +1863,7 @@
             // 
             workstation6_19_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation6_19_3.Font = new Font("Segoe UI", 9F);
-            workstation6_19_3.Location = new Point(603, 350);
+            workstation6_19_3.Location = new Point(612, 368);
             workstation6_19_3.Name = "workstation6_19_3";
             workstation6_19_3.Size = new Size(69, 20);
             workstation6_19_3.TabIndex = 174;
@@ -1873,7 +1874,7 @@
             // 
             workstation6_20_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation6_20_3.Font = new Font("Segoe UI", 9F);
-            workstation6_20_3.Location = new Point(603, 370);
+            workstation6_20_3.Location = new Point(612, 389);
             workstation6_20_3.Name = "workstation6_20_3";
             workstation6_20_3.Size = new Size(69, 20);
             workstation6_20_3.TabIndex = 174;
@@ -1884,7 +1885,7 @@
             // 
             workstation7_10_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_10_2.Font = new Font("Segoe UI", 9F);
-            workstation7_10_2.Location = new Point(678, 170);
+            workstation7_10_2.Location = new Point(688, 179);
             workstation7_10_2.Name = "workstation7_10_2";
             workstation7_10_2.Size = new Size(69, 20);
             workstation7_10_2.TabIndex = 175;
@@ -1895,7 +1896,7 @@
             // 
             workstation7_11_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_11_2.Font = new Font("Segoe UI", 9F);
-            workstation7_11_2.Location = new Point(678, 190);
+            workstation7_11_2.Location = new Point(688, 200);
             workstation7_11_2.Name = "workstation7_11_2";
             workstation7_11_2.Size = new Size(69, 20);
             workstation7_11_2.TabIndex = 175;
@@ -1906,7 +1907,7 @@
             // 
             workstation7_12_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_12_2.Font = new Font("Segoe UI", 9F);
-            workstation7_12_2.Location = new Point(678, 210);
+            workstation7_12_2.Location = new Point(688, 221);
             workstation7_12_2.Name = "workstation7_12_2";
             workstation7_12_2.Size = new Size(69, 20);
             workstation7_12_2.TabIndex = 175;
@@ -1917,7 +1918,7 @@
             // 
             workstation7_13_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_13_2.Font = new Font("Segoe UI", 9F);
-            workstation7_13_2.Location = new Point(678, 230);
+            workstation7_13_2.Location = new Point(688, 242);
             workstation7_13_2.Name = "workstation7_13_2";
             workstation7_13_2.Size = new Size(69, 20);
             workstation7_13_2.TabIndex = 175;
@@ -1928,7 +1929,7 @@
             // 
             workstation7_14_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_14_2.Font = new Font("Segoe UI", 9F);
-            workstation7_14_2.Location = new Point(678, 250);
+            workstation7_14_2.Location = new Point(688, 263);
             workstation7_14_2.Name = "workstation7_14_2";
             workstation7_14_2.Size = new Size(69, 20);
             workstation7_14_2.TabIndex = 175;
@@ -1939,7 +1940,7 @@
             // 
             workstation7_15_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_15_2.Font = new Font("Segoe UI", 9F);
-            workstation7_15_2.Location = new Point(678, 270);
+            workstation7_15_2.Location = new Point(688, 284);
             workstation7_15_2.Name = "workstation7_15_2";
             workstation7_15_2.Size = new Size(69, 20);
             workstation7_15_2.TabIndex = 175;
@@ -1950,7 +1951,7 @@
             // 
             workstation7_18_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_18_2.Font = new Font("Segoe UI", 9F);
-            workstation7_18_2.Location = new Point(678, 330);
+            workstation7_18_2.Location = new Point(688, 347);
             workstation7_18_2.Name = "workstation7_18_2";
             workstation7_18_2.Size = new Size(69, 20);
             workstation7_18_2.TabIndex = 175;
@@ -1961,7 +1962,7 @@
             // 
             workstation7_19_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_19_2.Font = new Font("Segoe UI", 9F);
-            workstation7_19_2.Location = new Point(678, 350);
+            workstation7_19_2.Location = new Point(688, 368);
             workstation7_19_2.Name = "workstation7_19_2";
             workstation7_19_2.Size = new Size(69, 20);
             workstation7_19_2.TabIndex = 175;
@@ -1972,7 +1973,7 @@
             // 
             workstation7_20_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_20_2.Font = new Font("Segoe UI", 9F);
-            workstation7_20_2.Location = new Point(678, 370);
+            workstation7_20_2.Location = new Point(688, 389);
             workstation7_20_2.Name = "workstation7_20_2";
             workstation7_20_2.Size = new Size(69, 20);
             workstation7_20_2.TabIndex = 175;
@@ -1983,7 +1984,7 @@
             // 
             workstation7_26_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation7_26_2.Font = new Font("Segoe UI", 9F);
-            workstation7_26_2.Location = new Point(678, 390);
+            workstation7_26_2.Location = new Point(688, 410);
             workstation7_26_2.Name = "workstation7_26_2";
             workstation7_26_2.Size = new Size(69, 20);
             workstation7_26_2.TabIndex = 175;
@@ -1994,7 +1995,7 @@
             // 
             workstation8_10_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation8_10_2.Font = new Font("Segoe UI", 9F);
-            workstation8_10_2.Location = new Point(753, 170);
+            workstation8_10_2.Location = new Point(764, 179);
             workstation8_10_2.Name = "workstation8_10_2";
             workstation8_10_2.Size = new Size(69, 20);
             workstation8_10_2.TabIndex = 175;
@@ -2005,7 +2006,7 @@
             // 
             workstation8_11_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation8_11_2.Font = new Font("Segoe UI", 9F);
-            workstation8_11_2.Location = new Point(753, 190);
+            workstation8_11_2.Location = new Point(764, 200);
             workstation8_11_2.Name = "workstation8_11_2";
             workstation8_11_2.Size = new Size(69, 20);
             workstation8_11_2.TabIndex = 175;
@@ -2016,7 +2017,7 @@
             // 
             workstation8_12_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation8_12_2.Font = new Font("Segoe UI", 9F);
-            workstation8_12_2.Location = new Point(753, 210);
+            workstation8_12_2.Location = new Point(764, 221);
             workstation8_12_2.Name = "workstation8_12_2";
             workstation8_12_2.Size = new Size(69, 20);
             workstation8_12_2.TabIndex = 175;
@@ -2027,7 +2028,7 @@
             // 
             workstation8_13_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation8_13_2.Font = new Font("Segoe UI", 9F);
-            workstation8_13_2.Location = new Point(753, 230);
+            workstation8_13_2.Location = new Point(764, 242);
             workstation8_13_2.Name = "workstation8_13_2";
             workstation8_13_2.Size = new Size(69, 20);
             workstation8_13_2.TabIndex = 175;
@@ -2038,7 +2039,7 @@
             // 
             workstation8_14_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation8_14_1.Font = new Font("Segoe UI", 9F);
-            workstation8_14_1.Location = new Point(753, 250);
+            workstation8_14_1.Location = new Point(764, 263);
             workstation8_14_1.Name = "workstation8_14_1";
             workstation8_14_1.Size = new Size(69, 20);
             workstation8_14_1.TabIndex = 175;
@@ -2049,7 +2050,7 @@
             // 
             workstation8_15_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation8_15_2.Font = new Font("Segoe UI", 9F);
-            workstation8_15_2.Location = new Point(753, 270);
+            workstation8_15_2.Location = new Point(764, 284);
             workstation8_15_2.Name = "workstation8_15_2";
             workstation8_15_2.Size = new Size(69, 20);
             workstation8_15_2.TabIndex = 175;
@@ -2060,7 +2061,7 @@
             // 
             workstation8_18_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation8_18_3.Font = new Font("Segoe UI", 9F);
-            workstation8_18_3.Location = new Point(753, 330);
+            workstation8_18_3.Location = new Point(764, 347);
             workstation8_18_3.Name = "workstation8_18_3";
             workstation8_18_3.Size = new Size(69, 20);
             workstation8_18_3.TabIndex = 175;
@@ -2071,7 +2072,7 @@
             // 
             workstation8_19_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation8_19_3.Font = new Font("Segoe UI", 9F);
-            workstation8_19_3.Location = new Point(753, 350);
+            workstation8_19_3.Location = new Point(764, 368);
             workstation8_19_3.Name = "workstation8_19_3";
             workstation8_19_3.Size = new Size(69, 20);
             workstation8_19_3.TabIndex = 175;
@@ -2082,7 +2083,7 @@
             // 
             workstation8_20_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation8_20_3.Font = new Font("Segoe UI", 9F);
-            workstation8_20_3.Location = new Point(753, 370);
+            workstation8_20_3.Location = new Point(764, 389);
             workstation8_20_3.Name = "workstation8_20_3";
             workstation8_20_3.Size = new Size(69, 20);
             workstation8_20_3.TabIndex = 175;
@@ -2093,7 +2094,7 @@
             // 
             workstation9_10_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation9_10_3.Font = new Font("Segoe UI", 9F);
-            workstation9_10_3.Location = new Point(828, 170);
+            workstation9_10_3.Location = new Point(840, 179);
             workstation9_10_3.Name = "workstation9_10_3";
             workstation9_10_3.Size = new Size(69, 20);
             workstation9_10_3.TabIndex = 175;
@@ -2104,7 +2105,7 @@
             // 
             workstation9_11_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation9_11_3.Font = new Font("Segoe UI", 9F);
-            workstation9_11_3.Location = new Point(828, 190);
+            workstation9_11_3.Location = new Point(840, 200);
             workstation9_11_3.Name = "workstation9_11_3";
             workstation9_11_3.Size = new Size(69, 20);
             workstation9_11_3.TabIndex = 175;
@@ -2115,7 +2116,7 @@
             // 
             workstation9_12_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation9_12_3.Font = new Font("Segoe UI", 9F);
-            workstation9_12_3.Location = new Point(828, 210);
+            workstation9_12_3.Location = new Point(840, 221);
             workstation9_12_3.Name = "workstation9_12_3";
             workstation9_12_3.Size = new Size(69, 20);
             workstation9_12_3.TabIndex = 175;
@@ -2126,7 +2127,7 @@
             // 
             workstation9_13_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation9_13_3.Font = new Font("Segoe UI", 9F);
-            workstation9_13_3.Location = new Point(828, 230);
+            workstation9_13_3.Location = new Point(840, 242);
             workstation9_13_3.Name = "workstation9_13_3";
             workstation9_13_3.Size = new Size(69, 20);
             workstation9_13_3.TabIndex = 175;
@@ -2137,7 +2138,7 @@
             // 
             workstation9_14_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation9_14_3.Font = new Font("Segoe UI", 9F);
-            workstation9_14_3.Location = new Point(828, 250);
+            workstation9_14_3.Location = new Point(840, 263);
             workstation9_14_3.Name = "workstation9_14_3";
             workstation9_14_3.Size = new Size(69, 20);
             workstation9_14_3.TabIndex = 175;
@@ -2148,7 +2149,7 @@
             // 
             workstation9_15_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation9_15_3.Font = new Font("Segoe UI", 9F);
-            workstation9_15_3.Location = new Point(828, 270);
+            workstation9_15_3.Location = new Point(840, 284);
             workstation9_15_3.Name = "workstation9_15_3";
             workstation9_15_3.Size = new Size(69, 20);
             workstation9_15_3.TabIndex = 175;
@@ -2159,7 +2160,7 @@
             // 
             workstation9_18_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation9_18_2.Font = new Font("Segoe UI", 9F);
-            workstation9_18_2.Location = new Point(828, 330);
+            workstation9_18_2.Location = new Point(840, 347);
             workstation9_18_2.Name = "workstation9_18_2";
             workstation9_18_2.Size = new Size(69, 20);
             workstation9_18_2.TabIndex = 175;
@@ -2170,7 +2171,7 @@
             // 
             workstation9_19_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation9_19_2.Font = new Font("Segoe UI", 9F);
-            workstation9_19_2.Location = new Point(828, 350);
+            workstation9_19_2.Location = new Point(840, 368);
             workstation9_19_2.Name = "workstation9_19_2";
             workstation9_19_2.Size = new Size(69, 20);
             workstation9_19_2.TabIndex = 175;
@@ -2181,7 +2182,7 @@
             // 
             workstation9_20_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation9_20_2.Font = new Font("Segoe UI", 9F);
-            workstation9_20_2.Location = new Point(828, 370);
+            workstation9_20_2.Location = new Point(840, 389);
             workstation9_20_2.Name = "workstation9_20_2";
             workstation9_20_2.Size = new Size(69, 20);
             workstation9_20_2.TabIndex = 175;
@@ -2192,7 +2193,7 @@
             // 
             workstation10_1_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation10_1_4.Font = new Font("Segoe UI", 9F);
-            workstation10_1_4.Location = new Point(903, 50);
+            workstation10_1_4.Location = new Point(916, 53);
             workstation10_1_4.Name = "workstation10_1_4";
             workstation10_1_4.Size = new Size(69, 20);
             workstation10_1_4.TabIndex = 175;
@@ -2203,7 +2204,7 @@
             // 
             workstation10_2_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation10_2_4.Font = new Font("Segoe UI", 9F);
-            workstation10_2_4.Location = new Point(903, 70);
+            workstation10_2_4.Location = new Point(916, 74);
             workstation10_2_4.Name = "workstation10_2_4";
             workstation10_2_4.Size = new Size(69, 20);
             workstation10_2_4.TabIndex = 175;
@@ -2214,7 +2215,7 @@
             // 
             workstation10_3_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation10_3_4.Font = new Font("Segoe UI", 9F);
-            workstation10_3_4.Location = new Point(903, 90);
+            workstation10_3_4.Location = new Point(916, 95);
             workstation10_3_4.Name = "workstation10_3_4";
             workstation10_3_4.Size = new Size(69, 20);
             workstation10_3_4.TabIndex = 175;
@@ -2225,7 +2226,7 @@
             // 
             workstation10_4_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation10_4_4.Font = new Font("Segoe UI", 9F);
-            workstation10_4_4.Location = new Point(903, 110);
+            workstation10_4_4.Location = new Point(916, 116);
             workstation10_4_4.Name = "workstation10_4_4";
             workstation10_4_4.Size = new Size(69, 20);
             workstation10_4_4.TabIndex = 175;
@@ -2236,7 +2237,7 @@
             // 
             workstation10_5_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation10_5_4.Font = new Font("Segoe UI", 9F);
-            workstation10_5_4.Location = new Point(903, 130);
+            workstation10_5_4.Location = new Point(916, 137);
             workstation10_5_4.Name = "workstation10_5_4";
             workstation10_5_4.Size = new Size(69, 20);
             workstation10_5_4.TabIndex = 175;
@@ -2247,7 +2248,7 @@
             // 
             workstation10_6_4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation10_6_4.Font = new Font("Segoe UI", 9F);
-            workstation10_6_4.Location = new Point(903, 150);
+            workstation10_6_4.Location = new Point(916, 158);
             workstation10_6_4.Name = "workstation10_6_4";
             workstation10_6_4.Size = new Size(69, 20);
             workstation10_6_4.TabIndex = 175;
@@ -2258,7 +2259,7 @@
             // 
             workstation11_1_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation11_1_3.Font = new Font("Segoe UI", 9F);
-            workstation11_1_3.Location = new Point(978, 50);
+            workstation11_1_3.Location = new Point(992, 53);
             workstation11_1_3.Name = "workstation11_1_3";
             workstation11_1_3.Size = new Size(69, 20);
             workstation11_1_3.TabIndex = 175;
@@ -2269,7 +2270,7 @@
             // 
             workstation11_2_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation11_2_3.Font = new Font("Segoe UI", 9F);
-            workstation11_2_3.Location = new Point(978, 70);
+            workstation11_2_3.Location = new Point(992, 74);
             workstation11_2_3.Name = "workstation11_2_3";
             workstation11_2_3.Size = new Size(69, 20);
             workstation11_2_3.TabIndex = 175;
@@ -2280,7 +2281,7 @@
             // 
             workstation11_3_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation11_3_3.Font = new Font("Segoe UI", 9F);
-            workstation11_3_3.Location = new Point(978, 90);
+            workstation11_3_3.Location = new Point(992, 95);
             workstation11_3_3.Name = "workstation11_3_3";
             workstation11_3_3.Size = new Size(69, 20);
             workstation11_3_3.TabIndex = 175;
@@ -2291,7 +2292,7 @@
             // 
             workstation11_4_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation11_4_3.Font = new Font("Segoe UI", 9F);
-            workstation11_4_3.Location = new Point(978, 110);
+            workstation11_4_3.Location = new Point(992, 116);
             workstation11_4_3.Name = "workstation11_4_3";
             workstation11_4_3.Size = new Size(69, 20);
             workstation11_4_3.TabIndex = 175;
@@ -2302,7 +2303,7 @@
             // 
             workstation11_5_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation11_5_3.Font = new Font("Segoe UI", 9F);
-            workstation11_5_3.Location = new Point(978, 130);
+            workstation11_5_3.Location = new Point(992, 137);
             workstation11_5_3.Name = "workstation11_5_3";
             workstation11_5_3.Size = new Size(69, 20);
             workstation11_5_3.TabIndex = 175;
@@ -2313,7 +2314,7 @@
             // 
             workstation11_6_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation11_6_3.Font = new Font("Segoe UI", 9F);
-            workstation11_6_3.Location = new Point(978, 150);
+            workstation11_6_3.Location = new Point(992, 158);
             workstation11_6_3.Name = "workstation11_6_3";
             workstation11_6_3.Size = new Size(69, 20);
             workstation11_6_3.TabIndex = 175;
@@ -2324,7 +2325,7 @@
             // 
             workstation12_10_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation12_10_3.Font = new Font("Segoe UI", 9F);
-            workstation12_10_3.Location = new Point(1053, 170);
+            workstation12_10_3.Location = new Point(1068, 179);
             workstation12_10_3.Name = "workstation12_10_3";
             workstation12_10_3.Size = new Size(69, 20);
             workstation12_10_3.TabIndex = 175;
@@ -2335,7 +2336,7 @@
             // 
             workstation12_11_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation12_11_3.Font = new Font("Segoe UI", 9F);
-            workstation12_11_3.Location = new Point(1053, 190);
+            workstation12_11_3.Location = new Point(1068, 200);
             workstation12_11_3.Name = "workstation12_11_3";
             workstation12_11_3.Size = new Size(69, 20);
             workstation12_11_3.TabIndex = 175;
@@ -2346,7 +2347,7 @@
             // 
             workstation12_12_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation12_12_3.Font = new Font("Segoe UI", 9F);
-            workstation12_12_3.Location = new Point(1053, 210);
+            workstation12_12_3.Location = new Point(1068, 221);
             workstation12_12_3.Name = "workstation12_12_3";
             workstation12_12_3.Size = new Size(69, 20);
             workstation12_12_3.TabIndex = 175;
@@ -2357,7 +2358,7 @@
             // 
             workstation12_13_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation12_13_3.Font = new Font("Segoe UI", 9F);
-            workstation12_13_3.Location = new Point(1053, 230);
+            workstation12_13_3.Location = new Point(1068, 242);
             workstation12_13_3.Name = "workstation12_13_3";
             workstation12_13_3.Size = new Size(69, 20);
             workstation12_13_3.TabIndex = 175;
@@ -2368,7 +2369,7 @@
             // 
             workstation12_14_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation12_14_3.Font = new Font("Segoe UI", 9F);
-            workstation12_14_3.Location = new Point(1053, 250);
+            workstation12_14_3.Location = new Point(1068, 263);
             workstation12_14_3.Name = "workstation12_14_3";
             workstation12_14_3.Size = new Size(69, 20);
             workstation12_14_3.TabIndex = 175;
@@ -2379,7 +2380,7 @@
             // 
             workstation12_15_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation12_15_3.Font = new Font("Segoe UI", 9F);
-            workstation12_15_3.Location = new Point(1053, 270);
+            workstation12_15_3.Location = new Point(1068, 284);
             workstation12_15_3.Name = "workstation12_15_3";
             workstation12_15_3.Size = new Size(69, 20);
             workstation12_15_3.TabIndex = 175;
@@ -2390,7 +2391,7 @@
             // 
             workstation13_10_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation13_10_2.Font = new Font("Segoe UI", 9F);
-            workstation13_10_2.Location = new Point(1128, 170);
+            workstation13_10_2.Location = new Point(1144, 179);
             workstation13_10_2.Name = "workstation13_10_2";
             workstation13_10_2.Size = new Size(69, 20);
             workstation13_10_2.TabIndex = 175;
@@ -2401,7 +2402,7 @@
             // 
             workstation13_11_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation13_11_2.Font = new Font("Segoe UI", 9F);
-            workstation13_11_2.Location = new Point(1128, 190);
+            workstation13_11_2.Location = new Point(1144, 200);
             workstation13_11_2.Name = "workstation13_11_2";
             workstation13_11_2.Size = new Size(69, 20);
             workstation13_11_2.TabIndex = 175;
@@ -2412,7 +2413,7 @@
             // 
             workstation13_12_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation13_12_2.Font = new Font("Segoe UI", 9F);
-            workstation13_12_2.Location = new Point(1128, 210);
+            workstation13_12_2.Location = new Point(1144, 221);
             workstation13_12_2.Name = "workstation13_12_2";
             workstation13_12_2.Size = new Size(69, 20);
             workstation13_12_2.TabIndex = 175;
@@ -2423,7 +2424,7 @@
             // 
             workstation13_13_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation13_13_2.Font = new Font("Segoe UI", 9F);
-            workstation13_13_2.Location = new Point(1128, 230);
+            workstation13_13_2.Location = new Point(1144, 242);
             workstation13_13_2.Name = "workstation13_13_2";
             workstation13_13_2.Size = new Size(69, 20);
             workstation13_13_2.TabIndex = 175;
@@ -2434,7 +2435,7 @@
             // 
             workstation13_14_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation13_14_2.Font = new Font("Segoe UI", 9F);
-            workstation13_14_2.Location = new Point(1128, 250);
+            workstation13_14_2.Location = new Point(1144, 263);
             workstation13_14_2.Name = "workstation13_14_2";
             workstation13_14_2.Size = new Size(69, 20);
             workstation13_14_2.TabIndex = 175;
@@ -2445,7 +2446,7 @@
             // 
             workstation13_15_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation13_15_2.Font = new Font("Segoe UI", 9F);
-            workstation13_15_2.Location = new Point(1128, 270);
+            workstation13_15_2.Location = new Point(1144, 284);
             workstation13_15_2.Name = "workstation13_15_2";
             workstation13_15_2.Size = new Size(69, 20);
             workstation13_15_2.TabIndex = 175;
@@ -2456,7 +2457,7 @@
             // 
             workstation14_16_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation14_16_3.Font = new Font("Segoe UI", 9F);
-            workstation14_16_3.Location = new Point(1203, 290);
+            workstation14_16_3.Location = new Point(1220, 305);
             workstation14_16_3.Name = "workstation14_16_3";
             workstation14_16_3.Size = new Size(69, 20);
             workstation14_16_3.TabIndex = 175;
@@ -2467,7 +2468,7 @@
             // 
             workstation15_17_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation15_17_3.Font = new Font("Segoe UI", 9F);
-            workstation15_17_3.Location = new Point(1278, 310);
+            workstation15_17_3.Location = new Point(1296, 326);
             workstation15_17_3.Name = "workstation15_17_3";
             workstation15_17_3.Size = new Size(69, 20);
             workstation15_17_3.TabIndex = 175;
@@ -2478,7 +2479,7 @@
             // 
             workstation15_26_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             workstation15_26_3.Font = new Font("Segoe UI", 9F);
-            workstation15_26_3.Location = new Point(1278, 390);
+            workstation15_26_3.Location = new Point(1296, 410);
             workstation15_26_3.Name = "workstation15_26_3";
             workstation15_26_3.Size = new Size(69, 20);
             workstation15_26_3.TabIndex = 175;
@@ -2489,7 +2490,7 @@
             // 
             newCapacityReq1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq1.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq1.Location = new Point(273, 650);
+            newCapacityReq1.Location = new Point(277, 683);
             newCapacityReq1.Name = "newCapacityReq1";
             newCapacityReq1.Size = new Size(69, 30);
             newCapacityReq1.TabIndex = 176;
@@ -2500,7 +2501,7 @@
             // 
             newCapacityReq2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq2.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq2.Location = new Point(348, 650);
+            newCapacityReq2.Location = new Point(353, 683);
             newCapacityReq2.Name = "newCapacityReq2";
             newCapacityReq2.Size = new Size(69, 30);
             newCapacityReq2.TabIndex = 176;
@@ -2511,7 +2512,7 @@
             // 
             newCapacityReq3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq3.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq3.Location = new Point(423, 650);
+            newCapacityReq3.Location = new Point(429, 683);
             newCapacityReq3.Name = "newCapacityReq3";
             newCapacityReq3.Size = new Size(69, 30);
             newCapacityReq3.TabIndex = 176;
@@ -2522,7 +2523,7 @@
             // 
             newCapacityReq4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq4.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq4.Location = new Point(498, 650);
+            newCapacityReq4.Location = new Point(505, 683);
             newCapacityReq4.Name = "newCapacityReq4";
             newCapacityReq4.Size = new Size(69, 30);
             newCapacityReq4.TabIndex = 176;
@@ -2533,7 +2534,7 @@
             // 
             newCapacityReq6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq6.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq6.Location = new Point(603, 650);
+            newCapacityReq6.Location = new Point(612, 683);
             newCapacityReq6.Name = "newCapacityReq6";
             newCapacityReq6.Size = new Size(69, 30);
             newCapacityReq6.TabIndex = 176;
@@ -2544,7 +2545,7 @@
             // 
             newCapacityReq7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq7.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq7.Location = new Point(678, 650);
+            newCapacityReq7.Location = new Point(688, 683);
             newCapacityReq7.Name = "newCapacityReq7";
             newCapacityReq7.Size = new Size(69, 30);
             newCapacityReq7.TabIndex = 176;
@@ -2555,7 +2556,7 @@
             // 
             newCapacityReq8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq8.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq8.Location = new Point(753, 650);
+            newCapacityReq8.Location = new Point(764, 683);
             newCapacityReq8.Name = "newCapacityReq8";
             newCapacityReq8.Size = new Size(69, 30);
             newCapacityReq8.TabIndex = 176;
@@ -2566,7 +2567,7 @@
             // 
             newCapacityReq9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq9.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq9.Location = new Point(828, 650);
+            newCapacityReq9.Location = new Point(840, 683);
             newCapacityReq9.Name = "newCapacityReq9";
             newCapacityReq9.Size = new Size(69, 30);
             newCapacityReq9.TabIndex = 176;
@@ -2577,7 +2578,7 @@
             // 
             newCapacityReq10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq10.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq10.Location = new Point(903, 650);
+            newCapacityReq10.Location = new Point(916, 683);
             newCapacityReq10.Name = "newCapacityReq10";
             newCapacityReq10.Size = new Size(69, 30);
             newCapacityReq10.TabIndex = 176;
@@ -2588,7 +2589,7 @@
             // 
             newCapacityReq11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq11.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq11.Location = new Point(978, 650);
+            newCapacityReq11.Location = new Point(992, 683);
             newCapacityReq11.Name = "newCapacityReq11";
             newCapacityReq11.Size = new Size(69, 30);
             newCapacityReq11.TabIndex = 176;
@@ -2599,7 +2600,7 @@
             // 
             newCapacityReq12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq12.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq12.Location = new Point(1053, 650);
+            newCapacityReq12.Location = new Point(1068, 683);
             newCapacityReq12.Name = "newCapacityReq12";
             newCapacityReq12.Size = new Size(69, 30);
             newCapacityReq12.TabIndex = 176;
@@ -2610,7 +2611,7 @@
             // 
             newCapacityReq13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq13.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq13.Location = new Point(1128, 650);
+            newCapacityReq13.Location = new Point(1144, 683);
             newCapacityReq13.Name = "newCapacityReq13";
             newCapacityReq13.Size = new Size(69, 30);
             newCapacityReq13.TabIndex = 176;
@@ -2621,7 +2622,7 @@
             // 
             newCapacityReq14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq14.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq14.Location = new Point(1203, 650);
+            newCapacityReq14.Location = new Point(1220, 683);
             newCapacityReq14.Name = "newCapacityReq14";
             newCapacityReq14.Size = new Size(69, 30);
             newCapacityReq14.TabIndex = 176;
@@ -2632,7 +2633,7 @@
             // 
             newCapacityReq15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             newCapacityReq15.Font = new Font("Segoe UI", 9.75F);
-            newCapacityReq15.Location = new Point(1278, 650);
+            newCapacityReq15.Location = new Point(1296, 683);
             newCapacityReq15.Name = "newCapacityReq15";
             newCapacityReq15.Size = new Size(69, 30);
             newCapacityReq15.TabIndex = 176;
@@ -2643,7 +2644,7 @@
             // 
             capacityRequirementsBacklog1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog1.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog1.Location = new Point(273, 710);
+            capacityRequirementsBacklog1.Location = new Point(277, 745);
             capacityRequirementsBacklog1.Name = "capacityRequirementsBacklog1";
             capacityRequirementsBacklog1.Size = new Size(69, 30);
             capacityRequirementsBacklog1.TabIndex = 176;
@@ -2654,7 +2655,7 @@
             // 
             capacityRequirementsBacklog2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog2.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog2.Location = new Point(348, 710);
+            capacityRequirementsBacklog2.Location = new Point(353, 745);
             capacityRequirementsBacklog2.Name = "capacityRequirementsBacklog2";
             capacityRequirementsBacklog2.Size = new Size(69, 30);
             capacityRequirementsBacklog2.TabIndex = 176;
@@ -2665,7 +2666,7 @@
             // 
             capacityRequirementsBacklog3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog3.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog3.Location = new Point(423, 710);
+            capacityRequirementsBacklog3.Location = new Point(429, 745);
             capacityRequirementsBacklog3.Name = "capacityRequirementsBacklog3";
             capacityRequirementsBacklog3.Size = new Size(69, 30);
             capacityRequirementsBacklog3.TabIndex = 176;
@@ -2676,7 +2677,7 @@
             // 
             capacityRequirementsBacklog4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog4.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog4.Location = new Point(498, 710);
+            capacityRequirementsBacklog4.Location = new Point(505, 745);
             capacityRequirementsBacklog4.Name = "capacityRequirementsBacklog4";
             capacityRequirementsBacklog4.Size = new Size(69, 30);
             capacityRequirementsBacklog4.TabIndex = 176;
@@ -2687,7 +2688,7 @@
             // 
             capacityRequirementsBacklog6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog6.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog6.Location = new Point(603, 710);
+            capacityRequirementsBacklog6.Location = new Point(612, 745);
             capacityRequirementsBacklog6.Name = "capacityRequirementsBacklog6";
             capacityRequirementsBacklog6.Size = new Size(69, 30);
             capacityRequirementsBacklog6.TabIndex = 176;
@@ -2698,7 +2699,7 @@
             // 
             capacityRequirementsBacklog7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog7.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog7.Location = new Point(678, 710);
+            capacityRequirementsBacklog7.Location = new Point(688, 745);
             capacityRequirementsBacklog7.Name = "capacityRequirementsBacklog7";
             capacityRequirementsBacklog7.Size = new Size(69, 30);
             capacityRequirementsBacklog7.TabIndex = 176;
@@ -2709,7 +2710,7 @@
             // 
             capacityRequirementsBacklog8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog8.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog8.Location = new Point(753, 710);
+            capacityRequirementsBacklog8.Location = new Point(764, 745);
             capacityRequirementsBacklog8.Name = "capacityRequirementsBacklog8";
             capacityRequirementsBacklog8.Size = new Size(69, 30);
             capacityRequirementsBacklog8.TabIndex = 176;
@@ -2720,7 +2721,7 @@
             // 
             capacityRequirementsBacklog9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog9.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog9.Location = new Point(828, 710);
+            capacityRequirementsBacklog9.Location = new Point(840, 745);
             capacityRequirementsBacklog9.Name = "capacityRequirementsBacklog9";
             capacityRequirementsBacklog9.Size = new Size(69, 30);
             capacityRequirementsBacklog9.TabIndex = 176;
@@ -2731,7 +2732,7 @@
             // 
             capacityRequirementsBacklog10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog10.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog10.Location = new Point(903, 710);
+            capacityRequirementsBacklog10.Location = new Point(916, 745);
             capacityRequirementsBacklog10.Name = "capacityRequirementsBacklog10";
             capacityRequirementsBacklog10.Size = new Size(69, 30);
             capacityRequirementsBacklog10.TabIndex = 176;
@@ -2742,7 +2743,7 @@
             // 
             capacityRequirementsBacklog11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog11.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog11.Location = new Point(978, 710);
+            capacityRequirementsBacklog11.Location = new Point(992, 745);
             capacityRequirementsBacklog11.Name = "capacityRequirementsBacklog11";
             capacityRequirementsBacklog11.Size = new Size(69, 30);
             capacityRequirementsBacklog11.TabIndex = 176;
@@ -2753,7 +2754,7 @@
             // 
             capacityRequirementsBacklog12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog12.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog12.Location = new Point(1053, 710);
+            capacityRequirementsBacklog12.Location = new Point(1068, 745);
             capacityRequirementsBacklog12.Name = "capacityRequirementsBacklog12";
             capacityRequirementsBacklog12.Size = new Size(69, 30);
             capacityRequirementsBacklog12.TabIndex = 176;
@@ -2764,7 +2765,7 @@
             // 
             capacityRequirementsBacklog13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog13.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog13.Location = new Point(1128, 710);
+            capacityRequirementsBacklog13.Location = new Point(1144, 745);
             capacityRequirementsBacklog13.Name = "capacityRequirementsBacklog13";
             capacityRequirementsBacklog13.Size = new Size(69, 30);
             capacityRequirementsBacklog13.TabIndex = 176;
@@ -2775,7 +2776,7 @@
             // 
             capacityRequirementsBacklog14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog14.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog14.Location = new Point(1203, 710);
+            capacityRequirementsBacklog14.Location = new Point(1220, 745);
             capacityRequirementsBacklog14.Name = "capacityRequirementsBacklog14";
             capacityRequirementsBacklog14.Size = new Size(69, 30);
             capacityRequirementsBacklog14.TabIndex = 176;
@@ -2786,7 +2787,7 @@
             // 
             capacityRequirementsBacklog15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             capacityRequirementsBacklog15.Font = new Font("Segoe UI", 9.75F);
-            capacityRequirementsBacklog15.Location = new Point(1278, 710);
+            capacityRequirementsBacklog15.Location = new Point(1296, 745);
             capacityRequirementsBacklog15.Name = "capacityRequirementsBacklog15";
             capacityRequirementsBacklog15.Size = new Size(69, 30);
             capacityRequirementsBacklog15.TabIndex = 176;
@@ -2797,7 +2798,7 @@
             // 
             setupTimeBacklog1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog1.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog1.Location = new Point(273, 740);
+            setupTimeBacklog1.Location = new Point(277, 776);
             setupTimeBacklog1.Name = "setupTimeBacklog1";
             setupTimeBacklog1.Size = new Size(69, 30);
             setupTimeBacklog1.TabIndex = 176;
@@ -2808,7 +2809,7 @@
             // 
             setupTimeBacklog2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog2.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog2.Location = new Point(348, 740);
+            setupTimeBacklog2.Location = new Point(353, 776);
             setupTimeBacklog2.Name = "setupTimeBacklog2";
             setupTimeBacklog2.Size = new Size(69, 30);
             setupTimeBacklog2.TabIndex = 176;
@@ -2819,7 +2820,7 @@
             // 
             setupTimeBacklog3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog3.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog3.Location = new Point(423, 740);
+            setupTimeBacklog3.Location = new Point(429, 776);
             setupTimeBacklog3.Name = "setupTimeBacklog3";
             setupTimeBacklog3.Size = new Size(69, 30);
             setupTimeBacklog3.TabIndex = 176;
@@ -2830,7 +2831,7 @@
             // 
             setupTimeBacklog4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog4.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog4.Location = new Point(498, 740);
+            setupTimeBacklog4.Location = new Point(505, 776);
             setupTimeBacklog4.Name = "setupTimeBacklog4";
             setupTimeBacklog4.Size = new Size(69, 30);
             setupTimeBacklog4.TabIndex = 176;
@@ -2841,7 +2842,7 @@
             // 
             setupTimeBacklog6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog6.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog6.Location = new Point(603, 740);
+            setupTimeBacklog6.Location = new Point(612, 776);
             setupTimeBacklog6.Name = "setupTimeBacklog6";
             setupTimeBacklog6.Size = new Size(69, 30);
             setupTimeBacklog6.TabIndex = 176;
@@ -2852,7 +2853,7 @@
             // 
             setupTimeBacklog7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog7.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog7.Location = new Point(678, 740);
+            setupTimeBacklog7.Location = new Point(688, 776);
             setupTimeBacklog7.Name = "setupTimeBacklog7";
             setupTimeBacklog7.Size = new Size(69, 30);
             setupTimeBacklog7.TabIndex = 176;
@@ -2863,7 +2864,7 @@
             // 
             setupTimeBacklog8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog8.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog8.Location = new Point(753, 740);
+            setupTimeBacklog8.Location = new Point(764, 776);
             setupTimeBacklog8.Name = "setupTimeBacklog8";
             setupTimeBacklog8.Size = new Size(69, 30);
             setupTimeBacklog8.TabIndex = 176;
@@ -2874,7 +2875,7 @@
             // 
             setupTimeBacklog9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog9.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog9.Location = new Point(828, 740);
+            setupTimeBacklog9.Location = new Point(840, 776);
             setupTimeBacklog9.Name = "setupTimeBacklog9";
             setupTimeBacklog9.Size = new Size(69, 30);
             setupTimeBacklog9.TabIndex = 176;
@@ -2885,7 +2886,7 @@
             // 
             setupTimeBacklog10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog10.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog10.Location = new Point(903, 740);
+            setupTimeBacklog10.Location = new Point(916, 776);
             setupTimeBacklog10.Name = "setupTimeBacklog10";
             setupTimeBacklog10.Size = new Size(69, 30);
             setupTimeBacklog10.TabIndex = 176;
@@ -2896,7 +2897,7 @@
             // 
             setupTimeBacklog11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog11.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog11.Location = new Point(978, 740);
+            setupTimeBacklog11.Location = new Point(992, 776);
             setupTimeBacklog11.Name = "setupTimeBacklog11";
             setupTimeBacklog11.Size = new Size(69, 30);
             setupTimeBacklog11.TabIndex = 176;
@@ -2907,7 +2908,7 @@
             // 
             setupTimeBacklog12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog12.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog12.Location = new Point(1053, 740);
+            setupTimeBacklog12.Location = new Point(1068, 776);
             setupTimeBacklog12.Name = "setupTimeBacklog12";
             setupTimeBacklog12.Size = new Size(69, 30);
             setupTimeBacklog12.TabIndex = 176;
@@ -2918,7 +2919,7 @@
             // 
             setupTimeBacklog13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog13.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog13.Location = new Point(1128, 740);
+            setupTimeBacklog13.Location = new Point(1144, 776);
             setupTimeBacklog13.Name = "setupTimeBacklog13";
             setupTimeBacklog13.Size = new Size(69, 30);
             setupTimeBacklog13.TabIndex = 176;
@@ -2929,7 +2930,7 @@
             // 
             setupTimeBacklog14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog14.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog14.Location = new Point(1203, 740);
+            setupTimeBacklog14.Location = new Point(1220, 776);
             setupTimeBacklog14.Name = "setupTimeBacklog14";
             setupTimeBacklog14.Size = new Size(69, 30);
             setupTimeBacklog14.TabIndex = 176;
@@ -2940,7 +2941,7 @@
             // 
             setupTimeBacklog15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             setupTimeBacklog15.Font = new Font("Segoe UI", 9.75F);
-            setupTimeBacklog15.Location = new Point(1278, 740);
+            setupTimeBacklog15.Location = new Point(1296, 776);
             setupTimeBacklog15.Name = "setupTimeBacklog15";
             setupTimeBacklog15.Size = new Size(69, 30);
             setupTimeBacklog15.TabIndex = 176;
@@ -2951,7 +2952,7 @@
             // 
             totalCapacityW1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW1.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW1.Location = new Point(273, 770);
+            totalCapacityW1.Location = new Point(277, 807);
             totalCapacityW1.Name = "totalCapacityW1";
             totalCapacityW1.Size = new Size(69, 30);
             totalCapacityW1.TabIndex = 176;
@@ -2962,7 +2963,7 @@
             // 
             totalCapacityW2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW2.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW2.Location = new Point(348, 770);
+            totalCapacityW2.Location = new Point(353, 807);
             totalCapacityW2.Name = "totalCapacityW2";
             totalCapacityW2.Size = new Size(69, 30);
             totalCapacityW2.TabIndex = 176;
@@ -2973,7 +2974,7 @@
             // 
             totalCapacityW3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW3.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW3.Location = new Point(423, 770);
+            totalCapacityW3.Location = new Point(429, 807);
             totalCapacityW3.Name = "totalCapacityW3";
             totalCapacityW3.Size = new Size(69, 30);
             totalCapacityW3.TabIndex = 176;
@@ -2984,7 +2985,7 @@
             // 
             totalCapacityW4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW4.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW4.Location = new Point(498, 770);
+            totalCapacityW4.Location = new Point(505, 807);
             totalCapacityW4.Name = "totalCapacityW4";
             totalCapacityW4.Size = new Size(69, 30);
             totalCapacityW4.TabIndex = 176;
@@ -2995,7 +2996,7 @@
             // 
             totalCapacityW6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW6.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW6.Location = new Point(603, 770);
+            totalCapacityW6.Location = new Point(612, 807);
             totalCapacityW6.Name = "totalCapacityW6";
             totalCapacityW6.Size = new Size(69, 30);
             totalCapacityW6.TabIndex = 176;
@@ -3006,7 +3007,7 @@
             // 
             totalCapacityW7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW7.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW7.Location = new Point(678, 770);
+            totalCapacityW7.Location = new Point(688, 807);
             totalCapacityW7.Name = "totalCapacityW7";
             totalCapacityW7.Size = new Size(69, 30);
             totalCapacityW7.TabIndex = 176;
@@ -3017,7 +3018,7 @@
             // 
             totalCapacityW8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW8.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW8.Location = new Point(753, 770);
+            totalCapacityW8.Location = new Point(764, 807);
             totalCapacityW8.Name = "totalCapacityW8";
             totalCapacityW8.Size = new Size(69, 30);
             totalCapacityW8.TabIndex = 176;
@@ -3028,7 +3029,7 @@
             // 
             totalCapacityW9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW9.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW9.Location = new Point(828, 770);
+            totalCapacityW9.Location = new Point(840, 807);
             totalCapacityW9.Name = "totalCapacityW9";
             totalCapacityW9.Size = new Size(69, 30);
             totalCapacityW9.TabIndex = 176;
@@ -3039,7 +3040,7 @@
             // 
             totalCapacityW10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW10.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW10.Location = new Point(903, 770);
+            totalCapacityW10.Location = new Point(916, 807);
             totalCapacityW10.Name = "totalCapacityW10";
             totalCapacityW10.Size = new Size(69, 30);
             totalCapacityW10.TabIndex = 176;
@@ -3050,7 +3051,7 @@
             // 
             totalCapacityW11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW11.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW11.Location = new Point(978, 770);
+            totalCapacityW11.Location = new Point(992, 807);
             totalCapacityW11.Name = "totalCapacityW11";
             totalCapacityW11.Size = new Size(69, 30);
             totalCapacityW11.TabIndex = 176;
@@ -3061,7 +3062,7 @@
             // 
             totalCapacityW12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW12.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW12.Location = new Point(1053, 770);
+            totalCapacityW12.Location = new Point(1068, 807);
             totalCapacityW12.Name = "totalCapacityW12";
             totalCapacityW12.Size = new Size(69, 30);
             totalCapacityW12.TabIndex = 176;
@@ -3072,7 +3073,7 @@
             // 
             totalCapacityW13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW13.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW13.Location = new Point(1128, 770);
+            totalCapacityW13.Location = new Point(1144, 807);
             totalCapacityW13.Name = "totalCapacityW13";
             totalCapacityW13.Size = new Size(69, 30);
             totalCapacityW13.TabIndex = 176;
@@ -3083,7 +3084,7 @@
             // 
             totalCapacityW14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW14.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW14.Location = new Point(1203, 770);
+            totalCapacityW14.Location = new Point(1220, 807);
             totalCapacityW14.Name = "totalCapacityW14";
             totalCapacityW14.Size = new Size(69, 30);
             totalCapacityW14.TabIndex = 176;
@@ -3094,7 +3095,7 @@
             // 
             totalCapacityW15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             totalCapacityW15.Font = new Font("Segoe UI", 9.75F);
-            totalCapacityW15.Location = new Point(1278, 770);
+            totalCapacityW15.Location = new Point(1296, 807);
             totalCapacityW15.Name = "totalCapacityW15";
             totalCapacityW15.Size = new Size(69, 30);
             totalCapacityW15.TabIndex = 176;
@@ -3105,9 +3106,9 @@
             // 
             shiftOvertimeW1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW1.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW1.Location = new Point(273, 800);
+            shiftOvertimeW1.Location = new Point(277, 838);
             shiftOvertimeW1.Name = "shiftOvertimeW1";
-            shiftOvertimeW1.Size = new Size(69, 30);
+            shiftOvertimeW1.Size = new Size(69, 41);
             shiftOvertimeW1.TabIndex = 176;
             shiftOvertimeW1.Text = "Shift";
             shiftOvertimeW1.TextAlign = ContentAlignment.MiddleCenter;
@@ -3116,9 +3117,9 @@
             // 
             shiftOvertimeW2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW2.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW2.Location = new Point(348, 800);
+            shiftOvertimeW2.Location = new Point(353, 838);
             shiftOvertimeW2.Name = "shiftOvertimeW2";
-            shiftOvertimeW2.Size = new Size(69, 30);
+            shiftOvertimeW2.Size = new Size(69, 41);
             shiftOvertimeW2.TabIndex = 176;
             shiftOvertimeW2.Text = "Shift";
             shiftOvertimeW2.TextAlign = ContentAlignment.MiddleCenter;
@@ -3127,9 +3128,9 @@
             // 
             shiftOvertimeW3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW3.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW3.Location = new Point(423, 800);
+            shiftOvertimeW3.Location = new Point(429, 838);
             shiftOvertimeW3.Name = "shiftOvertimeW3";
-            shiftOvertimeW3.Size = new Size(69, 30);
+            shiftOvertimeW3.Size = new Size(69, 41);
             shiftOvertimeW3.TabIndex = 176;
             shiftOvertimeW3.Text = "Shift";
             shiftOvertimeW3.TextAlign = ContentAlignment.MiddleCenter;
@@ -3138,9 +3139,9 @@
             // 
             shiftOvertimeW4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW4.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW4.Location = new Point(498, 800);
+            shiftOvertimeW4.Location = new Point(505, 838);
             shiftOvertimeW4.Name = "shiftOvertimeW4";
-            shiftOvertimeW4.Size = new Size(69, 30);
+            shiftOvertimeW4.Size = new Size(69, 41);
             shiftOvertimeW4.TabIndex = 176;
             shiftOvertimeW4.Text = "Shift";
             shiftOvertimeW4.TextAlign = ContentAlignment.MiddleCenter;
@@ -3149,9 +3150,9 @@
             // 
             shiftOvertimeW6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW6.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW6.Location = new Point(603, 800);
+            shiftOvertimeW6.Location = new Point(612, 838);
             shiftOvertimeW6.Name = "shiftOvertimeW6";
-            shiftOvertimeW6.Size = new Size(69, 30);
+            shiftOvertimeW6.Size = new Size(69, 41);
             shiftOvertimeW6.TabIndex = 176;
             shiftOvertimeW6.Text = "Shift";
             shiftOvertimeW6.TextAlign = ContentAlignment.MiddleCenter;
@@ -3160,9 +3161,9 @@
             // 
             shiftOvertimeW7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW7.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW7.Location = new Point(678, 800);
+            shiftOvertimeW7.Location = new Point(688, 838);
             shiftOvertimeW7.Name = "shiftOvertimeW7";
-            shiftOvertimeW7.Size = new Size(69, 30);
+            shiftOvertimeW7.Size = new Size(69, 41);
             shiftOvertimeW7.TabIndex = 176;
             shiftOvertimeW7.Text = "Shift";
             shiftOvertimeW7.TextAlign = ContentAlignment.MiddleCenter;
@@ -3171,9 +3172,9 @@
             // 
             shiftOvertimeW8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW8.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW8.Location = new Point(753, 800);
+            shiftOvertimeW8.Location = new Point(764, 838);
             shiftOvertimeW8.Name = "shiftOvertimeW8";
-            shiftOvertimeW8.Size = new Size(69, 30);
+            shiftOvertimeW8.Size = new Size(69, 41);
             shiftOvertimeW8.TabIndex = 176;
             shiftOvertimeW8.Text = "Shift";
             shiftOvertimeW8.TextAlign = ContentAlignment.MiddleCenter;
@@ -3182,9 +3183,9 @@
             // 
             shiftOvertimeW9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW9.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW9.Location = new Point(828, 800);
+            shiftOvertimeW9.Location = new Point(840, 838);
             shiftOvertimeW9.Name = "shiftOvertimeW9";
-            shiftOvertimeW9.Size = new Size(69, 30);
+            shiftOvertimeW9.Size = new Size(69, 41);
             shiftOvertimeW9.TabIndex = 176;
             shiftOvertimeW9.Text = "Shift";
             shiftOvertimeW9.TextAlign = ContentAlignment.MiddleCenter;
@@ -3193,9 +3194,9 @@
             // 
             shiftOvertimeW10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW10.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW10.Location = new Point(903, 800);
+            shiftOvertimeW10.Location = new Point(916, 838);
             shiftOvertimeW10.Name = "shiftOvertimeW10";
-            shiftOvertimeW10.Size = new Size(69, 30);
+            shiftOvertimeW10.Size = new Size(69, 41);
             shiftOvertimeW10.TabIndex = 176;
             shiftOvertimeW10.Text = "Shift";
             shiftOvertimeW10.TextAlign = ContentAlignment.MiddleCenter;
@@ -3204,9 +3205,9 @@
             // 
             shiftOvertimeW11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW11.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW11.Location = new Point(978, 800);
+            shiftOvertimeW11.Location = new Point(992, 838);
             shiftOvertimeW11.Name = "shiftOvertimeW11";
-            shiftOvertimeW11.Size = new Size(69, 30);
+            shiftOvertimeW11.Size = new Size(69, 41);
             shiftOvertimeW11.TabIndex = 176;
             shiftOvertimeW11.Text = "Shift";
             shiftOvertimeW11.TextAlign = ContentAlignment.MiddleCenter;
@@ -3215,9 +3216,9 @@
             // 
             shiftOvertimeW12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW12.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW12.Location = new Point(1053, 800);
+            shiftOvertimeW12.Location = new Point(1068, 838);
             shiftOvertimeW12.Name = "shiftOvertimeW12";
-            shiftOvertimeW12.Size = new Size(69, 30);
+            shiftOvertimeW12.Size = new Size(69, 41);
             shiftOvertimeW12.TabIndex = 176;
             shiftOvertimeW12.Text = "Shift";
             shiftOvertimeW12.TextAlign = ContentAlignment.MiddleCenter;
@@ -3226,9 +3227,9 @@
             // 
             shiftOvertimeW13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW13.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW13.Location = new Point(1128, 800);
+            shiftOvertimeW13.Location = new Point(1144, 838);
             shiftOvertimeW13.Name = "shiftOvertimeW13";
-            shiftOvertimeW13.Size = new Size(69, 30);
+            shiftOvertimeW13.Size = new Size(69, 41);
             shiftOvertimeW13.TabIndex = 176;
             shiftOvertimeW13.Text = "Shift";
             shiftOvertimeW13.TextAlign = ContentAlignment.MiddleCenter;
@@ -3237,9 +3238,9 @@
             // 
             shiftOvertimeW14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW14.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW14.Location = new Point(1203, 800);
+            shiftOvertimeW14.Location = new Point(1220, 838);
             shiftOvertimeW14.Name = "shiftOvertimeW14";
-            shiftOvertimeW14.Size = new Size(69, 30);
+            shiftOvertimeW14.Size = new Size(69, 41);
             shiftOvertimeW14.TabIndex = 176;
             shiftOvertimeW14.Text = "Shift";
             shiftOvertimeW14.TextAlign = ContentAlignment.MiddleCenter;
@@ -3248,9 +3249,9 @@
             // 
             shiftOvertimeW15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             shiftOvertimeW15.Font = new Font("Segoe UI", 9.75F);
-            shiftOvertimeW15.Location = new Point(1278, 800);
+            shiftOvertimeW15.Location = new Point(1296, 838);
             shiftOvertimeW15.Name = "shiftOvertimeW15";
-            shiftOvertimeW15.Size = new Size(69, 30);
+            shiftOvertimeW15.Size = new Size(69, 41);
             shiftOvertimeW15.TabIndex = 176;
             shiftOvertimeW15.Text = "Shift";
             shiftOvertimeW15.TextAlign = ContentAlignment.MiddleCenter;
@@ -3259,7 +3260,7 @@
             // 
             setupTimeNew1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             setupTimeNew1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew1.Location = new Point(273, 683);
+            setupTimeNew1.Location = new Point(277, 717);
             setupTimeNew1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             setupTimeNew1.Name = "setupTimeNew1";
             setupTimeNew1.Size = new Size(69, 23);
@@ -3267,6 +3268,172 @@
             setupTimeNew1.TextAlign = HorizontalAlignment.Center;
             setupTimeNew1.Value = new decimal(new int[] { 60, 0, 0, 0 });
             setupTimeNew1.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew2
+            // 
+            setupTimeNew2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew2.Location = new Point(353, 717);
+            setupTimeNew2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew2.Name = "setupTimeNew2";
+            setupTimeNew2.Size = new Size(69, 23);
+            setupTimeNew2.TabIndex = 177;
+            setupTimeNew2.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew2.Value = new decimal(new int[] { 80, 0, 0, 0 });
+            setupTimeNew2.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew3
+            // 
+            setupTimeNew3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew3.Location = new Point(429, 717);
+            setupTimeNew3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew3.Name = "setupTimeNew3";
+            setupTimeNew3.Size = new Size(69, 23);
+            setupTimeNew3.TabIndex = 177;
+            setupTimeNew3.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew3.Value = new decimal(new int[] { 60, 0, 0, 0 });
+            setupTimeNew3.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew4
+            // 
+            setupTimeNew4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew4.Location = new Point(505, 717);
+            setupTimeNew4.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew4.Name = "setupTimeNew4";
+            setupTimeNew4.Size = new Size(69, 23);
+            setupTimeNew4.TabIndex = 177;
+            setupTimeNew4.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew4.Value = new decimal(new int[] { 80, 0, 0, 0 });
+            setupTimeNew4.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew6
+            // 
+            setupTimeNew6.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew6.Location = new Point(612, 717);
+            setupTimeNew6.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew6.Name = "setupTimeNew6";
+            setupTimeNew6.Size = new Size(69, 23);
+            setupTimeNew6.TabIndex = 177;
+            setupTimeNew6.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew6.Value = new decimal(new int[] { 60, 0, 0, 0 });
+            setupTimeNew6.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew7
+            // 
+            setupTimeNew7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew7.Location = new Point(688, 717);
+            setupTimeNew7.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew7.Name = "setupTimeNew7";
+            setupTimeNew7.Size = new Size(69, 23);
+            setupTimeNew7.TabIndex = 177;
+            setupTimeNew7.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew7.Value = new decimal(new int[] { 210, 0, 0, 0 });
+            setupTimeNew7.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew8
+            // 
+            setupTimeNew8.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew8.Location = new Point(764, 717);
+            setupTimeNew8.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew8.Name = "setupTimeNew8";
+            setupTimeNew8.Size = new Size(69, 23);
+            setupTimeNew8.TabIndex = 177;
+            setupTimeNew8.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew8.Value = new decimal(new int[] { 155, 0, 0, 0 });
+            setupTimeNew8.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew9
+            // 
+            setupTimeNew9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew9.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew9.Location = new Point(840, 717);
+            setupTimeNew9.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew9.Name = "setupTimeNew9";
+            setupTimeNew9.Size = new Size(69, 23);
+            setupTimeNew9.TabIndex = 177;
+            setupTimeNew9.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew9.Value = new decimal(new int[] { 140, 0, 0, 0 });
+            setupTimeNew9.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew10
+            // 
+            setupTimeNew10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew10.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew10.Location = new Point(916, 717);
+            setupTimeNew10.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew10.Name = "setupTimeNew10";
+            setupTimeNew10.Size = new Size(69, 23);
+            setupTimeNew10.TabIndex = 177;
+            setupTimeNew10.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew10.Value = new decimal(new int[] { 120, 0, 0, 0 });
+            setupTimeNew10.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew11
+            // 
+            setupTimeNew11.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew11.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew11.Location = new Point(992, 717);
+            setupTimeNew11.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew11.Name = "setupTimeNew11";
+            setupTimeNew11.Size = new Size(69, 23);
+            setupTimeNew11.TabIndex = 177;
+            setupTimeNew11.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew11.Value = new decimal(new int[] { 80, 0, 0, 0 });
+            setupTimeNew11.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew12
+            // 
+            setupTimeNew12.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew12.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew12.Location = new Point(1068, 717);
+            setupTimeNew12.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew12.Name = "setupTimeNew12";
+            setupTimeNew12.Size = new Size(69, 23);
+            setupTimeNew12.TabIndex = 177;
+            setupTimeNew12.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew12.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew13
+            // 
+            setupTimeNew13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew13.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew13.Location = new Point(1144, 717);
+            setupTimeNew13.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew13.Name = "setupTimeNew13";
+            setupTimeNew13.Size = new Size(69, 23);
+            setupTimeNew13.TabIndex = 177;
+            setupTimeNew13.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew13.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew14
+            // 
+            setupTimeNew14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew14.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew14.Location = new Point(1220, 717);
+            setupTimeNew14.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew14.Name = "setupTimeNew14";
+            setupTimeNew14.Size = new Size(69, 23);
+            setupTimeNew14.TabIndex = 177;
+            setupTimeNew14.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew14.ValueChanged += CalculateTable;
+            // 
+            // setupTimeNew15
+            // 
+            setupTimeNew15.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            setupTimeNew15.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            setupTimeNew15.Location = new Point(1296, 717);
+            setupTimeNew15.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            setupTimeNew15.Name = "setupTimeNew15";
+            setupTimeNew15.Size = new Size(70, 23);
+            setupTimeNew15.TabIndex = 177;
+            setupTimeNew15.TextAlign = HorizontalAlignment.Center;
+            setupTimeNew15.Value = new decimal(new int[] { 30, 0, 0, 0 });
+            setupTimeNew15.ValueChanged += CalculateTable;
             // 
             // label1
             // 
@@ -3299,172 +3466,6 @@
             switchMaterialP3.Text = "Back";
             switchMaterialP3.UseVisualStyleBackColor = true;
             switchMaterialP3.Click += switchMaterialP3_Click;
-            // 
-            // setupTimeNew2
-            // 
-            setupTimeNew2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew2.Location = new Point(348, 683);
-            setupTimeNew2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew2.Name = "setupTimeNew2";
-            setupTimeNew2.Size = new Size(69, 23);
-            setupTimeNew2.TabIndex = 177;
-            setupTimeNew2.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew2.Value = new decimal(new int[] { 80, 0, 0, 0 });
-            setupTimeNew2.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew3
-            // 
-            setupTimeNew3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew3.Location = new Point(423, 683);
-            setupTimeNew3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew3.Name = "setupTimeNew3";
-            setupTimeNew3.Size = new Size(69, 23);
-            setupTimeNew3.TabIndex = 177;
-            setupTimeNew3.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew3.Value = new decimal(new int[] { 60, 0, 0, 0 });
-            setupTimeNew3.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew4
-            // 
-            setupTimeNew4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew4.Location = new Point(498, 683);
-            setupTimeNew4.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew4.Name = "setupTimeNew4";
-            setupTimeNew4.Size = new Size(69, 23);
-            setupTimeNew4.TabIndex = 177;
-            setupTimeNew4.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew4.Value = new decimal(new int[] { 80, 0, 0, 0 });
-            setupTimeNew4.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew6
-            // 
-            setupTimeNew6.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew6.Location = new Point(603, 683);
-            setupTimeNew6.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew6.Name = "setupTimeNew6";
-            setupTimeNew6.Size = new Size(69, 23);
-            setupTimeNew6.TabIndex = 177;
-            setupTimeNew6.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew6.Value = new decimal(new int[] { 60, 0, 0, 0 });
-            setupTimeNew6.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew7
-            // 
-            setupTimeNew7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew7.Location = new Point(678, 683);
-            setupTimeNew7.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew7.Name = "setupTimeNew7";
-            setupTimeNew7.Size = new Size(69, 23);
-            setupTimeNew7.TabIndex = 177;
-            setupTimeNew7.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew7.Value = new decimal(new int[] { 210, 0, 0, 0 });
-            setupTimeNew7.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew8
-            // 
-            setupTimeNew8.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew8.Location = new Point(753, 683);
-            setupTimeNew8.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew8.Name = "setupTimeNew8";
-            setupTimeNew8.Size = new Size(69, 23);
-            setupTimeNew8.TabIndex = 177;
-            setupTimeNew8.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew8.Value = new decimal(new int[] { 155, 0, 0, 0 });
-            setupTimeNew8.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew9
-            // 
-            setupTimeNew9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew9.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew9.Location = new Point(828, 683);
-            setupTimeNew9.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew9.Name = "setupTimeNew9";
-            setupTimeNew9.Size = new Size(69, 23);
-            setupTimeNew9.TabIndex = 177;
-            setupTimeNew9.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew9.Value = new decimal(new int[] { 140, 0, 0, 0 });
-            setupTimeNew9.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew10
-            // 
-            setupTimeNew10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew10.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew10.Location = new Point(903, 683);
-            setupTimeNew10.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew10.Name = "setupTimeNew10";
-            setupTimeNew10.Size = new Size(69, 23);
-            setupTimeNew10.TabIndex = 177;
-            setupTimeNew10.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew10.Value = new decimal(new int[] { 120, 0, 0, 0 });
-            setupTimeNew10.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew11
-            // 
-            setupTimeNew11.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew11.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew11.Location = new Point(978, 683);
-            setupTimeNew11.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew11.Name = "setupTimeNew11";
-            setupTimeNew11.Size = new Size(69, 23);
-            setupTimeNew11.TabIndex = 177;
-            setupTimeNew11.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew11.Value = new decimal(new int[] { 80, 0, 0, 0 });
-            setupTimeNew11.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew12
-            // 
-            setupTimeNew12.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew12.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew12.Location = new Point(1053, 683);
-            setupTimeNew12.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew12.Name = "setupTimeNew12";
-            setupTimeNew12.Size = new Size(69, 23);
-            setupTimeNew12.TabIndex = 177;
-            setupTimeNew12.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew12.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew13
-            // 
-            setupTimeNew13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew13.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew13.Location = new Point(1128, 683);
-            setupTimeNew13.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew13.Name = "setupTimeNew13";
-            setupTimeNew13.Size = new Size(69, 23);
-            setupTimeNew13.TabIndex = 177;
-            setupTimeNew13.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew13.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew14
-            // 
-            setupTimeNew14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew14.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew14.Location = new Point(1203, 683);
-            setupTimeNew14.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew14.Name = "setupTimeNew14";
-            setupTimeNew14.Size = new Size(69, 23);
-            setupTimeNew14.TabIndex = 177;
-            setupTimeNew14.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew14.ValueChanged += CalculateTable;
-            // 
-            // setupTimeNew15
-            // 
-            setupTimeNew15.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew15.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew15.Location = new Point(1278, 683);
-            setupTimeNew15.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
-            setupTimeNew15.Name = "setupTimeNew15";
-            setupTimeNew15.Size = new Size(69, 23);
-            setupTimeNew15.TabIndex = 177;
-            setupTimeNew15.TextAlign = HorizontalAlignment.Center;
-            setupTimeNew15.Value = new decimal(new int[] { 30, 0, 0, 0 });
-            setupTimeNew15.ValueChanged += CalculateTable;
             // 
             // CapacityPlanning
             // 

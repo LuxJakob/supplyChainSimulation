@@ -47,6 +47,71 @@ namespace supplyChainSimulation
 
         private void CalculateTable(object sender = null, EventArgs e = null)
         {
+            totalCapacity[1] = addCapacityRequirements[1] + (int)setupTimeNew1.Value + waitinglistworkstations[1] + setupBacklogSum[1];
+            totalCapacity[2] = addCapacityRequirements[2] + (int)setupTimeNew2.Value + waitinglistworkstations[2] + setupBacklogSum[2];
+            totalCapacity[3] = addCapacityRequirements[3] + (int)setupTimeNew3.Value + waitinglistworkstations[3] + setupBacklogSum[3];
+            totalCapacity[4] = addCapacityRequirements[4] + (int)setupTimeNew4.Value + waitinglistworkstations[4] + setupBacklogSum[4];
+            totalCapacity[6] = addCapacityRequirements[6] + (int)setupTimeNew6.Value + waitinglistworkstations[6] + setupBacklogSum[6];
+            totalCapacity[7] = addCapacityRequirements[7] + (int)setupTimeNew7.Value + waitinglistworkstations[7] + setupBacklogSum[7];
+            totalCapacity[8] = addCapacityRequirements[8] + (int)setupTimeNew8.Value + waitinglistworkstations[8] + setupBacklogSum[8];
+            totalCapacity[9] = addCapacityRequirements[9] + (int)setupTimeNew9.Value + waitinglistworkstations[9] + setupBacklogSum[9];
+            totalCapacity[10] = addCapacityRequirements[10] + (int)setupTimeNew10.Value + waitinglistworkstations[10] + setupBacklogSum[10];
+            totalCapacity[11] = addCapacityRequirements[11] + (int)setupTimeNew11.Value + waitinglistworkstations[11] + setupBacklogSum[11];
+            totalCapacity[12] = addCapacityRequirements[12] + (int)setupTimeNew12.Value + waitinglistworkstations[12] + setupBacklogSum[12];
+            totalCapacity[13] = addCapacityRequirements[13] + (int)setupTimeNew13.Value + waitinglistworkstations[13] + setupBacklogSum[13];
+            totalCapacity[14] = addCapacityRequirements[14] + (int)setupTimeNew14.Value + waitinglistworkstations[14] + setupBacklogSum[14];
+            totalCapacity[15] = addCapacityRequirements[15] + (int)setupTimeNew15.Value + waitinglistworkstations[15] + setupBacklogSum[15];
+
+            AssignValue(totalCapacityW1, totalCapacity, 1);
+            AssignValue(totalCapacityW2, totalCapacity, 2);
+            AssignValue(totalCapacityW3, totalCapacity, 3);
+            AssignValue(totalCapacityW4, totalCapacity, 4);
+            AssignValue(totalCapacityW6, totalCapacity, 6);
+            AssignValue(totalCapacityW7, totalCapacity, 7);
+            AssignValue(totalCapacityW8, totalCapacity, 8);
+            AssignValue(totalCapacityW9, totalCapacity, 9);
+            AssignValue(totalCapacityW10, totalCapacity, 10);
+            AssignValue(totalCapacityW11, totalCapacity, 11);
+            AssignValue(totalCapacityW12, totalCapacity, 12);
+            AssignValue(totalCapacityW13, totalCapacity, 13);
+            AssignValue(totalCapacityW14, totalCapacity, 14);
+            AssignValue(totalCapacityW15, totalCapacity, 15);
+
+            foreach (var time in totalCapacity)
+            {
+                int id = time.Key; 
+                int worktime = time.Value;
+
+                shifts[id] = 1; 
+                int weeklyOvertime = 0;
+
+                if (worktime > 3600)
+                {
+                    shifts[id] = 2;
+                    weeklyOvertime = Math.Min(Math.Max(worktime - 4800, 0), 1200);
+                }
+                if ((2400 < worktime) && (worktime < 3600))
+                {
+                    weeklyOvertime = Math.Min(Math.Max(worktime - 2400, 0), 1200);
+                }
+
+                overtime[id] = (int)Math.Ceiling((decimal)weeklyOvertime / 5);
+            }
+
+            shiftOvertimeW1.Text = shifts[1].ToString() + "Shift && \n" + overtime[1].ToString() + "min";
+            shiftOvertimeW2.Text = shifts[2].ToString() + "Shift && \n" + overtime[2].ToString() + "min";
+            shiftOvertimeW3.Text = shifts[3].ToString() + "Shift && \n" + overtime[3].ToString() + "min";
+            shiftOvertimeW4.Text = shifts[4].ToString() + "Shift && \n" + overtime[4].ToString() + "min";
+            shiftOvertimeW6.Text = shifts[6].ToString() + "Shift && \n" + overtime[6].ToString() + "min";
+            shiftOvertimeW7.Text = shifts[7].ToString() + "Shift && \n" + overtime[7].ToString() + "min";
+            shiftOvertimeW8.Text = shifts[8].ToString() + "Shift && \n" + overtime[8].ToString() + "min";
+            shiftOvertimeW9.Text = shifts[9].ToString() + "Shift && \n" + overtime[9].ToString() + "min";
+            shiftOvertimeW10.Text = shifts[10].ToString() + "Shift && \n" + overtime[10].ToString() + "min";
+            shiftOvertimeW11.Text = shifts[11].ToString() + "Shift && \n" + overtime[11].ToString() + "min";
+            shiftOvertimeW12.Text = shifts[12].ToString() + "Shift && \n" + overtime[12].ToString() + "min";
+            shiftOvertimeW13.Text = shifts[13].ToString() + "Shift && \n" + overtime[13].ToString() + "min";
+            shiftOvertimeW14.Text = shifts[14].ToString() + "Shift && \n" + overtime[14].ToString() + "min";
+            shiftOvertimeW15.Text = shifts[15].ToString() + "Shift && \n" + overtime[15].ToString() + "min";
 
         }
 
@@ -253,20 +318,59 @@ namespace supplyChainSimulation
             capacityRequirementsBacklog14.Text = waitinglistworkstations[14].ToString();
             capacityRequirementsBacklog15.Text = waitinglistworkstations[15].ToString();
 
-            AssignValue(setupTimeBacklog1, setupTimeBacklog, 1);
-            AssignValue(setupTimeBacklog2, setupTimeBacklog, 2);
-            AssignValue(setupTimeBacklog3, setupTimeBacklog, 3);
-            AssignValue(setupTimeBacklog4, setupTimeBacklog, 4);
-            AssignValue(setupTimeBacklog6, setupTimeBacklog, 6);
-            AssignValue(setupTimeBacklog7, setupTimeBacklog, 7);
-            AssignValue(setupTimeBacklog8, setupTimeBacklog, 8);
-            AssignValue(setupTimeBacklog9, setupTimeBacklog, 9);
-            AssignValue(setupTimeBacklog10, setupTimeBacklog, 10);
-            AssignValue(setupTimeBacklog11, setupTimeBacklog, 11);
-            AssignValue(setupTimeBacklog12, setupTimeBacklog, 12);
-            AssignValue(setupTimeBacklog13, setupTimeBacklog, 13);
-            AssignValue(setupTimeBacklog14, setupTimeBacklog, 14);
-            AssignValue(setupTimeBacklog15, setupTimeBacklog, 15);
+            foreach (var workplace in waitinglistworkstationsX.Elements("workplace"))
+            {
+                int id = int.Parse(workplace.Attribute("id")?.Value ?? "0");
+
+                int count = workplace.Elements("waitinglist")
+                                     .Count(w => w.Attribute("period") != null);
+
+                setupTimeBacklog[id] = count;
+            }
+
+            foreach (var workplace in ordersinworkX.Elements("workplace"))
+            {
+                int id = int.Parse(workplace.Attribute("id").Value);
+
+                if (ordersinwork.ContainsKey(id))
+                {
+                    setupTimeBacklog[id] += 1;
+                }
+                else
+                {
+                    setupTimeBacklog[id] = 1;
+                }
+            }
+
+            for (int i = 1; i < 15; i++)
+            {
+                if (i != 5)
+                {
+                    if (setupTimeBacklog.TryGetValue(i, out int value))
+                    {
+                        setupBacklogSum[i] = value * defaultSetupTime[i];
+                    }
+                    else
+                    {
+                        setupBacklogSum[i] = 0;
+                    }
+                }
+            }
+
+            AssignValue(setupTimeBacklog1, setupBacklogSum, 1);
+            AssignValue(setupTimeBacklog2, setupBacklogSum, 2);
+            AssignValue(setupTimeBacklog3, setupBacklogSum, 3);
+            AssignValue(setupTimeBacklog4, setupBacklogSum, 4);
+            AssignValue(setupTimeBacklog6, setupBacklogSum, 6);
+            AssignValue(setupTimeBacklog7, setupBacklogSum, 7);
+            AssignValue(setupTimeBacklog8, setupBacklogSum, 8);
+            AssignValue(setupTimeBacklog9, setupBacklogSum, 9);
+            AssignValue(setupTimeBacklog10, setupBacklogSum, 10);
+            AssignValue(setupTimeBacklog11, setupBacklogSum, 11);
+            AssignValue(setupTimeBacklog12, setupBacklogSum, 12);
+            AssignValue(setupTimeBacklog13, setupBacklogSum, 13);
+            AssignValue(setupTimeBacklog14, setupBacklogSum, 14);
+            AssignValue(setupTimeBacklog15, setupBacklogSum, 15);
         }
     }
 }

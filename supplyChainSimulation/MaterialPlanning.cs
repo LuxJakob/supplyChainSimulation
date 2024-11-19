@@ -53,12 +53,10 @@ namespace supplyChainSimulation
                     if (waitinglistProducts.ContainsKey(item))
                     {
                         waitinglistProducts[item] += amount;
-                        setupTimeBacklog[item] += 1;
                     }
                     else
                     {
                         waitinglistProducts[item] = amount;
-                        setupTimeBacklog[item] = 1;
                     }
                 }
 

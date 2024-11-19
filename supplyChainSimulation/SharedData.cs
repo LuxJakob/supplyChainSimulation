@@ -81,9 +81,27 @@ namespace supplyChainSimulation
         public static Dictionary<int, int> addCapacityRequirements = new Dictionary<int, int>();
         public static Dictionary<int, int> waitinglistworkstations = new Dictionary<int, int>();
         public static Dictionary<int, int> setupTimeBacklog = new Dictionary<int, int>();
+        public static Dictionary<int, int> setupBacklogSum = new Dictionary<int, int>();
         public static Dictionary<int, int> totalCapacity = new Dictionary<int, int>();
         public static Dictionary<int, int> shifts = new Dictionary<int, int>();
         public static Dictionary<int, int> overtime = new Dictionary<int, int>();
+        public static Dictionary<int, int> defaultSetupTime = new Dictionary<int, int>
+        {
+            { 1, 60 },
+            { 2, 80 },
+            { 3, 60 },
+            { 4, 80 },
+            { 6, 60 },
+            { 7, 210 },
+            { 8, 155 },
+            { 9, 140 },
+            { 10, 120 },
+            { 11, 80 },
+            { 12, 12 },
+            { 13, 13 },
+            { 14, 14 },
+            { 15, 30 }
+        };
 
 
         // public methods
