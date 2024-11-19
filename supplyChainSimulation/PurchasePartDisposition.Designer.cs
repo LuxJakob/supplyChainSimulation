@@ -381,14 +381,14 @@
             label19 = new Label();
             label18 = new Label();
             label17 = new Label();
-            label16 = new Label();
-            label14 = new Label();
-            label13 = new Label();
-            label12 = new Label();
-            label10 = new Label();
-            label9 = new Label();
-            label8 = new Label();
-            label38 = new Label();
+            Label_PeriodFuture3 = new Label();
+            Label_PeriodFuture2 = new Label();
+            Label_PeriodFuture1 = new Label();
+            Label_PeriodFuture0 = new Label();
+            Label_PeriodProg3 = new Label();
+            Label_PeriodProg2 = new Label();
+            Label_PeriodProg1 = new Label();
+            Label_PeriodProg0 = new Label();
             label15 = new Label();
             label11 = new Label();
             label7 = new Label();
@@ -907,14 +907,14 @@
             tableLayoutPanel1.Controls.Add(label19, 0, 2);
             tableLayoutPanel1.Controls.Add(label18, 14, 1);
             tableLayoutPanel1.Controls.Add(label17, 13, 1);
-            tableLayoutPanel1.Controls.Add(label16, 12, 1);
-            tableLayoutPanel1.Controls.Add(label14, 11, 1);
-            tableLayoutPanel1.Controls.Add(label13, 10, 1);
-            tableLayoutPanel1.Controls.Add(label12, 9, 1);
-            tableLayoutPanel1.Controls.Add(label10, 8, 1);
-            tableLayoutPanel1.Controls.Add(label9, 7, 1);
-            tableLayoutPanel1.Controls.Add(label8, 6, 1);
-            tableLayoutPanel1.Controls.Add(label38, 5, 1);
+            tableLayoutPanel1.Controls.Add(Label_PeriodFuture3, 12, 1);
+            tableLayoutPanel1.Controls.Add(Label_PeriodFuture2, 11, 1);
+            tableLayoutPanel1.Controls.Add(Label_PeriodFuture1, 10, 1);
+            tableLayoutPanel1.Controls.Add(Label_PeriodFuture0, 9, 1);
+            tableLayoutPanel1.Controls.Add(Label_PeriodProg3, 8, 1);
+            tableLayoutPanel1.Controls.Add(Label_PeriodProg2, 7, 1);
+            tableLayoutPanel1.Controls.Add(Label_PeriodProg1, 6, 1);
+            tableLayoutPanel1.Controls.Add(Label_PeriodProg0, 5, 1);
             tableLayoutPanel1.Controls.Add(label15, 13, 0);
             tableLayoutPanel1.Controls.Add(label11, 9, 0);
             tableLayoutPanel1.Controls.Add(label7, 5, 0);
@@ -4897,93 +4897,93 @@
             label17.Text = "Quantity";
             label17.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label16
+            // Label_PeriodFuture3
             // 
-            label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label16.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label16.Location = new Point(1095, 30);
-            label16.Name = "label16";
-            label16.Size = new Size(85, 30);
-            label16.TabIndex = 139;
-            label16.Text = "X";
-            label16.TextAlign = ContentAlignment.MiddleCenter;
+            Label_PeriodFuture3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodFuture3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodFuture3.Location = new Point(1095, 30);
+            Label_PeriodFuture3.Name = "Label_PeriodFuture3";
+            Label_PeriodFuture3.Size = new Size(85, 30);
+            Label_PeriodFuture3.TabIndex = 139;
+            Label_PeriodFuture3.Text = "X";
+            Label_PeriodFuture3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label14
+            // Label_PeriodFuture2
             // 
-            label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label14.Location = new Point(1004, 30);
-            label14.Name = "label14";
-            label14.Size = new Size(85, 30);
-            label14.TabIndex = 138;
-            label14.Text = "X";
-            label14.TextAlign = ContentAlignment.MiddleCenter;
+            Label_PeriodFuture2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodFuture2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodFuture2.Location = new Point(1004, 30);
+            Label_PeriodFuture2.Name = "Label_PeriodFuture2";
+            Label_PeriodFuture2.Size = new Size(85, 30);
+            Label_PeriodFuture2.TabIndex = 138;
+            Label_PeriodFuture2.Text = "X";
+            Label_PeriodFuture2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label13
+            // Label_PeriodFuture1
             // 
-            label13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label13.Location = new Point(913, 30);
-            label13.Name = "label13";
-            label13.Size = new Size(85, 30);
-            label13.TabIndex = 137;
-            label13.Text = "X";
-            label13.TextAlign = ContentAlignment.MiddleCenter;
+            Label_PeriodFuture1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodFuture1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodFuture1.Location = new Point(913, 30);
+            Label_PeriodFuture1.Name = "Label_PeriodFuture1";
+            Label_PeriodFuture1.Size = new Size(85, 30);
+            Label_PeriodFuture1.TabIndex = 137;
+            Label_PeriodFuture1.Text = "X";
+            Label_PeriodFuture1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label12
+            // Label_PeriodFuture0
             // 
-            label12.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.Location = new Point(822, 30);
-            label12.Name = "label12";
-            label12.Size = new Size(85, 30);
-            label12.TabIndex = 136;
-            label12.Text = "X";
-            label12.TextAlign = ContentAlignment.MiddleCenter;
+            Label_PeriodFuture0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodFuture0.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodFuture0.Location = new Point(822, 30);
+            Label_PeriodFuture0.Name = "Label_PeriodFuture0";
+            Label_PeriodFuture0.Size = new Size(85, 30);
+            Label_PeriodFuture0.TabIndex = 136;
+            Label_PeriodFuture0.Text = "X";
+            Label_PeriodFuture0.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label10
+            // Label_PeriodProg3
             // 
-            label10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label10.Location = new Point(731, 30);
-            label10.Name = "label10";
-            label10.Size = new Size(85, 30);
-            label10.TabIndex = 135;
-            label10.Text = "X";
-            label10.TextAlign = ContentAlignment.MiddleCenter;
+            Label_PeriodProg3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodProg3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodProg3.Location = new Point(731, 30);
+            Label_PeriodProg3.Name = "Label_PeriodProg3";
+            Label_PeriodProg3.Size = new Size(85, 30);
+            Label_PeriodProg3.TabIndex = 135;
+            Label_PeriodProg3.Text = "X";
+            Label_PeriodProg3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // Label_PeriodProg2
             // 
-            label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(640, 30);
-            label9.Name = "label9";
-            label9.Size = new Size(85, 30);
-            label9.TabIndex = 134;
-            label9.Text = "X";
-            label9.TextAlign = ContentAlignment.MiddleCenter;
+            Label_PeriodProg2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodProg2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodProg2.Location = new Point(640, 30);
+            Label_PeriodProg2.Name = "Label_PeriodProg2";
+            Label_PeriodProg2.Size = new Size(85, 30);
+            Label_PeriodProg2.TabIndex = 134;
+            Label_PeriodProg2.Text = "X";
+            Label_PeriodProg2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label8
+            // Label_PeriodProg1
             // 
-            label8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(549, 30);
-            label8.Name = "label8";
-            label8.Size = new Size(85, 30);
-            label8.TabIndex = 133;
-            label8.Text = "X";
-            label8.TextAlign = ContentAlignment.MiddleCenter;
+            Label_PeriodProg1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodProg1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodProg1.Location = new Point(549, 30);
+            Label_PeriodProg1.Name = "Label_PeriodProg1";
+            Label_PeriodProg1.Size = new Size(85, 30);
+            Label_PeriodProg1.TabIndex = 133;
+            Label_PeriodProg1.Text = "X";
+            Label_PeriodProg1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label38
+            // Label_PeriodProg0
             // 
-            label38.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label38.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label38.Location = new Point(458, 30);
-            label38.Name = "label38";
-            label38.Size = new Size(85, 30);
-            label38.TabIndex = 132;
-            label38.Text = "X";
-            label38.TextAlign = ContentAlignment.MiddleCenter;
+            Label_PeriodProg0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodProg0.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodProg0.Location = new Point(458, 30);
+            Label_PeriodProg0.Name = "Label_PeriodProg0";
+            Label_PeriodProg0.Size = new Size(85, 30);
+            Label_PeriodProg0.TabIndex = 132;
+            Label_PeriodProg0.Text = "X";
+            Label_PeriodProg0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label15
             // 
@@ -6080,14 +6080,14 @@
         private Label label2;
         private Label label18;
         private Label label17;
-        private Label label16;
-        private Label label14;
-        private Label label13;
-        private Label label12;
-        private Label label10;
-        private Label label9;
-        private Label label8;
-        private Label label38;
+        private Label Label_PeriodFuture3;
+        private Label Label_PeriodFuture2;
+        private Label Label_PeriodFuture1;
+        private Label Label_PeriodFuture0;
+        private Label Label_PeriodProg3;
+        private Label Label_PeriodProg2;
+        private Label Label_PeriodProg1;
+        private Label Label_PeriodProg0;
         private Label label19;
         private Label label20;
         private Label label21;

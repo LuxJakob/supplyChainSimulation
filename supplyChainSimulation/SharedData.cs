@@ -107,6 +107,49 @@ namespace supplyChainSimulation
         public static Dictionary<int, int> purchaseQuantity = new Dictionary<int, int>();
         public static Dictionary<int, int> purchaseModus = new Dictionary<int, int>();
 
+        public static Dictionary<int, int> requirement0 = new Dictionary<int, int>();
+        public static Dictionary<int, int> requirement1 = new Dictionary<int, int>();
+        public static Dictionary<int, int> requirement2 = new Dictionary<int, int>();
+        public static Dictionary<int, int> requirement3 = new Dictionary<int, int>();
+
+        public static Dictionary<int, int> prediction0 = new Dictionary<int, int>();
+        public static Dictionary<int, int> prediction1 = new Dictionary<int, int>();
+        public static Dictionary<int, int> prediction2 = new Dictionary<int, int>();
+        public static Dictionary<int, int> prediction3 = new Dictionary<int, int>();
+
+        public static Dictionary<int, int> discountQuantity = new Dictionary<int, int>
+        {
+            { 21, 300 },
+            { 22, 300 },
+            { 23, 300 },
+            { 24, 6100 },
+            { 25, 3600 },
+            { 27, 1800 },
+            { 28, 4500 },
+            { 32, 2700 },
+            { 33, 900 },
+            { 34, 22000 },
+            { 35, 3600 },
+            { 36, 900 },
+            { 37, 900 },
+            { 38, 300 },
+            { 39, 1800 },
+            { 40, 900 },
+            { 41, 900 },
+            { 42, 1800 },
+            { 43, 2700 },
+            { 44, 900 },
+            { 45, 900 },
+            { 46, 900 },
+            { 47, 900 },
+            { 48, 1800 },
+            { 52, 600 },
+            { 53, 22000 },
+            { 57, 600 },
+            { 58, 22000 },
+            { 59, 1800 }
+        };
+
 
         // public methods
         public static void AssignValue(Label label, Dictionary<int, int> dictionary, int key)
