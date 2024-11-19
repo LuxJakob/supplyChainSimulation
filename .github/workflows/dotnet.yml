@@ -1,0 +1,47 @@
+name: Build and Deploy WinForms Application
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+env:
+  Solution_Name: supplyChainSimulation.sln
+  Wap_Project_Directory: supplyChainSimulation
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    # Checkout the repository
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    # Setup .NET SDK
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x' # Use the version that matches your project
+
+    # Restore dependencies
+    - name: Restore dependencies
+      run: dotnet restore ${{ env.Solution_Name }}
+
+    # Build the project
+    - name: Build solution
+      run: dotnet build ${{ env.Solution_Name }} --configuration Release --no-restore
+
+    # Publish the application to create an executable
+    - name: Publish application
+      run: dotnet publish ${{ env.Wap_Project_Directory }} --configuration Release --output ./publish
+
+    # Upload the executable as an artifact
+    - name: Upload executable
+      uses: actions/upload-artifact@v3
+      with:
+        name: supplyChainSimulation-executable
+        path: ./publish/
