@@ -2573,7 +2573,7 @@
             label260.Name = "label260";
             label260.Size = new Size(85, 30);
             label260.TabIndex = 389;
-            label260.Text = "K21";
+            label260.Text = "1800";
             label260.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label261
@@ -2617,7 +2617,7 @@
             label256.Name = "label256";
             label256.Size = new Size(85, 30);
             label256.TabIndex = 385;
-            label256.Text = "K21";
+            label256.Text = "22000";
             label256.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label257
@@ -2661,7 +2661,7 @@
             label252.Name = "label252";
             label252.Size = new Size(85, 30);
             label252.TabIndex = 381;
-            label252.Text = "K21";
+            label252.Text = "600";
             label252.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label253
@@ -2705,7 +2705,7 @@
             label248.Name = "label248";
             label248.Size = new Size(85, 30);
             label248.TabIndex = 377;
-            label248.Text = "K21";
+            label248.Text = "22000";
             label248.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label249
@@ -2749,7 +2749,7 @@
             label244.Name = "label244";
             label244.Size = new Size(85, 30);
             label244.TabIndex = 373;
-            label244.Text = "K21";
+            label244.Text = "600";
             label244.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label245
@@ -2793,7 +2793,7 @@
             label240.Name = "label240";
             label240.Size = new Size(85, 30);
             label240.TabIndex = 369;
-            label240.Text = "K21";
+            label240.Text = "1800";
             label240.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label241
@@ -2826,7 +2826,7 @@
             label236.Name = "label236";
             label236.Size = new Size(85, 30);
             label236.TabIndex = 366;
-            label236.Text = "K21";
+            label236.Text = "900";
             label236.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label235
@@ -2870,7 +2870,7 @@
             label232.Name = "label232";
             label232.Size = new Size(85, 30);
             label232.TabIndex = 362;
-            label232.Text = "K21";
+            label232.Text = "900";
             label232.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label231
@@ -2914,7 +2914,7 @@
             label228.Name = "label228";
             label228.Size = new Size(85, 30);
             label228.TabIndex = 358;
-            label228.Text = "K21";
+            label228.Text = "900";
             label228.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label227
@@ -2958,7 +2958,7 @@
             label224.Name = "label224";
             label224.Size = new Size(85, 30);
             label224.TabIndex = 354;
-            label224.Text = "K21";
+            label224.Text = "900";
             label224.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label223
@@ -3002,7 +3002,7 @@
             label220.Name = "label220";
             label220.Size = new Size(85, 30);
             label220.TabIndex = 350;
-            label220.Text = "K21";
+            label220.Text = "2700";
             label220.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label219
@@ -3046,7 +3046,7 @@
             label216.Name = "label216";
             label216.Size = new Size(85, 30);
             label216.TabIndex = 346;
-            label216.Text = "K21";
+            label216.Text = "1800";
             label216.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label215
@@ -3090,7 +3090,7 @@
             label212.Name = "label212";
             label212.Size = new Size(85, 30);
             label212.TabIndex = 342;
-            label212.Text = "K21";
+            label212.Text = "900";
             label212.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label211
@@ -3134,7 +3134,7 @@
             label208.Name = "label208";
             label208.Size = new Size(85, 30);
             label208.TabIndex = 338;
-            label208.Text = "K21";
+            label208.Text = "900";
             label208.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label207
@@ -3178,7 +3178,7 @@
             label204.Name = "label204";
             label204.Size = new Size(85, 30);
             label204.TabIndex = 334;
-            label204.Text = "K21";
+            label204.Text = "1800";
             label204.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label203
@@ -3222,7 +3222,7 @@
             label200.Name = "label200";
             label200.Size = new Size(85, 30);
             label200.TabIndex = 330;
-            label200.Text = "K21";
+            label200.Text = "300";
             label200.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label199
@@ -3266,7 +3266,7 @@
             label195.Name = "label195";
             label195.Size = new Size(85, 30);
             label195.TabIndex = 325;
-            label195.Text = "K21";
+            label195.Text = "900";
             label195.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label194
@@ -3398,7 +3398,7 @@
             label183.Name = "label183";
             label183.Size = new Size(85, 30);
             label183.TabIndex = 313;
-            label183.Text = "K21";
+            label183.Text = "900";
             label183.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label182
@@ -3530,7 +3530,7 @@
             label171.Name = "label171";
             label171.Size = new Size(85, 30);
             label171.TabIndex = 301;
-            label171.Text = "K21";
+            label171.Text = "3600";
             label171.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label170
@@ -3662,7 +3662,7 @@
             label159.Name = "label159";
             label159.Size = new Size(85, 30);
             label159.TabIndex = 289;
-            label159.Text = "K21";
+            label159.Text = "22000";
             label159.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label158
@@ -3794,7 +3794,7 @@
             label147.Name = "label147";
             label147.Size = new Size(85, 30);
             label147.TabIndex = 277;
-            label147.Text = "K21";
+            label147.Text = "900";
             label147.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label146
@@ -3926,7 +3926,7 @@
             label135.Name = "label135";
             label135.Size = new Size(85, 30);
             label135.TabIndex = 265;
-            label135.Text = "K21";
+            label135.Text = "2700";
             label135.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label134
@@ -4058,7 +4058,7 @@
             label123.Name = "label123";
             label123.Size = new Size(85, 30);
             label123.TabIndex = 253;
-            label123.Text = "K21";
+            label123.Text = "4500";
             label123.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label122
@@ -4190,7 +4190,7 @@
             label111.Name = "label111";
             label111.Size = new Size(85, 30);
             label111.TabIndex = 241;
-            label111.Text = "K21";
+            label111.Text = "1800";
             label111.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label110
@@ -4322,7 +4322,7 @@
             label99.Name = "label99";
             label99.Size = new Size(85, 30);
             label99.TabIndex = 229;
-            label99.Text = "K21";
+            label99.Text = "3600";
             label99.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label98
@@ -4454,7 +4454,7 @@
             label87.Name = "label87";
             label87.Size = new Size(85, 30);
             label87.TabIndex = 217;
-            label87.Text = "K21";
+            label87.Text = "6100";
             label87.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label86
@@ -4586,7 +4586,7 @@
             label75.Name = "label75";
             label75.Size = new Size(85, 30);
             label75.TabIndex = 205;
-            label75.Text = "K21";
+            label75.Text = "300";
             label75.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label74
@@ -4718,7 +4718,7 @@
             label63.Name = "label63";
             label63.Size = new Size(85, 30);
             label63.TabIndex = 193;
-            label63.Text = "K21";
+            label63.Text = "300";
             label63.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label62
@@ -4850,7 +4850,7 @@
             label51.Name = "label51";
             label51.Size = new Size(85, 30);
             label51.TabIndex = 181;
-            label51.Text = "K21";
+            label51.Text = "300";
             label51.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label50
