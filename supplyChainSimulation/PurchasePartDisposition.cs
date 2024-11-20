@@ -57,6 +57,8 @@ namespace supplyChainSimulation
             InventoryK59.Text = warehousestock[59].ToString();
 
             calcRequirements();
+
+            calcFutureStock();
         }
 
         private void switchCapacityPlanning_Click(object sender, EventArgs e)
@@ -199,6 +201,136 @@ namespace supplyChainSimulation
             RequK59_1.Text = requirement1[59].ToString();
             RequK59_2.Text = requirement2[59].ToString();
             RequK59_3.Text = requirement3[59].ToString();
+        }
+
+        private void calcFutureStock()
+        {
+            foreach (var part in partUsage)
+            {
+                int id = part.Key;
+
+                futureStock0[id] = warehousestock[id] - (requirement0[id]);
+                futureStock1[id] = warehousestock[id] - (requirement0[id] + requirement1[id]);
+                futureStock2[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id]);
+                futureStock3[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id] + requirement3[id]);
+            }
+
+            FutureK21_0.Text = futureStock0[21].ToString();
+            FutureK21_1.Text = futureStock1[21].ToString();
+            FutureK21_2.Text = futureStock2[21].ToString();
+            FutureK21_3.Text = futureStock3[21].ToString();
+            FutureK22_0.Text = futureStock0[22].ToString();
+            FutureK22_1.Text = futureStock1[22].ToString();
+            FutureK22_2.Text = futureStock2[22].ToString();
+            FutureK22_3.Text = futureStock3[22].ToString();
+            FutureK23_0.Text = futureStock0[23].ToString();
+            FutureK23_1.Text = futureStock1[23].ToString();
+            FutureK23_2.Text = futureStock2[23].ToString();
+            FutureK23_3.Text = futureStock3[23].ToString();
+            FutureK24_0.Text = futureStock0[24].ToString();
+            FutureK24_1.Text = futureStock1[24].ToString();
+            FutureK24_2.Text = futureStock2[24].ToString();
+            FutureK24_3.Text = futureStock3[24].ToString();
+            FutureK25_0.Text = futureStock0[25].ToString();
+            FutureK25_1.Text = futureStock1[25].ToString();
+            FutureK25_2.Text = futureStock2[25].ToString();
+            FutureK25_3.Text = futureStock3[25].ToString();
+            FutureK27_0.Text = futureStock0[27].ToString();
+            FutureK27_1.Text = futureStock1[27].ToString();
+            FutureK27_2.Text = futureStock2[27].ToString();
+            FutureK27_3.Text = futureStock3[27].ToString();
+            FutureK28_0.Text = futureStock0[28].ToString();
+            FutureK28_1.Text = futureStock1[28].ToString();
+            FutureK28_2.Text = futureStock2[28].ToString();
+            FutureK28_3.Text = futureStock3[28].ToString();
+            FutureK32_0.Text = futureStock0[32].ToString();
+            FutureK32_1.Text = futureStock1[32].ToString();
+            FutureK32_2.Text = futureStock2[32].ToString();
+            FutureK32_3.Text = futureStock3[32].ToString();
+            FutureK33_0.Text = futureStock0[33].ToString();
+            FutureK33_1.Text = futureStock1[33].ToString();
+            FutureK33_2.Text = futureStock2[33].ToString();
+            FutureK33_3.Text = futureStock3[33].ToString();
+            FutureK34_0.Text = futureStock0[34].ToString();
+            FutureK34_1.Text = futureStock1[34].ToString();
+            FutureK34_2.Text = futureStock2[34].ToString();
+            FutureK34_3.Text = futureStock3[34].ToString();
+            FutureK35_0.Text = futureStock0[35].ToString();
+            FutureK35_1.Text = futureStock1[35].ToString();
+            FutureK35_2.Text = futureStock2[35].ToString();
+            FutureK35_3.Text = futureStock3[35].ToString();
+            FutureK36_0.Text = futureStock0[36].ToString();
+            FutureK36_1.Text = futureStock1[36].ToString();
+            FutureK36_2.Text = futureStock2[36].ToString();
+            FutureK36_3.Text = futureStock3[36].ToString();
+            FutureK37_0.Text = futureStock0[37].ToString();
+            FutureK37_1.Text = futureStock1[37].ToString();
+            FutureK37_2.Text = futureStock2[37].ToString();
+            FutureK37_3.Text = futureStock3[37].ToString();
+            FutureK38_0.Text = futureStock0[38].ToString();
+            FutureK38_1.Text = futureStock1[38].ToString();
+            FutureK38_2.Text = futureStock2[38].ToString();
+            FutureK38_3.Text = futureStock3[38].ToString();
+            FutureK39_0.Text = futureStock0[39].ToString();
+            FutureK39_1.Text = futureStock1[39].ToString();
+            FutureK39_2.Text = futureStock2[39].ToString();
+            FutureK39_3.Text = futureStock3[39].ToString();
+            FutureK40_0.Text = futureStock0[40].ToString();
+            FutureK40_1.Text = futureStock1[40].ToString();
+            FutureK40_2.Text = futureStock2[40].ToString();
+            FutureK40_3.Text = futureStock3[40].ToString();
+            FutureK41_0.Text = futureStock0[41].ToString();
+            FutureK41_1.Text = futureStock1[41].ToString();
+            FutureK41_2.Text = futureStock2[41].ToString();
+            FutureK41_3.Text = futureStock3[41].ToString();
+            FutureK42_0.Text = futureStock0[42].ToString();
+            FutureK42_1.Text = futureStock1[42].ToString();
+            FutureK42_2.Text = futureStock2[42].ToString();
+            FutureK42_3.Text = futureStock3[42].ToString();
+            FutureK43_0.Text = futureStock0[43].ToString();
+            FutureK43_1.Text = futureStock1[43].ToString();
+            FutureK43_2.Text = futureStock2[43].ToString();
+            FutureK43_3.Text = futureStock3[43].ToString();
+            FutureK44_0.Text = futureStock0[44].ToString();
+            FutureK44_1.Text = futureStock1[44].ToString();
+            FutureK44_2.Text = futureStock2[44].ToString();
+            FutureK44_3.Text = futureStock3[44].ToString();
+            FutureK45_0.Text = futureStock0[45].ToString();
+            FutureK45_1.Text = futureStock1[45].ToString();
+            FutureK45_2.Text = futureStock2[45].ToString();
+            FutureK45_3.Text = futureStock3[45].ToString();
+            FutureK46_0.Text = futureStock0[46].ToString();
+            FutureK46_1.Text = futureStock1[46].ToString();
+            FutureK46_2.Text = futureStock2[46].ToString();
+            FutureK46_3.Text = futureStock3[46].ToString();
+            FutureK47_0.Text = futureStock0[47].ToString();
+            FutureK47_1.Text = futureStock1[47].ToString();
+            FutureK47_2.Text = futureStock2[47].ToString();
+            FutureK47_3.Text = futureStock3[47].ToString();
+            FutureK48_0.Text = futureStock0[48].ToString();
+            FutureK48_1.Text = futureStock1[48].ToString();
+            FutureK48_2.Text = futureStock2[48].ToString();
+            FutureK48_3.Text = futureStock3[48].ToString();
+            FutureK52_0.Text = futureStock0[52].ToString();
+            FutureK52_1.Text = futureStock1[52].ToString();
+            FutureK52_2.Text = futureStock2[52].ToString();
+            FutureK52_3.Text = futureStock3[52].ToString();
+            FutureK53_0.Text = futureStock0[53].ToString();
+            FutureK53_1.Text = futureStock1[53].ToString();
+            FutureK53_2.Text = futureStock2[53].ToString();
+            FutureK53_3.Text = futureStock3[53].ToString();
+            FutureK57_0.Text = futureStock0[57].ToString();
+            FutureK57_1.Text = futureStock1[57].ToString();
+            FutureK57_2.Text = futureStock2[57].ToString();
+            FutureK57_3.Text = futureStock3[57].ToString();
+            FutureK58_0.Text = futureStock0[58].ToString();
+            FutureK58_1.Text = futureStock1[58].ToString();
+            FutureK58_2.Text = futureStock2[58].ToString();
+            FutureK58_3.Text = futureStock3[58].ToString();
+            FutureK59_0.Text = futureStock0[59].ToString();
+            FutureK59_1.Text = futureStock1[59].ToString();
+            FutureK59_2.Text = futureStock2[59].ToString();
+            FutureK59_3.Text = futureStock3[59].ToString();
         }
     }
 }

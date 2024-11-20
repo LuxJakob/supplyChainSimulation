@@ -117,6 +117,11 @@ namespace supplyChainSimulation
         public static Dictionary<int, int> prediction2 = new Dictionary<int, int>();
         public static Dictionary<int, int> prediction3 = new Dictionary<int, int>();
 
+        public static Dictionary<int, int> futureStock0 = new Dictionary<int, int>();
+        public static Dictionary<int, int> futureStock1 = new Dictionary<int, int>();
+        public static Dictionary<int, int> futureStock2 = new Dictionary<int, int>();
+        public static Dictionary<int, int> futureStock3 = new Dictionary<int, int>();
+
         public static Dictionary<int, int> discountQuantity = new Dictionary<int, int>
         {
             { 21, 300 },
