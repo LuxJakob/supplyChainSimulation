@@ -73,6 +73,16 @@ namespace supplyChainSimulation
 
         private void calcRequirements()
         {
+            foreach ( var part in partUsage)
+            {
+                int id = part.Key;
+
+                requirement0[id] = (production0[1] * part.Value.Item1) + (production0[2] * part.Value.Item2) + (production0[3] * part.Value.Item3);
+                requirement1[id] = (production1[1] * part.Value.Item1) + (production1[2] * part.Value.Item2) + (production1[3] * part.Value.Item3);
+                requirement2[id] = (production2[1] * part.Value.Item1) + (production2[2] * part.Value.Item2) + (production2[3] * part.Value.Item3);
+                requirement3[id] = (production3[1] * part.Value.Item1) + (production3[2] * part.Value.Item2) + (production3[3] * part.Value.Item3);
+            }
+            
             RequK21_0.Text = requirement0[21].ToString();
             RequK21_1.Text = requirement1[21].ToString();
             RequK21_2.Text = requirement2[21].ToString();

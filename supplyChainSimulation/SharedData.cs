@@ -185,8 +185,8 @@ namespace supplyChainSimulation
 
 
 
-// public methods
-public static void AssignValue(Label label, Dictionary<int, int> dictionary, int key)
+        // public methods
+        public static void AssignValue(Label label, Dictionary<int, int> dictionary, int key)
         {
             if (!dictionary.TryGetValue(key, out int value))
             {
