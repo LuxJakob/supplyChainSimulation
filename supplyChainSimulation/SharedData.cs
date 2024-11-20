@@ -104,8 +104,6 @@ namespace supplyChainSimulation
         };
 
         // PurchasePartDisposition variables
-        public static Dictionary<int, int> purchaseQuantity = new Dictionary<int, int>();
-        public static Dictionary<int, int> purchaseModus = new Dictionary<int, int>();
 
         public static Dictionary<int, int> requirement0 = new Dictionary<int, int>();
         public static Dictionary<int, int> requirement1 = new Dictionary<int, int>();
@@ -121,6 +119,8 @@ namespace supplyChainSimulation
         public static Dictionary<int, int> futureStock1 = new Dictionary<int, int>();
         public static Dictionary<int, int> futureStock2 = new Dictionary<int, int>();
         public static Dictionary<int, int> futureStock3 = new Dictionary<int, int>();
+
+        public static Dictionary<int, (int, int)> purchaseParts = new Dictionary<int, (int, int)>();
 
         public static Dictionary<int, int> discountQuantity = new Dictionary<int, int>
         {

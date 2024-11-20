@@ -89,6 +89,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(776, 128);
             panel1.TabIndex = 9;
+            panel1.Visible = false;
             // 
             // warningLabel
             // 

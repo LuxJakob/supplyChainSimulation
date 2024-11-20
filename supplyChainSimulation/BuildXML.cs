@@ -128,14 +128,12 @@ namespace supplyChainSimulation
 
                 // Add <orderlist> element
                 writer.WriteStartElement("orderlist");
-                foreach (var purchase in purchaseQuantity)
+                foreach (var purchase in purchaseParts)
                 {
-                    int id = purchase.Key;
-
                     writer.WriteStartElement("order");
-                    writer.WriteAttributeString("article", id.ToString());
-                    writer.WriteAttributeString("quantity", purchase.Value.ToString());
-                    writer.WriteAttributeString("modus", purchaseModus[id].ToString());
+                    writer.WriteAttributeString("article", purchase.Key.ToString());
+                    writer.WriteAttributeString("quantity", purchase.Value.Item1.ToString());
+                    writer.WriteAttributeString("modus", purchase.Value.Item2.ToString());
                     writer.WriteEndElement();
                 }
                 writer.WriteEndElement();

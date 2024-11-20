@@ -69,13 +69,45 @@ namespace supplyChainSimulation
 
         private void switchBuildXML_Click(object sender, EventArgs e)
         {
+            purchaseParts[21] = ((int)OrderQuantity21.Value, (OrderModeK21.SelectedIndex + 3));
+            purchaseParts[22] = ((int)OrderQuantity22.Value, (OrderModeK22.SelectedIndex + 3));
+            purchaseParts[23] = ((int)OrderQuantity23.Value, (OrderModeK23.SelectedIndex + 3));
+            purchaseParts[24] = ((int)OrderQuantity24.Value, (OrderModeK24.SelectedIndex + 3));
+            purchaseParts[25] = ((int)OrderQuantity25.Value, (OrderModeK25.SelectedIndex + 3));
+            purchaseParts[27] = ((int)OrderQuantity27.Value, (OrderModeK27.SelectedIndex + 3));
+            purchaseParts[28] = ((int)OrderQuantity28.Value, (OrderModeK28.SelectedIndex + 3));
+            purchaseParts[32] = ((int)OrderQuantity32.Value, (OrderModeK32.SelectedIndex + 3));
+            purchaseParts[33] = ((int)OrderQuantity33.Value, (OrderModeK33.SelectedIndex + 3));
+            purchaseParts[34] = ((int)OrderQuantity34.Value, (OrderModeK34.SelectedIndex + 3));
+            purchaseParts[35] = ((int)OrderQuantity35.Value, (OrderModeK35.SelectedIndex + 3));
+            purchaseParts[36] = ((int)OrderQuantity36.Value, (OrderModeK36.SelectedIndex + 3));
+            purchaseParts[37] = ((int)OrderQuantity37.Value, (OrderModeK37.SelectedIndex + 3));
+            purchaseParts[38] = ((int)OrderQuantity38.Value, (OrderModeK38.SelectedIndex + 3));
+            purchaseParts[39] = ((int)OrderQuantity39.Value, (OrderModeK39.SelectedIndex + 3));
+            purchaseParts[40] = ((int)OrderQuantity40.Value, (OrderModeK40.SelectedIndex + 3));
+            purchaseParts[41] = ((int)OrderQuantity41.Value, (OrderModeK41.SelectedIndex + 3));
+            purchaseParts[42] = ((int)OrderQuantity42.Value, (OrderModeK42.SelectedIndex + 3));
+            purchaseParts[43] = ((int)OrderQuantity43.Value, (OrderModeK43.SelectedIndex + 3));
+            purchaseParts[44] = ((int)OrderQuantity44.Value, (OrderModeK44.SelectedIndex + 3));
+            purchaseParts[45] = ((int)OrderQuantity45.Value, (OrderModeK45.SelectedIndex + 3));
+            purchaseParts[46] = ((int)OrderQuantity46.Value, (OrderModeK46.SelectedIndex + 3));
+            purchaseParts[47] = ((int)OrderQuantity47.Value, (OrderModeK47.SelectedIndex + 3));
+            purchaseParts[48] = ((int)OrderQuantity48.Value, (OrderModeK48.SelectedIndex + 3));
+            purchaseParts[52] = ((int)OrderQuantity52.Value, (OrderModeK52.SelectedIndex + 3));
+            purchaseParts[53] = ((int)OrderQuantity53.Value, (OrderModeK53.SelectedIndex + 3));
+            purchaseParts[57] = ((int)OrderQuantity57.Value, (OrderModeK57.SelectedIndex + 3));
+            purchaseParts[58] = ((int)OrderQuantity58.Value, (OrderModeK58.SelectedIndex + 3));
+            purchaseParts[59] = ((int)OrderQuantity59.Value, (OrderModeK59.SelectedIndex + 3));
+
+
+
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
             mainOrchestrator.ShowForm(new BuildXML());
         }
 
         private void calcRequirements()
         {
-            foreach ( var part in partUsage)
+            foreach (var part in partUsage)
             {
                 int id = part.Key;
 
@@ -84,7 +116,7 @@ namespace supplyChainSimulation
                 requirement2[id] = (production2[1] * part.Value.Item1) + (production2[2] * part.Value.Item2) + (production2[3] * part.Value.Item3);
                 requirement3[id] = (production3[1] * part.Value.Item1) + (production3[2] * part.Value.Item2) + (production3[3] * part.Value.Item3);
             }
-            
+
             RequK21_0.Text = requirement0[21].ToString();
             RequK21_1.Text = requirement1[21].ToString();
             RequK21_2.Text = requirement2[21].ToString();
@@ -331,6 +363,16 @@ namespace supplyChainSimulation
             FutureK59_1.Text = futureStock1[59].ToString();
             FutureK59_2.Text = futureStock2[59].ToString();
             FutureK59_3.Text = futureStock3[59].ToString();
+        }
+
+        private void OrderModeK22_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void orderModeChange(object sender, EventArgs e)
+        {
+
         }
     }
 }

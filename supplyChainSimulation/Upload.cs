@@ -19,6 +19,8 @@ namespace supplyChainSimulation
         public Upload()
         {
             InitializeComponent();
+
+            initialInitMaterial = 0;
         }
 
         private void p1_uploadXML_Click(object sender, EventArgs e)

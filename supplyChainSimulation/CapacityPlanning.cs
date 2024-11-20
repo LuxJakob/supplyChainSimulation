@@ -17,6 +17,14 @@ namespace supplyChainSimulation
         {
             InitializeComponent();
 
+            foreach (var prod in productionOrders)
+            {
+                int id = prod.Key;
+                if (prod.Value < 0)
+                {
+                    productionOrders[id] = 0;
+                }
+            }
 
             productionOrders[26] = (productionOrders[261] + productionOrders[262] + productionOrders[263]);
             productionOrders[16] = (productionOrders[161] + productionOrders[162] + productionOrders[163]);
@@ -90,7 +98,7 @@ namespace supplyChainSimulation
                     shifts[id] = 2;
                     weeklyOvertime = Math.Min(Math.Max(worktime - 4800, 0), 1200);
                 }
-                if ((2400 < worktime) && (worktime < 3600))
+                if ((2400 < worktime) && (worktime < 3601))
                 {
                     weeklyOvertime = Math.Min(Math.Max(worktime - 2400, 0), 1200);
                 }
