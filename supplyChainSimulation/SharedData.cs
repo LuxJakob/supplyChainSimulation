@@ -150,9 +150,43 @@ namespace supplyChainSimulation
             { 59, 1800 }
         };
 
+        public static Dictionary<int, (int, int, int)> partUsage = new Dictionary<int, (int, int, int)>
+        {
+            { 21, (1, 0, 0) },
+            { 22, (0, 1, 0) },
+            { 23, (0, 0, 1) },
+            { 24, (7, 7, 7) },
+            { 25, (4, 4, 4) },
+            { 27, (2, 2, 2) },
+            { 28, (4, 5, 6) },
+            { 32, (3, 3, 3) },
+            { 33, (0, 0, 2) },
+            { 34, (0, 0, 72) },
+            { 35, (4, 4, 4) },
+            { 36, (1, 1, 1) },
+            { 37, (1, 1, 1) },
+            { 38, (1, 1, 1) },
+            { 39, (2, 2, 2) },
+            { 40, (1, 1, 1) },
+            { 41, (1, 1, 1) },
+            { 42, (2, 2, 2) },
+            { 43, (1, 1, 1) },
+            { 44, (3, 3, 3) },
+            { 45, (1, 1, 1) },
+            { 46, (1, 1, 1) },
+            { 47, (1, 1, 1) },
+            { 48, (2, 2, 2) },
+            { 52, (2, 0, 0) },
+            { 53, (72, 0, 0) },
+            { 57, (0, 2, 0) },
+            { 58, (0, 72, 0) },
+            { 59, (2, 2, 2) }
+        };
 
-        // public methods
-        public static void AssignValue(Label label, Dictionary<int, int> dictionary, int key)
+
+
+// public methods
+public static void AssignValue(Label label, Dictionary<int, int> dictionary, int key)
         {
             if (!dictionary.TryGetValue(key, out int value))
             {
