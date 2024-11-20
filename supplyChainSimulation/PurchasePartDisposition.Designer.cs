@@ -163,10 +163,10 @@
             RequK37_1 = new Label();
             RequK37_2 = new Label();
             RequK37_3 = new Label();
-            label265 = new Label();
-            label266 = new Label();
-            label267 = new Label();
-            label268 = new Label();
+            FutureK37_0 = new Label();
+            FutureK37_1 = new Label();
+            FutureK37_2 = new Label();
+            FutureK37_3 = new Label();
             label258 = new Label();
             label259 = new Label();
             label260 = new Label();
@@ -235,10 +235,10 @@
             label195 = new Label();
             label194 = new Label();
             label193 = new Label();
-            label192 = new Label();
-            label191 = new Label();
-            label190 = new Label();
-            label189 = new Label();
+            FutureK36_3 = new Label();
+            FutureK36_2 = new Label();
+            FutureK36_1 = new Label();
+            FutureK36_0 = new Label();
             RequK36_3 = new Label();
             RequK36_2 = new Label();
             RequK36_1 = new Label();
@@ -247,10 +247,10 @@
             label183 = new Label();
             label182 = new Label();
             label181 = new Label();
-            label180 = new Label();
-            label179 = new Label();
-            label178 = new Label();
-            label177 = new Label();
+            FutureK35_3 = new Label();
+            FutureK35_2 = new Label();
+            FutureK35_1 = new Label();
+            FutureK35_0 = new Label();
             RequK35_3 = new Label();
             RequK35_2 = new Label();
             RequK35_1 = new Label();
@@ -259,10 +259,10 @@
             label171 = new Label();
             label170 = new Label();
             label169 = new Label();
-            label168 = new Label();
-            label167 = new Label();
-            label166 = new Label();
-            label165 = new Label();
+            FutureK34_3 = new Label();
+            FutureK34_2 = new Label();
+            FutureK34_1 = new Label();
+            FutureK34_0 = new Label();
             RequK34_3 = new Label();
             RequK34_2 = new Label();
             RequK34_1 = new Label();
@@ -271,10 +271,10 @@
             label159 = new Label();
             label158 = new Label();
             label157 = new Label();
-            label156 = new Label();
-            label155 = new Label();
-            label154 = new Label();
-            label153 = new Label();
+            FutureK33_3 = new Label();
+            FutureK33_2 = new Label();
+            FutureK33_1 = new Label();
+            FutureK33_0 = new Label();
             RequK33_3 = new Label();
             RequK33_2 = new Label();
             RequK33_1 = new Label();
@@ -283,10 +283,10 @@
             label147 = new Label();
             label146 = new Label();
             label145 = new Label();
-            label144 = new Label();
-            label143 = new Label();
-            label142 = new Label();
-            label141 = new Label();
+            FutureK32_3 = new Label();
+            FutureK32_2 = new Label();
+            FutureK32_1 = new Label();
+            FutureK32_0 = new Label();
             RequK32_3 = new Label();
             RequK32_2 = new Label();
             RequK32_1 = new Label();
@@ -295,10 +295,10 @@
             label135 = new Label();
             label134 = new Label();
             label133 = new Label();
-            label132 = new Label();
-            label131 = new Label();
-            label130 = new Label();
-            label129 = new Label();
+            FutureK28_3 = new Label();
+            FutureK28_2 = new Label();
+            FutureK28_1 = new Label();
+            FutureK28_0 = new Label();
             RequK28_3 = new Label();
             RequK28_2 = new Label();
             RequK28_1 = new Label();
@@ -689,10 +689,10 @@
             tableLayoutPanel1.Controls.Add(RequK37_1, 6, 14);
             tableLayoutPanel1.Controls.Add(RequK37_2, 7, 14);
             tableLayoutPanel1.Controls.Add(RequK37_3, 8, 14);
-            tableLayoutPanel1.Controls.Add(label265, 9, 14);
-            tableLayoutPanel1.Controls.Add(label266, 10, 14);
-            tableLayoutPanel1.Controls.Add(label267, 11, 14);
-            tableLayoutPanel1.Controls.Add(label268, 12, 14);
+            tableLayoutPanel1.Controls.Add(FutureK37_0, 9, 14);
+            tableLayoutPanel1.Controls.Add(FutureK37_1, 10, 14);
+            tableLayoutPanel1.Controls.Add(FutureK37_2, 11, 14);
+            tableLayoutPanel1.Controls.Add(FutureK37_3, 12, 14);
             tableLayoutPanel1.Controls.Add(label258, 1, 30);
             tableLayoutPanel1.Controls.Add(label259, 2, 30);
             tableLayoutPanel1.Controls.Add(label260, 3, 30);
@@ -761,10 +761,10 @@
             tableLayoutPanel1.Controls.Add(label195, 3, 14);
             tableLayoutPanel1.Controls.Add(label194, 2, 14);
             tableLayoutPanel1.Controls.Add(label193, 1, 14);
-            tableLayoutPanel1.Controls.Add(label192, 12, 13);
-            tableLayoutPanel1.Controls.Add(label191, 11, 13);
-            tableLayoutPanel1.Controls.Add(label190, 10, 13);
-            tableLayoutPanel1.Controls.Add(label189, 9, 13);
+            tableLayoutPanel1.Controls.Add(FutureK36_3, 12, 13);
+            tableLayoutPanel1.Controls.Add(FutureK36_2, 11, 13);
+            tableLayoutPanel1.Controls.Add(FutureK36_1, 10, 13);
+            tableLayoutPanel1.Controls.Add(FutureK36_0, 9, 13);
             tableLayoutPanel1.Controls.Add(RequK36_3, 8, 13);
             tableLayoutPanel1.Controls.Add(RequK36_2, 7, 13);
             tableLayoutPanel1.Controls.Add(RequK36_1, 6, 13);
@@ -773,10 +773,10 @@
             tableLayoutPanel1.Controls.Add(label183, 3, 13);
             tableLayoutPanel1.Controls.Add(label182, 2, 13);
             tableLayoutPanel1.Controls.Add(label181, 1, 13);
-            tableLayoutPanel1.Controls.Add(label180, 12, 12);
-            tableLayoutPanel1.Controls.Add(label179, 11, 12);
-            tableLayoutPanel1.Controls.Add(label178, 10, 12);
-            tableLayoutPanel1.Controls.Add(label177, 9, 12);
+            tableLayoutPanel1.Controls.Add(FutureK35_3, 12, 12);
+            tableLayoutPanel1.Controls.Add(FutureK35_2, 11, 12);
+            tableLayoutPanel1.Controls.Add(FutureK35_1, 10, 12);
+            tableLayoutPanel1.Controls.Add(FutureK35_0, 9, 12);
             tableLayoutPanel1.Controls.Add(RequK35_3, 8, 12);
             tableLayoutPanel1.Controls.Add(RequK35_2, 7, 12);
             tableLayoutPanel1.Controls.Add(RequK35_1, 6, 12);
@@ -785,10 +785,10 @@
             tableLayoutPanel1.Controls.Add(label171, 3, 12);
             tableLayoutPanel1.Controls.Add(label170, 2, 12);
             tableLayoutPanel1.Controls.Add(label169, 1, 12);
-            tableLayoutPanel1.Controls.Add(label168, 12, 11);
-            tableLayoutPanel1.Controls.Add(label167, 11, 11);
-            tableLayoutPanel1.Controls.Add(label166, 10, 11);
-            tableLayoutPanel1.Controls.Add(label165, 9, 11);
+            tableLayoutPanel1.Controls.Add(FutureK34_3, 12, 11);
+            tableLayoutPanel1.Controls.Add(FutureK34_2, 11, 11);
+            tableLayoutPanel1.Controls.Add(FutureK34_1, 10, 11);
+            tableLayoutPanel1.Controls.Add(FutureK34_0, 9, 11);
             tableLayoutPanel1.Controls.Add(RequK34_3, 8, 11);
             tableLayoutPanel1.Controls.Add(RequK34_2, 7, 11);
             tableLayoutPanel1.Controls.Add(RequK34_1, 6, 11);
@@ -797,10 +797,10 @@
             tableLayoutPanel1.Controls.Add(label159, 3, 11);
             tableLayoutPanel1.Controls.Add(label158, 2, 11);
             tableLayoutPanel1.Controls.Add(label157, 1, 11);
-            tableLayoutPanel1.Controls.Add(label156, 12, 10);
-            tableLayoutPanel1.Controls.Add(label155, 11, 10);
-            tableLayoutPanel1.Controls.Add(label154, 10, 10);
-            tableLayoutPanel1.Controls.Add(label153, 9, 10);
+            tableLayoutPanel1.Controls.Add(FutureK33_3, 12, 10);
+            tableLayoutPanel1.Controls.Add(FutureK33_2, 11, 10);
+            tableLayoutPanel1.Controls.Add(FutureK33_1, 10, 10);
+            tableLayoutPanel1.Controls.Add(FutureK33_0, 9, 10);
             tableLayoutPanel1.Controls.Add(RequK33_3, 8, 10);
             tableLayoutPanel1.Controls.Add(RequK33_2, 7, 10);
             tableLayoutPanel1.Controls.Add(RequK33_1, 6, 10);
@@ -809,10 +809,10 @@
             tableLayoutPanel1.Controls.Add(label147, 3, 10);
             tableLayoutPanel1.Controls.Add(label146, 2, 10);
             tableLayoutPanel1.Controls.Add(label145, 1, 10);
-            tableLayoutPanel1.Controls.Add(label144, 12, 9);
-            tableLayoutPanel1.Controls.Add(label143, 11, 9);
-            tableLayoutPanel1.Controls.Add(label142, 10, 9);
-            tableLayoutPanel1.Controls.Add(label141, 9, 9);
+            tableLayoutPanel1.Controls.Add(FutureK32_3, 12, 9);
+            tableLayoutPanel1.Controls.Add(FutureK32_2, 11, 9);
+            tableLayoutPanel1.Controls.Add(FutureK32_1, 10, 9);
+            tableLayoutPanel1.Controls.Add(FutureK32_0, 9, 9);
             tableLayoutPanel1.Controls.Add(RequK32_3, 8, 9);
             tableLayoutPanel1.Controls.Add(RequK32_2, 7, 9);
             tableLayoutPanel1.Controls.Add(RequK32_1, 6, 9);
@@ -821,10 +821,10 @@
             tableLayoutPanel1.Controls.Add(label135, 3, 9);
             tableLayoutPanel1.Controls.Add(label134, 2, 9);
             tableLayoutPanel1.Controls.Add(label133, 1, 9);
-            tableLayoutPanel1.Controls.Add(label132, 12, 8);
-            tableLayoutPanel1.Controls.Add(label131, 11, 8);
-            tableLayoutPanel1.Controls.Add(label130, 10, 8);
-            tableLayoutPanel1.Controls.Add(label129, 9, 8);
+            tableLayoutPanel1.Controls.Add(FutureK28_3, 12, 8);
+            tableLayoutPanel1.Controls.Add(FutureK28_2, 11, 8);
+            tableLayoutPanel1.Controls.Add(FutureK28_1, 10, 8);
+            tableLayoutPanel1.Controls.Add(FutureK28_0, 9, 8);
             tableLayoutPanel1.Controls.Add(RequK28_3, 8, 8);
             tableLayoutPanel1.Controls.Add(RequK28_2, 7, 8);
             tableLayoutPanel1.Controls.Add(RequK28_1, 6, 8);
@@ -2499,49 +2499,49 @@
             RequK37_3.Text = "K21";
             RequK37_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label265
+            // FutureK37_0
             // 
-            label265.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label265.Font = new Font("Segoe UI", 9F);
-            label265.Location = new Point(822, 420);
-            label265.Name = "label265";
-            label265.Size = new Size(85, 30);
-            label265.TabIndex = 395;
-            label265.Text = "K21";
-            label265.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK37_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK37_0.Font = new Font("Segoe UI", 9F);
+            FutureK37_0.Location = new Point(822, 420);
+            FutureK37_0.Name = "FutureK37_0";
+            FutureK37_0.Size = new Size(85, 30);
+            FutureK37_0.TabIndex = 395;
+            FutureK37_0.Text = "K21";
+            FutureK37_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label266
+            // FutureK37_1
             // 
-            label266.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label266.Font = new Font("Segoe UI", 9F);
-            label266.Location = new Point(913, 420);
-            label266.Name = "label266";
-            label266.Size = new Size(85, 30);
-            label266.TabIndex = 394;
-            label266.Text = "K21";
-            label266.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK37_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK37_1.Font = new Font("Segoe UI", 9F);
+            FutureK37_1.Location = new Point(913, 420);
+            FutureK37_1.Name = "FutureK37_1";
+            FutureK37_1.Size = new Size(85, 30);
+            FutureK37_1.TabIndex = 394;
+            FutureK37_1.Text = "K21";
+            FutureK37_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label267
+            // FutureK37_2
             // 
-            label267.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label267.Font = new Font("Segoe UI", 9F);
-            label267.Location = new Point(1004, 420);
-            label267.Name = "label267";
-            label267.Size = new Size(85, 30);
-            label267.TabIndex = 393;
-            label267.Text = "K21";
-            label267.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK37_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK37_2.Font = new Font("Segoe UI", 9F);
+            FutureK37_2.Location = new Point(1004, 420);
+            FutureK37_2.Name = "FutureK37_2";
+            FutureK37_2.Size = new Size(85, 30);
+            FutureK37_2.TabIndex = 393;
+            FutureK37_2.Text = "K21";
+            FutureK37_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label268
+            // FutureK37_3
             // 
-            label268.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label268.Font = new Font("Segoe UI", 9F);
-            label268.Location = new Point(1095, 420);
-            label268.Name = "label268";
-            label268.Size = new Size(85, 30);
-            label268.TabIndex = 392;
-            label268.Text = "K21";
-            label268.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK37_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK37_3.Font = new Font("Segoe UI", 9F);
+            FutureK37_3.Location = new Point(1095, 420);
+            FutureK37_3.Name = "FutureK37_3";
+            FutureK37_3.Size = new Size(85, 30);
+            FutureK37_3.TabIndex = 392;
+            FutureK37_3.Text = "K21";
+            FutureK37_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label258
             // 
@@ -3291,49 +3291,49 @@
             label193.Text = "1.5";
             label193.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label192
+            // FutureK36_3
             // 
-            label192.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label192.Font = new Font("Segoe UI", 9F);
-            label192.Location = new Point(1095, 390);
-            label192.Name = "label192";
-            label192.Size = new Size(85, 30);
-            label192.TabIndex = 322;
-            label192.Text = "K21";
-            label192.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK36_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK36_3.Font = new Font("Segoe UI", 9F);
+            FutureK36_3.Location = new Point(1095, 390);
+            FutureK36_3.Name = "FutureK36_3";
+            FutureK36_3.Size = new Size(85, 30);
+            FutureK36_3.TabIndex = 322;
+            FutureK36_3.Text = "K21";
+            FutureK36_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label191
+            // FutureK36_2
             // 
-            label191.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label191.Font = new Font("Segoe UI", 9F);
-            label191.Location = new Point(1004, 390);
-            label191.Name = "label191";
-            label191.Size = new Size(85, 30);
-            label191.TabIndex = 321;
-            label191.Text = "K21";
-            label191.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK36_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK36_2.Font = new Font("Segoe UI", 9F);
+            FutureK36_2.Location = new Point(1004, 390);
+            FutureK36_2.Name = "FutureK36_2";
+            FutureK36_2.Size = new Size(85, 30);
+            FutureK36_2.TabIndex = 321;
+            FutureK36_2.Text = "K21";
+            FutureK36_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label190
+            // FutureK36_1
             // 
-            label190.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label190.Font = new Font("Segoe UI", 9F);
-            label190.Location = new Point(913, 390);
-            label190.Name = "label190";
-            label190.Size = new Size(85, 30);
-            label190.TabIndex = 320;
-            label190.Text = "K21";
-            label190.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK36_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK36_1.Font = new Font("Segoe UI", 9F);
+            FutureK36_1.Location = new Point(913, 390);
+            FutureK36_1.Name = "FutureK36_1";
+            FutureK36_1.Size = new Size(85, 30);
+            FutureK36_1.TabIndex = 320;
+            FutureK36_1.Text = "K21";
+            FutureK36_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label189
+            // FutureK36_0
             // 
-            label189.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label189.Font = new Font("Segoe UI", 9F);
-            label189.Location = new Point(822, 390);
-            label189.Name = "label189";
-            label189.Size = new Size(85, 30);
-            label189.TabIndex = 319;
-            label189.Text = "K21";
-            label189.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK36_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK36_0.Font = new Font("Segoe UI", 9F);
+            FutureK36_0.Location = new Point(822, 390);
+            FutureK36_0.Name = "FutureK36_0";
+            FutureK36_0.Size = new Size(85, 30);
+            FutureK36_0.TabIndex = 319;
+            FutureK36_0.Text = "K21";
+            FutureK36_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // RequK36_3
             // 
@@ -3423,49 +3423,49 @@
             label181.Text = "1.2";
             label181.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label180
+            // FutureK35_3
             // 
-            label180.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label180.Font = new Font("Segoe UI", 9F);
-            label180.Location = new Point(1095, 360);
-            label180.Name = "label180";
-            label180.Size = new Size(85, 30);
-            label180.TabIndex = 310;
-            label180.Text = "K21";
-            label180.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK35_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK35_3.Font = new Font("Segoe UI", 9F);
+            FutureK35_3.Location = new Point(1095, 360);
+            FutureK35_3.Name = "FutureK35_3";
+            FutureK35_3.Size = new Size(85, 30);
+            FutureK35_3.TabIndex = 310;
+            FutureK35_3.Text = "K21";
+            FutureK35_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label179
+            // FutureK35_2
             // 
-            label179.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label179.Font = new Font("Segoe UI", 9F);
-            label179.Location = new Point(1004, 360);
-            label179.Name = "label179";
-            label179.Size = new Size(85, 30);
-            label179.TabIndex = 309;
-            label179.Text = "K21";
-            label179.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK35_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK35_2.Font = new Font("Segoe UI", 9F);
+            FutureK35_2.Location = new Point(1004, 360);
+            FutureK35_2.Name = "FutureK35_2";
+            FutureK35_2.Size = new Size(85, 30);
+            FutureK35_2.TabIndex = 309;
+            FutureK35_2.Text = "K21";
+            FutureK35_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label178
+            // FutureK35_1
             // 
-            label178.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label178.Font = new Font("Segoe UI", 9F);
-            label178.Location = new Point(913, 360);
-            label178.Name = "label178";
-            label178.Size = new Size(85, 30);
-            label178.TabIndex = 308;
-            label178.Text = "K21";
-            label178.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK35_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK35_1.Font = new Font("Segoe UI", 9F);
+            FutureK35_1.Location = new Point(913, 360);
+            FutureK35_1.Name = "FutureK35_1";
+            FutureK35_1.Size = new Size(85, 30);
+            FutureK35_1.TabIndex = 308;
+            FutureK35_1.Text = "K21";
+            FutureK35_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label177
+            // FutureK35_0
             // 
-            label177.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label177.Font = new Font("Segoe UI", 9F);
-            label177.Location = new Point(822, 360);
-            label177.Name = "label177";
-            label177.Size = new Size(85, 30);
-            label177.TabIndex = 307;
-            label177.Text = "K21";
-            label177.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK35_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK35_0.Font = new Font("Segoe UI", 9F);
+            FutureK35_0.Location = new Point(822, 360);
+            FutureK35_0.Name = "FutureK35_0";
+            FutureK35_0.Size = new Size(84, 30);
+            FutureK35_0.TabIndex = 307;
+            FutureK35_0.Text = "K21";
+            FutureK35_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // RequK35_3
             // 
@@ -3555,49 +3555,49 @@
             label169.Text = "2.2";
             label169.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label168
+            // FutureK34_3
             // 
-            label168.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label168.Font = new Font("Segoe UI", 9F);
-            label168.Location = new Point(1095, 330);
-            label168.Name = "label168";
-            label168.Size = new Size(85, 30);
-            label168.TabIndex = 298;
-            label168.Text = "K21";
-            label168.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK34_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK34_3.Font = new Font("Segoe UI", 9F);
+            FutureK34_3.Location = new Point(1095, 330);
+            FutureK34_3.Name = "FutureK34_3";
+            FutureK34_3.Size = new Size(85, 30);
+            FutureK34_3.TabIndex = 298;
+            FutureK34_3.Text = "K21";
+            FutureK34_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label167
+            // FutureK34_2
             // 
-            label167.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label167.Font = new Font("Segoe UI", 9F);
-            label167.Location = new Point(1004, 330);
-            label167.Name = "label167";
-            label167.Size = new Size(85, 30);
-            label167.TabIndex = 297;
-            label167.Text = "K21";
-            label167.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK34_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK34_2.Font = new Font("Segoe UI", 9F);
+            FutureK34_2.Location = new Point(1004, 330);
+            FutureK34_2.Name = "FutureK34_2";
+            FutureK34_2.Size = new Size(85, 30);
+            FutureK34_2.TabIndex = 297;
+            FutureK34_2.Text = "K21";
+            FutureK34_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label166
+            // FutureK34_1
             // 
-            label166.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label166.Font = new Font("Segoe UI", 9F);
-            label166.Location = new Point(913, 330);
-            label166.Name = "label166";
-            label166.Size = new Size(85, 30);
-            label166.TabIndex = 296;
-            label166.Text = "K21";
-            label166.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK34_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK34_1.Font = new Font("Segoe UI", 9F);
+            FutureK34_1.Location = new Point(913, 330);
+            FutureK34_1.Name = "FutureK34_1";
+            FutureK34_1.Size = new Size(85, 30);
+            FutureK34_1.TabIndex = 296;
+            FutureK34_1.Text = "K21";
+            FutureK34_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label165
+            // FutureK34_0
             // 
-            label165.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label165.Font = new Font("Segoe UI", 9F);
-            label165.Location = new Point(822, 330);
-            label165.Name = "label165";
-            label165.Size = new Size(85, 30);
-            label165.TabIndex = 295;
-            label165.Text = "K21";
-            label165.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK34_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK34_0.Font = new Font("Segoe UI", 9F);
+            FutureK34_0.Location = new Point(822, 330);
+            FutureK34_0.Name = "FutureK34_0";
+            FutureK34_0.Size = new Size(85, 30);
+            FutureK34_0.TabIndex = 295;
+            FutureK34_0.Text = "K21";
+            FutureK34_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // RequK34_3
             // 
@@ -3687,49 +3687,49 @@
             label157.Text = "1.6";
             label157.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label156
+            // FutureK33_3
             // 
-            label156.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label156.Font = new Font("Segoe UI", 9F);
-            label156.Location = new Point(1095, 300);
-            label156.Name = "label156";
-            label156.Size = new Size(85, 30);
-            label156.TabIndex = 286;
-            label156.Text = "K21";
-            label156.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK33_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK33_3.Font = new Font("Segoe UI", 9F);
+            FutureK33_3.Location = new Point(1095, 300);
+            FutureK33_3.Name = "FutureK33_3";
+            FutureK33_3.Size = new Size(85, 30);
+            FutureK33_3.TabIndex = 286;
+            FutureK33_3.Text = "K21";
+            FutureK33_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label155
+            // FutureK33_2
             // 
-            label155.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label155.Font = new Font("Segoe UI", 9F);
-            label155.Location = new Point(1004, 300);
-            label155.Name = "label155";
-            label155.Size = new Size(85, 30);
-            label155.TabIndex = 285;
-            label155.Text = "K21";
-            label155.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK33_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK33_2.Font = new Font("Segoe UI", 9F);
+            FutureK33_2.Location = new Point(1004, 300);
+            FutureK33_2.Name = "FutureK33_2";
+            FutureK33_2.Size = new Size(85, 30);
+            FutureK33_2.TabIndex = 285;
+            FutureK33_2.Text = "K21";
+            FutureK33_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label154
+            // FutureK33_1
             // 
-            label154.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label154.Font = new Font("Segoe UI", 9F);
-            label154.Location = new Point(913, 300);
-            label154.Name = "label154";
-            label154.Size = new Size(85, 30);
-            label154.TabIndex = 284;
-            label154.Text = "K21";
-            label154.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK33_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK33_1.Font = new Font("Segoe UI", 9F);
+            FutureK33_1.Location = new Point(913, 300);
+            FutureK33_1.Name = "FutureK33_1";
+            FutureK33_1.Size = new Size(85, 30);
+            FutureK33_1.TabIndex = 284;
+            FutureK33_1.Text = "K21";
+            FutureK33_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label153
+            // FutureK33_0
             // 
-            label153.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label153.Font = new Font("Segoe UI", 9F);
-            label153.Location = new Point(822, 300);
-            label153.Name = "label153";
-            label153.Size = new Size(85, 30);
-            label153.TabIndex = 283;
-            label153.Text = "K21";
-            label153.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK33_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK33_0.Font = new Font("Segoe UI", 9F);
+            FutureK33_0.Location = new Point(822, 300);
+            FutureK33_0.Name = "FutureK33_0";
+            FutureK33_0.Size = new Size(85, 30);
+            FutureK33_0.TabIndex = 283;
+            FutureK33_0.Text = "K21";
+            FutureK33_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // RequK33_3
             // 
@@ -3819,49 +3819,49 @@
             label145.Text = "1.9";
             label145.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label144
+            // FutureK32_3
             // 
-            label144.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label144.Font = new Font("Segoe UI", 9F);
-            label144.Location = new Point(1095, 270);
-            label144.Name = "label144";
-            label144.Size = new Size(85, 30);
-            label144.TabIndex = 274;
-            label144.Text = "K21";
-            label144.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK32_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK32_3.Font = new Font("Segoe UI", 9F);
+            FutureK32_3.Location = new Point(1095, 270);
+            FutureK32_3.Name = "FutureK32_3";
+            FutureK32_3.Size = new Size(85, 30);
+            FutureK32_3.TabIndex = 274;
+            FutureK32_3.Text = "K21";
+            FutureK32_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label143
+            // FutureK32_2
             // 
-            label143.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label143.Font = new Font("Segoe UI", 9F);
-            label143.Location = new Point(1004, 270);
-            label143.Name = "label143";
-            label143.Size = new Size(85, 30);
-            label143.TabIndex = 273;
-            label143.Text = "K21";
-            label143.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK32_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK32_2.Font = new Font("Segoe UI", 9F);
+            FutureK32_2.Location = new Point(1004, 270);
+            FutureK32_2.Name = "FutureK32_2";
+            FutureK32_2.Size = new Size(85, 30);
+            FutureK32_2.TabIndex = 273;
+            FutureK32_2.Text = "K21";
+            FutureK32_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label142
+            // FutureK32_1
             // 
-            label142.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label142.Font = new Font("Segoe UI", 9F);
-            label142.Location = new Point(913, 270);
-            label142.Name = "label142";
-            label142.Size = new Size(85, 30);
-            label142.TabIndex = 272;
-            label142.Text = "K21";
-            label142.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK32_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK32_1.Font = new Font("Segoe UI", 9F);
+            FutureK32_1.Location = new Point(913, 270);
+            FutureK32_1.Name = "FutureK32_1";
+            FutureK32_1.Size = new Size(85, 30);
+            FutureK32_1.TabIndex = 272;
+            FutureK32_1.Text = "K21";
+            FutureK32_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label141
+            // FutureK32_0
             // 
-            label141.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label141.Font = new Font("Segoe UI", 9F);
-            label141.Location = new Point(822, 270);
-            label141.Name = "label141";
-            label141.Size = new Size(85, 30);
-            label141.TabIndex = 271;
-            label141.Text = "K21";
-            label141.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK32_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK32_0.Font = new Font("Segoe UI", 9F);
+            FutureK32_0.Location = new Point(822, 270);
+            FutureK32_0.Name = "FutureK32_0";
+            FutureK32_0.Size = new Size(85, 30);
+            FutureK32_0.TabIndex = 271;
+            FutureK32_0.Text = "K21";
+            FutureK32_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // RequK32_3
             // 
@@ -3951,49 +3951,49 @@
             label133.Text = "2.1";
             label133.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label132
+            // FutureK28_3
             // 
-            label132.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label132.Font = new Font("Segoe UI", 9F);
-            label132.Location = new Point(1095, 240);
-            label132.Name = "label132";
-            label132.Size = new Size(85, 30);
-            label132.TabIndex = 262;
-            label132.Text = "K21";
-            label132.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK28_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK28_3.Font = new Font("Segoe UI", 9F);
+            FutureK28_3.Location = new Point(1095, 240);
+            FutureK28_3.Name = "FutureK28_3";
+            FutureK28_3.Size = new Size(85, 30);
+            FutureK28_3.TabIndex = 262;
+            FutureK28_3.Text = "K21";
+            FutureK28_3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label131
+            // FutureK28_2
             // 
-            label131.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label131.Font = new Font("Segoe UI", 9F);
-            label131.Location = new Point(1004, 240);
-            label131.Name = "label131";
-            label131.Size = new Size(85, 30);
-            label131.TabIndex = 261;
-            label131.Text = "K21";
-            label131.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK28_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK28_2.Font = new Font("Segoe UI", 9F);
+            FutureK28_2.Location = new Point(1004, 240);
+            FutureK28_2.Name = "FutureK28_2";
+            FutureK28_2.Size = new Size(85, 30);
+            FutureK28_2.TabIndex = 261;
+            FutureK28_2.Text = "K21";
+            FutureK28_2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label130
+            // FutureK28_1
             // 
-            label130.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label130.Font = new Font("Segoe UI", 9F);
-            label130.Location = new Point(913, 240);
-            label130.Name = "label130";
-            label130.Size = new Size(85, 30);
-            label130.TabIndex = 260;
-            label130.Text = "K21";
-            label130.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK28_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK28_1.Font = new Font("Segoe UI", 9F);
+            FutureK28_1.Location = new Point(913, 240);
+            FutureK28_1.Name = "FutureK28_1";
+            FutureK28_1.Size = new Size(85, 30);
+            FutureK28_1.TabIndex = 260;
+            FutureK28_1.Text = "K21";
+            FutureK28_1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label129
+            // FutureK28_0
             // 
-            label129.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            label129.Font = new Font("Segoe UI", 9F);
-            label129.Location = new Point(822, 240);
-            label129.Name = "label129";
-            label129.Size = new Size(85, 30);
-            label129.TabIndex = 259;
-            label129.Text = "K21";
-            label129.TextAlign = ContentAlignment.MiddleCenter;
+            FutureK28_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK28_0.Font = new Font("Segoe UI", 9F);
+            FutureK28_0.Location = new Point(822, 240);
+            FutureK28_0.Name = "FutureK28_0";
+            FutureK28_0.Size = new Size(85, 30);
+            FutureK28_0.TabIndex = 259;
+            FutureK28_0.Text = "K21";
+            FutureK28_0.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // RequK28_3
             // 
@@ -6259,10 +6259,10 @@
         private Label label183;
         private Label label182;
         private Label label181;
-        private Label label180;
-        private Label label179;
-        private Label label178;
-        private Label label177;
+        private Label FutureK35_3;
+        private Label FutureK35_2;
+        private Label FutureK35_1;
+        private Label FutureK35_0;
         private Label RequK35_3;
         private Label RequK35_2;
         private Label RequK35_1;
@@ -6271,10 +6271,10 @@
         private Label label171;
         private Label label170;
         private Label label169;
-        private Label label168;
-        private Label label167;
-        private Label label166;
-        private Label label165;
+        private Label FutureK34_3;
+        private Label FutureK34_2;
+        private Label FutureK34_1;
+        private Label FutureK34_0;
         private Label RequK34_3;
         private Label RequK34_2;
         private Label RequK34_1;
@@ -6283,10 +6283,10 @@
         private Label label159;
         private Label label158;
         private Label label157;
-        private Label label156;
-        private Label label155;
-        private Label label154;
-        private Label label153;
+        private Label FutureK33_3;
+        private Label FutureK33_2;
+        private Label FutureK33_1;
+        private Label FutureK33_0;
         private Label RequK33_3;
         private Label RequK33_2;
         private Label RequK33_1;
@@ -6295,10 +6295,10 @@
         private Label label147;
         private Label label146;
         private Label label145;
-        private Label label144;
-        private Label label143;
-        private Label label142;
-        private Label label141;
+        private Label FutureK32_3;
+        private Label FutureK32_2;
+        private Label FutureK32_1;
+        private Label FutureK32_0;
         private Label RequK32_3;
         private Label RequK32_2;
         private Label RequK32_1;
@@ -6307,14 +6307,14 @@
         private Label label135;
         private Label label134;
         private Label label133;
-        private Label label132;
-        private Label label131;
-        private Label label130;
-        private Label label129;
-        private Label label192;
-        private Label label191;
-        private Label label190;
-        private Label label189;
+        private Label FutureK28_3;
+        private Label FutureK28_2;
+        private Label FutureK28_1;
+        private Label FutureK28_0;
+        private Label FutureK36_3;
+        private Label FutureK36_2;
+        private Label FutureK36_1;
+        private Label FutureK36_0;
         private Label RequK36_3;
         private Label RequK36_2;
         private Label RequK36_1;
@@ -6492,10 +6492,10 @@
         private Label RequK37_1;
         private Label RequK37_2;
         private Label RequK37_3;
-        private Label label265;
-        private Label label266;
-        private Label label267;
-        private Label label268;
+        private Label FutureK37_0;
+        private Label FutureK37_1;
+        private Label FutureK37_2;
+        private Label FutureK37_3;
         private Label label258;
         private Label label259;
         private Label label260;
