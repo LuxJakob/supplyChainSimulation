@@ -425,35 +425,35 @@
             label46 = new Label();
             label47 = new Label();
             label48 = new Label();
-            setupTimeNew1 = new NumericUpDown();
-            numericUpDown1 = new NumericUpDown();
-            numericUpDown2 = new NumericUpDown();
-            numericUpDown3 = new NumericUpDown();
-            numericUpDown4 = new NumericUpDown();
-            numericUpDown5 = new NumericUpDown();
-            numericUpDown6 = new NumericUpDown();
-            numericUpDown7 = new NumericUpDown();
-            numericUpDown8 = new NumericUpDown();
-            numericUpDown9 = new NumericUpDown();
-            numericUpDown10 = new NumericUpDown();
-            numericUpDown11 = new NumericUpDown();
-            numericUpDown12 = new NumericUpDown();
-            numericUpDown13 = new NumericUpDown();
-            numericUpDown14 = new NumericUpDown();
-            numericUpDown15 = new NumericUpDown();
-            numericUpDown16 = new NumericUpDown();
-            numericUpDown17 = new NumericUpDown();
-            numericUpDown18 = new NumericUpDown();
-            numericUpDown19 = new NumericUpDown();
-            numericUpDown20 = new NumericUpDown();
-            numericUpDown21 = new NumericUpDown();
-            numericUpDown22 = new NumericUpDown();
-            numericUpDown23 = new NumericUpDown();
-            numericUpDown24 = new NumericUpDown();
-            numericUpDown25 = new NumericUpDown();
-            numericUpDown26 = new NumericUpDown();
-            numericUpDown27 = new NumericUpDown();
-            numericUpDown28 = new NumericUpDown();
+            OrderQuantity21 = new NumericUpDown();
+            OrderQuantity22 = new NumericUpDown();
+            OrderQuantity23 = new NumericUpDown();
+            OrderQuantity24 = new NumericUpDown();
+            OrderQuantity25 = new NumericUpDown();
+            OrderQuantity27 = new NumericUpDown();
+            OrderQuantity28 = new NumericUpDown();
+            OrderQuantity32 = new NumericUpDown();
+            OrderQuantity33 = new NumericUpDown();
+            OrderQuantity34 = new NumericUpDown();
+            OrderQuantity35 = new NumericUpDown();
+            OrderQuantity36 = new NumericUpDown();
+            OrderQuantity37 = new NumericUpDown();
+            OrderQuantity38 = new NumericUpDown();
+            OrderQuantity39 = new NumericUpDown();
+            OrderQuantity40 = new NumericUpDown();
+            OrderQuantity41 = new NumericUpDown();
+            OrderQuantity42 = new NumericUpDown();
+            OrderQuantity43 = new NumericUpDown();
+            OrderQuantity44 = new NumericUpDown();
+            OrderQuantity45 = new NumericUpDown();
+            OrderQuantity46 = new NumericUpDown();
+            OrderQuantity47 = new NumericUpDown();
+            OrderQuantity48 = new NumericUpDown();
+            OrderQuantity52 = new NumericUpDown();
+            OrderQuantity53 = new NumericUpDown();
+            OrderQuantity57 = new NumericUpDown();
+            OrderQuantity58 = new NumericUpDown();
+            OrderQuantity59 = new NumericUpDown();
             listBox1 = new ListBox();
             listBox2 = new ListBox();
             listBox3 = new ListBox();
@@ -486,35 +486,35 @@
             label49 = new Label();
             label1 = new Label();
             tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)setupTimeNew1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown12).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown13).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown15).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown16).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown17).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown18).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown19).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown20).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown21).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown22).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown23).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown24).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown25).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown26).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown27).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown28).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity21).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity22).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity23).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity24).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity25).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity27).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity28).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity32).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity33).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity34).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity35).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity36).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity37).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity38).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity39).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity40).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity41).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity42).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity43).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity44).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity45).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity46).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity47).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity48).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity52).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity53).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity57).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity58).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity59).BeginInit();
             SuspendLayout();
             // 
             // switchCapacityPlanning
@@ -951,35 +951,35 @@
             tableLayoutPanel1.Controls.Add(label46, 0, 28);
             tableLayoutPanel1.Controls.Add(label47, 0, 29);
             tableLayoutPanel1.Controls.Add(label48, 0, 30);
-            tableLayoutPanel1.Controls.Add(setupTimeNew1, 13, 2);
-            tableLayoutPanel1.Controls.Add(numericUpDown1, 13, 3);
-            tableLayoutPanel1.Controls.Add(numericUpDown2, 13, 4);
-            tableLayoutPanel1.Controls.Add(numericUpDown3, 13, 5);
-            tableLayoutPanel1.Controls.Add(numericUpDown4, 13, 6);
-            tableLayoutPanel1.Controls.Add(numericUpDown5, 13, 7);
-            tableLayoutPanel1.Controls.Add(numericUpDown6, 13, 8);
-            tableLayoutPanel1.Controls.Add(numericUpDown7, 13, 9);
-            tableLayoutPanel1.Controls.Add(numericUpDown8, 13, 10);
-            tableLayoutPanel1.Controls.Add(numericUpDown9, 13, 11);
-            tableLayoutPanel1.Controls.Add(numericUpDown10, 13, 12);
-            tableLayoutPanel1.Controls.Add(numericUpDown11, 13, 13);
-            tableLayoutPanel1.Controls.Add(numericUpDown12, 13, 14);
-            tableLayoutPanel1.Controls.Add(numericUpDown13, 13, 15);
-            tableLayoutPanel1.Controls.Add(numericUpDown14, 13, 16);
-            tableLayoutPanel1.Controls.Add(numericUpDown15, 13, 17);
-            tableLayoutPanel1.Controls.Add(numericUpDown16, 13, 18);
-            tableLayoutPanel1.Controls.Add(numericUpDown17, 13, 19);
-            tableLayoutPanel1.Controls.Add(numericUpDown18, 13, 20);
-            tableLayoutPanel1.Controls.Add(numericUpDown19, 13, 21);
-            tableLayoutPanel1.Controls.Add(numericUpDown20, 13, 22);
-            tableLayoutPanel1.Controls.Add(numericUpDown21, 13, 23);
-            tableLayoutPanel1.Controls.Add(numericUpDown22, 13, 24);
-            tableLayoutPanel1.Controls.Add(numericUpDown23, 13, 25);
-            tableLayoutPanel1.Controls.Add(numericUpDown24, 13, 26);
-            tableLayoutPanel1.Controls.Add(numericUpDown25, 13, 27);
-            tableLayoutPanel1.Controls.Add(numericUpDown26, 13, 28);
-            tableLayoutPanel1.Controls.Add(numericUpDown27, 13, 29);
-            tableLayoutPanel1.Controls.Add(numericUpDown28, 13, 30);
+            tableLayoutPanel1.Controls.Add(OrderQuantity21, 13, 2);
+            tableLayoutPanel1.Controls.Add(OrderQuantity22, 13, 3);
+            tableLayoutPanel1.Controls.Add(OrderQuantity23, 13, 4);
+            tableLayoutPanel1.Controls.Add(OrderQuantity24, 13, 5);
+            tableLayoutPanel1.Controls.Add(OrderQuantity25, 13, 6);
+            tableLayoutPanel1.Controls.Add(OrderQuantity27, 13, 7);
+            tableLayoutPanel1.Controls.Add(OrderQuantity28, 13, 8);
+            tableLayoutPanel1.Controls.Add(OrderQuantity32, 13, 9);
+            tableLayoutPanel1.Controls.Add(OrderQuantity33, 13, 10);
+            tableLayoutPanel1.Controls.Add(OrderQuantity34, 13, 11);
+            tableLayoutPanel1.Controls.Add(OrderQuantity35, 13, 12);
+            tableLayoutPanel1.Controls.Add(OrderQuantity36, 13, 13);
+            tableLayoutPanel1.Controls.Add(OrderQuantity37, 13, 14);
+            tableLayoutPanel1.Controls.Add(OrderQuantity38, 13, 15);
+            tableLayoutPanel1.Controls.Add(OrderQuantity39, 13, 16);
+            tableLayoutPanel1.Controls.Add(OrderQuantity40, 13, 17);
+            tableLayoutPanel1.Controls.Add(OrderQuantity41, 13, 18);
+            tableLayoutPanel1.Controls.Add(OrderQuantity42, 13, 19);
+            tableLayoutPanel1.Controls.Add(OrderQuantity43, 13, 20);
+            tableLayoutPanel1.Controls.Add(OrderQuantity44, 13, 21);
+            tableLayoutPanel1.Controls.Add(OrderQuantity45, 13, 22);
+            tableLayoutPanel1.Controls.Add(OrderQuantity46, 13, 23);
+            tableLayoutPanel1.Controls.Add(OrderQuantity47, 13, 24);
+            tableLayoutPanel1.Controls.Add(OrderQuantity48, 13, 25);
+            tableLayoutPanel1.Controls.Add(OrderQuantity52, 13, 26);
+            tableLayoutPanel1.Controls.Add(OrderQuantity53, 13, 27);
+            tableLayoutPanel1.Controls.Add(OrderQuantity57, 13, 28);
+            tableLayoutPanel1.Controls.Add(OrderQuantity58, 13, 29);
+            tableLayoutPanel1.Controls.Add(OrderQuantity59, 13, 30);
             tableLayoutPanel1.Controls.Add(listBox1, 14, 2);
             tableLayoutPanel1.Controls.Add(listBox2, 14, 3);
             tableLayoutPanel1.Controls.Add(listBox3, 14, 4);
@@ -5389,324 +5389,324 @@
             label48.Text = "K59";
             label48.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // setupTimeNew1
+            // OrderQuantity21
             // 
-            setupTimeNew1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            setupTimeNew1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            setupTimeNew1.Location = new Point(1186, 63);
-            setupTimeNew1.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            setupTimeNew1.Name = "setupTimeNew1";
-            setupTimeNew1.Size = new Size(85, 23);
-            setupTimeNew1.TabIndex = 178;
-            setupTimeNew1.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity21.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity21.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity21.Location = new Point(1186, 63);
+            OrderQuantity21.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity21.Name = "OrderQuantity21";
+            OrderQuantity21.Size = new Size(85, 23);
+            OrderQuantity21.TabIndex = 178;
+            OrderQuantity21.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown1
+            // OrderQuantity22
             // 
-            numericUpDown1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown1.Location = new Point(1186, 93);
-            numericUpDown1.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(85, 23);
-            numericUpDown1.TabIndex = 178;
-            numericUpDown1.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity22.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity22.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity22.Location = new Point(1186, 93);
+            OrderQuantity22.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity22.Name = "OrderQuantity22";
+            OrderQuantity22.Size = new Size(85, 23);
+            OrderQuantity22.TabIndex = 178;
+            OrderQuantity22.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown2
+            // OrderQuantity23
             // 
-            numericUpDown2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown2.Location = new Point(1186, 123);
-            numericUpDown2.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown2.Name = "numericUpDown2";
-            numericUpDown2.Size = new Size(85, 23);
-            numericUpDown2.TabIndex = 178;
-            numericUpDown2.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity23.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity23.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity23.Location = new Point(1186, 123);
+            OrderQuantity23.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity23.Name = "OrderQuantity23";
+            OrderQuantity23.Size = new Size(85, 23);
+            OrderQuantity23.TabIndex = 178;
+            OrderQuantity23.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown3
+            // OrderQuantity24
             // 
-            numericUpDown3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown3.Location = new Point(1186, 153);
-            numericUpDown3.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown3.Name = "numericUpDown3";
-            numericUpDown3.Size = new Size(85, 23);
-            numericUpDown3.TabIndex = 178;
-            numericUpDown3.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity24.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity24.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity24.Location = new Point(1186, 153);
+            OrderQuantity24.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity24.Name = "OrderQuantity24";
+            OrderQuantity24.Size = new Size(85, 23);
+            OrderQuantity24.TabIndex = 178;
+            OrderQuantity24.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown4
+            // OrderQuantity25
             // 
-            numericUpDown4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown4.Location = new Point(1186, 183);
-            numericUpDown4.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown4.Name = "numericUpDown4";
-            numericUpDown4.Size = new Size(85, 23);
-            numericUpDown4.TabIndex = 178;
-            numericUpDown4.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity25.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity25.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity25.Location = new Point(1186, 183);
+            OrderQuantity25.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity25.Name = "OrderQuantity25";
+            OrderQuantity25.Size = new Size(85, 23);
+            OrderQuantity25.TabIndex = 178;
+            OrderQuantity25.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown5
+            // OrderQuantity27
             // 
-            numericUpDown5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown5.Location = new Point(1186, 213);
-            numericUpDown5.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown5.Name = "numericUpDown5";
-            numericUpDown5.Size = new Size(85, 23);
-            numericUpDown5.TabIndex = 178;
-            numericUpDown5.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity27.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity27.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity27.Location = new Point(1186, 213);
+            OrderQuantity27.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity27.Name = "OrderQuantity27";
+            OrderQuantity27.Size = new Size(85, 23);
+            OrderQuantity27.TabIndex = 178;
+            OrderQuantity27.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown6
+            // OrderQuantity28
             // 
-            numericUpDown6.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown6.Location = new Point(1186, 243);
-            numericUpDown6.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown6.Name = "numericUpDown6";
-            numericUpDown6.Size = new Size(85, 23);
-            numericUpDown6.TabIndex = 178;
-            numericUpDown6.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity28.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity28.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity28.Location = new Point(1186, 243);
+            OrderQuantity28.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity28.Name = "OrderQuantity28";
+            OrderQuantity28.Size = new Size(85, 23);
+            OrderQuantity28.TabIndex = 178;
+            OrderQuantity28.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown7
+            // OrderQuantity32
             // 
-            numericUpDown7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown7.Location = new Point(1186, 273);
-            numericUpDown7.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown7.Name = "numericUpDown7";
-            numericUpDown7.Size = new Size(85, 23);
-            numericUpDown7.TabIndex = 178;
-            numericUpDown7.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity32.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity32.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity32.Location = new Point(1186, 273);
+            OrderQuantity32.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity32.Name = "OrderQuantity32";
+            OrderQuantity32.Size = new Size(85, 23);
+            OrderQuantity32.TabIndex = 178;
+            OrderQuantity32.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown8
+            // OrderQuantity33
             // 
-            numericUpDown8.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown8.Location = new Point(1186, 303);
-            numericUpDown8.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown8.Name = "numericUpDown8";
-            numericUpDown8.Size = new Size(85, 23);
-            numericUpDown8.TabIndex = 178;
-            numericUpDown8.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity33.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity33.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity33.Location = new Point(1186, 303);
+            OrderQuantity33.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity33.Name = "OrderQuantity33";
+            OrderQuantity33.Size = new Size(85, 23);
+            OrderQuantity33.TabIndex = 178;
+            OrderQuantity33.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown9
+            // OrderQuantity34
             // 
-            numericUpDown9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown9.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown9.Location = new Point(1186, 333);
-            numericUpDown9.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown9.Name = "numericUpDown9";
-            numericUpDown9.Size = new Size(85, 23);
-            numericUpDown9.TabIndex = 178;
-            numericUpDown9.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity34.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity34.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity34.Location = new Point(1186, 333);
+            OrderQuantity34.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity34.Name = "OrderQuantity34";
+            OrderQuantity34.Size = new Size(85, 23);
+            OrderQuantity34.TabIndex = 178;
+            OrderQuantity34.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown10
+            // OrderQuantity35
             // 
-            numericUpDown10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown10.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown10.Location = new Point(1186, 363);
-            numericUpDown10.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown10.Name = "numericUpDown10";
-            numericUpDown10.Size = new Size(85, 23);
-            numericUpDown10.TabIndex = 178;
-            numericUpDown10.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity35.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity35.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity35.Location = new Point(1186, 363);
+            OrderQuantity35.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity35.Name = "OrderQuantity35";
+            OrderQuantity35.Size = new Size(85, 23);
+            OrderQuantity35.TabIndex = 178;
+            OrderQuantity35.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown11
+            // OrderQuantity36
             // 
-            numericUpDown11.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown11.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown11.Location = new Point(1186, 393);
-            numericUpDown11.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown11.Name = "numericUpDown11";
-            numericUpDown11.Size = new Size(85, 23);
-            numericUpDown11.TabIndex = 178;
-            numericUpDown11.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity36.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity36.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity36.Location = new Point(1186, 393);
+            OrderQuantity36.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity36.Name = "OrderQuantity36";
+            OrderQuantity36.Size = new Size(85, 23);
+            OrderQuantity36.TabIndex = 178;
+            OrderQuantity36.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown12
+            // OrderQuantity37
             // 
-            numericUpDown12.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown12.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown12.Location = new Point(1186, 423);
-            numericUpDown12.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown12.Name = "numericUpDown12";
-            numericUpDown12.Size = new Size(85, 23);
-            numericUpDown12.TabIndex = 178;
-            numericUpDown12.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity37.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity37.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity37.Location = new Point(1186, 423);
+            OrderQuantity37.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity37.Name = "OrderQuantity37";
+            OrderQuantity37.Size = new Size(85, 23);
+            OrderQuantity37.TabIndex = 178;
+            OrderQuantity37.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown13
+            // OrderQuantity38
             // 
-            numericUpDown13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown13.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown13.Location = new Point(1186, 453);
-            numericUpDown13.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown13.Name = "numericUpDown13";
-            numericUpDown13.Size = new Size(85, 23);
-            numericUpDown13.TabIndex = 178;
-            numericUpDown13.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity38.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity38.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity38.Location = new Point(1186, 453);
+            OrderQuantity38.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity38.Name = "OrderQuantity38";
+            OrderQuantity38.Size = new Size(85, 23);
+            OrderQuantity38.TabIndex = 178;
+            OrderQuantity38.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown14
+            // OrderQuantity39
             // 
-            numericUpDown14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown14.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown14.Location = new Point(1186, 483);
-            numericUpDown14.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown14.Name = "numericUpDown14";
-            numericUpDown14.Size = new Size(85, 23);
-            numericUpDown14.TabIndex = 178;
-            numericUpDown14.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity39.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity39.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity39.Location = new Point(1186, 483);
+            OrderQuantity39.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity39.Name = "OrderQuantity39";
+            OrderQuantity39.Size = new Size(85, 23);
+            OrderQuantity39.TabIndex = 178;
+            OrderQuantity39.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown15
+            // OrderQuantity40
             // 
-            numericUpDown15.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown15.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown15.Location = new Point(1186, 513);
-            numericUpDown15.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown15.Name = "numericUpDown15";
-            numericUpDown15.Size = new Size(85, 23);
-            numericUpDown15.TabIndex = 178;
-            numericUpDown15.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity40.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity40.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity40.Location = new Point(1186, 513);
+            OrderQuantity40.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity40.Name = "OrderQuantity40";
+            OrderQuantity40.Size = new Size(85, 23);
+            OrderQuantity40.TabIndex = 178;
+            OrderQuantity40.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown16
+            // OrderQuantity41
             // 
-            numericUpDown16.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown16.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown16.Location = new Point(1186, 543);
-            numericUpDown16.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown16.Name = "numericUpDown16";
-            numericUpDown16.Size = new Size(85, 23);
-            numericUpDown16.TabIndex = 178;
-            numericUpDown16.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity41.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity41.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity41.Location = new Point(1186, 543);
+            OrderQuantity41.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity41.Name = "OrderQuantity41";
+            OrderQuantity41.Size = new Size(85, 23);
+            OrderQuantity41.TabIndex = 178;
+            OrderQuantity41.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown17
+            // OrderQuantity42
             // 
-            numericUpDown17.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown17.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown17.Location = new Point(1186, 573);
-            numericUpDown17.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown17.Name = "numericUpDown17";
-            numericUpDown17.Size = new Size(85, 23);
-            numericUpDown17.TabIndex = 178;
-            numericUpDown17.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity42.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity42.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity42.Location = new Point(1186, 573);
+            OrderQuantity42.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity42.Name = "OrderQuantity42";
+            OrderQuantity42.Size = new Size(85, 23);
+            OrderQuantity42.TabIndex = 178;
+            OrderQuantity42.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown18
+            // OrderQuantity43
             // 
-            numericUpDown18.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown18.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown18.Location = new Point(1186, 603);
-            numericUpDown18.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown18.Name = "numericUpDown18";
-            numericUpDown18.Size = new Size(85, 23);
-            numericUpDown18.TabIndex = 178;
-            numericUpDown18.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity43.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity43.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity43.Location = new Point(1186, 603);
+            OrderQuantity43.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity43.Name = "OrderQuantity43";
+            OrderQuantity43.Size = new Size(85, 23);
+            OrderQuantity43.TabIndex = 178;
+            OrderQuantity43.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown19
+            // OrderQuantity44
             // 
-            numericUpDown19.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown19.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown19.Location = new Point(1186, 633);
-            numericUpDown19.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown19.Name = "numericUpDown19";
-            numericUpDown19.Size = new Size(85, 23);
-            numericUpDown19.TabIndex = 178;
-            numericUpDown19.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity44.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity44.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity44.Location = new Point(1186, 633);
+            OrderQuantity44.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity44.Name = "OrderQuantity44";
+            OrderQuantity44.Size = new Size(85, 23);
+            OrderQuantity44.TabIndex = 178;
+            OrderQuantity44.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown20
+            // OrderQuantity45
             // 
-            numericUpDown20.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown20.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown20.Location = new Point(1186, 663);
-            numericUpDown20.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown20.Name = "numericUpDown20";
-            numericUpDown20.Size = new Size(85, 23);
-            numericUpDown20.TabIndex = 178;
-            numericUpDown20.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity45.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity45.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity45.Location = new Point(1186, 663);
+            OrderQuantity45.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity45.Name = "OrderQuantity45";
+            OrderQuantity45.Size = new Size(85, 23);
+            OrderQuantity45.TabIndex = 178;
+            OrderQuantity45.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown21
+            // OrderQuantity46
             // 
-            numericUpDown21.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown21.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown21.Location = new Point(1186, 693);
-            numericUpDown21.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown21.Name = "numericUpDown21";
-            numericUpDown21.Size = new Size(85, 23);
-            numericUpDown21.TabIndex = 178;
-            numericUpDown21.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity46.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity46.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity46.Location = new Point(1186, 693);
+            OrderQuantity46.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity46.Name = "OrderQuantity46";
+            OrderQuantity46.Size = new Size(85, 23);
+            OrderQuantity46.TabIndex = 178;
+            OrderQuantity46.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown22
+            // OrderQuantity47
             // 
-            numericUpDown22.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown22.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown22.Location = new Point(1186, 723);
-            numericUpDown22.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown22.Name = "numericUpDown22";
-            numericUpDown22.Size = new Size(85, 23);
-            numericUpDown22.TabIndex = 178;
-            numericUpDown22.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity47.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity47.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity47.Location = new Point(1186, 723);
+            OrderQuantity47.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity47.Name = "OrderQuantity47";
+            OrderQuantity47.Size = new Size(85, 23);
+            OrderQuantity47.TabIndex = 178;
+            OrderQuantity47.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown23
+            // OrderQuantity48
             // 
-            numericUpDown23.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown23.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown23.Location = new Point(1186, 753);
-            numericUpDown23.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown23.Name = "numericUpDown23";
-            numericUpDown23.Size = new Size(85, 23);
-            numericUpDown23.TabIndex = 178;
-            numericUpDown23.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity48.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity48.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity48.Location = new Point(1186, 753);
+            OrderQuantity48.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity48.Name = "OrderQuantity48";
+            OrderQuantity48.Size = new Size(85, 23);
+            OrderQuantity48.TabIndex = 178;
+            OrderQuantity48.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown24
+            // OrderQuantity52
             // 
-            numericUpDown24.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown24.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown24.Location = new Point(1186, 783);
-            numericUpDown24.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown24.Name = "numericUpDown24";
-            numericUpDown24.Size = new Size(85, 23);
-            numericUpDown24.TabIndex = 178;
-            numericUpDown24.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity52.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity52.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity52.Location = new Point(1186, 783);
+            OrderQuantity52.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity52.Name = "OrderQuantity52";
+            OrderQuantity52.Size = new Size(85, 23);
+            OrderQuantity52.TabIndex = 178;
+            OrderQuantity52.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown25
+            // OrderQuantity53
             // 
-            numericUpDown25.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown25.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown25.Location = new Point(1186, 813);
-            numericUpDown25.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown25.Name = "numericUpDown25";
-            numericUpDown25.Size = new Size(85, 23);
-            numericUpDown25.TabIndex = 178;
-            numericUpDown25.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity53.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity53.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity53.Location = new Point(1186, 813);
+            OrderQuantity53.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity53.Name = "OrderQuantity53";
+            OrderQuantity53.Size = new Size(85, 23);
+            OrderQuantity53.TabIndex = 178;
+            OrderQuantity53.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown26
+            // OrderQuantity57
             // 
-            numericUpDown26.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown26.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown26.Location = new Point(1186, 843);
-            numericUpDown26.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown26.Name = "numericUpDown26";
-            numericUpDown26.Size = new Size(85, 23);
-            numericUpDown26.TabIndex = 178;
-            numericUpDown26.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity57.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity57.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity57.Location = new Point(1186, 843);
+            OrderQuantity57.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity57.Name = "OrderQuantity57";
+            OrderQuantity57.Size = new Size(85, 23);
+            OrderQuantity57.TabIndex = 178;
+            OrderQuantity57.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown27
+            // OrderQuantity58
             // 
-            numericUpDown27.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown27.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown27.Location = new Point(1186, 873);
-            numericUpDown27.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown27.Name = "numericUpDown27";
-            numericUpDown27.Size = new Size(85, 23);
-            numericUpDown27.TabIndex = 178;
-            numericUpDown27.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity58.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity58.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity58.Location = new Point(1186, 873);
+            OrderQuantity58.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity58.Name = "OrderQuantity58";
+            OrderQuantity58.Size = new Size(85, 23);
+            OrderQuantity58.TabIndex = 178;
+            OrderQuantity58.TextAlign = HorizontalAlignment.Center;
             // 
-            // numericUpDown28
+            // OrderQuantity59
             // 
-            numericUpDown28.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            numericUpDown28.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numericUpDown28.Location = new Point(1186, 903);
-            numericUpDown28.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
-            numericUpDown28.Name = "numericUpDown28";
-            numericUpDown28.Size = new Size(85, 23);
-            numericUpDown28.TabIndex = 178;
-            numericUpDown28.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity59.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            OrderQuantity59.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            OrderQuantity59.Location = new Point(1186, 903);
+            OrderQuantity59.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
+            OrderQuantity59.Name = "OrderQuantity59";
+            OrderQuantity59.Size = new Size(85, 23);
+            OrderQuantity59.TabIndex = 178;
+            OrderQuantity59.TextAlign = HorizontalAlignment.Center;
             // 
             // listBox1
             // 
@@ -6031,35 +6031,35 @@
             Name = "PurchasePartDisposition";
             Text = "Supply Chain Simulator - Purchase Part Disposition";
             tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)setupTimeNew1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown12).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown13).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown15).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown16).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown17).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown18).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown19).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown20).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown21).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown22).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown23).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown24).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown25).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown26).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown27).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown28).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity21).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity22).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity23).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity24).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity25).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity27).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity28).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity32).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity33).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity34).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity35).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity36).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity37).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity38).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity39).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity40).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity41).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity42).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity43).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity44).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity45).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity46).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity47).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity48).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity52).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity53).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity57).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity58).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderQuantity59).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -6117,35 +6117,35 @@
         private Label label46;
         private Label label47;
         private Label label48;
-        private NumericUpDown setupTimeNew1;
-        private NumericUpDown numericUpDown1;
-        private NumericUpDown numericUpDown2;
-        private NumericUpDown numericUpDown3;
-        private NumericUpDown numericUpDown4;
-        private NumericUpDown numericUpDown5;
-        private NumericUpDown numericUpDown6;
-        private NumericUpDown numericUpDown7;
-        private NumericUpDown numericUpDown8;
-        private NumericUpDown numericUpDown9;
-        private NumericUpDown numericUpDown10;
-        private NumericUpDown numericUpDown11;
-        private NumericUpDown numericUpDown12;
-        private NumericUpDown numericUpDown13;
-        private NumericUpDown numericUpDown14;
-        private NumericUpDown numericUpDown15;
-        private NumericUpDown numericUpDown16;
-        private NumericUpDown numericUpDown17;
-        private NumericUpDown numericUpDown18;
-        private NumericUpDown numericUpDown19;
-        private NumericUpDown numericUpDown20;
-        private NumericUpDown numericUpDown21;
-        private NumericUpDown numericUpDown22;
-        private NumericUpDown numericUpDown23;
-        private NumericUpDown numericUpDown24;
-        private NumericUpDown numericUpDown25;
-        private NumericUpDown numericUpDown26;
-        private NumericUpDown numericUpDown27;
-        private NumericUpDown numericUpDown28;
+        private NumericUpDown OrderQuantity21;
+        private NumericUpDown OrderQuantity22;
+        private NumericUpDown OrderQuantity23;
+        private NumericUpDown OrderQuantity24;
+        private NumericUpDown OrderQuantity25;
+        private NumericUpDown OrderQuantity27;
+        private NumericUpDown OrderQuantity28;
+        private NumericUpDown OrderQuantity32;
+        private NumericUpDown OrderQuantity33;
+        private NumericUpDown OrderQuantity34;
+        private NumericUpDown OrderQuantity35;
+        private NumericUpDown OrderQuantity36;
+        private NumericUpDown OrderQuantity37;
+        private NumericUpDown OrderQuantity38;
+        private NumericUpDown OrderQuantity39;
+        private NumericUpDown OrderQuantity40;
+        private NumericUpDown OrderQuantity41;
+        private NumericUpDown OrderQuantity42;
+        private NumericUpDown OrderQuantity43;
+        private NumericUpDown OrderQuantity44;
+        private NumericUpDown OrderQuantity45;
+        private NumericUpDown OrderQuantity46;
+        private NumericUpDown OrderQuantity47;
+        private NumericUpDown OrderQuantity48;
+        private NumericUpDown OrderQuantity52;
+        private NumericUpDown OrderQuantity53;
+        private NumericUpDown OrderQuantity57;
+        private NumericUpDown OrderQuantity58;
+        private NumericUpDown OrderQuantity59;
         private ListBox listBox1;
         private ListBox listBox2;
         private ListBox listBox3;
