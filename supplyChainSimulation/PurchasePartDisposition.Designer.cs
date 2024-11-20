@@ -454,37 +454,37 @@
             OrderQuantity57 = new NumericUpDown();
             OrderQuantity58 = new NumericUpDown();
             OrderQuantity59 = new NumericUpDown();
-            listBox1 = new ListBox();
-            listBox2 = new ListBox();
-            listBox3 = new ListBox();
-            listBox4 = new ListBox();
-            listBox5 = new ListBox();
-            listBox6 = new ListBox();
-            listBox7 = new ListBox();
-            listBox8 = new ListBox();
-            listBox9 = new ListBox();
-            listBox10 = new ListBox();
-            listBox11 = new ListBox();
-            listBox12 = new ListBox();
-            listBox13 = new ListBox();
-            listBox14 = new ListBox();
-            listBox15 = new ListBox();
-            listBox16 = new ListBox();
-            listBox17 = new ListBox();
-            listBox18 = new ListBox();
-            listBox19 = new ListBox();
-            listBox20 = new ListBox();
-            listBox21 = new ListBox();
-            listBox22 = new ListBox();
-            listBox23 = new ListBox();
-            listBox24 = new ListBox();
-            listBox25 = new ListBox();
-            listBox26 = new ListBox();
-            listBox27 = new ListBox();
-            listBox28 = new ListBox();
-            listBox29 = new ListBox();
             label49 = new Label();
             label1 = new Label();
+            OrderModeK21 = new ComboBox();
+            OrderModeK22 = new ComboBox();
+            OrderModeK23 = new ComboBox();
+            OrderModeK24 = new ComboBox();
+            OrderModeK25 = new ComboBox();
+            OrderModeK27 = new ComboBox();
+            OrderModeK28 = new ComboBox();
+            OrderModeK32 = new ComboBox();
+            OrderModeK33 = new ComboBox();
+            OrderModeK34 = new ComboBox();
+            OrderModeK35 = new ComboBox();
+            OrderModeK36 = new ComboBox();
+            OrderModeK37 = new ComboBox();
+            OrderModeK38 = new ComboBox();
+            OrderModeK39 = new ComboBox();
+            OrderModeK40 = new ComboBox();
+            OrderModeK41 = new ComboBox();
+            OrderModeK42 = new ComboBox();
+            OrderModeK43 = new ComboBox();
+            OrderModeK44 = new ComboBox();
+            OrderModeK45 = new ComboBox();
+            OrderModeK46 = new ComboBox();
+            OrderModeK47 = new ComboBox();
+            OrderModeK48 = new ComboBox();
+            OrderMode52 = new ComboBox();
+            OrderMode53 = new ComboBox();
+            OrderMode57 = new ComboBox();
+            OrderMode58 = new ComboBox();
+            OrderMode59 = new ComboBox();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)OrderQuantity21).BeginInit();
             ((System.ComponentModel.ISupportInitialize)OrderQuantity22).BeginInit();
@@ -557,6 +557,34 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 91F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 91F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 91F));
+            tableLayoutPanel1.Controls.Add(OrderMode59, 14, 30);
+            tableLayoutPanel1.Controls.Add(OrderMode58, 14, 29);
+            tableLayoutPanel1.Controls.Add(OrderMode57, 14, 28);
+            tableLayoutPanel1.Controls.Add(OrderMode53, 14, 27);
+            tableLayoutPanel1.Controls.Add(OrderMode52, 14, 26);
+            tableLayoutPanel1.Controls.Add(OrderModeK48, 14, 25);
+            tableLayoutPanel1.Controls.Add(OrderModeK47, 14, 24);
+            tableLayoutPanel1.Controls.Add(OrderModeK46, 14, 23);
+            tableLayoutPanel1.Controls.Add(OrderModeK45, 14, 22);
+            tableLayoutPanel1.Controls.Add(OrderModeK44, 14, 21);
+            tableLayoutPanel1.Controls.Add(OrderModeK43, 14, 20);
+            tableLayoutPanel1.Controls.Add(OrderModeK42, 14, 19);
+            tableLayoutPanel1.Controls.Add(OrderModeK41, 14, 18);
+            tableLayoutPanel1.Controls.Add(OrderModeK40, 14, 17);
+            tableLayoutPanel1.Controls.Add(OrderModeK39, 14, 16);
+            tableLayoutPanel1.Controls.Add(OrderModeK38, 14, 15);
+            tableLayoutPanel1.Controls.Add(OrderModeK37, 14, 14);
+            tableLayoutPanel1.Controls.Add(OrderModeK36, 14, 13);
+            tableLayoutPanel1.Controls.Add(OrderModeK35, 14, 12);
+            tableLayoutPanel1.Controls.Add(OrderModeK34, 14, 11);
+            tableLayoutPanel1.Controls.Add(OrderModeK33, 14, 10);
+            tableLayoutPanel1.Controls.Add(OrderModeK32, 14, 9);
+            tableLayoutPanel1.Controls.Add(OrderModeK28, 14, 8);
+            tableLayoutPanel1.Controls.Add(OrderModeK27, 14, 7);
+            tableLayoutPanel1.Controls.Add(OrderModeK25, 14, 6);
+            tableLayoutPanel1.Controls.Add(OrderModeK24, 14, 5);
+            tableLayoutPanel1.Controls.Add(OrderModeK23, 14, 4);
+            tableLayoutPanel1.Controls.Add(OrderModeK22, 14, 3);
             tableLayoutPanel1.Controls.Add(RequK59_0, 5, 30);
             tableLayoutPanel1.Controls.Add(RequK59_1, 6, 30);
             tableLayoutPanel1.Controls.Add(RequK59_2, 7, 30);
@@ -980,36 +1008,8 @@
             tableLayoutPanel1.Controls.Add(OrderQuantity57, 13, 28);
             tableLayoutPanel1.Controls.Add(OrderQuantity58, 13, 29);
             tableLayoutPanel1.Controls.Add(OrderQuantity59, 13, 30);
-            tableLayoutPanel1.Controls.Add(listBox1, 14, 2);
-            tableLayoutPanel1.Controls.Add(listBox2, 14, 3);
-            tableLayoutPanel1.Controls.Add(listBox3, 14, 4);
-            tableLayoutPanel1.Controls.Add(listBox4, 14, 5);
-            tableLayoutPanel1.Controls.Add(listBox5, 14, 6);
-            tableLayoutPanel1.Controls.Add(listBox6, 14, 7);
-            tableLayoutPanel1.Controls.Add(listBox7, 14, 8);
-            tableLayoutPanel1.Controls.Add(listBox8, 14, 9);
-            tableLayoutPanel1.Controls.Add(listBox9, 14, 10);
-            tableLayoutPanel1.Controls.Add(listBox10, 14, 11);
-            tableLayoutPanel1.Controls.Add(listBox11, 14, 12);
-            tableLayoutPanel1.Controls.Add(listBox12, 14, 13);
-            tableLayoutPanel1.Controls.Add(listBox13, 14, 14);
-            tableLayoutPanel1.Controls.Add(listBox14, 14, 15);
-            tableLayoutPanel1.Controls.Add(listBox15, 14, 16);
-            tableLayoutPanel1.Controls.Add(listBox16, 14, 17);
-            tableLayoutPanel1.Controls.Add(listBox17, 14, 18);
-            tableLayoutPanel1.Controls.Add(listBox18, 14, 19);
-            tableLayoutPanel1.Controls.Add(listBox19, 14, 20);
-            tableLayoutPanel1.Controls.Add(listBox20, 14, 21);
-            tableLayoutPanel1.Controls.Add(listBox21, 14, 22);
-            tableLayoutPanel1.Controls.Add(listBox22, 14, 23);
-            tableLayoutPanel1.Controls.Add(listBox23, 14, 24);
-            tableLayoutPanel1.Controls.Add(listBox24, 14, 25);
-            tableLayoutPanel1.Controls.Add(listBox25, 14, 26);
-            tableLayoutPanel1.Controls.Add(listBox26, 14, 27);
-            tableLayoutPanel1.Controls.Add(listBox27, 14, 28);
-            tableLayoutPanel1.Controls.Add(listBox28, 14, 29);
-            tableLayoutPanel1.Controls.Add(listBox29, 14, 30);
             tableLayoutPanel1.Controls.Add(label49, 1, 2);
+            tableLayoutPanel1.Controls.Add(OrderModeK21, 14, 2);
             tableLayoutPanel1.Location = new Point(12, 37);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 31;
@@ -5708,296 +5708,6 @@
             OrderQuantity59.TabIndex = 178;
             OrderQuantity59.TextAlign = HorizontalAlignment.Center;
             // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox1.Location = new Point(1277, 63);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(90, 19);
-            listBox1.TabIndex = 179;
-            // 
-            // listBox2
-            // 
-            listBox2.FormattingEnabled = true;
-            listBox2.ItemHeight = 15;
-            listBox2.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox2.Location = new Point(1277, 93);
-            listBox2.Name = "listBox2";
-            listBox2.Size = new Size(90, 19);
-            listBox2.TabIndex = 179;
-            // 
-            // listBox3
-            // 
-            listBox3.FormattingEnabled = true;
-            listBox3.ItemHeight = 15;
-            listBox3.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox3.Location = new Point(1277, 123);
-            listBox3.Name = "listBox3";
-            listBox3.Size = new Size(90, 19);
-            listBox3.TabIndex = 179;
-            // 
-            // listBox4
-            // 
-            listBox4.FormattingEnabled = true;
-            listBox4.ItemHeight = 15;
-            listBox4.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox4.Location = new Point(1277, 153);
-            listBox4.Name = "listBox4";
-            listBox4.Size = new Size(90, 19);
-            listBox4.TabIndex = 179;
-            // 
-            // listBox5
-            // 
-            listBox5.FormattingEnabled = true;
-            listBox5.ItemHeight = 15;
-            listBox5.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox5.Location = new Point(1277, 183);
-            listBox5.Name = "listBox5";
-            listBox5.Size = new Size(90, 19);
-            listBox5.TabIndex = 179;
-            // 
-            // listBox6
-            // 
-            listBox6.FormattingEnabled = true;
-            listBox6.ItemHeight = 15;
-            listBox6.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox6.Location = new Point(1277, 213);
-            listBox6.Name = "listBox6";
-            listBox6.Size = new Size(90, 19);
-            listBox6.TabIndex = 179;
-            // 
-            // listBox7
-            // 
-            listBox7.FormattingEnabled = true;
-            listBox7.ItemHeight = 15;
-            listBox7.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox7.Location = new Point(1277, 243);
-            listBox7.Name = "listBox7";
-            listBox7.Size = new Size(90, 19);
-            listBox7.TabIndex = 179;
-            // 
-            // listBox8
-            // 
-            listBox8.FormattingEnabled = true;
-            listBox8.ItemHeight = 15;
-            listBox8.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox8.Location = new Point(1277, 273);
-            listBox8.Name = "listBox8";
-            listBox8.Size = new Size(90, 19);
-            listBox8.TabIndex = 179;
-            // 
-            // listBox9
-            // 
-            listBox9.FormattingEnabled = true;
-            listBox9.ItemHeight = 15;
-            listBox9.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox9.Location = new Point(1277, 303);
-            listBox9.Name = "listBox9";
-            listBox9.Size = new Size(90, 19);
-            listBox9.TabIndex = 179;
-            // 
-            // listBox10
-            // 
-            listBox10.FormattingEnabled = true;
-            listBox10.ItemHeight = 15;
-            listBox10.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox10.Location = new Point(1277, 333);
-            listBox10.Name = "listBox10";
-            listBox10.Size = new Size(90, 19);
-            listBox10.TabIndex = 179;
-            // 
-            // listBox11
-            // 
-            listBox11.FormattingEnabled = true;
-            listBox11.ItemHeight = 15;
-            listBox11.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox11.Location = new Point(1277, 363);
-            listBox11.Name = "listBox11";
-            listBox11.Size = new Size(90, 19);
-            listBox11.TabIndex = 179;
-            // 
-            // listBox12
-            // 
-            listBox12.FormattingEnabled = true;
-            listBox12.ItemHeight = 15;
-            listBox12.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox12.Location = new Point(1277, 393);
-            listBox12.Name = "listBox12";
-            listBox12.Size = new Size(90, 19);
-            listBox12.TabIndex = 179;
-            // 
-            // listBox13
-            // 
-            listBox13.FormattingEnabled = true;
-            listBox13.ItemHeight = 15;
-            listBox13.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox13.Location = new Point(1277, 423);
-            listBox13.Name = "listBox13";
-            listBox13.Size = new Size(90, 19);
-            listBox13.TabIndex = 179;
-            // 
-            // listBox14
-            // 
-            listBox14.FormattingEnabled = true;
-            listBox14.ItemHeight = 15;
-            listBox14.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox14.Location = new Point(1277, 453);
-            listBox14.Name = "listBox14";
-            listBox14.Size = new Size(90, 19);
-            listBox14.TabIndex = 179;
-            // 
-            // listBox15
-            // 
-            listBox15.FormattingEnabled = true;
-            listBox15.ItemHeight = 15;
-            listBox15.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox15.Location = new Point(1277, 483);
-            listBox15.Name = "listBox15";
-            listBox15.Size = new Size(90, 19);
-            listBox15.TabIndex = 179;
-            // 
-            // listBox16
-            // 
-            listBox16.FormattingEnabled = true;
-            listBox16.ItemHeight = 15;
-            listBox16.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox16.Location = new Point(1277, 513);
-            listBox16.Name = "listBox16";
-            listBox16.Size = new Size(90, 19);
-            listBox16.TabIndex = 179;
-            // 
-            // listBox17
-            // 
-            listBox17.FormattingEnabled = true;
-            listBox17.ItemHeight = 15;
-            listBox17.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox17.Location = new Point(1277, 543);
-            listBox17.Name = "listBox17";
-            listBox17.Size = new Size(90, 19);
-            listBox17.TabIndex = 179;
-            // 
-            // listBox18
-            // 
-            listBox18.FormattingEnabled = true;
-            listBox18.ItemHeight = 15;
-            listBox18.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox18.Location = new Point(1277, 573);
-            listBox18.Name = "listBox18";
-            listBox18.Size = new Size(90, 19);
-            listBox18.TabIndex = 179;
-            // 
-            // listBox19
-            // 
-            listBox19.FormattingEnabled = true;
-            listBox19.ItemHeight = 15;
-            listBox19.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox19.Location = new Point(1277, 603);
-            listBox19.Name = "listBox19";
-            listBox19.Size = new Size(90, 19);
-            listBox19.TabIndex = 179;
-            // 
-            // listBox20
-            // 
-            listBox20.FormattingEnabled = true;
-            listBox20.ItemHeight = 15;
-            listBox20.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox20.Location = new Point(1277, 633);
-            listBox20.Name = "listBox20";
-            listBox20.Size = new Size(90, 19);
-            listBox20.TabIndex = 179;
-            // 
-            // listBox21
-            // 
-            listBox21.FormattingEnabled = true;
-            listBox21.ItemHeight = 15;
-            listBox21.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox21.Location = new Point(1277, 663);
-            listBox21.Name = "listBox21";
-            listBox21.Size = new Size(90, 19);
-            listBox21.TabIndex = 179;
-            // 
-            // listBox22
-            // 
-            listBox22.FormattingEnabled = true;
-            listBox22.ItemHeight = 15;
-            listBox22.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox22.Location = new Point(1277, 693);
-            listBox22.Name = "listBox22";
-            listBox22.Size = new Size(90, 19);
-            listBox22.TabIndex = 179;
-            // 
-            // listBox23
-            // 
-            listBox23.FormattingEnabled = true;
-            listBox23.ItemHeight = 15;
-            listBox23.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox23.Location = new Point(1277, 723);
-            listBox23.Name = "listBox23";
-            listBox23.Size = new Size(90, 19);
-            listBox23.TabIndex = 179;
-            // 
-            // listBox24
-            // 
-            listBox24.FormattingEnabled = true;
-            listBox24.ItemHeight = 15;
-            listBox24.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox24.Location = new Point(1277, 753);
-            listBox24.Name = "listBox24";
-            listBox24.Size = new Size(90, 19);
-            listBox24.TabIndex = 179;
-            // 
-            // listBox25
-            // 
-            listBox25.FormattingEnabled = true;
-            listBox25.ItemHeight = 15;
-            listBox25.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox25.Location = new Point(1277, 783);
-            listBox25.Name = "listBox25";
-            listBox25.Size = new Size(90, 19);
-            listBox25.TabIndex = 179;
-            // 
-            // listBox26
-            // 
-            listBox26.FormattingEnabled = true;
-            listBox26.ItemHeight = 15;
-            listBox26.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox26.Location = new Point(1277, 813);
-            listBox26.Name = "listBox26";
-            listBox26.Size = new Size(90, 19);
-            listBox26.TabIndex = 179;
-            // 
-            // listBox27
-            // 
-            listBox27.FormattingEnabled = true;
-            listBox27.ItemHeight = 15;
-            listBox27.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox27.Location = new Point(1277, 843);
-            listBox27.Name = "listBox27";
-            listBox27.Size = new Size(90, 19);
-            listBox27.TabIndex = 179;
-            // 
-            // listBox28
-            // 
-            listBox28.FormattingEnabled = true;
-            listBox28.ItemHeight = 15;
-            listBox28.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox28.Location = new Point(1277, 873);
-            listBox28.Name = "listBox28";
-            listBox28.Size = new Size(90, 19);
-            listBox28.TabIndex = 179;
-            // 
-            // listBox29
-            // 
-            listBox29.FormattingEnabled = true;
-            listBox29.ItemHeight = 15;
-            listBox29.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
-            listBox29.Location = new Point(1277, 903);
-            listBox29.Name = "listBox29";
-            listBox29.Size = new Size(90, 19);
-            listBox29.TabIndex = 179;
-            // 
             // label49
             // 
             label49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
@@ -6018,6 +5728,267 @@
             label1.Size = new Size(240, 25);
             label1.TabIndex = 15;
             label1.Text = "Purchase Part Disposition";
+            // 
+            // OrderModeK21
+            // 
+            OrderModeK21.FormattingEnabled = true;
+            OrderModeK21.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK21.Location = new Point(1277, 63);
+            OrderModeK21.Name = "OrderModeK21";
+            OrderModeK21.Size = new Size(90, 23);
+            OrderModeK21.TabIndex = 528;
+            // 
+            // OrderModeK22
+            // 
+            OrderModeK22.FormattingEnabled = true;
+            OrderModeK22.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK22.Location = new Point(1277, 93);
+            OrderModeK22.Name = "OrderModeK22";
+            OrderModeK22.Size = new Size(90, 23);
+            OrderModeK22.TabIndex = 529;
+            // 
+            // OrderModeK23
+            // 
+            OrderModeK23.FormattingEnabled = true;
+            OrderModeK23.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK23.Location = new Point(1277, 123);
+            OrderModeK23.Name = "OrderModeK23";
+            OrderModeK23.Size = new Size(90, 23);
+            OrderModeK23.TabIndex = 530;
+            // 
+            // OrderModeK24
+            // 
+            OrderModeK24.FormattingEnabled = true;
+            OrderModeK24.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK24.Location = new Point(1277, 153);
+            OrderModeK24.Name = "OrderModeK24";
+            OrderModeK24.Size = new Size(90, 23);
+            OrderModeK24.TabIndex = 531;
+            // 
+            // OrderModeK25
+            // 
+            OrderModeK25.FormattingEnabled = true;
+            OrderModeK25.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK25.Location = new Point(1277, 183);
+            OrderModeK25.Name = "OrderModeK25";
+            OrderModeK25.Size = new Size(90, 23);
+            OrderModeK25.TabIndex = 532;
+            // 
+            // OrderModeK27
+            // 
+            OrderModeK27.FormattingEnabled = true;
+            OrderModeK27.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK27.Location = new Point(1277, 213);
+            OrderModeK27.Name = "OrderModeK27";
+            OrderModeK27.Size = new Size(90, 23);
+            OrderModeK27.TabIndex = 533;
+            // 
+            // OrderModeK28
+            // 
+            OrderModeK28.FormattingEnabled = true;
+            OrderModeK28.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK28.Location = new Point(1277, 243);
+            OrderModeK28.Name = "OrderModeK28";
+            OrderModeK28.Size = new Size(90, 23);
+            OrderModeK28.TabIndex = 534;
+            // 
+            // OrderModeK32
+            // 
+            OrderModeK32.FormattingEnabled = true;
+            OrderModeK32.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK32.Location = new Point(1277, 273);
+            OrderModeK32.Name = "OrderModeK32";
+            OrderModeK32.Size = new Size(90, 23);
+            OrderModeK32.TabIndex = 535;
+            // 
+            // OrderModeK33
+            // 
+            OrderModeK33.FormattingEnabled = true;
+            OrderModeK33.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK33.Location = new Point(1277, 303);
+            OrderModeK33.Name = "OrderModeK33";
+            OrderModeK33.Size = new Size(90, 23);
+            OrderModeK33.TabIndex = 536;
+            // 
+            // OrderModeK34
+            // 
+            OrderModeK34.FormattingEnabled = true;
+            OrderModeK34.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK34.Location = new Point(1277, 333);
+            OrderModeK34.Name = "OrderModeK34";
+            OrderModeK34.Size = new Size(90, 23);
+            OrderModeK34.TabIndex = 537;
+            // 
+            // OrderModeK35
+            // 
+            OrderModeK35.FormattingEnabled = true;
+            OrderModeK35.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK35.Location = new Point(1277, 363);
+            OrderModeK35.Name = "OrderModeK35";
+            OrderModeK35.Size = new Size(90, 23);
+            OrderModeK35.TabIndex = 538;
+            // 
+            // OrderModeK36
+            // 
+            OrderModeK36.FormattingEnabled = true;
+            OrderModeK36.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK36.Location = new Point(1277, 393);
+            OrderModeK36.Name = "OrderModeK36";
+            OrderModeK36.Size = new Size(90, 23);
+            OrderModeK36.TabIndex = 539;
+            // 
+            // OrderModeK37
+            // 
+            OrderModeK37.FormattingEnabled = true;
+            OrderModeK37.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK37.Location = new Point(1277, 423);
+            OrderModeK37.Name = "OrderModeK37";
+            OrderModeK37.Size = new Size(90, 23);
+            OrderModeK37.TabIndex = 540;
+            // 
+            // OrderModeK38
+            // 
+            OrderModeK38.FormattingEnabled = true;
+            OrderModeK38.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK38.Location = new Point(1277, 453);
+            OrderModeK38.Name = "OrderModeK38";
+            OrderModeK38.Size = new Size(90, 23);
+            OrderModeK38.TabIndex = 541;
+            // 
+            // OrderModeK39
+            // 
+            OrderModeK39.FormattingEnabled = true;
+            OrderModeK39.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK39.Location = new Point(1277, 483);
+            OrderModeK39.Name = "OrderModeK39";
+            OrderModeK39.Size = new Size(90, 23);
+            OrderModeK39.TabIndex = 542;
+            // 
+            // OrderModeK40
+            // 
+            OrderModeK40.FormattingEnabled = true;
+            OrderModeK40.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK40.Location = new Point(1277, 513);
+            OrderModeK40.Name = "OrderModeK40";
+            OrderModeK40.Size = new Size(90, 23);
+            OrderModeK40.TabIndex = 543;
+            // 
+            // OrderModeK41
+            // 
+            OrderModeK41.FormattingEnabled = true;
+            OrderModeK41.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK41.Location = new Point(1277, 543);
+            OrderModeK41.Name = "OrderModeK41";
+            OrderModeK41.Size = new Size(90, 23);
+            OrderModeK41.TabIndex = 544;
+            // 
+            // OrderModeK42
+            // 
+            OrderModeK42.FormattingEnabled = true;
+            OrderModeK42.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK42.Location = new Point(1277, 573);
+            OrderModeK42.Name = "OrderModeK42";
+            OrderModeK42.Size = new Size(90, 23);
+            OrderModeK42.TabIndex = 545;
+            // 
+            // OrderModeK43
+            // 
+            OrderModeK43.FormattingEnabled = true;
+            OrderModeK43.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK43.Location = new Point(1277, 603);
+            OrderModeK43.Name = "OrderModeK43";
+            OrderModeK43.Size = new Size(90, 23);
+            OrderModeK43.TabIndex = 546;
+            // 
+            // OrderModeK44
+            // 
+            OrderModeK44.FormattingEnabled = true;
+            OrderModeK44.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK44.Location = new Point(1277, 633);
+            OrderModeK44.Name = "OrderModeK44";
+            OrderModeK44.Size = new Size(90, 23);
+            OrderModeK44.TabIndex = 547;
+            // 
+            // OrderModeK45
+            // 
+            OrderModeK45.FormattingEnabled = true;
+            OrderModeK45.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK45.Location = new Point(1277, 663);
+            OrderModeK45.Name = "OrderModeK45";
+            OrderModeK45.Size = new Size(90, 23);
+            OrderModeK45.TabIndex = 548;
+            // 
+            // OrderModeK46
+            // 
+            OrderModeK46.FormattingEnabled = true;
+            OrderModeK46.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK46.Location = new Point(1277, 693);
+            OrderModeK46.Name = "OrderModeK46";
+            OrderModeK46.Size = new Size(90, 23);
+            OrderModeK46.TabIndex = 549;
+            // 
+            // OrderModeK47
+            // 
+            OrderModeK47.FormattingEnabled = true;
+            OrderModeK47.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK47.Location = new Point(1277, 723);
+            OrderModeK47.Name = "OrderModeK47";
+            OrderModeK47.Size = new Size(90, 23);
+            OrderModeK47.TabIndex = 550;
+            // 
+            // OrderModeK48
+            // 
+            OrderModeK48.FormattingEnabled = true;
+            OrderModeK48.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderModeK48.Location = new Point(1277, 753);
+            OrderModeK48.Name = "OrderModeK48";
+            OrderModeK48.Size = new Size(90, 23);
+            OrderModeK48.TabIndex = 551;
+            // 
+            // OrderMode52
+            // 
+            OrderMode52.FormattingEnabled = true;
+            OrderMode52.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderMode52.Location = new Point(1277, 783);
+            OrderMode52.Name = "OrderMode52";
+            OrderMode52.Size = new Size(90, 23);
+            OrderMode52.TabIndex = 552;
+            // 
+            // OrderMode53
+            // 
+            OrderMode53.FormattingEnabled = true;
+            OrderMode53.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderMode53.Location = new Point(1277, 813);
+            OrderMode53.Name = "OrderMode53";
+            OrderMode53.Size = new Size(90, 23);
+            OrderMode53.TabIndex = 553;
+            // 
+            // OrderMode57
+            // 
+            OrderMode57.FormattingEnabled = true;
+            OrderMode57.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderMode57.Location = new Point(1277, 843);
+            OrderMode57.Name = "OrderMode57";
+            OrderMode57.Size = new Size(90, 23);
+            OrderMode57.TabIndex = 554;
+            // 
+            // OrderMode58
+            // 
+            OrderMode58.FormattingEnabled = true;
+            OrderMode58.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderMode58.Location = new Point(1277, 873);
+            OrderMode58.Name = "OrderMode58";
+            OrderMode58.Size = new Size(90, 23);
+            OrderMode58.TabIndex = 555;
+            // 
+            // OrderMode59
+            // 
+            OrderMode59.FormattingEnabled = true;
+            OrderMode59.Items.AddRange(new object[] { "", "Normal (5)", "Rush (4)" });
+            OrderMode59.Location = new Point(1277, 903);
+            OrderMode59.Name = "OrderMode59";
+            OrderMode59.Size = new Size(90, 23);
+            OrderMode59.TabIndex = 556;
             // 
             // PurchasePartDisposition
             // 
@@ -6174,7 +6145,6 @@
         private ListBox listBox26;
         private ListBox listBox27;
         private ListBox listBox28;
-        private ListBox listBox29;
         private Label label49;
         private Label RequK28_3;
         private Label RequK28_2;
@@ -6523,5 +6493,34 @@
         private Label InventoryK47;
         private Label label236;
         private Label label235;
+        private ComboBox OrderModeK21;
+        private ComboBox OrderMode59;
+        private ComboBox OrderMode58;
+        private ComboBox OrderMode57;
+        private ComboBox OrderMode53;
+        private ComboBox OrderMode52;
+        private ComboBox OrderModeK48;
+        private ComboBox OrderModeK47;
+        private ComboBox OrderModeK46;
+        private ComboBox OrderModeK45;
+        private ComboBox OrderModeK44;
+        private ComboBox OrderModeK43;
+        private ComboBox OrderModeK42;
+        private ComboBox OrderModeK41;
+        private ComboBox OrderModeK40;
+        private ComboBox OrderModeK39;
+        private ComboBox OrderModeK38;
+        private ComboBox OrderModeK37;
+        private ComboBox OrderModeK36;
+        private ComboBox OrderModeK35;
+        private ComboBox OrderModeK34;
+        private ComboBox OrderModeK33;
+        private ComboBox OrderModeK32;
+        private ComboBox OrderModeK28;
+        private ComboBox OrderModeK27;
+        private ComboBox OrderModeK25;
+        private ComboBox OrderModeK24;
+        private ComboBox OrderModeK23;
+        private ComboBox OrderModeK22;
     }
 }
