@@ -87,10 +87,10 @@ namespace supplyChainSimulation
 
             foreach (var time in totalCapacity)
             {
-                int id = time.Key; 
+                int id = time.Key;
                 int worktime = time.Value;
 
-                shifts[id] = 1; 
+                shifts[id] = 1;
                 int weeklyOvertime = 0;
 
                 if (worktime > 3600)
@@ -379,6 +379,11 @@ namespace supplyChainSimulation
             AssignValue(setupTimeBacklog13, setupBacklogSum, 13);
             AssignValue(setupTimeBacklog14, setupBacklogSum, 14);
             AssignValue(setupTimeBacklog15, setupBacklogSum, 15);
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
