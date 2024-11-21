@@ -38,9 +38,10 @@
             // 
             p1_desc.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             p1_desc.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            p1_desc.Location = new Point(12, 250);
+            p1_desc.Location = new Point(17, 417);
+            p1_desc.Margin = new Padding(4, 0, 4, 0);
             p1_desc.Name = "p1_desc";
-            p1_desc.Size = new Size(776, 25);
+            p1_desc.Size = new Size(1109, 42);
             p1_desc.TabIndex = 2;
             p1_desc.Text = "Please upload your last result file:";
             p1_desc.TextAlign = ContentAlignment.MiddleCenter;
@@ -48,9 +49,10 @@
             // p1_uploadXML
             // 
             p1_uploadXML.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            p1_uploadXML.Location = new Point(328, 303);
+            p1_uploadXML.Location = new Point(469, 505);
+            p1_uploadXML.Margin = new Padding(4, 5, 4, 5);
             p1_uploadXML.Name = "p1_uploadXML";
-            p1_uploadXML.Size = new Size(129, 35);
+            p1_uploadXML.Size = new Size(184, 58);
             p1_uploadXML.TabIndex = 3;
             p1_uploadXML.Text = "Upload XML file";
             p1_uploadXML.UseVisualStyleBackColor = true;
@@ -60,9 +62,10 @@
             // 
             switchToLieferProdProg.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             switchToLieferProdProg.Enabled = false;
-            switchToLieferProdProg.Location = new Point(713, 415);
+            switchToLieferProdProg.Location = new Point(1019, 692);
+            switchToLieferProdProg.Margin = new Padding(4, 5, 4, 5);
             switchToLieferProdProg.Name = "switchToLieferProdProg";
-            switchToLieferProdProg.Size = new Size(75, 23);
+            switchToLieferProdProg.Size = new Size(107, 38);
             switchToLieferProdProg.TabIndex = 4;
             switchToLieferProdProg.Text = "Next";
             switchToLieferProdProg.UseVisualStyleBackColor = true;
@@ -72,22 +75,25 @@
             // 
             label1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 38);
+            label1.Location = new Point(17, 63);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(776, 40);
+            label1.Size = new Size(1109, 67);
             label1.TabIndex = 5;
             label1.Text = "SCS - Supply Chain Simulator";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Upload
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            AutoScroll = true;
+            ClientSize = new Size(1143, 750);
             Controls.Add(label1);
             Controls.Add(switchToLieferProdProg);
             Controls.Add(p1_uploadXML);
             Controls.Add(p1_desc);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Upload";
             Text = "Supply Chain Simulator - Upload";
             Load += Upload_Load;

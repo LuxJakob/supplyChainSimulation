@@ -47,9 +47,10 @@
             // 
             label1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 36);
+            label1.Location = new Point(17, 60);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(776, 40);
+            label1.Size = new Size(1109, 67);
             label1.TabIndex = 8;
             label1.Text = "SCS - Supply Chain Simulator";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -57,9 +58,10 @@
             // p1_uploadXML
             // 
             p1_uploadXML.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            p1_uploadXML.Location = new Point(328, 340);
+            p1_uploadXML.Location = new Point(469, 567);
+            p1_uploadXML.Margin = new Padding(4, 5, 4, 5);
             p1_uploadXML.Name = "p1_uploadXML";
-            p1_uploadXML.Size = new Size(129, 35);
+            p1_uploadXML.Size = new Size(184, 58);
             p1_uploadXML.TabIndex = 7;
             p1_uploadXML.Text = "Download XML file";
             p1_uploadXML.UseVisualStyleBackColor = true;
@@ -69,9 +71,10 @@
             // 
             p1_desc.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             p1_desc.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            p1_desc.Location = new Point(12, 287);
+            p1_desc.Location = new Point(17, 478);
+            p1_desc.Margin = new Padding(4, 0, 4, 0);
             p1_desc.Name = "p1_desc";
-            p1_desc.Size = new Size(776, 25);
+            p1_desc.Size = new Size(1109, 42);
             p1_desc.TabIndex = 6;
             p1_desc.Text = "Get your finished XML file:";
             p1_desc.TextAlign = ContentAlignment.MiddleCenter;
@@ -85,18 +88,20 @@
             panel1.Controls.Add(hack_script);
             panel1.Controls.Add(hack_ram);
             panel1.Controls.Add(hack_lol);
-            panel1.Location = new Point(12, 134);
+            panel1.Location = new Point(17, 223);
+            panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(776, 128);
+            panel1.Size = new Size(1109, 213);
             panel1.TabIndex = 9;
             panel1.Visible = false;
             // 
             // warningLabel
             // 
             warningLabel.Anchor = AnchorStyles.Right;
-            warningLabel.Location = new Point(521, 72);
+            warningLabel.Location = new Point(744, 120);
+            warningLabel.Margin = new Padding(4, 0, 4, 0);
             warningLabel.Name = "warningLabel";
-            warningLabel.Size = new Size(252, 55);
+            warningLabel.Size = new Size(360, 92);
             warningLabel.TabIndex = 4;
             warningLabel.TabStop = true;
             warningLabel.Text = "WARNING!";
@@ -109,10 +114,10 @@
             hack_nope.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             hack_nope.AutoSize = true;
             hack_nope.Checked = true;
-            hack_nope.Location = new Point(327, 78);
-            hack_nope.Margin = new Padding(250, 3, 3, 3);
+            hack_nope.Location = new Point(467, 130);
+            hack_nope.Margin = new Padding(357, 5, 4, 5);
             hack_nope.Name = "hack_nope";
-            hack_nope.Size = new Size(115, 19);
+            hack_nope.Size = new Size(174, 29);
             hack_nope.TabIndex = 3;
             hack_nope.TabStop = true;
             hack_nope.Text = "Maybe not today";
@@ -123,9 +128,10 @@
             warningText.Anchor = AnchorStyles.Right;
             warningText.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             warningText.ForeColor = Color.Red;
-            warningText.Location = new Point(521, 0);
+            warningText.Location = new Point(744, 0);
+            warningText.Margin = new Padding(4, 0, 4, 0);
             warningText.Name = "warningText";
-            warningText.Size = new Size(252, 72);
+            warningText.Size = new Size(360, 120);
             warningText.TabIndex = 5;
             warningText.Text = "label3";
             warningText.TextAlign = ContentAlignment.MiddleCenter;
@@ -135,10 +141,10 @@
             // 
             hack_script.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             hack_script.AutoSize = true;
-            hack_script.Location = new Point(327, 53);
-            hack_script.Margin = new Padding(250, 3, 3, 3);
+            hack_script.Location = new Point(467, 88);
+            hack_script.Margin = new Padding(357, 5, 4, 5);
             hack_script.Name = "hack_script";
-            hack_script.Size = new Size(102, 19);
+            hack_script.Size = new Size(151, 29);
             hack_script.TabIndex = 2;
             hack_script.Text = "Code Injection";
             hack_script.UseVisualStyleBackColor = true;
@@ -151,10 +157,10 @@
             // 
             hack_ram.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             hack_ram.AutoSize = true;
-            hack_ram.Location = new Point(327, 28);
-            hack_ram.Margin = new Padding(250, 3, 3, 3);
+            hack_ram.Location = new Point(467, 47);
+            hack_ram.Margin = new Padding(357, 5, 4, 5);
             hack_ram.Name = "hack_ram";
-            hack_ram.Size = new Size(134, 19);
+            hack_ram.Size = new Size(198, 29);
             hack_ram.TabIndex = 1;
             hack_ram.Text = "Resource Exhaustion";
             hack_ram.UseVisualStyleBackColor = true;
@@ -167,10 +173,10 @@
             // 
             hack_lol.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             hack_lol.AutoSize = true;
-            hack_lol.Location = new Point(327, 3);
-            hack_lol.Margin = new Padding(250, 3, 3, 3);
+            hack_lol.Location = new Point(467, 5);
+            hack_lol.Margin = new Padding(357, 5, 4, 5);
             hack_lol.Name = "hack_lol";
-            hack_lol.Size = new Size(136, 19);
+            hack_lol.Size = new Size(200, 29);
             hack_lol.TabIndex = 0;
             hack_lol.Text = "Billion Laughs Attack";
             hack_lol.UseVisualStyleBackColor = true;
@@ -183,9 +189,10 @@
             // 
             label2.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 106);
+            label2.Location = new Point(17, 177);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(776, 25);
+            label2.Size = new Size(1109, 42);
             label2.TabIndex = 10;
             label2.Text = "Wanna include something malicious?";
             label2.TextAlign = ContentAlignment.MiddleCenter;
@@ -193,9 +200,10 @@
             // switchPurchasePartDisposition
             // 
             switchPurchasePartDisposition.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            switchPurchasePartDisposition.Location = new Point(12, 415);
+            switchPurchasePartDisposition.Location = new Point(17, 692);
+            switchPurchasePartDisposition.Margin = new Padding(4, 5, 4, 5);
             switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
-            switchPurchasePartDisposition.Size = new Size(75, 23);
+            switchPurchasePartDisposition.Size = new Size(107, 38);
             switchPurchasePartDisposition.TabIndex = 11;
             switchPurchasePartDisposition.Text = "Back";
             switchPurchasePartDisposition.UseVisualStyleBackColor = true;
@@ -203,15 +211,17 @@
             // 
             // BuildXML
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            AutoScroll = true;
+            ClientSize = new Size(1143, 750);
             Controls.Add(switchPurchasePartDisposition);
             Controls.Add(label2);
             Controls.Add(panel1);
             Controls.Add(label1);
             Controls.Add(p1_uploadXML);
             Controls.Add(p1_desc);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "BuildXML";
             Text = "Supply Chain Simulator - Build XML";
             panel1.ResumeLayout(false);

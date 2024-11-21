@@ -223,9 +223,10 @@
             // switchToLieferProdProg
             // 
             switchToLieferProdProg.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            switchToLieferProdProg.Location = new Point(12, 727);
+            switchToLieferProdProg.Location = new Point(17, 1212);
+            switchToLieferProdProg.Margin = new Padding(4, 5, 4, 5);
             switchToLieferProdProg.Name = "switchToLieferProdProg";
-            switchToLieferProdProg.Size = new Size(75, 23);
+            switchToLieferProdProg.Size = new Size(107, 38);
             switchToLieferProdProg.TabIndex = 5;
             switchToLieferProdProg.Text = "Back";
             switchToLieferProdProg.UseVisualStyleBackColor = true;
@@ -235,29 +236,30 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(17, 15);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(211, 25);
+            label1.Size = new Size(325, 40);
             label1.TabIndex = 6;
             label1.Text = "P1 - Material Planning";
             // 
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 14;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 70F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 40F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 40F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 40F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 40F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 40F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 40F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 171F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 57F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 171F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 57F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 171F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 57F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 171F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 57F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 171F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 57F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 171F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 57F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 171F));
             tableLayoutPanel1.Controls.Add(PlannedE18, 5, 12);
             tableLayoutPanel1.Controls.Add(PlannedE13, 5, 11);
             tableLayoutPanel1.Controls.Add(PlannedE7, 5, 10);
@@ -432,33 +434,35 @@
             tableLayoutPanel1.Controls.Add(PlannedE261, 5, 2);
             tableLayoutPanel1.Controls.Add(SellwishP1, 1, 1);
             tableLayoutPanel1.Controls.Add(label14, 3, 1);
-            tableLayoutPanel1.Location = new Point(12, 37);
+            tableLayoutPanel1.Location = new Point(17, 62);
+            tableLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 13;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.Size = new Size(1150, 650);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 83F));
+            tableLayoutPanel1.Size = new Size(1643, 1083);
             tableLayoutPanel1.TabIndex = 7;
             // 
             // PlannedE18
             // 
             PlannedE18.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE18.Font = new Font("Segoe UI", 12F);
-            PlannedE18.Location = new Point(393, 610);
+            PlannedE18.Location = new Point(560, 1020);
+            PlannedE18.Margin = new Padding(4, 5, 4, 5);
             PlannedE18.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE18.Name = "PlannedE18";
-            PlannedE18.Size = new Size(114, 29);
+            PlannedE18.Size = new Size(163, 39);
             PlannedE18.TabIndex = 207;
             PlannedE18.TextAlign = HorizontalAlignment.Center;
             PlannedE18.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -468,10 +472,11 @@
             // 
             PlannedE13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE13.Font = new Font("Segoe UI", 12F);
-            PlannedE13.Location = new Point(393, 560);
+            PlannedE13.Location = new Point(560, 935);
+            PlannedE13.Margin = new Padding(4, 5, 4, 5);
             PlannedE13.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE13.Name = "PlannedE13";
-            PlannedE13.Size = new Size(114, 29);
+            PlannedE13.Size = new Size(163, 39);
             PlannedE13.TabIndex = 206;
             PlannedE13.TextAlign = HorizontalAlignment.Center;
             PlannedE13.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -481,10 +486,11 @@
             // 
             PlannedE7.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE7.Font = new Font("Segoe UI", 12F);
-            PlannedE7.Location = new Point(393, 510);
+            PlannedE7.Location = new Point(560, 852);
+            PlannedE7.Margin = new Padding(4, 5, 4, 5);
             PlannedE7.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE7.Name = "PlannedE7";
-            PlannedE7.Size = new Size(114, 29);
+            PlannedE7.Size = new Size(163, 39);
             PlannedE7.TabIndex = 205;
             PlannedE7.TextAlign = HorizontalAlignment.Center;
             PlannedE7.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -494,10 +500,11 @@
             // 
             PlannedE49.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE49.Font = new Font("Segoe UI", 12F);
-            PlannedE49.Location = new Point(393, 460);
+            PlannedE49.Location = new Point(560, 769);
+            PlannedE49.Margin = new Padding(4, 5, 4, 5);
             PlannedE49.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE49.Name = "PlannedE49";
-            PlannedE49.Size = new Size(114, 29);
+            PlannedE49.Size = new Size(163, 39);
             PlannedE49.TabIndex = 204;
             PlannedE49.TextAlign = HorizontalAlignment.Center;
             PlannedE49.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -507,10 +514,11 @@
             // 
             PlannedE10.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE10.Font = new Font("Segoe UI", 12F);
-            PlannedE10.Location = new Point(393, 410);
+            PlannedE10.Location = new Point(560, 686);
+            PlannedE10.Margin = new Padding(4, 5, 4, 5);
             PlannedE10.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE10.Name = "PlannedE10";
-            PlannedE10.Size = new Size(114, 29);
+            PlannedE10.Size = new Size(163, 39);
             PlannedE10.TabIndex = 203;
             PlannedE10.TextAlign = HorizontalAlignment.Center;
             PlannedE10.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -520,10 +528,11 @@
             // 
             PlannedE4.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE4.Font = new Font("Segoe UI", 12F);
-            PlannedE4.Location = new Point(393, 360);
+            PlannedE4.Location = new Point(560, 603);
+            PlannedE4.Margin = new Padding(4, 5, 4, 5);
             PlannedE4.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE4.Name = "PlannedE4";
-            PlannedE4.Size = new Size(114, 29);
+            PlannedE4.Size = new Size(163, 39);
             PlannedE4.TabIndex = 202;
             PlannedE4.TextAlign = HorizontalAlignment.Center;
             PlannedE4.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -533,10 +542,11 @@
             // 
             PlannedE50.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE50.Font = new Font("Segoe UI", 12F);
-            PlannedE50.Location = new Point(393, 310);
+            PlannedE50.Location = new Point(560, 520);
+            PlannedE50.Margin = new Padding(4, 5, 4, 5);
             PlannedE50.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE50.Name = "PlannedE50";
-            PlannedE50.Size = new Size(114, 29);
+            PlannedE50.Size = new Size(163, 39);
             PlannedE50.TabIndex = 201;
             PlannedE50.TextAlign = HorizontalAlignment.Center;
             PlannedE50.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -546,10 +556,11 @@
             // 
             PlannedE171.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE171.Font = new Font("Segoe UI", 12F);
-            PlannedE171.Location = new Point(393, 260);
+            PlannedE171.Location = new Point(560, 437);
+            PlannedE171.Margin = new Padding(4, 5, 4, 5);
             PlannedE171.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE171.Name = "PlannedE171";
-            PlannedE171.Size = new Size(114, 29);
+            PlannedE171.Size = new Size(163, 39);
             PlannedE171.TabIndex = 200;
             PlannedE171.TextAlign = HorizontalAlignment.Center;
             PlannedE171.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -559,10 +570,11 @@
             // 
             PlannedE161.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE161.Font = new Font("Segoe UI", 12F);
-            PlannedE161.Location = new Point(393, 210);
+            PlannedE161.Location = new Point(560, 354);
+            PlannedE161.Margin = new Padding(4, 5, 4, 5);
             PlannedE161.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE161.Name = "PlannedE161";
-            PlannedE161.Size = new Size(114, 29);
+            PlannedE161.Size = new Size(163, 39);
             PlannedE161.TabIndex = 199;
             PlannedE161.TextAlign = HorizontalAlignment.Center;
             PlannedE161.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -572,10 +584,11 @@
             // 
             PlannedE51.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE51.Font = new Font("Segoe UI", 12F);
-            PlannedE51.Location = new Point(393, 160);
+            PlannedE51.Location = new Point(560, 271);
+            PlannedE51.Margin = new Padding(4, 5, 4, 5);
             PlannedE51.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE51.Name = "PlannedE51";
-            PlannedE51.Size = new Size(114, 29);
+            PlannedE51.Size = new Size(163, 39);
             PlannedE51.TabIndex = 198;
             PlannedE51.TextAlign = HorizontalAlignment.Center;
             PlannedE51.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -585,9 +598,10 @@
             // 
             ProductionOrdersE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE18.Location = new Point(1033, 600);
+            ProductionOrdersE18.Location = new Point(1472, 996);
+            ProductionOrdersE18.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE18.Name = "ProductionOrdersE18";
-            ProductionOrdersE18.Size = new Size(114, 50);
+            ProductionOrdersE18.Size = new Size(163, 87);
             ProductionOrdersE18.TabIndex = 189;
             ProductionOrdersE18.Text = "number";
             ProductionOrdersE18.TextAlign = ContentAlignment.MiddleCenter;
@@ -596,9 +610,10 @@
             // 
             OrdersProgressE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE18.Location = new Point(873, 600);
+            OrdersProgressE18.Location = new Point(1244, 996);
+            OrdersProgressE18.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE18.Name = "OrdersProgressE18";
-            OrdersProgressE18.Size = new Size(114, 50);
+            OrdersProgressE18.Size = new Size(163, 87);
             OrdersProgressE18.TabIndex = 188;
             OrdersProgressE18.Text = "number";
             OrdersProgressE18.TextAlign = ContentAlignment.MiddleCenter;
@@ -607,9 +622,10 @@
             // 
             OrdersQueueE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE18.Location = new Point(713, 600);
+            OrdersQueueE18.Location = new Point(1016, 996);
+            OrdersQueueE18.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE18.Name = "OrdersQueueE18";
-            OrdersQueueE18.Size = new Size(114, 50);
+            OrdersQueueE18.Size = new Size(163, 87);
             OrdersQueueE18.TabIndex = 187;
             OrdersQueueE18.Text = "number";
             OrdersQueueE18.TextAlign = ContentAlignment.MiddleCenter;
@@ -618,9 +634,10 @@
             // 
             InventoryE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE18.Location = new Point(553, 600);
+            InventoryE18.Location = new Point(788, 996);
+            InventoryE18.Margin = new Padding(4, 0, 4, 0);
             InventoryE18.Name = "InventoryE18";
-            InventoryE18.Size = new Size(114, 50);
+            InventoryE18.Size = new Size(163, 87);
             InventoryE18.TabIndex = 186;
             InventoryE18.Text = "number";
             InventoryE18.TextAlign = ContentAlignment.MiddleCenter;
@@ -629,9 +646,10 @@
             // 
             SuccessorQueueE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE18.Location = new Point(233, 600);
+            SuccessorQueueE18.Location = new Point(332, 996);
+            SuccessorQueueE18.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE18.Name = "SuccessorQueueE18";
-            SuccessorQueueE18.Size = new Size(114, 50);
+            SuccessorQueueE18.Size = new Size(163, 87);
             SuccessorQueueE18.TabIndex = 185;
             SuccessorQueueE18.Text = "number";
             SuccessorQueueE18.TextAlign = ContentAlignment.MiddleCenter;
@@ -640,9 +658,10 @@
             // 
             SellwishE18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE18.Location = new Point(73, 600);
+            SellwishE18.Location = new Point(104, 996);
+            SellwishE18.Margin = new Padding(4, 0, 4, 0);
             SellwishE18.Name = "SellwishE18";
-            SellwishE18.Size = new Size(114, 50);
+            SellwishE18.Size = new Size(163, 87);
             SellwishE18.TabIndex = 184;
             SellwishE18.Text = "number";
             SellwishE18.TextAlign = ContentAlignment.MiddleCenter;
@@ -651,9 +670,10 @@
             // 
             ProductionOrdersE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE13.Location = new Point(1033, 550);
+            ProductionOrdersE13.Location = new Point(1472, 913);
+            ProductionOrdersE13.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE13.Name = "ProductionOrdersE13";
-            ProductionOrdersE13.Size = new Size(114, 50);
+            ProductionOrdersE13.Size = new Size(163, 83);
             ProductionOrdersE13.TabIndex = 183;
             ProductionOrdersE13.Text = "number";
             ProductionOrdersE13.TextAlign = ContentAlignment.MiddleCenter;
@@ -662,9 +682,10 @@
             // 
             OrdersProgressE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE13.Location = new Point(873, 550);
+            OrdersProgressE13.Location = new Point(1244, 913);
+            OrdersProgressE13.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE13.Name = "OrdersProgressE13";
-            OrdersProgressE13.Size = new Size(114, 50);
+            OrdersProgressE13.Size = new Size(163, 83);
             OrdersProgressE13.TabIndex = 182;
             OrdersProgressE13.Text = "number";
             OrdersProgressE13.TextAlign = ContentAlignment.MiddleCenter;
@@ -673,9 +694,10 @@
             // 
             OrdersQueueE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE13.Location = new Point(713, 550);
+            OrdersQueueE13.Location = new Point(1016, 913);
+            OrdersQueueE13.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE13.Name = "OrdersQueueE13";
-            OrdersQueueE13.Size = new Size(114, 50);
+            OrdersQueueE13.Size = new Size(163, 83);
             OrdersQueueE13.TabIndex = 181;
             OrdersQueueE13.Text = "number";
             OrdersQueueE13.TextAlign = ContentAlignment.MiddleCenter;
@@ -684,9 +706,10 @@
             // 
             InventoryE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE13.Location = new Point(553, 550);
+            InventoryE13.Location = new Point(788, 913);
+            InventoryE13.Margin = new Padding(4, 0, 4, 0);
             InventoryE13.Name = "InventoryE13";
-            InventoryE13.Size = new Size(114, 50);
+            InventoryE13.Size = new Size(163, 83);
             InventoryE13.TabIndex = 180;
             InventoryE13.Text = "number";
             InventoryE13.TextAlign = ContentAlignment.MiddleCenter;
@@ -695,9 +718,10 @@
             // 
             SuccessorQueueE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE13.Location = new Point(233, 550);
+            SuccessorQueueE13.Location = new Point(332, 913);
+            SuccessorQueueE13.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE13.Name = "SuccessorQueueE13";
-            SuccessorQueueE13.Size = new Size(114, 50);
+            SuccessorQueueE13.Size = new Size(163, 83);
             SuccessorQueueE13.TabIndex = 179;
             SuccessorQueueE13.Text = "number";
             SuccessorQueueE13.TextAlign = ContentAlignment.MiddleCenter;
@@ -706,9 +730,10 @@
             // 
             SellwishE13.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE13.Location = new Point(73, 550);
+            SellwishE13.Location = new Point(104, 913);
+            SellwishE13.Margin = new Padding(4, 0, 4, 0);
             SellwishE13.Name = "SellwishE13";
-            SellwishE13.Size = new Size(114, 50);
+            SellwishE13.Size = new Size(163, 83);
             SellwishE13.TabIndex = 178;
             SellwishE13.Text = "number";
             SellwishE13.TextAlign = ContentAlignment.MiddleCenter;
@@ -717,9 +742,10 @@
             // 
             ProductionOrdersE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE7.Location = new Point(1033, 500);
+            ProductionOrdersE7.Location = new Point(1472, 830);
+            ProductionOrdersE7.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE7.Name = "ProductionOrdersE7";
-            ProductionOrdersE7.Size = new Size(114, 50);
+            ProductionOrdersE7.Size = new Size(163, 83);
             ProductionOrdersE7.TabIndex = 177;
             ProductionOrdersE7.Text = "number";
             ProductionOrdersE7.TextAlign = ContentAlignment.MiddleCenter;
@@ -728,9 +754,10 @@
             // 
             OrdersProgressE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE7.Location = new Point(873, 500);
+            OrdersProgressE7.Location = new Point(1244, 830);
+            OrdersProgressE7.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE7.Name = "OrdersProgressE7";
-            OrdersProgressE7.Size = new Size(114, 50);
+            OrdersProgressE7.Size = new Size(163, 83);
             OrdersProgressE7.TabIndex = 176;
             OrdersProgressE7.Text = "number";
             OrdersProgressE7.TextAlign = ContentAlignment.MiddleCenter;
@@ -739,9 +766,10 @@
             // 
             OrdersQueueE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE7.Location = new Point(713, 500);
+            OrdersQueueE7.Location = new Point(1016, 830);
+            OrdersQueueE7.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE7.Name = "OrdersQueueE7";
-            OrdersQueueE7.Size = new Size(114, 50);
+            OrdersQueueE7.Size = new Size(163, 83);
             OrdersQueueE7.TabIndex = 175;
             OrdersQueueE7.Text = "number";
             OrdersQueueE7.TextAlign = ContentAlignment.MiddleCenter;
@@ -750,9 +778,10 @@
             // 
             InventoryE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE7.Location = new Point(553, 500);
+            InventoryE7.Location = new Point(788, 830);
+            InventoryE7.Margin = new Padding(4, 0, 4, 0);
             InventoryE7.Name = "InventoryE7";
-            InventoryE7.Size = new Size(114, 50);
+            InventoryE7.Size = new Size(163, 83);
             InventoryE7.TabIndex = 174;
             InventoryE7.Text = "number";
             InventoryE7.TextAlign = ContentAlignment.MiddleCenter;
@@ -761,9 +790,10 @@
             // 
             SuccessorQueueE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE7.Location = new Point(233, 500);
+            SuccessorQueueE7.Location = new Point(332, 830);
+            SuccessorQueueE7.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE7.Name = "SuccessorQueueE7";
-            SuccessorQueueE7.Size = new Size(114, 50);
+            SuccessorQueueE7.Size = new Size(163, 83);
             SuccessorQueueE7.TabIndex = 173;
             SuccessorQueueE7.Text = "number";
             SuccessorQueueE7.TextAlign = ContentAlignment.MiddleCenter;
@@ -772,9 +802,10 @@
             // 
             SellwishE7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE7.Location = new Point(73, 500);
+            SellwishE7.Location = new Point(104, 830);
+            SellwishE7.Margin = new Padding(4, 0, 4, 0);
             SellwishE7.Name = "SellwishE7";
-            SellwishE7.Size = new Size(114, 50);
+            SellwishE7.Size = new Size(163, 83);
             SellwishE7.TabIndex = 172;
             SellwishE7.Text = "number";
             SellwishE7.TextAlign = ContentAlignment.MiddleCenter;
@@ -783,9 +814,10 @@
             // 
             ProductionOrdersE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE49.Location = new Point(1033, 450);
+            ProductionOrdersE49.Location = new Point(1472, 747);
+            ProductionOrdersE49.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE49.Name = "ProductionOrdersE49";
-            ProductionOrdersE49.Size = new Size(114, 50);
+            ProductionOrdersE49.Size = new Size(163, 83);
             ProductionOrdersE49.TabIndex = 171;
             ProductionOrdersE49.Text = "number";
             ProductionOrdersE49.TextAlign = ContentAlignment.MiddleCenter;
@@ -794,9 +826,10 @@
             // 
             OrdersProgressE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE49.Location = new Point(873, 450);
+            OrdersProgressE49.Location = new Point(1244, 747);
+            OrdersProgressE49.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE49.Name = "OrdersProgressE49";
-            OrdersProgressE49.Size = new Size(114, 50);
+            OrdersProgressE49.Size = new Size(163, 83);
             OrdersProgressE49.TabIndex = 170;
             OrdersProgressE49.Text = "number";
             OrdersProgressE49.TextAlign = ContentAlignment.MiddleCenter;
@@ -805,9 +838,10 @@
             // 
             OrdersQueueE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE49.Location = new Point(713, 450);
+            OrdersQueueE49.Location = new Point(1016, 747);
+            OrdersQueueE49.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE49.Name = "OrdersQueueE49";
-            OrdersQueueE49.Size = new Size(114, 50);
+            OrdersQueueE49.Size = new Size(163, 83);
             OrdersQueueE49.TabIndex = 169;
             OrdersQueueE49.Text = "number";
             OrdersQueueE49.TextAlign = ContentAlignment.MiddleCenter;
@@ -816,9 +850,10 @@
             // 
             InventoryE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE49.Location = new Point(553, 450);
+            InventoryE49.Location = new Point(788, 747);
+            InventoryE49.Margin = new Padding(4, 0, 4, 0);
             InventoryE49.Name = "InventoryE49";
-            InventoryE49.Size = new Size(114, 50);
+            InventoryE49.Size = new Size(163, 83);
             InventoryE49.TabIndex = 168;
             InventoryE49.Text = "number";
             InventoryE49.TextAlign = ContentAlignment.MiddleCenter;
@@ -827,9 +862,10 @@
             // 
             SuccessorQueueE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE49.Location = new Point(233, 450);
+            SuccessorQueueE49.Location = new Point(332, 747);
+            SuccessorQueueE49.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE49.Name = "SuccessorQueueE49";
-            SuccessorQueueE49.Size = new Size(114, 50);
+            SuccessorQueueE49.Size = new Size(163, 83);
             SuccessorQueueE49.TabIndex = 167;
             SuccessorQueueE49.Text = "number";
             SuccessorQueueE49.TextAlign = ContentAlignment.MiddleCenter;
@@ -838,9 +874,10 @@
             // 
             SellwishE49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE49.Location = new Point(73, 450);
+            SellwishE49.Location = new Point(104, 747);
+            SellwishE49.Margin = new Padding(4, 0, 4, 0);
             SellwishE49.Name = "SellwishE49";
-            SellwishE49.Size = new Size(114, 50);
+            SellwishE49.Size = new Size(163, 83);
             SellwishE49.TabIndex = 166;
             SellwishE49.Text = "number";
             SellwishE49.TextAlign = ContentAlignment.MiddleCenter;
@@ -849,9 +886,10 @@
             // 
             ProductionOrdersE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE10.Location = new Point(1033, 400);
+            ProductionOrdersE10.Location = new Point(1472, 664);
+            ProductionOrdersE10.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE10.Name = "ProductionOrdersE10";
-            ProductionOrdersE10.Size = new Size(114, 50);
+            ProductionOrdersE10.Size = new Size(163, 83);
             ProductionOrdersE10.TabIndex = 165;
             ProductionOrdersE10.Text = "number";
             ProductionOrdersE10.TextAlign = ContentAlignment.MiddleCenter;
@@ -860,9 +898,10 @@
             // 
             OrdersProgressE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE10.Location = new Point(873, 400);
+            OrdersProgressE10.Location = new Point(1244, 664);
+            OrdersProgressE10.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE10.Name = "OrdersProgressE10";
-            OrdersProgressE10.Size = new Size(114, 50);
+            OrdersProgressE10.Size = new Size(163, 83);
             OrdersProgressE10.TabIndex = 164;
             OrdersProgressE10.Text = "number";
             OrdersProgressE10.TextAlign = ContentAlignment.MiddleCenter;
@@ -871,9 +910,10 @@
             // 
             OrdersQueueE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE10.Location = new Point(713, 400);
+            OrdersQueueE10.Location = new Point(1016, 664);
+            OrdersQueueE10.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE10.Name = "OrdersQueueE10";
-            OrdersQueueE10.Size = new Size(114, 50);
+            OrdersQueueE10.Size = new Size(163, 83);
             OrdersQueueE10.TabIndex = 163;
             OrdersQueueE10.Text = "number";
             OrdersQueueE10.TextAlign = ContentAlignment.MiddleCenter;
@@ -882,9 +922,10 @@
             // 
             InventoryE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE10.Location = new Point(553, 400);
+            InventoryE10.Location = new Point(788, 664);
+            InventoryE10.Margin = new Padding(4, 0, 4, 0);
             InventoryE10.Name = "InventoryE10";
-            InventoryE10.Size = new Size(114, 50);
+            InventoryE10.Size = new Size(163, 83);
             InventoryE10.TabIndex = 162;
             InventoryE10.Text = "number";
             InventoryE10.TextAlign = ContentAlignment.MiddleCenter;
@@ -893,9 +934,10 @@
             // 
             SuccessorQueueE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE10.Location = new Point(233, 400);
+            SuccessorQueueE10.Location = new Point(332, 664);
+            SuccessorQueueE10.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE10.Name = "SuccessorQueueE10";
-            SuccessorQueueE10.Size = new Size(114, 50);
+            SuccessorQueueE10.Size = new Size(163, 83);
             SuccessorQueueE10.TabIndex = 161;
             SuccessorQueueE10.Text = "number";
             SuccessorQueueE10.TextAlign = ContentAlignment.MiddleCenter;
@@ -904,9 +946,10 @@
             // 
             SellwishE10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE10.Location = new Point(73, 400);
+            SellwishE10.Location = new Point(104, 664);
+            SellwishE10.Margin = new Padding(4, 0, 4, 0);
             SellwishE10.Name = "SellwishE10";
-            SellwishE10.Size = new Size(114, 50);
+            SellwishE10.Size = new Size(163, 83);
             SellwishE10.TabIndex = 160;
             SellwishE10.Text = "number";
             SellwishE10.TextAlign = ContentAlignment.MiddleCenter;
@@ -915,9 +958,10 @@
             // 
             ProductionOrdersE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE4.Location = new Point(1033, 350);
+            ProductionOrdersE4.Location = new Point(1472, 581);
+            ProductionOrdersE4.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE4.Name = "ProductionOrdersE4";
-            ProductionOrdersE4.Size = new Size(114, 50);
+            ProductionOrdersE4.Size = new Size(163, 83);
             ProductionOrdersE4.TabIndex = 159;
             ProductionOrdersE4.Text = "number";
             ProductionOrdersE4.TextAlign = ContentAlignment.MiddleCenter;
@@ -926,9 +970,10 @@
             // 
             OrdersProgressE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE4.Location = new Point(873, 350);
+            OrdersProgressE4.Location = new Point(1244, 581);
+            OrdersProgressE4.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE4.Name = "OrdersProgressE4";
-            OrdersProgressE4.Size = new Size(114, 50);
+            OrdersProgressE4.Size = new Size(163, 83);
             OrdersProgressE4.TabIndex = 158;
             OrdersProgressE4.Text = "number";
             OrdersProgressE4.TextAlign = ContentAlignment.MiddleCenter;
@@ -937,9 +982,10 @@
             // 
             OrdersQueueE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE4.Location = new Point(713, 350);
+            OrdersQueueE4.Location = new Point(1016, 581);
+            OrdersQueueE4.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE4.Name = "OrdersQueueE4";
-            OrdersQueueE4.Size = new Size(114, 50);
+            OrdersQueueE4.Size = new Size(163, 83);
             OrdersQueueE4.TabIndex = 157;
             OrdersQueueE4.Text = "number";
             OrdersQueueE4.TextAlign = ContentAlignment.MiddleCenter;
@@ -948,9 +994,10 @@
             // 
             InventoryE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE4.Location = new Point(553, 350);
+            InventoryE4.Location = new Point(788, 581);
+            InventoryE4.Margin = new Padding(4, 0, 4, 0);
             InventoryE4.Name = "InventoryE4";
-            InventoryE4.Size = new Size(114, 50);
+            InventoryE4.Size = new Size(163, 83);
             InventoryE4.TabIndex = 156;
             InventoryE4.Text = "number";
             InventoryE4.TextAlign = ContentAlignment.MiddleCenter;
@@ -959,9 +1006,10 @@
             // 
             SuccessorQueueE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE4.Location = new Point(233, 350);
+            SuccessorQueueE4.Location = new Point(332, 581);
+            SuccessorQueueE4.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE4.Name = "SuccessorQueueE4";
-            SuccessorQueueE4.Size = new Size(114, 50);
+            SuccessorQueueE4.Size = new Size(163, 83);
             SuccessorQueueE4.TabIndex = 155;
             SuccessorQueueE4.Text = "number";
             SuccessorQueueE4.TextAlign = ContentAlignment.MiddleCenter;
@@ -970,9 +1018,10 @@
             // 
             SellwishE4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE4.Location = new Point(73, 350);
+            SellwishE4.Location = new Point(104, 581);
+            SellwishE4.Margin = new Padding(4, 0, 4, 0);
             SellwishE4.Name = "SellwishE4";
-            SellwishE4.Size = new Size(114, 50);
+            SellwishE4.Size = new Size(163, 83);
             SellwishE4.TabIndex = 154;
             SellwishE4.Text = "number";
             SellwishE4.TextAlign = ContentAlignment.MiddleCenter;
@@ -981,9 +1030,10 @@
             // 
             ProductionOrdersE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE50.Location = new Point(1033, 300);
+            ProductionOrdersE50.Location = new Point(1472, 498);
+            ProductionOrdersE50.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE50.Name = "ProductionOrdersE50";
-            ProductionOrdersE50.Size = new Size(114, 50);
+            ProductionOrdersE50.Size = new Size(163, 83);
             ProductionOrdersE50.TabIndex = 153;
             ProductionOrdersE50.Text = "number";
             ProductionOrdersE50.TextAlign = ContentAlignment.MiddleCenter;
@@ -992,9 +1042,10 @@
             // 
             OrdersProgressE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE50.Location = new Point(873, 300);
+            OrdersProgressE50.Location = new Point(1244, 498);
+            OrdersProgressE50.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE50.Name = "OrdersProgressE50";
-            OrdersProgressE50.Size = new Size(114, 50);
+            OrdersProgressE50.Size = new Size(163, 83);
             OrdersProgressE50.TabIndex = 152;
             OrdersProgressE50.Text = "number";
             OrdersProgressE50.TextAlign = ContentAlignment.MiddleCenter;
@@ -1003,9 +1054,10 @@
             // 
             OrdersQueueE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE50.Location = new Point(713, 300);
+            OrdersQueueE50.Location = new Point(1016, 498);
+            OrdersQueueE50.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE50.Name = "OrdersQueueE50";
-            OrdersQueueE50.Size = new Size(114, 50);
+            OrdersQueueE50.Size = new Size(163, 83);
             OrdersQueueE50.TabIndex = 151;
             OrdersQueueE50.Text = "number";
             OrdersQueueE50.TextAlign = ContentAlignment.MiddleCenter;
@@ -1014,9 +1066,10 @@
             // 
             InventoryE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE50.Location = new Point(553, 300);
+            InventoryE50.Location = new Point(788, 498);
+            InventoryE50.Margin = new Padding(4, 0, 4, 0);
             InventoryE50.Name = "InventoryE50";
-            InventoryE50.Size = new Size(114, 50);
+            InventoryE50.Size = new Size(163, 83);
             InventoryE50.TabIndex = 150;
             InventoryE50.Text = "number";
             InventoryE50.TextAlign = ContentAlignment.MiddleCenter;
@@ -1025,9 +1078,10 @@
             // 
             SuccessorQueueE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE50.Location = new Point(233, 300);
+            SuccessorQueueE50.Location = new Point(332, 498);
+            SuccessorQueueE50.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE50.Name = "SuccessorQueueE50";
-            SuccessorQueueE50.Size = new Size(114, 50);
+            SuccessorQueueE50.Size = new Size(163, 83);
             SuccessorQueueE50.TabIndex = 149;
             SuccessorQueueE50.Text = "number";
             SuccessorQueueE50.TextAlign = ContentAlignment.MiddleCenter;
@@ -1036,9 +1090,10 @@
             // 
             SellwishE50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE50.Location = new Point(73, 300);
+            SellwishE50.Location = new Point(104, 498);
+            SellwishE50.Margin = new Padding(4, 0, 4, 0);
             SellwishE50.Name = "SellwishE50";
-            SellwishE50.Size = new Size(114, 50);
+            SellwishE50.Size = new Size(163, 83);
             SellwishE50.TabIndex = 148;
             SellwishE50.Text = "number";
             SellwishE50.TextAlign = ContentAlignment.MiddleCenter;
@@ -1047,9 +1102,10 @@
             // 
             ProductionOrdersE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE171.Location = new Point(1033, 250);
+            ProductionOrdersE171.Location = new Point(1472, 415);
+            ProductionOrdersE171.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE171.Name = "ProductionOrdersE171";
-            ProductionOrdersE171.Size = new Size(114, 50);
+            ProductionOrdersE171.Size = new Size(163, 83);
             ProductionOrdersE171.TabIndex = 147;
             ProductionOrdersE171.Text = "number";
             ProductionOrdersE171.TextAlign = ContentAlignment.MiddleCenter;
@@ -1058,9 +1114,10 @@
             // 
             OrdersProgressE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE171.Location = new Point(873, 250);
+            OrdersProgressE171.Location = new Point(1244, 415);
+            OrdersProgressE171.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE171.Name = "OrdersProgressE171";
-            OrdersProgressE171.Size = new Size(114, 50);
+            OrdersProgressE171.Size = new Size(163, 83);
             OrdersProgressE171.TabIndex = 146;
             OrdersProgressE171.Text = "number";
             OrdersProgressE171.TextAlign = ContentAlignment.MiddleCenter;
@@ -1069,9 +1126,10 @@
             // 
             OrdersQueueE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE171.Location = new Point(713, 250);
+            OrdersQueueE171.Location = new Point(1016, 415);
+            OrdersQueueE171.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE171.Name = "OrdersQueueE171";
-            OrdersQueueE171.Size = new Size(114, 50);
+            OrdersQueueE171.Size = new Size(163, 83);
             OrdersQueueE171.TabIndex = 145;
             OrdersQueueE171.Text = "number";
             OrdersQueueE171.TextAlign = ContentAlignment.MiddleCenter;
@@ -1080,9 +1138,10 @@
             // 
             InventoryE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE171.Location = new Point(553, 250);
+            InventoryE171.Location = new Point(788, 415);
+            InventoryE171.Margin = new Padding(4, 0, 4, 0);
             InventoryE171.Name = "InventoryE171";
-            InventoryE171.Size = new Size(114, 50);
+            InventoryE171.Size = new Size(163, 83);
             InventoryE171.TabIndex = 144;
             InventoryE171.Text = "number";
             InventoryE171.TextAlign = ContentAlignment.MiddleCenter;
@@ -1091,9 +1150,10 @@
             // 
             SuccessorQueueE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE171.Location = new Point(233, 250);
+            SuccessorQueueE171.Location = new Point(332, 415);
+            SuccessorQueueE171.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE171.Name = "SuccessorQueueE171";
-            SuccessorQueueE171.Size = new Size(114, 50);
+            SuccessorQueueE171.Size = new Size(163, 83);
             SuccessorQueueE171.TabIndex = 143;
             SuccessorQueueE171.Text = "number";
             SuccessorQueueE171.TextAlign = ContentAlignment.MiddleCenter;
@@ -1102,9 +1162,10 @@
             // 
             SellwishE171.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE171.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE171.Location = new Point(73, 250);
+            SellwishE171.Location = new Point(104, 415);
+            SellwishE171.Margin = new Padding(4, 0, 4, 0);
             SellwishE171.Name = "SellwishE171";
-            SellwishE171.Size = new Size(114, 50);
+            SellwishE171.Size = new Size(163, 83);
             SellwishE171.TabIndex = 142;
             SellwishE171.Text = "number";
             SellwishE171.TextAlign = ContentAlignment.MiddleCenter;
@@ -1113,9 +1174,10 @@
             // 
             ProductionOrdersE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE161.Location = new Point(1033, 200);
+            ProductionOrdersE161.Location = new Point(1472, 332);
+            ProductionOrdersE161.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE161.Name = "ProductionOrdersE161";
-            ProductionOrdersE161.Size = new Size(114, 50);
+            ProductionOrdersE161.Size = new Size(163, 83);
             ProductionOrdersE161.TabIndex = 141;
             ProductionOrdersE161.Text = "number";
             ProductionOrdersE161.TextAlign = ContentAlignment.MiddleCenter;
@@ -1124,9 +1186,10 @@
             // 
             OrdersProgressE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE161.Location = new Point(873, 200);
+            OrdersProgressE161.Location = new Point(1244, 332);
+            OrdersProgressE161.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE161.Name = "OrdersProgressE161";
-            OrdersProgressE161.Size = new Size(114, 50);
+            OrdersProgressE161.Size = new Size(163, 83);
             OrdersProgressE161.TabIndex = 140;
             OrdersProgressE161.Text = "number";
             OrdersProgressE161.TextAlign = ContentAlignment.MiddleCenter;
@@ -1135,9 +1198,10 @@
             // 
             OrdersQueueE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE161.Location = new Point(713, 200);
+            OrdersQueueE161.Location = new Point(1016, 332);
+            OrdersQueueE161.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE161.Name = "OrdersQueueE161";
-            OrdersQueueE161.Size = new Size(114, 50);
+            OrdersQueueE161.Size = new Size(163, 83);
             OrdersQueueE161.TabIndex = 139;
             OrdersQueueE161.Text = "number";
             OrdersQueueE161.TextAlign = ContentAlignment.MiddleCenter;
@@ -1146,9 +1210,10 @@
             // 
             InventoryE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE161.Location = new Point(553, 200);
+            InventoryE161.Location = new Point(788, 332);
+            InventoryE161.Margin = new Padding(4, 0, 4, 0);
             InventoryE161.Name = "InventoryE161";
-            InventoryE161.Size = new Size(114, 50);
+            InventoryE161.Size = new Size(163, 83);
             InventoryE161.TabIndex = 138;
             InventoryE161.Text = "number";
             InventoryE161.TextAlign = ContentAlignment.MiddleCenter;
@@ -1157,9 +1222,10 @@
             // 
             SuccessorQueueE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE161.Location = new Point(233, 200);
+            SuccessorQueueE161.Location = new Point(332, 332);
+            SuccessorQueueE161.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE161.Name = "SuccessorQueueE161";
-            SuccessorQueueE161.Size = new Size(114, 50);
+            SuccessorQueueE161.Size = new Size(163, 83);
             SuccessorQueueE161.TabIndex = 137;
             SuccessorQueueE161.Text = "number";
             SuccessorQueueE161.TextAlign = ContentAlignment.MiddleCenter;
@@ -1168,9 +1234,10 @@
             // 
             SellwishE161.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE161.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE161.Location = new Point(73, 200);
+            SellwishE161.Location = new Point(104, 332);
+            SellwishE161.Margin = new Padding(4, 0, 4, 0);
             SellwishE161.Name = "SellwishE161";
-            SellwishE161.Size = new Size(114, 50);
+            SellwishE161.Size = new Size(163, 83);
             SellwishE161.TabIndex = 136;
             SellwishE161.Text = "number";
             SellwishE161.TextAlign = ContentAlignment.MiddleCenter;
@@ -1179,9 +1246,10 @@
             // 
             ProductionOrdersE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE51.Location = new Point(1033, 150);
+            ProductionOrdersE51.Location = new Point(1472, 249);
+            ProductionOrdersE51.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE51.Name = "ProductionOrdersE51";
-            ProductionOrdersE51.Size = new Size(114, 50);
+            ProductionOrdersE51.Size = new Size(163, 83);
             ProductionOrdersE51.TabIndex = 135;
             ProductionOrdersE51.Text = "number";
             ProductionOrdersE51.TextAlign = ContentAlignment.MiddleCenter;
@@ -1190,9 +1258,10 @@
             // 
             OrdersProgressE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE51.Location = new Point(873, 150);
+            OrdersProgressE51.Location = new Point(1244, 249);
+            OrdersProgressE51.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE51.Name = "OrdersProgressE51";
-            OrdersProgressE51.Size = new Size(114, 50);
+            OrdersProgressE51.Size = new Size(163, 83);
             OrdersProgressE51.TabIndex = 134;
             OrdersProgressE51.Text = "number";
             OrdersProgressE51.TextAlign = ContentAlignment.MiddleCenter;
@@ -1201,9 +1270,10 @@
             // 
             OrdersQueueE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE51.Location = new Point(713, 150);
+            OrdersQueueE51.Location = new Point(1016, 249);
+            OrdersQueueE51.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE51.Name = "OrdersQueueE51";
-            OrdersQueueE51.Size = new Size(114, 50);
+            OrdersQueueE51.Size = new Size(163, 83);
             OrdersQueueE51.TabIndex = 133;
             OrdersQueueE51.Text = "number";
             OrdersQueueE51.TextAlign = ContentAlignment.MiddleCenter;
@@ -1212,9 +1282,10 @@
             // 
             InventoryE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE51.Location = new Point(553, 150);
+            InventoryE51.Location = new Point(788, 249);
+            InventoryE51.Margin = new Padding(4, 0, 4, 0);
             InventoryE51.Name = "InventoryE51";
-            InventoryE51.Size = new Size(114, 50);
+            InventoryE51.Size = new Size(163, 83);
             InventoryE51.TabIndex = 132;
             InventoryE51.Text = "number";
             InventoryE51.TextAlign = ContentAlignment.MiddleCenter;
@@ -1223,9 +1294,10 @@
             // 
             SuccessorQueueE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE51.Location = new Point(233, 150);
+            SuccessorQueueE51.Location = new Point(332, 249);
+            SuccessorQueueE51.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE51.Name = "SuccessorQueueE51";
-            SuccessorQueueE51.Size = new Size(114, 50);
+            SuccessorQueueE51.Size = new Size(163, 83);
             SuccessorQueueE51.TabIndex = 131;
             SuccessorQueueE51.Text = "number";
             SuccessorQueueE51.TextAlign = ContentAlignment.MiddleCenter;
@@ -1234,9 +1306,10 @@
             // 
             SellwishE51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE51.Location = new Point(73, 150);
+            SellwishE51.Location = new Point(104, 249);
+            SellwishE51.Margin = new Padding(4, 0, 4, 0);
             SellwishE51.Name = "SellwishE51";
-            SellwishE51.Size = new Size(114, 50);
+            SellwishE51.Size = new Size(163, 83);
             SellwishE51.TabIndex = 130;
             SellwishE51.Text = "number";
             SellwishE51.TextAlign = ContentAlignment.MiddleCenter;
@@ -1245,9 +1318,10 @@
             // 
             ProductionOrdersE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersE261.Location = new Point(1033, 100);
+            ProductionOrdersE261.Location = new Point(1472, 166);
+            ProductionOrdersE261.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersE261.Name = "ProductionOrdersE261";
-            ProductionOrdersE261.Size = new Size(114, 50);
+            ProductionOrdersE261.Size = new Size(163, 83);
             ProductionOrdersE261.TabIndex = 129;
             ProductionOrdersE261.Text = "number";
             ProductionOrdersE261.TextAlign = ContentAlignment.MiddleCenter;
@@ -1256,9 +1330,10 @@
             // 
             OrdersProgressE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressE261.Location = new Point(873, 100);
+            OrdersProgressE261.Location = new Point(1244, 166);
+            OrdersProgressE261.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressE261.Name = "OrdersProgressE261";
-            OrdersProgressE261.Size = new Size(114, 50);
+            OrdersProgressE261.Size = new Size(163, 83);
             OrdersProgressE261.TabIndex = 128;
             OrdersProgressE261.Text = "number";
             OrdersProgressE261.TextAlign = ContentAlignment.MiddleCenter;
@@ -1267,9 +1342,10 @@
             // 
             OrdersQueueE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueE261.Location = new Point(713, 100);
+            OrdersQueueE261.Location = new Point(1016, 166);
+            OrdersQueueE261.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueE261.Name = "OrdersQueueE261";
-            OrdersQueueE261.Size = new Size(114, 50);
+            OrdersQueueE261.Size = new Size(163, 83);
             OrdersQueueE261.TabIndex = 127;
             OrdersQueueE261.Text = "number";
             OrdersQueueE261.TextAlign = ContentAlignment.MiddleCenter;
@@ -1278,9 +1354,10 @@
             // 
             InventoryE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryE261.Location = new Point(553, 100);
+            InventoryE261.Location = new Point(788, 166);
+            InventoryE261.Margin = new Padding(4, 0, 4, 0);
             InventoryE261.Name = "InventoryE261";
-            InventoryE261.Size = new Size(114, 50);
+            InventoryE261.Size = new Size(163, 83);
             InventoryE261.TabIndex = 126;
             InventoryE261.Text = "number";
             InventoryE261.TextAlign = ContentAlignment.MiddleCenter;
@@ -1289,9 +1366,10 @@
             // 
             SuccessorQueueE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SuccessorQueueE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SuccessorQueueE261.Location = new Point(233, 100);
+            SuccessorQueueE261.Location = new Point(332, 166);
+            SuccessorQueueE261.Margin = new Padding(4, 0, 4, 0);
             SuccessorQueueE261.Name = "SuccessorQueueE261";
-            SuccessorQueueE261.Size = new Size(114, 50);
+            SuccessorQueueE261.Size = new Size(163, 83);
             SuccessorQueueE261.TabIndex = 125;
             SuccessorQueueE261.Text = "number";
             SuccessorQueueE261.TextAlign = ContentAlignment.MiddleCenter;
@@ -1300,9 +1378,10 @@
             // 
             SellwishE261.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishE261.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishE261.Location = new Point(73, 100);
+            SellwishE261.Location = new Point(104, 166);
+            SellwishE261.Margin = new Padding(4, 0, 4, 0);
             SellwishE261.Name = "SellwishE261";
-            SellwishE261.Size = new Size(114, 50);
+            SellwishE261.Size = new Size(163, 83);
             SellwishE261.TabIndex = 124;
             SellwishE261.Text = "number";
             SellwishE261.TextAlign = ContentAlignment.MiddleCenter;
@@ -1311,9 +1390,10 @@
             // 
             ProductionOrdersP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             ProductionOrdersP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ProductionOrdersP1.Location = new Point(1033, 50);
+            ProductionOrdersP1.Location = new Point(1472, 83);
+            ProductionOrdersP1.Margin = new Padding(4, 0, 4, 0);
             ProductionOrdersP1.Name = "ProductionOrdersP1";
-            ProductionOrdersP1.Size = new Size(114, 50);
+            ProductionOrdersP1.Size = new Size(163, 83);
             ProductionOrdersP1.TabIndex = 123;
             ProductionOrdersP1.Text = "number";
             ProductionOrdersP1.TextAlign = ContentAlignment.MiddleCenter;
@@ -1322,9 +1402,10 @@
             // 
             OrdersProgressP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersProgressP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersProgressP1.Location = new Point(873, 50);
+            OrdersProgressP1.Location = new Point(1244, 83);
+            OrdersProgressP1.Margin = new Padding(4, 0, 4, 0);
             OrdersProgressP1.Name = "OrdersProgressP1";
-            OrdersProgressP1.Size = new Size(114, 50);
+            OrdersProgressP1.Size = new Size(163, 83);
             OrdersProgressP1.TabIndex = 122;
             OrdersProgressP1.Text = "number";
             OrdersProgressP1.TextAlign = ContentAlignment.MiddleCenter;
@@ -1333,9 +1414,10 @@
             // 
             OrdersQueueP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             OrdersQueueP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            OrdersQueueP1.Location = new Point(713, 50);
+            OrdersQueueP1.Location = new Point(1016, 83);
+            OrdersQueueP1.Margin = new Padding(4, 0, 4, 0);
             OrdersQueueP1.Name = "OrdersQueueP1";
-            OrdersQueueP1.Size = new Size(114, 50);
+            OrdersQueueP1.Size = new Size(163, 83);
             OrdersQueueP1.TabIndex = 121;
             OrdersQueueP1.Text = "number";
             OrdersQueueP1.TextAlign = ContentAlignment.MiddleCenter;
@@ -1344,9 +1426,10 @@
             // 
             InventoryP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             InventoryP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            InventoryP1.Location = new Point(553, 50);
+            InventoryP1.Location = new Point(788, 83);
+            InventoryP1.Margin = new Padding(4, 0, 4, 0);
             InventoryP1.Name = "InventoryP1";
-            InventoryP1.Size = new Size(114, 50);
+            InventoryP1.Size = new Size(163, 83);
             InventoryP1.TabIndex = 120;
             InventoryP1.Text = "number";
             InventoryP1.TextAlign = ContentAlignment.MiddleCenter;
@@ -1355,9 +1438,10 @@
             // 
             PlannedP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             PlannedP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            PlannedP1.Location = new Point(393, 50);
+            PlannedP1.Location = new Point(560, 83);
+            PlannedP1.Margin = new Padding(4, 0, 4, 0);
             PlannedP1.Name = "PlannedP1";
-            PlannedP1.Size = new Size(114, 50);
+            PlannedP1.Size = new Size(163, 83);
             PlannedP1.TabIndex = 119;
             PlannedP1.Text = "number";
             PlannedP1.TextAlign = ContentAlignment.MiddleCenter;
@@ -1366,9 +1450,10 @@
             // 
             label99.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label99.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label99.Location = new Point(1033, 0);
+            label99.Location = new Point(1472, 0);
+            label99.Margin = new Padding(4, 0, 4, 0);
             label99.Name = "label99";
-            label99.Size = new Size(114, 50);
+            label99.Size = new Size(163, 83);
             label99.TabIndex = 99;
             label99.Text = "Production Orders";
             label99.TextAlign = ContentAlignment.MiddleCenter;
@@ -1377,9 +1462,10 @@
             // 
             label97.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label97.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label97.Location = new Point(873, 0);
+            label97.Location = new Point(1244, 0);
+            label97.Margin = new Padding(4, 0, 4, 0);
             label97.Name = "label97";
-            label97.Size = new Size(114, 50);
+            label97.Size = new Size(163, 83);
             label97.TabIndex = 97;
             label97.Text = "Orders In Progress";
             label97.TextAlign = ContentAlignment.MiddleCenter;
@@ -1388,9 +1474,10 @@
             // 
             label95.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label95.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label95.Location = new Point(713, 0);
+            label95.Location = new Point(1016, 0);
+            label95.Margin = new Padding(4, 0, 4, 0);
             label95.Name = "label95";
-            label95.Size = new Size(114, 50);
+            label95.Size = new Size(163, 83);
             label95.TabIndex = 95;
             label95.Text = "Orders Queue";
             label95.TextAlign = ContentAlignment.MiddleCenter;
@@ -1399,9 +1486,10 @@
             // 
             label93.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label93.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label93.Location = new Point(553, 0);
+            label93.Location = new Point(788, 0);
+            label93.Margin = new Padding(4, 0, 4, 0);
             label93.Name = "label93";
-            label93.Size = new Size(114, 50);
+            label93.Size = new Size(163, 83);
             label93.TabIndex = 93;
             label93.Text = "Current Inventory";
             label93.TextAlign = ContentAlignment.MiddleCenter;
@@ -1410,9 +1498,10 @@
             // 
             label91.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label91.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label91.Location = new Point(393, 0);
+            label91.Location = new Point(560, 0);
+            label91.Margin = new Padding(4, 0, 4, 0);
             label91.Name = "label91";
-            label91.Size = new Size(114, 50);
+            label91.Size = new Size(163, 83);
             label91.TabIndex = 91;
             label91.Text = "Planned Inventory";
             label91.TextAlign = ContentAlignment.MiddleCenter;
@@ -1421,9 +1510,10 @@
             // 
             label89.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label89.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label89.Location = new Point(233, 0);
+            label89.Location = new Point(332, 0);
+            label89.Margin = new Padding(4, 0, 4, 0);
             label89.Name = "label89";
-            label89.Size = new Size(114, 50);
+            label89.Size = new Size(163, 83);
             label89.TabIndex = 89;
             label89.Text = "Queue Of Successor";
             label89.TextAlign = ContentAlignment.MiddleCenter;
@@ -1432,9 +1522,10 @@
             // 
             label87.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label87.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label87.Location = new Point(73, 0);
+            label87.Location = new Point(104, 0);
+            label87.Margin = new Padding(4, 0, 4, 0);
             label87.Name = "label87";
-            label87.Size = new Size(114, 50);
+            label87.Size = new Size(163, 83);
             label87.TabIndex = 87;
             label87.Text = "Seelling Wish";
             label87.TextAlign = ContentAlignment.MiddleCenter;
@@ -1443,9 +1534,10 @@
             // 
             label79.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label79.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label79.Location = new Point(3, 0);
+            label79.Location = new Point(4, 0);
+            label79.Margin = new Padding(4, 0, 4, 0);
             label79.Name = "label79";
-            label79.Size = new Size(64, 50);
+            label79.Size = new Size(91, 83);
             label79.TabIndex = 86;
             label79.Text = "Artikel";
             label79.TextAlign = ContentAlignment.MiddleCenter;
@@ -1454,9 +1546,10 @@
             // 
             label70.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label70.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label70.Location = new Point(833, 100);
+            label70.Location = new Point(1187, 166);
+            label70.Margin = new Padding(4, 0, 4, 0);
             label70.Name = "label70";
-            label70.Size = new Size(34, 50);
+            label70.Size = new Size(49, 83);
             label70.TabIndex = 69;
             label70.Text = "-";
             label70.TextAlign = ContentAlignment.MiddleCenter;
@@ -1465,9 +1558,10 @@
             // 
             label66.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label66.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label66.Location = new Point(513, 100);
+            label66.Location = new Point(731, 166);
+            label66.Margin = new Padding(4, 0, 4, 0);
             label66.Name = "label66";
-            label66.Size = new Size(34, 50);
+            label66.Size = new Size(49, 83);
             label66.TabIndex = 65;
             label66.Text = "-";
             label66.TextAlign = ContentAlignment.MiddleCenter;
@@ -1476,9 +1570,10 @@
             // 
             label68.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label68.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label68.Location = new Point(673, 100);
+            label68.Location = new Point(959, 166);
+            label68.Margin = new Padding(4, 0, 4, 0);
             label68.Name = "label68";
-            label68.Size = new Size(34, 50);
+            label68.Size = new Size(49, 83);
             label68.TabIndex = 67;
             label68.Text = "-";
             label68.TextAlign = ContentAlignment.MiddleCenter;
@@ -1489,9 +1584,10 @@
             label12.BackColor = SystemColors.ControlDark;
             label12.BorderStyle = BorderStyle.Fixed3D;
             label12.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.Location = new Point(3, 600);
+            label12.Location = new Point(4, 996);
+            label12.Margin = new Padding(4, 0, 4, 0);
             label12.Name = "label12";
-            label12.Size = new Size(64, 50);
+            label12.Size = new Size(91, 87);
             label12.TabIndex = 11;
             label12.Text = "E18";
             label12.TextAlign = ContentAlignment.MiddleCenter;
@@ -1502,9 +1598,10 @@
             label5.BackColor = SystemColors.ControlDark;
             label5.BorderStyle = BorderStyle.Fixed3D;
             label5.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(3, 50);
+            label5.Location = new Point(4, 83);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(64, 50);
+            label5.Size = new Size(91, 83);
             label5.TabIndex = 1;
             label5.Text = "P1";
             label5.TextAlign = ContentAlignment.MiddleCenter;
@@ -1515,9 +1612,10 @@
             label2.BackColor = SystemColors.ControlDark;
             label2.BorderStyle = BorderStyle.Fixed3D;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(3, 100);
+            label2.Location = new Point(4, 166);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(64, 50);
+            label2.Size = new Size(91, 83);
             label2.TabIndex = 2;
             label2.Text = "E261";
             label2.TextAlign = ContentAlignment.MiddleCenter;
@@ -1528,9 +1626,10 @@
             label3.BackColor = SystemColors.ControlDark;
             label3.BorderStyle = BorderStyle.Fixed3D;
             label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(3, 150);
+            label3.Location = new Point(4, 249);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(64, 50);
+            label3.Size = new Size(91, 83);
             label3.TabIndex = 3;
             label3.Text = "E51";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -1541,9 +1640,10 @@
             label6.BackColor = SystemColors.ControlDark;
             label6.BorderStyle = BorderStyle.Fixed3D;
             label6.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(3, 200);
+            label6.Location = new Point(4, 332);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(64, 50);
+            label6.Size = new Size(91, 83);
             label6.TabIndex = 5;
             label6.Text = "E161";
             label6.TextAlign = ContentAlignment.MiddleCenter;
@@ -1554,9 +1654,10 @@
             label4.BackColor = SystemColors.ControlDark;
             label4.BorderStyle = BorderStyle.Fixed3D;
             label4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(3, 250);
+            label4.Location = new Point(4, 415);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(64, 50);
+            label4.Size = new Size(91, 83);
             label4.TabIndex = 4;
             label4.Text = "E171";
             label4.TextAlign = ContentAlignment.MiddleCenter;
@@ -1567,9 +1668,10 @@
             label7.BackColor = SystemColors.ControlDark;
             label7.BorderStyle = BorderStyle.Fixed3D;
             label7.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(3, 300);
+            label7.Location = new Point(4, 498);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(64, 50);
+            label7.Size = new Size(91, 83);
             label7.TabIndex = 6;
             label7.Text = "E50";
             label7.TextAlign = ContentAlignment.MiddleCenter;
@@ -1580,9 +1682,10 @@
             label9.BackColor = SystemColors.ControlDark;
             label9.BorderStyle = BorderStyle.Fixed3D;
             label9.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(3, 350);
+            label9.Location = new Point(4, 581);
+            label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
-            label9.Size = new Size(64, 50);
+            label9.Size = new Size(91, 83);
             label9.TabIndex = 8;
             label9.Text = "E4";
             label9.TextAlign = ContentAlignment.MiddleCenter;
@@ -1593,9 +1696,10 @@
             label8.BackColor = SystemColors.ControlDark;
             label8.BorderStyle = BorderStyle.Fixed3D;
             label8.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(3, 400);
+            label8.Location = new Point(4, 664);
+            label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
-            label8.Size = new Size(64, 50);
+            label8.Size = new Size(91, 83);
             label8.TabIndex = 7;
             label8.Text = "E10";
             label8.TextAlign = ContentAlignment.MiddleCenter;
@@ -1606,9 +1710,10 @@
             label10.BackColor = SystemColors.ControlDark;
             label10.BorderStyle = BorderStyle.Fixed3D;
             label10.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.Location = new Point(3, 450);
+            label10.Location = new Point(4, 747);
+            label10.Margin = new Padding(4, 0, 4, 0);
             label10.Name = "label10";
-            label10.Size = new Size(64, 50);
+            label10.Size = new Size(91, 83);
             label10.TabIndex = 9;
             label10.Text = "E49";
             label10.TextAlign = ContentAlignment.MiddleCenter;
@@ -1619,9 +1724,10 @@
             label13.BackColor = SystemColors.ControlDark;
             label13.BorderStyle = BorderStyle.Fixed3D;
             label13.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.Location = new Point(3, 500);
+            label13.Location = new Point(4, 830);
+            label13.Margin = new Padding(4, 0, 4, 0);
             label13.Name = "label13";
-            label13.Size = new Size(64, 50);
+            label13.Size = new Size(91, 83);
             label13.TabIndex = 12;
             label13.Text = "E7";
             label13.TextAlign = ContentAlignment.MiddleCenter;
@@ -1632,9 +1738,10 @@
             label11.BackColor = SystemColors.ControlDark;
             label11.BorderStyle = BorderStyle.Fixed3D;
             label11.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.Location = new Point(3, 550);
+            label11.Location = new Point(4, 913);
+            label11.Margin = new Padding(4, 0, 4, 0);
             label11.Name = "label11";
-            label11.Size = new Size(64, 50);
+            label11.Size = new Size(91, 83);
             label11.TabIndex = 10;
             label11.Text = "E13";
             label11.TextAlign = ContentAlignment.MiddleCenter;
@@ -1643,9 +1750,10 @@
             // 
             label17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label17.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label17.Location = new Point(673, 50);
+            label17.Location = new Point(959, 83);
+            label17.Margin = new Padding(4, 0, 4, 0);
             label17.Name = "label17";
-            label17.Size = new Size(34, 50);
+            label17.Size = new Size(49, 83);
             label17.TabIndex = 16;
             label17.Text = "-";
             label17.TextAlign = ContentAlignment.MiddleCenter;
@@ -1654,9 +1762,10 @@
             // 
             label18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label18.Location = new Point(833, 50);
+            label18.Location = new Point(1187, 83);
+            label18.Margin = new Padding(4, 0, 4, 0);
             label18.Name = "label18";
-            label18.Size = new Size(34, 50);
+            label18.Size = new Size(49, 83);
             label18.TabIndex = 17;
             label18.Text = "-";
             label18.TextAlign = ContentAlignment.MiddleCenter;
@@ -1665,9 +1774,10 @@
             // 
             label19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label19.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label19.Location = new Point(993, 50);
+            label19.Location = new Point(1415, 83);
+            label19.Margin = new Padding(4, 0, 4, 0);
             label19.Name = "label19";
-            label19.Size = new Size(34, 50);
+            label19.Size = new Size(49, 83);
             label19.TabIndex = 18;
             label19.Text = "=";
             label19.TextAlign = ContentAlignment.MiddleCenter;
@@ -1676,9 +1786,10 @@
             // 
             label20.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label20.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label20.Location = new Point(193, 100);
+            label20.Location = new Point(275, 166);
+            label20.Margin = new Padding(4, 0, 4, 0);
             label20.Name = "label20";
-            label20.Size = new Size(34, 50);
+            label20.Size = new Size(49, 83);
             label20.TabIndex = 19;
             label20.Text = "+";
             label20.TextAlign = ContentAlignment.MiddleCenter;
@@ -1687,9 +1798,10 @@
             // 
             label21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label21.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label21.Location = new Point(193, 150);
+            label21.Location = new Point(275, 249);
+            label21.Margin = new Padding(4, 0, 4, 0);
             label21.Name = "label21";
-            label21.Size = new Size(34, 50);
+            label21.Size = new Size(49, 83);
             label21.TabIndex = 20;
             label21.Text = "+";
             label21.TextAlign = ContentAlignment.MiddleCenter;
@@ -1698,9 +1810,10 @@
             // 
             label22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label22.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label22.Location = new Point(193, 200);
+            label22.Location = new Point(275, 332);
+            label22.Margin = new Padding(4, 0, 4, 0);
             label22.Name = "label22";
-            label22.Size = new Size(34, 50);
+            label22.Size = new Size(49, 83);
             label22.TabIndex = 21;
             label22.Text = "+";
             label22.TextAlign = ContentAlignment.MiddleCenter;
@@ -1709,9 +1822,10 @@
             // 
             label23.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label23.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label23.Location = new Point(193, 250);
+            label23.Location = new Point(275, 415);
+            label23.Margin = new Padding(4, 0, 4, 0);
             label23.Name = "label23";
-            label23.Size = new Size(34, 50);
+            label23.Size = new Size(49, 83);
             label23.TabIndex = 22;
             label23.Text = "+";
             label23.TextAlign = ContentAlignment.MiddleCenter;
@@ -1720,9 +1834,10 @@
             // 
             label24.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label24.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label24.Location = new Point(193, 300);
+            label24.Location = new Point(275, 498);
+            label24.Margin = new Padding(4, 0, 4, 0);
             label24.Name = "label24";
-            label24.Size = new Size(34, 50);
+            label24.Size = new Size(49, 83);
             label24.TabIndex = 23;
             label24.Text = "+";
             label24.TextAlign = ContentAlignment.MiddleCenter;
@@ -1731,9 +1846,10 @@
             // 
             label25.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label25.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label25.Location = new Point(193, 350);
+            label25.Location = new Point(275, 581);
+            label25.Margin = new Padding(4, 0, 4, 0);
             label25.Name = "label25";
-            label25.Size = new Size(34, 50);
+            label25.Size = new Size(49, 83);
             label25.TabIndex = 24;
             label25.Text = "+";
             label25.TextAlign = ContentAlignment.MiddleCenter;
@@ -1742,9 +1858,10 @@
             // 
             label26.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label26.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label26.Location = new Point(193, 400);
+            label26.Location = new Point(275, 664);
+            label26.Margin = new Padding(4, 0, 4, 0);
             label26.Name = "label26";
-            label26.Size = new Size(34, 50);
+            label26.Size = new Size(49, 83);
             label26.TabIndex = 25;
             label26.Text = "+";
             label26.TextAlign = ContentAlignment.MiddleCenter;
@@ -1753,9 +1870,10 @@
             // 
             label28.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label28.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label28.Location = new Point(193, 450);
+            label28.Location = new Point(275, 747);
+            label28.Margin = new Padding(4, 0, 4, 0);
             label28.Name = "label28";
-            label28.Size = new Size(34, 50);
+            label28.Size = new Size(49, 83);
             label28.TabIndex = 27;
             label28.Text = "+";
             label28.TextAlign = ContentAlignment.MiddleCenter;
@@ -1764,9 +1882,10 @@
             // 
             label29.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label29.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label29.Location = new Point(193, 500);
+            label29.Location = new Point(275, 830);
+            label29.Margin = new Padding(4, 0, 4, 0);
             label29.Name = "label29";
-            label29.Size = new Size(34, 50);
+            label29.Size = new Size(49, 83);
             label29.TabIndex = 28;
             label29.Text = "+";
             label29.TextAlign = ContentAlignment.MiddleCenter;
@@ -1775,9 +1894,10 @@
             // 
             label27.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label27.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label27.Location = new Point(193, 550);
+            label27.Location = new Point(275, 913);
+            label27.Margin = new Padding(4, 0, 4, 0);
             label27.Name = "label27";
-            label27.Size = new Size(34, 50);
+            label27.Size = new Size(49, 83);
             label27.TabIndex = 26;
             label27.Text = "+";
             label27.TextAlign = ContentAlignment.MiddleCenter;
@@ -1786,9 +1906,10 @@
             // 
             label31.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label31.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label31.Location = new Point(353, 100);
+            label31.Location = new Point(503, 166);
+            label31.Margin = new Padding(4, 0, 4, 0);
             label31.Name = "label31";
-            label31.Size = new Size(34, 50);
+            label31.Size = new Size(49, 83);
             label31.TabIndex = 30;
             label31.Text = "+";
             label31.TextAlign = ContentAlignment.MiddleCenter;
@@ -1797,9 +1918,10 @@
             // 
             label32.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label32.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label32.Location = new Point(353, 150);
+            label32.Location = new Point(503, 249);
+            label32.Margin = new Padding(4, 0, 4, 0);
             label32.Name = "label32";
-            label32.Size = new Size(34, 50);
+            label32.Size = new Size(49, 83);
             label32.TabIndex = 31;
             label32.Text = "+";
             label32.TextAlign = ContentAlignment.MiddleCenter;
@@ -1808,9 +1930,10 @@
             // 
             label30.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label30.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label30.Location = new Point(353, 200);
+            label30.Location = new Point(503, 332);
+            label30.Margin = new Padding(4, 0, 4, 0);
             label30.Name = "label30";
-            label30.Size = new Size(34, 50);
+            label30.Size = new Size(49, 83);
             label30.TabIndex = 29;
             label30.Text = "+";
             label30.TextAlign = ContentAlignment.MiddleCenter;
@@ -1819,9 +1942,10 @@
             // 
             label34.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label34.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label34.Location = new Point(353, 250);
+            label34.Location = new Point(503, 415);
+            label34.Margin = new Padding(4, 0, 4, 0);
             label34.Name = "label34";
-            label34.Size = new Size(34, 50);
+            label34.Size = new Size(49, 83);
             label34.TabIndex = 33;
             label34.Text = "+";
             label34.TextAlign = ContentAlignment.MiddleCenter;
@@ -1830,9 +1954,10 @@
             // 
             label35.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label35.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label35.Location = new Point(353, 300);
+            label35.Location = new Point(503, 498);
+            label35.Margin = new Padding(4, 0, 4, 0);
             label35.Name = "label35";
-            label35.Size = new Size(34, 50);
+            label35.Size = new Size(49, 83);
             label35.TabIndex = 34;
             label35.Text = "+";
             label35.TextAlign = ContentAlignment.MiddleCenter;
@@ -1841,9 +1966,10 @@
             // 
             label33.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label33.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label33.Location = new Point(353, 350);
+            label33.Location = new Point(503, 581);
+            label33.Margin = new Padding(4, 0, 4, 0);
             label33.Name = "label33";
-            label33.Size = new Size(34, 50);
+            label33.Size = new Size(49, 83);
             label33.TabIndex = 32;
             label33.Text = "+";
             label33.TextAlign = ContentAlignment.MiddleCenter;
@@ -1852,9 +1978,10 @@
             // 
             label37.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label37.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label37.Location = new Point(353, 400);
+            label37.Location = new Point(503, 664);
+            label37.Margin = new Padding(4, 0, 4, 0);
             label37.Name = "label37";
-            label37.Size = new Size(34, 50);
+            label37.Size = new Size(49, 83);
             label37.TabIndex = 36;
             label37.Text = "+";
             label37.TextAlign = ContentAlignment.MiddleCenter;
@@ -1863,9 +1990,10 @@
             // 
             label38.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label38.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label38.Location = new Point(353, 450);
+            label38.Location = new Point(503, 747);
+            label38.Margin = new Padding(4, 0, 4, 0);
             label38.Name = "label38";
-            label38.Size = new Size(34, 50);
+            label38.Size = new Size(49, 83);
             label38.TabIndex = 37;
             label38.Text = "+";
             label38.TextAlign = ContentAlignment.MiddleCenter;
@@ -1874,9 +2002,10 @@
             // 
             label36.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label36.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label36.Location = new Point(353, 500);
+            label36.Location = new Point(503, 830);
+            label36.Margin = new Padding(4, 0, 4, 0);
             label36.Name = "label36";
-            label36.Size = new Size(34, 50);
+            label36.Size = new Size(49, 83);
             label36.TabIndex = 35;
             label36.Text = "+";
             label36.TextAlign = ContentAlignment.MiddleCenter;
@@ -1885,9 +2014,10 @@
             // 
             label41.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label41.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label41.Location = new Point(353, 550);
+            label41.Location = new Point(503, 913);
+            label41.Margin = new Padding(4, 0, 4, 0);
             label41.Name = "label41";
-            label41.Size = new Size(34, 50);
+            label41.Size = new Size(49, 83);
             label41.TabIndex = 40;
             label41.Text = "+";
             label41.TextAlign = ContentAlignment.MiddleCenter;
@@ -1896,9 +2026,10 @@
             // 
             label39.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label39.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label39.Location = new Point(193, 600);
+            label39.Location = new Point(275, 996);
+            label39.Margin = new Padding(4, 0, 4, 0);
             label39.Name = "label39";
-            label39.Size = new Size(34, 50);
+            label39.Size = new Size(49, 87);
             label39.TabIndex = 38;
             label39.Text = "+";
             label39.TextAlign = ContentAlignment.MiddleCenter;
@@ -1907,9 +2038,10 @@
             // 
             label40.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label40.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label40.Location = new Point(353, 600);
+            label40.Location = new Point(503, 996);
+            label40.Margin = new Padding(4, 0, 4, 0);
             label40.Name = "label40";
-            label40.Size = new Size(34, 50);
+            label40.Size = new Size(49, 87);
             label40.TabIndex = 39;
             label40.Text = "+";
             label40.TextAlign = ContentAlignment.MiddleCenter;
@@ -1918,9 +2050,10 @@
             // 
             label42.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label42.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label42.Location = new Point(513, 150);
+            label42.Location = new Point(731, 249);
+            label42.Margin = new Padding(4, 0, 4, 0);
             label42.Name = "label42";
-            label42.Size = new Size(34, 50);
+            label42.Size = new Size(49, 83);
             label42.TabIndex = 41;
             label42.Text = "-";
             label42.TextAlign = ContentAlignment.MiddleCenter;
@@ -1929,9 +2062,10 @@
             // 
             label43.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label43.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label43.Location = new Point(513, 200);
+            label43.Location = new Point(731, 332);
+            label43.Margin = new Padding(4, 0, 4, 0);
             label43.Name = "label43";
-            label43.Size = new Size(34, 50);
+            label43.Size = new Size(49, 83);
             label43.TabIndex = 42;
             label43.Text = "-";
             label43.TextAlign = ContentAlignment.MiddleCenter;
@@ -1940,9 +2074,10 @@
             // 
             label56.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label56.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label56.Location = new Point(513, 250);
+            label56.Location = new Point(731, 415);
+            label56.Margin = new Padding(4, 0, 4, 0);
             label56.Name = "label56";
-            label56.Size = new Size(34, 50);
+            label56.Size = new Size(49, 83);
             label56.TabIndex = 55;
             label56.Text = "-";
             label56.TextAlign = ContentAlignment.MiddleCenter;
@@ -1951,9 +2086,10 @@
             // 
             label63.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label63.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label63.Location = new Point(513, 300);
+            label63.Location = new Point(731, 498);
+            label63.Margin = new Padding(4, 0, 4, 0);
             label63.Name = "label63";
-            label63.Size = new Size(34, 50);
+            label63.Size = new Size(49, 83);
             label63.TabIndex = 62;
             label63.Text = "-";
             label63.TextAlign = ContentAlignment.MiddleCenter;
@@ -1962,9 +2098,10 @@
             // 
             label74.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label74.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label74.Location = new Point(513, 350);
+            label74.Location = new Point(731, 581);
+            label74.Margin = new Padding(4, 0, 4, 0);
             label74.Name = "label74";
-            label74.Size = new Size(34, 50);
+            label74.Size = new Size(49, 83);
             label74.TabIndex = 73;
             label74.Text = "-";
             label74.TextAlign = ContentAlignment.MiddleCenter;
@@ -1973,9 +2110,10 @@
             // 
             label57.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label57.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label57.Location = new Point(513, 400);
+            label57.Location = new Point(731, 664);
+            label57.Margin = new Padding(4, 0, 4, 0);
             label57.Name = "label57";
-            label57.Size = new Size(34, 50);
+            label57.Size = new Size(49, 83);
             label57.TabIndex = 56;
             label57.Text = "-";
             label57.TextAlign = ContentAlignment.MiddleCenter;
@@ -1984,9 +2122,10 @@
             // 
             label45.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label45.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label45.Location = new Point(513, 450);
+            label45.Location = new Point(731, 747);
+            label45.Margin = new Padding(4, 0, 4, 0);
             label45.Name = "label45";
-            label45.Size = new Size(34, 50);
+            label45.Size = new Size(49, 83);
             label45.TabIndex = 44;
             label45.Text = "-";
             label45.TextAlign = ContentAlignment.MiddleCenter;
@@ -1995,9 +2134,10 @@
             // 
             label64.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label64.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label64.Location = new Point(513, 500);
+            label64.Location = new Point(731, 830);
+            label64.Margin = new Padding(4, 0, 4, 0);
             label64.Name = "label64";
-            label64.Size = new Size(34, 50);
+            label64.Size = new Size(49, 83);
             label64.TabIndex = 63;
             label64.Text = "-";
             label64.TextAlign = ContentAlignment.MiddleCenter;
@@ -2006,9 +2146,10 @@
             // 
             label44.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label44.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label44.Location = new Point(513, 550);
+            label44.Location = new Point(731, 913);
+            label44.Margin = new Padding(4, 0, 4, 0);
             label44.Name = "label44";
-            label44.Size = new Size(34, 50);
+            label44.Size = new Size(49, 83);
             label44.TabIndex = 43;
             label44.Text = "-";
             label44.TextAlign = ContentAlignment.MiddleCenter;
@@ -2017,9 +2158,10 @@
             // 
             label47.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label47.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label47.Location = new Point(673, 150);
+            label47.Location = new Point(959, 249);
+            label47.Margin = new Padding(4, 0, 4, 0);
             label47.Name = "label47";
-            label47.Size = new Size(34, 50);
+            label47.Size = new Size(49, 83);
             label47.TabIndex = 46;
             label47.Text = "-";
             label47.TextAlign = ContentAlignment.MiddleCenter;
@@ -2028,9 +2170,10 @@
             // 
             label67.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label67.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label67.Location = new Point(673, 200);
+            label67.Location = new Point(959, 332);
+            label67.Margin = new Padding(4, 0, 4, 0);
             label67.Name = "label67";
-            label67.Size = new Size(34, 50);
+            label67.Size = new Size(49, 83);
             label67.TabIndex = 66;
             label67.Text = "-";
             label67.TextAlign = ContentAlignment.MiddleCenter;
@@ -2039,9 +2182,10 @@
             // 
             label69.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label69.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label69.Location = new Point(673, 250);
+            label69.Location = new Point(959, 415);
+            label69.Margin = new Padding(4, 0, 4, 0);
             label69.Name = "label69";
-            label69.Size = new Size(34, 50);
+            label69.Size = new Size(49, 83);
             label69.TabIndex = 68;
             label69.Text = "-";
             label69.TextAlign = ContentAlignment.MiddleCenter;
@@ -2050,9 +2194,10 @@
             // 
             label60.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label60.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label60.Location = new Point(673, 300);
+            label60.Location = new Point(959, 498);
+            label60.Margin = new Padding(4, 0, 4, 0);
             label60.Name = "label60";
-            label60.Size = new Size(34, 50);
+            label60.Size = new Size(49, 83);
             label60.TabIndex = 59;
             label60.Text = "-";
             label60.TextAlign = ContentAlignment.MiddleCenter;
@@ -2061,9 +2206,10 @@
             // 
             label51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label51.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label51.Location = new Point(673, 350);
+            label51.Location = new Point(959, 581);
+            label51.Margin = new Padding(4, 0, 4, 0);
             label51.Name = "label51";
-            label51.Size = new Size(34, 50);
+            label51.Size = new Size(49, 83);
             label51.TabIndex = 50;
             label51.Text = "-";
             label51.TextAlign = ContentAlignment.MiddleCenter;
@@ -2072,9 +2218,10 @@
             // 
             label49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label49.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label49.Location = new Point(673, 400);
+            label49.Location = new Point(959, 664);
+            label49.Margin = new Padding(4, 0, 4, 0);
             label49.Name = "label49";
-            label49.Size = new Size(34, 50);
+            label49.Size = new Size(49, 83);
             label49.TabIndex = 48;
             label49.Text = "-";
             label49.TextAlign = ContentAlignment.MiddleCenter;
@@ -2083,9 +2230,10 @@
             // 
             label16.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label16.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label16.Location = new Point(673, 450);
+            label16.Location = new Point(959, 747);
+            label16.Margin = new Padding(4, 0, 4, 0);
             label16.Name = "label16";
-            label16.Size = new Size(34, 50);
+            label16.Size = new Size(49, 83);
             label16.TabIndex = 15;
             label16.Text = "-";
             label16.TextAlign = ContentAlignment.MiddleCenter;
@@ -2094,9 +2242,10 @@
             // 
             label59.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label59.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label59.Location = new Point(513, 50);
+            label59.Location = new Point(731, 83);
+            label59.Margin = new Padding(4, 0, 4, 0);
             label59.Name = "label59";
-            label59.Size = new Size(34, 50);
+            label59.Size = new Size(49, 83);
             label59.TabIndex = 58;
             label59.Text = "-";
             label59.TextAlign = ContentAlignment.MiddleCenter;
@@ -2105,9 +2254,10 @@
             // 
             label58.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label58.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label58.Location = new Point(673, 500);
+            label58.Location = new Point(959, 830);
+            label58.Margin = new Padding(4, 0, 4, 0);
             label58.Name = "label58";
-            label58.Size = new Size(34, 50);
+            label58.Size = new Size(49, 83);
             label58.TabIndex = 57;
             label58.Text = "-";
             label58.TextAlign = ContentAlignment.MiddleCenter;
@@ -2116,9 +2266,10 @@
             // 
             label65.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label65.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label65.Location = new Point(833, 500);
+            label65.Location = new Point(1187, 830);
+            label65.Margin = new Padding(4, 0, 4, 0);
             label65.Name = "label65";
-            label65.Size = new Size(34, 50);
+            label65.Size = new Size(49, 83);
             label65.TabIndex = 64;
             label65.Text = "-";
             label65.TextAlign = ContentAlignment.MiddleCenter;
@@ -2127,9 +2278,10 @@
             // 
             label71.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label71.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label71.Location = new Point(833, 200);
+            label71.Location = new Point(1187, 332);
+            label71.Margin = new Padding(4, 0, 4, 0);
             label71.Name = "label71";
-            label71.Size = new Size(34, 50);
+            label71.Size = new Size(49, 83);
             label71.TabIndex = 70;
             label71.Text = "-";
             label71.TextAlign = ContentAlignment.MiddleCenter;
@@ -2138,9 +2290,10 @@
             // 
             label61.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label61.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label61.Location = new Point(833, 150);
+            label61.Location = new Point(1187, 249);
+            label61.Margin = new Padding(4, 0, 4, 0);
             label61.Name = "label61";
-            label61.Size = new Size(34, 50);
+            label61.Size = new Size(49, 83);
             label61.TabIndex = 60;
             label61.Text = "-";
             label61.TextAlign = ContentAlignment.MiddleCenter;
@@ -2149,9 +2302,10 @@
             // 
             label53.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label53.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label53.Location = new Point(833, 300);
+            label53.Location = new Point(1187, 498);
+            label53.Margin = new Padding(4, 0, 4, 0);
             label53.Name = "label53";
-            label53.Size = new Size(34, 50);
+            label53.Size = new Size(49, 83);
             label53.TabIndex = 52;
             label53.Text = "-";
             label53.TextAlign = ContentAlignment.MiddleCenter;
@@ -2160,9 +2314,10 @@
             // 
             label52.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label52.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label52.Location = new Point(833, 400);
+            label52.Location = new Point(1187, 664);
+            label52.Margin = new Padding(4, 0, 4, 0);
             label52.Name = "label52";
-            label52.Size = new Size(34, 50);
+            label52.Size = new Size(49, 83);
             label52.TabIndex = 51;
             label52.Text = "-";
             label52.TextAlign = ContentAlignment.MiddleCenter;
@@ -2171,9 +2326,10 @@
             // 
             label50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label50.Location = new Point(833, 250);
+            label50.Location = new Point(1187, 415);
+            label50.Margin = new Padding(4, 0, 4, 0);
             label50.Name = "label50";
-            label50.Size = new Size(34, 50);
+            label50.Size = new Size(49, 83);
             label50.TabIndex = 49;
             label50.Text = "-";
             label50.TextAlign = ContentAlignment.MiddleCenter;
@@ -2182,9 +2338,10 @@
             // 
             label54.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label54.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label54.Location = new Point(833, 350);
+            label54.Location = new Point(1187, 581);
+            label54.Margin = new Padding(4, 0, 4, 0);
             label54.Name = "label54";
-            label54.Size = new Size(34, 50);
+            label54.Size = new Size(49, 83);
             label54.TabIndex = 53;
             label54.Text = "-";
             label54.TextAlign = ContentAlignment.MiddleCenter;
@@ -2193,9 +2350,10 @@
             // 
             label62.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label62.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label62.Location = new Point(833, 450);
+            label62.Location = new Point(1187, 747);
+            label62.Margin = new Padding(4, 0, 4, 0);
             label62.Name = "label62";
-            label62.Size = new Size(34, 50);
+            label62.Size = new Size(49, 83);
             label62.TabIndex = 61;
             label62.Text = "-";
             label62.TextAlign = ContentAlignment.MiddleCenter;
@@ -2204,9 +2362,10 @@
             // 
             label48.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label48.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label48.Location = new Point(673, 550);
+            label48.Location = new Point(959, 913);
+            label48.Margin = new Padding(4, 0, 4, 0);
             label48.Name = "label48";
-            label48.Size = new Size(34, 50);
+            label48.Size = new Size(49, 83);
             label48.TabIndex = 47;
             label48.Text = "-";
             label48.TextAlign = ContentAlignment.MiddleCenter;
@@ -2215,9 +2374,10 @@
             // 
             label46.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label46.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label46.Location = new Point(833, 550);
+            label46.Location = new Point(1187, 913);
+            label46.Margin = new Padding(4, 0, 4, 0);
             label46.Name = "label46";
-            label46.Size = new Size(34, 50);
+            label46.Size = new Size(49, 83);
             label46.TabIndex = 45;
             label46.Text = "-";
             label46.TextAlign = ContentAlignment.MiddleCenter;
@@ -2226,9 +2386,10 @@
             // 
             label72.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label72.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label72.Location = new Point(513, 600);
+            label72.Location = new Point(731, 996);
+            label72.Margin = new Padding(4, 0, 4, 0);
             label72.Name = "label72";
-            label72.Size = new Size(34, 50);
+            label72.Size = new Size(49, 87);
             label72.TabIndex = 71;
             label72.Text = "-";
             label72.TextAlign = ContentAlignment.MiddleCenter;
@@ -2237,9 +2398,10 @@
             // 
             label55.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label55.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label55.Location = new Point(673, 600);
+            label55.Location = new Point(959, 996);
+            label55.Margin = new Padding(4, 0, 4, 0);
             label55.Name = "label55";
-            label55.Size = new Size(34, 50);
+            label55.Size = new Size(49, 87);
             label55.TabIndex = 54;
             label55.Text = "-";
             label55.TextAlign = ContentAlignment.MiddleCenter;
@@ -2248,9 +2410,10 @@
             // 
             label73.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label73.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label73.Location = new Point(833, 600);
+            label73.Location = new Point(1187, 996);
+            label73.Margin = new Padding(4, 0, 4, 0);
             label73.Name = "label73";
-            label73.Size = new Size(34, 50);
+            label73.Size = new Size(49, 87);
             label73.TabIndex = 72;
             label73.Text = "-";
             label73.TextAlign = ContentAlignment.MiddleCenter;
@@ -2259,9 +2422,10 @@
             // 
             label86.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label86.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label86.Location = new Point(993, 100);
+            label86.Location = new Point(1415, 166);
+            label86.Margin = new Padding(4, 0, 4, 0);
             label86.Name = "label86";
-            label86.Size = new Size(34, 50);
+            label86.Size = new Size(49, 83);
             label86.TabIndex = 85;
             label86.Text = "=";
             label86.TextAlign = ContentAlignment.MiddleCenter;
@@ -2270,9 +2434,10 @@
             // 
             label84.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label84.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label84.Location = new Point(993, 200);
+            label84.Location = new Point(1415, 332);
+            label84.Margin = new Padding(4, 0, 4, 0);
             label84.Name = "label84";
-            label84.Size = new Size(34, 50);
+            label84.Size = new Size(49, 83);
             label84.TabIndex = 83;
             label84.Text = "=";
             label84.TextAlign = ContentAlignment.MiddleCenter;
@@ -2281,9 +2446,10 @@
             // 
             label85.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label85.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label85.Location = new Point(993, 150);
+            label85.Location = new Point(1415, 249);
+            label85.Margin = new Padding(4, 0, 4, 0);
             label85.Name = "label85";
-            label85.Size = new Size(34, 50);
+            label85.Size = new Size(49, 83);
             label85.TabIndex = 84;
             label85.Text = "=";
             label85.TextAlign = ContentAlignment.MiddleCenter;
@@ -2292,9 +2458,10 @@
             // 
             label76.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label76.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label76.Location = new Point(993, 550);
+            label76.Location = new Point(1415, 913);
+            label76.Margin = new Padding(4, 0, 4, 0);
             label76.Name = "label76";
-            label76.Size = new Size(34, 50);
+            label76.Size = new Size(49, 83);
             label76.TabIndex = 75;
             label76.Text = "=";
             label76.TextAlign = ContentAlignment.MiddleCenter;
@@ -2303,9 +2470,10 @@
             // 
             label75.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label75.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label75.Location = new Point(993, 400);
+            label75.Location = new Point(1415, 664);
+            label75.Margin = new Padding(4, 0, 4, 0);
             label75.Name = "label75";
-            label75.Size = new Size(34, 50);
+            label75.Size = new Size(49, 83);
             label75.TabIndex = 74;
             label75.Text = "=";
             label75.TextAlign = ContentAlignment.MiddleCenter;
@@ -2314,9 +2482,10 @@
             // 
             label83.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label83.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label83.Location = new Point(993, 250);
+            label83.Location = new Point(1415, 415);
+            label83.Margin = new Padding(4, 0, 4, 0);
             label83.Name = "label83";
-            label83.Size = new Size(34, 50);
+            label83.Size = new Size(49, 83);
             label83.TabIndex = 82;
             label83.Text = "=";
             label83.TextAlign = ContentAlignment.MiddleCenter;
@@ -2325,9 +2494,10 @@
             // 
             label78.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label78.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label78.Location = new Point(993, 300);
+            label78.Location = new Point(1415, 498);
+            label78.Margin = new Padding(4, 0, 4, 0);
             label78.Name = "label78";
-            label78.Size = new Size(34, 50);
+            label78.Size = new Size(49, 83);
             label78.TabIndex = 77;
             label78.Text = "=";
             label78.TextAlign = ContentAlignment.MiddleCenter;
@@ -2336,9 +2506,10 @@
             // 
             label77.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label77.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label77.Location = new Point(993, 500);
+            label77.Location = new Point(1415, 830);
+            label77.Margin = new Padding(4, 0, 4, 0);
             label77.Name = "label77";
-            label77.Size = new Size(34, 50);
+            label77.Size = new Size(49, 83);
             label77.TabIndex = 76;
             label77.Text = "=";
             label77.TextAlign = ContentAlignment.MiddleCenter;
@@ -2347,9 +2518,10 @@
             // 
             label80.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label80.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label80.Location = new Point(993, 350);
+            label80.Location = new Point(1415, 581);
+            label80.Margin = new Padding(4, 0, 4, 0);
             label80.Name = "label80";
-            label80.Size = new Size(34, 50);
+            label80.Size = new Size(49, 83);
             label80.TabIndex = 79;
             label80.Text = "=";
             label80.TextAlign = ContentAlignment.MiddleCenter;
@@ -2358,9 +2530,10 @@
             // 
             label81.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label81.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label81.Location = new Point(993, 450);
+            label81.Location = new Point(1415, 747);
+            label81.Margin = new Padding(4, 0, 4, 0);
             label81.Name = "label81";
-            label81.Size = new Size(34, 50);
+            label81.Size = new Size(49, 83);
             label81.TabIndex = 80;
             label81.Text = "=";
             label81.TextAlign = ContentAlignment.MiddleCenter;
@@ -2369,9 +2542,10 @@
             // 
             label82.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label82.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label82.Location = new Point(993, 600);
+            label82.Location = new Point(1415, 996);
+            label82.Margin = new Padding(4, 0, 4, 0);
             label82.Name = "label82";
-            label82.Size = new Size(34, 50);
+            label82.Size = new Size(49, 87);
             label82.TabIndex = 81;
             label82.Text = "=";
             label82.TextAlign = ContentAlignment.MiddleCenter;
@@ -2380,10 +2554,11 @@
             // 
             PlannedE261.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             PlannedE261.Font = new Font("Segoe UI", 12F);
-            PlannedE261.Location = new Point(393, 110);
+            PlannedE261.Location = new Point(560, 188);
+            PlannedE261.Margin = new Padding(4, 5, 4, 5);
             PlannedE261.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             PlannedE261.Name = "PlannedE261";
-            PlannedE261.Size = new Size(114, 29);
+            PlannedE261.Size = new Size(163, 39);
             PlannedE261.TabIndex = 100;
             PlannedE261.TextAlign = HorizontalAlignment.Center;
             PlannedE261.Value = new decimal(new int[] { 100, 0, 0, 0 });
@@ -2393,9 +2568,10 @@
             // 
             SellwishP1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             SellwishP1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SellwishP1.Location = new Point(73, 50);
+            SellwishP1.Location = new Point(104, 83);
+            SellwishP1.Margin = new Padding(4, 0, 4, 0);
             SellwishP1.Name = "SellwishP1";
-            SellwishP1.Size = new Size(114, 50);
+            SellwishP1.Size = new Size(163, 83);
             SellwishP1.TabIndex = 111;
             SellwishP1.Text = "number";
             SellwishP1.TextAlign = ContentAlignment.MiddleCenter;
@@ -2404,9 +2580,10 @@
             // 
             label14.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label14.Location = new Point(233, 50);
+            label14.Location = new Point(332, 83);
+            label14.Margin = new Padding(4, 0, 4, 0);
             label14.Name = "label14";
-            label14.Size = new Size(114, 50);
+            label14.Size = new Size(163, 83);
             label14.TabIndex = 13;
             label14.Text = "+";
             label14.TextAlign = ContentAlignment.MiddleCenter;
@@ -2414,9 +2591,10 @@
             // switchMaterialP2
             // 
             switchMaterialP2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            switchMaterialP2.Location = new Point(1370, 727);
+            switchMaterialP2.Location = new Point(1957, 1212);
+            switchMaterialP2.Margin = new Padding(4, 5, 4, 5);
             switchMaterialP2.Name = "switchMaterialP2";
-            switchMaterialP2.Size = new Size(75, 23);
+            switchMaterialP2.Size = new Size(107, 38);
             switchMaterialP2.TabIndex = 8;
             switchMaterialP2.Text = "Next";
             switchMaterialP2.UseVisualStyleBackColor = true;
@@ -2424,13 +2602,15 @@
             // 
             // MaterialPlanning
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1457, 762);
+            AutoScroll = true;
+            ClientSize = new Size(2081, 1270);
             Controls.Add(switchMaterialP2);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
             Controls.Add(switchToLieferProdProg);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "MaterialPlanning";
             Text = "Supply Chain Simulator - Material Planning P1";
             tableLayoutPanel1.ResumeLayout(false);
