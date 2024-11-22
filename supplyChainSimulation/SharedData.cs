@@ -188,7 +188,7 @@ namespace supplyChainSimulation
             { 59, (2, 2, 2) }
         };
 
-
+        public static List<int> evenRows = new List<int> { 21, 23, 25, 28, 33, 35, 37, 39, 41, 43, 45, 47, 52, 57, 59 };
 
         // public methods
         public static void AssignValue(Label label, Dictionary<int, int> dictionary, int key)

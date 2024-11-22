@@ -1050,254 +1050,338 @@
             // OrderModeK59
             // 
             OrderModeK59.FormattingEnabled = true;
-            OrderModeK59.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK59.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK59.Location = new Point(1277, 903);
             OrderModeK59.Name = "OrderModeK59";
             OrderModeK59.Size = new Size(90, 23);
             OrderModeK59.TabIndex = 556;
+            OrderModeK59.SelectedIndexChanged += orderModeChange;
+            OrderModeK59.SelectionChangeCommitted += orderModeChange;
+            OrderModeK59.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK58
             // 
             OrderModeK58.FormattingEnabled = true;
-            OrderModeK58.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK58.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK58.Location = new Point(1277, 873);
             OrderModeK58.Name = "OrderModeK58";
             OrderModeK58.Size = new Size(90, 23);
             OrderModeK58.TabIndex = 555;
+            OrderModeK58.SelectedIndexChanged += orderModeChange;
+            OrderModeK58.SelectionChangeCommitted += orderModeChange;
+            OrderModeK58.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK57
             // 
             OrderModeK57.FormattingEnabled = true;
-            OrderModeK57.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK57.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK57.Location = new Point(1277, 843);
             OrderModeK57.Name = "OrderModeK57";
             OrderModeK57.Size = new Size(90, 23);
             OrderModeK57.TabIndex = 554;
+            OrderModeK57.SelectedIndexChanged += orderModeChange;
+            OrderModeK57.SelectionChangeCommitted += orderModeChange;
+            OrderModeK57.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK53
             // 
             OrderModeK53.FormattingEnabled = true;
-            OrderModeK53.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK53.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK53.Location = new Point(1277, 813);
             OrderModeK53.Name = "OrderModeK53";
             OrderModeK53.Size = new Size(90, 23);
             OrderModeK53.TabIndex = 553;
+            OrderModeK53.SelectedIndexChanged += orderModeChange;
+            OrderModeK53.SelectionChangeCommitted += orderModeChange;
+            OrderModeK53.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK52
             // 
             OrderModeK52.FormattingEnabled = true;
-            OrderModeK52.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK52.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK52.Location = new Point(1277, 783);
             OrderModeK52.Name = "OrderModeK52";
             OrderModeK52.Size = new Size(90, 23);
             OrderModeK52.TabIndex = 552;
+            OrderModeK52.SelectedIndexChanged += orderModeChange;
+            OrderModeK52.SelectionChangeCommitted += orderModeChange;
+            OrderModeK52.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK48
             // 
             OrderModeK48.FormattingEnabled = true;
-            OrderModeK48.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK48.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK48.Location = new Point(1277, 753);
             OrderModeK48.Name = "OrderModeK48";
             OrderModeK48.Size = new Size(90, 23);
             OrderModeK48.TabIndex = 551;
+            OrderModeK48.SelectedIndexChanged += orderModeChange;
+            OrderModeK48.SelectionChangeCommitted += orderModeChange;
+            OrderModeK48.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK47
             // 
             OrderModeK47.FormattingEnabled = true;
-            OrderModeK47.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK47.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK47.Location = new Point(1277, 723);
             OrderModeK47.Name = "OrderModeK47";
             OrderModeK47.Size = new Size(90, 23);
             OrderModeK47.TabIndex = 550;
+            OrderModeK47.SelectedIndexChanged += orderModeChange;
+            OrderModeK47.SelectionChangeCommitted += orderModeChange;
+            OrderModeK47.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK46
             // 
             OrderModeK46.FormattingEnabled = true;
-            OrderModeK46.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK46.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK46.Location = new Point(1277, 693);
             OrderModeK46.Name = "OrderModeK46";
             OrderModeK46.Size = new Size(90, 23);
             OrderModeK46.TabIndex = 549;
+            OrderModeK46.SelectedIndexChanged += orderModeChange;
+            OrderModeK46.SelectionChangeCommitted += orderModeChange;
+            OrderModeK46.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK45
             // 
             OrderModeK45.FormattingEnabled = true;
-            OrderModeK45.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK45.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK45.Location = new Point(1277, 663);
             OrderModeK45.Name = "OrderModeK45";
             OrderModeK45.Size = new Size(90, 23);
             OrderModeK45.TabIndex = 548;
+            OrderModeK45.SelectedIndexChanged += orderModeChange;
+            OrderModeK45.SelectionChangeCommitted += orderModeChange;
+            OrderModeK45.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK44
             // 
             OrderModeK44.FormattingEnabled = true;
-            OrderModeK44.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK44.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK44.Location = new Point(1277, 633);
             OrderModeK44.Name = "OrderModeK44";
             OrderModeK44.Size = new Size(90, 23);
             OrderModeK44.TabIndex = 547;
+            OrderModeK44.SelectedIndexChanged += orderModeChange;
+            OrderModeK44.SelectionChangeCommitted += orderModeChange;
+            OrderModeK44.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK43
             // 
             OrderModeK43.FormattingEnabled = true;
-            OrderModeK43.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK43.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK43.Location = new Point(1277, 603);
             OrderModeK43.Name = "OrderModeK43";
             OrderModeK43.Size = new Size(90, 23);
             OrderModeK43.TabIndex = 546;
+            OrderModeK43.SelectedIndexChanged += orderModeChange;
+            OrderModeK43.SelectionChangeCommitted += orderModeChange;
+            OrderModeK43.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK42
             // 
             OrderModeK42.FormattingEnabled = true;
-            OrderModeK42.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK42.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK42.Location = new Point(1277, 573);
             OrderModeK42.Name = "OrderModeK42";
             OrderModeK42.Size = new Size(90, 23);
             OrderModeK42.TabIndex = 545;
+            OrderModeK42.SelectedIndexChanged += orderModeChange;
+            OrderModeK42.SelectionChangeCommitted += orderModeChange;
+            OrderModeK42.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK41
             // 
             OrderModeK41.FormattingEnabled = true;
-            OrderModeK41.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK41.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK41.Location = new Point(1277, 543);
             OrderModeK41.Name = "OrderModeK41";
             OrderModeK41.Size = new Size(90, 23);
             OrderModeK41.TabIndex = 544;
+            OrderModeK41.SelectedIndexChanged += orderModeChange;
+            OrderModeK41.SelectionChangeCommitted += orderModeChange;
+            OrderModeK41.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK40
             // 
             OrderModeK40.FormattingEnabled = true;
-            OrderModeK40.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK40.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK40.Location = new Point(1277, 513);
             OrderModeK40.Name = "OrderModeK40";
             OrderModeK40.Size = new Size(90, 23);
             OrderModeK40.TabIndex = 543;
+            OrderModeK40.SelectedIndexChanged += orderModeChange;
+            OrderModeK40.SelectionChangeCommitted += orderModeChange;
+            OrderModeK40.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK39
             // 
             OrderModeK39.FormattingEnabled = true;
-            OrderModeK39.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK39.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK39.Location = new Point(1277, 483);
             OrderModeK39.Name = "OrderModeK39";
             OrderModeK39.Size = new Size(90, 23);
             OrderModeK39.TabIndex = 542;
+            OrderModeK39.SelectedIndexChanged += orderModeChange;
+            OrderModeK39.SelectionChangeCommitted += orderModeChange;
+            OrderModeK39.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK38
             // 
             OrderModeK38.FormattingEnabled = true;
-            OrderModeK38.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK38.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK38.Location = new Point(1277, 453);
             OrderModeK38.Name = "OrderModeK38";
             OrderModeK38.Size = new Size(90, 23);
             OrderModeK38.TabIndex = 541;
+            OrderModeK38.SelectedIndexChanged += orderModeChange;
+            OrderModeK38.SelectionChangeCommitted += orderModeChange;
+            OrderModeK38.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK37
             // 
             OrderModeK37.FormattingEnabled = true;
-            OrderModeK37.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK37.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK37.Location = new Point(1277, 423);
             OrderModeK37.Name = "OrderModeK37";
             OrderModeK37.Size = new Size(90, 23);
             OrderModeK37.TabIndex = 540;
+            OrderModeK37.SelectedIndexChanged += orderModeChange;
+            OrderModeK37.SelectionChangeCommitted += orderModeChange;
+            OrderModeK37.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK36
             // 
             OrderModeK36.FormattingEnabled = true;
-            OrderModeK36.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK36.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK36.Location = new Point(1277, 393);
             OrderModeK36.Name = "OrderModeK36";
             OrderModeK36.Size = new Size(90, 23);
             OrderModeK36.TabIndex = 539;
+            OrderModeK36.SelectedIndexChanged += orderModeChange;
+            OrderModeK36.SelectionChangeCommitted += orderModeChange;
+            OrderModeK36.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK35
             // 
             OrderModeK35.FormattingEnabled = true;
-            OrderModeK35.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK35.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK35.Location = new Point(1277, 363);
             OrderModeK35.Name = "OrderModeK35";
             OrderModeK35.Size = new Size(90, 23);
             OrderModeK35.TabIndex = 538;
+            OrderModeK35.SelectedIndexChanged += orderModeChange;
+            OrderModeK35.SelectionChangeCommitted += orderModeChange;
+            OrderModeK35.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK34
             // 
             OrderModeK34.FormattingEnabled = true;
-            OrderModeK34.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK34.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK34.Location = new Point(1277, 333);
             OrderModeK34.Name = "OrderModeK34";
             OrderModeK34.Size = new Size(90, 23);
             OrderModeK34.TabIndex = 537;
+            OrderModeK34.SelectedIndexChanged += orderModeChange;
+            OrderModeK34.SelectionChangeCommitted += orderModeChange;
+            OrderModeK34.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK33
             // 
             OrderModeK33.FormattingEnabled = true;
-            OrderModeK33.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK33.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK33.Location = new Point(1277, 303);
             OrderModeK33.Name = "OrderModeK33";
             OrderModeK33.Size = new Size(90, 23);
             OrderModeK33.TabIndex = 536;
+            OrderModeK33.SelectedIndexChanged += orderModeChange;
+            OrderModeK33.SelectionChangeCommitted += orderModeChange;
+            OrderModeK33.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK32
             // 
             OrderModeK32.FormattingEnabled = true;
-            OrderModeK32.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK32.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK32.Location = new Point(1277, 273);
             OrderModeK32.Name = "OrderModeK32";
             OrderModeK32.Size = new Size(90, 23);
             OrderModeK32.TabIndex = 535;
+            OrderModeK32.SelectedIndexChanged += orderModeChange;
+            OrderModeK32.SelectionChangeCommitted += orderModeChange;
+            OrderModeK32.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK28
             // 
             OrderModeK28.FormattingEnabled = true;
-            OrderModeK28.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK28.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK28.Location = new Point(1277, 243);
             OrderModeK28.Name = "OrderModeK28";
             OrderModeK28.Size = new Size(90, 23);
             OrderModeK28.TabIndex = 534;
+            OrderModeK28.SelectedIndexChanged += orderModeChange;
+            OrderModeK28.SelectionChangeCommitted += orderModeChange;
+            OrderModeK28.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK27
             // 
             OrderModeK27.FormattingEnabled = true;
-            OrderModeK27.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK27.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK27.Location = new Point(1277, 213);
             OrderModeK27.Name = "OrderModeK27";
             OrderModeK27.Size = new Size(90, 23);
             OrderModeK27.TabIndex = 533;
+            OrderModeK27.SelectedIndexChanged += orderModeChange;
+            OrderModeK27.SelectionChangeCommitted += orderModeChange;
+            OrderModeK27.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK25
             // 
             OrderModeK25.FormattingEnabled = true;
-            OrderModeK25.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK25.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK25.Location = new Point(1277, 183);
             OrderModeK25.Name = "OrderModeK25";
             OrderModeK25.Size = new Size(90, 23);
             OrderModeK25.TabIndex = 532;
+            OrderModeK25.SelectedIndexChanged += orderModeChange;
+            OrderModeK25.SelectionChangeCommitted += orderModeChange;
+            OrderModeK25.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK24
             // 
             OrderModeK24.FormattingEnabled = true;
-            OrderModeK24.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK24.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK24.Location = new Point(1277, 153);
             OrderModeK24.Name = "OrderModeK24";
             OrderModeK24.Size = new Size(90, 23);
             OrderModeK24.TabIndex = 531;
+            OrderModeK24.SelectedIndexChanged += orderModeChange;
+            OrderModeK24.SelectionChangeCommitted += orderModeChange;
+            OrderModeK24.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK23
             // 
             OrderModeK23.FormattingEnabled = true;
-            OrderModeK23.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK23.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK23.Location = new Point(1277, 123);
             OrderModeK23.Name = "OrderModeK23";
             OrderModeK23.Size = new Size(90, 23);
             OrderModeK23.TabIndex = 530;
+            OrderModeK23.SelectedIndexChanged += orderModeChange;
+            OrderModeK23.SelectionChangeCommitted += orderModeChange;
+            OrderModeK23.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK22
             // 
             OrderModeK22.FormattingEnabled = true;
-            OrderModeK22.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK22.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK22.Location = new Point(1277, 93);
             OrderModeK22.Name = "OrderModeK22";
             OrderModeK22.Size = new Size(90, 23);
             OrderModeK22.TabIndex = 529;
+            OrderModeK22.SelectedIndexChanged += orderModeChange;
+            OrderModeK22.SelectionChangeCommitted += orderModeChange;
+            OrderModeK22.SelectedValueChanged += orderModeChange;
             // 
             // RequK59_0
             // 
@@ -5881,6 +5965,7 @@
             OrderQuantity21.Size = new Size(85, 23);
             OrderQuantity21.TabIndex = 178;
             OrderQuantity21.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity21.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity22
             // 
@@ -5892,6 +5977,7 @@
             OrderQuantity22.Size = new Size(85, 23);
             OrderQuantity22.TabIndex = 178;
             OrderQuantity22.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity22.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity23
             // 
@@ -5903,6 +5989,7 @@
             OrderQuantity23.Size = new Size(85, 23);
             OrderQuantity23.TabIndex = 178;
             OrderQuantity23.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity23.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity24
             // 
@@ -5914,6 +6001,7 @@
             OrderQuantity24.Size = new Size(85, 23);
             OrderQuantity24.TabIndex = 178;
             OrderQuantity24.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity24.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity25
             // 
@@ -5925,6 +6013,7 @@
             OrderQuantity25.Size = new Size(85, 23);
             OrderQuantity25.TabIndex = 178;
             OrderQuantity25.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity25.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity27
             // 
@@ -5936,6 +6025,7 @@
             OrderQuantity27.Size = new Size(85, 23);
             OrderQuantity27.TabIndex = 178;
             OrderQuantity27.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity27.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity28
             // 
@@ -5947,6 +6037,7 @@
             OrderQuantity28.Size = new Size(85, 23);
             OrderQuantity28.TabIndex = 178;
             OrderQuantity28.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity28.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity32
             // 
@@ -5958,6 +6049,7 @@
             OrderQuantity32.Size = new Size(85, 23);
             OrderQuantity32.TabIndex = 178;
             OrderQuantity32.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity32.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity33
             // 
@@ -5969,6 +6061,7 @@
             OrderQuantity33.Size = new Size(85, 23);
             OrderQuantity33.TabIndex = 178;
             OrderQuantity33.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity33.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity34
             // 
@@ -5980,6 +6073,7 @@
             OrderQuantity34.Size = new Size(85, 23);
             OrderQuantity34.TabIndex = 178;
             OrderQuantity34.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity34.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity35
             // 
@@ -5991,6 +6085,7 @@
             OrderQuantity35.Size = new Size(85, 23);
             OrderQuantity35.TabIndex = 178;
             OrderQuantity35.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity35.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity36
             // 
@@ -6002,6 +6097,7 @@
             OrderQuantity36.Size = new Size(85, 23);
             OrderQuantity36.TabIndex = 178;
             OrderQuantity36.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity36.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity37
             // 
@@ -6013,6 +6109,7 @@
             OrderQuantity37.Size = new Size(85, 23);
             OrderQuantity37.TabIndex = 178;
             OrderQuantity37.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity37.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity38
             // 
@@ -6024,6 +6121,7 @@
             OrderQuantity38.Size = new Size(85, 23);
             OrderQuantity38.TabIndex = 178;
             OrderQuantity38.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity38.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity39
             // 
@@ -6035,6 +6133,7 @@
             OrderQuantity39.Size = new Size(85, 23);
             OrderQuantity39.TabIndex = 178;
             OrderQuantity39.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity39.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity40
             // 
@@ -6046,6 +6145,7 @@
             OrderQuantity40.Size = new Size(85, 23);
             OrderQuantity40.TabIndex = 178;
             OrderQuantity40.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity40.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity41
             // 
@@ -6057,6 +6157,7 @@
             OrderQuantity41.Size = new Size(85, 23);
             OrderQuantity41.TabIndex = 178;
             OrderQuantity41.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity41.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity42
             // 
@@ -6068,6 +6169,7 @@
             OrderQuantity42.Size = new Size(85, 23);
             OrderQuantity42.TabIndex = 178;
             OrderQuantity42.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity42.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity43
             // 
@@ -6079,6 +6181,7 @@
             OrderQuantity43.Size = new Size(85, 23);
             OrderQuantity43.TabIndex = 178;
             OrderQuantity43.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity43.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity44
             // 
@@ -6090,6 +6193,7 @@
             OrderQuantity44.Size = new Size(85, 23);
             OrderQuantity44.TabIndex = 178;
             OrderQuantity44.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity44.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity45
             // 
@@ -6101,6 +6205,7 @@
             OrderQuantity45.Size = new Size(85, 23);
             OrderQuantity45.TabIndex = 178;
             OrderQuantity45.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity45.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity46
             // 
@@ -6112,6 +6217,7 @@
             OrderQuantity46.Size = new Size(85, 23);
             OrderQuantity46.TabIndex = 178;
             OrderQuantity46.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity46.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity47
             // 
@@ -6123,6 +6229,7 @@
             OrderQuantity47.Size = new Size(85, 23);
             OrderQuantity47.TabIndex = 178;
             OrderQuantity47.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity47.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity48
             // 
@@ -6134,6 +6241,7 @@
             OrderQuantity48.Size = new Size(85, 23);
             OrderQuantity48.TabIndex = 178;
             OrderQuantity48.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity48.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity52
             // 
@@ -6145,6 +6253,7 @@
             OrderQuantity52.Size = new Size(85, 23);
             OrderQuantity52.TabIndex = 178;
             OrderQuantity52.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity52.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity53
             // 
@@ -6156,6 +6265,7 @@
             OrderQuantity53.Size = new Size(85, 23);
             OrderQuantity53.TabIndex = 178;
             OrderQuantity53.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity53.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity57
             // 
@@ -6167,6 +6277,7 @@
             OrderQuantity57.Size = new Size(85, 23);
             OrderQuantity57.TabIndex = 178;
             OrderQuantity57.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity57.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity58
             // 
@@ -6178,6 +6289,7 @@
             OrderQuantity58.Size = new Size(85, 23);
             OrderQuantity58.TabIndex = 178;
             OrderQuantity58.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity58.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity59
             // 
@@ -6189,6 +6301,7 @@
             OrderQuantity59.Size = new Size(85, 23);
             OrderQuantity59.TabIndex = 178;
             OrderQuantity59.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity59.ValueChanged += orderQuantityChange;
             // 
             // label49
             // 
@@ -6205,11 +6318,14 @@
             // OrderModeK21
             // 
             OrderModeK21.FormattingEnabled = true;
-            OrderModeK21.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK21.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK21.Location = new Point(1277, 63);
             OrderModeK21.Name = "OrderModeK21";
             OrderModeK21.Size = new Size(90, 23);
             OrderModeK21.TabIndex = 528;
+            OrderModeK21.SelectedIndexChanged += orderModeChange;
+            OrderModeK21.SelectionChangeCommitted += orderModeChange;
+            OrderModeK21.SelectedValueChanged += orderModeChange;
             // 
             // label1
             // 
