@@ -59,6 +59,8 @@ namespace supplyChainSimulation
             calcRequirements();
 
             calcFutureStock();
+
+            coloringTheFuture();
         }
 
         private void switchCapacityPlanning_Click(object sender, EventArgs e)
@@ -67,37 +69,71 @@ namespace supplyChainSimulation
             mainOrchestrator.ShowForm(new CapacityPlanning());
         }
 
+        private void coloringTheFuture()
+        {
+            foreach (var pick in discountQuantity)
+            {
+                int id = pick.Key;
+                for (int i = 0; i < 4; i++)
+                {
+                    string labelName = $"FutureK{id}_{i}";
+
+                    var label = this.Controls.Find(labelName, true).FirstOrDefault() as Label;
+
+                    if (label != null)
+                    {
+                        int value = Int32.Parse(label.Text);
+                        if (value > 0)
+                        {
+                            if (evenRows.Contains(id))
+                            {
+                                label.BackColor = DefaultBackColor;
+                            }
+                            else
+                            {
+                                label.BackColor = Color.Gainsboro;
+                            }
+                        }
+                        else
+                        {
+                            label.BackColor = Color.Red;
+                        }
+                    }
+                }
+            }
+        }
+
         private void switchBuildXML_Click(object sender, EventArgs e)
         {
-            purchaseParts[21] = ((int)OrderQuantity21.Value, (OrderModeK21.SelectedIndex + 3));
-            purchaseParts[22] = ((int)OrderQuantity22.Value, (OrderModeK22.SelectedIndex + 3));
-            purchaseParts[23] = ((int)OrderQuantity23.Value, (OrderModeK23.SelectedIndex + 3));
-            purchaseParts[24] = ((int)OrderQuantity24.Value, (OrderModeK24.SelectedIndex + 3));
-            purchaseParts[25] = ((int)OrderQuantity25.Value, (OrderModeK25.SelectedIndex + 3));
-            purchaseParts[27] = ((int)OrderQuantity27.Value, (OrderModeK27.SelectedIndex + 3));
-            purchaseParts[28] = ((int)OrderQuantity28.Value, (OrderModeK28.SelectedIndex + 3));
-            purchaseParts[32] = ((int)OrderQuantity32.Value, (OrderModeK32.SelectedIndex + 3));
-            purchaseParts[33] = ((int)OrderQuantity33.Value, (OrderModeK33.SelectedIndex + 3));
-            purchaseParts[34] = ((int)OrderQuantity34.Value, (OrderModeK34.SelectedIndex + 3));
-            purchaseParts[35] = ((int)OrderQuantity35.Value, (OrderModeK35.SelectedIndex + 3));
-            purchaseParts[36] = ((int)OrderQuantity36.Value, (OrderModeK36.SelectedIndex + 3));
-            purchaseParts[37] = ((int)OrderQuantity37.Value, (OrderModeK37.SelectedIndex + 3));
-            purchaseParts[38] = ((int)OrderQuantity38.Value, (OrderModeK38.SelectedIndex + 3));
-            purchaseParts[39] = ((int)OrderQuantity39.Value, (OrderModeK39.SelectedIndex + 3));
-            purchaseParts[40] = ((int)OrderQuantity40.Value, (OrderModeK40.SelectedIndex + 3));
-            purchaseParts[41] = ((int)OrderQuantity41.Value, (OrderModeK41.SelectedIndex + 3));
-            purchaseParts[42] = ((int)OrderQuantity42.Value, (OrderModeK42.SelectedIndex + 3));
-            purchaseParts[43] = ((int)OrderQuantity43.Value, (OrderModeK43.SelectedIndex + 3));
-            purchaseParts[44] = ((int)OrderQuantity44.Value, (OrderModeK44.SelectedIndex + 3));
-            purchaseParts[45] = ((int)OrderQuantity45.Value, (OrderModeK45.SelectedIndex + 3));
-            purchaseParts[46] = ((int)OrderQuantity46.Value, (OrderModeK46.SelectedIndex + 3));
-            purchaseParts[47] = ((int)OrderQuantity47.Value, (OrderModeK47.SelectedIndex + 3));
-            purchaseParts[48] = ((int)OrderQuantity48.Value, (OrderModeK48.SelectedIndex + 3));
-            purchaseParts[52] = ((int)OrderQuantity52.Value, (OrderModeK52.SelectedIndex + 3));
-            purchaseParts[53] = ((int)OrderQuantity53.Value, (OrderModeK53.SelectedIndex + 3));
-            purchaseParts[57] = ((int)OrderQuantity57.Value, (OrderModeK57.SelectedIndex + 3));
-            purchaseParts[58] = ((int)OrderQuantity58.Value, (OrderModeK58.SelectedIndex + 3));
-            purchaseParts[59] = ((int)OrderQuantity59.Value, (OrderModeK59.SelectedIndex + 3));
+            purchaseParts[21] = ((int)OrderQuantity21.Value, (OrderModeK21.SelectedIndex + 4));
+            purchaseParts[22] = ((int)OrderQuantity22.Value, (OrderModeK22.SelectedIndex + 4));
+            purchaseParts[23] = ((int)OrderQuantity23.Value, (OrderModeK23.SelectedIndex + 4));
+            purchaseParts[24] = ((int)OrderQuantity24.Value, (OrderModeK24.SelectedIndex + 4));
+            purchaseParts[25] = ((int)OrderQuantity25.Value, (OrderModeK25.SelectedIndex + 4));
+            purchaseParts[27] = ((int)OrderQuantity27.Value, (OrderModeK27.SelectedIndex + 4));
+            purchaseParts[28] = ((int)OrderQuantity28.Value, (OrderModeK28.SelectedIndex + 4));
+            purchaseParts[32] = ((int)OrderQuantity32.Value, (OrderModeK32.SelectedIndex + 4));
+            purchaseParts[33] = ((int)OrderQuantity33.Value, (OrderModeK33.SelectedIndex + 4));
+            purchaseParts[34] = ((int)OrderQuantity34.Value, (OrderModeK34.SelectedIndex + 4));
+            purchaseParts[35] = ((int)OrderQuantity35.Value, (OrderModeK35.SelectedIndex + 4));
+            purchaseParts[36] = ((int)OrderQuantity36.Value, (OrderModeK36.SelectedIndex + 4));
+            purchaseParts[37] = ((int)OrderQuantity37.Value, (OrderModeK37.SelectedIndex + 4));
+            purchaseParts[38] = ((int)OrderQuantity38.Value, (OrderModeK38.SelectedIndex + 4));
+            purchaseParts[39] = ((int)OrderQuantity39.Value, (OrderModeK39.SelectedIndex + 4));
+            purchaseParts[40] = ((int)OrderQuantity40.Value, (OrderModeK40.SelectedIndex + 4));
+            purchaseParts[41] = ((int)OrderQuantity41.Value, (OrderModeK41.SelectedIndex + 4));
+            purchaseParts[42] = ((int)OrderQuantity42.Value, (OrderModeK42.SelectedIndex + 4));
+            purchaseParts[43] = ((int)OrderQuantity43.Value, (OrderModeK43.SelectedIndex + 4));
+            purchaseParts[44] = ((int)OrderQuantity44.Value, (OrderModeK44.SelectedIndex + 4));
+            purchaseParts[45] = ((int)OrderQuantity45.Value, (OrderModeK45.SelectedIndex + 4));
+            purchaseParts[46] = ((int)OrderQuantity46.Value, (OrderModeK46.SelectedIndex + 4));
+            purchaseParts[47] = ((int)OrderQuantity47.Value, (OrderModeK47.SelectedIndex + 4));
+            purchaseParts[48] = ((int)OrderQuantity48.Value, (OrderModeK48.SelectedIndex + 4));
+            purchaseParts[52] = ((int)OrderQuantity52.Value, (OrderModeK52.SelectedIndex + 4));
+            purchaseParts[53] = ((int)OrderQuantity53.Value, (OrderModeK53.SelectedIndex + 4));
+            purchaseParts[57] = ((int)OrderQuantity57.Value, (OrderModeK57.SelectedIndex + 4));
+            purchaseParts[58] = ((int)OrderQuantity58.Value, (OrderModeK58.SelectedIndex + 4));
+            purchaseParts[59] = ((int)OrderQuantity59.Value, (OrderModeK59.SelectedIndex + 4));
 
 
 
@@ -365,14 +401,50 @@ namespace supplyChainSimulation
             FutureK59_3.Text = futureStock3[59].ToString();
         }
 
-        private void OrderModeK22_SelectedIndexChanged(object sender, EventArgs e)
+        private void orderModeChange(object sender, EventArgs e)
         {
+            string comboName = ((ComboBox)sender).Name;
+
+            string labelnumber = comboName.Substring(comboName.Length - 2);
+
+            string numericName = $"OrderQuantity{labelnumber}";
+
+            var numericThingy = this.Controls.Find(numericName, true).FirstOrDefault() as NumericUpDown;
+
+            if (numericThingy != null)
+            {
+                if (numericThingy.Value  == 0)
+                {
+                    ((ComboBox)sender).SelectedIndex = -1;
+                }
+            }
 
         }
 
-        private void orderModeChange(object sender, EventArgs e)
+        private void orderQuantityChange(object sender, EventArgs e)
         {
+            string numericName = ((NumericUpDown)sender).Name;
 
+            string labelnumber = numericName.Substring(numericName.Length - 2);
+
+            string comboBoxName = $"OrderModeK{labelnumber}";
+
+            var comboBox = this.Controls.Find(comboBoxName, true).FirstOrDefault() as ComboBox;
+
+            if (comboBox != null)
+            {
+                if (((NumericUpDown)sender).Value != 0)
+                {
+                    if (comboBox.SelectedIndex == -1)
+                    {
+                        comboBox.SelectedIndex = 1;
+                    }
+                }
+                else
+                {
+                    comboBox.SelectedIndex = -1;
+                }                
+            }
         }
     }
 }
