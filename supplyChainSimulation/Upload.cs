@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.DirectoryServices.ActiveDirectory;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,55 @@ namespace supplyChainSimulation
             InitializeComponent();
 
             initialInitMaterial = 0;
+
+            // ComboBox für die Sprachauswahl hinzufügen
+            ComboBox cmbLanguage = new ComboBox
+            {
+                Name = "cmbLanguage",
+                Location = new System.Drawing.Point(10, 10),
+                Size = new System.Drawing.Size(150, 25),
+                DropDownStyle = ComboBoxStyle.DropDownList
+            };
+            cmbLanguage.Items.Add("Deutsch");
+            cmbLanguage.Items.Add("English");
+            cmbLanguage.SelectedItem = "English"; // Standardsprache
+            cmbLanguage.SelectedIndexChanged += CmbLanguage_SelectedIndexChanged;
+            this.Controls.Add(cmbLanguage);
+
+            // UI mit Standardkultur initialisieren
+            UpdateUI();
+        }
+
+        private void CmbLanguage_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ComboBox cmb = sender as ComboBox;
+            if (cmb.SelectedItem.ToString() == "Deutsch")
+            {
+                SetLanguage("de");
+            }
+            else
+            {
+                SetLanguage("en");
+            }
+        }
+
+        private void SetLanguage(string culture)
+        {
+            // Kultur setzen
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(culture);
+            Thread.CurrentThread.CurrentCulture = new CultureInfo(culture);
+
+            // UI aktualisieren
+            UpdateUI();
+        }
+
+        private void UpdateUI()
+        {
+            // Beispielhafte Aktualisierung von UI-Elementen
+            this.Text = Thread.CurrentThread.CurrentUICulture.Name == "de" ? "Hochladen" : "Upload";
+            switchToLieferProdProg.Text = Thread.CurrentThread.CurrentUICulture.Name == "de" ? "Zum Lieferplan" : "To Production Plan";
+
+            // Weitere Elemente können hier hinzugefügt werden...
         }
 
         private void p1_uploadXML_Click(object sender, EventArgs e)
@@ -74,5 +124,11 @@ namespace supplyChainSimulation
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
