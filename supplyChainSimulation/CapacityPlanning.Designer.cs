@@ -3465,7 +3465,7 @@
             switchMaterialP3.TabIndex = 9;
             switchMaterialP3.Text = "Back";
             switchMaterialP3.UseVisualStyleBackColor = true;
-            switchMaterialP3.Click += switchMaterialP3_Click;
+            switchMaterialP3.Click += switchSplitting_Click;
             // 
             // CapacityPlanning
             // 

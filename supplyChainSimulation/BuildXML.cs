@@ -143,14 +143,14 @@ namespace supplyChainSimulation
 
                 // Add <productionlist> element
                 writer.WriteStartElement("productionlist");
-                foreach (var product in productionOrders)
+                foreach (var product in modifiedArticelsfinalized)
                 {
-                    int id = product.Key;
+                    int id = product.Item1;
                     if (id < 100)
                     {
                         writer.WriteStartElement("production");
                         writer.WriteAttributeString("article", id.ToString());
-                        writer.WriteAttributeString("quantity", product.Value.ToString());
+                        writer.WriteAttributeString("quantity", product.Item2.ToString());
                         writer.WriteEndElement();
                     }
                 }
