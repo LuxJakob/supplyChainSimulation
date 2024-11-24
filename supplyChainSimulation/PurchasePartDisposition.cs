@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,14 +19,16 @@ namespace supplyChainSimulation
         {
             InitializeComponent();
 
-            Label_PeriodProg0.Text = $"Period {current_period + 1}";
-            Label_PeriodProg1.Text = $"Period {current_period + 2}";
-            Label_PeriodProg2.Text = $"Period {current_period + 3}";
-            Label_PeriodProg3.Text = $"Period {current_period + 4}";
-            Label_PeriodFuture0.Text = $"Period {current_period + 1}";
-            Label_PeriodFuture1.Text = $"Period {current_period + 2}";
-            Label_PeriodFuture2.Text = $"Period {current_period + 3}";
-            Label_PeriodFuture3.Text = $"Period {current_period + 4}";
+            string periodLabel = CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase) ? "Periode" : "Period";
+
+            Label_PeriodProg0.Text = $"{periodLabel} {current_period + 1}";
+            Label_PeriodProg1.Text = $"{periodLabel} {current_period + 2}";
+            Label_PeriodProg2.Text = $"{periodLabel} {current_period + 3}";
+            Label_PeriodProg3.Text = $"{periodLabel} {current_period + 4}";
+            Label_PeriodFuture0.Text = $"{periodLabel} {current_period + 1}";
+            Label_PeriodFuture1.Text = $"{periodLabel} {current_period + 2}";
+            Label_PeriodFuture2.Text = $"{periodLabel} {current_period + 3}";
+            Label_PeriodFuture3.Text = $"{periodLabel} {current_period + 4}";
 
             InventoryK21.Text = warehousestock[21].ToString();
             InventoryK22.Text = warehousestock[22].ToString();

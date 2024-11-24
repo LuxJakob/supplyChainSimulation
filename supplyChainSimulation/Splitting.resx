@@ -117,4 +117,179 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;Split.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SwitchSplitterNext.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;articelListView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitInput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="articelListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 28</value>
+  </data>
+  <data name="SplitInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 158</value>
+  </data>
+  <data name="deleteSplit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="SwitchSplitterNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SplitInput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 3, 3, 3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SwitchSplitterBack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="Split.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SwitchSplitterBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="&gt;&gt;SwitchSplitterBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Split.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;SwitchSplitterNext.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="deleteSplit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 3, 3</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1924, 1061</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Splitting</value>
+  </data>
+  <data name="&gt;&gt;deleteSplit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SwitchSplitterBack.Name" xml:space="preserve">
+    <value>SwitchSplitterBack</value>
+  </data>
+  <data name="&gt;&gt;deleteSplit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="articelListView.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Split.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="articelListView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="deleteSplit.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="SwitchSplitterNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1800, 1015</value>
+  </data>
+  <data name="&gt;&gt;SwitchSplitterNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SwitchSplitterBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SplitInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SwitchSplitterNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="SplitInput.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Split.Name" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="&gt;&gt;SwitchSplitterBack.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Split.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 199</value>
+  </data>
+  <data name="&gt;&gt;SplitInput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;deleteSplit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="articelListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 882</value>
+  </data>
+  <data name="&gt;&gt;SplitInput.Name" xml:space="preserve">
+    <value>SplitInput</value>
+  </data>
+  <data name="Split.Text" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="&gt;&gt;Split.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SwitchSplitterNext.Name" xml:space="preserve">
+    <value>SwitchSplitterNext</value>
+  </data>
+  <data name="deleteSplit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;deleteSplit.Name" xml:space="preserve">
+    <value>deleteSplit</value>
+  </data>
+  <data name="SwitchSplitterNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="SplitInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="&gt;&gt;articelListView.Name" xml:space="preserve">
+    <value>articelListView</value>
+  </data>
+  <data name="&gt;&gt;articelListView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SwitchSplitterBack.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="deleteSplit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 251</value>
+  </data>
+  <data name="SwitchSplitterBack.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Split.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SwitchSplitterNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;articelListView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SwitchSplitterBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 1015</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>de</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>
