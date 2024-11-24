@@ -150,6 +150,17 @@ namespace supplyChainSimulation
                         writer.WriteAttributeString("quantity", product.Value.ToString());
                         writer.WriteEndElement();
                     }
+                    var matchingPairs = splittedArticels.Where(splittArticel => splittArticel.Item1 == id).ToList();
+                    if (matchingPairs != null)
+                    {
+                        foreach (var additionalProduct in matchingPairs)
+                        {
+                            writer.WriteStartElement("production");
+                            writer.WriteAttributeString("article", id.ToString());
+                            writer.WriteAttributeString("quantity", additionalProduct.Item2.ToString());
+                            writer.WriteEndElement();
+                        }
+                    }
                 }
                 writer.WriteEndElement();
 
