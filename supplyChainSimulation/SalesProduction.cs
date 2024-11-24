@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -42,15 +43,17 @@ namespace supplyChainSimulation
             ProdXP2_0.Text = forecast0[2].ToString();
             ProdXP3_0.Text = forecast0[3].ToString();
 
-            Label_Period0.Text = $"Period {current_period + 1}";
-            Label_Period1.Text = $"Period {current_period + 2}";
-            Label_Period2.Text = $"Period {current_period + 3}";
-            Label_Period3.Text = $"Period {current_period + 4}";
+            var periodFormat = CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase) ? "Periode" : "Period";
 
-            Label_Period0_1.Text = $"Period {current_period + 1}";
-            Label_Period1_1.Text = $"Period {current_period + 2}";
-            Label_Period2_1.Text = $"Period {current_period + 3}";
-            Label_Period3_1.Text = $"Period {current_period + 4}";
+            Label_Period0.Text = $"{periodFormat} {current_period + 1}";
+            Label_Period1.Text = $"{periodFormat} {current_period + 2}";
+            Label_Period2.Text = $"{periodFormat} {current_period + 3}";
+            Label_Period3.Text = $"{periodFormat} {current_period + 4}";
+
+            Label_Period0_1.Text = $"{periodFormat} {current_period + 1}";
+            Label_Period1_1.Text = $"{periodFormat} {current_period + 2}";
+            Label_Period2_1.Text = $"{periodFormat} {current_period + 3}";
+            Label_Period3_1.Text = $"{periodFormat} {current_period + 4}";
         }
 
         private void switchToUpload_Click(object sender, EventArgs e)
@@ -101,6 +104,11 @@ namespace supplyChainSimulation
         private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             // TODO
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            // Your code here
         }
     }
 }
