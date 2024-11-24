@@ -53,15 +53,15 @@ namespace supplyChainSimulation
                 return;
             }
 
-            //try
-            //{
-            GenerateXml(filePath);
-            //    MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show($"An error occurred:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
+            try
+            {
+                GenerateXml(filePath);
+                MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         static string GetSaveFilePath()
@@ -130,11 +130,14 @@ namespace supplyChainSimulation
                 writer.WriteStartElement("orderlist");
                 foreach (var purchase in purchaseParts)
                 {
-                    writer.WriteStartElement("order");
-                    writer.WriteAttributeString("article", purchase.Key.ToString());
-                    writer.WriteAttributeString("quantity", purchase.Value.Item1.ToString());
-                    writer.WriteAttributeString("modus", purchase.Value.Item2.ToString());
-                    writer.WriteEndElement();
+                    if (purchase.Value.Item2 != 3)
+                    {
+                        writer.WriteStartElement("order");
+                        writer.WriteAttributeString("article", purchase.Key.ToString());
+                        writer.WriteAttributeString("quantity", purchase.Value.Item1.ToString());
+                        writer.WriteAttributeString("modus", purchase.Value.Item2.ToString());
+                        writer.WriteEndElement();
+                    }
                 }
                 writer.WriteEndElement();
 
