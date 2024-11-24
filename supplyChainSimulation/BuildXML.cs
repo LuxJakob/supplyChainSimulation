@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,12 +31,25 @@ namespace supplyChainSimulation
         {
             if ((!hack_nope.Checked) && (!warningLabel.LinkVisited))
             {
-                MessageBox.Show("Read the risks and accept the terms and conditions!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase)) {
+                    MessageBox.Show("Lesen Sie die Risiken und akzeptieren sie die Geschäftsbedingungen!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                } else
+                {
+                    MessageBox.Show("Read the risks and accept the terms and conditions!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+
             }
 
             if ((!hack_nope.Checked) && (warningLabel.LinkVisited))
             {
-                MessageBox.Show("This is on you...", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                {
+                    MessageBox.Show("Das ist ganz dein Bier!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    MessageBox.Show("This is on you...", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
                 provideXML();
             }
             if (hack_nope.Checked)
@@ -49,14 +63,28 @@ namespace supplyChainSimulation
             string filePath = GetSaveFilePath();
             if (string.IsNullOrWhiteSpace(filePath))
             {
-                MessageBox.Show("No file selected. Exiting...", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                {
+                    MessageBox.Show("Keine Datei ausgewählt. Aufregend...", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    MessageBox.Show("No file selected. Exiting...", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
                 return;
             }
 
             try
             {
                 GenerateXml(filePath);
-                MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                {
+                    MessageBox.Show($"XML Datei erfolgreich erzeugt in:\n{filePath}", "Erfolg", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }    
             }
             catch (Exception ex)
             {

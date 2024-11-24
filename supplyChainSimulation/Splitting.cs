@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.DirectoryServices.ActiveDirectory;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,8 +46,16 @@ namespace supplyChainSimulation
 
         private void ShowArticles()
         {
+            if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+            {
+                articelListView.Columns.Add("Artikel", 100);
+                articelListView.Columns.Add("Menge", 150);
+            }
+            else
+            {
             articelListView.Columns.Add("Articel", 100);
             articelListView.Columns.Add("Amount", 150);
+            }
             articelListView.Items.Clear();
 
             foreach (var articel in productionOrders)
@@ -95,9 +104,16 @@ namespace supplyChainSimulation
                 }
                 catch (Exception ex)
                 {
+                    if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                    {
+                        MessageBox.Show($"Deine Auswahl lässt sich nicht durch 10 teilen!", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    } else
+                    {
                     MessageBox.Show($"Your input cannot be divided by 10!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 }
             }
+        }
         }
 
         private int ExtractNumberFromString(string str)
@@ -128,8 +144,15 @@ namespace supplyChainSimulation
             }
             catch (Exception ex)
             {
+                if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                {
+                    MessageBox.Show($"Sie können diese Position nicht löschen!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
                 MessageBox.Show($"You can't delete this position!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
         }
 
         private void MergeItems(string itemName, int amountToAdd)
