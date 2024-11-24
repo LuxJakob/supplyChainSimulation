@@ -413,7 +413,7 @@ namespace supplyChainSimulation
 
             if (numericThingy != null)
             {
-                if (numericThingy.Value  == 0)
+                if (numericThingy.Value == 0)
                 {
                     ((ComboBox)sender).SelectedIndex = -1;
                 }
@@ -443,8 +443,13 @@ namespace supplyChainSimulation
                 else
                 {
                     comboBox.SelectedIndex = -1;
-                }                
+                }
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

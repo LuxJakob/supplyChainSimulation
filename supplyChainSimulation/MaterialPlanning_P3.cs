@@ -130,7 +130,17 @@ namespace supplyChainSimulation
         private void switchCapacityPlanning_Click(object sender, EventArgs e)
         {
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
-            mainOrchestrator.ShowForm(new CapacityPlanning());
+            mainOrchestrator.ShowForm(new Splitting());
+        }
+
+        private void label89_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MaterialPlanning_P3_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
