@@ -117,21 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="p1_desc.Text" xml:space="preserve">
-    <value>Bitte laden Sie ihr letztes Ergebnis hoch</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cmbLanguageChange.Location" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="switchToLieferProdProg.Text" xml:space="preserve">
-    <value>Weiter</value>
-  </data>
   <data name="p1_uploadXML.Text" xml:space="preserve">
     <value>XML Datei hochladen</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cmbLanguageChange.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbLanguageChange.Location" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="p1_desc.Text" xml:space="preserve">
+    <value>Bitte laden Sie ihr letztes Ergebnis hoch</value>
+  </data>
+  <data name="switchToLieferProdProg.Text" xml:space="preserve">
+    <value>Weiter</value>
+  </data>
+  <data name="InvalidXMLMessage" xml:space="preserve">
+    <value>"Die XML-Datei ist ungültig. Bitte laden Sie Ihre Ergebnisdatei hoch."</value>
+  </data>
+  <data name="ValidationErrorTitle" xml:space="preserve">
+    <value>"Die XML-Datei ist ungültig. Bitte laden Sie Ihre Ergebnisdatei hoch."</value>
   </data>
 </root>

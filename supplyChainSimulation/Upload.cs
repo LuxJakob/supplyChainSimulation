@@ -5,6 +5,7 @@ using System.Configuration;
 using System.Data;
 using System.DirectoryServices.ActiveDirectory;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,7 @@ namespace supplyChainSimulation
         public Upload()
         {
             InitializeComponent();
+
 
             initialInitMaterial = 0;
         }
@@ -47,15 +49,33 @@ namespace supplyChainSimulation
                         rootElement.Attribute("group") != null &&
                         rootElement.Attribute("period") != null)
                     {
-                        // Validation successful
-                        MessageBox.Show("XML file is valid and loaded successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        current_period = int.TryParse(rootElement.Attribute("period")?.Value, out int XValue) ? XValue : 0;
-                        switchToLieferProdProg.Enabled = true;
+                        if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                        {
+                            MessageBox.Show("XML Datei erfolgreich erkannt und geladen!", "Erfolg", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            current_period = int.TryParse(rootElement.Attribute("period")?.Value, result: out int XValue) ? XValue : 0;
+                            switchToLieferProdProg.Enabled = true;
+
+                        }
+                        else
+                        {
+                            // Validation successful
+                            MessageBox.Show("XML file is valid and loaded successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            current_period = int.TryParse(rootElement.Attribute("period")?.Value, out int XValue) ? XValue : 0;
+                            switchToLieferProdProg.Enabled = true;
+                        }
                     }
                     else
                     {
-                        // Validation failed
-                        MessageBox.Show("XML file is invalid. Please upload your result file.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                        {
+                            MessageBox.Show("XML Datei ist ungültig", "Validierungsfehler", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                        }
+                        else
+                        {
+                            // Validation failed
+                            MessageBox.Show("XML file is invalid. Please upload your result file.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
                     }
                 }
                 catch (Exception ex)
