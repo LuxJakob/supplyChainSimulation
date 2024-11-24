@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.DirectoryServices.ActiveDirectory;
 using System.Drawing;
@@ -73,6 +74,46 @@ namespace supplyChainSimulation
         private void Upload_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private bool isRestarting = false;
+
+        private void cmbLanguageChange_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Get the selected language
+            string selectedLanguage = cmbLanguageChange.SelectedItem.ToString();
+
+            // Only trigger the change if the application is not already restarting
+            if (!isRestarting)
+            {
+                string currentLanguage = ConfigurationManager.AppSettings["language"] ?? "en";
+
+                if (selectedLanguage != currentLanguage)
+                {
+                    // Mark the application as restarting
+                    isRestarting = true;
+
+                    // Update language setting and restart application
+                    ChangeApplicationLanguage(selectedLanguage);
+                }
+            }
+        }
+
+        private void ChangeApplicationLanguage(string language)
+        {
+            var changeLanguage = new ChangeLanguage();
+            // Update configuration or apply language-specific logic
+            if (language == "English")
+            {
+                changeLanguage.UpdateConfig("language", "en");
+            }
+            else if (language == "German")
+            {
+                changeLanguage.UpdateConfig("language", "de");
+            }
+
+            // Restart the application
+            Application.Restart();
         }
     }
 }
