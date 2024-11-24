@@ -188,6 +188,14 @@ namespace supplyChainSimulation
             { 59, (2, 2, 2) }
         };
 
+        public static List<int> evenRows = new List<int> { 21, 23, 25, 28, 33, 35, 37, 39, 41, 43, 45, 47, 52, 57, 59 };
+
+        // Splitting variables
+        public static List<int> splittingArticelList = new List<int>() { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,26,29,30,31,49,50,51,54,55,56 };
+
+        public static List<int> splittedArticels = new List<int>();
+
+        public static List<(int, int)> modifiedArticelsfinalized = new List<(int, int)>();
 
 
         // public methods
