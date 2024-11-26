@@ -24,7 +24,7 @@ namespace supplyChainSimulation
             if (initialInitMaterial == 0)
             {
                 initialInitMaterial = 1;
-            
+
                 warehousestockX = rootElement.Element("warehousestock");
                 waitinglistworkstationsX = rootElement.Element("waitinglistworkstations");
                 ordersinworkX = rootElement.Element("ordersinwork");
@@ -78,7 +78,7 @@ namespace supplyChainSimulation
             }
 
             // customized for P1
-            
+
             inventoryE261Value = (int)Math.Round((decimal)(warehousestock[26] / 3));
             inventoryE161Value = (int)Math.Round((decimal)(warehousestock[16] / 3));
             inventoryE171Value = (int)Math.Round((decimal)(warehousestock[17] / 3));
@@ -126,7 +126,7 @@ namespace supplyChainSimulation
             PlannedP1.Text = (production0[1] - forecast0[1] + warehousestock[1]).ToString();
             productionOrders[1] = production0[1] - ordersinwork[1] - waitinglistProducts[1];
             ProductionOrdersP1.Text = productionOrders[1].ToString();
-            
+
             CalculateTable();
         }
 
@@ -191,6 +191,21 @@ namespace supplyChainSimulation
         {
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
             mainOrchestrator.ShowForm(new MaterialPlanning_P2());
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label89_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label91_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
