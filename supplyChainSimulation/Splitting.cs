@@ -20,6 +20,9 @@ namespace supplyChainSimulation
         {
             InitializeComponent();
 
+            PrioHigher.Text = Char.ConvertFromUtf32(0x25B2);
+            PrioLower.Text = Char.ConvertFromUtf32(0x25BC);
+
             foreach (var prod in productionOrders)
             {
                 int id = prod.Key;
@@ -159,6 +162,16 @@ namespace supplyChainSimulation
         {
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
             mainOrchestrator.ShowForm(new MaterialPlanning_P3());
+        }
+
+        private void PrioHigher_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PrioLower_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
