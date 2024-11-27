@@ -1897,7 +1897,7 @@
             resources.ApplyResources(switchMaterialP3, "switchMaterialP3");
             switchMaterialP3.Name = "switchMaterialP3";
             switchMaterialP3.UseVisualStyleBackColor = true;
-            switchMaterialP3.Click += switchMaterialP3_Click;
+            switchMaterialP3.Click += switchSplitting_Click;
             // 
             // CapacityPlanning
             // 

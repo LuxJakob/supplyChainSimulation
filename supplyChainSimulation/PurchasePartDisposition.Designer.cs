@@ -1050,254 +1050,338 @@
             // OrderModeK59
             // 
             OrderModeK59.FormattingEnabled = true;
-            OrderModeK59.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK59.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK59.Location = new Point(1277, 903);
             OrderModeK59.Name = "OrderModeK59";
             OrderModeK59.Size = new Size(90, 23);
             OrderModeK59.TabIndex = 556;
+            OrderModeK59.SelectedIndexChanged += orderModeChange;
+            OrderModeK59.SelectionChangeCommitted += orderModeChange;
+            OrderModeK59.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK58
             // 
             OrderModeK58.FormattingEnabled = true;
-            OrderModeK58.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK58.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK58.Location = new Point(1277, 873);
             OrderModeK58.Name = "OrderModeK58";
             OrderModeK58.Size = new Size(90, 23);
             OrderModeK58.TabIndex = 555;
+            OrderModeK58.SelectedIndexChanged += orderModeChange;
+            OrderModeK58.SelectionChangeCommitted += orderModeChange;
+            OrderModeK58.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK57
             // 
             OrderModeK57.FormattingEnabled = true;
-            OrderModeK57.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK57.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK57.Location = new Point(1277, 843);
             OrderModeK57.Name = "OrderModeK57";
             OrderModeK57.Size = new Size(90, 23);
             OrderModeK57.TabIndex = 554;
+            OrderModeK57.SelectedIndexChanged += orderModeChange;
+            OrderModeK57.SelectionChangeCommitted += orderModeChange;
+            OrderModeK57.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK53
             // 
             OrderModeK53.FormattingEnabled = true;
-            OrderModeK53.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK53.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK53.Location = new Point(1277, 813);
             OrderModeK53.Name = "OrderModeK53";
             OrderModeK53.Size = new Size(90, 23);
             OrderModeK53.TabIndex = 553;
+            OrderModeK53.SelectedIndexChanged += orderModeChange;
+            OrderModeK53.SelectionChangeCommitted += orderModeChange;
+            OrderModeK53.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK52
             // 
             OrderModeK52.FormattingEnabled = true;
-            OrderModeK52.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK52.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK52.Location = new Point(1277, 783);
             OrderModeK52.Name = "OrderModeK52";
             OrderModeK52.Size = new Size(90, 23);
             OrderModeK52.TabIndex = 552;
+            OrderModeK52.SelectedIndexChanged += orderModeChange;
+            OrderModeK52.SelectionChangeCommitted += orderModeChange;
+            OrderModeK52.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK48
             // 
             OrderModeK48.FormattingEnabled = true;
-            OrderModeK48.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK48.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK48.Location = new Point(1277, 753);
             OrderModeK48.Name = "OrderModeK48";
             OrderModeK48.Size = new Size(90, 23);
             OrderModeK48.TabIndex = 551;
+            OrderModeK48.SelectedIndexChanged += orderModeChange;
+            OrderModeK48.SelectionChangeCommitted += orderModeChange;
+            OrderModeK48.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK47
             // 
             OrderModeK47.FormattingEnabled = true;
-            OrderModeK47.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK47.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK47.Location = new Point(1277, 723);
             OrderModeK47.Name = "OrderModeK47";
             OrderModeK47.Size = new Size(90, 23);
             OrderModeK47.TabIndex = 550;
+            OrderModeK47.SelectedIndexChanged += orderModeChange;
+            OrderModeK47.SelectionChangeCommitted += orderModeChange;
+            OrderModeK47.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK46
             // 
             OrderModeK46.FormattingEnabled = true;
-            OrderModeK46.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK46.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK46.Location = new Point(1277, 693);
             OrderModeK46.Name = "OrderModeK46";
             OrderModeK46.Size = new Size(90, 23);
             OrderModeK46.TabIndex = 549;
+            OrderModeK46.SelectedIndexChanged += orderModeChange;
+            OrderModeK46.SelectionChangeCommitted += orderModeChange;
+            OrderModeK46.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK45
             // 
             OrderModeK45.FormattingEnabled = true;
-            OrderModeK45.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK45.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK45.Location = new Point(1277, 663);
             OrderModeK45.Name = "OrderModeK45";
             OrderModeK45.Size = new Size(90, 23);
             OrderModeK45.TabIndex = 548;
+            OrderModeK45.SelectedIndexChanged += orderModeChange;
+            OrderModeK45.SelectionChangeCommitted += orderModeChange;
+            OrderModeK45.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK44
             // 
             OrderModeK44.FormattingEnabled = true;
-            OrderModeK44.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK44.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK44.Location = new Point(1277, 633);
             OrderModeK44.Name = "OrderModeK44";
             OrderModeK44.Size = new Size(90, 23);
             OrderModeK44.TabIndex = 547;
+            OrderModeK44.SelectedIndexChanged += orderModeChange;
+            OrderModeK44.SelectionChangeCommitted += orderModeChange;
+            OrderModeK44.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK43
             // 
             OrderModeK43.FormattingEnabled = true;
-            OrderModeK43.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK43.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK43.Location = new Point(1277, 603);
             OrderModeK43.Name = "OrderModeK43";
             OrderModeK43.Size = new Size(90, 23);
             OrderModeK43.TabIndex = 546;
+            OrderModeK43.SelectedIndexChanged += orderModeChange;
+            OrderModeK43.SelectionChangeCommitted += orderModeChange;
+            OrderModeK43.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK42
             // 
             OrderModeK42.FormattingEnabled = true;
-            OrderModeK42.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK42.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK42.Location = new Point(1277, 573);
             OrderModeK42.Name = "OrderModeK42";
             OrderModeK42.Size = new Size(90, 23);
             OrderModeK42.TabIndex = 545;
+            OrderModeK42.SelectedIndexChanged += orderModeChange;
+            OrderModeK42.SelectionChangeCommitted += orderModeChange;
+            OrderModeK42.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK41
             // 
             OrderModeK41.FormattingEnabled = true;
-            OrderModeK41.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK41.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK41.Location = new Point(1277, 543);
             OrderModeK41.Name = "OrderModeK41";
             OrderModeK41.Size = new Size(90, 23);
             OrderModeK41.TabIndex = 544;
+            OrderModeK41.SelectedIndexChanged += orderModeChange;
+            OrderModeK41.SelectionChangeCommitted += orderModeChange;
+            OrderModeK41.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK40
             // 
             OrderModeK40.FormattingEnabled = true;
-            OrderModeK40.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK40.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK40.Location = new Point(1277, 513);
             OrderModeK40.Name = "OrderModeK40";
             OrderModeK40.Size = new Size(90, 23);
             OrderModeK40.TabIndex = 543;
+            OrderModeK40.SelectedIndexChanged += orderModeChange;
+            OrderModeK40.SelectionChangeCommitted += orderModeChange;
+            OrderModeK40.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK39
             // 
             OrderModeK39.FormattingEnabled = true;
-            OrderModeK39.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK39.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK39.Location = new Point(1277, 483);
             OrderModeK39.Name = "OrderModeK39";
             OrderModeK39.Size = new Size(90, 23);
             OrderModeK39.TabIndex = 542;
+            OrderModeK39.SelectedIndexChanged += orderModeChange;
+            OrderModeK39.SelectionChangeCommitted += orderModeChange;
+            OrderModeK39.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK38
             // 
             OrderModeK38.FormattingEnabled = true;
-            OrderModeK38.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK38.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK38.Location = new Point(1277, 453);
             OrderModeK38.Name = "OrderModeK38";
             OrderModeK38.Size = new Size(90, 23);
             OrderModeK38.TabIndex = 541;
+            OrderModeK38.SelectedIndexChanged += orderModeChange;
+            OrderModeK38.SelectionChangeCommitted += orderModeChange;
+            OrderModeK38.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK37
             // 
             OrderModeK37.FormattingEnabled = true;
-            OrderModeK37.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK37.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK37.Location = new Point(1277, 423);
             OrderModeK37.Name = "OrderModeK37";
             OrderModeK37.Size = new Size(90, 23);
             OrderModeK37.TabIndex = 540;
+            OrderModeK37.SelectedIndexChanged += orderModeChange;
+            OrderModeK37.SelectionChangeCommitted += orderModeChange;
+            OrderModeK37.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK36
             // 
             OrderModeK36.FormattingEnabled = true;
-            OrderModeK36.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK36.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK36.Location = new Point(1277, 393);
             OrderModeK36.Name = "OrderModeK36";
             OrderModeK36.Size = new Size(90, 23);
             OrderModeK36.TabIndex = 539;
+            OrderModeK36.SelectedIndexChanged += orderModeChange;
+            OrderModeK36.SelectionChangeCommitted += orderModeChange;
+            OrderModeK36.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK35
             // 
             OrderModeK35.FormattingEnabled = true;
-            OrderModeK35.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK35.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK35.Location = new Point(1277, 363);
             OrderModeK35.Name = "OrderModeK35";
             OrderModeK35.Size = new Size(90, 23);
             OrderModeK35.TabIndex = 538;
+            OrderModeK35.SelectedIndexChanged += orderModeChange;
+            OrderModeK35.SelectionChangeCommitted += orderModeChange;
+            OrderModeK35.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK34
             // 
             OrderModeK34.FormattingEnabled = true;
-            OrderModeK34.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK34.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK34.Location = new Point(1277, 333);
             OrderModeK34.Name = "OrderModeK34";
             OrderModeK34.Size = new Size(90, 23);
             OrderModeK34.TabIndex = 537;
+            OrderModeK34.SelectedIndexChanged += orderModeChange;
+            OrderModeK34.SelectionChangeCommitted += orderModeChange;
+            OrderModeK34.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK33
             // 
             OrderModeK33.FormattingEnabled = true;
-            OrderModeK33.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK33.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK33.Location = new Point(1277, 303);
             OrderModeK33.Name = "OrderModeK33";
             OrderModeK33.Size = new Size(90, 23);
             OrderModeK33.TabIndex = 536;
+            OrderModeK33.SelectedIndexChanged += orderModeChange;
+            OrderModeK33.SelectionChangeCommitted += orderModeChange;
+            OrderModeK33.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK32
             // 
             OrderModeK32.FormattingEnabled = true;
-            OrderModeK32.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK32.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK32.Location = new Point(1277, 273);
             OrderModeK32.Name = "OrderModeK32";
             OrderModeK32.Size = new Size(90, 23);
             OrderModeK32.TabIndex = 535;
+            OrderModeK32.SelectedIndexChanged += orderModeChange;
+            OrderModeK32.SelectionChangeCommitted += orderModeChange;
+            OrderModeK32.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK28
             // 
             OrderModeK28.FormattingEnabled = true;
-            OrderModeK28.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK28.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK28.Location = new Point(1277, 243);
             OrderModeK28.Name = "OrderModeK28";
             OrderModeK28.Size = new Size(90, 23);
             OrderModeK28.TabIndex = 534;
+            OrderModeK28.SelectedIndexChanged += orderModeChange;
+            OrderModeK28.SelectionChangeCommitted += orderModeChange;
+            OrderModeK28.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK27
             // 
             OrderModeK27.FormattingEnabled = true;
-            OrderModeK27.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK27.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK27.Location = new Point(1277, 213);
             OrderModeK27.Name = "OrderModeK27";
             OrderModeK27.Size = new Size(90, 23);
             OrderModeK27.TabIndex = 533;
+            OrderModeK27.SelectedIndexChanged += orderModeChange;
+            OrderModeK27.SelectionChangeCommitted += orderModeChange;
+            OrderModeK27.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK25
             // 
             OrderModeK25.FormattingEnabled = true;
-            OrderModeK25.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK25.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK25.Location = new Point(1277, 183);
             OrderModeK25.Name = "OrderModeK25";
             OrderModeK25.Size = new Size(90, 23);
             OrderModeK25.TabIndex = 532;
+            OrderModeK25.SelectedIndexChanged += orderModeChange;
+            OrderModeK25.SelectionChangeCommitted += orderModeChange;
+            OrderModeK25.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK24
             // 
             OrderModeK24.FormattingEnabled = true;
-            OrderModeK24.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK24.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK24.Location = new Point(1277, 153);
             OrderModeK24.Name = "OrderModeK24";
             OrderModeK24.Size = new Size(90, 23);
             OrderModeK24.TabIndex = 531;
+            OrderModeK24.SelectedIndexChanged += orderModeChange;
+            OrderModeK24.SelectionChangeCommitted += orderModeChange;
+            OrderModeK24.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK23
             // 
             OrderModeK23.FormattingEnabled = true;
-            OrderModeK23.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK23.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK23.Location = new Point(1277, 123);
             OrderModeK23.Name = "OrderModeK23";
             OrderModeK23.Size = new Size(90, 23);
             OrderModeK23.TabIndex = 530;
+            OrderModeK23.SelectedIndexChanged += orderModeChange;
+            OrderModeK23.SelectionChangeCommitted += orderModeChange;
+            OrderModeK23.SelectedValueChanged += orderModeChange;
             // 
             // OrderModeK22
             // 
             OrderModeK22.FormattingEnabled = true;
-            OrderModeK22.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK22.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK22.Location = new Point(1277, 93);
             OrderModeK22.Name = "OrderModeK22";
             OrderModeK22.Size = new Size(90, 23);
             OrderModeK22.TabIndex = 529;
+            OrderModeK22.SelectedIndexChanged += orderModeChange;
+            OrderModeK22.SelectionChangeCommitted += orderModeChange;
+            OrderModeK22.SelectedValueChanged += orderModeChange;
             // 
             // RequK59_0
             // 
@@ -1390,6 +1474,7 @@
             // RequK58_0
             // 
             RequK58_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK58_0.BackColor = Color.Gainsboro;
             RequK58_0.Font = new Font("Segoe UI", 9F);
             RequK58_0.Location = new Point(458, 870);
             RequK58_0.Name = "RequK58_0";
@@ -1401,6 +1486,7 @@
             // RequK58_1
             // 
             RequK58_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK58_1.BackColor = Color.Gainsboro;
             RequK58_1.Font = new Font("Segoe UI", 9F);
             RequK58_1.Location = new Point(549, 870);
             RequK58_1.Name = "RequK58_1";
@@ -1412,6 +1498,7 @@
             // RequK58_2
             // 
             RequK58_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK58_2.BackColor = Color.Gainsboro;
             RequK58_2.Font = new Font("Segoe UI", 9F);
             RequK58_2.Location = new Point(640, 870);
             RequK58_2.Name = "RequK58_2";
@@ -1423,6 +1510,7 @@
             // RequK58_3
             // 
             RequK58_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK58_3.BackColor = Color.Gainsboro;
             RequK58_3.Font = new Font("Segoe UI", 9F);
             RequK58_3.Location = new Point(731, 870);
             RequK58_3.Name = "RequK58_3";
@@ -1434,6 +1522,7 @@
             // FutureK58_0
             // 
             FutureK58_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK58_0.BackColor = Color.Gainsboro;
             FutureK58_0.Font = new Font("Segoe UI", 9F);
             FutureK58_0.Location = new Point(822, 870);
             FutureK58_0.Name = "FutureK58_0";
@@ -1445,6 +1534,7 @@
             // FutureK58_1
             // 
             FutureK58_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK58_1.BackColor = Color.Gainsboro;
             FutureK58_1.Font = new Font("Segoe UI", 9F);
             FutureK58_1.Location = new Point(913, 870);
             FutureK58_1.Name = "FutureK58_1";
@@ -1456,6 +1546,7 @@
             // FutureK58_2
             // 
             FutureK58_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK58_2.BackColor = Color.Gainsboro;
             FutureK58_2.Font = new Font("Segoe UI", 9F);
             FutureK58_2.Location = new Point(1004, 870);
             FutureK58_2.Name = "FutureK58_2";
@@ -1467,6 +1558,7 @@
             // FutureK58_3
             // 
             FutureK58_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK58_3.BackColor = Color.Gainsboro;
             FutureK58_3.Font = new Font("Segoe UI", 9F);
             FutureK58_3.Location = new Point(1095, 870);
             FutureK58_3.Name = "FutureK58_3";
@@ -1566,6 +1658,7 @@
             // RequK53_0
             // 
             RequK53_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK53_0.BackColor = Color.Gainsboro;
             RequK53_0.Font = new Font("Segoe UI", 9F);
             RequK53_0.Location = new Point(458, 810);
             RequK53_0.Name = "RequK53_0";
@@ -1577,6 +1670,7 @@
             // RequK53_1
             // 
             RequK53_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK53_1.BackColor = Color.Gainsboro;
             RequK53_1.Font = new Font("Segoe UI", 9F);
             RequK53_1.Location = new Point(549, 810);
             RequK53_1.Name = "RequK53_1";
@@ -1588,6 +1682,7 @@
             // RequK53_2
             // 
             RequK53_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK53_2.BackColor = Color.Gainsboro;
             RequK53_2.Font = new Font("Segoe UI", 9F);
             RequK53_2.Location = new Point(640, 810);
             RequK53_2.Name = "RequK53_2";
@@ -1599,6 +1694,7 @@
             // RequK53_3
             // 
             RequK53_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK53_3.BackColor = Color.Gainsboro;
             RequK53_3.Font = new Font("Segoe UI", 9F);
             RequK53_3.Location = new Point(731, 810);
             RequK53_3.Name = "RequK53_3";
@@ -1610,6 +1706,7 @@
             // FutureK53_0
             // 
             FutureK53_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK53_0.BackColor = Color.Gainsboro;
             FutureK53_0.Font = new Font("Segoe UI", 9F);
             FutureK53_0.Location = new Point(822, 810);
             FutureK53_0.Name = "FutureK53_0";
@@ -1621,6 +1718,7 @@
             // FutureK53_1
             // 
             FutureK53_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK53_1.BackColor = Color.Gainsboro;
             FutureK53_1.Font = new Font("Segoe UI", 9F);
             FutureK53_1.Location = new Point(913, 810);
             FutureK53_1.Name = "FutureK53_1";
@@ -1632,6 +1730,7 @@
             // FutureK53_2
             // 
             FutureK53_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK53_2.BackColor = Color.Gainsboro;
             FutureK53_2.Font = new Font("Segoe UI", 9F);
             FutureK53_2.Location = new Point(1004, 810);
             FutureK53_2.Name = "FutureK53_2";
@@ -1643,6 +1742,7 @@
             // FutureK53_3
             // 
             FutureK53_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK53_3.BackColor = Color.Gainsboro;
             FutureK53_3.Font = new Font("Segoe UI", 9F);
             FutureK53_3.Location = new Point(1095, 810);
             FutureK53_3.Name = "FutureK53_3";
@@ -1742,6 +1842,7 @@
             // RequK48_0
             // 
             RequK48_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK48_0.BackColor = Color.Gainsboro;
             RequK48_0.Font = new Font("Segoe UI", 9F);
             RequK48_0.Location = new Point(458, 750);
             RequK48_0.Name = "RequK48_0";
@@ -1753,6 +1854,7 @@
             // RequK48_1
             // 
             RequK48_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK48_1.BackColor = Color.Gainsboro;
             RequK48_1.Font = new Font("Segoe UI", 9F);
             RequK48_1.Location = new Point(549, 750);
             RequK48_1.Name = "RequK48_1";
@@ -1764,6 +1866,7 @@
             // RequK48_2
             // 
             RequK48_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK48_2.BackColor = Color.Gainsboro;
             RequK48_2.Font = new Font("Segoe UI", 9F);
             RequK48_2.Location = new Point(640, 750);
             RequK48_2.Name = "RequK48_2";
@@ -1775,6 +1878,7 @@
             // RequK48_3
             // 
             RequK48_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK48_3.BackColor = Color.Gainsboro;
             RequK48_3.Font = new Font("Segoe UI", 9F);
             RequK48_3.Location = new Point(731, 750);
             RequK48_3.Name = "RequK48_3";
@@ -1786,6 +1890,7 @@
             // FutureK48_0
             // 
             FutureK48_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK48_0.BackColor = Color.Gainsboro;
             FutureK48_0.Font = new Font("Segoe UI", 9F);
             FutureK48_0.Location = new Point(822, 750);
             FutureK48_0.Name = "FutureK48_0";
@@ -1797,6 +1902,7 @@
             // FutureK48_1
             // 
             FutureK48_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK48_1.BackColor = Color.Gainsboro;
             FutureK48_1.Font = new Font("Segoe UI", 9F);
             FutureK48_1.Location = new Point(913, 750);
             FutureK48_1.Name = "FutureK48_1";
@@ -1808,6 +1914,7 @@
             // FutureK48_2
             // 
             FutureK48_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK48_2.BackColor = Color.Gainsboro;
             FutureK48_2.Font = new Font("Segoe UI", 9F);
             FutureK48_2.Location = new Point(1004, 750);
             FutureK48_2.Name = "FutureK48_2";
@@ -1819,6 +1926,7 @@
             // FutureK48_3
             // 
             FutureK48_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK48_3.BackColor = Color.Gainsboro;
             FutureK48_3.Font = new Font("Segoe UI", 9F);
             FutureK48_3.Location = new Point(1095, 750);
             FutureK48_3.Name = "FutureK48_3";
@@ -1918,6 +2026,7 @@
             // RequK46_0
             // 
             RequK46_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK46_0.BackColor = Color.Gainsboro;
             RequK46_0.Font = new Font("Segoe UI", 9F);
             RequK46_0.Location = new Point(458, 690);
             RequK46_0.Name = "RequK46_0";
@@ -1929,6 +2038,7 @@
             // RequK46_1
             // 
             RequK46_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK46_1.BackColor = Color.Gainsboro;
             RequK46_1.Font = new Font("Segoe UI", 9F);
             RequK46_1.Location = new Point(549, 690);
             RequK46_1.Name = "RequK46_1";
@@ -1940,6 +2050,7 @@
             // RequK46_2
             // 
             RequK46_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK46_2.BackColor = Color.Gainsboro;
             RequK46_2.Font = new Font("Segoe UI", 9F);
             RequK46_2.Location = new Point(640, 690);
             RequK46_2.Name = "RequK46_2";
@@ -1951,6 +2062,7 @@
             // RequK46_3
             // 
             RequK46_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK46_3.BackColor = Color.Gainsboro;
             RequK46_3.Font = new Font("Segoe UI", 9F);
             RequK46_3.Location = new Point(731, 690);
             RequK46_3.Name = "RequK46_3";
@@ -1962,6 +2074,7 @@
             // FutureK46_0
             // 
             FutureK46_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK46_0.BackColor = Color.Gainsboro;
             FutureK46_0.Font = new Font("Segoe UI", 9F);
             FutureK46_0.Location = new Point(822, 690);
             FutureK46_0.Name = "FutureK46_0";
@@ -1973,6 +2086,7 @@
             // FutureK46_1
             // 
             FutureK46_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK46_1.BackColor = Color.Gainsboro;
             FutureK46_1.Font = new Font("Segoe UI", 9F);
             FutureK46_1.Location = new Point(913, 690);
             FutureK46_1.Name = "FutureK46_1";
@@ -1984,6 +2098,7 @@
             // FutureK46_2
             // 
             FutureK46_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK46_2.BackColor = Color.Gainsboro;
             FutureK46_2.Font = new Font("Segoe UI", 9F);
             FutureK46_2.Location = new Point(1004, 690);
             FutureK46_2.Name = "FutureK46_2";
@@ -1995,6 +2110,7 @@
             // FutureK46_3
             // 
             FutureK46_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK46_3.BackColor = Color.Gainsboro;
             FutureK46_3.Font = new Font("Segoe UI", 9F);
             FutureK46_3.Location = new Point(1095, 690);
             FutureK46_3.Name = "FutureK46_3";
@@ -2094,6 +2210,7 @@
             // RequK44_0
             // 
             RequK44_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK44_0.BackColor = Color.Gainsboro;
             RequK44_0.Font = new Font("Segoe UI", 9F);
             RequK44_0.Location = new Point(458, 630);
             RequK44_0.Name = "RequK44_0";
@@ -2105,6 +2222,7 @@
             // RequK44_1
             // 
             RequK44_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK44_1.BackColor = Color.Gainsboro;
             RequK44_1.Font = new Font("Segoe UI", 9F);
             RequK44_1.Location = new Point(549, 630);
             RequK44_1.Name = "RequK44_1";
@@ -2116,6 +2234,7 @@
             // RequK44_2
             // 
             RequK44_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK44_2.BackColor = Color.Gainsboro;
             RequK44_2.Font = new Font("Segoe UI", 9F);
             RequK44_2.Location = new Point(640, 630);
             RequK44_2.Name = "RequK44_2";
@@ -2127,6 +2246,7 @@
             // RequK44_3
             // 
             RequK44_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK44_3.BackColor = Color.Gainsboro;
             RequK44_3.Font = new Font("Segoe UI", 9F);
             RequK44_3.Location = new Point(731, 630);
             RequK44_3.Name = "RequK44_3";
@@ -2138,6 +2258,7 @@
             // FutureK44_0
             // 
             FutureK44_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK44_0.BackColor = Color.Gainsboro;
             FutureK44_0.Font = new Font("Segoe UI", 9F);
             FutureK44_0.Location = new Point(822, 630);
             FutureK44_0.Name = "FutureK44_0";
@@ -2149,6 +2270,7 @@
             // FutureK44_1
             // 
             FutureK44_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK44_1.BackColor = Color.Gainsboro;
             FutureK44_1.Font = new Font("Segoe UI", 9F);
             FutureK44_1.Location = new Point(913, 630);
             FutureK44_1.Name = "FutureK44_1";
@@ -2160,6 +2282,7 @@
             // FutureK44_2
             // 
             FutureK44_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK44_2.BackColor = Color.Gainsboro;
             FutureK44_2.Font = new Font("Segoe UI", 9F);
             FutureK44_2.Location = new Point(1004, 630);
             FutureK44_2.Name = "FutureK44_2";
@@ -2171,6 +2294,7 @@
             // FutureK44_3
             // 
             FutureK44_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK44_3.BackColor = Color.Gainsboro;
             FutureK44_3.Font = new Font("Segoe UI", 9F);
             FutureK44_3.Location = new Point(1095, 630);
             FutureK44_3.Name = "FutureK44_3";
@@ -2270,6 +2394,7 @@
             // RequK42_0
             // 
             RequK42_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK42_0.BackColor = Color.Gainsboro;
             RequK42_0.Font = new Font("Segoe UI", 9F);
             RequK42_0.Location = new Point(458, 570);
             RequK42_0.Name = "RequK42_0";
@@ -2281,6 +2406,7 @@
             // RequK42_1
             // 
             RequK42_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK42_1.BackColor = Color.Gainsboro;
             RequK42_1.Font = new Font("Segoe UI", 9F);
             RequK42_1.Location = new Point(549, 570);
             RequK42_1.Name = "RequK42_1";
@@ -2292,6 +2418,7 @@
             // RequK42_2
             // 
             RequK42_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK42_2.BackColor = Color.Gainsboro;
             RequK42_2.Font = new Font("Segoe UI", 9F);
             RequK42_2.Location = new Point(640, 570);
             RequK42_2.Name = "RequK42_2";
@@ -2303,6 +2430,7 @@
             // RequK42_3
             // 
             RequK42_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK42_3.BackColor = Color.Gainsboro;
             RequK42_3.Font = new Font("Segoe UI", 9F);
             RequK42_3.Location = new Point(731, 570);
             RequK42_3.Name = "RequK42_3";
@@ -2314,6 +2442,7 @@
             // FutureK42_0
             // 
             FutureK42_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK42_0.BackColor = Color.Gainsboro;
             FutureK42_0.Font = new Font("Segoe UI", 9F);
             FutureK42_0.Location = new Point(822, 570);
             FutureK42_0.Name = "FutureK42_0";
@@ -2325,6 +2454,7 @@
             // FutureK42_1
             // 
             FutureK42_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK42_1.BackColor = Color.Gainsboro;
             FutureK42_1.Font = new Font("Segoe UI", 9F);
             FutureK42_1.Location = new Point(913, 570);
             FutureK42_1.Name = "FutureK42_1";
@@ -2336,6 +2466,7 @@
             // FutureK42_2
             // 
             FutureK42_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK42_2.BackColor = Color.Gainsboro;
             FutureK42_2.Font = new Font("Segoe UI", 9F);
             FutureK42_2.Location = new Point(1004, 570);
             FutureK42_2.Name = "FutureK42_2";
@@ -2347,6 +2478,7 @@
             // FutureK42_3
             // 
             FutureK42_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK42_3.BackColor = Color.Gainsboro;
             FutureK42_3.Font = new Font("Segoe UI", 9F);
             FutureK42_3.Location = new Point(1095, 570);
             FutureK42_3.Name = "FutureK42_3";
@@ -2446,6 +2578,7 @@
             // RequK40_0
             // 
             RequK40_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK40_0.BackColor = Color.Gainsboro;
             RequK40_0.Font = new Font("Segoe UI", 9F);
             RequK40_0.Location = new Point(458, 510);
             RequK40_0.Name = "RequK40_0";
@@ -2457,6 +2590,7 @@
             // RequK40_1
             // 
             RequK40_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK40_1.BackColor = Color.Gainsboro;
             RequK40_1.Font = new Font("Segoe UI", 9F);
             RequK40_1.Location = new Point(549, 510);
             RequK40_1.Name = "RequK40_1";
@@ -2468,6 +2602,7 @@
             // RequK40_2
             // 
             RequK40_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK40_2.BackColor = Color.Gainsboro;
             RequK40_2.Font = new Font("Segoe UI", 9F);
             RequK40_2.Location = new Point(640, 510);
             RequK40_2.Name = "RequK40_2";
@@ -2479,6 +2614,7 @@
             // RequK40_3
             // 
             RequK40_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK40_3.BackColor = Color.Gainsboro;
             RequK40_3.Font = new Font("Segoe UI", 9F);
             RequK40_3.Location = new Point(731, 510);
             RequK40_3.Name = "RequK40_3";
@@ -2490,6 +2626,7 @@
             // FutureK40_0
             // 
             FutureK40_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK40_0.BackColor = Color.Gainsboro;
             FutureK40_0.Font = new Font("Segoe UI", 9F);
             FutureK40_0.Location = new Point(822, 510);
             FutureK40_0.Name = "FutureK40_0";
@@ -2501,6 +2638,7 @@
             // FutureK40_1
             // 
             FutureK40_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK40_1.BackColor = Color.Gainsboro;
             FutureK40_1.Font = new Font("Segoe UI", 9F);
             FutureK40_1.Location = new Point(913, 510);
             FutureK40_1.Name = "FutureK40_1";
@@ -2512,6 +2650,7 @@
             // FutureK40_2
             // 
             FutureK40_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK40_2.BackColor = Color.Gainsboro;
             FutureK40_2.Font = new Font("Segoe UI", 9F);
             FutureK40_2.Location = new Point(1004, 510);
             FutureK40_2.Name = "FutureK40_2";
@@ -2523,6 +2662,7 @@
             // FutureK40_3
             // 
             FutureK40_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK40_3.BackColor = Color.Gainsboro;
             FutureK40_3.Font = new Font("Segoe UI", 9F);
             FutureK40_3.Location = new Point(1095, 510);
             FutureK40_3.Name = "FutureK40_3";
@@ -2622,6 +2762,7 @@
             // RequK38_0
             // 
             RequK38_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK38_0.BackColor = Color.Gainsboro;
             RequK38_0.Font = new Font("Segoe UI", 9F);
             RequK38_0.Location = new Point(458, 450);
             RequK38_0.Name = "RequK38_0";
@@ -2633,6 +2774,7 @@
             // RequK38_1
             // 
             RequK38_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK38_1.BackColor = Color.Gainsboro;
             RequK38_1.Font = new Font("Segoe UI", 9F);
             RequK38_1.Location = new Point(549, 450);
             RequK38_1.Name = "RequK38_1";
@@ -2644,6 +2786,7 @@
             // RequK38_2
             // 
             RequK38_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK38_2.BackColor = Color.Gainsboro;
             RequK38_2.Font = new Font("Segoe UI", 9F);
             RequK38_2.Location = new Point(640, 450);
             RequK38_2.Name = "RequK38_2";
@@ -2655,6 +2798,7 @@
             // RequK38_3
             // 
             RequK38_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK38_3.BackColor = Color.Gainsboro;
             RequK38_3.Font = new Font("Segoe UI", 9F);
             RequK38_3.Location = new Point(731, 450);
             RequK38_3.Name = "RequK38_3";
@@ -2666,6 +2810,7 @@
             // FutureK38_0
             // 
             FutureK38_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK38_0.BackColor = Color.Gainsboro;
             FutureK38_0.Font = new Font("Segoe UI", 9F);
             FutureK38_0.Location = new Point(822, 450);
             FutureK38_0.Name = "FutureK38_0";
@@ -2677,6 +2822,7 @@
             // FutureK38_1
             // 
             FutureK38_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK38_1.BackColor = Color.Gainsboro;
             FutureK38_1.Font = new Font("Segoe UI", 9F);
             FutureK38_1.Location = new Point(913, 450);
             FutureK38_1.Name = "FutureK38_1";
@@ -2688,6 +2834,7 @@
             // FutureK38_2
             // 
             FutureK38_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK38_2.BackColor = Color.Gainsboro;
             FutureK38_2.Font = new Font("Segoe UI", 9F);
             FutureK38_2.Location = new Point(1004, 450);
             FutureK38_2.Name = "FutureK38_2";
@@ -2699,6 +2846,7 @@
             // FutureK38_3
             // 
             FutureK38_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK38_3.BackColor = Color.Gainsboro;
             FutureK38_3.Font = new Font("Segoe UI", 9F);
             FutureK38_3.Location = new Point(1095, 450);
             FutureK38_3.Name = "FutureK38_3";
@@ -2842,6 +2990,7 @@
             // label254
             // 
             label254.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label254.BackColor = Color.Gainsboro;
             label254.Font = new Font("Segoe UI", 10F);
             label254.Location = new Point(94, 870);
             label254.Name = "label254";
@@ -2853,6 +3002,7 @@
             // label255
             // 
             label255.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label255.BackColor = Color.Gainsboro;
             label255.Font = new Font("Segoe UI", 10F);
             label255.Location = new Point(185, 870);
             label255.Name = "label255";
@@ -2864,6 +3014,7 @@
             // label256
             // 
             label256.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label256.BackColor = Color.Gainsboro;
             label256.Font = new Font("Segoe UI", 10F);
             label256.Location = new Point(276, 870);
             label256.Name = "label256";
@@ -2875,6 +3026,7 @@
             // InventoryK58
             // 
             InventoryK58.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK58.BackColor = Color.Gainsboro;
             InventoryK58.Font = new Font("Segoe UI", 10F);
             InventoryK58.Location = new Point(367, 870);
             InventoryK58.Name = "InventoryK58";
@@ -2930,6 +3082,7 @@
             // label246
             // 
             label246.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label246.BackColor = Color.Gainsboro;
             label246.Font = new Font("Segoe UI", 10F);
             label246.Location = new Point(94, 810);
             label246.Name = "label246";
@@ -2941,6 +3094,7 @@
             // label247
             // 
             label247.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label247.BackColor = Color.Gainsboro;
             label247.Font = new Font("Segoe UI", 10F);
             label247.Location = new Point(185, 810);
             label247.Name = "label247";
@@ -2952,6 +3106,7 @@
             // label248
             // 
             label248.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label248.BackColor = Color.Gainsboro;
             label248.Font = new Font("Segoe UI", 10F);
             label248.Location = new Point(276, 810);
             label248.Name = "label248";
@@ -2963,6 +3118,7 @@
             // InventoryK53
             // 
             InventoryK53.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK53.BackColor = Color.Gainsboro;
             InventoryK53.Font = new Font("Segoe UI", 10F);
             InventoryK53.Location = new Point(367, 810);
             InventoryK53.Name = "InventoryK53";
@@ -3018,6 +3174,7 @@
             // label238
             // 
             label238.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label238.BackColor = Color.Gainsboro;
             label238.Font = new Font("Segoe UI", 10F);
             label238.Location = new Point(94, 750);
             label238.Name = "label238";
@@ -3029,6 +3186,7 @@
             // label239
             // 
             label239.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label239.BackColor = Color.Gainsboro;
             label239.Font = new Font("Segoe UI", 10F);
             label239.Location = new Point(185, 750);
             label239.Name = "label239";
@@ -3040,6 +3198,7 @@
             // label240
             // 
             label240.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label240.BackColor = Color.Gainsboro;
             label240.Font = new Font("Segoe UI", 10F);
             label240.Location = new Point(276, 750);
             label240.Name = "label240";
@@ -3051,6 +3210,7 @@
             // InventoryK48
             // 
             InventoryK48.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK48.BackColor = Color.Gainsboro;
             InventoryK48.Font = new Font("Segoe UI", 10F);
             InventoryK48.Location = new Point(367, 750);
             InventoryK48.Name = "InventoryK48";
@@ -3106,6 +3266,7 @@
             // InventoryK46
             // 
             InventoryK46.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK46.BackColor = Color.Gainsboro;
             InventoryK46.Font = new Font("Segoe UI", 10F);
             InventoryK46.Location = new Point(367, 690);
             InventoryK46.Name = "InventoryK46";
@@ -3117,6 +3278,7 @@
             // label232
             // 
             label232.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label232.BackColor = Color.Gainsboro;
             label232.Font = new Font("Segoe UI", 10F);
             label232.Location = new Point(276, 690);
             label232.Name = "label232";
@@ -3128,6 +3290,7 @@
             // label231
             // 
             label231.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label231.BackColor = Color.Gainsboro;
             label231.Font = new Font("Segoe UI", 10F);
             label231.Location = new Point(185, 690);
             label231.Name = "label231";
@@ -3139,6 +3302,7 @@
             // label230
             // 
             label230.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label230.BackColor = Color.Gainsboro;
             label230.Font = new Font("Segoe UI", 10F);
             label230.Location = new Point(94, 690);
             label230.Name = "label230";
@@ -3194,6 +3358,7 @@
             // InventoryK44
             // 
             InventoryK44.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK44.BackColor = Color.Gainsboro;
             InventoryK44.Font = new Font("Segoe UI", 10F);
             InventoryK44.Location = new Point(367, 630);
             InventoryK44.Name = "InventoryK44";
@@ -3205,6 +3370,7 @@
             // label224
             // 
             label224.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label224.BackColor = Color.Gainsboro;
             label224.Font = new Font("Segoe UI", 10F);
             label224.Location = new Point(276, 630);
             label224.Name = "label224";
@@ -3216,6 +3382,7 @@
             // label223
             // 
             label223.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label223.BackColor = Color.Gainsboro;
             label223.Font = new Font("Segoe UI", 10F);
             label223.Location = new Point(185, 630);
             label223.Name = "label223";
@@ -3227,6 +3394,7 @@
             // label222
             // 
             label222.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label222.BackColor = Color.Gainsboro;
             label222.Font = new Font("Segoe UI", 10F);
             label222.Location = new Point(94, 630);
             label222.Name = "label222";
@@ -3282,6 +3450,7 @@
             // InventoryK42
             // 
             InventoryK42.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK42.BackColor = Color.Gainsboro;
             InventoryK42.Font = new Font("Segoe UI", 10F);
             InventoryK42.Location = new Point(367, 570);
             InventoryK42.Name = "InventoryK42";
@@ -3293,6 +3462,7 @@
             // label216
             // 
             label216.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label216.BackColor = Color.Gainsboro;
             label216.Font = new Font("Segoe UI", 10F);
             label216.Location = new Point(276, 570);
             label216.Name = "label216";
@@ -3304,6 +3474,7 @@
             // label215
             // 
             label215.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label215.BackColor = Color.Gainsboro;
             label215.Font = new Font("Segoe UI", 10F);
             label215.Location = new Point(185, 570);
             label215.Name = "label215";
@@ -3315,6 +3486,7 @@
             // label214
             // 
             label214.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label214.BackColor = Color.Gainsboro;
             label214.Font = new Font("Segoe UI", 10F);
             label214.Location = new Point(94, 570);
             label214.Name = "label214";
@@ -3370,6 +3542,7 @@
             // InventoryK40
             // 
             InventoryK40.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK40.BackColor = Color.Gainsboro;
             InventoryK40.Font = new Font("Segoe UI", 10F);
             InventoryK40.Location = new Point(367, 510);
             InventoryK40.Name = "InventoryK40";
@@ -3381,6 +3554,7 @@
             // label208
             // 
             label208.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label208.BackColor = Color.Gainsboro;
             label208.Font = new Font("Segoe UI", 10F);
             label208.Location = new Point(276, 510);
             label208.Name = "label208";
@@ -3392,6 +3566,7 @@
             // label207
             // 
             label207.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label207.BackColor = Color.Gainsboro;
             label207.Font = new Font("Segoe UI", 10F);
             label207.Location = new Point(185, 510);
             label207.Name = "label207";
@@ -3403,6 +3578,7 @@
             // label206
             // 
             label206.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label206.BackColor = Color.Gainsboro;
             label206.Font = new Font("Segoe UI", 10F);
             label206.Location = new Point(94, 510);
             label206.Name = "label206";
@@ -3458,6 +3634,7 @@
             // InventoryK38
             // 
             InventoryK38.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK38.BackColor = Color.Gainsboro;
             InventoryK38.Font = new Font("Segoe UI", 10F);
             InventoryK38.Location = new Point(367, 450);
             InventoryK38.Name = "InventoryK38";
@@ -3469,6 +3646,7 @@
             // label200
             // 
             label200.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label200.BackColor = Color.Gainsboro;
             label200.Font = new Font("Segoe UI", 10F);
             label200.Location = new Point(276, 450);
             label200.Name = "label200";
@@ -3480,6 +3658,7 @@
             // label199
             // 
             label199.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label199.BackColor = Color.Gainsboro;
             label199.Font = new Font("Segoe UI", 10F);
             label199.Location = new Point(185, 450);
             label199.Name = "label199";
@@ -3491,6 +3670,7 @@
             // label198
             // 
             label198.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label198.BackColor = Color.Gainsboro;
             label198.Font = new Font("Segoe UI", 10F);
             label198.Location = new Point(94, 450);
             label198.Name = "label198";
@@ -3546,6 +3726,7 @@
             // FutureK36_3
             // 
             FutureK36_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK36_3.BackColor = Color.Gainsboro;
             FutureK36_3.Font = new Font("Segoe UI", 9F);
             FutureK36_3.Location = new Point(1095, 390);
             FutureK36_3.Name = "FutureK36_3";
@@ -3557,6 +3738,7 @@
             // FutureK36_2
             // 
             FutureK36_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK36_2.BackColor = Color.Gainsboro;
             FutureK36_2.Font = new Font("Segoe UI", 9F);
             FutureK36_2.Location = new Point(1004, 390);
             FutureK36_2.Name = "FutureK36_2";
@@ -3568,6 +3750,7 @@
             // FutureK36_1
             // 
             FutureK36_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK36_1.BackColor = Color.Gainsboro;
             FutureK36_1.Font = new Font("Segoe UI", 9F);
             FutureK36_1.Location = new Point(913, 390);
             FutureK36_1.Name = "FutureK36_1";
@@ -3579,6 +3762,7 @@
             // FutureK36_0
             // 
             FutureK36_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK36_0.BackColor = Color.Gainsboro;
             FutureK36_0.Font = new Font("Segoe UI", 9F);
             FutureK36_0.Location = new Point(822, 390);
             FutureK36_0.Name = "FutureK36_0";
@@ -3590,6 +3774,7 @@
             // RequK36_3
             // 
             RequK36_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK36_3.BackColor = Color.Gainsboro;
             RequK36_3.Font = new Font("Segoe UI", 9F);
             RequK36_3.Location = new Point(731, 390);
             RequK36_3.Name = "RequK36_3";
@@ -3601,6 +3786,7 @@
             // RequK36_2
             // 
             RequK36_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK36_2.BackColor = Color.Gainsboro;
             RequK36_2.Font = new Font("Segoe UI", 9F);
             RequK36_2.Location = new Point(640, 390);
             RequK36_2.Name = "RequK36_2";
@@ -3612,6 +3798,7 @@
             // RequK36_1
             // 
             RequK36_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK36_1.BackColor = Color.Gainsboro;
             RequK36_1.Font = new Font("Segoe UI", 9F);
             RequK36_1.Location = new Point(549, 390);
             RequK36_1.Name = "RequK36_1";
@@ -3623,6 +3810,7 @@
             // RequK36_0
             // 
             RequK36_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK36_0.BackColor = Color.Gainsboro;
             RequK36_0.Font = new Font("Segoe UI", 9F);
             RequK36_0.Location = new Point(458, 390);
             RequK36_0.Name = "RequK36_0";
@@ -3634,6 +3822,7 @@
             // InventoryK36
             // 
             InventoryK36.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK36.BackColor = Color.Gainsboro;
             InventoryK36.Font = new Font("Segoe UI", 10F);
             InventoryK36.Location = new Point(367, 390);
             InventoryK36.Name = "InventoryK36";
@@ -3645,6 +3834,7 @@
             // label183
             // 
             label183.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label183.BackColor = Color.Gainsboro;
             label183.Font = new Font("Segoe UI", 10F);
             label183.Location = new Point(276, 390);
             label183.Name = "label183";
@@ -3656,6 +3846,7 @@
             // label182
             // 
             label182.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label182.BackColor = Color.Gainsboro;
             label182.Font = new Font("Segoe UI", 10F);
             label182.Location = new Point(185, 390);
             label182.Name = "label182";
@@ -3667,6 +3858,7 @@
             // label181
             // 
             label181.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label181.BackColor = Color.Gainsboro;
             label181.Font = new Font("Segoe UI", 10F);
             label181.Location = new Point(94, 390);
             label181.Name = "label181";
@@ -3810,6 +4002,7 @@
             // FutureK34_3
             // 
             FutureK34_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK34_3.BackColor = Color.Gainsboro;
             FutureK34_3.Font = new Font("Segoe UI", 9F);
             FutureK34_3.Location = new Point(1095, 330);
             FutureK34_3.Name = "FutureK34_3";
@@ -3821,6 +4014,7 @@
             // FutureK34_2
             // 
             FutureK34_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK34_2.BackColor = Color.Gainsboro;
             FutureK34_2.Font = new Font("Segoe UI", 9F);
             FutureK34_2.Location = new Point(1004, 330);
             FutureK34_2.Name = "FutureK34_2";
@@ -3832,6 +4026,7 @@
             // FutureK34_1
             // 
             FutureK34_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK34_1.BackColor = Color.Gainsboro;
             FutureK34_1.Font = new Font("Segoe UI", 9F);
             FutureK34_1.Location = new Point(913, 330);
             FutureK34_1.Name = "FutureK34_1";
@@ -3843,6 +4038,7 @@
             // FutureK34_0
             // 
             FutureK34_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK34_0.BackColor = Color.Gainsboro;
             FutureK34_0.Font = new Font("Segoe UI", 9F);
             FutureK34_0.Location = new Point(822, 330);
             FutureK34_0.Name = "FutureK34_0";
@@ -3854,6 +4050,7 @@
             // RequK34_3
             // 
             RequK34_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK34_3.BackColor = Color.Gainsboro;
             RequK34_3.Font = new Font("Segoe UI", 9F);
             RequK34_3.Location = new Point(731, 330);
             RequK34_3.Name = "RequK34_3";
@@ -3865,6 +4062,7 @@
             // RequK34_2
             // 
             RequK34_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK34_2.BackColor = Color.Gainsboro;
             RequK34_2.Font = new Font("Segoe UI", 9F);
             RequK34_2.Location = new Point(640, 330);
             RequK34_2.Name = "RequK34_2";
@@ -3876,6 +4074,7 @@
             // RequK34_1
             // 
             RequK34_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK34_1.BackColor = Color.Gainsboro;
             RequK34_1.Font = new Font("Segoe UI", 9F);
             RequK34_1.Location = new Point(549, 330);
             RequK34_1.Name = "RequK34_1";
@@ -3887,6 +4086,7 @@
             // RequK34_0
             // 
             RequK34_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK34_0.BackColor = Color.Gainsboro;
             RequK34_0.Font = new Font("Segoe UI", 9F);
             RequK34_0.Location = new Point(458, 330);
             RequK34_0.Name = "RequK34_0";
@@ -3898,6 +4098,7 @@
             // InventoryK34
             // 
             InventoryK34.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK34.BackColor = Color.Gainsboro;
             InventoryK34.Font = new Font("Segoe UI", 10F);
             InventoryK34.Location = new Point(367, 330);
             InventoryK34.Name = "InventoryK34";
@@ -3909,6 +4110,7 @@
             // label159
             // 
             label159.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label159.BackColor = Color.Gainsboro;
             label159.Font = new Font("Segoe UI", 10F);
             label159.Location = new Point(276, 330);
             label159.Name = "label159";
@@ -3920,6 +4122,7 @@
             // label158
             // 
             label158.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label158.BackColor = Color.Gainsboro;
             label158.Font = new Font("Segoe UI", 10F);
             label158.Location = new Point(185, 330);
             label158.Name = "label158";
@@ -3931,6 +4134,7 @@
             // label157
             // 
             label157.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label157.BackColor = Color.Gainsboro;
             label157.Font = new Font("Segoe UI", 10F);
             label157.Location = new Point(94, 330);
             label157.Name = "label157";
@@ -4074,6 +4278,7 @@
             // FutureK32_3
             // 
             FutureK32_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK32_3.BackColor = Color.Gainsboro;
             FutureK32_3.Font = new Font("Segoe UI", 9F);
             FutureK32_3.Location = new Point(1095, 270);
             FutureK32_3.Name = "FutureK32_3";
@@ -4085,6 +4290,7 @@
             // FutureK32_2
             // 
             FutureK32_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK32_2.BackColor = Color.Gainsboro;
             FutureK32_2.Font = new Font("Segoe UI", 9F);
             FutureK32_2.Location = new Point(1004, 270);
             FutureK32_2.Name = "FutureK32_2";
@@ -4096,6 +4302,7 @@
             // FutureK32_1
             // 
             FutureK32_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK32_1.BackColor = Color.Gainsboro;
             FutureK32_1.Font = new Font("Segoe UI", 9F);
             FutureK32_1.Location = new Point(913, 270);
             FutureK32_1.Name = "FutureK32_1";
@@ -4107,6 +4314,7 @@
             // FutureK32_0
             // 
             FutureK32_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK32_0.BackColor = Color.Gainsboro;
             FutureK32_0.Font = new Font("Segoe UI", 9F);
             FutureK32_0.Location = new Point(822, 270);
             FutureK32_0.Name = "FutureK32_0";
@@ -4118,6 +4326,7 @@
             // RequK32_3
             // 
             RequK32_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK32_3.BackColor = Color.Gainsboro;
             RequK32_3.Font = new Font("Segoe UI", 9F);
             RequK32_3.Location = new Point(731, 270);
             RequK32_3.Name = "RequK32_3";
@@ -4129,6 +4338,7 @@
             // RequK32_2
             // 
             RequK32_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK32_2.BackColor = Color.Gainsboro;
             RequK32_2.Font = new Font("Segoe UI", 9F);
             RequK32_2.Location = new Point(640, 270);
             RequK32_2.Name = "RequK32_2";
@@ -4140,6 +4350,7 @@
             // RequK32_1
             // 
             RequK32_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK32_1.BackColor = Color.Gainsboro;
             RequK32_1.Font = new Font("Segoe UI", 9F);
             RequK32_1.Location = new Point(549, 270);
             RequK32_1.Name = "RequK32_1";
@@ -4151,6 +4362,7 @@
             // RequK32_0
             // 
             RequK32_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK32_0.BackColor = Color.Gainsboro;
             RequK32_0.Font = new Font("Segoe UI", 9F);
             RequK32_0.Location = new Point(458, 270);
             RequK32_0.Name = "RequK32_0";
@@ -4162,6 +4374,7 @@
             // InventoryK32
             // 
             InventoryK32.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK32.BackColor = Color.Gainsboro;
             InventoryK32.Font = new Font("Segoe UI", 10F);
             InventoryK32.Location = new Point(367, 270);
             InventoryK32.Name = "InventoryK32";
@@ -4173,6 +4386,7 @@
             // label135
             // 
             label135.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label135.BackColor = Color.Gainsboro;
             label135.Font = new Font("Segoe UI", 10F);
             label135.Location = new Point(276, 270);
             label135.Name = "label135";
@@ -4184,6 +4398,7 @@
             // label134
             // 
             label134.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label134.BackColor = Color.Gainsboro;
             label134.Font = new Font("Segoe UI", 10F);
             label134.Location = new Point(185, 270);
             label134.Name = "label134";
@@ -4195,6 +4410,7 @@
             // label133
             // 
             label133.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label133.BackColor = Color.Gainsboro;
             label133.Font = new Font("Segoe UI", 10F);
             label133.Location = new Point(94, 270);
             label133.Name = "label133";
@@ -4338,6 +4554,7 @@
             // FutureK27_3
             // 
             FutureK27_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK27_3.BackColor = Color.Gainsboro;
             FutureK27_3.Font = new Font("Segoe UI", 9F);
             FutureK27_3.Location = new Point(1095, 210);
             FutureK27_3.Name = "FutureK27_3";
@@ -4349,6 +4566,7 @@
             // FutureK27_2
             // 
             FutureK27_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK27_2.BackColor = Color.Gainsboro;
             FutureK27_2.Font = new Font("Segoe UI", 9F);
             FutureK27_2.Location = new Point(1004, 210);
             FutureK27_2.Name = "FutureK27_2";
@@ -4360,6 +4578,7 @@
             // FutureK27_1
             // 
             FutureK27_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK27_1.BackColor = Color.Gainsboro;
             FutureK27_1.Font = new Font("Segoe UI", 9F);
             FutureK27_1.Location = new Point(913, 210);
             FutureK27_1.Name = "FutureK27_1";
@@ -4371,6 +4590,7 @@
             // FutureK27_0
             // 
             FutureK27_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK27_0.BackColor = Color.Gainsboro;
             FutureK27_0.Font = new Font("Segoe UI", 9F);
             FutureK27_0.Location = new Point(822, 210);
             FutureK27_0.Name = "FutureK27_0";
@@ -4382,6 +4602,7 @@
             // RequK27_3
             // 
             RequK27_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK27_3.BackColor = Color.Gainsboro;
             RequK27_3.Font = new Font("Segoe UI", 9F);
             RequK27_3.Location = new Point(731, 210);
             RequK27_3.Name = "RequK27_3";
@@ -4393,6 +4614,7 @@
             // RequK27_2
             // 
             RequK27_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK27_2.BackColor = Color.Gainsboro;
             RequK27_2.Font = new Font("Segoe UI", 9F);
             RequK27_2.Location = new Point(640, 210);
             RequK27_2.Name = "RequK27_2";
@@ -4404,6 +4626,7 @@
             // RequK27_1
             // 
             RequK27_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK27_1.BackColor = Color.Gainsboro;
             RequK27_1.Font = new Font("Segoe UI", 9F);
             RequK27_1.Location = new Point(549, 210);
             RequK27_1.Name = "RequK27_1";
@@ -4415,6 +4638,7 @@
             // RequK27_0
             // 
             RequK27_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK27_0.BackColor = Color.Gainsboro;
             RequK27_0.Font = new Font("Segoe UI", 9F);
             RequK27_0.Location = new Point(458, 210);
             RequK27_0.Name = "RequK27_0";
@@ -4426,6 +4650,7 @@
             // InventoryK27
             // 
             InventoryK27.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK27.BackColor = Color.Gainsboro;
             InventoryK27.Font = new Font("Segoe UI", 9F);
             InventoryK27.Location = new Point(367, 210);
             InventoryK27.Name = "InventoryK27";
@@ -4437,6 +4662,7 @@
             // label111
             // 
             label111.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label111.BackColor = Color.Gainsboro;
             label111.Font = new Font("Segoe UI", 10F);
             label111.Location = new Point(276, 210);
             label111.Name = "label111";
@@ -4448,6 +4674,7 @@
             // label110
             // 
             label110.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label110.BackColor = Color.Gainsboro;
             label110.Font = new Font("Segoe UI", 10F);
             label110.Location = new Point(185, 210);
             label110.Name = "label110";
@@ -4459,6 +4686,7 @@
             // label109
             // 
             label109.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label109.BackColor = Color.Gainsboro;
             label109.Font = new Font("Segoe UI", 10F);
             label109.Location = new Point(94, 210);
             label109.Name = "label109";
@@ -4602,6 +4830,7 @@
             // FutureK24_3
             // 
             FutureK24_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK24_3.BackColor = Color.Gainsboro;
             FutureK24_3.Font = new Font("Segoe UI", 9F);
             FutureK24_3.Location = new Point(1095, 150);
             FutureK24_3.Name = "FutureK24_3";
@@ -4613,6 +4842,7 @@
             // FutureK24_2
             // 
             FutureK24_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK24_2.BackColor = Color.Gainsboro;
             FutureK24_2.Font = new Font("Segoe UI", 9F);
             FutureK24_2.Location = new Point(1004, 150);
             FutureK24_2.Name = "FutureK24_2";
@@ -4624,6 +4854,7 @@
             // FutureK24_1
             // 
             FutureK24_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK24_1.BackColor = Color.Gainsboro;
             FutureK24_1.Font = new Font("Segoe UI", 9F);
             FutureK24_1.Location = new Point(913, 150);
             FutureK24_1.Name = "FutureK24_1";
@@ -4635,6 +4866,7 @@
             // FutureK24_0
             // 
             FutureK24_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK24_0.BackColor = Color.Gainsboro;
             FutureK24_0.Font = new Font("Segoe UI", 9F);
             FutureK24_0.Location = new Point(822, 150);
             FutureK24_0.Name = "FutureK24_0";
@@ -4646,6 +4878,7 @@
             // RequK24_3
             // 
             RequK24_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK24_3.BackColor = Color.Gainsboro;
             RequK24_3.Font = new Font("Segoe UI", 9F);
             RequK24_3.Location = new Point(731, 150);
             RequK24_3.Name = "RequK24_3";
@@ -4657,6 +4890,7 @@
             // RequK24_2
             // 
             RequK24_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK24_2.BackColor = Color.Gainsboro;
             RequK24_2.Font = new Font("Segoe UI", 9F);
             RequK24_2.Location = new Point(640, 150);
             RequK24_2.Name = "RequK24_2";
@@ -4668,6 +4902,7 @@
             // RequK24_1
             // 
             RequK24_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK24_1.BackColor = Color.Gainsboro;
             RequK24_1.Font = new Font("Segoe UI", 9F);
             RequK24_1.Location = new Point(549, 150);
             RequK24_1.Name = "RequK24_1";
@@ -4679,6 +4914,7 @@
             // RequK24_0
             // 
             RequK24_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK24_0.BackColor = Color.Gainsboro;
             RequK24_0.Font = new Font("Segoe UI", 9F);
             RequK24_0.Location = new Point(458, 150);
             RequK24_0.Name = "RequK24_0";
@@ -4690,6 +4926,7 @@
             // InventoryK24
             // 
             InventoryK24.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK24.BackColor = Color.Gainsboro;
             InventoryK24.Font = new Font("Segoe UI", 9F);
             InventoryK24.Location = new Point(367, 150);
             InventoryK24.Name = "InventoryK24";
@@ -4701,6 +4938,7 @@
             // label87
             // 
             label87.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label87.BackColor = Color.Gainsboro;
             label87.Font = new Font("Segoe UI", 10F);
             label87.Location = new Point(276, 150);
             label87.Name = "label87";
@@ -4712,6 +4950,7 @@
             // label86
             // 
             label86.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label86.BackColor = Color.Gainsboro;
             label86.Font = new Font("Segoe UI", 10F);
             label86.Location = new Point(185, 150);
             label86.Name = "label86";
@@ -4723,6 +4962,7 @@
             // label85
             // 
             label85.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label85.BackColor = Color.Gainsboro;
             label85.Font = new Font("Segoe UI", 10F);
             label85.Location = new Point(94, 150);
             label85.Name = "label85";
@@ -4866,6 +5106,7 @@
             // FutureK22_3
             // 
             FutureK22_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK22_3.BackColor = Color.Gainsboro;
             FutureK22_3.Font = new Font("Segoe UI", 9F);
             FutureK22_3.Location = new Point(1095, 90);
             FutureK22_3.Name = "FutureK22_3";
@@ -4877,6 +5118,7 @@
             // FutureK22_2
             // 
             FutureK22_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK22_2.BackColor = Color.Gainsboro;
             FutureK22_2.Font = new Font("Segoe UI", 9F);
             FutureK22_2.Location = new Point(1004, 90);
             FutureK22_2.Name = "FutureK22_2";
@@ -4888,6 +5130,7 @@
             // FutureK22_1
             // 
             FutureK22_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK22_1.BackColor = Color.Gainsboro;
             FutureK22_1.Font = new Font("Segoe UI", 9F);
             FutureK22_1.Location = new Point(913, 90);
             FutureK22_1.Name = "FutureK22_1";
@@ -4899,6 +5142,7 @@
             // FutureK22_0
             // 
             FutureK22_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK22_0.BackColor = Color.Gainsboro;
             FutureK22_0.Font = new Font("Segoe UI", 9F);
             FutureK22_0.Location = new Point(822, 90);
             FutureK22_0.Name = "FutureK22_0";
@@ -4910,6 +5154,7 @@
             // RequK22_3
             // 
             RequK22_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK22_3.BackColor = Color.Gainsboro;
             RequK22_3.Font = new Font("Segoe UI", 9F);
             RequK22_3.Location = new Point(731, 90);
             RequK22_3.Name = "RequK22_3";
@@ -4921,6 +5166,7 @@
             // RequK22_2
             // 
             RequK22_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK22_2.BackColor = Color.Gainsboro;
             RequK22_2.Font = new Font("Segoe UI", 9F);
             RequK22_2.Location = new Point(640, 90);
             RequK22_2.Name = "RequK22_2";
@@ -4932,6 +5178,7 @@
             // RequK22_1
             // 
             RequK22_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK22_1.BackColor = Color.Gainsboro;
             RequK22_1.Font = new Font("Segoe UI", 9F);
             RequK22_1.Location = new Point(549, 90);
             RequK22_1.Name = "RequK22_1";
@@ -4943,6 +5190,7 @@
             // RequK22_0
             // 
             RequK22_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK22_0.BackColor = Color.Gainsboro;
             RequK22_0.Font = new Font("Segoe UI", 9F);
             RequK22_0.Location = new Point(458, 90);
             RequK22_0.Name = "RequK22_0";
@@ -4954,6 +5202,7 @@
             // InventoryK22
             // 
             InventoryK22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK22.BackColor = Color.Gainsboro;
             InventoryK22.Font = new Font("Segoe UI", 9F);
             InventoryK22.Location = new Point(367, 90);
             InventoryK22.Name = "InventoryK22";
@@ -4965,6 +5214,7 @@
             // label63
             // 
             label63.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label63.BackColor = Color.Gainsboro;
             label63.Font = new Font("Segoe UI", 10F);
             label63.Location = new Point(276, 90);
             label63.Name = "label63";
@@ -4976,6 +5226,7 @@
             // label62
             // 
             label62.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label62.BackColor = Color.Gainsboro;
             label62.Font = new Font("Segoe UI", 10F);
             label62.Location = new Point(185, 90);
             label62.Name = "label62";
@@ -4987,6 +5238,7 @@
             // label61
             // 
             label61.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label61.BackColor = Color.Gainsboro;
             label61.Font = new Font("Segoe UI", 10F);
             label61.Location = new Point(94, 90);
             label61.Name = "label61";
@@ -4998,6 +5250,7 @@
             // FutureK21_3
             // 
             FutureK21_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK21_3.BackColor = SystemColors.Control;
             FutureK21_3.Font = new Font("Segoe UI", 9F);
             FutureK21_3.Location = new Point(1095, 60);
             FutureK21_3.Name = "FutureK21_3";
@@ -5009,6 +5262,7 @@
             // FutureK21_2
             // 
             FutureK21_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK21_2.BackColor = SystemColors.Control;
             FutureK21_2.Font = new Font("Segoe UI", 9F);
             FutureK21_2.Location = new Point(1004, 60);
             FutureK21_2.Name = "FutureK21_2";
@@ -5020,6 +5274,7 @@
             // FutureK21_1
             // 
             FutureK21_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK21_1.BackColor = SystemColors.Control;
             FutureK21_1.Font = new Font("Segoe UI", 9F);
             FutureK21_1.Location = new Point(913, 60);
             FutureK21_1.Name = "FutureK21_1";
@@ -5031,6 +5286,7 @@
             // FutureK21_0
             // 
             FutureK21_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            FutureK21_0.BackColor = SystemColors.Control;
             FutureK21_0.Font = new Font("Segoe UI", 9F);
             FutureK21_0.Location = new Point(822, 60);
             FutureK21_0.Name = "FutureK21_0";
@@ -5042,6 +5298,7 @@
             // RequK21_3
             // 
             RequK21_3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK21_3.BackColor = SystemColors.Control;
             RequK21_3.Font = new Font("Segoe UI", 9F);
             RequK21_3.Location = new Point(731, 60);
             RequK21_3.Name = "RequK21_3";
@@ -5053,6 +5310,7 @@
             // RequK21_2
             // 
             RequK21_2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK21_2.BackColor = SystemColors.Control;
             RequK21_2.Font = new Font("Segoe UI", 9F);
             RequK21_2.Location = new Point(640, 60);
             RequK21_2.Name = "RequK21_2";
@@ -5064,6 +5322,7 @@
             // RequK21_1
             // 
             RequK21_1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK21_1.BackColor = SystemColors.Control;
             RequK21_1.Font = new Font("Segoe UI", 9F);
             RequK21_1.Location = new Point(549, 60);
             RequK21_1.Name = "RequK21_1";
@@ -5075,6 +5334,7 @@
             // RequK21_0
             // 
             RequK21_0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            RequK21_0.BackColor = SystemColors.Control;
             RequK21_0.Font = new Font("Segoe UI", 9F);
             RequK21_0.Location = new Point(458, 60);
             RequK21_0.Name = "RequK21_0";
@@ -5086,6 +5346,7 @@
             // InventoryK21
             // 
             InventoryK21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            InventoryK21.BackColor = SystemColors.Control;
             InventoryK21.Font = new Font("Segoe UI", 9F);
             InventoryK21.Location = new Point(367, 60);
             InventoryK21.Name = "InventoryK21";
@@ -5097,6 +5358,7 @@
             // label51
             // 
             label51.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label51.BackColor = SystemColors.Control;
             label51.Font = new Font("Segoe UI", 10F);
             label51.Location = new Point(276, 60);
             label51.Name = "label51";
@@ -5108,6 +5370,7 @@
             // label50
             // 
             label50.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label50.BackColor = SystemColors.Control;
             label50.Font = new Font("Segoe UI", 10F);
             label50.Location = new Point(185, 60);
             label50.Name = "label50";
@@ -5119,6 +5382,7 @@
             // label19
             // 
             label19.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label19.BackColor = SystemColors.Control;
             label19.Font = new Font("Segoe UI", 10F);
             label19.Location = new Point(3, 60);
             label19.Name = "label19";
@@ -5130,7 +5394,9 @@
             // label18
             // 
             label18.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label18.BackColor = Color.DarkGray;
             label18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label18.ForeColor = Color.Black;
             label18.Location = new Point(1277, 30);
             label18.Name = "label18";
             label18.Size = new Size(90, 30);
@@ -5141,7 +5407,9 @@
             // label17
             // 
             label17.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label17.BackColor = Color.DarkGray;
             label17.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label17.ForeColor = Color.Black;
             label17.Location = new Point(1186, 30);
             label17.Name = "label17";
             label17.Size = new Size(85, 30);
@@ -5152,7 +5420,9 @@
             // Label_PeriodFuture3
             // 
             Label_PeriodFuture3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodFuture3.BackColor = Color.DarkGray;
             Label_PeriodFuture3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodFuture3.ForeColor = Color.Black;
             Label_PeriodFuture3.Location = new Point(1095, 30);
             Label_PeriodFuture3.Name = "Label_PeriodFuture3";
             Label_PeriodFuture3.Size = new Size(85, 30);
@@ -5163,7 +5433,9 @@
             // Label_PeriodFuture2
             // 
             Label_PeriodFuture2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodFuture2.BackColor = Color.DarkGray;
             Label_PeriodFuture2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodFuture2.ForeColor = Color.Black;
             Label_PeriodFuture2.Location = new Point(1004, 30);
             Label_PeriodFuture2.Name = "Label_PeriodFuture2";
             Label_PeriodFuture2.Size = new Size(85, 30);
@@ -5174,7 +5446,9 @@
             // Label_PeriodFuture1
             // 
             Label_PeriodFuture1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodFuture1.BackColor = Color.DarkGray;
             Label_PeriodFuture1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodFuture1.ForeColor = Color.Black;
             Label_PeriodFuture1.Location = new Point(913, 30);
             Label_PeriodFuture1.Name = "Label_PeriodFuture1";
             Label_PeriodFuture1.Size = new Size(85, 30);
@@ -5185,7 +5459,9 @@
             // Label_PeriodFuture0
             // 
             Label_PeriodFuture0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodFuture0.BackColor = Color.DarkGray;
             Label_PeriodFuture0.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodFuture0.ForeColor = Color.Black;
             Label_PeriodFuture0.Location = new Point(822, 30);
             Label_PeriodFuture0.Name = "Label_PeriodFuture0";
             Label_PeriodFuture0.Size = new Size(85, 30);
@@ -5196,7 +5472,9 @@
             // Label_PeriodProg3
             // 
             Label_PeriodProg3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodProg3.BackColor = Color.DarkGray;
             Label_PeriodProg3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodProg3.ForeColor = Color.Black;
             Label_PeriodProg3.Location = new Point(731, 30);
             Label_PeriodProg3.Name = "Label_PeriodProg3";
             Label_PeriodProg3.Size = new Size(85, 30);
@@ -5207,7 +5485,9 @@
             // Label_PeriodProg2
             // 
             Label_PeriodProg2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodProg2.BackColor = Color.DarkGray;
             Label_PeriodProg2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodProg2.ForeColor = Color.Black;
             Label_PeriodProg2.Location = new Point(640, 30);
             Label_PeriodProg2.Name = "Label_PeriodProg2";
             Label_PeriodProg2.Size = new Size(85, 30);
@@ -5218,7 +5498,9 @@
             // Label_PeriodProg1
             // 
             Label_PeriodProg1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodProg1.BackColor = Color.DarkGray;
             Label_PeriodProg1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodProg1.ForeColor = Color.Black;
             Label_PeriodProg1.Location = new Point(549, 30);
             Label_PeriodProg1.Name = "Label_PeriodProg1";
             Label_PeriodProg1.Size = new Size(85, 30);
@@ -5229,7 +5511,9 @@
             // Label_PeriodProg0
             // 
             Label_PeriodProg0.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            Label_PeriodProg0.BackColor = Color.DarkGray;
             Label_PeriodProg0.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_PeriodProg0.ForeColor = Color.Black;
             Label_PeriodProg0.Location = new Point(458, 30);
             Label_PeriodProg0.Name = "Label_PeriodProg0";
             Label_PeriodProg0.Size = new Size(85, 30);
@@ -5240,8 +5524,10 @@
             // label15
             // 
             label15.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label15.BackColor = Color.DarkGray;
             tableLayoutPanel1.SetColumnSpan(label15, 2);
             label15.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label15.ForeColor = Color.Black;
             label15.Location = new Point(1186, 0);
             label15.Name = "label15";
             label15.Size = new Size(181, 30);
@@ -5252,8 +5538,10 @@
             // label11
             // 
             label11.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label11.BackColor = Color.DarkGray;
             tableLayoutPanel1.SetColumnSpan(label11, 4);
             label11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label11.ForeColor = Color.Black;
             label11.Location = new Point(822, 0);
             label11.Name = "label11";
             label11.Size = new Size(358, 30);
@@ -5264,8 +5552,10 @@
             // label7
             // 
             label7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label7.BackColor = Color.DarkGray;
             tableLayoutPanel1.SetColumnSpan(label7, 4);
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.Black;
             label7.Location = new Point(458, 0);
             label7.Name = "label7";
             label7.Size = new Size(358, 30);
@@ -5276,7 +5566,9 @@
             // label6
             // 
             label6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label6.BackColor = Color.DarkGray;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.Black;
             label6.Location = new Point(367, 0);
             label6.Name = "label6";
             tableLayoutPanel1.SetRowSpan(label6, 2);
@@ -5288,7 +5580,9 @@
             // label5
             // 
             label5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label5.BackColor = Color.DarkGray;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.Black;
             label5.Location = new Point(276, 0);
             label5.Name = "label5";
             tableLayoutPanel1.SetRowSpan(label5, 2);
@@ -5300,7 +5594,9 @@
             // label4
             // 
             label4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label4.BackColor = Color.DarkGray;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.Black;
             label4.Location = new Point(185, 0);
             label4.Name = "label4";
             tableLayoutPanel1.SetRowSpan(label4, 2);
@@ -5312,7 +5608,9 @@
             // label3
             // 
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label3.BackColor = Color.DarkGray;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.Black;
             label3.Location = new Point(94, 0);
             label3.Name = "label3";
             tableLayoutPanel1.SetRowSpan(label3, 2);
@@ -5324,7 +5622,9 @@
             // label2
             // 
             label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label2.BackColor = Color.DarkGray;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Black;
             label2.Location = new Point(3, 0);
             label2.Name = "label2";
             tableLayoutPanel1.SetRowSpan(label2, 2);
@@ -5336,6 +5636,7 @@
             // label20
             // 
             label20.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label20.BackColor = Color.Gainsboro;
             label20.Font = new Font("Segoe UI", 10F);
             label20.Location = new Point(3, 90);
             label20.Name = "label20";
@@ -5358,6 +5659,7 @@
             // label22
             // 
             label22.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label22.BackColor = Color.Gainsboro;
             label22.Font = new Font("Segoe UI", 10F);
             label22.Location = new Point(3, 150);
             label22.Name = "label22";
@@ -5380,6 +5682,7 @@
             // label24
             // 
             label24.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label24.BackColor = Color.Gainsboro;
             label24.Font = new Font("Segoe UI", 10F);
             label24.Location = new Point(3, 210);
             label24.Name = "label24";
@@ -5402,6 +5705,7 @@
             // label26
             // 
             label26.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label26.BackColor = Color.Gainsboro;
             label26.Font = new Font("Segoe UI", 10F);
             label26.Location = new Point(3, 270);
             label26.Name = "label26";
@@ -5424,6 +5728,7 @@
             // label28
             // 
             label28.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label28.BackColor = Color.Gainsboro;
             label28.Font = new Font("Segoe UI", 10F);
             label28.Location = new Point(3, 330);
             label28.Name = "label28";
@@ -5446,6 +5751,7 @@
             // label30
             // 
             label30.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label30.BackColor = Color.Gainsboro;
             label30.Font = new Font("Segoe UI", 10F);
             label30.Location = new Point(3, 390);
             label30.Name = "label30";
@@ -5468,6 +5774,7 @@
             // label32
             // 
             label32.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label32.BackColor = Color.Gainsboro;
             label32.Font = new Font("Segoe UI", 10F);
             label32.Location = new Point(3, 450);
             label32.Name = "label32";
@@ -5490,6 +5797,7 @@
             // label34
             // 
             label34.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label34.BackColor = Color.Gainsboro;
             label34.Font = new Font("Segoe UI", 10F);
             label34.Location = new Point(3, 510);
             label34.Name = "label34";
@@ -5512,6 +5820,7 @@
             // label36
             // 
             label36.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label36.BackColor = Color.Gainsboro;
             label36.Font = new Font("Segoe UI", 10F);
             label36.Location = new Point(3, 570);
             label36.Name = "label36";
@@ -5534,6 +5843,7 @@
             // label39
             // 
             label39.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label39.BackColor = Color.Gainsboro;
             label39.Font = new Font("Segoe UI", 10F);
             label39.Location = new Point(3, 630);
             label39.Name = "label39";
@@ -5556,6 +5866,7 @@
             // label41
             // 
             label41.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label41.BackColor = Color.Gainsboro;
             label41.Font = new Font("Segoe UI", 10F);
             label41.Location = new Point(3, 690);
             label41.Name = "label41";
@@ -5578,6 +5889,7 @@
             // label43
             // 
             label43.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label43.BackColor = Color.Gainsboro;
             label43.Font = new Font("Segoe UI", 10F);
             label43.Location = new Point(3, 750);
             label43.Name = "label43";
@@ -5600,6 +5912,7 @@
             // label45
             // 
             label45.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label45.BackColor = Color.Gainsboro;
             label45.Font = new Font("Segoe UI", 10F);
             label45.Location = new Point(3, 810);
             label45.Name = "label45";
@@ -5622,6 +5935,7 @@
             // label47
             // 
             label47.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label47.BackColor = Color.Gainsboro;
             label47.Font = new Font("Segoe UI", 10F);
             label47.Location = new Point(3, 870);
             label47.Name = "label47";
@@ -5651,6 +5965,7 @@
             OrderQuantity21.Size = new Size(85, 23);
             OrderQuantity21.TabIndex = 178;
             OrderQuantity21.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity21.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity22
             // 
@@ -5662,6 +5977,7 @@
             OrderQuantity22.Size = new Size(85, 23);
             OrderQuantity22.TabIndex = 178;
             OrderQuantity22.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity22.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity23
             // 
@@ -5673,6 +5989,7 @@
             OrderQuantity23.Size = new Size(85, 23);
             OrderQuantity23.TabIndex = 178;
             OrderQuantity23.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity23.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity24
             // 
@@ -5684,6 +6001,7 @@
             OrderQuantity24.Size = new Size(85, 23);
             OrderQuantity24.TabIndex = 178;
             OrderQuantity24.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity24.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity25
             // 
@@ -5695,6 +6013,7 @@
             OrderQuantity25.Size = new Size(85, 23);
             OrderQuantity25.TabIndex = 178;
             OrderQuantity25.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity25.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity27
             // 
@@ -5706,6 +6025,7 @@
             OrderQuantity27.Size = new Size(85, 23);
             OrderQuantity27.TabIndex = 178;
             OrderQuantity27.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity27.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity28
             // 
@@ -5717,6 +6037,7 @@
             OrderQuantity28.Size = new Size(85, 23);
             OrderQuantity28.TabIndex = 178;
             OrderQuantity28.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity28.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity32
             // 
@@ -5728,6 +6049,7 @@
             OrderQuantity32.Size = new Size(85, 23);
             OrderQuantity32.TabIndex = 178;
             OrderQuantity32.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity32.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity33
             // 
@@ -5739,6 +6061,7 @@
             OrderQuantity33.Size = new Size(85, 23);
             OrderQuantity33.TabIndex = 178;
             OrderQuantity33.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity33.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity34
             // 
@@ -5750,6 +6073,7 @@
             OrderQuantity34.Size = new Size(85, 23);
             OrderQuantity34.TabIndex = 178;
             OrderQuantity34.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity34.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity35
             // 
@@ -5761,6 +6085,7 @@
             OrderQuantity35.Size = new Size(85, 23);
             OrderQuantity35.TabIndex = 178;
             OrderQuantity35.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity35.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity36
             // 
@@ -5772,6 +6097,7 @@
             OrderQuantity36.Size = new Size(85, 23);
             OrderQuantity36.TabIndex = 178;
             OrderQuantity36.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity36.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity37
             // 
@@ -5783,6 +6109,7 @@
             OrderQuantity37.Size = new Size(85, 23);
             OrderQuantity37.TabIndex = 178;
             OrderQuantity37.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity37.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity38
             // 
@@ -5794,6 +6121,7 @@
             OrderQuantity38.Size = new Size(85, 23);
             OrderQuantity38.TabIndex = 178;
             OrderQuantity38.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity38.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity39
             // 
@@ -5805,6 +6133,7 @@
             OrderQuantity39.Size = new Size(85, 23);
             OrderQuantity39.TabIndex = 178;
             OrderQuantity39.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity39.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity40
             // 
@@ -5816,6 +6145,7 @@
             OrderQuantity40.Size = new Size(85, 23);
             OrderQuantity40.TabIndex = 178;
             OrderQuantity40.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity40.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity41
             // 
@@ -5827,6 +6157,7 @@
             OrderQuantity41.Size = new Size(85, 23);
             OrderQuantity41.TabIndex = 178;
             OrderQuantity41.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity41.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity42
             // 
@@ -5838,6 +6169,7 @@
             OrderQuantity42.Size = new Size(85, 23);
             OrderQuantity42.TabIndex = 178;
             OrderQuantity42.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity42.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity43
             // 
@@ -5849,6 +6181,7 @@
             OrderQuantity43.Size = new Size(85, 23);
             OrderQuantity43.TabIndex = 178;
             OrderQuantity43.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity43.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity44
             // 
@@ -5860,6 +6193,7 @@
             OrderQuantity44.Size = new Size(85, 23);
             OrderQuantity44.TabIndex = 178;
             OrderQuantity44.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity44.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity45
             // 
@@ -5871,6 +6205,7 @@
             OrderQuantity45.Size = new Size(85, 23);
             OrderQuantity45.TabIndex = 178;
             OrderQuantity45.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity45.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity46
             // 
@@ -5882,6 +6217,7 @@
             OrderQuantity46.Size = new Size(85, 23);
             OrderQuantity46.TabIndex = 178;
             OrderQuantity46.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity46.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity47
             // 
@@ -5893,6 +6229,7 @@
             OrderQuantity47.Size = new Size(85, 23);
             OrderQuantity47.TabIndex = 178;
             OrderQuantity47.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity47.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity48
             // 
@@ -5904,6 +6241,7 @@
             OrderQuantity48.Size = new Size(85, 23);
             OrderQuantity48.TabIndex = 178;
             OrderQuantity48.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity48.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity52
             // 
@@ -5915,6 +6253,7 @@
             OrderQuantity52.Size = new Size(85, 23);
             OrderQuantity52.TabIndex = 178;
             OrderQuantity52.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity52.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity53
             // 
@@ -5926,6 +6265,7 @@
             OrderQuantity53.Size = new Size(85, 23);
             OrderQuantity53.TabIndex = 178;
             OrderQuantity53.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity53.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity57
             // 
@@ -5937,6 +6277,7 @@
             OrderQuantity57.Size = new Size(85, 23);
             OrderQuantity57.TabIndex = 178;
             OrderQuantity57.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity57.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity58
             // 
@@ -5948,6 +6289,7 @@
             OrderQuantity58.Size = new Size(85, 23);
             OrderQuantity58.TabIndex = 178;
             OrderQuantity58.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity58.ValueChanged += orderQuantityChange;
             // 
             // OrderQuantity59
             // 
@@ -5959,10 +6301,12 @@
             OrderQuantity59.Size = new Size(85, 23);
             OrderQuantity59.TabIndex = 178;
             OrderQuantity59.TextAlign = HorizontalAlignment.Center;
+            OrderQuantity59.ValueChanged += orderQuantityChange;
             // 
             // label49
             // 
             label49.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label49.BackColor = SystemColors.Control;
             label49.Font = new Font("Segoe UI", 10F);
             label49.Location = new Point(94, 60);
             label49.Name = "label49";
@@ -5974,11 +6318,14 @@
             // OrderModeK21
             // 
             OrderModeK21.FormattingEnabled = true;
-            OrderModeK21.Items.AddRange(new object[] { "", "Rush (4)", "Normal (5)" });
+            OrderModeK21.Items.AddRange(new object[] { "Rush (4)", "Normal (5)" });
             OrderModeK21.Location = new Point(1277, 63);
             OrderModeK21.Name = "OrderModeK21";
             OrderModeK21.Size = new Size(90, 23);
             OrderModeK21.TabIndex = 528;
+            OrderModeK21.SelectedIndexChanged += orderModeChange;
+            OrderModeK21.SelectionChangeCommitted += orderModeChange;
+            OrderModeK21.SelectedValueChanged += orderModeChange;
             // 
             // label1
             // 

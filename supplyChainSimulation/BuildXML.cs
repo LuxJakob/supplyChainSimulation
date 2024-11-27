@@ -74,15 +74,15 @@ namespace supplyChainSimulation
                 return;
             }
 
-            //try
-            //{
-            GenerateXml(filePath);
-            //    MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show($"An error occurred:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
+            try
+            {
+                GenerateXml(filePath);
+                MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         static string GetSaveFilePath()
@@ -151,24 +151,27 @@ namespace supplyChainSimulation
                 writer.WriteStartElement("orderlist");
                 foreach (var purchase in purchaseParts)
                 {
-                    writer.WriteStartElement("order");
-                    writer.WriteAttributeString("article", purchase.Key.ToString());
-                    writer.WriteAttributeString("quantity", purchase.Value.Item1.ToString());
-                    writer.WriteAttributeString("modus", purchase.Value.Item2.ToString());
-                    writer.WriteEndElement();
+                    if (purchase.Value.Item2 != 3)
+                    {
+                        writer.WriteStartElement("order");
+                        writer.WriteAttributeString("article", purchase.Key.ToString());
+                        writer.WriteAttributeString("quantity", purchase.Value.Item1.ToString());
+                        writer.WriteAttributeString("modus", purchase.Value.Item2.ToString());
+                        writer.WriteEndElement();
+                    }
                 }
                 writer.WriteEndElement();
 
                 // Add <productionlist> element
                 writer.WriteStartElement("productionlist");
-                foreach (var product in productionOrders)
+                foreach (var product in modifiedArticelsfinalized)
                 {
-                    int id = product.Key;
+                    int id = product.Item1;
                     if (id < 100)
                     {
                         writer.WriteStartElement("production");
                         writer.WriteAttributeString("article", id.ToString());
-                        writer.WriteAttributeString("quantity", product.Value.ToString());
+                        writer.WriteAttributeString("quantity", product.Item2.ToString());
                         writer.WriteEndElement();
                     }
                 }

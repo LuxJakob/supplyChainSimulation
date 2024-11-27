@@ -32,15 +32,15 @@
             label1 = new Label();
             p1_uploadXML = new Button();
             p1_desc = new Label();
-            panel1 = new Panel();
-            warningLabel = new LinkLabel();
-            hack_nope = new RadioButton();
-            warningText = new Label();
-            hack_script = new RadioButton();
-            hack_ram = new RadioButton();
-            hack_lol = new RadioButton();
-            label2 = new Label();
             switchPurchasePartDisposition = new Button();
+            panel1 = new Panel();
+            hack_lol = new RadioButton();
+            hack_ram = new RadioButton();
+            hack_script = new RadioButton();
+            warningText = new Label();
+            hack_nope = new RadioButton();
+            label2 = new Label();
+            warningLabel = new LinkLabel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -62,6 +62,17 @@
             p1_desc.Name = "p1_desc";
             p1_desc.Click += p1_desc_Click;
             // 
+            // switchPurchasePartDisposition
+            // 
+            switchPurchasePartDisposition.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            switchPurchasePartDisposition.Location = new Point(12, 415);
+            switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
+            switchPurchasePartDisposition.Size = new Size(75, 23);
+            switchPurchasePartDisposition.TabIndex = 11;
+            switchPurchasePartDisposition.Text = "Back";
+            switchPurchasePartDisposition.UseVisualStyleBackColor = true;
+            switchPurchasePartDisposition.Click += switchPurchasePartDisposition_Click;
+            // 
             // panel1
             // 
             resources.ApplyResources(panel1, "panel1");
@@ -73,26 +84,36 @@
             panel1.Controls.Add(hack_lol);
             panel1.Name = "panel1";
             // 
-            // warningLabel
+            // hack_lol
             // 
-            resources.ApplyResources(warningLabel, "warningLabel");
+            warningLabel.Anchor = AnchorStyles.Right;
+            warningLabel.Location = new Point(521, 72);
             warningLabel.Name = "warningLabel";
+            warningLabel.Size = new Size(252, 55);
+            warningLabel.TabIndex = 4;
             warningLabel.TabStop = true;
+            warningLabel.Text = "WARNING!";
+            warningLabel.TextAlign = ContentAlignment.MiddleCenter;
+            warningLabel.Visible = false;
             warningLabel.LinkClicked += warningLabel_LinkClicked;
             // 
             // hack_nope
             // 
-            resources.ApplyResources(hack_nope, "hack_nope");
-            hack_nope.Checked = true;
-            hack_nope.Name = "hack_nope";
-            hack_nope.TabStop = true;
-            hack_nope.UseVisualStyleBackColor = true;
+            // hack_ram
             // 
-            // warningText
-            // 
-            resources.ApplyResources(warningText, "warningText");
-            warningText.ForeColor = Color.Red;
-            warningText.Name = "warningText";
+            hack_ram.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            hack_ram.AutoSize = true;
+            hack_ram.Location = new Point(327, 28);
+            hack_ram.Margin = new Padding(250, 3, 3, 3);
+            hack_ram.Name = "hack_ram";
+            hack_ram.Size = new Size(134, 19);
+            hack_ram.TabIndex = 1;
+            hack_ram.Text = "Resource Exhaustion";
+            hack_ram.UseVisualStyleBackColor = true;
+            hack_ram.CheckedChanged += considerHacking;
+            hack_ram.Click += considerHacking;
+            hack_ram.KeyPress += considerHacking;
+            hack_ram.MouseClick += considerHacking;
             // 
             // hack_script
             // 
@@ -104,38 +125,55 @@
             hack_script.KeyPress += considerHacking;
             hack_script.MouseClick += considerHacking;
             // 
-            // hack_ram
+            // warningText
             // 
-            resources.ApplyResources(hack_ram, "hack_ram");
-            hack_ram.Name = "hack_ram";
-            hack_ram.UseVisualStyleBackColor = true;
-            hack_ram.CheckedChanged += considerHacking;
-            hack_ram.Click += considerHacking;
-            hack_ram.KeyPress += considerHacking;
-            hack_ram.MouseClick += considerHacking;
+            warningText.Anchor = AnchorStyles.Right;
+            warningText.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            warningText.ForeColor = Color.Red;
+            warningText.Location = new Point(521, 0);
+            warningText.Name = "warningText";
+            warningText.Size = new Size(252, 72);
+            warningText.TabIndex = 5;
+            warningText.Text = "label3";
+            warningText.TextAlign = ContentAlignment.MiddleCenter;
+            warningText.Visible = false;
             // 
-            // hack_lol
+            // hack_nope
             // 
-            resources.ApplyResources(hack_lol, "hack_lol");
-            hack_lol.Name = "hack_lol";
-            hack_lol.UseVisualStyleBackColor = true;
-            hack_lol.CheckedChanged += considerHacking;
-            hack_lol.Click += considerHacking;
-            hack_lol.KeyPress += considerHacking;
-            hack_lol.MouseClick += considerHacking;
+            hack_nope.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            hack_nope.AutoSize = true;
+            hack_nope.Checked = true;
+            hack_nope.Location = new Point(327, 78);
+            hack_nope.Margin = new Padding(250, 3, 3, 3);
+            hack_nope.Name = "hack_nope";
+            hack_nope.Size = new Size(115, 19);
+            hack_nope.TabIndex = 3;
+            hack_nope.TabStop = true;
+            hack_nope.Text = "Maybe not today";
+            hack_nope.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             resources.ApplyResources(label2, "label2");
             label2.Name = "label2";
-            label2.Click += label2_Click;
+            label2.Size = new Size(776, 25);
+            label2.TabIndex = 10;
+            label2.Text = "Wanna include something malicious?";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
+            label2.Visible = false;
             // 
-            // switchPurchasePartDisposition
+            // warningLabel
             // 
-            resources.ApplyResources(switchPurchasePartDisposition, "switchPurchasePartDisposition");
-            switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
-            switchPurchasePartDisposition.UseVisualStyleBackColor = true;
-            switchPurchasePartDisposition.Click += switchPurchasePartDisposition_Click;
+            warningLabel.Anchor = AnchorStyles.Right;
+            warningLabel.Location = new Point(521, 72);
+            warningLabel.Name = "warningLabel";
+            warningLabel.Size = new Size(252, 55);
+            warningLabel.TabIndex = 4;
+            warningLabel.TabStop = true;
+            warningLabel.Text = "WARNING!";
+            warningLabel.TextAlign = ContentAlignment.MiddleCenter;
+            warningLabel.Visible = false;
+            warningLabel.LinkClicked += warningLabel_LinkClicked;
             // 
             // BuildXML
             // 
@@ -159,14 +197,14 @@
         private Label label1;
         private Button p1_uploadXML;
         private Label p1_desc;
+        private Button switchPurchasePartDisposition;
         private Panel panel1;
+        private LinkLabel warningLabel;
+        private RadioButton hack_nope;
+        private Label warningText;
+        private RadioButton hack_script;
         private RadioButton hack_ram;
         private RadioButton hack_lol;
-        private RadioButton hack_nope;
-        private RadioButton hack_script;
         private Label label2;
-        private Button switchPurchasePartDisposition;
-        private LinkLabel warningLabel;
-        private Label warningText;
     }
 }

@@ -18,19 +18,6 @@ namespace supplyChainSimulation
         {
             InitializeComponent();
 
-            foreach (var prod in productionOrders)
-            {
-                int id = prod.Key;
-                if (prod.Value < 0)
-                {
-                    productionOrders[id] = 0;
-                }
-            }
-
-            productionOrders[26] = (productionOrders[261] + productionOrders[262] + productionOrders[263]);
-            productionOrders[16] = (productionOrders[161] + productionOrders[162] + productionOrders[163]);
-            productionOrders[17] = (productionOrders[171] + productionOrders[172] + productionOrders[173]);
-
             foreach (var order in productionOrders)
             {
                 int key = order.Key;
@@ -142,10 +129,10 @@ namespace supplyChainSimulation
             }
         }
 
-        private void switchMaterialP3_Click(object sender, EventArgs e)
+        private void switchSplitting_Click(object sender, EventArgs e)
         {
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
-            mainOrchestrator.ShowForm(new MaterialPlanning_P3());
+            mainOrchestrator.ShowForm(new Splitting());
         }
 
         private void switchPurchasePartDisposition_Click(object sender, EventArgs e)
