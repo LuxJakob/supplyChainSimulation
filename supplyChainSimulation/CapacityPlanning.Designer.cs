@@ -3471,6 +3471,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             ClientSize = new Size(1484, 953);
             Controls.Add(switchPurchasePartDisposition);
             Controls.Add(switchMaterialP3);
