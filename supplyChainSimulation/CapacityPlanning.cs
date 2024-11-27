@@ -74,10 +74,10 @@ namespace supplyChainSimulation
 
             foreach (var time in totalCapacity)
             {
-                int id = time.Key; 
+                int id = time.Key;
                 int worktime = time.Value;
 
-                shifts[id] = 1; 
+                shifts[id] = 1;
                 int weeklyOvertime = 0;
 
                 if (worktime > 3600)

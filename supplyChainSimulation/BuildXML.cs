@@ -32,7 +32,7 @@ namespace supplyChainSimulation
             {
                 MessageBox.Show("Read the risks and accept the terms and conditions!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            
+
             if ((!hack_nope.Checked) && (warningLabel.LinkVisited))
             {
                 MessageBox.Show("This is on you...", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -93,7 +93,7 @@ namespace supplyChainSimulation
             {
                 // Start document with root element input
                 writer.WriteStartDocument();
-                writer.WriteStartElement("input"); 
+                writer.WriteStartElement("input");
 
                 // Add <qualitycontrol> element, default 
                 writer.WriteStartElement("qualitycontrol");
@@ -173,7 +173,7 @@ namespace supplyChainSimulation
                 // End root element
                 writer.WriteEndElement();
                 // End document
-                writer.WriteEndDocument(); 
+                writer.WriteEndDocument();
             }
         }
 
