@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.DirectoryServices.ActiveDirectory;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -88,7 +89,14 @@ namespace supplyChainSimulation
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Your input cannot be divided by 10!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                    {
+                        MessageBox.Show("Deine Eingabe kann nicht durch 10 geteilt werden", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Your input cannot be divided by 10!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }
@@ -121,7 +129,14 @@ namespace supplyChainSimulation
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"You can't delete this position!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                {
+                    MessageBox.Show($"Du kannst diese Position nicht löschen", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show($"You can't delete this position!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
