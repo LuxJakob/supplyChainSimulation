@@ -27,6 +27,8 @@ namespace supplyChainSimulation
 
         private void p1_uploadXML_Click(object sender, EventArgs e)
         {
+            GreatReset();
+
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
                 Filter = "XML Files (*.xml)|*.xml|All Files (*.*)|*.*",

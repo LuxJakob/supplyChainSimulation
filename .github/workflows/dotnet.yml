@@ -39,13 +39,15 @@ jobs:
     - name: Publish application
       run: |
         dotnet publish ${{ env.Wap_Project_Directory }} --configuration Release --output ./publish -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeAllContentForSelfExtract=true /p:DebugType=None
+        $newExeName = "CycleCoreERP.exe"
         $exeName = Get-ChildItem -Path ./publish -Filter *.exe | Select-Object -ExpandProperty Name
-        Move-Item -Path ./publish/$exeName -Destination ./
+        Rename-Item -Path ./publish/$exeName -NewName $newExeName
+        Move-Item -Path ./publish/$newExeName -Destination ./
         Remove-Item -Recurse -Force ./publish
 
     # Upload the executable as an artifact
     - name: Upload executable
       uses: actions/upload-artifact@v3
       with:
-        name: supplyChainSimulation
+        name: CycleCoreERP
         path: ./*.exe
