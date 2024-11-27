@@ -207,5 +207,15 @@ namespace supplyChainSimulation
         {
 
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void MaterialPlanning_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

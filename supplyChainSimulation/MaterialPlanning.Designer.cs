@@ -412,6 +412,7 @@
             tableLayoutPanel1.Controls.Add(SellwishP1, 1, 1);
             tableLayoutPanel1.Controls.Add(label14, 3, 1);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
             // PlannedE18
             // 
@@ -1358,6 +1359,7 @@
             Controls.Add(label1);
             Controls.Add(switchToLieferProdProg);
             Name = "MaterialPlanning";
+            Load += MaterialPlanning_Load;
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)PlannedE18).EndInit();
             ((System.ComponentModel.ISupportInitialize)PlannedE13).EndInit();

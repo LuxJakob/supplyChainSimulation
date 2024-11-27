@@ -117,38 +117,1152 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="switchToLieferProdProg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 969</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="switchToLieferProdProg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="switchToLieferProdProg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 31</value>
+  </data>
   <data name="switchToLieferProdProg.Text" xml:space="preserve">
     <value>Zurück</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 12</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 25</value>
+    <value>264, 32</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>P1 - Material Planung</value>
   </data>
+  <data name="PlannedE18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 820</value>
+  </data>
+  <data name="PlannedE18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="PlannedE13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 753</value>
+  </data>
+  <data name="PlannedE13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="PlannedE7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 686</value>
+  </data>
+  <data name="PlannedE7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="PlannedE49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 619</value>
+  </data>
+  <data name="PlannedE49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="PlannedE10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 552</value>
+  </data>
+  <data name="PlannedE10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="PlannedE4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 485</value>
+  </data>
+  <data name="PlannedE4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="PlannedE50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 418</value>
+  </data>
+  <data name="PlannedE50.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="PlannedE171.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 351</value>
+  </data>
+  <data name="PlannedE171.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE171.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="PlannedE161.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 284</value>
+  </data>
+  <data name="PlannedE161.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE161.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="PlannedE51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 217</value>
+  </data>
+  <data name="PlannedE51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="ProductionOrdersE18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 804</value>
+  </data>
+  <data name="ProductionOrdersE18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 804</value>
+  </data>
+  <data name="OrdersProgressE18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 804</value>
+  </data>
+  <data name="OrdersQueueE18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 804</value>
+  </data>
+  <data name="InventoryE18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 804</value>
+  </data>
+  <data name="SuccessorQueueE18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 804</value>
+  </data>
+  <data name="SellwishE18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 737</value>
+  </data>
+  <data name="ProductionOrdersE13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 737</value>
+  </data>
+  <data name="OrdersProgressE13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 737</value>
+  </data>
+  <data name="OrdersQueueE13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 737</value>
+  </data>
+  <data name="InventoryE13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 737</value>
+  </data>
+  <data name="SuccessorQueueE13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 737</value>
+  </data>
+  <data name="SellwishE13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 670</value>
+  </data>
+  <data name="ProductionOrdersE7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 670</value>
+  </data>
+  <data name="OrdersProgressE7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 670</value>
+  </data>
+  <data name="OrdersQueueE7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 670</value>
+  </data>
+  <data name="InventoryE7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 670</value>
+  </data>
+  <data name="SuccessorQueueE7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 670</value>
+  </data>
+  <data name="SellwishE7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 603</value>
+  </data>
+  <data name="ProductionOrdersE49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 603</value>
+  </data>
+  <data name="OrdersProgressE49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 603</value>
+  </data>
+  <data name="OrdersQueueE49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 603</value>
+  </data>
+  <data name="InventoryE49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 603</value>
+  </data>
+  <data name="SuccessorQueueE49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 603</value>
+  </data>
+  <data name="SellwishE49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 536</value>
+  </data>
+  <data name="ProductionOrdersE10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 536</value>
+  </data>
+  <data name="OrdersProgressE10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 536</value>
+  </data>
+  <data name="OrdersQueueE10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 536</value>
+  </data>
+  <data name="InventoryE10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 536</value>
+  </data>
+  <data name="SuccessorQueueE10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 536</value>
+  </data>
+  <data name="SellwishE10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 469</value>
+  </data>
+  <data name="ProductionOrdersE4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 469</value>
+  </data>
+  <data name="OrdersProgressE4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 469</value>
+  </data>
+  <data name="OrdersQueueE4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 469</value>
+  </data>
+  <data name="InventoryE4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 469</value>
+  </data>
+  <data name="SuccessorQueueE4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 469</value>
+  </data>
+  <data name="SellwishE4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 402</value>
+  </data>
+  <data name="ProductionOrdersE50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 402</value>
+  </data>
+  <data name="OrdersProgressE50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 402</value>
+  </data>
+  <data name="OrdersQueueE50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 402</value>
+  </data>
+  <data name="InventoryE50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 402</value>
+  </data>
+  <data name="SuccessorQueueE50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 402</value>
+  </data>
+  <data name="SellwishE50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE171.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 335</value>
+  </data>
+  <data name="ProductionOrdersE171.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE171.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 335</value>
+  </data>
+  <data name="OrdersProgressE171.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE171.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 335</value>
+  </data>
+  <data name="OrdersQueueE171.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE171.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 335</value>
+  </data>
+  <data name="InventoryE171.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE171.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 335</value>
+  </data>
+  <data name="SuccessorQueueE171.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE171.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 335</value>
+  </data>
+  <data name="SellwishE171.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE161.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 268</value>
+  </data>
+  <data name="ProductionOrdersE161.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE161.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 268</value>
+  </data>
+  <data name="OrdersProgressE161.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE161.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 268</value>
+  </data>
+  <data name="OrdersQueueE161.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE161.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 268</value>
+  </data>
+  <data name="InventoryE161.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE161.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 268</value>
+  </data>
+  <data name="SuccessorQueueE161.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE161.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 268</value>
+  </data>
+  <data name="SellwishE161.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 201</value>
+  </data>
+  <data name="ProductionOrdersE51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 201</value>
+  </data>
+  <data name="OrdersProgressE51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 201</value>
+  </data>
+  <data name="OrdersQueueE51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 201</value>
+  </data>
+  <data name="InventoryE51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 201</value>
+  </data>
+  <data name="SuccessorQueueE51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 201</value>
+  </data>
+  <data name="SellwishE51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersE261.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 134</value>
+  </data>
+  <data name="ProductionOrdersE261.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressE261.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 134</value>
+  </data>
+  <data name="OrdersProgressE261.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueE261.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 134</value>
+  </data>
+  <data name="OrdersQueueE261.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryE261.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 134</value>
+  </data>
+  <data name="InventoryE261.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="SuccessorQueueE261.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 134</value>
+  </data>
+  <data name="SuccessorQueueE261.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="SellwishE261.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 134</value>
+  </data>
+  <data name="SellwishE261.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="ProductionOrdersP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 67</value>
+  </data>
+  <data name="ProductionOrdersP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersProgressP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 67</value>
+  </data>
+  <data name="OrdersProgressP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="OrdersQueueP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 67</value>
+  </data>
+  <data name="OrdersQueueP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="InventoryP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 67</value>
+  </data>
+  <data name="InventoryP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="PlannedP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 67</value>
+  </data>
+  <data name="PlannedP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="label99.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1181, 0</value>
+  </data>
+  <data name="label99.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
   <data name="label99.Text" xml:space="preserve">
     <value>Produktions- aufträge</value>
+  </data>
+  <data name="label97.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 0</value>
+  </data>
+  <data name="label97.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
   </data>
   <data name="label97.Text" xml:space="preserve">
     <value>Aufträge in Bearbeitung</value>
   </data>
+  <data name="label95.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 0</value>
+  </data>
+  <data name="label95.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
   <data name="label95.Text" xml:space="preserve">
     <value>Aufträge in der Warteschlange</value>
+  </data>
+  <data name="label93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 0</value>
+  </data>
+  <data name="label93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
   </data>
   <data name="label93.Text" xml:space="preserve">
     <value>Aktuelles Inventar</value>
   </data>
+  <data name="label91.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 0</value>
+  </data>
+  <data name="label91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
   <data name="label91.Text" xml:space="preserve">
     <value>Geplantes Inventar</value>
   </data>
+  <data name="label89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 0</value>
+  </data>
+  <data name="label89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
   <data name="label89.Text" xml:space="preserve">
-    <value>Warteschlange der Nachfolger</value>
+    <value>Warte- schlange </value>
+  </data>
+  <data name="label87.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 0</value>
+  </data>
+  <data name="label87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
   </data>
   <data name="label87.Text" xml:space="preserve">
     <value>Verkaufs- wunsch</value>
   </data>
+  <data name="label79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 134</value>
+  </data>
+  <data name="label70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 134</value>
+  </data>
+  <data name="label66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 134</value>
+  </data>
+  <data name="label68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 804</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 67</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 134</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 201</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 268</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 335</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 402</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 469</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 536</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 603</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 670</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 737</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 67</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 67</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 67</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 67</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 134</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 201</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 268</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 335</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 402</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 469</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 536</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 603</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 670</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 737</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 134</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 201</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 268</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 335</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 402</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 469</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 536</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 603</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 670</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 737</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 804</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 804</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 201</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 268</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 335</value>
+  </data>
+  <data name="label56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 402</value>
+  </data>
+  <data name="label63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 469</value>
+  </data>
+  <data name="label74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 536</value>
+  </data>
+  <data name="label57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 603</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 670</value>
+  </data>
+  <data name="label64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 737</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 201</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 268</value>
+  </data>
+  <data name="label67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 335</value>
+  </data>
+  <data name="label69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 402</value>
+  </data>
+  <data name="label60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 469</value>
+  </data>
+  <data name="label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 536</value>
+  </data>
+  <data name="label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 603</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 67</value>
+  </data>
+  <data name="label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 670</value>
+  </data>
+  <data name="label58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 670</value>
+  </data>
+  <data name="label65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 268</value>
+  </data>
+  <data name="label71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 201</value>
+  </data>
+  <data name="label61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 402</value>
+  </data>
+  <data name="label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 536</value>
+  </data>
+  <data name="label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 335</value>
+  </data>
+  <data name="label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 469</value>
+  </data>
+  <data name="label54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 603</value>
+  </data>
+  <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 737</value>
+  </data>
+  <data name="label48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 737</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 804</value>
+  </data>
+  <data name="label72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>769, 804</value>
+  </data>
+  <data name="label55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 804</value>
+  </data>
+  <data name="label73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label86.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 134</value>
+  </data>
+  <data name="label86.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 268</value>
+  </data>
+  <data name="label84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label85.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 201</value>
+  </data>
+  <data name="label85.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 737</value>
+  </data>
+  <data name="label76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 536</value>
+  </data>
+  <data name="label75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 335</value>
+  </data>
+  <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 402</value>
+  </data>
+  <data name="label78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 670</value>
+  </data>
+  <data name="label77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 469</value>
+  </data>
+  <data name="label80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 603</value>
+  </data>
+  <data name="label81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="label82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 804</value>
+  </data>
+  <data name="label82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 67</value>
+  </data>
+  <data name="PlannedE261.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 150</value>
+  </data>
+  <data name="PlannedE261.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PlannedE261.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="SellwishP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 67</value>
+  </data>
+  <data name="SellwishP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 67</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 67</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 49</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1314, 867</value>
+  </data>
+  <data name="switchMaterialP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1566, 969</value>
+  </data>
+  <data name="switchMaterialP2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="switchMaterialP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 31</value>
+  </data>
   <data name="switchMaterialP2.Text" xml:space="preserve">
     <value>Weiter</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1665, 1016</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
 </root>
