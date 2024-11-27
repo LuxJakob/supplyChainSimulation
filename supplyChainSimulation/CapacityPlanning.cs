@@ -96,20 +96,20 @@ namespace supplyChainSimulation
 
             if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
             {
-                shiftOvertimeW1.Text = shifts[1].ToString() + "Schicht && " + overtime[1].ToString() + "min";
-                shiftOvertimeW2.Text = shifts[2].ToString() + "Schicht && " + overtime[2].ToString() + "min";
-                shiftOvertimeW3.Text = shifts[3].ToString() + "Schicht && " + overtime[3].ToString() + "min";
-                shiftOvertimeW4.Text = shifts[4].ToString() + "Schicht && " + overtime[4].ToString() + "min";
-                shiftOvertimeW6.Text = shifts[6].ToString() + "Schicht && " + overtime[6].ToString() + "min";
-                shiftOvertimeW7.Text = shifts[7].ToString() + "Schicht && " + overtime[7].ToString() + "min";
-                shiftOvertimeW8.Text = shifts[8].ToString() + "Schicht && " + overtime[8].ToString() + "min";
-                shiftOvertimeW9.Text = shifts[9].ToString() + "Schicht && " + overtime[9].ToString() + "min";
-                shiftOvertimeW10.Text = shifts[10].ToString() + "Schicht && " + overtime[10].ToString() + "min";
-                shiftOvertimeW11.Text = shifts[11].ToString() + "Schicht && " + overtime[11].ToString() + "min";
-                shiftOvertimeW12.Text = shifts[12].ToString() + "Schicht && " + overtime[12].ToString() + "min";
-                shiftOvertimeW13.Text = shifts[13].ToString() + "Schicht && " + overtime[13].ToString() + "min";
-                shiftOvertimeW14.Text = shifts[14].ToString() + "Schicht && " + overtime[14].ToString() + "min";
-                shiftOvertimeW15.Text = shifts[15].ToString() + "Schicht && " + overtime[15].ToString() + "min";
+                shiftOvertimeW1.Text = shifts[1].ToString() + "Sch. && " + overtime[1].ToString() + "min";
+                shiftOvertimeW2.Text = shifts[2].ToString() + "Sch. && " + overtime[2].ToString() + "min";
+                shiftOvertimeW3.Text = shifts[3].ToString() + "Sch. && " + overtime[3].ToString() + "min";
+                shiftOvertimeW4.Text = shifts[4].ToString() + "Sch. && " + overtime[4].ToString() + "min";
+                shiftOvertimeW6.Text = shifts[6].ToString() + "Sch. && " + overtime[6].ToString() + "min";
+                shiftOvertimeW7.Text = shifts[7].ToString() + "Sch. && " + overtime[7].ToString() + "min";
+                shiftOvertimeW8.Text = shifts[8].ToString() + "Sch. && " + overtime[8].ToString() + "min";
+                shiftOvertimeW9.Text = shifts[9].ToString() + "Sch. && " + overtime[9].ToString() + "min";
+                shiftOvertimeW10.Text = shifts[10].ToString() + "Sch. && " + overtime[10].ToString() + "min";
+                shiftOvertimeW11.Text = shifts[11].ToString() + "Sch. && " + overtime[11].ToString() + "min";
+                shiftOvertimeW12.Text = shifts[12].ToString() + "Sch. && " + overtime[12].ToString() + "min";
+                shiftOvertimeW13.Text = shifts[13].ToString() + "Sch. && " + overtime[13].ToString() + "min";
+                shiftOvertimeW14.Text = shifts[14].ToString() + "Sch. && " + overtime[14].ToString() + "min";
+                shiftOvertimeW15.Text = shifts[15].ToString() + "Sch. && " + overtime[15].ToString() + "min";
             } else
             {
                 shiftOvertimeW1.Text = shifts[1].ToString() + "Shift && \n" + overtime[1].ToString() + "min";

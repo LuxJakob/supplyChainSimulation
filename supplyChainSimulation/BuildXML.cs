@@ -77,7 +77,14 @@ namespace supplyChainSimulation
             try
             {
                 GenerateXml(filePath);
-                MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                {
+                    MessageBox.Show($"XML Datei erfolgreich generiert unter:\n{filePath}", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    MessageBox.Show($"XML file successfully generated at:\n{filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
             catch (Exception ex)
             {
