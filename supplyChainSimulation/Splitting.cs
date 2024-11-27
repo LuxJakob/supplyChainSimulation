@@ -20,6 +20,9 @@ namespace supplyChainSimulation
         {
             InitializeComponent();
 
+            PrioHigher.Text = Char.ConvertFromUtf32(0x25B2);
+            PrioLower.Text = Char.ConvertFromUtf32(0x25BC);
+
             foreach (var prod in productionOrders)
             {
                 int id = prod.Key;
@@ -33,10 +36,12 @@ namespace supplyChainSimulation
             productionOrders[16] = (productionOrders[161] + productionOrders[162] + productionOrders[163]);
             productionOrders[17] = (productionOrders[171] + productionOrders[172] + productionOrders[173]);
 
-            showArticles();
+            ShowArticles();
+
+            articelListView.ListViewItemSorter = null;
         }
 
-        private void showArticles()
+        private void ShowArticles()
         {
             articelListView.Columns.Add("Articel", 100);
             articelListView.Columns.Add("Amount", 150);
@@ -159,6 +164,98 @@ namespace supplyChainSimulation
         {
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
             mainOrchestrator.ShowForm(new MaterialPlanning_P3());
+        }
+
+        private void PrioHigher_Click(object sender, EventArgs e)
+        {
+            if (articelListView.SelectedItems.Count == 0)
+                return;
+
+            List<int> selectedIndices = articelListView.SelectedIndices.Cast<int>().ToList();
+
+            if (selectedIndices[0] == 0)
+                return;
+
+            List<ListViewItem> allItems = articelListView.Items.Cast<ListViewItem>().ToList();
+
+            List<ListViewItem> selectedItems = new List<ListViewItem>();
+            foreach (int index in selectedIndices)
+            {
+                selectedItems.Add(allItems[index]);
+            }
+            foreach (var item in selectedItems)
+            {
+                allItems.Remove(item);
+            }
+
+            int insertIndex = selectedIndices[0] - 1;
+            allItems.InsertRange(insertIndex, selectedItems);
+
+            articelListView.BeginUpdate();
+            articelListView.Items.Clear();
+            articelListView.Items.AddRange(allItems.ToArray());
+            articelListView.EndUpdate();
+
+            foreach (var item in selectedItems)
+            {
+                item.Selected = true;
+            }
+        }
+
+        private void PrioLower_Click(object sender, EventArgs e)
+        {
+            if (articelListView.SelectedItems.Count == 0)
+                return;
+
+            List<int> selectedIndices = articelListView.SelectedIndices.Cast<int>().ToList();
+
+            List<ListViewItem> allItems = articelListView.Items.Cast<ListViewItem>().ToList();
+
+            if ((allItems.Count) <= (selectedIndices.Last() + 1))
+                return;
+
+            List<ListViewItem> selectedItems = new List<ListViewItem>();
+            foreach (int index in selectedIndices)
+            {
+                selectedItems.Add(allItems[index]);
+            }
+            foreach (var item in selectedItems)
+            {
+                allItems.Remove(item);
+            }
+
+            int insertIndex = selectedIndices[0] + 1;
+            allItems.InsertRange(insertIndex, selectedItems);
+
+            articelListView.BeginUpdate();
+            articelListView.Items.Clear();
+            articelListView.Items.AddRange(allItems.ToArray());
+            articelListView.EndUpdate();
+
+            foreach (var item in selectedItems)
+            {
+                item.Selected = true;
+            }
+        }
+
+        private void SortSplitingList_Click(object sender, EventArgs e)
+        {
+            BasicSort();
+        }
+
+        private void BasicSort()
+        {
+            List<ListViewItem> allItems = articelListView.Items.Cast<ListViewItem>().ToList();
+            articelListView.AutoArrange = true;
+            articelListView.Sorting = SortOrder.Ascending;
+
+            articelListView.BeginUpdate();
+            articelListView.Items.Clear();
+            articelListView.Items.AddRange(allItems.ToArray());
+            articelListView.EndUpdate();
+
+            articelListView.AutoArrange = false;
+            articelListView.Sorting = SortOrder.None;
         }
     }
 }
