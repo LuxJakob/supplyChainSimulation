@@ -33,6 +33,9 @@
             deleteSplit = new Button();
             articelListView = new ListView();
             SplitInput = new NumericUpDown();
+            PrioHigher = new Button();
+            PrioLower = new Button();
+            SortSplitingList = new Button();
             ((System.ComponentModel.ISupportInitialize)SplitInput).BeginInit();
             SuspendLayout();
             // 
@@ -101,9 +104,47 @@
             SplitInput.Size = new Size(112, 23);
             SplitInput.TabIndex = 9;
             // 
+            // PrioHigher
+            // 
+            PrioHigher.Font = new Font("Segoe UI", 15.75F);
+            PrioHigher.Location = new Point(464, 303);
+            PrioHigher.Margin = new Padding(15, 15, 3, 3);
+            PrioHigher.Name = "PrioHigher";
+            PrioHigher.Size = new Size(112, 112);
+            PrioHigher.TabIndex = 10;
+            PrioHigher.Text = "\\u25B2";
+            PrioHigher.UseVisualStyleBackColor = true;
+            PrioHigher.Click += PrioHigher_Click;
+            // 
+            // PrioLower
+            // 
+            PrioLower.Font = new Font("Segoe UI", 15.75F);
+            PrioLower.Location = new Point(464, 433);
+            PrioLower.Margin = new Padding(15, 15, 3, 3);
+            PrioLower.Name = "PrioLower";
+            PrioLower.Size = new Size(112, 112);
+            PrioLower.TabIndex = 11;
+            PrioLower.Text = "\\u25BC";
+            PrioLower.UseVisualStyleBackColor = true;
+            PrioLower.Click += PrioLower_Click;
+            // 
+            // SortSplitingList
+            // 
+            SortSplitingList.Location = new Point(464, 593);
+            SortSplitingList.Margin = new Padding(15, 45, 3, 3);
+            SortSplitingList.Name = "SortSplitingList";
+            SortSplitingList.Size = new Size(112, 34);
+            SortSplitingList.TabIndex = 12;
+            SortSplitingList.Text = "Sort List";
+            SortSplitingList.UseVisualStyleBackColor = true;
+            SortSplitingList.Click += SortSplitingList_Click;
+            // 
             // Splitting
             // 
             ClientSize = new Size(1924, 1061);
+            Controls.Add(SortSplitingList);
+            Controls.Add(PrioLower);
+            Controls.Add(PrioHigher);
             Controls.Add(SplitInput);
             Controls.Add(articelListView);
             Controls.Add(deleteSplit);
@@ -111,6 +152,7 @@
             Controls.Add(SwitchSplitterBack);
             Controls.Add(SwitchSplitterNext);
             Name = "Splitting";
+            VisibleChanged += SortSplitingList_Click;
             ((System.ComponentModel.ISupportInitialize)SplitInput).EndInit();
             ResumeLayout(false);
         }
@@ -121,5 +163,8 @@
         private Button deleteSplit;
         private ListView articelListView;
         private NumericUpDown SplitInput;
+        private Button PrioHigher;
+        private Button PrioLower;
+        private Button SortSplitingList;
     }
 }
