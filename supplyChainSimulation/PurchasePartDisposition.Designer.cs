@@ -6341,6 +6341,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             ClientSize = new Size(1484, 1045);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
