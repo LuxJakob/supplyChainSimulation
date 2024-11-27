@@ -2426,6 +2426,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             ClientSize = new Size(1457, 762);
             Controls.Add(switchCapacityPlanning);
             Controls.Add(switchMaterialP2);

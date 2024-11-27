@@ -33,13 +33,13 @@
             p1_desc = new Label();
             switchPurchasePartDisposition = new Button();
             panel1 = new Panel();
-            hack_lol = new RadioButton();
-            hack_ram = new RadioButton();
-            hack_script = new RadioButton();
-            warningText = new Label();
-            hack_nope = new RadioButton();
-            label2 = new Label();
             warningLabel = new LinkLabel();
+            hack_nope = new RadioButton();
+            warningText = new Label();
+            hack_script = new RadioButton();
+            hack_ram = new RadioButton();
+            hack_lol = new RadioButton();
+            label2 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -97,48 +97,57 @@
             panel1.Controls.Add(hack_ram);
             panel1.Controls.Add(hack_lol);
             panel1.Location = new Point(12, 134);
+            panel1.Margin = new Padding(3, 3, 20, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(776, 128);
+            panel1.Size = new Size(759, 150);
             panel1.TabIndex = 9;
             panel1.Visible = false;
             // 
-            // hack_lol
+            // warningLabel
             // 
-            hack_lol.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            hack_lol.AutoSize = true;
-            hack_lol.Location = new Point(327, 3);
-            hack_lol.Margin = new Padding(250, 3, 3, 3);
-            hack_lol.Name = "hack_lol";
-            hack_lol.Size = new Size(136, 19);
-            hack_lol.TabIndex = 0;
-            hack_lol.Text = "Billion Laughs Attack";
-            hack_lol.UseVisualStyleBackColor = true;
-            hack_lol.CheckedChanged += considerHacking;
-            hack_lol.Click += considerHacking;
-            hack_lol.KeyPress += considerHacking;
-            hack_lol.MouseClick += considerHacking;
+            warningLabel.Anchor = AnchorStyles.Right;
+            warningLabel.Location = new Point(504, 83);
+            warningLabel.Name = "warningLabel";
+            warningLabel.Size = new Size(252, 55);
+            warningLabel.TabIndex = 4;
+            warningLabel.TabStop = true;
+            warningLabel.Text = "WARNING!";
+            warningLabel.TextAlign = ContentAlignment.MiddleCenter;
+            warningLabel.Visible = false;
+            warningLabel.LinkClicked += warningLabel_LinkClicked;
             // 
-            // hack_ram
+            // hack_nope
             // 
-            hack_ram.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            hack_ram.AutoSize = true;
-            hack_ram.Location = new Point(327, 28);
-            hack_ram.Margin = new Padding(250, 3, 3, 3);
-            hack_ram.Name = "hack_ram";
-            hack_ram.Size = new Size(134, 19);
-            hack_ram.TabIndex = 1;
-            hack_ram.Text = "Resource Exhaustion";
-            hack_ram.UseVisualStyleBackColor = true;
-            hack_ram.CheckedChanged += considerHacking;
-            hack_ram.Click += considerHacking;
-            hack_ram.KeyPress += considerHacking;
-            hack_ram.MouseClick += considerHacking;
+            hack_nope.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            hack_nope.AutoSize = true;
+            hack_nope.Checked = true;
+            hack_nope.Location = new Point(327, 89);
+            hack_nope.Margin = new Padding(250, 3, 3, 3);
+            hack_nope.Name = "hack_nope";
+            hack_nope.Size = new Size(115, 19);
+            hack_nope.TabIndex = 3;
+            hack_nope.TabStop = true;
+            hack_nope.Text = "Maybe not today";
+            hack_nope.UseVisualStyleBackColor = true;
+            // 
+            // warningText
+            // 
+            warningText.Anchor = AnchorStyles.Right;
+            warningText.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            warningText.ForeColor = Color.Red;
+            warningText.Location = new Point(504, 11);
+            warningText.Name = "warningText";
+            warningText.Size = new Size(252, 72);
+            warningText.TabIndex = 5;
+            warningText.Text = "label3";
+            warningText.TextAlign = ContentAlignment.MiddleCenter;
+            warningText.Visible = false;
             // 
             // hack_script
             // 
             hack_script.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             hack_script.AutoSize = true;
-            hack_script.Location = new Point(327, 53);
+            hack_script.Location = new Point(327, 64);
             hack_script.Margin = new Padding(250, 3, 3, 3);
             hack_script.Name = "hack_script";
             hack_script.Size = new Size(102, 19);
@@ -150,32 +159,37 @@
             hack_script.KeyPress += considerHacking;
             hack_script.MouseClick += considerHacking;
             // 
-            // warningText
+            // hack_ram
             // 
-            warningText.Anchor = AnchorStyles.Right;
-            warningText.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            warningText.ForeColor = Color.Red;
-            warningText.Location = new Point(521, 0);
-            warningText.Name = "warningText";
-            warningText.Size = new Size(252, 72);
-            warningText.TabIndex = 5;
-            warningText.Text = "label3";
-            warningText.TextAlign = ContentAlignment.MiddleCenter;
-            warningText.Visible = false;
+            hack_ram.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            hack_ram.AutoSize = true;
+            hack_ram.Location = new Point(327, 39);
+            hack_ram.Margin = new Padding(250, 3, 3, 3);
+            hack_ram.Name = "hack_ram";
+            hack_ram.Size = new Size(134, 19);
+            hack_ram.TabIndex = 1;
+            hack_ram.Text = "Resource Exhaustion";
+            hack_ram.UseVisualStyleBackColor = true;
+            hack_ram.CheckedChanged += considerHacking;
+            hack_ram.Click += considerHacking;
+            hack_ram.KeyPress += considerHacking;
+            hack_ram.MouseClick += considerHacking;
             // 
-            // hack_nope
+            // hack_lol
             // 
-            hack_nope.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            hack_nope.AutoSize = true;
-            hack_nope.Checked = true;
-            hack_nope.Location = new Point(327, 78);
-            hack_nope.Margin = new Padding(250, 3, 3, 3);
-            hack_nope.Name = "hack_nope";
-            hack_nope.Size = new Size(115, 19);
-            hack_nope.TabIndex = 3;
-            hack_nope.TabStop = true;
-            hack_nope.Text = "Maybe not today";
-            hack_nope.UseVisualStyleBackColor = true;
+            hack_lol.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            hack_lol.AutoSize = true;
+            hack_lol.Location = new Point(327, 14);
+            hack_lol.Margin = new Padding(250, 3, 3, 3);
+            hack_lol.Name = "hack_lol";
+            hack_lol.Size = new Size(136, 19);
+            hack_lol.TabIndex = 0;
+            hack_lol.Text = "Billion Laughs Attack";
+            hack_lol.UseVisualStyleBackColor = true;
+            hack_lol.CheckedChanged += considerHacking;
+            hack_lol.Click += considerHacking;
+            hack_lol.KeyPress += considerHacking;
+            hack_lol.MouseClick += considerHacking;
             // 
             // label2
             // 
@@ -188,19 +202,6 @@
             label2.Text = "Wanna include something malicious?";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             label2.Visible = false;
-            // 
-            // warningLabel
-            // 
-            warningLabel.Anchor = AnchorStyles.Right;
-            warningLabel.Location = new Point(521, 72);
-            warningLabel.Name = "warningLabel";
-            warningLabel.Size = new Size(252, 55);
-            warningLabel.TabIndex = 4;
-            warningLabel.TabStop = true;
-            warningLabel.Text = "WARNING!";
-            warningLabel.TextAlign = ContentAlignment.MiddleCenter;
-            warningLabel.Visible = false;
-            warningLabel.LinkClicked += warningLabel_LinkClicked;
             // 
             // BuildXML
             // 
