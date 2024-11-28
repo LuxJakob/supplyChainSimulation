@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -56,11 +57,13 @@ namespace supplyChainSimulation
             InventoryK58.Text = warehousestock[58].ToString();
             InventoryK59.Text = warehousestock[59].ToString();
 
-            calcRequirements();
+            CalcRequirements();
 
-            calcFutureStock();
+            InwardStock();
 
-            coloringTheFuture();
+            CalcFutureStock();
+
+            ColoringTheFuture();
         }
 
         private void switchCapacityPlanning_Click(object sender, EventArgs e)
@@ -69,7 +72,21 @@ namespace supplyChainSimulation
             mainOrchestrator.ShowForm(new CapacityPlanning());
         }
 
-        private void coloringTheFuture()
+        private void InwardStock()
+        {
+            futureinwardstockmovement = rootElement.Element("futureinwardstockmovement");
+            foreach (var stock in futureinwardstockmovement.Elements("order"))
+            {
+                int article = int.TryParse(stock.Attribute("article")?.Value, out int articleValue) ? articleValue : 0;
+                int amount = int.TryParse(stock.Attribute("amount")?.Value, out int amountValue) ? amountValue : 0;
+                int orderperiod = int.TryParse(stock.Attribute("orderperiod")?.Value, out int orderperiodValue) ? orderperiodValue : 0;
+                int ordermode = int.TryParse(stock.Attribute("mode")?.Value, out int modeValue) ? orderperiodValue : 0;
+
+                futureStockList.Add(article, (amount, orderperiod, ((ordermode - 4) * 2)));
+            }
+        }
+
+        private void ColoringTheFuture()
         {
             foreach (var pick in discountQuantity)
             {
@@ -141,7 +158,7 @@ namespace supplyChainSimulation
             mainOrchestrator.ShowForm(new BuildXML());
         }
 
-        private void calcRequirements()
+        private void CalcRequirements()
         {
             foreach (var part in partUsage)
             {
@@ -271,16 +288,33 @@ namespace supplyChainSimulation
             RequK59_3.Text = requirement3[59].ToString();
         }
 
-        private void calcFutureStock()
+        private void CalcFutureStock()
         {
             foreach (var part in partUsage)
             {
                 int id = part.Key;
 
-                futureStock0[id] = warehousestock[id] - (requirement0[id]);
-                futureStock1[id] = warehousestock[id] - (requirement0[id] + requirement1[id]);
-                futureStock2[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id]);
-                futureStock3[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id] + requirement3[id]);
+                incomingStocks[0] = 0;
+                incomingStocks[1] = 0;
+                incomingStocks[2] = 0;
+                incomingStocks[3] = 0;
+
+                if (futureStockList.ContainsKey(id))
+                {
+                    int incomingPeriod = futureStockList[id].Item2 + (int)Math.Ceiling(deliveryTime[id].Item1 + ((deliveryTime[id].Item2 * futureStockList[id].Item3) / 2));
+
+                    int diff = incomingPeriod - (current_period + 1);
+                    incomingStocks[diff] = futureStockList[id].Item1;
+                }
+
+                incomingStocks[1] += incomingStocks[0];
+                incomingStocks[2] += incomingStocks[1];
+                incomingStocks[3] += incomingStocks[2];
+
+                futureStock0[id] = warehousestock[id] - (requirement0[id]) + incomingStocks[0];
+                futureStock1[id] = warehousestock[id] - (requirement0[id] + requirement1[id]) + incomingStocks[1];
+                futureStock2[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id]) + incomingStocks[2];
+                futureStock3[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id] + requirement3[id]) + incomingStocks[3];
             }
 
             FutureK21_0.Text = futureStock0[21].ToString();
