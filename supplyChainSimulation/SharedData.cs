@@ -104,6 +104,43 @@ namespace supplyChainSimulation
         };
 
         // PurchasePartDisposition variables
+        public static XElement futureinwardstockmovement;
+        public static Dictionary<int, (int, int, int)> futureStockList = new Dictionary<int, (int, int, int)>();
+
+        public static List<int> incomingStocks = new List<int>() { 0, 0, 0, 0 };
+
+        public static Dictionary<int, (double, double)> deliveryTime = new Dictionary<int, (double, double)>()
+        {
+            { 21, (1.8, 0.4) },
+            { 22, (1.7, 0.4) },
+            { 23, (1.2, 0.2) },
+            { 24, (3.2, 0.3) },
+            { 25, (0.9, 0.2) },
+            { 27, (0.9, 0.2) },
+            { 28, (1.7, 0.4) },
+            { 32, (2.1, 0.5) },
+            { 33, (1.9, 0.5) },
+            { 34, (1.6, 0.3) },
+            { 35, (2.2, 0.4) },
+            { 36, (1.2, 0.1) },
+            { 37, (1.5, 0.3) },
+            { 38, (1.7, 0.4) },
+            { 39, (1.5, 0.3) },
+            { 40, (1.7, 0.2) },
+            { 41, (0.9, 0.2) },
+            { 42, (1.2, 0.3) },
+            { 43, (2.0, 0.5) },
+            { 44, (1.0, 0.2) },
+            { 45, (1.7, 0.3) },
+            { 46, (0.9, 0.3) },
+            { 47, (1.1, 0.1) },
+            { 48, (1.0, 0.2) },
+            { 52, (1.6, 0.4) },
+            { 53, (1.6, 0.2) },
+            { 57, (1.7, 0.3) },
+            { 58, (1.6, 0.5) },
+            { 59, (0.7, 0.2) }
+        };
 
         public static Dictionary<int, int> requirement0 = new Dictionary<int, int>();
         public static Dictionary<int, int> requirement1 = new Dictionary<int, int>();
