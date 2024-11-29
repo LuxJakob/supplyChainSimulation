@@ -131,6 +131,7 @@ namespace supplyChainSimulation
         {
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
             mainOrchestrator.ShowForm(new Splitting());
+
         }
 
         private void label89_Click(object sender, EventArgs e)
@@ -140,7 +141,7 @@ namespace supplyChainSimulation
 
         private void MaterialPlanning_P3_Load(object sender, EventArgs e)
         {
-
+        
         }
     }
 }
