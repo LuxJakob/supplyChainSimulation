@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,24 +34,45 @@ namespace supplyChainSimulation
             {
                 MessageBox.Show("The <forecast> element is missing. ERROR!", "Breaking Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+            {
+                SalesXP1.Text = forecast0[1].ToString();
+                SalesXP2.Text = forecast0[2].ToString();
+                SalesXP3.Text = forecast0[3].ToString();
 
-            SalesXP1.Text = forecast0[1].ToString();
-            SalesXP2.Text = forecast0[2].ToString();
-            SalesXP3.Text = forecast0[3].ToString();
+                ProdXP1_0.Text = forecast0[1].ToString();
+                ProdXP2_0.Text = forecast0[2].ToString();
+                ProdXP3_0.Text = forecast0[3].ToString();
 
-            ProdXP1_0.Text = forecast0[1].ToString();
-            ProdXP2_0.Text = forecast0[2].ToString();
-            ProdXP3_0.Text = forecast0[3].ToString();
+                Label_Period0.Text = $"Periode {current_period + 1}";
+                Label_Period1.Text = $"Periode {current_period + 2}";
+                Label_Period2.Text = $"Periode {current_period + 3}";
+                Label_Period3.Text = $"Periode {current_period + 4}";
 
-            Label_Period0.Text = $"Period {current_period + 1}";
-            Label_Period1.Text = $"Period {current_period + 2}";
-            Label_Period2.Text = $"Period {current_period + 3}";
-            Label_Period3.Text = $"Period {current_period + 4}";
+                Label_Period0_1.Text = $"Periode {current_period + 1}";
+                Label_Period1_1.Text = $"Periode {current_period + 2}";
+                Label_Period2_1.Text = $"Periode {current_period + 3}";
+                Label_Period3_1.Text = $"Periode {current_period + 4}";
+            } else {
+                SalesXP1.Text = forecast0[1].ToString();
+                SalesXP2.Text = forecast0[2].ToString();
+                SalesXP3.Text = forecast0[3].ToString();
 
-            Label_Period0_1.Text = $"Period {current_period + 1}";
-            Label_Period1_1.Text = $"Period {current_period + 2}";
-            Label_Period2_1.Text = $"Period {current_period + 3}";
-            Label_Period3_1.Text = $"Period {current_period + 4}";
+                ProdXP1_0.Text = forecast0[1].ToString();
+                ProdXP2_0.Text = forecast0[2].ToString();
+                ProdXP3_0.Text = forecast0[3].ToString();
+
+                Label_Period0.Text = $"Period {current_period + 1}";
+                Label_Period1.Text = $"Period {current_period + 2}";
+                Label_Period2.Text = $"Period {current_period + 3}";
+                Label_Period3.Text = $"Period {current_period + 4}";
+
+                Label_Period0_1.Text = $"Period {current_period + 1}";
+                Label_Period1_1.Text = $"Period {current_period + 2}";
+                Label_Period2_1.Text = $"Period {current_period + 3}";
+                Label_Period3_1.Text = $"Period {current_period + 4}";
+            }
+            
         }
 
         private void switchToUpload_Click(object sender, EventArgs e)
@@ -101,6 +123,36 @@ namespace supplyChainSimulation
         private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             // TODO
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label_Period0_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label_Period0_1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
