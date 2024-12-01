@@ -87,7 +87,6 @@
             articelListView.Location = new Point(27, 28);
             articelListView.Name = "articelListView";
             articelListView.Size = new Size(419, 882);
-            articelListView.Sorting = SortOrder.Ascending;
             articelListView.TabIndex = 7;
             articelListView.UseCompatibleStateImageBehavior = false;
             articelListView.View = View.Details;
