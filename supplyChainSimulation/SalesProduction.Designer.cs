@@ -81,7 +81,6 @@
             DirectXP1_1 = new NumericUpDown();
             DirectXP1_2 = new NumericUpDown();
             DirectXP2_0 = new NumericUpDown();
-            vScrollBar1 = new VScrollBar();
             label3 = new Label();
             tableLayoutPanel4 = new TableLayoutPanel();
             label5 = new Label();
@@ -474,11 +473,6 @@
             DirectXP2_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP2_0.Name = "DirectXP2_0";
             // 
-            // vScrollBar1
-            // 
-            resources.ApplyResources(vScrollBar1, "vScrollBar1");
-            vScrollBar1.Name = "vScrollBar1";
-            // 
             // label3
             // 
             resources.ApplyResources(label3, "label3");
@@ -579,7 +573,6 @@
             Controls.Add(tableLayoutPanel5);
             Controls.Add(tableLayoutPanel4);
             Controls.Add(label3);
-            Controls.Add(vScrollBar1);
             Controls.Add(tableLayoutPanel3);
             Controls.Add(tableLayoutPanel2);
             Controls.Add(tableLayoutPanel1);
@@ -681,7 +674,6 @@
         private NumericUpDown DirectXP1_1;
         private NumericUpDown DirectXP1_2;
         private NumericUpDown DirectXP2_0;
-        private VScrollBar vScrollBar1;
         private Label label3;
         private TableLayoutPanel tableLayoutPanel4;
         private Label label5;
