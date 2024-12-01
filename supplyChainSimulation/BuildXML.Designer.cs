@@ -34,13 +34,13 @@
             p1_desc = new Label();
             switchPurchasePartDisposition = new Button();
             panel1 = new Panel();
-            hack_lol = new RadioButton();
-            hack_ram = new RadioButton();
-            hack_script = new RadioButton();
-            warningText = new Label();
-            hack_nope = new RadioButton();
-            label2 = new Label();
             warningLabel = new LinkLabel();
+            hack_nope = new RadioButton();
+            warningText = new Label();
+            hack_script = new RadioButton();
+            hack_ram = new RadioButton();
+            hack_lol = new RadioButton();
+            label2 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -48,10 +48,6 @@
             // 
             resources.ApplyResources(label1, "label1");
             label1.Name = "label1";
-            label1.Size = new Size(776, 40);
-            label1.TabIndex = 8;
-            label1.Text = "PPS - Production Planning System";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // p1_uploadXML
             // 
@@ -65,6 +61,13 @@
             resources.ApplyResources(p1_desc, "p1_desc");
             p1_desc.Name = "p1_desc";
             // 
+            // switchPurchasePartDisposition
+            // 
+            resources.ApplyResources(switchPurchasePartDisposition, "switchPurchasePartDisposition");
+            switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
+            switchPurchasePartDisposition.UseVisualStyleBackColor = true;
+            switchPurchasePartDisposition.Click += switchPurchasePartDisposition_Click;
+            // 
             // panel1
             // 
             resources.ApplyResources(panel1, "panel1");
@@ -75,7 +78,7 @@
             panel1.Controls.Add(hack_ram);
             panel1.Controls.Add(hack_lol);
             panel1.Name = "panel1";
-            //
+            // 
             // warningLabel
             // 
             resources.ApplyResources(warningLabel, "warningLabel");
@@ -92,7 +95,7 @@
             hack_nope.UseVisualStyleBackColor = true;
             // 
             // warningText
-            //
+            // 
             resources.ApplyResources(warningText, "warningText");
             warningText.ForeColor = Color.Red;
             warningText.Name = "warningText";
@@ -132,13 +135,6 @@
             resources.ApplyResources(label2, "label2");
             label2.Name = "label2";
             // 
-            // switchPurchasePartDisposition
-            //
-            resources.ApplyResources(switchPurchasePartDisposition, "switchPurchasePartDisposition");
-            switchPurchasePartDisposition.Name = "switchPurchasePartDisposition";
-            switchPurchasePartDisposition.UseVisualStyleBackColor = true;
-            switchPurchasePartDisposition.Click += switchPurchasePartDisposition_Click;
-            // 
             // BuildXML
             // 
             resources.ApplyResources(this, "$this");
@@ -150,7 +146,6 @@
             Controls.Add(p1_uploadXML);
             Controls.Add(p1_desc);
             Name = "BuildXML";
-            Text = "Production Planning System - Build XML";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
