@@ -60,6 +60,7 @@ namespace supplyChainSimulation
 
                 articelListView.Items.Add(new ListViewItem(new[] { name, amount.ToString() }));
             }
+            SortListView();
         }
 
         private void Split_Click(object sender, EventArgs e)
@@ -160,5 +161,18 @@ namespace supplyChainSimulation
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
             mainOrchestrator.ShowForm(new MaterialPlanning_P3());
         }
+
+        private void SortListView()
+        {
+            // Erstelle eine Instanz des ListViewItemComparers
+            ListViewItemComparer comparer = new ListViewItemComparer();
+
+            // Setze den Sortierer der ListView
+            articelListView.ListViewItemSorter = comparer;
+
+            // Sortiere die Items
+            articelListView.Sort();
+        }
+
     }
 }
