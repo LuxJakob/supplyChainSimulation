@@ -50,8 +50,8 @@ namespace supplyChainSimulation
             {
                 articelListView.Columns.Add("Artikel", 100);
                 articelListView.Columns.Add("Menge", 150);
-            } 
-            else 
+            }
+            else
             {
                 articelListView.Columns.Add("Articel", 100);
                 articelListView.Columns.Add("Amount", 150);
@@ -106,7 +106,7 @@ namespace supplyChainSimulation
                     if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
                     {
                         MessageBox.Show($"Deine Auswahl lässt sich nicht durch 10 teilen!", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    } 
+                    }
                     else
                     {
                         MessageBox.Show($"Your input cannot be divided by 10!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
