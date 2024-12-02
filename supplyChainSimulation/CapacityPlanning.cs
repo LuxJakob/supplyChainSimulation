@@ -97,8 +97,7 @@ namespace supplyChainSimulation
             string translationEx = "Shift && \n";
 
             if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
-            { translationEx = "Sch. && \n"; }
-               
+            { translationEx = "Sch. && \n"; }  
             shiftOvertimeW1.Text = shifts[1].ToString() + translationEx + overtime[1].ToString() + "min";
             shiftOvertimeW2.Text = shifts[2].ToString() + translationEx + overtime[2].ToString() + "min";
             shiftOvertimeW3.Text = shifts[3].ToString() + translationEx + overtime[3].ToString() + "min";
@@ -113,7 +112,6 @@ namespace supplyChainSimulation
             shiftOvertimeW13.Text = shifts[13].ToString() + translationEx + overtime[13].ToString() + "min";
             shiftOvertimeW14.Text = shifts[14].ToString() + translationEx + overtime[14].ToString() + "min";
             shiftOvertimeW15.Text = shifts[15].ToString() + translationEx + overtime[15].ToString() + "min";
-          
         }
 
         private void switchSplitting_Click(object sender, EventArgs e)
