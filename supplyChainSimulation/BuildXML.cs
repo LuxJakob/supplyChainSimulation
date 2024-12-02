@@ -31,9 +31,11 @@ namespace supplyChainSimulation
         {
             if ((!hack_nope.Checked) && (!warningLabel.LinkVisited))
             {
-                if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase)){
+                if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
+                {
                     MessageBox.Show("Lesen Sie die Risiken und akzeptieren sie die Geschäftsbedingungen!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }else
+                }
+                else
                 {
                     MessageBox.Show("Read the risks and accept the terms and conditions!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }

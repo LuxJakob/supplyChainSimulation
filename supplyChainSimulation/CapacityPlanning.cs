@@ -97,7 +97,9 @@ namespace supplyChainSimulation
             string translationEx = "Shift && \n";
 
             if (CultureInfo.CurrentCulture.Name.Equals("de", StringComparison.OrdinalIgnoreCase))
-            { translationEx = "Sch. && \n"; }   
+            { 
+                translationEx = "Sch. && \n"; 
+            }   
             shiftOvertimeW1.Text = shifts[1].ToString() + translationEx + overtime[1].ToString() + "min";
             shiftOvertimeW2.Text = shifts[2].ToString() + translationEx + overtime[2].ToString() + "min";
             shiftOvertimeW3.Text = shifts[3].ToString() + translationEx + overtime[3].ToString() + "min";
