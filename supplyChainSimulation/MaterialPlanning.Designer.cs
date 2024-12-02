@@ -225,6 +225,9 @@
             // 
             resources.ApplyResources(switchToLieferProdProg, "switchToLieferProdProg");
             switchToLieferProdProg.Name = "switchToLieferProdProg";
+            switchToLieferProdProg.Size = new Size(75, 23);
+            switchToLieferProdProg.TabIndex = 5;
+            switchToLieferProdProg.Text = "Back";
             switchToLieferProdProg.UseVisualStyleBackColor = true;
             switchToLieferProdProg.Click += switchToLieferProdProg_Click;
             // 
@@ -410,6 +413,7 @@
             tableLayoutPanel1.Controls.Add(PlannedE261, 5, 2);
             tableLayoutPanel1.Controls.Add(SellwishP1, 1, 1);
             tableLayoutPanel1.Controls.Add(label14, 3, 1);
+            tableLayoutPanel1.Location = new Point(12, 37);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
             // PlannedE18
@@ -1350,6 +1354,8 @@
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            ClientSize = new Size(1457, 762);
             Controls.Add(switchMaterialP2);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);

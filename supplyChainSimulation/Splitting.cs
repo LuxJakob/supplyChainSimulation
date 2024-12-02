@@ -119,7 +119,7 @@ namespace supplyChainSimulation
         private void deleteSplit_Click(object sender, EventArgs e)
         {
             ListViewItem selectedItem = articelListView.SelectedItems[0];
-            
+
             int idOfSelectedItem = ExtractNumberFromString(selectedItem.Text);
             int amountOfSelectedItem = Int32.Parse(selectedItem.SubItems[1].Text);
 
@@ -171,7 +171,7 @@ namespace supplyChainSimulation
 
             foreach (ListViewItem item in articelListView.Items)
             {
-                modifiedArticelsfinalized.Add((ExtractNumberFromString(item.SubItems[0].Text), Int32.Parse(item.SubItems[1].Text)));    
+                modifiedArticelsfinalized.Add((ExtractNumberFromString(item.SubItems[0].Text), Int32.Parse(item.SubItems[1].Text)));
             }
 
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;

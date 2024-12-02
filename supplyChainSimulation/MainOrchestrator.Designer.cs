@@ -34,8 +34,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            MinimumSize = new Size(816, 489);
+            AutoScroll = true;
+            ClientSize = new Size(944, 501);
+            MinimumSize = new Size(960, 540);
             Name = "MainOrchestrator";
             Text = "Supply Chain Simulator";
             WindowState = FormWindowState.Maximized;

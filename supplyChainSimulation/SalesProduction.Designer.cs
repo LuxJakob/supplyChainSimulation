@@ -81,7 +81,6 @@
             DirectXP1_1 = new NumericUpDown();
             DirectXP1_2 = new NumericUpDown();
             DirectXP2_0 = new NumericUpDown();
-            vScrollBar1 = new VScrollBar();
             label3 = new Label();
             tableLayoutPanel4 = new TableLayoutPanel();
             label5 = new Label();
@@ -474,12 +473,9 @@
             resources.ApplyResources(DirectXP2_0, "DirectXP2_0");
             DirectXP2_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
             DirectXP2_0.Name = "DirectXP2_0";
-            // 
-            // vScrollBar1
-            // 
-            resources.ApplyResources(vScrollBar1, "vScrollBar1");
-            vScrollBar1.Name = "vScrollBar1";
-            vScrollBar1.Scroll += vScrollBar1_Scroll;
+            DirectXP2_0.Size = new Size(114, 29);
+            DirectXP2_0.TabIndex = 27;
+            DirectXP2_0.TextAlign = HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -547,6 +543,9 @@
             // tableLayoutPanel6
             // 
             resources.ApplyResources(tableLayoutPanel6, "tableLayoutPanel6");
+            tableLayoutPanel6.AutoScroll = true;
+            tableLayoutPanel6.ColumnCount = 1;
+            tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel6.Controls.Add(label11, 0, 2);
             tableLayoutPanel6.Controls.Add(label12, 0, 3);
             tableLayoutPanel6.Controls.Add(label13, 0, 4);
@@ -577,11 +576,12 @@
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            ClientSize = new Size(1452, 895);
             Controls.Add(tableLayoutPanel6);
             Controls.Add(tableLayoutPanel5);
             Controls.Add(tableLayoutPanel4);
             Controls.Add(label3);
-            Controls.Add(vScrollBar1);
             Controls.Add(tableLayoutPanel3);
             Controls.Add(tableLayoutPanel2);
             Controls.Add(tableLayoutPanel1);
@@ -683,7 +683,6 @@
         private NumericUpDown DirectXP1_1;
         private NumericUpDown DirectXP1_2;
         private NumericUpDown DirectXP2_0;
-        private VScrollBar vScrollBar1;
         private Label label3;
         private TableLayoutPanel tableLayoutPanel4;
         private Label label5;

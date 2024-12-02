@@ -1350,6 +1350,8 @@
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            ClientSize = new Size(1457, 762);
             Controls.Add(switchMaterialP3);
             Controls.Add(switchMaterialP1);
             Controls.Add(tableLayoutPanel1);
