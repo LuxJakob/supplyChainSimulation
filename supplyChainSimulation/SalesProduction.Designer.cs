@@ -150,7 +150,6 @@
             // 
             resources.ApplyResources(label1, "label1");
             label1.Name = "label1";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -540,9 +539,6 @@
             // tableLayoutPanel6
             // 
             resources.ApplyResources(tableLayoutPanel6, "tableLayoutPanel6");
-            tableLayoutPanel6.AutoScroll = true;
-            tableLayoutPanel6.ColumnCount = 1;
-            tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel6.Controls.Add(label11, 0, 2);
             tableLayoutPanel6.Controls.Add(label12, 0, 3);
             tableLayoutPanel6.Controls.Add(label13, 0, 4);
@@ -573,8 +569,6 @@
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            AutoScroll = true;
-            ClientSize = new Size(1452, 895);
             Controls.Add(tableLayoutPanel6);
             Controls.Add(tableLayoutPanel5);
             Controls.Add(tableLayoutPanel4);

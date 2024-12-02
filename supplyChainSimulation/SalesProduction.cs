@@ -100,15 +100,5 @@ namespace supplyChainSimulation
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
             mainOrchestrator.ShowForm(new MaterialPlanning());
         }
-
-        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
-            // TODO
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            // Your code here
-        }
     }
 }

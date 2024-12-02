@@ -194,4 +194,10 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Verkaufs- und Produktionsprogramm</value>
   </data>
+  <data name="tableLayoutPanel6.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
 </root>
