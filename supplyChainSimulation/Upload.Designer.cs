@@ -73,6 +73,8 @@
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            ClientSize = new Size(800, 450);
             Controls.Add(cmbLanguageChange);
             Controls.Add(label1);
             Controls.Add(switchToLieferProdProg);

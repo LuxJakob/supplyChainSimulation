@@ -70,7 +70,12 @@
             panel1.Controls.Add(hack_script);
             panel1.Controls.Add(hack_ram);
             panel1.Controls.Add(hack_lol);
+            panel1.Location = new Point(12, 134);
+            panel1.Margin = new Padding(3, 3, 20, 3);
             panel1.Name = "panel1";
+            panel1.Size = new Size(759, 150);
+            panel1.TabIndex = 9;
+            panel1.Visible = false;
             // 
             // warningLabel
             // 
@@ -96,6 +101,10 @@
             // hack_script
             // 
             resources.ApplyResources(hack_script, "hack_script");
+            hack_script.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            hack_script.AutoSize = true;
+            hack_script.Location = new Point(327, 64);
+            hack_script.Margin = new Padding(250, 3, 3, 3);
             hack_script.Name = "hack_script";
             hack_script.UseVisualStyleBackColor = true;
             hack_script.CheckedChanged += considerHacking;
@@ -112,11 +121,37 @@
             hack_ram.Click += considerHacking;
             hack_ram.KeyPress += considerHacking;
             hack_ram.MouseClick += considerHacking;
+            hack_ram.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            hack_ram.AutoSize = true;
+            hack_ram.Location = new Point(327, 39);
+            hack_ram.Margin = new Padding(250, 3, 3, 3);
+            hack_ram.Name = "hack_ram";
+            hack_ram.Size = new Size(134, 19);
+            hack_ram.TabIndex = 1;
+            hack_ram.Text = "Resource Exhaustion";
+            hack_ram.UseVisualStyleBackColor = true;
+            hack_ram.CheckedChanged += considerHacking;
+            hack_ram.Click += considerHacking;
+            hack_ram.KeyPress += considerHacking;
+            hack_ram.MouseClick += considerHacking;
             // 
             // hack_lol
             // 
             resources.ApplyResources(hack_lol, "hack_lol");
             hack_lol.Name = "hack_lol";
+            hack_lol.UseVisualStyleBackColor = true;
+            hack_lol.CheckedChanged += considerHacking;
+            hack_lol.Click += considerHacking;
+            hack_lol.KeyPress += considerHacking;
+            hack_lol.MouseClick += considerHacking;
+            hack_lol.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            hack_lol.AutoSize = true;
+            hack_lol.Location = new Point(327, 14);
+            hack_lol.Margin = new Padding(250, 3, 3, 3);
+            hack_lol.Name = "hack_lol";
+            hack_lol.Size = new Size(136, 19);
+            hack_lol.TabIndex = 0;
+            hack_lol.Text = "Billion Laughs Attack";
             hack_lol.UseVisualStyleBackColor = true;
             hack_lol.CheckedChanged += considerHacking;
             hack_lol.Click += considerHacking;
