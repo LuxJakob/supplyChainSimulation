@@ -245,17 +245,12 @@ namespace supplyChainSimulation
 
         private void BasicSort()
         {
-            List<ListViewItem> allItems = articelListView.Items.Cast<ListViewItem>().ToList();
-            articelListView.AutoArrange = true;
-            articelListView.Sorting = SortOrder.Ascending;
+            ListViewItemComparer comparer = new ListViewItemComparer();
 
-            articelListView.BeginUpdate();
-            articelListView.Items.Clear();
-            articelListView.Items.AddRange(allItems.ToArray());
-            articelListView.EndUpdate();
+            articelListView.ListViewItemSorter = comparer;
 
-            articelListView.AutoArrange = false;
-            articelListView.Sorting = SortOrder.None;
+            articelListView.Sort();
+            
         }
     }
 }
