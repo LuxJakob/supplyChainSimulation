@@ -17,7 +17,7 @@ namespace supplyChainSimulation
         {
             InitializeComponent();
 
-            // customized for P3
+            // customized for P3 xxx
 
             inventoryE263Value = (int)Math.Round((decimal)(warehousestock[26] / 3));
             inventoryE163Value = (int)Math.Round((decimal)(warehousestock[16] / 3));
