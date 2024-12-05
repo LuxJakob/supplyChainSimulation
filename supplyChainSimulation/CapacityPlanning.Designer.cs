@@ -3478,7 +3478,7 @@
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             Name = "CapacityPlanning";
-            Text = "Supply Chain Simulator - Capacity Planning";
+            Text = "Production Planning System - Capacity Planning";
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)setupTimeNew1).EndInit();
             ((System.ComponentModel.ISupportInitialize)setupTimeNew2).EndInit();

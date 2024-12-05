@@ -51,7 +51,7 @@
             label1.Name = "label1";
             label1.Size = new Size(776, 40);
             label1.TabIndex = 8;
-            label1.Text = "SCS - Supply Chain Simulator";
+            label1.Text = "PPS - Production Planning System";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // p1_uploadXML
@@ -215,7 +215,7 @@
             Controls.Add(p1_uploadXML);
             Controls.Add(p1_desc);
             Name = "BuildXML";
-            Text = "Supply Chain Simulator - Build XML";
+            Text = "Production Planning System - Build XML";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

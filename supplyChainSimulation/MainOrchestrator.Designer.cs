@@ -38,7 +38,7 @@
             ClientSize = new Size(944, 501);
             MinimumSize = new Size(960, 540);
             Name = "MainOrchestrator";
-            Text = "Supply Chain Simulator";
+            Text = "Production Planning System";
             WindowState = FormWindowState.Maximized;
             Load += MainOrchestrator_Load;
             ResumeLayout(false);
