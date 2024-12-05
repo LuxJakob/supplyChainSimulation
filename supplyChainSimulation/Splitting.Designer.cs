@@ -42,9 +42,9 @@
             // SwitchSplitterNext
             // 
             SwitchSplitterNext.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            SwitchSplitterNext.Location = new Point(1800, 1015);
+            SwitchSplitterNext.Location = new Point(1370, 1026);
             SwitchSplitterNext.Name = "SwitchSplitterNext";
-            SwitchSplitterNext.Size = new Size(112, 34);
+            SwitchSplitterNext.Size = new Size(75, 23);
             SwitchSplitterNext.TabIndex = 0;
             SwitchSplitterNext.Text = "Next";
             SwitchSplitterNext.UseVisualStyleBackColor = true;
@@ -53,9 +53,9 @@
             // SwitchSplitterBack
             // 
             SwitchSplitterBack.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            SwitchSplitterBack.Location = new Point(12, 1015);
+            SwitchSplitterBack.Location = new Point(12, 1026);
             SwitchSplitterBack.Name = "SwitchSplitterBack";
-            SwitchSplitterBack.Size = new Size(112, 34);
+            SwitchSplitterBack.Size = new Size(75, 23);
             SwitchSplitterBack.TabIndex = 1;
             SwitchSplitterBack.Text = "Back";
             SwitchSplitterBack.UseVisualStyleBackColor = true;
@@ -107,10 +107,10 @@
             // PrioHigher
             // 
             PrioHigher.Font = new Font("Segoe UI", 15.75F);
-            PrioHigher.Location = new Point(464, 303);
+            PrioHigher.Location = new Point(464, 315);
             PrioHigher.Margin = new Padding(15, 15, 3, 3);
             PrioHigher.Name = "PrioHigher";
-            PrioHigher.Size = new Size(112, 112);
+            PrioHigher.Size = new Size(112, 42);
             PrioHigher.TabIndex = 10;
             PrioHigher.Text = "\\u25B2";
             PrioHigher.UseVisualStyleBackColor = true;
@@ -119,10 +119,10 @@
             // PrioLower
             // 
             PrioLower.Font = new Font("Segoe UI", 15.75F);
-            PrioLower.Location = new Point(464, 433);
+            PrioLower.Location = new Point(464, 359);
             PrioLower.Margin = new Padding(15, 15, 3, 3);
             PrioLower.Name = "PrioLower";
-            PrioLower.Size = new Size(112, 112);
+            PrioLower.Size = new Size(112, 42);
             PrioLower.TabIndex = 11;
             PrioLower.Text = "\\u25BC";
             PrioLower.UseVisualStyleBackColor = true;
@@ -130,7 +130,7 @@
             // 
             // SortSplitingList
             // 
-            SortSplitingList.Location = new Point(464, 593);
+            SortSplitingList.Location = new Point(464, 413);
             SortSplitingList.Margin = new Padding(15, 45, 3, 3);
             SortSplitingList.Name = "SortSplitingList";
             SortSplitingList.Size = new Size(112, 34);
@@ -141,7 +141,7 @@
             // 
             // Splitting
             // 
-            ClientSize = new Size(1924, 1061);
+            ClientSize = new Size(1457, 1061);
             Controls.Add(SortSplitingList);
             Controls.Add(PrioLower);
             Controls.Add(PrioHigher);
