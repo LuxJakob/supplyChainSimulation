@@ -2433,7 +2433,7 @@
             Controls.Add(label1);
             Controls.Add(switchToLieferProdProg);
             Name = "MaterialPlanning";
-            Text = "Supply Chain Simulator - Material Planning P1";
+            Text = "Production Planning System - Material Planning P1";
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)PlannedE18).EndInit();
             ((System.ComponentModel.ISupportInitialize)PlannedE13).EndInit();

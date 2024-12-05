@@ -981,7 +981,7 @@
             Controls.Add(switchToUpload);
             Controls.Add(switchMaterialP1);
             Name = "SalesProduction";
-            Text = "Supply Chain Simulator - Sales & Production Program";
+            Text = "Production Planning System - Sales & Production Program";
             Load += SalesProduction_Load;
             ((System.ComponentModel.ISupportInitialize)SalesXP1_1).EndInit();
             ((System.ComponentModel.ISupportInitialize)SalesXP2_1).EndInit();

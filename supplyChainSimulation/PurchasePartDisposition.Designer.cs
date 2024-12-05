@@ -6348,7 +6348,7 @@
             Controls.Add(switchBuildXML);
             Controls.Add(switchCapacityPlanning);
             Name = "PurchasePartDisposition";
-            Text = "Supply Chain Simulator - Purchase Part Disposition";
+            Text = "Production Planning System - Purchase Part Disposition";
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)OrderQuantity21).EndInit();
             ((System.ComponentModel.ISupportInitialize)OrderQuantity22).EndInit();
