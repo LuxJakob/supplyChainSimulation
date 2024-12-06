@@ -62,7 +62,12 @@ namespace supplyChainSimulation
 
             CalcRequirements();
 
-            InwardStock();
+            if (initialInitPurchase == 0)
+            {
+                InwardStock();
+
+                initialInitPurchase = 1;
+            }
 
             CalcFutureStock();
 

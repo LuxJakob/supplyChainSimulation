@@ -180,6 +180,12 @@
   <data name="label35.Text" xml:space="preserve">
     <value>Schichten und Überstunden</value>
   </data>
+  <data name="workstation8_13_1.Text" xml:space="preserve">
+    <value>x1</value>
+  </data>
+  <data name="workstation8_14_2.Text" xml:space="preserve">
+    <value>x2</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 25</value>
@@ -192,5 +198,8 @@
   </data>
   <data name="switchMaterialP3.Text" xml:space="preserve">
     <value>Zurück</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Production Planning System - Capacity Planning</value>
   </data>
 </root>

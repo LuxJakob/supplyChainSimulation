@@ -153,11 +153,11 @@
             workstation7_19_2 = new Label();
             workstation7_20_2 = new Label();
             workstation7_26_2 = new Label();
-            workstation8_10_2 = new Label();
+            workstation8_10_1 = new Label();
             workstation8_11_2 = new Label();
             workstation8_12_2 = new Label();
-            workstation8_13_2 = new Label();
-            workstation8_14_1 = new Label();
+            workstation8_13_1 = new Label();
+            workstation8_14_2 = new Label();
             workstation8_15_2 = new Label();
             workstation8_18_3 = new Label();
             workstation8_19_3 = new Label();
@@ -428,11 +428,11 @@
             tableLayoutPanel1.Controls.Add(workstation7_19_2, 9, 17);
             tableLayoutPanel1.Controls.Add(workstation7_20_2, 9, 18);
             tableLayoutPanel1.Controls.Add(workstation7_26_2, 9, 19);
-            tableLayoutPanel1.Controls.Add(workstation8_10_2, 10, 8);
+            tableLayoutPanel1.Controls.Add(workstation8_10_1, 10, 8);
             tableLayoutPanel1.Controls.Add(workstation8_11_2, 10, 9);
             tableLayoutPanel1.Controls.Add(workstation8_12_2, 10, 10);
-            tableLayoutPanel1.Controls.Add(workstation8_13_2, 10, 11);
-            tableLayoutPanel1.Controls.Add(workstation8_14_1, 10, 12);
+            tableLayoutPanel1.Controls.Add(workstation8_13_1, 10, 11);
+            tableLayoutPanel1.Controls.Add(workstation8_14_2, 10, 12);
             tableLayoutPanel1.Controls.Add(workstation8_15_2, 10, 13);
             tableLayoutPanel1.Controls.Add(workstation8_18_3, 10, 16);
             tableLayoutPanel1.Controls.Add(workstation8_19_3, 10, 17);
@@ -1193,10 +1193,10 @@
             resources.ApplyResources(workstation7_26_2, "workstation7_26_2");
             workstation7_26_2.Name = "workstation7_26_2";
             // 
-            // workstation8_10_2
+            // workstation8_10_1
             // 
-            resources.ApplyResources(workstation8_10_2, "workstation8_10_2");
-            workstation8_10_2.Name = "workstation8_10_2";
+            resources.ApplyResources(workstation8_10_1, "workstation8_10_1");
+            workstation8_10_1.Name = "workstation8_10_1";
             // 
             // workstation8_11_2
             // 
@@ -1208,15 +1208,15 @@
             resources.ApplyResources(workstation8_12_2, "workstation8_12_2");
             workstation8_12_2.Name = "workstation8_12_2";
             // 
-            // workstation8_13_2
+            // workstation8_13_1
             // 
-            resources.ApplyResources(workstation8_13_2, "workstation8_13_2");
-            workstation8_13_2.Name = "workstation8_13_2";
+            resources.ApplyResources(workstation8_13_1, "workstation8_13_1");
+            workstation8_13_1.Name = "workstation8_13_1";
             // 
-            // workstation8_14_1
+            // workstation8_14_2
             // 
-            resources.ApplyResources(workstation8_14_1, "workstation8_14_1");
-            workstation8_14_1.Name = "workstation8_14_1";
+            resources.ApplyResources(workstation8_14_2, "workstation8_14_2");
+            workstation8_14_2.Name = "workstation8_14_2";
             // 
             // workstation8_15_2
             // 
@@ -1905,7 +1905,6 @@
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             Name = "CapacityPlanning";
-            Text = "Production Planning System - Capacity Planning";
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)setupTimeNew1).EndInit();
             ((System.ComponentModel.ISupportInitialize)setupTimeNew2).EndInit();
@@ -2054,11 +2053,11 @@
         private Label workstation7_19_2;
         private Label workstation7_20_2;
         private Label workstation7_26_2;
-        private Label workstation8_10_2;
+        private Label workstation8_10_1;
         private Label workstation8_11_2;
         private Label workstation8_12_2;
-        private Label workstation8_13_2;
-        private Label workstation8_14_1;
+        private Label workstation8_13_1;
+        private Label workstation8_14_2;
         private Label workstation8_15_2;
         private Label workstation8_18_3;
         private Label workstation8_19_3;

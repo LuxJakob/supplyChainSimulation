@@ -104,6 +104,9 @@ namespace supplyChainSimulation
         };
 
         // PurchasePartDisposition variables
+
+        public static int initialInitPurchase = 0;
+
         public static XElement futureinwardstockmovement;
         public static Dictionary<int, (int, int, int)> futureStockList = new Dictionary<int, (int, int, int)>();
 
@@ -256,21 +259,6 @@ namespace supplyChainSimulation
             value = (int)Math.Round((decimal)(value / 3));
             label.Text = value.ToString();
             return (int)value;
-        }
-
-        public static void UpdateLabelValue(Label label, int value)
-        {
-            if (value < 0)
-            {
-                value = 0;
-                label.BackColor = Color.LightPink;
-            }
-            else
-            {
-                label.BackColor = SystemColors.Control;
-            }
-
-            label.Text = value.ToString();
         }
     }
 }
