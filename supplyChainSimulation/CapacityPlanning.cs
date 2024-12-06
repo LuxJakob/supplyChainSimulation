@@ -156,11 +156,11 @@ namespace supplyChainSimulation
             int workstation7_19_2Value = (productionOrders[19] * 2);
             int workstation7_20_2Value = (productionOrders[20] * 2);
             int workstation7_26_2Value = (productionOrders[26] * 2);
-            int workstation8_10_2Value = (productionOrders[10] * 2);
+            int workstation8_10_1Value = (productionOrders[10] * 1);
             int workstation8_11_2Value = (productionOrders[11] * 2);
             int workstation8_12_2Value = (productionOrders[12] * 2);
-            int workstation8_13_2Value = (productionOrders[13] * 2);
-            int workstation8_14_1Value = (productionOrders[14] * 1);
+            int workstation8_13_1Value = (productionOrders[13] * 1);
+            int workstation8_14_2Value = (productionOrders[14] * 2);
             int workstation8_15_2Value = (productionOrders[15] * 2);
             int workstation8_18_3Value = (productionOrders[18] * 3);
             int workstation8_19_3Value = (productionOrders[19] * 3);
@@ -174,18 +174,18 @@ namespace supplyChainSimulation
             int workstation9_18_2Value = (productionOrders[18] * 2);
             int workstation9_19_2Value = (productionOrders[19] * 2);
             int workstation9_20_2Value = (productionOrders[20] * 2);
-            int workstation10_1_4Value = (productionOrders[1] * 4);
-            int workstation10_2_4Value = (productionOrders[2] * 4);
-            int workstation10_3_4Value = (productionOrders[3] * 4);
-            int workstation10_4_4Value = (productionOrders[4] * 4);
-            int workstation10_5_4Value = (productionOrders[5] * 4);
-            int workstation10_6_4Value = (productionOrders[6] * 4);
-            int workstation11_1_3Value = (productionOrders[1] * 3);
-            int workstation11_2_3Value = (productionOrders[2] * 3);
-            int workstation11_3_3Value = (productionOrders[3] * 3);
-            int workstation11_4_3Value = (productionOrders[4] * 3);
-            int workstation11_5_3Value = (productionOrders[5] * 3);
-            int workstation11_6_3Value = (productionOrders[6] * 3);
+            int workstation10_1_4Value = (productionOrders[4] * 4);
+            int workstation10_2_4Value = (productionOrders[5] * 4);
+            int workstation10_3_4Value = (productionOrders[6] * 4);
+            int workstation10_4_4Value = (productionOrders[7] * 4);
+            int workstation10_5_4Value = (productionOrders[8] * 4);
+            int workstation10_6_4Value = (productionOrders[9] * 4);
+            int workstation11_1_3Value = (productionOrders[4] * 3);
+            int workstation11_2_3Value = (productionOrders[5] * 3);
+            int workstation11_3_3Value = (productionOrders[6] * 3);
+            int workstation11_4_3Value = (productionOrders[7] * 3);
+            int workstation11_5_3Value = (productionOrders[8] * 3);
+            int workstation11_6_3Value = (productionOrders[9] * 3);
             int workstation12_10_3Value = (productionOrders[10] * 3);
             int workstation12_11_3Value = (productionOrders[11] * 3);
             int workstation12_12_3Value = (productionOrders[12] * 3);
@@ -228,11 +228,11 @@ namespace supplyChainSimulation
             workstation7_19_2.Text = workstation7_19_2Value.ToString();
             workstation7_20_2.Text = workstation7_20_2Value.ToString();
             workstation7_26_2.Text = workstation7_26_2Value.ToString();
-            workstation8_10_2.Text = workstation8_10_2Value.ToString();
+            workstation8_10_1.Text = workstation8_10_1Value.ToString();
             workstation8_11_2.Text = workstation8_11_2Value.ToString();
             workstation8_12_2.Text = workstation8_12_2Value.ToString();
-            workstation8_13_2.Text = workstation8_13_2Value.ToString();
-            workstation8_14_1.Text = workstation8_14_1Value.ToString();
+            workstation8_13_1.Text = workstation8_13_1Value.ToString();
+            workstation8_14_2.Text = workstation8_14_2Value.ToString();
             workstation8_15_2.Text = workstation8_15_2Value.ToString();
             workstation8_18_3.Text = workstation8_18_3Value.ToString();
             workstation8_19_3.Text = workstation8_19_3Value.ToString();
@@ -280,7 +280,7 @@ namespace supplyChainSimulation
             addCapacityRequirements[4] = workstation4_1_6Value + workstation4_2_7Value + workstation4_3_7Value;
             addCapacityRequirements[6] = workstation6_16_2Value + workstation6_18_3Value + workstation6_19_3Value + workstation6_20_3Value;
             addCapacityRequirements[7] = workstation7_10_2Value + workstation7_11_2Value + workstation7_12_2Value + workstation7_13_2Value + workstation7_14_2Value + workstation7_15_2Value + workstation7_18_2Value + workstation7_19_2Value + workstation7_20_2Value + workstation7_26_2Value;
-            addCapacityRequirements[8] = workstation8_10_2Value + workstation8_11_2Value + workstation8_12_2Value + workstation8_13_2Value + workstation8_14_1Value + workstation8_15_2Value + workstation8_18_3Value + workstation8_19_3Value + workstation8_20_3Value;
+            addCapacityRequirements[8] = workstation8_10_1Value + workstation8_11_2Value + workstation8_12_2Value + workstation8_13_1Value + workstation8_14_2Value + workstation8_15_2Value + workstation8_18_3Value + workstation8_19_3Value + workstation8_20_3Value;
             addCapacityRequirements[9] = workstation9_10_3Value + workstation9_11_3Value + workstation9_12_3Value + workstation9_13_3Value + workstation9_14_3Value + workstation9_15_3Value + workstation9_18_2Value + workstation9_19_2Value + workstation9_20_2Value;
             addCapacityRequirements[10] = workstation10_1_4Value + workstation10_2_4Value + workstation10_3_4Value + workstation10_4_4Value + workstation10_5_4Value + workstation10_6_4Value;
             addCapacityRequirements[11] = workstation11_1_3Value + workstation11_2_3Value + workstation11_3_3Value + workstation11_4_3Value + workstation11_5_3Value + workstation11_6_3Value;
@@ -349,7 +349,8 @@ namespace supplyChainSimulation
                 {
                     if (setupTimeBacklog.TryGetValue(i, out int value))
                     {
-                        setupBacklogSum[i] = value * defaultSetupTime[i];
+                        decimal randBacklog = value * defaultSetupTime[i] * 0.1m;
+                        setupBacklogSum[i] = (int)Math.Floor(randBacklog);
                     }
                     else
                     {

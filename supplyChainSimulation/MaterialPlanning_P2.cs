@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static supplyChainSimulation.SharedData;
@@ -62,12 +63,45 @@ namespace supplyChainSimulation
             AssignValue(OrdersProgressE14, ordersinwork, 14);
             AssignValue(OrdersProgressE19, ordersinwork, 19);
 
-            SellwishP2.Text = production0[2].ToString();
+            SellwishP2.Text = forecast0[2].ToString();
             PlannedP2.Text = (production0[2] - forecast0[2] + warehousestock[2]).ToString();
             productionOrders[2] = production0[2] - ordersinwork[2] - waitinglistProducts[2];
             ProductionOrdersP2.Text = productionOrders[2].ToString();
 
             CalculateTable();
+        }
+
+        private void UpdateLabelValue(Label label, int value)
+        {
+            if (value < 0)
+            {
+                value = 0;
+
+                string pattern = @"[EP]\d{1,3}";
+                string labelNumber = label.Name;
+                Match match = Regex.Match(labelNumber, pattern);
+
+                string labelSellwish = "Sellwish" + match.Value;
+                string labelSuccessorQueue = "SuccessorQueue" + match.Value;
+                string labelInventory = "Inventory" + match.Value;
+                string labelOrdersQueue = "OrdersQueue" + match.Value;
+                string labelOrdersProgress = "OrdersProgress" + match.Value;
+
+                string labelPlanned = "Planned" + match.Value;
+
+                Label labelSellwishL = this.Controls.Find(labelSellwish, true).FirstOrDefault() as Label;
+                Label labelSuccessorQueueL = this.Controls.Find(labelSuccessorQueue, true).FirstOrDefault() as Label;
+                Label labelInventoryL = this.Controls.Find(labelInventory, true).FirstOrDefault() as Label;
+                Label labelOrdersQueueL = this.Controls.Find(labelOrdersQueue, true).FirstOrDefault() as Label;
+                Label labelOrdersProgressL = this.Controls.Find(labelOrdersProgress, true).FirstOrDefault() as Label;
+
+                NumericUpDown labelPlannedL = this.Controls.Find(labelPlanned, true).FirstOrDefault() as NumericUpDown;
+
+                labelPlannedL.Value = Math.Abs((Convert.ToInt32(labelSellwishL.Text) + Convert.ToInt32(labelSuccessorQueueL.Text))
+                    - (Convert.ToInt32(labelInventoryL.Text) + Convert.ToInt32(labelOrdersQueueL.Text) + Convert.ToInt32(labelOrdersProgressL.Text)));
+            }
+
+            label.Text = value.ToString();
         }
 
         private void CalculateTable(object sender = null, EventArgs e = null)
