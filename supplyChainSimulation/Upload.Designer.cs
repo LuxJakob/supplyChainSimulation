@@ -28,69 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Upload));
             p1_desc = new Label();
             p1_uploadXML = new Button();
             switchToLieferProdProg = new Button();
             label1 = new Label();
+            cmbLanguageChange = new ComboBox();
             SuspendLayout();
             // 
             // p1_desc
             // 
-            p1_desc.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            p1_desc.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            p1_desc.Location = new Point(12, 250);
+            resources.ApplyResources(p1_desc, "p1_desc");
             p1_desc.Name = "p1_desc";
-            p1_desc.Size = new Size(776, 25);
-            p1_desc.TabIndex = 2;
-            p1_desc.Text = "Please upload your last result file:";
-            p1_desc.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // p1_uploadXML
             // 
-            p1_uploadXML.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            p1_uploadXML.Location = new Point(328, 303);
+            resources.ApplyResources(p1_uploadXML, "p1_uploadXML");
             p1_uploadXML.Name = "p1_uploadXML";
-            p1_uploadXML.Size = new Size(129, 35);
-            p1_uploadXML.TabIndex = 3;
-            p1_uploadXML.Text = "Upload XML file";
             p1_uploadXML.UseVisualStyleBackColor = true;
             p1_uploadXML.Click += p1_uploadXML_Click;
             // 
             // switchToLieferProdProg
             // 
-            switchToLieferProdProg.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            switchToLieferProdProg.Enabled = false;
-            switchToLieferProdProg.Location = new Point(713, 415);
+            resources.ApplyResources(switchToLieferProdProg, "switchToLieferProdProg");
             switchToLieferProdProg.Name = "switchToLieferProdProg";
-            switchToLieferProdProg.Size = new Size(75, 23);
-            switchToLieferProdProg.TabIndex = 4;
-            switchToLieferProdProg.Text = "Next";
             switchToLieferProdProg.UseVisualStyleBackColor = true;
             switchToLieferProdProg.Click += switchToLieferProdProg_Click;
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 38);
+            resources.ApplyResources(label1, "label1");
             label1.Name = "label1";
-            label1.Size = new Size(776, 40);
-            label1.TabIndex = 5;
-            label1.Text = "PPS - Production Planning System";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // cmbLanguageChange
+            // 
+            resources.ApplyResources(cmbLanguageChange, "cmbLanguageChange");
+            cmbLanguageChange.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbLanguageChange.FormattingEnabled = true;
+            cmbLanguageChange.Items.AddRange(new object[] { resources.GetString("cmbLanguageChange.Items"), resources.GetString("cmbLanguageChange.Items1") });
+            cmbLanguageChange.Name = "cmbLanguageChange";
+            cmbLanguageChange.SelectedIndexChanged += cmbLanguageChange_SelectedIndexChanged;
             // 
             // Upload
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            AutoScroll = true;
-            ClientSize = new Size(800, 450);
+            Controls.Add(cmbLanguageChange);
             Controls.Add(label1);
             Controls.Add(switchToLieferProdProg);
             Controls.Add(p1_uploadXML);
             Controls.Add(p1_desc);
             Name = "Upload";
-            Text = "Production Planning System - Upload";
             Load += Upload_Load;
             ResumeLayout(false);
         }
@@ -101,5 +89,6 @@
         private Button p1_uploadXML;
         private Button switchToLieferProdProg;
         private Label label1;
+        private ComboBox cmbLanguageChange;
     }
 }
