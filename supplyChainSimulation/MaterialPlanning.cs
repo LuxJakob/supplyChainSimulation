@@ -40,8 +40,12 @@ namespace supplyChainSimulation
                 foreach (var workplace in waitinglistworkstationsX.Elements("workplace"))
                 {
                     int id = int.Parse(workplace.Attribute("id")?.Value ?? "0");
-                    int timeneed = int.Parse(workplace.Attribute("timeneed")?.Value ?? "0");
-                    waitinglistworkstations[id] = timeneed;
+
+                    var waitingLists = workplace.Elements("waitinglist").Skip(1);
+
+                    int totalTimeneed = waitingLists.Sum(wl => (int?)wl.Attribute("timeneed") ?? 0);
+
+                    waitinglistworkstations[id] = totalTimeneed;
                 }
 
                 waitinglistProductsX = waitinglistworkstationsX.Descendants("waitinglist");
