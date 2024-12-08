@@ -38,7 +38,7 @@
             ClientSize = new Size(944, 501);
             MinimumSize = new Size(960, 540);
             Name = "MainOrchestrator";
-            Text = "Production Planning System";
+            Text = "Production Planning and Control System";
             WindowState = FormWindowState.Maximized;
             Load += MainOrchestrator_Load;
             ResumeLayout(false);
