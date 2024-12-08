@@ -90,7 +90,7 @@ namespace supplyChainSimulation
                 int orderperiod = int.TryParse(stock.Attribute("orderperiod")?.Value, out int orderperiodValue) ? orderperiodValue : 0;
                 int ordermode = int.TryParse(stock.Attribute("mode")?.Value, out int modeValue) ? orderperiodValue : 0;
 
-                futureStockList.Add(article, (amount, orderperiod, ((ordermode - 4) * 2)));
+                futureStockList.Add((article, amount, orderperiod, ((ordermode - 4) * 2)));
             }
         }
 
@@ -307,17 +307,30 @@ namespace supplyChainSimulation
                 incomingStocks[2] = 0;
                 incomingStocks[3] = 0;
 
-                if (futureStockList.ContainsKey(id))
-                {
-                    int incomingPeriod = futureStockList[id].Item2 + (int)Math.Ceiling(deliveryTime[id].Item1 + ((deliveryTime[id].Item2 * futureStockList[id].Item3) / 2));
+                int iteration = 0;
 
-                    int diff = incomingPeriod - (current_period + 1);
-                    incomingStocks[diff] = futureStockList[id].Item1;
+                foreach(var stock in futureStockList)
+                {
+                    if(stock.Item1 == id)
+                    {
+                        int incomingPeriod = stock.Item3 + (int)Math.Ceiling(deliveryTime[id].Item1 + ((deliveryTime[id].Item2 * stock.Item4) / 2));
+
+                        int diff = incomingPeriod - (current_period + 1);
+                        incomingStocks[diff] = futureStockList[id].Item1;
+                        iteration++;
+                    }
                 }
 
-                incomingStocks[1] += incomingStocks[0];
-                incomingStocks[2] += incomingStocks[1];
-                incomingStocks[3] += incomingStocks[2];
+                if(iteration < 2)
+                {
+                    incomingStocks[1] += incomingStocks[0];
+                    incomingStocks[2] += incomingStocks[1];
+                    incomingStocks[3] += incomingStocks[2];
+                }
+                else
+                {
+
+                }
 
                 futureStock0[id] = warehousestock[id] - (requirement0[id]) + incomingStocks[0];
                 futureStock1[id] = warehousestock[id] - (requirement0[id] + requirement1[id]) + incomingStocks[1];
