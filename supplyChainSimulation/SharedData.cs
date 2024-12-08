@@ -183,7 +183,7 @@ namespace supplyChainSimulation
         public static int initialInitPurchase = 0;
 
         public static XElement futureinwardstockmovement;
-        public static Dictionary<int, (int, int, int)> futureStockList = new Dictionary<int, (int, int, int)>();
+        public static List<(int, int, int, int)> futureStockList = new List<(int, int, int, int)>();
 
         public static List<int> incomingStocks = new List<int>() { 0, 0, 0, 0 };
 

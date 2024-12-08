@@ -88,9 +88,9 @@ namespace supplyChainSimulation
                 int article = int.TryParse(stock.Attribute("article")?.Value, out int articleValue) ? articleValue : 0;
                 int amount = int.TryParse(stock.Attribute("amount")?.Value, out int amountValue) ? amountValue : 0;
                 int orderperiod = int.TryParse(stock.Attribute("orderperiod")?.Value, out int orderperiodValue) ? orderperiodValue : 0;
-                int ordermode = int.TryParse(stock.Attribute("mode")?.Value, out int modeValue) ? orderperiodValue : 0;
+                int ordermode = int.TryParse(stock.Attribute("mode")?.Value, out int modeValue) ? modeValue : 0;
 
-                futureStockList.Add(article, (amount, orderperiod, ((ordermode - 4) * 2)));
+                futureStockList.Add((article, amount, orderperiod, ((ordermode - 4) * 2)));
             }
         }
 
@@ -307,22 +307,25 @@ namespace supplyChainSimulation
                 incomingStocks[2] = 0;
                 incomingStocks[3] = 0;
 
-                if (futureStockList.ContainsKey(id))
+                foreach (var stock in futureStockList)
                 {
-                    int incomingPeriod = futureStockList[id].Item2 + (int)Math.Ceiling(deliveryTime[id].Item1 + ((deliveryTime[id].Item2 * futureStockList[id].Item3) / 2));
+                    if (stock.Item1 == id)
+                    {
+                        int incomingPeriod = stock.Item3 + (int)Math.Ceiling(deliveryTime[id].Item1 + ((deliveryTime[id].Item2 * stock.Item4) / 2));
 
-                    int diff = incomingPeriod - (current_period + 1);
-                    incomingStocks[diff] = futureStockList[id].Item1;
+                        int diff = incomingPeriod - (current_period + 1);
+                        incomingStocks[diff] = stock.Item2;
+                    }
                 }
 
-                incomingStocks[1] += incomingStocks[0];
-                incomingStocks[2] += incomingStocks[1];
-                incomingStocks[3] += incomingStocks[2];
-
-                futureStock0[id] = warehousestock[id] - (requirement0[id]) + incomingStocks[0];
-                futureStock1[id] = warehousestock[id] - (requirement0[id] + requirement1[id]) + incomingStocks[1];
-                futureStock2[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id]) + incomingStocks[2];
-                futureStock3[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id] + requirement3[id]) + incomingStocks[3];
+                futureStock0[id] = warehousestock[id] - (requirement0[id])
+                    + incomingStocks[0];
+                futureStock1[id] = warehousestock[id] - (requirement0[id] + requirement1[id])
+                    + incomingStocks[1] + incomingStocks[0];
+                futureStock2[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id])
+                    + incomingStocks[2] + incomingStocks[1] + incomingStocks[0];
+                futureStock3[id] = warehousestock[id] - (requirement0[id] + requirement1[id] + requirement2[id] + requirement3[id])
+                    + incomingStocks[3] + incomingStocks[2] + incomingStocks[1] + incomingStocks[0];
             }
 
             FutureK21_0.Text = futureStock0[21].ToString();

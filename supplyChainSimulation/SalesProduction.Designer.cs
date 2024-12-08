@@ -174,55 +174,55 @@
             // SalesXP1_1
             // 
             resources.ApplyResources(SalesXP1_1, "SalesXP1_1");
-            SalesXP1_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            SalesXP1_1.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             SalesXP1_1.Name = "SalesXP1_1";
             // 
             // SalesXP2_1
             // 
             resources.ApplyResources(SalesXP2_1, "SalesXP2_1");
-            SalesXP2_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            SalesXP2_1.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             SalesXP2_1.Name = "SalesXP2_1";
             // 
             // SalesXP3_1
             // 
             resources.ApplyResources(SalesXP3_1, "SalesXP3_1");
-            SalesXP3_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            SalesXP3_1.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             SalesXP3_1.Name = "SalesXP3_1";
             // 
             // SalesXP3_2
             // 
             resources.ApplyResources(SalesXP3_2, "SalesXP3_2");
-            SalesXP3_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            SalesXP3_2.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             SalesXP3_2.Name = "SalesXP3_2";
             // 
             // SalesXP2_2
             // 
             resources.ApplyResources(SalesXP2_2, "SalesXP2_2");
-            SalesXP2_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            SalesXP2_2.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             SalesXP2_2.Name = "SalesXP2_2";
             // 
             // SalesXP1_2
             // 
             resources.ApplyResources(SalesXP1_2, "SalesXP1_2");
-            SalesXP1_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            SalesXP1_2.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             SalesXP1_2.Name = "SalesXP1_2";
             // 
             // SalesXP3_3
             // 
             resources.ApplyResources(SalesXP3_3, "SalesXP3_3");
-            SalesXP3_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            SalesXP3_3.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             SalesXP3_3.Name = "SalesXP3_3";
             // 
             // SalesXP2_3
             // 
             resources.ApplyResources(SalesXP2_3, "SalesXP2_3");
-            SalesXP2_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            SalesXP2_3.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             SalesXP2_3.Name = "SalesXP2_3";
             // 
             // SalesXP1_3
             // 
             resources.ApplyResources(SalesXP1_3, "SalesXP1_3");
-            SalesXP1_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            SalesXP1_3.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             SalesXP1_3.Name = "SalesXP1_3";
             // 
             // Label_Period0
@@ -258,37 +258,37 @@
             // ProdXP3_1
             // 
             resources.ApplyResources(ProdXP3_1, "ProdXP3_1");
-            ProdXP3_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP3_1.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP3_1.Name = "ProdXP3_1";
             // 
             // ProdXP2_1
             // 
             resources.ApplyResources(ProdXP2_1, "ProdXP2_1");
-            ProdXP2_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP2_1.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP2_1.Name = "ProdXP2_1";
             // 
             // ProdXP1_1
             // 
             resources.ApplyResources(ProdXP1_1, "ProdXP1_1");
-            ProdXP1_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP1_1.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP1_1.Name = "ProdXP1_1";
             // 
             // ProdXP3_0
             // 
             resources.ApplyResources(ProdXP3_0, "ProdXP3_0");
-            ProdXP3_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP3_0.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP3_0.Name = "ProdXP3_0";
             // 
             // ProdXP2_0
             // 
             resources.ApplyResources(ProdXP2_0, "ProdXP2_0");
-            ProdXP2_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP2_0.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP2_0.Name = "ProdXP2_0";
             // 
             // ProdXP1_0
             // 
             resources.ApplyResources(ProdXP1_0, "ProdXP1_0");
-            ProdXP1_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP1_0.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP1_0.Name = "ProdXP1_0";
             // 
             // Label_Period3_1
@@ -304,37 +304,37 @@
             // ProdXP3_3
             // 
             resources.ApplyResources(ProdXP3_3, "ProdXP3_3");
-            ProdXP3_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP3_3.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP3_3.Name = "ProdXP3_3";
             // 
             // ProdXP2_3
             // 
             resources.ApplyResources(ProdXP2_3, "ProdXP2_3");
-            ProdXP2_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP2_3.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP2_3.Name = "ProdXP2_3";
             // 
             // ProdXP1_3
             // 
             resources.ApplyResources(ProdXP1_3, "ProdXP1_3");
-            ProdXP1_3.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP1_3.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP1_3.Name = "ProdXP1_3";
             // 
             // ProdXP3_2
             // 
             resources.ApplyResources(ProdXP3_2, "ProdXP3_2");
-            ProdXP3_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP3_2.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP3_2.Name = "ProdXP3_2";
             // 
             // ProdXP2_2
             // 
             resources.ApplyResources(ProdXP2_2, "ProdXP2_2");
-            ProdXP2_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP2_2.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP2_2.Name = "ProdXP2_2";
             // 
             // ProdXP1_2
             // 
             resources.ApplyResources(ProdXP1_2, "ProdXP1_2");
-            ProdXP1_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            ProdXP1_2.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             ProdXP1_2.Name = "ProdXP1_2";
             // 
             // tableLayoutPanel1
@@ -412,13 +412,13 @@
             // DirectXP3_2
             // 
             resources.ApplyResources(DirectXP3_2, "DirectXP3_2");
-            DirectXP3_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            DirectXP3_2.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP3_2.Name = "DirectXP3_2";
             // 
             // DirectXP3_1
             // 
             resources.ApplyResources(DirectXP3_1, "DirectXP3_1");
-            DirectXP3_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            DirectXP3_1.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP3_1.Name = "DirectXP3_1";
             // 
             // Label_Period1_2
@@ -429,13 +429,13 @@
             // DirectXP3_0
             // 
             resources.ApplyResources(DirectXP3_0, "DirectXP3_0");
-            DirectXP3_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            DirectXP3_0.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP3_0.Name = "DirectXP3_0";
             // 
             // DirectXP2_2
             // 
             resources.ApplyResources(DirectXP2_2, "DirectXP2_2");
-            DirectXP2_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            DirectXP2_2.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP2_2.Name = "DirectXP2_2";
             // 
             // Label_Period2_2
@@ -446,31 +446,31 @@
             // DirectXP1_0
             // 
             resources.ApplyResources(DirectXP1_0, "DirectXP1_0");
-            DirectXP1_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            DirectXP1_0.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP1_0.Name = "DirectXP1_0";
             // 
             // DirectXP2_1
             // 
             resources.ApplyResources(DirectXP2_1, "DirectXP2_1");
-            DirectXP2_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            DirectXP2_1.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP2_1.Name = "DirectXP2_1";
             // 
             // DirectXP1_1
             // 
             resources.ApplyResources(DirectXP1_1, "DirectXP1_1");
-            DirectXP1_1.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            DirectXP1_1.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP1_1.Name = "DirectXP1_1";
             // 
             // DirectXP1_2
             // 
             resources.ApplyResources(DirectXP1_2, "DirectXP1_2");
-            DirectXP1_2.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            DirectXP1_2.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP1_2.Name = "DirectXP1_2";
             // 
             // DirectXP2_0
             // 
             resources.ApplyResources(DirectXP2_0, "DirectXP2_0");
-            DirectXP2_0.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            DirectXP2_0.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP2_0.Name = "DirectXP2_0";
             // 
             // label3
