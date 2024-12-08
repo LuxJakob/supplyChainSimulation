@@ -403,7 +403,7 @@
             // PlannedE19
             // 
             resources.ApplyResources(PlannedE19, "PlannedE19");
-            PlannedE19.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE19.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE19.Name = "PlannedE19";
             PlannedE19.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE19.ValueChanged += CalculateTable;
@@ -411,7 +411,7 @@
             // PlannedE14
             // 
             resources.ApplyResources(PlannedE14, "PlannedE14");
-            PlannedE14.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE14.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE14.Name = "PlannedE14";
             PlannedE14.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE14.ValueChanged += CalculateTable;
@@ -419,7 +419,7 @@
             // PlannedE8
             // 
             resources.ApplyResources(PlannedE8, "PlannedE8");
-            PlannedE8.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE8.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE8.Name = "PlannedE8";
             PlannedE8.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE8.ValueChanged += CalculateTable;
@@ -427,7 +427,7 @@
             // PlannedE54
             // 
             resources.ApplyResources(PlannedE54, "PlannedE54");
-            PlannedE54.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE54.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE54.Name = "PlannedE54";
             PlannedE54.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE54.ValueChanged += CalculateTable;
@@ -435,7 +435,7 @@
             // PlannedE11
             // 
             resources.ApplyResources(PlannedE11, "PlannedE11");
-            PlannedE11.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE11.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE11.Name = "PlannedE11";
             PlannedE11.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE11.ValueChanged += CalculateTable;
@@ -443,7 +443,7 @@
             // PlannedE5
             // 
             resources.ApplyResources(PlannedE5, "PlannedE5");
-            PlannedE5.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE5.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE5.Name = "PlannedE5";
             PlannedE5.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE5.ValueChanged += CalculateTable;
@@ -451,7 +451,7 @@
             // PlannedE55
             // 
             resources.ApplyResources(PlannedE55, "PlannedE55");
-            PlannedE55.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE55.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE55.Name = "PlannedE55";
             PlannedE55.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE55.ValueChanged += CalculateTable;
@@ -459,7 +459,7 @@
             // PlannedE172
             // 
             resources.ApplyResources(PlannedE172, "PlannedE172");
-            PlannedE172.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE172.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE172.Name = "PlannedE172";
             PlannedE172.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE172.ValueChanged += CalculateTable;
@@ -467,7 +467,7 @@
             // PlannedE162
             // 
             resources.ApplyResources(PlannedE162, "PlannedE162");
-            PlannedE162.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE162.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE162.Name = "PlannedE162";
             PlannedE162.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE162.ValueChanged += CalculateTable;
@@ -475,7 +475,7 @@
             // PlannedE56
             // 
             resources.ApplyResources(PlannedE56, "PlannedE56");
-            PlannedE56.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE56.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE56.Name = "PlannedE56";
             PlannedE56.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE56.ValueChanged += CalculateTable;
@@ -1312,7 +1312,7 @@
             // PlannedE262
             // 
             resources.ApplyResources(PlannedE262, "PlannedE262");
-            PlannedE262.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            PlannedE262.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             PlannedE262.Name = "PlannedE262";
             PlannedE262.Value = new decimal(new int[] { 100, 0, 0, 0 });
             PlannedE262.ValueChanged += CalculateTable;
