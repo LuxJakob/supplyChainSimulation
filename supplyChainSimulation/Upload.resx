@@ -287,7 +287,7 @@
     <value>label1</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>PPS - Production Planning System</value>
+    <value>PPS - Production Planning and Control System</value>
   </data>
   <data name="switchToLieferProdProg.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
