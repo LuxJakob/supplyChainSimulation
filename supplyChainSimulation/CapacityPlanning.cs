@@ -323,40 +323,24 @@ namespace supplyChainSimulation
             {
                 int id = int.Parse(workplace.Attribute("id")?.Value ?? "0");
 
-                int count = workplace.Elements("waitinglist")
-                                     .Count(w => w.Attribute("period") != null);
+                int sumSetupTime = 0;
+                var waitingLists = workplace.Elements("waitinglist");
 
-                setupTimeBacklog[id] = count;
-            }
+                var uniqueItemIds = new HashSet<int>();
 
-            foreach (var workplace in ordersinworkX.Elements("workplace"))
-            {
-                int id = int.Parse(workplace.Attribute("id").Value);
-
-                if (ordersinwork.ContainsKey(id))
+                foreach (var waitinglist in waitingLists)
                 {
-                    setupTimeBacklog[id] += 1;
-                }
-                else
-                {
-                    setupTimeBacklog[id] = 1;
-                }
-            }
+                    int itemId = int.Parse(waitinglist.Attribute("item")?.Value);
 
-            for (int i = 1; i < 15; i++)
-            {
-                if (i != 5)
-                {
-                    if (setupTimeBacklog.TryGetValue(i, out int value))
+                    if (uniqueItemIds.Add(itemId))
                     {
-                        decimal randBacklog = value * defaultSetupTime[i] * 0.1m;
-                        setupBacklogSum[i] = (int)Math.Floor(randBacklog);
-                    }
-                    else
-                    {
-                        setupBacklogSum[i] = 0;
+                        int setupTime = detailedSetupTime[(id, itemId)];
+                        sumSetupTime = setupTime + sumSetupTime;
                     }
                 }
+
+                setupBacklogSum[id] = sumSetupTime;
+                sumSetupTime = 0;
             }
 
             AssignValue(setupTimeBacklog1, setupBacklogSum, 1);
