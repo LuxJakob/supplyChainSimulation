@@ -193,11 +193,12 @@ namespace supplyChainSimulation
                 foreach (var product in modifiedArticelsfinalized)
                 {
                     int id = product.Item1;
-                    if (id < 100)
+                    int prodQuantity = product.Item2;
+                    if ((id < 100) & (prodQuantity > 0))
                     {
                         writer.WriteStartElement("production");
                         writer.WriteAttributeString("article", id.ToString());
-                        writer.WriteAttributeString("quantity", product.Item2.ToString());
+                        writer.WriteAttributeString("quantity", prodQuantity.ToString());
                         writer.WriteEndElement();
                     }
                 }
