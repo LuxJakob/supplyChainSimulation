@@ -334,8 +334,11 @@ namespace supplyChainSimulation
 
                     if (uniqueItemIds.Add(itemId))
                     {
-                        int setupTime = detailedSetupTime[(id, itemId)];
-                        sumSetupTime = setupTime + sumSetupTime;
+                        if (detailedSetupTime.ContainsKey((id, itemId)))
+                        {
+                            int setupTime = detailedSetupTime[(id, itemId)];
+                            sumSetupTime = setupTime + sumSetupTime;
+                        }
                     }
                 }
 
