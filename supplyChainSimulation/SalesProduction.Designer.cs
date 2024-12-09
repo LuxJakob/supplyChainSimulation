@@ -431,6 +431,7 @@
             resources.ApplyResources(DirectXP3_0, "DirectXP3_0");
             DirectXP3_0.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP3_0.Name = "DirectXP3_0";
+            DirectXP3_0.ValueChanged += DirectXP3_0_ValueChanged;
             // 
             // DirectXP2_2
             // 
@@ -448,6 +449,7 @@
             resources.ApplyResources(DirectXP1_0, "DirectXP1_0");
             DirectXP1_0.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP1_0.Name = "DirectXP1_0";
+            DirectXP1_0.ValueChanged += DirectXP1_0_ValueChanged;
             // 
             // DirectXP2_1
             // 
@@ -472,6 +474,7 @@
             resources.ApplyResources(DirectXP2_0, "DirectXP2_0");
             DirectXP2_0.Maximum = new decimal(new int[] { 25000, 0, 0, 0 });
             DirectXP2_0.Name = "DirectXP2_0";
+            DirectXP2_0.ValueChanged += DirectXP2_0_ValueChanged;
             // 
             // label3
             // 
