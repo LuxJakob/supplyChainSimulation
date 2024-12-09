@@ -56,6 +56,20 @@ namespace supplyChainSimulation
             Label_Period3_1.Text = $"{periodFormat} {current_period + 4}";
         }
 
+        // Der Event-Handler für ValueChanged
+        private void DirectXP1_0_ValueChanged(object sender, EventArgs e)
+        {
+            ProdXP1_0.Text = (forecast0[1] + DirectXP1_0.Value).ToString();
+        }
+        private void DirectXP2_0_ValueChanged(object sender, EventArgs e)
+        {
+            ProdXP2_0.Text = (forecast0[2] + DirectXP2_0.Value).ToString();
+        }
+        private void DirectXP3_0_ValueChanged(object sender, EventArgs e)
+        {
+            ProdXP3_0.Text = (forecast0[3] + DirectXP3_0.Value).ToString();
+        }
+
         private void switchToUpload_Click(object sender, EventArgs e)
         {
             MainOrchestrator mainOrchestrator = (MainOrchestrator)this.ParentForm;
