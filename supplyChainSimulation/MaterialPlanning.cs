@@ -44,11 +44,28 @@ namespace supplyChainSimulation
                     waitinglistworkstations[id] = timeneed;
                 }
 
+                // Initialize remembered elements using a HashSet of tuples
+                HashSet<(int item, int order, int firstbatch, int lastbatch)> seenWorkplaceElements = new HashSet<(int, int, int, int)>();
                 waitinglistProductsX = waitinglistworkstationsX.Descendants("waitinglist");
+
                 foreach (var element in waitinglistProductsX)
                 {
                     int item = int.Parse(element.Attribute("item").Value);
                     int amount = int.Parse(element.Attribute("amount").Value);
+
+                    // Create a tuple representing the unique element attributes
+                    var workplaceAttributes = (
+                        item,
+                        int.Parse(element.Attribute("order").Value),
+                        int.Parse(element.Attribute("firstbatch").Value),
+                        int.Parse(element.Attribute("lastbatch").Value)
+                    );
+
+                    // Skip processing if the element has already been remembered
+                    if (seenWorkplaceElements.Contains(workplaceAttributes))
+                    {
+                        continue; // Skip this iteration and move to the next
+                    }
 
                     // Add or update the dictionary
                     if (waitinglistProducts.ContainsKey(item))
@@ -59,7 +76,11 @@ namespace supplyChainSimulation
                     {
                         waitinglistProducts[item] = amount;
                     }
+
+                    // Remember the element
+                    seenWorkplaceElements.Add(workplaceAttributes);
                 }
+
 
                 foreach (var workplace in ordersinworkX.Elements("workplace"))
                 {
@@ -75,7 +96,6 @@ namespace supplyChainSimulation
                         ordersinwork[item] = amount;
                     }
                 }
-
             }
 
             // customized for P1
